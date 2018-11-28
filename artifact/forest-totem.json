@@ -3,7 +3,7 @@
     "rarity": 3,
     "exclusive": [""],
     "loreDescription": [
-        "A totem deep within the forest. Make a wish before it, and if you hear the clear ringing of a bell, your wish will come true.",
+        "A totem deep within the forest. Make a wish before it, and if you hear the clear ringing of a bell, your wish will come true."
     ],
     "skillDescription": {
         "base": "Has a 10.0% chance to grant continuous healing for 2 turns when attacked. Can be activated once every 2 turns.",
