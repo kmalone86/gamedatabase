@@ -15,19 +15,19 @@ Whenever referring to another hero, another resource, always write them with the
 
 ## Contributing to Buff & Debuffs
 
-Please read `src/buff-debuff/README.md` before contributing
+Please read `buff-debuff/README.md` before contributing
 
 ---
 
 ## Contributing to Artifacts
 
-Please read `src/artifact/README.md` before contributing
+Please read `artifact/README.md` before contributing
 
 ---
 
 ## Contributing to Heroes
 
-Please read `src/hero/README.md` before contributing
+Please read `hero/README.md` before contributing
 
 ---
 
