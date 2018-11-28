@@ -1,0 +1,200 @@
+{
+    "name": "Ras",
+    "rarity": 3,
+    "classType": "knight",
+    "element": "fire",
+    "zodiac": "libra",
+    "hasSpecialtyChange": false,
+    "SpecialtyChangeName": "",
+    "background": [
+        "Created to protect the world and all life within it, he is admired as the leader of the Heirs and the alter ego of the Goddess. He has a good personality and is very understanding, though he lacks some understanding of Humans"
+    ],
+    "relations": [
+        { "hero": "ruele-of-light", "relationType": "trust" },
+        { "hero": "judge-kise", "relationType": "trust" },
+        { "hero": "krau", "relationType": "trust" },
+        { "hero": "iseria", "relationType": "trust" },
+        { "hero": "ludwig", "relationType": "trust" },
+        { "hero": "aither", "relationType": "trust" },
+        { "hero": "mercedes", "relationType": "trust" },
+        { "hero": "yuna", "relationType": "trust" }
+    ],
+    "stats": {
+        "base": {
+            "cp": 2222,
+            "atk": 203,
+            "hp": 706,
+            "spd": 95,
+            "def": 74,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 6,
+            "dac": 5
+        },
+        "max": {
+            "cp": 15272,
+            "atk": 758,
+            "hp": 5826,
+            "spd": 95,
+            "def": 672,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 6,
+            "dac": 5
+        }
+    },
+    "skills": [
+        {
+            "soulBurn": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "X-Slash",
+            "soulAcquire": 1,
+            "description": "Swing the sword and attack the enemy. Damage increases proportionally to your maximum Vitality",
+            "enhancement": [
+                "Damage increased by 5%",
+                "Damage increased by 5%",
+                "Damage increased by 5%",
+                "Damage increased by 5%",
+                "Damage increased by 10%"
+            ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "soulBurn": 10,
+            "soulBurnEffect": "The skill cooldown decreass by 2 turns.",
+            "awakenUpgrade": false,
+            "cooldown": 3,
+            "name": "Command Strike",
+            "soulAcquire": 2,
+            "description": "After successive attacks on the enemy, it will cause your strongest ally to Dual attack with you.",
+            "enhancement": [
+                "Damage increased by 5%",
+                "Damage increased by 5%",
+                "Damage increased by 5%",
+                "Damage increased by 5%",
+                "Damage increased by 10%"
+            ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "soulBurn": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": true,
+            "cooldown": 5,
+            "name": "Sword of the Heir",
+            "soulAcquire": 2,
+            "description": "Strongly attacks with a swordstorm, recovering Health prportional to damage dealt, and increasing Defense of the caster for 2 turns. Damage dealt increases proportional to max Health of caster.",
+            "enhancement": [
+                "Damage increased by 5%",
+                "Damage increased by 5%",
+                "Cooldown 1 turn reduction",
+                "Damage increased by 10%",
+                "Damage increased by 10%"
+            ],
+            "buffs": ["stic_def_up"],
+            "debuffs": []
+        }
+    ],
+    "specialtySkill": {
+        "name": "Blessings of Covenants",
+        "description": "The Heir of the Covenant bears the weight of the world upon his shoulders.",
+        "dispatch": ["[Security] type mission"],
+        "enhancement": ["Reward bonus +6%"],
+        "stats": { "command": 88, "charm": 76, "politics": 15 }
+    },
+    "memoryImprint": [
+        {
+            "rank": "d",
+            "status": {
+                "type": "hp",
+                "increase": 120
+            }
+        },
+        {
+            "rank": "c",
+            "status": {
+                "type": "hp",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "b",
+            "status": {
+                "type": "hp",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "hp",
+                "increase": 300
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "hp",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "hp",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "hp",
+                "increase": 0
+            }
+        }
+    ],
+    "awakening": [
+        {
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "hp": "3%" }, { "atk": 20 }, { "hp": 60 }],
+            "resources": [{ "item": "flame-rune", "qty": 5 }]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "def": "3%" }, { "atk": 20 }, { "hp": 60 }],
+            "resources": [{ "item": "flame-rune", "qty": 9 }]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [{ "atk": 20 }, { "hp": 60 }],
+            "resources": [{ "item": "flame-rune", "qty": 12 }, { "item": "greater-flame-rune", "qty": 6 }]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "efr": "6%" }, { "atk": 30 }, { "hp": 80 }],
+            "resources": [{ "item": "greater-flame-rune", "qty": 15 }]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "hp": "6%" }, { "atk": 30 }, { "hp": 80 }],
+            "resources": [{ "item": "epic-flame-rune", "qty": 4 }, { "item": "dream-time-circuit", "qty": 9 }]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "def": "6%" }, { "atk": 30 }, { "hp": 80 }],
+            "resources": [{ "item": "epic-flame-rune", "qty": 6 }, { "item": "reingar-student-id", "qty": 6 }]
+        }
+    ]
+}
