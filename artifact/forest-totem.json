@@ -1,7 +1,7 @@
 {
     "name": "Forest Totem",
     "rarity": 3,
-    "exclusive": [""],
+    "exclusive": [],
     "loreDescription": [
         "A totem deep within the forest. Make a wish before it, and if you hear the clear ringing of a bell, your wish will come true."
     ],

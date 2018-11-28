@@ -12,5 +12,6 @@
 
 ### Properties
 
--   `exclusive`: This refers to a class-exclusive artifact. Currently there are no multi-class exclusives, but supposing it might exist in the future, please keep as an array.
+-   `exclusive`: This refers to a class-exclusive artifact. Currently there are no multi-class exclusives, but supposing it might exist in the future, please keep as an array. If it's not a class exclusive, have it as an empty array.
+    -   E.g.: `"exclusive": [],` or `"exclusive": ["soul-weaver"],`
 -   `loreDescription`: Some artifacts might contain more than one paragraph, for exemple, ones that have a quote, which then, on a new line adds `- someone, from somewhere`. Each array entry is a paragraph.
