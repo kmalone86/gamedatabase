@@ -14,7 +14,8 @@ You might not have memory imprint rank SSS, but someone else might have and make
     - Or identify a existing one with typo and/or wrong information
 2. Create a new json file with the name of the hero
     - Follow the rules stated on `General Contributing Rules` @ repository's root `README.md`
-    - If the artifact name contains spaces, replace them for `-` (dashes). E.g.: `Ruele of Light` (5 star Light hero) becomes `ruele-of-light.json`
+    - If the artifact name contains spaces, replace them for `-` (dashes).
+        - E.g.: `Ruele of Light` (5 star Light hero) becomes `ruele-of-light.json`
 3. Follow the standard names for the properties, see `ras.json` for example. The idea is to duplicate `ras.json`, change the name to the hero you want to contribute and write on top
 4. Create a PR with your changes
 5. Thank you for contributing
@@ -49,7 +50,10 @@ You might not have memory imprint rank SSS, but someone else might have and make
     -   `dac` - Dual Attack Chance
 -   `skills`:
     -   `awakenUpgrade` true when the skill is upgraded on awakening #3
-    -   `buffs` and `debuffs`. An array of possible buffs and debuffs applied by each skill. Please refer to `src/buff-debuff` folder to write them. E.g.: Ras' S3 has `"buffs": ["stic_def_up"]`
+    -   `buffs` and `debuffs`. An array of possible buffs and debuffs applied by each skill. Please refer to `src/buff-debuff` folder to write them.
+        -   E.g.: Ras' S3 has `"buffs": ["stic_def_up"]`
 -   `specialtySkill`'s `dispatch` and `enhancement`: Currently there are no multi-dispatch or multi-enhancement skills, but supposing it might exist in the future, please keep as an array.
--   `memoryImprint`'s `increase`, as well as : If the increase is a flat number, put as _Integer_. If the increase is percentage, put as _String_. E.g.: Health+300 = `"type":"hp","increase":300`, Attack+2.4% = `"type":"atk","increase":"2.4%"
--   `awakening`'s `statsIncrease`: Same kind of memoryImpring: E.g.: `"statsIncrease": [{ "efr": "6%" }, { "atk": 30 }, { "hp": 80 }],`.
+-   `memoryImprint`'s `increase`, as well as : If the increase is a flat number, put as _Integer_. If the increase is percentage, put as _String_.
+    -   E.g.: Health+300 = `"type":"hp","increase":300`, Attack+2.4% = `"type":"atk","increase":"2.4%"
+-   `awakening`'s `statsIncrease`: Same kind of memoryImpring:
+    -   E.g.: `"statsIncrease": [{ "efr": "6%" }, { "atk": 30 }, { "hp": 80 }],`.
