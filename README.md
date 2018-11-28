@@ -37,3 +37,11 @@ Please read `hero/README.md` before contributing
 ---
 
 Thank you for contributing.
+
+
+# Testing your changes before committing:
+
+1. Run `npm install` to install dependencies
+2. Run `npm test` and check if all JSONs are valid:
+    - Success: you'll get a `All JSON validated. Congrats!` if everything is fine.
+    - Error: You'll get a `JSON {nameofjson} is not valid.` and validation will halt with `One or more JSONs are not valid. Please fix above files and commit the changes.`

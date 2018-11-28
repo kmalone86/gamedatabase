@@ -1,0 +1,24 @@
+{
+    "name": "epicsevendb-gamedatabase",
+    "version": "1.0.0",
+    "description": "EpicSevenDB.com community database for game information, such as Heroes, Artifacts, Gear, Skills and anything else necessary to feed the DB",
+    "main": "validate.js",
+    "scripts": {
+        "test": "node validate.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/EpicSevenDB/gamedatabase.git"
+    },
+    "author": "RaphaelDDL",
+    "license": "GNU GPL v3.0",
+    "bugs": {
+        "url": "https://github.com/EpicSevenDB/gamedatabase/issues"
+    },
+    "homepage": "https://github.com/EpicSevenDB/gamedatabase#readme",
+    "dependencies": {
+        "chalk": "^2.4.1",
+        "glob": "^7.1.3",
+        "jsonfile": "^5.0.0"
+    }
+}
