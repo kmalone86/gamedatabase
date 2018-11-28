@@ -4,8 +4,7 @@
     "classType": "knight",
     "element": "fire",
     "zodiac": "libra",
-    "hasSpecialtyChange": false,
-    "SpecialtyChangeName": "",
+    "specialtyChangeName": "",
     "background": [
         "Created to protect the world and all life within it, he is admired as the leader of the Heirs and the alter ego of the Goddess. He has a good personality and is very understanding, though he lacks some understanding of Humans"
     ],

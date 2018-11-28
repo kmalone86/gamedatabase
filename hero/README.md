@@ -30,6 +30,28 @@ You might not have memory imprint rank SSS, but someone else might have and make
     -   `mage`
     -   `ranger`
     -   `material`
+-   `element`: A hero element can be of the following type:
+    -   `fire`
+    -   `earth`
+    -   `ice`
+    -   `light`
+    -   `dark`
+    -   `material`
+-   `zodiac`: A hero zodiac can be of the following type:
+    -   `aries`
+    -   `taurus`
+    -   `gemini`
+    -   `cancer`
+    -   `leo`
+    -   `virgo`
+    -   `libra`
+    -   `scorpio`
+    -   `sagittarius`
+    -   capricorn
+    -   `aquarius`
+    -   `pisces`
+-   `specialtyChangeName`: Leave empty string if hero does not have a specialty change. Otherwise, add the specialty change hero.
+    -   E.g.: Hero Lorina will have `"specialtyChangeName":"commander-lorina"`, while Kluri will have `"specialtyChangeName":"falconer-kluri"`
 -   `background`: Some heroes might have multi-paragraph backgrounds, therefore, please keep as an array where each paragraph is an array entry.
 -   Specialty's `dispatch` and `enhancement`:
 -   `relations`: An array of object with the hero and relationType. A hero relationType can be of the following type:
