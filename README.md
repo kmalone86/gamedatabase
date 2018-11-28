@@ -1,4 +1,4 @@
-# EpicSevenDB.com - Game Database
+# EpicSevenDB.com - Game Database [![Build Status](https://travis-ci.com/EpicSevenDB/gamedatabase.svg?branch=master)](https://travis-ci.com/EpicSevenDB/gamedatabase)
 
 EpicSevenDB.com community database for game information, such as Heroes, Artifacts, Gear, Skills and anything else necessary to feed the DB
 
@@ -37,7 +37,6 @@ Please read `hero/README.md` before contributing
 ---
 
 Thank you for contributing.
-
 
 # Testing your changes before committing:
 
