@@ -49,7 +49,7 @@
         {
             "isPassive": false,
             "soulBurn": 0,
-	    "selfSkillBarValue": 1,
+            "selfSkillBarValue": 1,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
             "cooldown": 0,
@@ -70,7 +70,7 @@
         {
             "isPassive": true,
             "soulBurn": 0,
-	    "selfSkillBarValue": 0,
+            "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
             "cooldown": 10,
@@ -88,7 +88,7 @@
         {
             "isPassive": false,
             "soulBurn": 10,
-	    "selfSkillBarValue": 1,
+            "selfSkillBarValue": 1,
             "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": false,
             "cooldown": 5,
