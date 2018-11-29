@@ -1,0 +1,201 @@
+{
+    "name": "Cecilia",
+    "rarity": 5,
+    "classType": "knight",
+    "element": "fire",
+    "zodiac": "aries",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": [
+        "A brave woman known as the Storm Dragon Knight. Cecilia is Queen of Wintenberg and has a strong sense of responsibility. She has a righteous and sincere personality, but will stubbornly resist any attempts to change her mind."
+    ],
+    "relations": [
+        { "hero": "yufine", "relationType": "trust" },
+        { "hero": "nemunas", "relationType": "trust" },
+        { "hero": "rose", "relationType": "trust" },
+        { "hero": "serila", "relationType": "trust" },
+        { "hero": "yuna", "relationType": "trust" },
+        { "hero": "luna", "relationType": "grudge" }
+    ],
+    "stats": {
+        "base": {
+            "cp": 12975,
+            "atk": 637,
+            "hp": 5140,
+            "spd": 110,
+            "def": 503,
+            "chc": 15,
+            "chd": 150,
+            "eff": 9,
+            "efr": 0,
+            "dac": 5
+        },
+        "max": {
+            "cp": 15925,
+            "atk": 758,
+            "hp": 6355,
+            "spd": 110,
+            "def": 624,
+            "chc": 15,
+            "chd": 150,
+            "eff": 9,
+            "efr": 0,
+            "dac": 5
+        }
+    },
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Deliverance",
+            "soulAcquire": 1,
+            "description": "Attacks with a spear, with a 35% chance to decrease Defense fo 2 turns. Damage dealt increases proportional to the caster's max Health.",
+            "enhancement": [
+                "+5% damage dealt",
+                "+5% effect chance",
+                "+10% damage dealt",
+                "+10% effect chance",
+                "+15% damage dealt"
+            ],
+            "buffs": [],
+            "debuffs": ["stic_def_dn"]
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 10,
+            "soulBurnEffect": "Skill cooldown decreased by 2 turns.",
+            "awakenUpgrade": true,
+            "cooldown": 3,
+            "name": "Command Strike",
+            "soulAcquire": 2,
+            "description": "Attacks all enemies with a magical spear, with a 35% chance to decrease Attack for 2 turns. The chance increases by 50% when the caster's Health is less than 50%. Damage dealt increases proportional to the caster's max Health.",
+            "enhancement": [
+                "+5% damage dealt",
+                "+5% effect chance",
+                "+10% damage dealt",
+                "+10% effect chance",
+                "+15% damage dealt"
+            ],
+            "buffs": [],
+            "debuffs": ["stic_att_dn"]
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 5,
+            "name": "Ruinous Retribution",
+            "soulAcquire": 2,
+            "description": "Attacks all enemies with a spear infused with dark energy, 60% chance to provoke for 1 turn, granting a barrier to the caster for 2 turns. Damage dealt and barrier strength increases proportional to the caster's max Health.",
+            "enhancement": [
+                "+10% damage dealt",
+                "+5% effect chance",
+                "-1 turn cooldown",
+                "+10% effect chance",
+                "+15% damage dealt"
+            ],
+            "buffs": ["stic_protect"],
+            "debuffs": ["stic_provoke"]
+        }
+    ],
+    "specialtySkill": {
+        "name": "Legacy of Dragon Knight",
+        "description": "Having long fought dragons, the Wintenberg dynasty passes down their knowledge via holy scripture.",
+        "dispatch": ["[Gathering] Attribute"],
+        "enhancement": ["Reward bonus +10%"],
+        "stats": { "command": 91, "charm": 90, "politics": 62 }
+    },
+    "memoryImprint": [
+        {
+            "rank": "d",
+            "status": {
+                "type": "def",
+                "increase": "3.6%"
+            }
+        },
+        {
+            "rank": "c",
+            "status": {
+                "type": "def",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "b",
+            "status": {
+                "type": "def",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "def",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "def",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "def",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "def",
+                "increase": 0
+            }
+        }
+    ],
+    "awakening": [
+        {
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "hp": "3%" }, { "atk": 20 }, { "hp": 60 }],
+            "resources": [{ "item": "flame-rune", "qty": 10 }]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "eff": "3%" }, { "atk": 20 }, { "hp": 60 }],
+            "resources": [{ "item": "flame-rune", "qty": 15 }, { "item": "greater-flame-rune", "qty": 2 }]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [{ "atk": 20 }, { "hp": 60 }],
+            "resources": [{ "item": "flame-rune", "qty": 20 }, { "item": "greater-flame-rune", "qty": 10 }]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "spd": 4 }, { "atk": 30 }, { "hp": 80 }],
+            "resources": [{ "item": "greater-flame-rune", "qty": 10 }, { "item": "epic-flame-rune", "qty": 2 }]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "hp": "6%" }, { "atk": 30 }, { "hp": 80 }],
+            "resources": [{ "item": "epic-flame-rune", "qty": 6 }, { "item": "blessing-of-orbis", "qty": 15 }]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "eff": "6%" }, { "atk": 30 }, { "hp": 80 }],
+            "resources": [{ "item": "epic-flame-rune", "qty": 10 }, { "item": "nightmare-mask", "qty": 10 }]
+        }
+    ]
+}
