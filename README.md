@@ -6,7 +6,7 @@ EpicSevenDB.com community database for game information, such as Heroes, Artifac
 
 ## Changelog
 
-Please see [changelog.md](https://github.com/EpicSevenDB/gamedatabase/blob/master/changelog.md) for latest merged changes.
+Please see [CHANGELOG.md](https://github.com/EpicSevenDB/gamedatabase/blob/master/CHANGELOG.md) for latest merged changes.
 
 ## General Contributing Rules
 
