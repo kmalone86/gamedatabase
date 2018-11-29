@@ -5,6 +5,7 @@
     "element": "fire",
     "zodiac": "libra",
     "specialtyChangeName": "",
+    "selfSkillBarName": "",
     "background": [
         "Created to protect the world and all life within it, he is admired as the leader of the Heirs and the alter ego of the Goddess. He has a good personality and is very understanding, though he lacks some understanding of Humans"
     ],
@@ -46,7 +47,9 @@
     },
     "skills": [
         {
+            "isPassive": false,
             "soulBurn": 0,
+            "selfSkillBarValue": 0, 
             "soulBurnEffect": "",
             "awakenUpgrade": false,
             "cooldown": 0,
@@ -64,6 +67,7 @@
             "debuffs": []
         },
         {
+            "isPassive": false,
             "soulBurn": 10,
             "soulBurnEffect": "The skill cooldown decreass by 2 turns.",
             "awakenUpgrade": false,
@@ -82,7 +86,7 @@
             "debuffs": []
         },
         {
-            "soulBurn": 0,
+            "isPassive": false,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
             "cooldown": 5,
