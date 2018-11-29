@@ -50,6 +50,8 @@ You might not have memory imprint rank SSS, but someone else might have and make
     -   capricorn
     -   `aquarius`
     -   `pisces`
+-   `selfSkillBarName`: Some heroes such as Ravi and Charlotte have their own mechanic skill bar, `Fighting Spirit` and `Focus`, respectively. Because of that, all skills got a new flag, `selfSkillBarValue`, which is the increase or decrease value on each skill, if applicable
+    - E.g.: Charlotte's `"selfSkillBarName": "Focus"`. And her first skill, "", has a `"selfSkillBarValue": 1`.
 -   `specialtyChangeName`: Leave empty string if hero does not have a specialty change. Otherwise, add the specialty change hero.
     -   E.g.: Hero Lorina will have `"specialtyChangeName":"commander-lorina"`, while Kluri will have `"specialtyChangeName":"falconer-kluri"`
 -   `background`: Some heroes might have multi-paragraph backgrounds, therefore, please keep as an array where each paragraph is an array entry.
@@ -71,7 +73,8 @@ You might not have memory imprint rank SSS, but someone else might have and make
     -   `afr` - Effect Resistance
     -   `dac` - Dual Attack Chance
 -   `skills`:
-    -   `awakenUpgrade` true when the skill is upgraded on awakening #3
+-   `isPassive`: If the skill has the cross-shaped/inverted rounded corners, that is, is not castable by the player (example, Sez's second skill).
+-   `awakenUpgrade` true when the skill is upgraded on awakening #3
     -   `buffs` and `debuffs`. An array of possible buffs and debuffs applied by each skill. Please refer to `src/buff-debuff` folder to write them.
         -   E.g.: Ras' S3 has `"buffs": ["stic_def_up"]`
 -   `specialtySkill`'s `dispatch` and `enhancement`: Currently there are no multi-dispatch or multi-enhancement skills, but supposing it might exist in the future, please keep as an array.
