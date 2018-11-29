@@ -1,18 +1,18 @@
 {
     "name": "Cidd",
     "rarity": 5,
-    "classType": "Thief",
-    "element": "Earth",
-    "zodiac": "Aries",
+    "classType": "thief",
+    "element": "earth",
+    "zodiac": "aries",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
     "background": [
         "Cidd is the youngest member and mascot of the Wild Dog Company, a group of mercenaries headquartered in an old ruined fortress in Wetheric Moor. Contrary to his cheerful and carefree appearance, he will complete any task assigned to him. He cares for the Wild Dog Company as if they were family."
     ],
     "relations": [
-        { "hero": "Dingo", "relationType": "trust" },
-        { "hero": "Otillie", "relationType": "trust" },
-        { "hero": "Armin", "relationType": "Rival" }
+        { "hero": "dingo", "relationType": "trust" },
+        { "hero": "otillie", "relationType": "trust" },
+        { "hero": "armin", "relationType": "rival" }
     ],
     "stats": {
         "base": {
@@ -52,11 +52,11 @@
             "soulAcquire": 1,
             "description": "Attacks with a dagger. A critical hit will increase speed of the caster for 2 turns. Damage dealt increases proportional to the caster's speed",
             "enhancement": [
-                "Damage increased by 5%",
-                "Damage increased by 5%",
-                "Damage increased by 5%",
-                "Damage increased by 10%",
-                "Damage increased by 10%"
+                "+5% damage dealt",
+                "+5% damage dealt",
+                "+5% damage dealt",
+                "+10% damage dealt",
+                "+10% damage dealt"
             ],
             "buffs": ["stic_spd_up"],
             "debuffs": []
@@ -82,7 +82,7 @@
         },
         {
             "isPassive": false,
-			"soulBurn": 10,
+            "soulBurn": 10,
             "soulBurnEffect": "Increases damage dealt",
             "awakenUpgrade": true,
             "cooldown": 4,
@@ -90,11 +90,11 @@
             "soulAcquire": 2,
             "description": "Cuts with a dagger, granting an extra turn if they enemy is defeated. Attacks with a more powerful skill when the caster is granted increased Speed.",
             "enhancement": [
-                "Damage increased by 5%",
-                "Damage increased by 5%",
-                "Cooldown 1 turn reduction",
-                "Damage increased by 10%",
-                "Damage increased by 10%"
+                "+5% damage dealt",
+                "+5% damage dealt",
+                "-1 turn cooldown",
+                "+10% damage dealt",
+                "+10% damage dealt"
             ],
             "buffs": ["stic_spd_up"],
             "debuffs": []
@@ -168,7 +168,7 @@
         {
             "rank": 2,
             "skillUpgrade": false,
-            "statsIncrease": [{ "spd": "2" }, { "atk": 20 }, { "hp": 60 }],
+            "statsIncrease": [{ "spd": 2 }, { "atk": 20 }, { "hp": 60 }],
             "resources": [{ "item": "life-rune", "qty": 12 }, { "item": "greater-life-rune", "qty": 2 }]
         },
         {
@@ -192,7 +192,7 @@
         {
             "rank": 6,
             "skillUpgrade": false,
-            "statsIncrease": [{ "spd": "4" }, { "atk": 30 }, { "hp": 80 }],
+            "statsIncrease": [{ "spd": 4 }, { "atk": 30 }, { "hp": 80 }],
             "resources": [{ "item": "epic-life-rune", "qty": 8 }, { "item": "nightmare-mask", "qty": 8 }]
         }
     ]
