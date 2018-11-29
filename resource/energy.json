@@ -1,0 +1,5 @@
+{
+    "name": "Energy",
+    "type": "currency",
+    "description": ["Energy needed for Adventure."]
+}
