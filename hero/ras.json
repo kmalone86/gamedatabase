@@ -49,7 +49,7 @@
         {
             "isPassive": false,
             "soulBurn": 0,
-            "selfSkillBarValue": 0, 
+            "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
             "cooldown": 0,
@@ -57,11 +57,11 @@
             "soulAcquire": 1,
             "description": "Swing the sword and attack the enemy. Damage increases proportionally to your maximum Vitality",
             "enhancement": [
-                "Damage increased by 5%",
-                "Damage increased by 5%",
-                "Damage increased by 5%",
-                "Damage increased by 5%",
-                "Damage increased by 10%"
+                "+5% damage dealt",
+                "+5% damage dealt",
+                "+5% damage dealt",
+                "+5% damage dealt",
+                "+10% damage dealt"
             ],
             "buffs": [],
             "debuffs": []
@@ -69,6 +69,7 @@
         {
             "isPassive": false,
             "soulBurn": 10,
+            "selfSkillBarValue": 0,
             "soulBurnEffect": "The skill cooldown decreass by 2 turns.",
             "awakenUpgrade": false,
             "cooldown": 3,
@@ -76,17 +77,19 @@
             "soulAcquire": 2,
             "description": "After successive attacks on the enemy, it will cause your strongest ally to Dual attack with you.",
             "enhancement": [
-                "Damage increased by 5%",
-                "Damage increased by 5%",
-                "Damage increased by 5%",
-                "Damage increased by 5%",
-                "Damage increased by 10%"
+                "+5% damage dealt",
+                "+5% damage dealt",
+                "+5% damage dealt",
+                "+5% damage dealt",
+                "+10% damage dealt"
             ],
             "buffs": [],
             "debuffs": []
         },
         {
             "isPassive": false,
+            "soulBurn": 10,
+            "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
             "cooldown": 5,
@@ -94,11 +97,11 @@
             "soulAcquire": 2,
             "description": "Strongly attacks with a swordstorm, recovering Health prportional to damage dealt, and increasing Defense of the caster for 2 turns. Damage dealt increases proportional to max Health of caster.",
             "enhancement": [
-                "Damage increased by 5%",
-                "Damage increased by 5%",
-                "Cooldown 1 turn reduction",
-                "Damage increased by 10%",
-                "Damage increased by 10%"
+                "+5% damage dealt",
+                "+5% damage dealt",
+                "-1 turn cooldown",
+                "+5% damage dealt",
+                "+10% damage dealt"
             ],
             "buffs": ["stic_def_up"],
             "debuffs": []
@@ -123,14 +126,14 @@
             "rank": "c",
             "status": {
                 "type": "hp",
-                "increase": 0
+                "increase": 180
             }
         },
         {
             "rank": "b",
             "status": {
                 "type": "hp",
-                "increase": 0
+                "increase": 240
             }
         },
         {
@@ -144,21 +147,21 @@
             "rank": "s",
             "status": {
                 "type": "hp",
-                "increase": 0
+                "increase": 360
             }
         },
         {
             "rank": "ss",
             "status": {
                 "type": "hp",
-                "increase": 0
+                "increase": 420
             }
         },
         {
             "rank": "sss",
             "status": {
                 "type": "hp",
-                "increase": 0
+                "increase": 480
             }
         }
     ],
