@@ -93,7 +93,7 @@ const validateFolder = async (folderToMatch) => {
     });
 };
 
-const validate = () => {
+const validate = async () => {
     return Promise.all([
         validateFolder('artifact'),
         validateFolder('buff-debuff'),
