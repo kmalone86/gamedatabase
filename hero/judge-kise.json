@@ -108,7 +108,7 @@
     "specialtySkill": {
         "name": "Fate Watcher",
         "description": "Facing her fate, she carries out her duty.",
-        "dispatch": ["[Gourmet] type mission"],
+        "dispatch": ["[Fear] type mission"],
         "enhancement": ["Reward bonus +10%"],
         "stats": { "command": 95, "charm": 87, "politics": 78 }
     },
