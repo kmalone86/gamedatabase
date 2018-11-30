@@ -56,7 +56,7 @@
             "soulAcquire": 1,
             "description": "Attacks with spirit power, with a 25% chance to decrease Speed for 2 turns.",
             "enhancement": [{
-            "description": "+10% damage dealt",
+                "description": "+10% damage dealt",
                 "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
             },{
                 "description": "+10% effect chance",
