@@ -281,10 +281,10 @@
             "rank": 6,
             "skillUpgrade": false,
             "statsIncrease": [
-                ({
+                {
                     "status type of the increase": "status value of the increase, integer for flat numbers, string with % for percentages"
                 },
-                { "another status type of the increase": 0 })
+                { "another status type of the increase": 0 }
             ],
             "resources": [
                 { "item": "lowercased name of item", "qty": 5 },
