@@ -16,7 +16,7 @@ You might not have memory imprint rank SSS, but someone else might have and make
     - Follow the rules stated on `General Contributing Rules` @ repository's root `README.md`
     - If the artifact name contains spaces, replace them for `-` (dashes).
         - E.g.: `Ruele of Light` (5 star Light hero) becomes `ruele-of-light.json`
-3. Follow the standard names for the properties, see `_HERO_EXAMPLE.json` for example. The idea is to duplicate `_HERO_EXAMPLE.json`, change the name to the hero you want to contribute and write on top
+3. Follow the standard names for the properties, see `_HERO_TEMPLATE.json` for example. The idea is to duplicate `_HERO_TEMPLATE.json`, change the name to the hero you want to contribute and write on top
 4. Create a PR with your changes
 5. Thank you for contributing
 
