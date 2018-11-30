@@ -145,8 +145,7 @@
                 {
                     "description": "-1 turn cooldown",
                     "resources": [{ "item": "", "qty": 0 }, {"item": "", "qty": 0},{ "item": "gold", "qty": 0 }]
-                },
-                
+                }
             ],
             "buffs": ["stic_att_up", "stic_cri_res_up"],
             "debuffs": []
