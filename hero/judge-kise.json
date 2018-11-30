@@ -54,12 +54,19 @@
             "name": "Sever",
             "soulAcquire": 1,
             "description": "Attacks with a Scythe, with a 35% chance to decrease Defense for 2 turns.",
-            "enhancement": [
-                "+15% damage dealt",
-                "+5% effect chance",
-                "+10% effect chance",
-                "+15% damage dealt"
-            ],
+            "enhancement": [{
+                "description": "+15% damage dealt",
+                "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+            }, {
+                "description": "+5% effect chance",
+                "resources": [{ "item": "flame-of-soul", "qty": 3 }, { "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 23000 }]
+            }, {
+                "description": "+10% effect chance",
+                "resources": [{ "item": "flame-of-soul", "qty": 5 }, { "item": "molagorago", "qty": 2 }, { "item": "gold", "qty": 65000 }]
+            }, {
+                "description": "+15% damage dealt",
+                "resources": [{ "item": "demon-blood-gem", "qty": 2 }, { "item": "molagoragora", "qty": 1 }, { "item": "gold", "qty": 160000 }]
+            }],
             "buffs": [],
             "debuffs": ["stic_def_dn"]
         },
@@ -73,12 +80,19 @@
             "name": "End of Evil",
             "soulAcquire": 1,
             "description": "Attacks all enemies with Scythe. Damage increases with more enemies.",
-            "enhancement": [
-                "+5% damage dealt",
-                "+5% damage dealt",
-                "+10% damage dealt",
-                "+10% damage dealt"
-            ],
+            "enhancement": [{
+                "description": "+5% damage dealt",
+                "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+            }, {
+                "description": "+5% damage dealt",
+                "resources": [{ "item": "flame-of-soul", "qty": 3 }, { "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 23000 }]
+            }, {
+                "description": "+10% damage dealt",
+                "resources": [{ "item": "flame-of-soul", "qty": 5 }, { "item": "molagorago", "qty": 2 }, { "item": "gold", "qty": 65000 }]
+            }, {
+                "description": "+10% damage dealt",
+                "resources": [{ "item": "demon-blood-gem", "qty": 2 }, { "item": "molagoragora", "qty": 1 }, { "item": "gold", "qty": 160000 }]
+            }],
             "buffs": [],
             "debuffs": []
         },
@@ -92,15 +106,28 @@
             "name": "Wave of Light",
             "soulAcquire": 3,
             "description": "Attacks all enemies by distorting space and time with a 50% chance to increase skill cooldown three times by 1 turn.",
-            "enhancement": [
-                "+5% damage dealt",
-                "+10% effect chance",
-                "+10% damage dealt",
-                "-1 turn cooldown",
-                "+10% effect chance",
-                "+10% damage dealt",
-                "+15% damage dealt"
-            ],
+            "enhancement": [{
+                "description": "+5% damage dealt",
+                "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+            }, {
+                "description": "+10% effect chance",
+                "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 8000 }]
+            }, {
+                "description": "+10% damage dealt",
+                "resources": [{ "item": "molagora", "qty": 3 }, { "item": "gold", "qty": 12000 }]
+            }, {
+                "description": "-1 turn cooldown",
+                "resources": [{ "item": "flame-of-soul", "qty": 3 }, { "item": "molagorago", "qty": 1 }, { "item": "gold", "qty": 35000 }]
+            }, {
+                "description": "+10% effect chance",
+                "resources": [{ "item": "flame-of-soul", "qty": 4 }, { "item": "molagorago", "qty": 1 }, { "item": "gold", "qty": 60000 }]
+            }, {
+                "description": "+10% damage dealt",
+                "resources": [{ "item": "flame-of-soul", "qty": 7 }, { "item": "molagorago", "qty": 2 }, { "item": "gold", "qty": 75000 }]
+            }, {
+                "description": "+15% damage dealt",
+                "resources": [{ "item": "demon-blood-gem", "qty": 3 }, { "item": "molagoragora", "qty": 1 }, { "item": "gold", "qty": 190000 }]
+            }],
             "buffs": [],
             "debuffs": []
         }
