@@ -138,11 +138,11 @@
                 {
                     "description": "+10% damage dealt",
                     "resources": [{ "item": "molagora", "qty": 5 }, { "item": "twisted-fang", "qty": 2 }, { "item": "gold", "qty": 30000 }]
-                }
+                },
                 {
                     "description": "+10% damage dealt",
                     "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "twisted-fang", "qty": 4 }, { "item": "gold", "qty": 40000 }]
-                }
+                },
                 {
                     "description": "+15% damage dealt",
                     "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "twisted-fang", "qty": 6 }, { "item": "gold", "qty": 50000 }]
