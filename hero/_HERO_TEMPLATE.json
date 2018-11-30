@@ -216,7 +216,6 @@
                 { "item": "lowercased name of item", "qty": 5 }
             ]
         },
-
         {
             "rank": 2,
             "skillUpgrade": false,
@@ -231,7 +230,6 @@
                 { "item": "lowercased name of item", "qty": 5 }
             ]
         },
-
         {
             "rank": 3,
             "skillUpgrade": false,
@@ -246,7 +244,6 @@
                 { "item": "lowercased name of item", "qty": 5 }
             ]
         },
-
         {
             "rank": 4,
             "skillUpgrade": false,
@@ -261,7 +258,6 @@
                 { "item": "lowercased name of item", "qty": 5 }
             ]
         },
-
         {
             "rank": 5,
             "skillUpgrade": false,
@@ -276,7 +272,6 @@
                 { "item": "lowercased name of item", "qty": 5 }
             ]
         },
-
         {
             "rank": 6,
             "skillUpgrade": false,
