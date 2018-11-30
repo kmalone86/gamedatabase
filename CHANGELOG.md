@@ -1,11 +1,26 @@
 ## Change Log
 
-### upcoming (2018/11/29 21:30 +00:00)
+### upcoming (2018/11/30 18:33 +00:00)
+- [517649f](https://github.com/EpicSevenDB/gamedatabase/commit/517649f9a4b24fe2751c9d63136acc4a81b58b30) Update README.md (@RaphaelDDL)
+- [#14](https://github.com/EpicSevenDB/gamedatabase/pull/14) Add Artifacts (@Triharder-E7)
+- [c70c81d](https://github.com/EpicSevenDB/gamedatabase/commit/c70c81d7bc488e14f88eef8be1737f1992837a53) Add Artifacts (@Triharder-E7)
+- [#12](https://github.com/EpicSevenDB/gamedatabase/pull/12) Ciid Hero (@EpicSevenDB)
+- [f907ccd](https://github.com/EpicSevenDB/gamedatabase/commit/f907ccdb0592694508a75a00edf2b63c6167feae) Update cidd.json (@Zordas)
+- [#13](https://github.com/EpicSevenDB/gamedatabase/pull/13) Arbiter Vildred Hero (@kmalone86)
+- [f7e5f49](https://github.com/EpicSevenDB/gamedatabase/commit/f7e5f49336fa74d45db5f3a93203e8fff281b94d) rm pack lock, updated gitignore
+- [d253316](https://github.com/EpicSevenDB/gamedatabase/commit/d2533162c28e2bd9cd60c444e6e6deefca93ee6c) updated changelog file and path on readme link
+- [bef1e1c](https://github.com/EpicSevenDB/gamedatabase/commit/bef1e1c6bd8a13e1f75522f6ffe842ede3c56ba1) added npm script for auto-generate changelog
 - [3ff5b66](https://github.com/EpicSevenDB/gamedatabase/commit/3ff5b66573c3ad2616ff46719acb7b59bd4efc12) added changelog
 - [f3e4eb4](https://github.com/EpicSevenDB/gamedatabase/commit/f3e4eb477ba62a9ff0ef4df56b1de8ca0d3739be) added changelog
 - [9384aa8](https://github.com/EpicSevenDB/gamedatabase/commit/9384aa8c1ebe5ef74f3da69970a0c8fbb9d7d3dd) Updated Ras with selfSkillBarValue on all skills, fixed enhancement to reflect in-game text
+- [cbdda0d](https://github.com/EpicSevenDB/gamedatabase/commit/cbdda0df0a2228aa456c5feec55f9ed2c6a693c9) Update hero/arbiter-vildred.json (@RaphaelDDL)
+- [e90983f](https://github.com/EpicSevenDB/gamedatabase/commit/e90983f63a4ca22eccdf756a89c47d411bdc7743) Removed tabs. (@kmalone86)
+- [018908a](https://github.com/EpicSevenDB/gamedatabase/commit/018908ae941c6b2ad33303b8a8ee83f9ef67769e) Added selfSkillBarValue (@kmalone86)
+- [fe61ba4](https://github.com/EpicSevenDB/gamedatabase/commit/fe61ba4b46554c9b0d7f7abe34a686205538f3c9) Fixed typo. (@kmalone86)
 - [#11](https://github.com/EpicSevenDB/gamedatabase/pull/11) Add Hero: Martial Artist Ken (@kmalone86)
+- [fe65df7](https://github.com/EpicSevenDB/gamedatabase/commit/fe65df799b3cc6edfce5f1047b9c7a122b453cea) Added Hero Arbiter Vildred (@kmalone86)
 - [a93e7b0](https://github.com/EpicSevenDB/gamedatabase/commit/a93e7b0f8c2b83cab4d8074af07b34f09cad59b3) Update hero/martial-artist-ken.json (@RaphaelDDL)
+- [afe4c7d](https://github.com/EpicSevenDB/gamedatabase/commit/afe4c7d9e204ae52dbc3da921a460f8f683a31ca) Ciid Hero (@Zordas)
 - [#7](https://github.com/EpicSevenDB/gamedatabase/pull/7) Additional Artifacts (@Triharder-E7)
 - [519f63d](https://github.com/EpicSevenDB/gamedatabase/commit/519f63de95d9475bd31c10510d05a4b802b4fb55) Added Hero Martial Artist Ken. (@kmalone86)
 - [#2](https://github.com/EpicSevenDB/gamedatabase/pull/2) Merge (@EpicSevenDB)
