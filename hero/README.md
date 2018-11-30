@@ -60,14 +60,15 @@ You might not have memory imprint rank SSS, but someone else might have and make
     -   `grudge`
     -   `rival`
     -   `longing`
+    -   `love`
 -   Hero stats will be referenced in `stats`, `memoryImprint` and `awakening.statsIncrease`. A hero have the following stats:
     -   `cp` - CP, Character Power
     -   `atk` - Attack
+    -   `def` - Defense
     -   `hp` - Hit Points, Health
     -   `spd` - Speed
     -   `chc` - Critical Hit Chance
     -   `chd` - Critical Hit Damage
-    -   `eff` - Effectiveness
     -   `eff` - Effectiveness
     -   `afr` - Effect Resistance
     -   `dac` - Dual Attack Chance
