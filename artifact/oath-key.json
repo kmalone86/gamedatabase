@@ -7,8 +7,8 @@
         "- Philosopher Izet"
     ],
     "skillDescription": {
-        "base": "Decreases chance of missing by 10.0%",
-        "max": "Decreases chance of missing by 20.0%"
+        "base": "Decreases chance of missing by 10.0%.",
+        "max": "Decreases chance of missing by 20.0%."
     },
     "stats": {
         "base": {
@@ -16,8 +16,8 @@
             "hp": 28
         },
         "max": {
-            "atk": 163,
-            "hp": 374
+            "atk": 156,
+            "hp": 364
         }
     }
 }

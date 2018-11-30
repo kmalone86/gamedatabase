@@ -1,0 +1,23 @@
+{
+    "name": "Shimadra Staff",
+    "rarity": 5,
+    "exclusive": ["soul-weaver"],
+    "loreDescription": [
+        "Let's end this together.",
+        "- The Great Fallen Priest, Shimadra"
+    ],
+    "skillDescription": {
+        "base": "Increases the effect of all healing received by an ally by 20.0%. Does not overlap with an Artifact providing the same effect.",
+        "max": "Increases the effect of all healing received by an ally by 40.0%. Does not overlap with an Artifact providing the same effect."
+    },
+    "stats": {
+        "base": {
+            "atk": 15,
+            "hp": 54
+        },
+        "max": {
+            "atk": 195,
+            "hp": 702
+        }
+    }
+}

@@ -2,6 +2,7 @@
 node_modules
 /dist
 .sass-cache
+package-lock.json
 
 # local env files
 .env.local

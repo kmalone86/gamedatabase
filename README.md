@@ -4,6 +4,10 @@ EpicSevenDB.com community database for game information, such as Heroes, Artifac
 
 > Feel free to open an Issue if you see something wrong or some data/property is missing. Better yet if you make a Pull Request with the fixes :-)
 
+## Changelog
+
+Please see [CHANGELOG.md](https://github.com/EpicSevenDB/gamedatabase/blob/master/CHANGELOG.md) for latest merged changes.
+
 ## General Contributing Rules
 
 Whenever referring to another hero, another resource, always write them with the following rules:
