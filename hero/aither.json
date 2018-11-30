@@ -88,7 +88,7 @@
                 "description": "+5% healing",
                 "resources": [{ "item": "molagora", "qty": 3 }, { "item": "mysterious-flash", "qty": 2 }, { "item": "gold", "qty": 22000 }]
             },{
-               	"description": "+10% healing",
+                "description": "+10% healing",
                 "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "mysterious-flash", "qty": 3 }, { "item": "gold", "qty": 35000 }]
             },{
                 "description": "+10% healing",
