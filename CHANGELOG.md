@@ -1,53 +1,76 @@
 ## Change Log
 
-### upcoming (2018/11/29 21:30 +00:00)
-- [3ff5b66](https://github.com/EpicSevenDB/gamedatabase/commit/3ff5b66573c3ad2616ff46719acb7b59bd4efc12) added changelog
-- [f3e4eb4](https://github.com/EpicSevenDB/gamedatabase/commit/f3e4eb477ba62a9ff0ef4df56b1de8ca0d3739be) added changelog
-- [9384aa8](https://github.com/EpicSevenDB/gamedatabase/commit/9384aa8c1ebe5ef74f3da69970a0c8fbb9d7d3dd) Updated Ras with selfSkillBarValue on all skills, fixed enhancement to reflect in-game text
-- [#11](https://github.com/EpicSevenDB/gamedatabase/pull/11) Add Hero: Martial Artist Ken (@kmalone86)
-- [a93e7b0](https://github.com/EpicSevenDB/gamedatabase/commit/a93e7b0f8c2b83cab4d8074af07b34f09cad59b3) Update hero/martial-artist-ken.json (@RaphaelDDL)
-- [#7](https://github.com/EpicSevenDB/gamedatabase/pull/7) Additional Artifacts (@Triharder-E7)
-- [519f63d](https://github.com/EpicSevenDB/gamedatabase/commit/519f63de95d9475bd31c10510d05a4b802b4fb55) Added Hero Martial Artist Ken. (@kmalone86)
-- [#2](https://github.com/EpicSevenDB/gamedatabase/pull/2) Merge (@EpicSevenDB)
-- [b587147](https://github.com/EpicSevenDB/gamedatabase/commit/b587147088a72a160b95cfdec2c3278e32a35670) Revert "Added a few 4* artifacts." (@kmalone86)
-- [#10](https://github.com/EpicSevenDB/gamedatabase/pull/10) Added Runes, Crafting Materials, Skill Enhancers, and Currencies (@cicerakes)
-- [70e085f](https://github.com/EpicSevenDB/gamedatabase/commit/70e085fbee11becf8d4f56509b685622c8c3e598) Add Currencies (@cicerakes)
-- [d8eb091](https://github.com/EpicSevenDB/gamedatabase/commit/d8eb091569ddc7243b213378c69663a9062c3343) Add Skill Enhancers (@cicerakes)
-- [0e198c3](https://github.com/EpicSevenDB/gamedatabase/commit/0e198c30311dcc68ddd76bca3ff5a9c950f6bac5) Add Crafting Materials (@cicerakes)
-- [b1e8bcc](https://github.com/EpicSevenDB/gamedatabase/commit/b1e8bcc18a315c763eaad7cad11a76ec8b9e61ad) Add the rest of Runes (@cicerakes)
-- [c7fa574](https://github.com/EpicSevenDB/gamedatabase/commit/c7fa574038e9fb2399c8ceb5e2ec7fd986b91e44) Fix greater-flame-rune.json name (@cicerakes)
-- [5895a44](https://github.com/EpicSevenDB/gamedatabase/commit/5895a446ce0acb279740395d4f44b8c5be0e4c04) Added a few 4* artifacts. (@kmalone86)
-- [#1](https://github.com/EpicSevenDB/gamedatabase/pull/1) Merge (@EpicSevenDB)
-- [d9a6abf](https://github.com/EpicSevenDB/gamedatabase/commit/d9a6abf6b6b16a07c34ac3015d70e2796e105d0f) Merge remote-tracking branch 'upstream/master' (@Triharder-E7)
-- [1ff01da](https://github.com/EpicSevenDB/gamedatabase/commit/1ff01da454f5d4196bd8aa706bf658d5c784dd27) Add Artifacts (@Triharder-E7)
-- [#6](https://github.com/EpicSevenDB/gamedatabase/pull/6) "Cecilia Hero" (@Tyrna)
-- [#5](https://github.com/EpicSevenDB/gamedatabase/pull/5) Add One Star Artifacts (@infininight)
-- [#4](https://github.com/EpicSevenDB/gamedatabase/pull/4) Added some buffs/debuffs (@bryankhamly)
-- [5dad108](https://github.com/EpicSevenDB/gamedatabase/commit/5dad108772bbcdfe620860b1c9590cd4669e2a6e) Update README.md (@RaphaelDDL)
-- [92eb73d](https://github.com/EpicSevenDB/gamedatabase/commit/92eb73df7b9c7f1831214a6f939d82bf86548f5a) "Cecilia Hero" (@Tyrna)
-- [#1](https://github.com/EpicSevenDB/gamedatabase/pull/1) Update (@EpicSevenDB)
-- [82be533](https://github.com/EpicSevenDB/gamedatabase/commit/82be533bca21cbdbb876208dc606654affd9f06a) Add One Star Artifacts (@infininight)
-- [ad2f3e3](https://github.com/EpicSevenDB/gamedatabase/commit/ad2f3e3aad6e2561401ae27564e340d12336a48f) added selfSkillBarValue and selfSkillBarName (@RaphaelDDL)
-- [47d15b9](https://github.com/EpicSevenDB/gamedatabase/commit/47d15b9182f17d50981f4daa38978afb4761ac70) Create stic_debuf_impossible.json (@bryankhamly)
-- [f846a8d](https://github.com/EpicSevenDB/gamedatabase/commit/f846a8def15572cec1e3ccac2d87760d3e863110) Create stic_cri_up.json (@bryankhamly)
-- [096d0b5](https://github.com/EpicSevenDB/gamedatabase/commit/096d0b5fe3747183ea2afe533a86a570ce880607) Create stic_counter.json (@bryankhamly)
-- [c940bf8](https://github.com/EpicSevenDB/gamedatabase/commit/c940bf8e19a472384366327f564565384602ddfa) Rename stic_buf_impossible to stic_buf_impossible.json (@bryankhamly)
-- [0bc6f16](https://github.com/EpicSevenDB/gamedatabase/commit/0bc6f16d3d5f18e41ae2d5d01324ef029c73b3d6) Create stic_buf_impossible (@bryankhamly)
-- [c44387a](https://github.com/EpicSevenDB/gamedatabase/commit/c44387a6c49023f41d0ce613dda002d35c11a44c) Create stic_blind.json (@bryankhamly)
-- [#3](https://github.com/EpicSevenDB/gamedatabase/pull/3) Added new "A Noble Oath" Artifact. (@kmalone86)
-- [4dcdb0e](https://github.com/EpicSevenDB/gamedatabase/commit/4dcdb0e9c6cb6ea90e499bfffd75ce5a2aa6c9cb) Create stic_blood.json (@bryankhamly)
-- [1877164](https://github.com/EpicSevenDB/gamedatabase/commit/18771647a9a2723e66cedd4ffa5ced8f0095f1f4) Added new "A Noble Oath" Artifact. (@kmalone86)
-- [611aa95](https://github.com/EpicSevenDB/gamedatabase/commit/611aa959c8a0a221bf3374bead7f602a3aaf39fb) Small fixes on exclusive plus readme update explaining exclusive prop when it's not an exclusive artifact (@RaphaelDDL)
-- [#2](https://github.com/EpicSevenDB/gamedatabase/pull/2) Adding a few artifacts (@Triharder-E7)
-- [7108a94](https://github.com/EpicSevenDB/gamedatabase/commit/7108a94a51aab39a4144545a64154e4db4850764) Fix Extra Commas (@Triharder-E7)
-- [08c0598](https://github.com/EpicSevenDB/gamedatabase/commit/08c0598ab7e7e21ce71769f54b0c578a0bc18a5f) Add New Line (@Triharder-E7)
-- [88201d0](https://github.com/EpicSevenDB/gamedatabase/commit/88201d0027b224ad90454916f9681d958214917a) Add Artifacts (@Triharder-E7)
-- [ee3f0ac](https://github.com/EpicSevenDB/gamedatabase/commit/ee3f0ac483ad69238313594c89b73e569f6897a9) added specialtyChangeName explanation to hero
-- [43bebed](https://github.com/EpicSevenDB/gamedatabase/commit/43bebed035eec77bf8f7734db926d02a4cfd581f) added build image
-- [15b6b3e](https://github.com/EpicSevenDB/gamedatabase/commit/15b6b3e2fa9f9a392028ae9a29b64bb6e03ad7e4) added npm test, travis
-- [acbc488](https://github.com/EpicSevenDB/gamedatabase/commit/acbc48865d9a11ad3818e51a734596a950256ca1) updated readme with issue/pr message
-- [57e78fc](https://github.com/EpicSevenDB/gamedatabase/commit/57e78fcc3d04aaa9880783fa9b7ba3ab2e917761) moved e.g. examples into new nested line for better readability
-- [39c1395](https://github.com/EpicSevenDB/gamedatabase/commit/39c13958ee3f1f6084245ba946fb6b208a3602f0) explode src folder for data to be on repo's root. No reason for a src
-- [beba7db](https://github.com/EpicSevenDB/gamedatabase/commit/beba7dba13db0753fde1f15b78ddfb6b2e706033) added gitignore to avoid mac's DS_Store trash files
-- [4b1099e](https://github.com/EpicSevenDB/gamedatabase/commit/4b1099e5017a428ff260e24f965a09e1e08e2441) Initial push, with informative READMEs and example files
-- [1e3e9a4](https://github.com/EpicSevenDB/gamedatabase/commit/1e3e9a4e9defaa9f86313b7aef174436ab8dca14) Initial commit (@RaphaelDDL)
+### upcoming (2018/11/30 21:27 +00:00)
+
+-   [22e73f7](https://github.com/EpicSevenDB/gamedatabase/commit/22e73f79fd6138116ff7c6992be580a7112afabc) prettier and test pre-commit hook
+-   [5c6904c](https://github.com/EpicSevenDB/gamedatabase/commit/5c6904c1c137f5f29d8710eb2974dcedd6fc2b8f) prettier and test pre-commit hook
+-   [4682e8a](https://github.com/EpicSevenDB/gamedatabase/commit/4682e8afc83ee4293c77c47c3e5962eb746ca26b) fixed_template invalid json
+-   [dfd73f8](https://github.com/EpicSevenDB/gamedatabase/commit/dfd73f82796877b798607cc712e4cea10ec181ae) changed name to \_HERO_TEMPLATE
+-   [c5aaf62](https://github.com/EpicSevenDB/gamedatabase/commit/c5aaf62fe306990ff6209b87cb759aedb9d8cbb4) Merge branch 'master' of github.com:EpicSevenDB/gamedatabase
+-   [c72e4a7](https://github.com/EpicSevenDB/gamedatabase/commit/c72e4a7ff2ba60c9b03517771ad26567e19912f0) updated changelog
+-   [49faf60](https://github.com/EpicSevenDB/gamedatabase/commit/49faf60370dc40353307b6b11196fb86a3b8f08a) added resources to skill enhancements, added hero example
+-   [517649f](https://github.com/EpicSevenDB/gamedatabase/commit/517649f9a4b24fe2751c9d63136acc4a81b58b30) Update README.md (@RaphaelDDL)
+-   [#14](https://github.com/EpicSevenDB/gamedatabase/pull/14) Add Artifacts (@Triharder-E7)
+-   [c70c81d](https://github.com/EpicSevenDB/gamedatabase/commit/c70c81d7bc488e14f88eef8be1737f1992837a53) Add Artifacts (@Triharder-E7)
+-   [#12](https://github.com/EpicSevenDB/gamedatabase/pull/12) Ciid Hero (@EpicSevenDB)
+-   [f907ccd](https://github.com/EpicSevenDB/gamedatabase/commit/f907ccdb0592694508a75a00edf2b63c6167feae) Update cidd.json (@Zordas)
+-   [#13](https://github.com/EpicSevenDB/gamedatabase/pull/13) Arbiter Vildred Hero (@kmalone86)
+-   [f7e5f49](https://github.com/EpicSevenDB/gamedatabase/commit/f7e5f49336fa74d45db5f3a93203e8fff281b94d) rm pack lock, updated gitignore
+-   [d253316](https://github.com/EpicSevenDB/gamedatabase/commit/d2533162c28e2bd9cd60c444e6e6deefca93ee6c) updated changelog file and path on readme link
+-   [bef1e1c](https://github.com/EpicSevenDB/gamedatabase/commit/bef1e1c6bd8a13e1f75522f6ffe842ede3c56ba1) added npm script for auto-generate changelog
+-   [3ff5b66](https://github.com/EpicSevenDB/gamedatabase/commit/3ff5b66573c3ad2616ff46719acb7b59bd4efc12) added changelog
+-   [f3e4eb4](https://github.com/EpicSevenDB/gamedatabase/commit/f3e4eb477ba62a9ff0ef4df56b1de8ca0d3739be) added changelog
+-   [9384aa8](https://github.com/EpicSevenDB/gamedatabase/commit/9384aa8c1ebe5ef74f3da69970a0c8fbb9d7d3dd) Updated Ras with selfSkillBarValue on all skills, fixed enhancement to reflect in-game text
+-   [cbdda0d](https://github.com/EpicSevenDB/gamedatabase/commit/cbdda0df0a2228aa456c5feec55f9ed2c6a693c9) Update hero/arbiter-vildred.json (@RaphaelDDL)
+-   [e90983f](https://github.com/EpicSevenDB/gamedatabase/commit/e90983f63a4ca22eccdf756a89c47d411bdc7743) Removed tabs. (@kmalone86)
+-   [018908a](https://github.com/EpicSevenDB/gamedatabase/commit/018908ae941c6b2ad33303b8a8ee83f9ef67769e) Added selfSkillBarValue (@kmalone86)
+-   [fe61ba4](https://github.com/EpicSevenDB/gamedatabase/commit/fe61ba4b46554c9b0d7f7abe34a686205538f3c9) Fixed typo. (@kmalone86)
+-   [#11](https://github.com/EpicSevenDB/gamedatabase/pull/11) Add Hero: Martial Artist Ken (@kmalone86)
+-   [fe65df7](https://github.com/EpicSevenDB/gamedatabase/commit/fe65df799b3cc6edfce5f1047b9c7a122b453cea) Added Hero Arbiter Vildred (@kmalone86)
+-   [a93e7b0](https://github.com/EpicSevenDB/gamedatabase/commit/a93e7b0f8c2b83cab4d8074af07b34f09cad59b3) Update hero/martial-artist-ken.json (@RaphaelDDL)
+-   [afe4c7d](https://github.com/EpicSevenDB/gamedatabase/commit/afe4c7d9e204ae52dbc3da921a460f8f683a31ca) Ciid Hero (@Zordas)
+-   [#7](https://github.com/EpicSevenDB/gamedatabase/pull/7) Additional Artifacts (@Triharder-E7)
+-   [519f63d](https://github.com/EpicSevenDB/gamedatabase/commit/519f63de95d9475bd31c10510d05a4b802b4fb55) Added Hero Martial Artist Ken. (@kmalone86)
+-   [#2](https://github.com/EpicSevenDB/gamedatabase/pull/2) Merge (@EpicSevenDB)
+-   [b587147](https://github.com/EpicSevenDB/gamedatabase/commit/b587147088a72a160b95cfdec2c3278e32a35670) Revert "Added a few 4\* artifacts." (@kmalone86)
+-   [#10](https://github.com/EpicSevenDB/gamedatabase/pull/10) Added Runes, Crafting Materials, Skill Enhancers, and Currencies (@cicerakes)
+-   [70e085f](https://github.com/EpicSevenDB/gamedatabase/commit/70e085fbee11becf8d4f56509b685622c8c3e598) Add Currencies (@cicerakes)
+-   [d8eb091](https://github.com/EpicSevenDB/gamedatabase/commit/d8eb091569ddc7243b213378c69663a9062c3343) Add Skill Enhancers (@cicerakes)
+-   [0e198c3](https://github.com/EpicSevenDB/gamedatabase/commit/0e198c30311dcc68ddd76bca3ff5a9c950f6bac5) Add Crafting Materials (@cicerakes)
+-   [b1e8bcc](https://github.com/EpicSevenDB/gamedatabase/commit/b1e8bcc18a315c763eaad7cad11a76ec8b9e61ad) Add the rest of Runes (@cicerakes)
+-   [c7fa574](https://github.com/EpicSevenDB/gamedatabase/commit/c7fa574038e9fb2399c8ceb5e2ec7fd986b91e44) Fix greater-flame-rune.json name (@cicerakes)
+-   [5895a44](https://github.com/EpicSevenDB/gamedatabase/commit/5895a446ce0acb279740395d4f44b8c5be0e4c04) Added a few 4\* artifacts. (@kmalone86)
+-   [#1](https://github.com/EpicSevenDB/gamedatabase/pull/1) Merge (@EpicSevenDB)
+-   [d9a6abf](https://github.com/EpicSevenDB/gamedatabase/commit/d9a6abf6b6b16a07c34ac3015d70e2796e105d0f) Merge remote-tracking branch 'upstream/master' (@Triharder-E7)
+-   [1ff01da](https://github.com/EpicSevenDB/gamedatabase/commit/1ff01da454f5d4196bd8aa706bf658d5c784dd27) Add Artifacts (@Triharder-E7)
+-   [#6](https://github.com/EpicSevenDB/gamedatabase/pull/6) "Cecilia Hero" (@Tyrna)
+-   [#5](https://github.com/EpicSevenDB/gamedatabase/pull/5) Add One Star Artifacts (@infininight)
+-   [#4](https://github.com/EpicSevenDB/gamedatabase/pull/4) Added some buffs/debuffs (@bryankhamly)
+-   [5dad108](https://github.com/EpicSevenDB/gamedatabase/commit/5dad108772bbcdfe620860b1c9590cd4669e2a6e) Update README.md (@RaphaelDDL)
+-   [92eb73d](https://github.com/EpicSevenDB/gamedatabase/commit/92eb73df7b9c7f1831214a6f939d82bf86548f5a) "Cecilia Hero" (@Tyrna)
+-   [#1](https://github.com/EpicSevenDB/gamedatabase/pull/1) Update (@EpicSevenDB)
+-   [82be533](https://github.com/EpicSevenDB/gamedatabase/commit/82be533bca21cbdbb876208dc606654affd9f06a) Add One Star Artifacts (@infininight)
+-   [ad2f3e3](https://github.com/EpicSevenDB/gamedatabase/commit/ad2f3e3aad6e2561401ae27564e340d12336a48f) added selfSkillBarValue and selfSkillBarName (@RaphaelDDL)
+-   [47d15b9](https://github.com/EpicSevenDB/gamedatabase/commit/47d15b9182f17d50981f4daa38978afb4761ac70) Create stic_debuf_impossible.json (@bryankhamly)
+-   [f846a8d](https://github.com/EpicSevenDB/gamedatabase/commit/f846a8def15572cec1e3ccac2d87760d3e863110) Create stic_cri_up.json (@bryankhamly)
+-   [096d0b5](https://github.com/EpicSevenDB/gamedatabase/commit/096d0b5fe3747183ea2afe533a86a570ce880607) Create stic_counter.json (@bryankhamly)
+-   [c940bf8](https://github.com/EpicSevenDB/gamedatabase/commit/c940bf8e19a472384366327f564565384602ddfa) Rename stic_buf_impossible to stic_buf_impossible.json (@bryankhamly)
+-   [0bc6f16](https://github.com/EpicSevenDB/gamedatabase/commit/0bc6f16d3d5f18e41ae2d5d01324ef029c73b3d6) Create stic_buf_impossible (@bryankhamly)
+-   [c44387a](https://github.com/EpicSevenDB/gamedatabase/commit/c44387a6c49023f41d0ce613dda002d35c11a44c) Create stic_blind.json (@bryankhamly)
+-   [#3](https://github.com/EpicSevenDB/gamedatabase/pull/3) Added new "A Noble Oath" Artifact. (@kmalone86)
+-   [4dcdb0e](https://github.com/EpicSevenDB/gamedatabase/commit/4dcdb0e9c6cb6ea90e499bfffd75ce5a2aa6c9cb) Create stic_blood.json (@bryankhamly)
+-   [1877164](https://github.com/EpicSevenDB/gamedatabase/commit/18771647a9a2723e66cedd4ffa5ced8f0095f1f4) Added new "A Noble Oath" Artifact. (@kmalone86)
+-   [611aa95](https://github.com/EpicSevenDB/gamedatabase/commit/611aa959c8a0a221bf3374bead7f602a3aaf39fb) Small fixes on exclusive plus readme update explaining exclusive prop when it's not an exclusive artifact (@RaphaelDDL)
+-   [#2](https://github.com/EpicSevenDB/gamedatabase/pull/2) Adding a few artifacts (@Triharder-E7)
+-   [7108a94](https://github.com/EpicSevenDB/gamedatabase/commit/7108a94a51aab39a4144545a64154e4db4850764) Fix Extra Commas (@Triharder-E7)
+-   [08c0598](https://github.com/EpicSevenDB/gamedatabase/commit/08c0598ab7e7e21ce71769f54b0c578a0bc18a5f) Add New Line (@Triharder-E7)
+-   [88201d0](https://github.com/EpicSevenDB/gamedatabase/commit/88201d0027b224ad90454916f9681d958214917a) Add Artifacts (@Triharder-E7)
+-   [ee3f0ac](https://github.com/EpicSevenDB/gamedatabase/commit/ee3f0ac483ad69238313594c89b73e569f6897a9) added specialtyChangeName explanation to hero
+-   [43bebed](https://github.com/EpicSevenDB/gamedatabase/commit/43bebed035eec77bf8f7734db926d02a4cfd581f) added build image
+-   [15b6b3e](https://github.com/EpicSevenDB/gamedatabase/commit/15b6b3e2fa9f9a392028ae9a29b64bb6e03ad7e4) added npm test, travis
+-   [acbc488](https://github.com/EpicSevenDB/gamedatabase/commit/acbc48865d9a11ad3818e51a734596a950256ca1) updated readme with issue/pr message
+-   [57e78fc](https://github.com/EpicSevenDB/gamedatabase/commit/57e78fcc3d04aaa9880783fa9b7ba3ab2e917761) moved e.g. examples into new nested line for better readability
+-   [39c1395](https://github.com/EpicSevenDB/gamedatabase/commit/39c13958ee3f1f6084245ba946fb6b208a3602f0) explode src folder for data to be on repo's root. No reason for a src
+-   [beba7db](https://github.com/EpicSevenDB/gamedatabase/commit/beba7dba13db0753fde1f15b78ddfb6b2e706033) added gitignore to avoid mac's DS_Store trash files
+-   [4b1099e](https://github.com/EpicSevenDB/gamedatabase/commit/4b1099e5017a428ff260e24f965a09e1e08e2441) Initial push, with informative READMEs and example files
+-   [1e3e9a4](https://github.com/EpicSevenDB/gamedatabase/commit/1e3e9a4e9defaa9f86313b7aef174436ab8dca14) Initial commit (@RaphaelDDL)

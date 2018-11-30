@@ -4,6 +4,13 @@ EpicSevenDB.com community database for game information, such as Heroes, Artifac
 
 > Feel free to open an Issue if you see something wrong or some data/property is missing. Better yet if you make a Pull Request with the fixes :-)
 
+## READ THIS BEFORE CONTRIBUTING
+
+Please check if the new hero you intend to contribute isn't already being worked (or was already worked) by someone here: https://github.com/EpicSevenDB/gamedatabase/wiki/List-of-Heroes-currently-being-worked-on
+
+Thank you.
+
+
 ## Changelog
 
 Please see [CHANGELOG.md](https://github.com/EpicSevenDB/gamedatabase/blob/master/CHANGELOG.md) for latest merged changes.
