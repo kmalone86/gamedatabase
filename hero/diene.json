@@ -56,13 +56,34 @@
             "soulAcquire": 1,
             "description": "Emits a ray of brilliant light, increasing the caster's Combat Readiness by 10%. Effect doubles when caster is buffed.",
             "enhancement": [
-                "+5% damage dealt",
-                "+2% combat readiness",
-                "+5% damage dealt",
-                "+5% damage dealt",
-                "+3% combat readiness",
-                "+10% damage dealt",
-                "+10% damage dealt"
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+                },
+                {
+                    "description": "+2% combat readiness",
+                    "resources": [{ "item": "", "qty": 0 }, { "item": "gold", "qty": 0 }]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "", "qty": 0 }, { "item": "gold", "qty": 0 }]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "", "qty": 0 }, { "item": "gold", "qty": 0 }]
+                },
+                {
+                    "description": "+3% combat readiness",
+                    "resources": [{ "item": "", "qty": 0 }, { "item": "gold", "qty": 0 }]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [{ "item": "", "qty": 0 }, { "item": "gold", "qty": 0 }]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [{ "item": "", "qty": 0 }, { "item": "gold", "qty": 0 }]
+                }                                                            
             ],
             "buffs": [],
             "debuffs": []
@@ -78,12 +99,30 @@
             "soulAcquire": 2,
             "description": "With the Blessings of the Goddess, covers all allies with a barrier for 2 turns before dispelling one debuff. Barrier strength increases proportional to the target's max Health.",
             "enhancement": [
-                "+5% barrier strength",
-                "+5% barrier strength",
-                "-1 turn cooldown",
-                "+10% barrier strength",
-                "+15% barrier strength",
-                "+15% barrier strength"
+                {
+                    "description": "+5% barrier strength",
+                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+                },
+                {
+                    "description": "+5% barrier strength",
+                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "gold", "qty": 0 }]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [{ "item": "", "qty": 0 }, { "item": "gold", "qty": 0 }]
+                },
+                {
+                    "description": "+10% barrier strength",
+                    "resources": [{ "item": "", "qty": 0 }, { "item": "gold", "qty": 0 }]
+                },
+                {
+                    "description": "+15% barrier strength",
+                    "resources": [{ "item": "", "qty": 0 }, { "item": "gold", "qty": 0 }]
+                },
+                {
+                    "description": "+15% barrier strength",
+                    "resources": [{ "item": "", "qty": 0 }, { "item": "gold", "qty": 0 }]
+                }
             ],
             "buffs": ["stic_protect"],
             "debuffs": []
@@ -99,8 +138,15 @@
             "soulAcquire": 2,
             "description": "A miracle of the Goddess manifests, increasing Attack and Critical Hit Resistance of all allies for 3 turns, before increasing the caster's Combat Readiness by 50%.",
             "enhancement": [
-                "Acquire +1 soul",
-                "-1 turn cooldown"
+                {
+                    "description": "Acquire +1 soul",
+                    "resources": [{ "item": "molagora", "qty": 3 }, {"item": "ring-of-glory", "qty": 5},{ "item": "gold", "qty": 37000 }]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [{ "item": "", "qty": 0 }, {"item": "", "qty": 0},{ "item": "gold", "qty": 0 }]
+                },
+                
             ],
             "buffs": ["stic_att_up", "stic_cri_res_up"],
             "debuffs": []
