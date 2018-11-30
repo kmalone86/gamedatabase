@@ -2,9 +2,7 @@
     "name": "Otherworldly Machinery",
     "rarity": 5,
     "exclusive": ["ranger"],
-    "loreDescription": [
-        "For the people of Orbis, Yuna's cellphone is a peculiar item that they couldn't understand."
-    ],
+    "loreDescription": ["For the people of Orbis, Yuna's cellphone is a peculiar item that they couldn't understand."],
     "skillDescription": {
         "base": "AoE Attack damage is increased by 8.0%.",
         "max": "AoE Attack damage is increased by 16.0%."

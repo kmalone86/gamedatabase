@@ -1,5 +1,7 @@
 {
     "name": "Lucky Rabbit Cookie",
     "type": "currency",
-    "description": ["A rabbit shaped cookie made while thinking about Ruele. It's well baked and smells delicious, but there's no fortune inside."]
+    "description": [
+        "A rabbit shaped cookie made while thinking about Ruele. It's well baked and smells delicious, but there's no fortune inside."
+    ]
 }

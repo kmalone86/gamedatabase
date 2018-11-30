@@ -4,8 +4,9 @@
     "description": "EpicSevenDB.com community database for game information, such as Heroes, Artifacts, Gear, Skills and anything else necessary to feed the DB",
     "main": "validate.js",
     "scripts": {
+        "prettier": "prettier --write \"**/*.{js,json}\"",
         "changelog": "github-changes -o EpicSevenDB -r gamedatabase -f CHANGELOG.md --use-commit-body",
-        "test": "node validate.js"
+        "test": "npm run prettier && node validate.js"
     },
     "husky": {
         "hooks": {
