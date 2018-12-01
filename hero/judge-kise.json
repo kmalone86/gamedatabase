@@ -78,7 +78,7 @@
             "awakenUpgrade": false,
             "cooldown": 3,
             "name": "End of Evil",
-            "soulAcquire": 1,
+            "soulAcquire": 2,
             "description": "Attacks all enemies with Scythe. Damage increases with more enemies.",
             "enhancement": [{
                 "description": "+5% damage dealt",
