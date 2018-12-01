@@ -15,7 +15,7 @@
             "relationType": "longing"
         },
         {
-            "hero": "watcher schuri",
+            "hero": "watcher-schuri",
             "relationType": "rival"
         },
 		{
@@ -23,7 +23,7 @@
             "relationType": "trust"
         },
 		{
-            "hero": "assassin cartuja",
+            "hero": "assassin-cartuja",
             "relationType": "rival"
         },
 		{
@@ -37,11 +37,11 @@
     ],
     "stats": {
         "base": {
-            "cp": 9790,
-            "atk": 763,
-            "hp": 2821,
+            "cp": 2387,
+            "atk": 242,
+            "hp": 643,
             "spd": 96,
-            "def": 385,
+            "def": 72,
             "chc": 24,
             "chd": 156,
             "eff": 0,
