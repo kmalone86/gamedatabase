@@ -72,6 +72,7 @@ You might not have memory imprint rank SSS, but someone else might have and make
     -   `eff` - Effectiveness
     -   `afr` - Effect Resistance
     -   `dac` - Dual Attack Chance
+-   Base and Max parameters: Base refers to the unit's minimum star rarity on level 1, max refers to a unit that is 6* and max levelled.
 -   `skills`:
 -   `isPassive`: If the skill has the cross-shaped/inverted rounded corners, that is, is not castable by the player (example, Sez's second skill).
 -   `awakenUpgrade` true when the skill is upgraded on awakening #3
