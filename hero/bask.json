@@ -1,0 +1,259 @@
+{
+    "name": "Bask",
+    "rarity": 3,
+    "classType": "knight",
+    "element": "ice",
+    "zodiac": "scorpio",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": [
+        "With no particular religious faith, and wishing solely to become stronger, he joined the Order of the Sword. His only goal is to have his name remembered by future generations as a powerful knight and he cannot understand anyone who dies in the service of faith or personal beliefs."
+    ],
+    "relations": [
+        {
+            "hero": "diene",
+            "relationType": "love"
+        },
+        {
+            "hero": "gunther",
+            "relationType": "trust"
+        },
+        {
+            "hero": "angelica",
+            "relationType": "trust"
+        },
+        {
+            "hero": "krau",
+            "relationType": "longing"
+        }
+    ],
+    "stats": {
+        "base": {
+            "cp": 2154,
+            "atk": 210,
+            "hp": 740,
+            "spd": 90,
+            "def": 68,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max": {
+            "cp": 15336,
+            "atk": 842,
+            "hp": 6463,
+            "spd": 90,
+            "def": 617,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        }
+    },
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Protective Strike",
+            "soulAcquire": 1,
+            "description": "Slashes with a sword, with a 50% chance to decrease Attack for 1 turn. Damage dealt increases proportional to the caster's max Health.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 8000 }]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "sharp-spearhead", "qty": 1 }, { "item": "gold", "qty": 17000 }]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [{ "item": "molagora", "qty": 5 }, { "item": "sharp-spearhead", "qty": 2 }, { "item": "gold", "qty": 30000 }]
+                },
+                {
+                    "description": "+15% effect chance",
+                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "sharp-spearhead", "qty": 4 }, { "item": "gold", "qty": 40000 }]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "sharp-spearhead", "qty": 6 }, { "item": "gold", "qty": 50000 }]
+                }
+            ],
+            "buffs": [],
+            "debuffs": ["stic_att_dn"]
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 10,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Skill cooldown is decreased by 2 turns.",
+            "awakenUpgrade": false,
+            "cooldown": 4,
+            "name": "Shield Blow",
+            "soulAcquire": 2,
+            "description": "Attacks with a shield, with a 85% chance to dispel all buffs. Damage dealt increases proportional to the caster's max Health.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 8000 }]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "gold", "qty": 12000 }]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "sharp-spearhead", "qty": 3 }, { "item": "gold", "qty": 27000 }]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [{ "item": "molagora", "qty": 4 }, { "item": "sharp-spearhead", "qty": 4 }, { "item": "gold", "qty": 36000 }]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "sharp-spearhead", "qty": 5 }, { "item": "gold", "qty": 45000 }]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "sharp-spearhead", "qty": 6 }, { "item": "gold", "qty": 50000 }]
+                }
+            ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": true,
+            "cooldown": 6,
+            "name": "Will of Protection",
+            "soulAcquire": 2,
+            "description": "Covers all allies with the Will of Protection, granting immunity for 3 turns, before granting a barrier to the caster for 3 turns. Barrier strength increases proportional to the caster's max Health.",
+            "enhancement": [
+                {
+                    "description": "Acquire +1 Soul",
+                    "resources": [{ "item": "molagora", "qty": 2 }, { "item": "sharp-spearhead", "qty": 2 }, { "item": "gold", "qty": 18000 }]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "sharp-spearhead", "qty": 3 }, { "item": "gold", "qty": 35000 }]
+                }
+            ],
+            "buffs": ["stic_debuff_impossible","stic_protect"],
+            "debuffs": []
+        }
+    ],
+    "specialtySkill": {
+        "name": "Strong Will",
+        "description": "He's always training, determined to become the strongest knight.",
+        "dispatch": ["[War] category mission"],
+        "enhancement": ["Time Required -6%"],
+        "stats": { "command": 35, "charm": 70, "politics": 55 }
+    },
+    "memoryImprint": [
+        {
+            "rank": "d",
+            "status": {
+                "type": "hp",
+                "increase": 120
+            }
+        },
+        {
+            "rank": "c",
+            "status": {
+                "type": "hp",
+                "increase": 180
+            }
+        },
+        {
+            "rank": "b",
+            "status": {
+                "type": "hp",
+                "increase": 240
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "hp",
+                "increase": 300
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "hp",
+                "increase": 360
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "hp",
+                "increase": 420
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "hp",
+                "increase": 480
+            }
+        }
+    ],
+    "awakening": [
+        {
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "hp": "3%" }, { "atk": 20 }, { "hp": 60 }],
+            "resources": [{ "item": "frost-rune", "qty": 5 }]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "hp": "3%" }, { "atk": 20 }, { "hp": 60 }],
+            "resources": [{ "item": "frost-rune", "qty": 9 }]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [{ "atk": 20 }, { "hp": 60 }],
+            "resources": [{ "item": "frost-rune", "qty": 12 }, { "item": "greater-frost-rune", "qty": 6 }]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "atk": "6%" }, { "atk": 30 }, { "hp": 80 }],
+            "resources": [{ "item": "greater-frost-rune", "qty": 15 }]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "hp": "6%" }, { "atk": 30 }, { "hp": 80 }],
+            "resources": [{ "item": "epic-frost-rune", "qty": 4 }, { "item": "erikion-carapace", "qty": 9 }]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "hp": "6%" }, { "atk": 30 }, { "hp": 80 }],
+            "resources": [{ "item": "epic-frost-rune", "qty": 6 }, { "item": "black-curse-powder", "qty": 6 }]
+        }
+    ]
+}
