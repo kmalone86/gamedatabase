@@ -46,14 +46,25 @@
             "name": "Knockout",
             "soulAcquire": 1,
             "description": "Batters the enemy with 50% chance to decrease Attack for 1 turn.",
-            "enhancement": [
-                "+5% damage dealt",
-                "+5% damage dealt",
-                "+10% effect chance",
-                "+10% damage dealt",
-                "+15% effect chance",
-                "+15% damage dealt"
-            ],
+            "enhancement": [{
+                "description": "+5% damage dealt",
+                "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+            }, {
+                "description": "+5% damage dealt",
+                "resources": [{ "item": "molagora", "qty": 3 }, { "item": "gold", "qty": 12000 }]
+            }, {
+                "description": "+10% effect chance",
+                "resources": [{ "item": "twisted-fang", "qty": 2 }, { "item": "molagora", "qty": 4 }, { "item": "gold", "qty": 26000 }]
+            }, {
+                "description": "+10% damage dealt",
+                "resources": [{ "item": "twisted-fang", "qty": 4 }, { "item": "molagorago", "qty": 1 }, { "item": "gold", "qty": 26000 }]
+            }, {
+                "description": "+15% effect chance",
+                "resources": [{ "item": "twisted-fang", "qty": 5 }, { "item": "molagorago", "qty": 2 }, { "item": "gold", "qty": 65000 }]
+            }, {
+                "description": "+15% damage dealt",
+                "resources": [{ "item": "blazing-soul", "qty": 2 }, { "item": "molagoragora", "qty": 1 }, { "item": "gold", "qty": 160000 }]
+            }],
             "buffs": [],
             "debuffs": ["stic_att_dn"]
         },
@@ -69,11 +80,16 @@
                 "Has a 30% chance to couterattack when attacked, with a 100% chance to counterattack with Dragon Flame after suffering a critical hit.",
                 "Dragon Flame: Causes critical hit, and deals damage proportional to the caster's lost Health."
             ],
-            "enhancement": [
-                "+5% damage dealt by Dragon Flame",
-                "+10% damage dealt by Dragon Flame",
-                "+15% damage dealt by Dragon Flame"
-            ],
+            "enhancement": [{
+                "description": "+5% damage dealt by Dragon Flame",
+                "resources": [{ "item": "twisted-fang", "qty": 3 }, { "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 19000 }]
+            }, {
+                "description": "+10% damage dealt by Dragon Flame",
+                "resources": [{ "item": "twisted-fang", "qty": 5 }, { "item": "molagorago", "qty": 2 }, { "item": "gold", "qty": 65000 }]
+            }, {
+                "description": "+15% damage dealt by Dragon Flame",
+                "resources": [{ "item": "blazing-soul", "qty": 3 }, { "item": "molagoragora", "qty": 1 }, { "item": "gold", "qty": 190000 }]
+            }],
             "buffs": [],
             "debuffs": []
         },
@@ -86,14 +102,25 @@
             "name": "The Coming of Asura",
             "soulAcquire": 3,
             "description": "Attacks all enemies with a powerful ground pound, with a 50% chance to decrease Defense for 2 turns, and increase Attack of the caster for 2 turns.",
-            "enhancement": [
-                "+5% damage dealt",
-                "+10% effect chance",
-                "-1 turn cooldown",
-                "+10% damage dealt",
-                "+15% effect chance",
-                "+15% damage dealt"
-            ],
+            "enhancement": [{
+                "description": "+5% damage dealt",
+                "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+            }, {
+                "description": "+10% effect chance",
+                "resources": [{ "item": "molagora", "qty": 3 }, { "item": "gold", "qty": 12000 }]
+            }, {
+                "description": "-1 turn cooldown",
+                "resources": [{ "item": "twisted-fang", "qty": 2 }, { "item": "molagora", "qty": 4 }, { "item": "gold", "qty": 26000 }]
+            }, {
+                "description": "+10% damage dealt",
+                "resources": [{ "item": "twisted-fang", "qty": 4 }, { "item": "molagorago", "qty": 1 }, { "item": "gold", "qty": 26000 }]
+            }, {
+                "description": "+15% effect chance",
+                "resources": [{ "item": "twisted-fang", "qty": 5 }, { "item": "molagorago", "qty": 2 }, { "item": "gold", "qty": 65000 }]
+            }, {
+                "description": "+15% damage dealt",
+                "resources": [{ "item": "blazing-soul", "qty": 2 }, { "item": "molagoragora", "qty": 1 }, { "item": "gold", "qty": 160000 }]
+            }],
             "buffs": ["stic_att_up"],
             "debuffs": ["stic_def_dn"]
         }
