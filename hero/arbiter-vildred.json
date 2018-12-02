@@ -77,11 +77,7 @@
             "name": "Dark Contract",
             "soulAcquire": 0,
             "description": "After receiving lethal damage, regenerates to 70% Health, gains full Focus, and resets cooldown for Dark Blade.",
-            "enhancement": [
-                "+10% Health recovered",
-                "+10% Health recovered",
-                "+10% Health recovered"
-            ],
+            "enhancement": ["+10% Health recovered", "+10% Health recovered", "+10% Health recovered"],
             "buffs": [],
             "debuffs": []
         },

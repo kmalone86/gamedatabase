@@ -16,7 +16,7 @@ You might not have memory imprint rank SSS, but someone else might have and make
     - Follow the rules stated on `General Contributing Rules` @ repository's root `README.md`
     - If the artifact name contains spaces, replace them for `-` (dashes).
         - E.g.: `Ruele of Light` (5 star Light hero) becomes `ruele-of-light.json`
-3. Follow the standard names for the properties, see `ras.json` for example. The idea is to duplicate `ras.json`, change the name to the hero you want to contribute and write on top
+3. Follow the standard names for the properties, see `_HERO_TEMPLATE.json` for example. The idea is to duplicate `_HERO_TEMPLATE.json`, change the name to the hero you want to contribute and write on top
 4. Create a PR with your changes
 5. Thank you for contributing
 
@@ -36,7 +36,6 @@ You might not have memory imprint rank SSS, but someone else might have and make
     -   `ice`
     -   `light`
     -   `dark`
-    -   `material`
 -   `zodiac`: A hero zodiac can be of the following type:
     -   `aries`
     -   `taurus`
@@ -47,11 +46,11 @@ You might not have memory imprint rank SSS, but someone else might have and make
     -   `libra`
     -   `scorpio`
     -   `sagittarius`
-    -   capricorn
+    -   `capricorn`
     -   `aquarius`
     -   `pisces`
 -   `selfSkillBarName`: Some heroes such as Ravi and Charlotte have their own mechanic skill bar, `Fighting Spirit` and `Focus`, respectively. Because of that, all skills got a new flag, `selfSkillBarValue`, which is the increase or decrease value on each skill, if applicable
-    - E.g.: Charlotte's `"selfSkillBarName": "Focus"`. And her first skill, "", has a `"selfSkillBarValue": 1`.
+    -   E.g.: Charlotte's `"selfSkillBarName": "Focus"`. And her first skill, "", has a `"selfSkillBarValue": 1`.
 -   `specialtyChangeName`: Leave empty string if hero does not have a specialty change. Otherwise, add the specialty change hero.
     -   E.g.: Hero Lorina will have `"specialtyChangeName":"commander-lorina"`, while Kluri will have `"specialtyChangeName":"falconer-kluri"`
 -   `background`: Some heroes might have multi-paragraph backgrounds, therefore, please keep as an array where each paragraph is an array entry.
@@ -61,17 +60,19 @@ You might not have memory imprint rank SSS, but someone else might have and make
     -   `grudge`
     -   `rival`
     -   `longing`
+    -   `love`
 -   Hero stats will be referenced in `stats`, `memoryImprint` and `awakening.statsIncrease`. A hero have the following stats:
     -   `cp` - CP, Character Power
     -   `atk` - Attack
+    -   `def` - Defense
     -   `hp` - Hit Points, Health
     -   `spd` - Speed
     -   `chc` - Critical Hit Chance
     -   `chd` - Critical Hit Damage
     -   `eff` - Effectiveness
-    -   `eff` - Effectiveness
     -   `afr` - Effect Resistance
     -   `dac` - Dual Attack Chance
+-   Base and Max parameters: Base refers to the unit's minimum star rarity on level 1, max refers to a unit that is 6* and max levelled.
 -   `skills`:
 -   `isPassive`: If the skill has the cross-shaped/inverted rounded corners, that is, is not castable by the player (example, Sez's second skill).
 -   `awakenUpgrade` true when the skill is upgraded on awakening #3

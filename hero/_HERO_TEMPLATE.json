@@ -1,0 +1,290 @@
+{
+    "name": "Capitalized Name of the Hero lie in-game",
+    "rarity": 3,
+    "classType": "lowercased name of the class, from the following: knight,thief,warrior,weaver,mage,ranger,material",
+    "element": "lowercased name of the element, from the following: fire,earth,ice,light,dark",
+    "zodiac": "lowercased name of the zodiac sign, from the following: aries,taurus,gemini,cancer,leo,virgo,libra,scorpio,sagittarius,capricorn,aquarius,pisces",
+    "specialtyChangeName": "lowercased name of the hero on his specialty change, spaces as dashes",
+    "selfSkillBarName": "lowercased name of hero's self skill bar, if any (e.g. Fighting Spirit, Focus). Otherwise empty",
+    "background": [
+        "Text just like the background found in-game",
+        "If has other paragraphs, add each new paragraph as a new string inside this Array"
+    ],
+    "relations": [
+        {
+            "hero": "lowercased name of relation hero",
+            "relationType": "lowercased name of the relation type, from the following: trust, grudge, rival, longing"
+        },
+        {
+            "hero": "lowercased name of another relation hero",
+            "relationType": "lowercased name of the relation type, from the following: trust, grudge, rival, longing"
+        }
+    ],
+    "stats": {
+        "base": {
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0,
+            "chd": 0,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0
+        },
+        "max": {
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0,
+            "chd": 0,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0
+        }
+    },
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Capitalized name of skill 1, as in-game",
+            "soulAcquire": 1,
+            "description": "description of skill 1 as in-game",
+            "enhancement": [
+                {
+                    "description": "Description of skill upgrade, as in-game. E.g.: +5% damage dealt",
+                    "resources": [{ "item": "lowercased name of item needed for the skill upgrade", "qty": 1 }]
+                },
+                {
+                    "description": "Description of skill upgrade, as in-game. E.g.: +5% damage dealt",
+                    "resources": [{ "item": "lowercased name of item needed for the skill upgrade", "qty": 1 }]
+                },
+                {
+                    "description": "Description of skill upgrade, as in-game. E.g.: +5% damage dealt",
+                    "resources": [{ "item": "lowercased name of item needed for the skill upgrade", "qty": 1 }]
+                },
+                {
+                    "description": "Description of skill upgrade, as in-game. E.g.: +5% damage dealt",
+                    "resources": [{ "item": "lowercased name of item needed for the skill upgrade", "qty": 1 }]
+                }
+            ],
+            "buffs": ["list", "of", "applied", "buffs", "as", "per", "buff-debuff-sheet"],
+            "debuffs": ["list", "of", "applied", "debuffs", "as", "per", "buff-debuff-sheet"]
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Capitalized name of skill 2, as in-game",
+            "soulAcquire": 1,
+            "description": "description of skill 2 as in-game",
+            "enhancement": [
+                {
+                    "description": "Description of skill upgrade, as in-game. E.g.: +5% damage dealt",
+                    "resources": [{ "item": "lowercased name of item needed for the skill upgrade", "qty": 1 }]
+                },
+                {
+                    "description": "Description of skill upgrade, as in-game. E.g.: +5% damage dealt",
+                    "resources": [{ "item": "lowercased name of item needed for the skill upgrade", "qty": 1 }]
+                },
+                {
+                    "description": "Description of skill upgrade, as in-game. E.g.: +5% damage dealt",
+                    "resources": [{ "item": "lowercased name of item needed for the skill upgrade", "qty": 1 }]
+                },
+                {
+                    "description": "Description of skill upgrade, as in-game. E.g.: +5% damage dealt",
+                    "resources": [{ "item": "lowercased name of item needed for the skill upgrade", "qty": 1 }]
+                }
+            ],
+            "buffs": ["list", "of", "applied", "buffs", "as", "per", "buff-debuff-sheet"],
+            "debuffs": ["list", "of", "applied", "debuffs", "as", "per", "buff-debuff-sheet"]
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Capitalized name of skill 3, as in-game",
+            "soulAcquire": 1,
+            "description": "description of skill 3 as in-game",
+            "enhancement": [
+                {
+                    "description": "Description of skill upgrade, as in-game. E.g.: +5% damage dealt",
+                    "resources": [{ "item": "lowercased name of item needed for the skill upgrade", "qty": 1 }]
+                },
+                {
+                    "description": "Description of skill upgrade, as in-game. E.g.: +5% damage dealt",
+                    "resources": [{ "item": "lowercased name of item needed for the skill upgrade", "qty": 1 }]
+                },
+                {
+                    "description": "Description of skill upgrade, as in-game. E.g.: +5% damage dealt",
+                    "resources": [{ "item": "lowercased name of item needed for the skill upgrade", "qty": 1 }]
+                },
+                {
+                    "description": "Description of skill upgrade, as in-game. E.g.: +5% damage dealt",
+                    "resources": [{ "item": "lowercased name of item needed for the skill upgrade", "qty": 1 }]
+                }
+            ],
+            "buffs": ["list", "of", "applied", "buffs", "as", "per", "buff-debuff-sheet"],
+            "debuffs": ["list", "of", "applied", "debuffs", "as", "per", "buff-debuff-sheet"]
+        }
+    ],
+    "specialtySkill": {
+        "name": "Capitalized name of the specialty skill as in-game",
+        "description": "Description of the specialty skill as in-game",
+        "dispatch": ["Type mission of the specialty skill as in-game"],
+        "enhancement": ["enhancement of the specialty skill as in-game"],
+        "stats": { "command": 0, "charm": 0, "politics": 0 }
+    },
+    "memoryImprint": [
+        {
+            "rank": "d",
+            "status": {
+                "type": "status of the increase, integer for flat numbers, string for percentages",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "c",
+            "status": {
+                "type": "status of the increase, integer for flat numbers, string for percentages",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "b",
+            "status": {
+                "type": "status of the increase, integer for flat numbers, string for percentages",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "status of the increase, integer for flat numbers, string for percentages",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "status of the increase, integer for flat numbers, string for percentages",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "status of the increase, integer for flat numbers, string for percentages",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "status of the increase, integer for flat numbers, string for percentages",
+                "increase": 0
+            }
+        }
+    ],
+    "awakening": [
+        {
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "status type of the increase": "status value of the increase, integer for flat numbers, string with % for percentages"
+                },
+                {
+                    "another status type of the increase": 0
+                }
+            ],
+            "resources": [
+                { "item": "lowercased name of item", "qty": 5 },
+                { "item": "lowercased name of item", "qty": 5 }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "status type of the increase": "status value of the increase, integer for flat numbers, string with % for percentages"
+                },
+                { "another status type of the increase": 0 }
+            ],
+            "resources": [
+                { "item": "lowercased name of item", "qty": 5 },
+                { "item": "lowercased name of item", "qty": 5 }
+            ]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "status type of the increase": "status value of the increase, integer for flat numbers, string with % for percentages"
+                },
+                { "another status type of the increase": 0 }
+            ],
+            "resources": [
+                { "item": "lowercased name of item", "qty": 5 },
+                { "item": "lowercased name of item", "qty": 5 }
+            ]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "status type of the increase": "status value of the increase, integer for flat numbers, string with % for percentages"
+                },
+                { "another status type of the increase": 0 }
+            ],
+            "resources": [
+                { "item": "lowercased name of item", "qty": 5 },
+                { "item": "lowercased name of item", "qty": 5 }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "status type of the increase": "status value of the increase, integer for flat numbers, string with % for percentages"
+                },
+                { "another status type of the increase": 0 }
+            ],
+            "resources": [
+                { "item": "lowercased name of item", "qty": 5 },
+                { "item": "lowercased name of item", "qty": 5 }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "status type of the increase": "status value of the increase, integer for flat numbers, string with % for percentages"
+                },
+                { "another status type of the increase": 0 }
+            ],
+            "resources": [
+                { "item": "lowercased name of item", "qty": 5 },
+                { "item": "lowercased name of item", "qty": 5 }
+            ]
+        }
+    ]
+}

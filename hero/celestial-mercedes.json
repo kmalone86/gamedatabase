@@ -1,0 +1,334 @@
+{
+    "name": "Celestial Mercedes",
+    "rarity": 4,
+    "classType": "mage",
+    "element": "dark",
+    "zodiac": "scorpio",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": [
+        "A mysterious being from the stars, nobody knows where Celestial Mercedes came from, or what she has gone through. She freely duplicates any Human or thing she pleases, and currently resides in the Farche Frontier in a cloned body of Mercedes."
+    ],
+    "relations": [
+        {
+            "hero": "destina",
+            "relationType": "longing"
+        },
+        {
+            "hero": "watcher-schuri",
+            "relationType": "rival"
+        },
+		{
+            "hero": "mercedes",
+            "relationType": "trust"
+        },
+		{
+            "hero": "assassin-cartuja",
+            "relationType": "rival"
+        },
+		{
+            "hero": "purgis",
+            "relationType": "grudge"
+        },
+		{
+            "hero": "mucacha",
+            "relationType": "grudge"
+        }
+    ],
+    "stats": {
+        "base": {
+            "cp": 2387,
+            "atk": 242,
+            "hp": 643,
+            "spd": 96,
+            "def": 72,
+            "chc": 24,
+            "chd": 156,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max": {
+            "cp": 15125,
+            "atk": 1138,
+            "hp": 4370,
+            "spd": 96,
+            "def": 613,
+            "chc": 24,
+            "chd": 156,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        }
+    },
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Divine Bolt",
+            "soulAcquire": 1,
+            "description": "Attacks with shock magic, with a 30% chance to make the enemy unhealable for 2 turns.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 8000 }]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [{ "item": "molagora", "qty": 4 }, { "item": "sharp-spearhead", "qty": 1 }, { "item": "gold", "qty": 21000 }]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "sharp-spearhead", "qty": 3 }, { "item": "gold", "qty": 35000 }]
+                },
+				{
+                    "description": "+10% damage dealt",
+                    "resources": [{ "item": "molagoragora", "qty": 1 }, { "item": "black-curse-powder", "qty": 2 }, { "item": "gold", "qty": 160000 }]
+                }
+            ],
+            "buffs": [],
+            "debuffs": ["stic_heal_impossible"]
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 4,
+            "name": "Dimensional Rupture",
+            "soulAcquire": 2,
+            "description": "Attacks all enemies with a massive light sphere, dealing damage proportional to the enemy's max Health.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 8000 }]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [{ "item": "molagora", "qty": 4 }, { "item": "sharp-spearhead", "qty": 1 }, { "item": "gold", "qty": 21000 }]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "sharp-spearhead", "qty": 3 }, { "item": "gold", "qty": 35000 }]
+                },
+				{
+                    "description": "+10% damage dealt",
+                    "resources": [{ "item": "molagoragora", "qty": 1 }, { "item": "black-curse-powder", "qty": 2 }, { "item": "gold", "qty": 160000 }]
+                }
+            ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 20,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": true,
+            "cooldown": 6,
+            "name": "Finale",
+            "soulAcquire": 3,
+            "description": "Attacks all enemies by releasing spells of The Last Spellbook. Increases Attack of the caster for 2 turns and increases Combat Readiness by 15% according to the number of critical hits made.",
+            "enhancement": [
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 8000 }]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [{ "item": "molagora", "qty": 4 }, { "item": "sharp-spearhead", "qty": 1 }, { "item": "gold", "qty": 21000 }]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "sharp-spearhead", "qty": 3 }, { "item": "gold", "qty": 35000 }]
+                },
+				{
+                    "description": "+15% damage dealt",
+                    "resources": [{ "item": "molagoragora", "qty": 1 }, { "item": "black-curse-powder", "qty": 2 }, { "item": "gold", "qty": 160000 }]
+                }
+            ],
+            "buffs": ["stic_att_inc"],
+            "debuffs": []
+        }
+    ],
+    "specialtySkill": {
+        "name": "Good and Evil",
+        "description": "There's a fine line between good and evil.",
+        "dispatch": ["[Sanctuary] Category"],
+        "enhancement": ["Time Required -6%"],
+        "stats": { "command": 64, "charm": 55, "politics": 60 }
+    },
+    "memoryImprint": [
+        {
+            "rank": "c",
+            "status": {
+                "type": "chc",
+                "increase": "3.6%"
+            }
+        },
+        {
+            "rank": "b",
+            "status": {
+                "type": "chce",
+                "increase": "5.4%"
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "chc",
+                "increase": "7.2%"
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "chc",
+                "increase": "9.0%"
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "chc",
+                "increase": "10.8%"
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "chc",
+                "increase": "12.6%"
+            }
+        }
+    ],
+    "awakening": [
+        {
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "chc": "3%"
+                },
+                {
+                    "atk": 20
+                },
+				{
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                { "item": "dark-rune", "qty": 8 }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": "3%"
+                },
+                {
+                    "atk": 20
+                },
+				{
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                { "item": "dark-rune", "qty": 12 },
+                { "item": "greater-dark-rune", "qty": 2 }
+            ]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [
+                {
+                    "atk": 20
+                },
+				{
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                { "item": "dark-rune", "qty": 17 },
+                { "item": "greater-dark-rune", "qty": 8 }
+            ]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "chd": "6%"
+                },
+                {
+                    "atk": 30
+                },
+				{
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                { "item": "greater-dark-rune", "qty": 8 },
+                { "item": "epic-dark-rune", "qty": 1 }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "chc": "6%"
+                },
+                {
+                    "atk": 30
+                },
+				{
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                { "item": "epic-dark-rune", "qty": 5 },
+                { "item": "erikion-carapace", "qty": 12 }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": "6%"
+                },
+                {
+                    "atk": 30
+                },
+				{
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                { "item": "epic-dark-rune", "qty": 8 },
+                { "item": "black-curse-powder", "qty": 8 }
+            ]
+        }
+    ]
+}

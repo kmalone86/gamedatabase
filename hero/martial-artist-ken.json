@@ -9,9 +9,7 @@
     "background": [
         "In his goal of becoming the strongest in the universe, he is hunting down and challenging every martial arts master he can find. He will cross time and space, and even dimensions, to find a worthy challenger."
     ],
-    "relations": [
-        { "hero": "ken", "relationType": "grudge" }
-    ],
+    "relations": [{ "hero": "ken", "relationType": "grudge" }],
     "stats": {
         "base": {
             "cp": 2557,
