@@ -1,0 +1,199 @@
+{
+    "name": "Tywin",
+    "rarity": 5,
+    "classType": "knight",
+    "element": "ice",
+    "zodiac": "aries",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": [
+        "Captain of the Royal Guard of Lefundos, situated in Northern Eureka, Tywin holds the favor of his king Schniel. A hard worker, he values rule and order over all else, and gives off the impression that he will not listen to what you have to say."
+    ],
+    "relations": [
+        { "hero": "romann", "relationType": "trust" },
+        { "hero": "cecilia", "relationType": "trust" },
+        { "hero": "otillie", "relationType": "trust" }
+    ],
+    "stats": {
+        "base": {
+            "cp": 2502,
+            "atk": 210,
+            "hp": 775,
+            "spd": 110,
+            "def": 78,
+            "chc": 15,
+            "chd": 150,
+            "eff": 9,
+            "efr": 0,
+            "dac": 5
+        },
+        "max": {
+            "cp": 15925,
+            "atk": 758,
+            "hp": 6355,
+            "spd": 110,
+            "def": 624,
+            "chc": 15,
+            "chd": 150,
+            "eff": 9,
+            "efr": 0,
+            "dac": 5
+        }
+    },
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Sword Storm",
+            "soulAcquire": 1,
+            "description": "Attacks with a swordstorm, with a 50% chance to dispel one buff. Damage dealt increases proportional to the caster's max Health.",
+            "enhancement": [
+                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
+                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 12000 } , { "item": "molagora", "qty": 3}] },
+                { "description": "+10% effect chance", "resources": [{ "item": "gold", "qty": 26000 } , { "item": "path power loop", "qty": 2 } , { "item": "molagora", "qty": 4 }] },
+		{ "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 40000 } , { "item": "path power loop", "qty": 4} , { "item": "molagorago", "qty": 1 }] },
+                { "description": "+15% effect chance", "resources": [{ "item": "gold", "qty": 65000 } , { "item": "path power loop", "qty": 5 } , { "item": "molagorago", "qty": 2 }] },
+		{ "description": "+15% damage dealt", "resources": [{ "item": "gold", "qty": 160000 } , { "item": "nigthmare mask", "qty": 2 } , { "item": "molagoragora", "qty": 1 }] }
+            ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": true,
+            "cooldown": 4,
+            "name": "Commanding Shout",
+            "soulAcquire": 1,
+            "description": "Grants increased Attack and Critical Hit Chance to the caster and an ally for 2 turns, and increases Combat Readiness by 30%.",
+            "enhancement": [
+                { "description": "Acquire +1 soul", "resources": [{ "item": "gold", "qty": 37000 } , { "item": "path power loop", "qty": 5 } , { "item": "molagora", "qty": 3 }] },
+                { "description": "-1 turn cooldown", "resources": [{ "item": "gold", "qty": 160000 } , { "item": "nightmare mask", "qty": 2 } , { "item": "molagoragora", "qty": 1 }] }
+            ],
+            "buffs": ["stic_atk_up", "stic_chc_up"],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 20,
+            "soulBurnEffect": "Grants an extra turn.",
+            "awakenUpgrade": false,
+            "cooldown": 5,
+            "name": "All-Out Attack",
+            "soulAcquire": 2,
+            "description": "Attacks all enemies again after a swordstorm, with a 50% chance to decrease Defense for 2 turns and increase Defense of the caster for 3 turns. Damage dealt increases proportional to the caster's max Health. ",
+            "enhancement": [
+                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
+                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2 }] },
+                { "description": "+10% effect chance", "resources": [{ "item": "gold", "qty": 12000 } , { "item": "molagora", "qty": 3 }] },
+                { "description": "-1 turn cooldown", "resources": [{ "item": "gold", "qty": 35000 } , { "item": "path power loop", "qty": 3 } , { "item": "molagorago", "qty": 1 }] },
+                { "description": "+15% effect chance", "resources": [{ "item": "gold", "qty": 60000 } , { "item": "path power loop", "qty": 4 } , { "item": "molagorago", "qty": 2 }] },
+		{ "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 75000 } , { "item": "path power loop", "qty": 7 } , { "item": "molagorago", "qty": 2 }] },
+		{ "description": "+15% damage dealt", "resources": [{ "item": "gold", "qty": 190000 } , { "item": "nightmare mask", "qty": 3 } , { "item": "molagoragora", "qty": 1 }] }
+            ],
+            "buffs": ["stic_def_up"],
+            "debuffs": ["stic_def_dn"]
+        }
+    ],
+    "specialtySkill": {
+        "name": "Commander",
+        "description": "His incredible command ability boosts the efficiency of his troops.",
+        "dispatch": ["[War] type mission"],
+        "enhancement": ["Time requiered -6%"],
+        "stats": { "command": 98, "charm": 75, "politics": 52 }
+    },
+    "memoryImprint": [
+        {
+            "rank": "d",
+            "status": {
+                "type": "hp",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "c",
+            "status": {
+                "type": "hp",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "b",
+            "status": {
+                "type": "hp",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "hp",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "hp",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "hp",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "hp",
+                "increase": 0
+            }
+        }
+    ],
+    "awakening": [
+        {
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "hp": "3%" }, { "atk": 20 }, { "hp": 60 }],
+            "resources": [{ "item": "frost-rune", "qty": 10 }]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "eff": "3%" }, { "atk": 20 }, { "hp": 60 }],
+            "resources": [{ "item": "frost-rune", "qty": 15 }, { "item": "greater-frost-rune", "qty": 2 }]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [{ "atk": 20 }, { "hp": 60 }],
+            "resources": [{ "item": "frost-rune", "qty": 20 }, { "item": "greater-frost-rune", "qty": 10 }]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "spd": 4 }, { "atk": 30 }, { "hp": 80 }],
+            "resources": [{ "item": "greater-frost-rune", "qty": 10 }, { "item": "epic-frost-rune", "qty": 2 }]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "hp": "6%" }, { "atk": 30 }, { "hp": 80 }],
+            "resources": [{ "item": "epic-frost-rune", "qty": 6 }, { "item": "blessing-of-orbis", "qty": 15 }]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "eff": "6%" }, { "atk": 30 }, { "hp": 80 }],
+            "resources": [{ "item": "epic-frost-rune", "qty": 10 }, { "item": "nightmare-mask", "qty": 10 }]
+        }
+    ]
+}
