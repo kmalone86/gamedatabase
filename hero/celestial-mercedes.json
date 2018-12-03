@@ -136,7 +136,7 @@
             "isPassive": false,
             "soulBurn": 20,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
+            "soulBurnEffect": "Skill cooldown is decreased by 2 turns.",
             "awakenUpgrade": true,
             "cooldown": 6,
             "name": "Finale",
@@ -186,7 +186,7 @@
         {
             "rank": "b",
             "status": {
-                "type": "chce",
+                "type": "chc",
                 "increase": "5.4%"
             }
         },
