@@ -7,7 +7,7 @@
     "specialtyChangeName": "",
     "selfSkillBarName": "",
     "background": [
-        "Born to a noble Taranor famoily, Doris was forced to flee to Reingar after receiving a huge inheritance to escape her greedy stepmother. She wants to heal those wounded with her magic."
+        "Born to a noble Taranor family, Doris was forced to flee to Reingar after receiving a huge inheritance to escape her greedy stepmother. She wants to heal those wounded with her magic."
     ],
     "relations": [
         {
@@ -59,7 +59,7 @@
             "cooldown": 0,
             "name": "Mana Bullet",
             "soulAcquire": 1,
-            "description": "Attacks with light energy with a 50% chance to decrease Hit Chance for 1 turn.",
+            "description": "Attacks with light energy, with a 50% chance to decrease Hit Chance for 1 turn.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -129,7 +129,7 @@
             "cooldown": 3,
             "name": "Light Curtain",
             "soulAcquire": 2,
-            "description": "Recoveres an ally's Health and increases their Combat Readiness by 30% with light magic. If granted continuous healing, the amount of Health recovered is doubled. Healing is proportional to the ally's max Health.",
+            "description": "Recovers an ally's Health and increases their Combat Readiness by 30% with light magic. If granted continuous healing, the amount of Health recovered is doubled. Healing is proportional to the ally's max Health.",
             "enhancement": [
                 {
                     "description": "+5% healing",
