@@ -56,14 +56,25 @@
             "name": "Sweep",
             "soulAcquire": 1,
             "description": "Rapidly attacks two enemies with a swordstorm, decreasing their Combat Readiness by 10%. The lower the enemy's Health, the greater damage dealt.",
-            "enhancement": [
-                "+5% damage dealt",
-                "+2% Combat Readiness",
-                "+5% damage dealt",
-                "+3% Combat Readiness",
-                "+10% damage dealt",
-                "+10% damage dealt"
-            ],
+            "enhancement": [{
+                "description": "+5% damage dealt",
+                "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+            }, {
+                "description": "+2% Combat Readiness",
+                "resources": [{ "item": "molagora", "qty": 3 }, { "item": "gold", "qty": 12000 }]
+            }, {
+                "description": "+5% damage dealt",
+                "resources": [{ "item": "twisted-fang", "qty": 2 }, { "item": "molagora", "qty": 4 }, { "item": "gold", "qty": 26000 }]
+            }, {
+                "description": "+3% Combat Readiness",
+                "resources": [{ "item": "twisted-fang", "qty": 4 }, { "item": "molagorago", "qty": 1 }, { "item": "gold", "qty": 26000 }]
+            }, {
+                "description": "+10% damage dealt",
+                "resources": [{ "item": "twisted-fang", "qty": 5 }, { "item": "molagorago", "qty": 2 }, { "item": "gold", "qty": 65000 }]
+            }, {
+                "description": "+10% damage dealt",
+                "resources": [{ "item": "blazing-soul", "qty": 2 }, { "item": "molagoragora", "qty": 1 }, { "item": "gold", "qty": 160000 }]
+            }],
             "buffs": [],
             "debuffs": []
         },
@@ -77,7 +88,16 @@
             "name": "Dark Contract",
             "soulAcquire": 0,
             "description": "After receiving lethal damage, regenerates to 70% Health, gains full Focus, and resets cooldown for Dark Blade.",
-            "enhancement": ["+10% Health recovered", "+10% Health recovered", "+10% Health recovered"],
+            "enhancement": [{
+                "description": "+10% Health recovered",
+                "resources": [{ "item": "twisted-fang", "qty": 3 }, { "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 19000 }]
+            }, {
+                "description": "+10% Health recovered",
+                "resources": [{ "item": "twisted-fang", "qty": 5 }, { "item": "molagorago", "qty": 2 }, { "item": "gold", "qty": 65000 }]
+            }, {
+                "description": "+10% Health recovered",
+                "resources": [{ "item": "blazing-soul", "qty": 3 }, { "item": "molagoragora", "qty": 1 }, { "item": "gold", "qty": 190000 }]
+            }],
             "buffs": [],
             "debuffs": []
         },
@@ -91,14 +111,25 @@
             "name": "Dark Blade",
             "soulAcquire": 3,
             "description": "Attacks all enemies with wild energy, with a 75% chance to decrease Hit Chance for 2 turns. When Focus is full, consumes it all, increasing the chance and damage dealt. When the enemy is defeated, cooldown does not increase. Damage dealt increases proportional to amount if the enemy's lost Health.",
-            "enhancement": [
-                "+5% damage dealt",
-                "+5% damage dealt",
-                "+5% damage dealt",
-                "+10% damage dealt",
-                "+10% damage dealt",
-                "+10% damage dealt"
-            ],
+            "enhancement": [{
+                "description": "+5% damage dealt",
+                "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+            }, {
+                "description": "+5% damage dealt",
+                "resources": [{ "item": "molagora", "qty": 3 }, { "item": "gold", "qty": 12000 }]
+            }, {
+                "description": "+5% damage dealt",
+                "resources": [{ "item": "twisted-fang", "qty": 2 }, { "item": "molagora", "qty": 4 }, { "item": "gold", "qty": 26000 }]
+            }, {
+                "description": "+10% damage dealt",
+                "resources": [{ "item": "twisted-fang", "qty": 4 }, { "item": "molagorago", "qty": 1 }, { "item": "gold", "qty": 26000 }]
+            }, {
+                "description": "+10% damage dealt",
+                "resources": [{ "item": "twisted-fang", "qty": 5 }, { "item": "molagorago", "qty": 2 }, { "item": "gold", "qty": 65000 }]
+            }, {
+                "description": "+10% damage dealt",
+                "resources": [{ "item": "blazing-soul", "qty": 2 }, { "item": "molagoragora", "qty": 1 }, { "item": "gold", "qty": 160000 }]
+            }],
             "buffs": [],
             "debuffs": ["stic_blind"]
         }
