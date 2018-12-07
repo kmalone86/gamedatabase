@@ -1,0 +1,259 @@
+{
+    "name": "Gunther",
+    "rarity": 3,
+    "classType": "warrior",
+    "element": "light",
+    "zodiac": "libra",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": [
+        "A veteran of the Archdemon War, Gunther is often misunderstood because of his rough-looking face, but he is a highly-talented treasure hunter."
+    ],
+    "relations": [
+        {
+            "hero": "corvus",
+            "relationType": "trust"
+        },
+        {
+            "hero": "helga",
+            "relationType": "trust"
+        },
+        {
+            "hero": "cartuja",
+            "relationType": "trust"
+        },
+        {
+            "hero": "cidd",
+            "relationType": "trust"
+        }
+    ],
+    "stats": {
+        "base": {
+            "cp": 2685,
+            "atk": 330,
+            "hp": 690,
+            "spd": 104,
+            "def": 63,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max": {
+            "cp": 17031,
+            "atk": 1426,
+            "hp": 5517,
+            "spd": 104,
+            "def": 583,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        }
+    },
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Spirited Blow",
+            "soulAcquire": 1,
+            "description": "Attacks with an axe, with a 50% chance to cause bleeding for 2 turns.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 8000 }]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [{ "item": "molagora", "qty": 4 }, { "item": "mysterious-flash", "qty": 3 }, { "item": "gold", "qty": 31000 }]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "mysterious-flash", "qty": 4 }, { "item": "gold", "qty": 40000 }]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "mysterious-flash", "qty": 5 }, { "item": "gold", "qty": 45000 }]
+                }
+            ],
+            "buffs": [],
+            "debuffs": ["stic_blood"]
+        },
+        {
+            "isPassive": true,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Veteran",
+            "soulAcquire": 0,
+            "description": "The caster does not deal a critical hit, but Attack increases by 50%.",
+            "enhancement": [
+                {
+                    "description": "+5% Attack",
+                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+                },
+                {
+                    "description": "+5% Attack",
+                    "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 8000 }]
+                },
+                {
+                    "description": "+5% Attack",
+                    "resources": [{ "item": "molagora", "qty": 4 }, { "item": "mysterious-flash", "qty": 3 }, { "item": "gold", "qty": 31000 }]
+                },
+                {
+                    "description": "+5% Attack",
+                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "mysterious-flash", "qty": 4 }, { "item": "gold", "qty": 40000 }]
+                },
+                {
+                    "description": "+5% Attack",
+                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "mysterious-flash", "qty": 5 }, { "item": "gold", "qty": 45000 }]
+                }
+            ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 10,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Increases damage dealt.",
+            "awakenUpgrade": true,
+            "cooldown": 4,
+            "name": "Tenacious Strike",
+            "soulAcquire": 2,
+            "description": "Attacks with an axe, stunning for 1 turn. Damage dealt is increased against bleeding enemies.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 8000 }]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [{ "item": "molagora", "qty": 4 }, { "item": "mysterious-flash", "qty": 3 }, { "item": "gold", "qty": 31000 }]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "mysterious-flash", "qty": 4 }, { "item": "gold", "qty": 40000 }]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "mysterious-flash", "qty": 5 }, { "item": "gold", "qty": 45000 }]
+                }
+            ],
+            "buffs": [],
+            "debuffs": ["stic_stun"]
+        }
+    ],
+    "specialtySkill": {
+        "name": "Veteran Mercenary",
+        "description": "He's diligent and skillful. War doesn't take place just on the battlefield.",
+        "dispatch": ["[Impossible Mission] attribute mission"],
+        "enhancement": ["Reward Bonus +10%"],
+        "stats": { "command": 81, "charm": 68, "politics": 22 }
+    },
+    "memoryImprint": [
+        {
+            "rank": "d",
+            "status": {
+                "type": "atk",
+                "increase": 24
+            }
+        },
+        {
+            "rank": "c",
+            "status": {
+                "type": "atk",
+                "increase": 36
+            }
+        },
+        {
+            "rank": "b",
+            "status": {
+                "type": "atk",
+                "increase": 48
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "atk",
+                "increase": 60
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "atk",
+                "increase": 72
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "atk",
+                "increase": 84
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "atk",
+                "increase": 96
+            }
+        }
+    ],
+    "awakening": [
+        {
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "atk": "3%" }, { "atk": 20 }, { "hp": 60 }],
+            "resources": [{ "item": "light-rune", "qty": 5 }]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "hp": "3%" }, { "atk": 20 }, { "hp": 60 }],
+            "resources": [{ "item": "light-rune", "qty": 9 }]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [{ "atk": 20 }, { "hp": 60 }],
+            "resources": [{ "item": "light-rune", "qty": 12 }, { "item": "greater-light-rune", "qty": 6 }]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "def": "6%" }, { "atk": 30 }, { "hp": 80 }],
+            "resources": [{ "item": "greater-light-rune", "qty": 15 }]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "atk": "6%" }, { "atk": 30 }, { "hp": 80 }],
+            "resources": [{ "item": "epic-light-rune", "qty": 4 }, { "item": "dream-time-circuit", "qty": 9 }]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "hp": "6%" }, { "atk": 30 }, { "hp": 80 }],
+            "resources": [{ "item": "epic-light-rune", "qty": 6 }, { "item": "reingar-student-id", "qty": 6 }]
+        }
+    ]
+}
