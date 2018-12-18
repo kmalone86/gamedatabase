@@ -16,23 +16,23 @@
     ],
     "stats": {
         "base": {
-            "cp": 2502,
-            "atk": 210,
-            "hp": 775,
-            "spd": 110,
-            "def": 78,
+            "cp": 1392,
+            "atk": 67,
+            "hp": 348,
+            "spd": 106,
+            "def": 81,
             "chc": 15,
             "chd": 150,
-            "eff": 9,
+            "eff": 0,
             "efr": 0,
             "dac": 5
         },
         "max": {
-            "cp": 15925,
-            "atk": 758,
-            "hp": 6355,
+            "cp": 16849,
+            "atk": 821,
+            "hp": 6751,
             "spd": 110,
-            "def": 624,
+            "def": 648,
             "chc": 15,
             "chd": 150,
             "eff": 9,
@@ -53,11 +53,11 @@
             "description": "Attacks with a swordstorm, with a 50% chance to dispel one buff. Damage dealt increases proportional to the caster's max Health.",
             "enhancement": [
                 { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
-                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 12000 } , { "item": "molagora", "qty": 3}] },
-                { "description": "+10% effect chance", "resources": [{ "item": "gold", "qty": 26000 } , { "item": "path power loop", "qty": 2 } , { "item": "molagora", "qty": 4 }] },
-		{ "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 40000 } , { "item": "path power loop", "qty": 4} , { "item": "molagorago", "qty": 1 }] },
-                { "description": "+15% effect chance", "resources": [{ "item": "gold", "qty": 65000 } , { "item": "path power loop", "qty": 5 } , { "item": "molagorago", "qty": 2 }] },
-		{ "description": "+15% damage dealt", "resources": [{ "item": "gold", "qty": 160000 } , { "item": "nigthmare mask", "qty": 2 } , { "item": "molagoragora", "qty": 1 }] }
+                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2 }] },
+                { "description": "+10% effect chance", "resources": [{ "item": "gold", "qty": 26000 } , { "item": "path power loop", "qty": 2 } , { "item": "molagora", "qty": 3 }] },
+		{ "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 40000 } , { "item": "path power loop", "qty": 4} , { "item": "molagora", "qty": 5 }] },
+                { "description": "+15% effect chance", "resources": [{ "item": "gold", "qty": 45000 } , { "item": "path power loop", "qty": 5 } , { "item": "molagorago", "qty": 1 }] },
+		{ "description": "+15% damage dealt", "resources": [{ "item": "gold", "qty": 120000 } , { "item": "nigthmare mask", "qty": 2 } , { "item": "molagoragora", "qty": 1 }] }
             ],
             "buffs": [],
             "debuffs": []
@@ -73,7 +73,7 @@
             "description": "Grants increased Attack and Critical Hit Chance to the caster and an ally for 2 turns, and increases Combat Readiness by 30%.",
             "enhancement": [
                 { "description": "Acquire +1 soul", "resources": [{ "item": "gold", "qty": 37000 } , { "item": "path power loop", "qty": 5 } , { "item": "molagora", "qty": 3 }] },
-                { "description": "-1 turn cooldown", "resources": [{ "item": "gold", "qty": 160000 } , { "item": "nightmare mask", "qty": 2 } , { "item": "molagoragora", "qty": 1 }] }
+                { "description": "-1 turn cooldown", "resources": [{ "item": "gold", "qty": 100000 } , { "item": "nightmare mask", "qty": 2 } , { "item": "molagorago", "qty": 2 }] }
             ],
             "buffs": ["stic_atk_up", "stic_chc_up"],
             "debuffs": []
@@ -91,10 +91,10 @@
                 { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
                 { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2 }] },
                 { "description": "+10% effect chance", "resources": [{ "item": "gold", "qty": 12000 } , { "item": "molagora", "qty": 3 }] },
-                { "description": "-1 turn cooldown", "resources": [{ "item": "gold", "qty": 35000 } , { "item": "path power loop", "qty": 3 } , { "item": "molagorago", "qty": 1 }] },
-                { "description": "+15% effect chance", "resources": [{ "item": "gold", "qty": 60000 } , { "item": "path power loop", "qty": 4 } , { "item": "molagorago", "qty": 2 }] },
-		{ "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 75000 } , { "item": "path power loop", "qty": 7 } , { "item": "molagorago", "qty": 2 }] },
-		{ "description": "+15% damage dealt", "resources": [{ "item": "gold", "qty": 190000 } , { "item": "nightmare mask", "qty": 3 } , { "item": "molagoragora", "qty": 1 }] }
+                { "description": "-1 turn cooldown", "resources": [{ "item": "gold", "qty": 27000 } , { "item": "path power loop", "qty": 3 } , { "item": "molagora", "qty": 3 }] },
+                { "description": "+15% effect chance", "resources": [{ "item": "gold", "qty": 40000 } , { "item": "path power loop", "qty": 4 } , { "item": "molagora", "qty": 5 }] },
+		{ "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 55000 } , { "item": "path power loop", "qty": 7 } , { "item": "molagorago", "qty": 1 }] },
+		{ "description": "+15% damage dealt", "resources": [{ "item": "gold", "qty": 150000 } , { "item": "nightmare mask", "qty": 3 } , { "item": "molagorago", "qty": 3 }] }
             ],
             "buffs": ["stic_def_up"],
             "debuffs": ["stic_def_dn"]
