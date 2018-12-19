@@ -79,19 +79,35 @@
                 },
                 {
                     "description": "+5% effect chance",
-                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "archers-vision", "qty": 3 }, { "item": "gold", "qty": 27000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 3 },
+                        { "item": "archers-vision", "qty": 3 },
+                        { "item": "gold", "qty": 27000 }
+                    ]
                 },
                 {
                     "description": "+10% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 4 }, { "item": "archers-vision", "qty": 4 }, { "item": "gold", "qty": 36000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 4 },
+                        { "item": "archers-vision", "qty": 4 },
+                        { "item": "gold", "qty": 36000 }
+                    ]
                 },
                 {
                     "description": "+5% effect chance",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "archers-vision", "qty": 5 }, { "item": "gold", "qty": 45000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "archers-vision", "qty": 5 },
+                        { "item": "gold", "qty": 45000 }
+                    ]
                 },
                 {
                     "description": "+10% damage dealt",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "archers-vision", "qty": 6 }, { "item": "gold", "qty": 50000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "archers-vision", "qty": 6 },
+                        { "item": "gold", "qty": 50000 }
+                    ]
                 }
             ],
             "buffs": [],
@@ -118,19 +134,35 @@
                 },
                 {
                     "description": "+5% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "archers-vision", "qty": 1 }, { "item": "gold", "qty": 17000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 3 },
+                        { "item": "archers-vision", "qty": 1 },
+                        { "item": "gold", "qty": 17000 }
+                    ]
                 },
                 {
                     "description": "+5% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 5 }, { "item": "archers-vision", "qty": 2 }, { "item": "gold", "qty": 30000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 5 },
+                        { "item": "archers-vision", "qty": 2 },
+                        { "item": "gold", "qty": 30000 }
+                    ]
                 },
                 {
                     "description": "+5% damage dealt",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "archers-vision", "qty": 4 }, { "item": "gold", "qty": 40000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "archers-vision", "qty": 4 },
+                        { "item": "gold", "qty": 40000 }
+                    ]
                 },
                 {
                     "description": "+10% damage dealt",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "archers-vision", "qty": 6 }, { "item": "gold", "qty": 50000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "archers-vision", "qty": 6 },
+                        { "item": "gold", "qty": 50000 }
+                    ]
                 }
             ],
             "buffs": [],
@@ -149,11 +181,19 @@
             "enhancement": [
                 {
                     "description": "Acquire +1 Soul",
-                    "resources": [{ "item": "molagora", "qty": 2 }, { "item": "archers-vision", "qty": 2 }, { "item": "gold", "qty": 18000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 2 },
+                        { "item": "archers-vision", "qty": 2 },
+                        { "item": "gold", "qty": 18000 }
+                    ]
                 },
                 {
                     "description": "-1 turn cooldown",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "archers-vision", "qty": 3 }, { "item": "gold", "qty": 35000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "archers-vision", "qty": 3 },
+                        { "item": "gold", "qty": 35000 }
+                    ]
                 }
             ],
             "buffs": ["stic_att_up"],

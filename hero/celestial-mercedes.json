@@ -18,19 +18,19 @@
             "hero": "watcher-schuri",
             "relationType": "rival"
         },
-		{
+        {
             "hero": "mercedes",
             "relationType": "trust"
         },
-		{
+        {
             "hero": "assassin-cartuja",
             "relationType": "rival"
         },
-		{
+        {
             "hero": "purgis",
             "relationType": "grudge"
         },
-		{
+        {
             "hero": "mucacha",
             "relationType": "grudge"
         }
@@ -83,15 +83,27 @@
                 },
                 {
                     "description": "+10% effect chance",
-                    "resources": [{ "item": "molagora", "qty": 4 }, { "item": "sharp-spearhead", "qty": 1 }, { "item": "gold", "qty": 21000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 4 },
+                        { "item": "sharp-spearhead", "qty": 1 },
+                        { "item": "gold", "qty": 21000 }
+                    ]
                 },
                 {
                     "description": "+10% effect chance",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "sharp-spearhead", "qty": 3 }, { "item": "gold", "qty": 35000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "sharp-spearhead", "qty": 3 },
+                        { "item": "gold", "qty": 35000 }
+                    ]
                 },
-				{
+                {
                     "description": "+10% damage dealt",
-                    "resources": [{ "item": "molagoragora", "qty": 1 }, { "item": "black-curse-powder", "qty": 2 }, { "item": "gold", "qty": 160000 }]
+                    "resources": [
+                        { "item": "molagoragora", "qty": 1 },
+                        { "item": "black-curse-powder", "qty": 2 },
+                        { "item": "gold", "qty": 160000 }
+                    ]
                 }
             ],
             "buffs": [],
@@ -118,15 +130,27 @@
                 },
                 {
                     "description": "+10% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 4 }, { "item": "sharp-spearhead", "qty": 1 }, { "item": "gold", "qty": 21000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 4 },
+                        { "item": "sharp-spearhead", "qty": 1 },
+                        { "item": "gold", "qty": 21000 }
+                    ]
                 },
                 {
                     "description": "+10% damage dealt",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "sharp-spearhead", "qty": 3 }, { "item": "gold", "qty": 35000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "sharp-spearhead", "qty": 3 },
+                        { "item": "gold", "qty": 35000 }
+                    ]
                 },
-				{
+                {
                     "description": "+10% damage dealt",
-                    "resources": [{ "item": "molagoragora", "qty": 1 }, { "item": "black-curse-powder", "qty": 2 }, { "item": "gold", "qty": 160000 }]
+                    "resources": [
+                        { "item": "molagoragora", "qty": 1 },
+                        { "item": "black-curse-powder", "qty": 2 },
+                        { "item": "gold", "qty": 160000 }
+                    ]
                 }
             ],
             "buffs": [],
@@ -153,15 +177,27 @@
                 },
                 {
                     "description": "-1 turn cooldown",
-                    "resources": [{ "item": "molagora", "qty": 4 }, { "item": "sharp-spearhead", "qty": 1 }, { "item": "gold", "qty": 21000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 4 },
+                        { "item": "sharp-spearhead", "qty": 1 },
+                        { "item": "gold", "qty": 21000 }
+                    ]
                 },
                 {
                     "description": "+15% damage dealt",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "sharp-spearhead", "qty": 3 }, { "item": "gold", "qty": 35000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "sharp-spearhead", "qty": 3 },
+                        { "item": "gold", "qty": 35000 }
+                    ]
                 },
-				{
+                {
                     "description": "+15% damage dealt",
-                    "resources": [{ "item": "molagoragora", "qty": 1 }, { "item": "black-curse-powder", "qty": 2 }, { "item": "gold", "qty": 160000 }]
+                    "resources": [
+                        { "item": "molagoragora", "qty": 1 },
+                        { "item": "black-curse-powder", "qty": 2 },
+                        { "item": "gold", "qty": 160000 }
+                    ]
                 }
             ],
             "buffs": ["stic_att_inc"],
@@ -230,13 +266,11 @@
                 {
                     "atk": 20
                 },
-				{
+                {
                     "hp": 60
                 }
             ],
-            "resources": [
-                { "item": "dark-rune", "qty": 8 }
-            ]
+            "resources": [{ "item": "dark-rune", "qty": 8 }]
         },
         {
             "rank": 2,
@@ -248,14 +282,11 @@
                 {
                     "atk": 20
                 },
-				{
+                {
                     "hp": 60
                 }
             ],
-            "resources": [
-                { "item": "dark-rune", "qty": 12 },
-                { "item": "greater-dark-rune", "qty": 2 }
-            ]
+            "resources": [{ "item": "dark-rune", "qty": 12 }, { "item": "greater-dark-rune", "qty": 2 }]
         },
         {
             "rank": 3,
@@ -264,14 +295,11 @@
                 {
                     "atk": 20
                 },
-				{
+                {
                     "hp": 60
                 }
             ],
-            "resources": [
-                { "item": "dark-rune", "qty": 17 },
-                { "item": "greater-dark-rune", "qty": 8 }
-            ]
+            "resources": [{ "item": "dark-rune", "qty": 17 }, { "item": "greater-dark-rune", "qty": 8 }]
         },
         {
             "rank": 4,
@@ -283,14 +311,11 @@
                 {
                     "atk": 30
                 },
-				{
+                {
                     "hp": 80
                 }
             ],
-            "resources": [
-                { "item": "greater-dark-rune", "qty": 8 },
-                { "item": "epic-dark-rune", "qty": 1 }
-            ]
+            "resources": [{ "item": "greater-dark-rune", "qty": 8 }, { "item": "epic-dark-rune", "qty": 1 }]
         },
         {
             "rank": 5,
@@ -302,14 +327,11 @@
                 {
                     "atk": 30
                 },
-				{
+                {
                     "hp": 80
                 }
             ],
-            "resources": [
-                { "item": "epic-dark-rune", "qty": 5 },
-                { "item": "erikion-carapace", "qty": 12 }
-            ]
+            "resources": [{ "item": "epic-dark-rune", "qty": 5 }, { "item": "erikion-carapace", "qty": 12 }]
         },
         {
             "rank": 6,
@@ -321,14 +343,11 @@
                 {
                     "atk": 30
                 },
-				{
+                {
                     "hp": 80
                 }
             ],
-            "resources": [
-                { "item": "epic-dark-rune", "qty": 8 },
-                { "item": "black-curse-powder", "qty": 8 }
-            ]
+            "resources": [{ "item": "epic-dark-rune", "qty": 8 }, { "item": "black-curse-powder", "qty": 8 }]
         }
     ]
 }

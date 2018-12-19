@@ -53,25 +53,48 @@
             "name": "Key to an Oath",
             "soulAcquire": 1,
             "description": "Attacks the enemy with a staff and heals the ally with the lowest Health. Damage dealt increases proportional to the caster's max Health, and Healing increases proportional to the ally's max Health.",
-            "enhancement": [{
-                "description": "+5% damage dealt",
-                "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
-            }, {
-                "description": "+10% healing",
-                "resources": [{ "item": "molagora", "qty": 3 }, { "item": "gold", "qty": 12000 }]
-            }, {
-                "description": "+5% damage dealt",
-                "resources": [{ "item": "strange-jelly", "qty": 2 }, { "item": "molagora", "qty": 4 }, { "item": "gold", "qty": 26000 }]
-            }, {
-                "description": "+15% healing",
-                "resources": [{ "item": "strange-jelly", "qty": 4 }, { "item": "molagorago", "qty": 1 }, { "item": "gold", "qty": 26000 }]
-            }, {
-                "description": "+10% damage dealt",
-                "resources": [{ "item": "strange-jelly", "qty": 5 }, { "item": "molagorago", "qty": 2 }, { "item": "gold", "qty": 65000 }]
-            }, {
-                "description": "+15% damage dealt",
-                "resources": [{ "item": "ancient-creature-nucleus", "qty": 2 }, { "item": "molagoragora", "qty": 1 }, { "item": "gold", "qty": 160000 }]
-            }],
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+                },
+                {
+                    "description": "+10% healing",
+                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "gold", "qty": 12000 }]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        { "item": "strange-jelly", "qty": 2 },
+                        { "item": "molagora", "qty": 4 },
+                        { "item": "gold", "qty": 26000 }
+                    ]
+                },
+                {
+                    "description": "+15% healing",
+                    "resources": [
+                        { "item": "strange-jelly", "qty": 4 },
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "gold", "qty": 26000 }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        { "item": "strange-jelly", "qty": 5 },
+                        { "item": "molagorago", "qty": 2 },
+                        { "item": "gold", "qty": 65000 }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        { "item": "ancient-creature-nucleus", "qty": 2 },
+                        { "item": "molagoragora", "qty": 1 },
+                        { "item": "gold", "qty": 160000 }
+                    ]
+                }
+            ],
             "buffs": [],
             "debuffs": []
         },
@@ -85,28 +108,52 @@
             "name": "Light Pillar",
             "soulAcquire": 2,
             "description": "Summons a light pillar, dispelling all debuffs, recovering Health, and granting a barrier for 2 turns. Amount recovered and barrier strength increases proportional to the caster's max Health.",
-            "enhancement": [{
-                "description": "+5% healing",
-                "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
-            }, {
-                "description": "+5% healing",
-                "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 8000 }]
-            }, {
-                "description": "+5% healing",
-                "resources": [{ "item": "molagora", "qty": 3 }, { "item": "gold", "qty": 12000 }]
-            }, {
-                "description": "+5% healing",
-                "resources": [{ "item": "strange-jelly", "qty": 3 }, { "item": "molagorago", "qty": 1 }, { "item": "gold", "qty": 35000 }]
-            }, {
-                "description": "+5% healing",
-                "resources": [{ "item": "strange-jelly", "qty": 4 }, { "item": "molagorago", "qty": 1 }, { "item": "gold", "qty": 60000 }]
-            }, {
-                "description": "+5% healing",
-                "resources": [{ "item": "strange-jelly", "qty": 7 }, { "item": "molagorago", "qty": 2 }, { "item": "gold", "qty": 75000 }]
-            }, {
-                "description": "+10% healing",
-                "resources": [{ "item": "ancient-creature-nucleus", "qty": 3 }, { "item": "molagoragora", "qty": 1 }, { "item": "gold", "qty": 190000 }]
-            }],
+            "enhancement": [
+                {
+                    "description": "+5% healing",
+                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+                },
+                {
+                    "description": "+5% healing",
+                    "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 8000 }]
+                },
+                {
+                    "description": "+5% healing",
+                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "gold", "qty": 12000 }]
+                },
+                {
+                    "description": "+5% healing",
+                    "resources": [
+                        { "item": "strange-jelly", "qty": 3 },
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "gold", "qty": 35000 }
+                    ]
+                },
+                {
+                    "description": "+5% healing",
+                    "resources": [
+                        { "item": "strange-jelly", "qty": 4 },
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "gold", "qty": 60000 }
+                    ]
+                },
+                {
+                    "description": "+5% healing",
+                    "resources": [
+                        { "item": "strange-jelly", "qty": 7 },
+                        { "item": "molagorago", "qty": 2 },
+                        { "item": "gold", "qty": 75000 }
+                    ]
+                },
+                {
+                    "description": "+10% healing",
+                    "resources": [
+                        { "item": "ancient-creature-nucleus", "qty": 3 },
+                        { "item": "molagoragora", "qty": 1 },
+                        { "item": "gold", "qty": 190000 }
+                    ]
+                }
+            ],
             "buffs": ["stic_protect"],
             "debuffs": []
         },
@@ -120,13 +167,24 @@
             "name": "Light Ascending",
             "soulAcquire": 2,
             "description": "Revives one dead ally with healing magic, recovering 100% of their Health and granting them invincibility for 1 turn. Living allies will receive the same effect.",
-            "enhancement": [{
-                "description": "Acquire +1 Soul",
-                "resources": [{ "item": "strange-jelly", "qty": 5 }, { "item": "molagora", "qty": 3 }, { "item": "gold", "qty": 19000 }]
-            }, {
-                "description": "-1 turn cooldown",
-                "resources": [{ "item": "ancient-creature-nucleus", "qty": 2 }, { "item": "molagoragora", "qty": 1 }, { "item": "gold", "qty": 160000 }]
-            }],
+            "enhancement": [
+                {
+                    "description": "Acquire +1 Soul",
+                    "resources": [
+                        { "item": "strange-jelly", "qty": 5 },
+                        { "item": "molagora", "qty": 3 },
+                        { "item": "gold", "qty": 19000 }
+                    ]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        { "item": "ancient-creature-nucleus", "qty": 2 },
+                        { "item": "molagoragora", "qty": 1 },
+                        { "item": "gold", "qty": 160000 }
+                    ]
+                }
+            ],
             "buffs": ["stic_invincible"],
             "debuffs": []
         }

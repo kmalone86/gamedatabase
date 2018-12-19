@@ -18,7 +18,7 @@
             "hero": "judith",
             "relationType": "trust"
         },
-		{
+        {
             "hero": "serila",
             "relationType": "longing"
         }
@@ -71,15 +71,27 @@
                 },
                 {
                     "description": "+10% effect chance",
-                    "resources": [{ "item": "molagora", "qty": 4 }, { "item": "baby-mouse-insignia", "qty": 3 }, { "item": "gold", "qty": 31000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 4 },
+                        { "item": "baby-mouse-insignia", "qty": 3 },
+                        { "item": "gold", "qty": 31000 }
+                    ]
                 },
                 {
                     "description": "+15% effect chance",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "baby-mouse-insignia", "qty": 4 }, { "item": "gold", "qty": 40000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "baby-mouse-insignia", "qty": 4 },
+                        { "item": "gold", "qty": 40000 }
+                    ]
                 },
-				{
+                {
                     "description": "+15% damage dealt",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "baby-mouse-insignia", "qty": 5 }, { "item": "gold", "qty": 45000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "baby-mouse-insignia", "qty": 5 },
+                        { "item": "gold", "qty": 45000 }
+                    ]
                 }
             ],
             "buffs": [],
@@ -106,15 +118,27 @@
                 },
                 {
                     "description": "-1 turn cooldown",
-                    "resources": [{ "item": "molagora", "qty": 4 }, { "item": "baby-mouse-insignia", "qty": 3 }, { "item": "gold", "qty": 31000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 4 },
+                        { "item": "baby-mouse-insignia", "qty": 3 },
+                        { "item": "gold", "qty": 31000 }
+                    ]
                 },
                 {
                     "description": "+15% healing",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "baby-mouse-insignia", "qty": 4 }, { "item": "gold", "qty": 40000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "baby-mouse-insignia", "qty": 4 },
+                        { "item": "gold", "qty": 40000 }
+                    ]
                 },
-				{
+                {
                     "description": "+15% healing",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "baby-mouse-insignia", "qty": 5 }, { "item": "gold", "qty": 45000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "baby-mouse-insignia", "qty": 5 },
+                        { "item": "gold", "qty": 45000 }
+                    ]
                 }
             ],
             "buffs": ["stic_heal", "stic_def_up"],
@@ -141,15 +165,27 @@
                 },
                 {
                     "description": "+10% healing",
-                    "resources": [{ "item": "molagora", "qty": 4 }, { "item": "baby-mouse-insignia", "qty": 3 }, { "item": "gold", "qty": 31000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 4 },
+                        { "item": "baby-mouse-insignia", "qty": 3 },
+                        { "item": "gold", "qty": 31000 }
+                    ]
                 },
                 {
                     "description": "+15% healing",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "baby-mouse-insignia", "qty": 4 }, { "item": "gold", "qty": 40000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "baby-mouse-insignia", "qty": 4 },
+                        { "item": "gold", "qty": 40000 }
+                    ]
                 },
-				{
+                {
                     "description": "+15% healing",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "baby-mouse-insignia", "qty": 5 }, { "item": "gold", "qty": 45000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "baby-mouse-insignia", "qty": 5 },
+                        { "item": "gold", "qty": 45000 }
+                    ]
                 }
             ],
             "buffs": [],
@@ -171,7 +207,7 @@
                 "increase": 120
             }
         },
-		{
+        {
             "rank": "c",
             "status": {
                 "type": "hp",
@@ -225,13 +261,11 @@
                 {
                     "atk": 20
                 },
-				{
+                {
                     "hp": 60
                 }
             ],
-            "resources": [
-                { "item": "light-rune", "qty": 5 }
-            ]
+            "resources": [{ "item": "light-rune", "qty": 5 }]
         },
         {
             "rank": 2,
@@ -243,13 +277,11 @@
                 {
                     "atk": 20
                 },
-				{
+                {
                     "hp": 60
                 }
             ],
-            "resources": [
-                { "item": "light-rune", "qty": 9 }
-            ]
+            "resources": [{ "item": "light-rune", "qty": 9 }]
         },
         {
             "rank": 3,
@@ -258,14 +290,11 @@
                 {
                     "atk": 20
                 },
-				{
+                {
                     "hp": 60
                 }
             ],
-            "resources": [
-                { "item": "light-rune", "qty": 12 },
-                { "item": "greater-light-rune", "qty": 6 }
-            ]
+            "resources": [{ "item": "light-rune", "qty": 12 }, { "item": "greater-light-rune", "qty": 6 }]
         },
         {
             "rank": 4,
@@ -277,13 +306,11 @@
                 {
                     "atk": 30
                 },
-				{
+                {
                     "hp": 80
                 }
             ],
-            "resources": [
-                { "item": "greater-light-rune", "qty": 15 }
-            ]
+            "resources": [{ "item": "greater-light-rune", "qty": 15 }]
         },
         {
             "rank": 5,
@@ -295,14 +322,11 @@
                 {
                     "atk": 30
                 },
-				{
+                {
                     "hp": 80
                 }
             ],
-            "resources": [
-                { "item": "epic-light-rune", "qty": 4 },
-                { "item": "special-alarm-loop", "qty": 9 }
-            ]
+            "resources": [{ "item": "epic-light-rune", "qty": 4 }, { "item": "special-alarm-loop", "qty": 9 }]
         },
         {
             "rank": 6,
@@ -314,14 +338,11 @@
                 {
                     "atk": 30
                 },
-				{
+                {
                     "hp": 80
                 }
             ],
-            "resources": [
-                { "item": "epic-light-rune", "qty": 6 },
-                { "item": "the-heart-of-hypocrisy", "qty": 6 }
-            ]
+            "resources": [{ "item": "epic-light-rune", "qty": 6 }, { "item": "the-heart-of-hypocrisy", "qty": 6 }]
         }
     ]
 }

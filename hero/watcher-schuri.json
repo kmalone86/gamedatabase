@@ -9,10 +9,7 @@
     "background": [
         "A member of the Sicar assasin organization. Watcher Schuri is an oustanding fighter, but ignorant of the ways of the world. Though his rigid way of speaking gives of an air of unapproachability, he is surprisingly straightforward and open to granting people's requests. However, he hides a secret he cannot share with others."
     ],
-    "relations": [
-        { "hero": "haste", "relationType": "trust" },
-        { "hero": "assasin cartuja", "relationType": "trust" }
-    ],
+    "relations": [{ "hero": "haste", "relationType": "trust" }, { "hero": "assasin cartuja", "relationType": "trust" }],
     "stats": {
         "base": {
             "cp": 1207,
@@ -51,11 +48,38 @@
             "soulAcquire": 1,
             "description": "Shoots the enemy with a rifle, with a 35% chance to target them for 2 turns.",
             "enhancement": [
-                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
-                { "description": "+5% effect chance", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2}] },
-                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 17000 } , { "item": "sharp-spearhead", "qty": 1} , { "item": "molagora", "qty": 3 }] },
-                { "description": "+10% effect chance", "resources": [{ "item": "gold", "qty": 35000 } , { "item": "sharp-spearhead", "qty": 3} , { "item": "molagorago", "qty": 1 }] },
-                { "description": "+15% damage dealt", "resources": [{ "item": "gold", "qty": 100000 } , { "item": "black-powder-curse", "qty": 2} , { "item": "molagorago", "qty": 2 }] }
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "gold", "qty": 4000 }, { "item": "molagora", "qty": 1 }]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [{ "item": "gold", "qty": 8000 }, { "item": "molagora", "qty": 2 }]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        { "item": "gold", "qty": 17000 },
+                        { "item": "sharp-spearhead", "qty": 1 },
+                        { "item": "molagora", "qty": 3 }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        { "item": "gold", "qty": 35000 },
+                        { "item": "sharp-spearhead", "qty": 3 },
+                        { "item": "molagorago", "qty": 1 }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        { "item": "gold", "qty": 100000 },
+                        { "item": "black-powder-curse", "qty": 2 },
+                        { "item": "molagorago", "qty": 2 }
+                    ]
+                }
             ],
             "buffs": [],
             "debuffs": ["stic_sign"]
@@ -70,11 +94,38 @@
             "soulAcquire": 2,
             "description": "Shots all enemies with a rifle, with a 75% chance to dispell one buff. The caster is granted increased speed for 2 turns.",
             "enhancement": [
-                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
-                { "description": "+10% effect chance", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2}] },
-                { "description": "-1 turn cooldown", "resources": [{ "item": "gold", "qty": 17000 } , { "item": "sharp-spearhead", "qty": 1} , { "item": "molagora", "qty": 3 }] },
-                { "description": "+15% effect chance", "resources": [{ "item": "gold", "qty": 35000 } , { "item": "sharp-spearhead", "qty": 3} , { "item": "molagorago", "qty": 1 }] },
-                { "description": "+15% damage dealt", "resources": [{ "item": "gold", "qty": 100000 } , { "item": "black-powder-curse", "qty": 2} , { "item": "molagorago", "qty": 2 }] }
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [{ "item": "gold", "qty": 4000 }, { "item": "molagora", "qty": 1 }]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [{ "item": "gold", "qty": 8000 }, { "item": "molagora", "qty": 2 }]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        { "item": "gold", "qty": 17000 },
+                        { "item": "sharp-spearhead", "qty": 1 },
+                        { "item": "molagora", "qty": 3 }
+                    ]
+                },
+                {
+                    "description": "+15% effect chance",
+                    "resources": [
+                        { "item": "gold", "qty": 35000 },
+                        { "item": "sharp-spearhead", "qty": 3 },
+                        { "item": "molagorago", "qty": 1 }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        { "item": "gold", "qty": 100000 },
+                        { "item": "black-powder-curse", "qty": 2 },
+                        { "item": "molagorago", "qty": 2 }
+                    ]
+                }
             ],
             "buffs": ["stic_spd_up"],
             "debuffs": []
@@ -89,11 +140,38 @@
             "soulAcquire": 2,
             "description": "Shoots a magic bullet at the enemy, penetrating their Defense.",
             "enhancement": [
-                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
-                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2}] },
-                { "description": "-1 turn cooldown", "resources": [{ "item": "gold", "qty": 17000 } , { "item": "sharp-spearhead", "qty": 1} , { "item": "molagora", "qty": 3 }] },
-                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 35000 } , { "item": "sharp-spearhead", "qty": 3} , { "item": "molagorago", "qty": 1 }] },
-                { "description": "+15% damage dealt", "resources": [{ "item": "gold", "qty": 100000 } , { "item": "black-powder-curse", "qty": 2} , { "item": "molagorago", "qty": 2 }] }
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "gold", "qty": 4000 }, { "item": "molagora", "qty": 1 }]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "gold", "qty": 8000 }, { "item": "molagora", "qty": 2 }]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        { "item": "gold", "qty": 17000 },
+                        { "item": "sharp-spearhead", "qty": 1 },
+                        { "item": "molagora", "qty": 3 }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        { "item": "gold", "qty": 35000 },
+                        { "item": "sharp-spearhead", "qty": 3 },
+                        { "item": "molagorago", "qty": 1 }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        { "item": "gold", "qty": 100000 },
+                        { "item": "black-powder-curse", "qty": 2 },
+                        { "item": "molagorago", "qty": 2 }
+                    ]
+                }
             ],
             "buffs": [],
             "debuffs": []

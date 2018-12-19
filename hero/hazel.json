@@ -18,11 +18,11 @@
             "hero": "carrot",
             "relationType": "trust"
         },
-		{
+        {
             "hero": "adlay",
             "relationType": "trust"
         },
-		{
+        {
             "hero": "karin",
             "relationType": "rival"
         }
@@ -71,15 +71,27 @@
                 },
                 {
                     "description": "+5% effect chance",
-                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "leather-sheath", "qty": 2 }, { "item": "gold", "qty": 22000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 3 },
+                        { "item": "leather-sheath", "qty": 2 },
+                        { "item": "gold", "qty": 22000 }
+                    ]
                 },
                 {
                     "description": "+15% effect chance",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "leather-sheath", "qty": 3 }, { "item": "gold", "qty": 35000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "leather-sheath", "qty": 3 },
+                        { "item": "gold", "qty": 35000 }
+                    ]
                 },
                 {
                     "description": "+15% damage dealt",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "leather-sheath", "qty": 4 }, { "item": "gold", "qty": 40000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "leather-sheath", "qty": 4 },
+                        { "item": "gold", "qty": 40000 }
+                    ]
                 }
             ],
             "buffs": [],
@@ -102,15 +114,27 @@
                 },
                 {
                     "description": "+10% healing",
-                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "leather-sheath", "qty": 2 }, { "item": "gold", "qty": 22000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 3 },
+                        { "item": "leather-sheath", "qty": 2 },
+                        { "item": "gold", "qty": 22000 }
+                    ]
                 },
                 {
                     "description": "+10% healing",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "leather-sheath", "qty": 3 }, { "item": "gold", "qty": 35000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "leather-sheath", "qty": 3 },
+                        { "item": "gold", "qty": 35000 }
+                    ]
                 },
                 {
                     "description": "+15% healing",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "leather-sheath", "qty": 4 }, { "item": "gold", "qty": 40000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "leather-sheath", "qty": 4 },
+                        { "item": "gold", "qty": 40000 }
+                    ]
                 }
             ],
             "buffs": [],
@@ -135,25 +159,41 @@
                     "description": "+5% healing",
                     "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 8000 }]
                 },
-				{
+                {
                     "description": "+5% healing",
                     "resources": [{ "item": "molagora", "qty": 3 }, { "item": "gold", "qty": 12000 }]
                 },
                 {
                     "description": "-1 turn cooldown",
-                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "leather-sheath", "qty": 3 }, { "item": "gold", "qty": 27000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 3 },
+                        { "item": "leather-sheath", "qty": 3 },
+                        { "item": "gold", "qty": 27000 }
+                    ]
                 },
                 {
                     "description": "+10% healing",
-                    "resources": [{ "item": "molagora", "qty": 4 }, { "item": "leather-sheath", "qty": 4 }, { "item": "gold", "qty": 36000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 4 },
+                        { "item": "leather-sheath", "qty": 4 },
+                        { "item": "gold", "qty": 36000 }
+                    ]
                 },
-				{
+                {
                     "description": "+10% healing",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "leather-sheath", "qty": 5 }, { "item": "gold", "qty": 45000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "leather-sheath", "qty": 5 },
+                        { "item": "gold", "qty": 45000 }
+                    ]
                 },
-				{
+                {
                     "description": "+15% healing",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "leather-sheath", "qty": 6 }, { "item": "gold", "qty": 50000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "leather-sheath", "qty": 6 },
+                        { "item": "gold", "qty": 50000 }
+                    ]
                 }
             ],
             "buffs": ["stic_att_up"],
@@ -175,7 +215,7 @@
                 "increase": 24
             }
         },
-		{
+        {
             "rank": "c",
             "status": {
                 "type": "atk",
@@ -229,13 +269,11 @@
                 {
                     "atk": 20
                 },
-				{
+                {
                     "hp": 60
                 }
             ],
-            "resources": [
-                { "item": "flame-rune", "qty": 5 }
-            ]
+            "resources": [{ "item": "flame-rune", "qty": 5 }]
         },
         {
             "rank": 2,
@@ -247,13 +285,11 @@
                 {
                     "atk": 20
                 },
-				{
+                {
                     "hp": 60
                 }
             ],
-            "resources": [
-                { "item": "flame-rune", "qty": 9 }
-            ]
+            "resources": [{ "item": "flame-rune", "qty": 9 }]
         },
         {
             "rank": 3,
@@ -262,14 +298,11 @@
                 {
                     "atk": 20
                 },
-				{
+                {
                     "hp": 60
                 }
             ],
-            "resources": [
-                { "item": "flame-rune", "qty": 12 },
-                { "item": "greater-flame-rune", "qty": 6 }
-            ]
+            "resources": [{ "item": "flame-rune", "qty": 12 }, { "item": "greater-flame-rune", "qty": 6 }]
         },
         {
             "rank": 4,
@@ -281,13 +314,11 @@
                 {
                     "atk": 30
                 },
-				{
+                {
                     "hp": 80
                 }
             ],
-            "resources": [
-                { "item": "greater-flame-rune", "qty": 15 }
-            ]
+            "resources": [{ "item": "greater-flame-rune", "qty": 15 }]
         },
         {
             "rank": 5,
@@ -299,14 +330,11 @@
                 {
                     "atk": 30
                 },
-				{
+                {
                     "hp": 80
                 }
             ],
-            "resources": [
-                { "item": "epic-flame-rune", "qty": 4 },
-                { "item": "order-of-the-shield-insignia", "qty": 9 }
-            ]
+            "resources": [{ "item": "epic-flame-rune", "qty": 4 }, { "item": "order-of-the-shield-insignia", "qty": 9 }]
         },
         {
             "rank": 6,
@@ -318,14 +346,11 @@
                 {
                     "atk": 30
                 },
-				{
+                {
                     "hp": 80
                 }
             ],
-            "resources": [
-                { "item": "epic-flame-rune", "qty": 6 },
-                { "item": "fighter-medal", "qty": 6 }
-            ]
+            "resources": [{ "item": "epic-flame-rune", "qty": 6 }, { "item": "fighter-medal", "qty": 6 }]
         }
     ]
 }

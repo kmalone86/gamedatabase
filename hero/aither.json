@@ -55,19 +55,36 @@
             "name": "Whispering Spirit",
             "soulAcquire": 1,
             "description": "Attacks with spirit power, with a 25% chance to decrease Speed for 2 turns.",
-            "enhancement": [{
-                "description": "+10% damage dealt",
-                "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
-            },{
-                "description": "+10% effect chance",
-                "resources": [{ "item": "molagora", "qty": 3 }, { "item": "mysterious-flash", "qty": 2 }, { "item": "gold", "qty": 22000 }]
-            },{
-                "description": "+15% effect chance",
-                "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "mysterious-flash", "qty": 3 }, { "item": "gold", "qty": 35000 }]
-            },{
-                "description": "+15% damage dealt",
-                "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "mysterious-flash", "qty": 4 }, { "item": "gold", "qty": 40000 }]
-            }],
+            "enhancement": [
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        { "item": "molagora", "qty": 3 },
+                        { "item": "mysterious-flash", "qty": 2 },
+                        { "item": "gold", "qty": 22000 }
+                    ]
+                },
+                {
+                    "description": "+15% effect chance",
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "mysterious-flash", "qty": 3 },
+                        { "item": "gold", "qty": 35000 }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "mysterious-flash", "qty": 4 },
+                        { "item": "gold", "qty": 40000 }
+                    ]
+                }
+            ],
             "buffs": [],
             "debuffs": ["stic_speed_dn"]
         },
@@ -81,19 +98,36 @@
             "name": "Guard",
             "soulAcquire": 1,
             "description": "Recovers the ally's Health with water energy. Amount recovered is proportional to Attack.",
-            "enhancement": [{
-                "description": "+5% healing",
-                "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
-            },{
-                "description": "+5% healing",
-                "resources": [{ "item": "molagora", "qty": 3 }, { "item": "mysterious-flash", "qty": 2 }, { "item": "gold", "qty": 22000 }]
-            },{
-                "description": "+10% healing",
-                "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "mysterious-flash", "qty": 3 }, { "item": "gold", "qty": 35000 }]
-            },{
-                "description": "+10% healing",
-                "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "mysterious-flash", "qty": 4 }, { "item": "gold", "qty": 40000 }]
-}],
+            "enhancement": [
+                {
+                    "description": "+5% healing",
+                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+                },
+                {
+                    "description": "+5% healing",
+                    "resources": [
+                        { "item": "molagora", "qty": 3 },
+                        { "item": "mysterious-flash", "qty": 2 },
+                        { "item": "gold", "qty": 22000 }
+                    ]
+                },
+                {
+                    "description": "+10% healing",
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "mysterious-flash", "qty": 3 },
+                        { "item": "gold", "qty": 35000 }
+                    ]
+                },
+                {
+                    "description": "+10% healing",
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "mysterious-flash", "qty": 4 },
+                        { "item": "gold", "qty": 40000 }
+                    ]
+                }
+            ],
             "buffs": [],
             "debuffs": []
         },
@@ -107,28 +141,52 @@
             "name": "Spirit's Call",
             "soulAcquire": 2,
             "description": "Recovers Health of all allies and casts a barrier for 2 turns with spirit power. Amount recovered and barrier strength is proportional to the caster's Attack.",
-            "enhancement": [{
-                "description": "+5% healing",
-                "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
-            },{
-                "description": "+5% healing",
-                "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 8000 }]
-            },{
-                "description": "+5% healing",
-                "resources": [{ "item": "molagora", "qty": 3 }, { "item": "gold", "qty": 12000 }]
-            },{
-                "description": "-1 turn cooldown",
-                "resources": [{ "item": "molagora", "qty": 3 }, { "item": "mysterious-flash", "qty": 3 }, { "item": "gold", "qty": 27000 }]
-            },{
-                "description": "+5% healing",
-                "resources": [{ "item": "molagora", "qty": 4 }, { "item": "mysterious-flash", "qty": 4 }, { "item": "gold", "qty": 36000 }]
-            },{
-                "description": "+10% healing",
-                "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "mysterious-flash", "qty": 5 }, { "item": "gold", "qty": 45000 }]
-            },{
-                "description": "+10% healing",
-                "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "mysterious-flash", "qty": 6 }, { "item": "gold", "qty": 50000 }]
-            }],
+            "enhancement": [
+                {
+                    "description": "+5% healing",
+                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+                },
+                {
+                    "description": "+5% healing",
+                    "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 8000 }]
+                },
+                {
+                    "description": "+5% healing",
+                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "gold", "qty": 12000 }]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        { "item": "molagora", "qty": 3 },
+                        { "item": "mysterious-flash", "qty": 3 },
+                        { "item": "gold", "qty": 27000 }
+                    ]
+                },
+                {
+                    "description": "+5% healing",
+                    "resources": [
+                        { "item": "molagora", "qty": 4 },
+                        { "item": "mysterious-flash", "qty": 4 },
+                        { "item": "gold", "qty": 36000 }
+                    ]
+                },
+                {
+                    "description": "+10% healing",
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "mysterious-flash", "qty": 5 },
+                        { "item": "gold", "qty": 45000 }
+                    ]
+                },
+                {
+                    "description": "+10% healing",
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "mysterious-flash", "qty": 6 },
+                        { "item": "gold", "qty": 50000 }
+                    ]
+                }
+            ],
             "buffs": ["stic_protect"],
             "debuffs": []
         }

@@ -52,11 +52,38 @@
             "soulAcquire": 1,
             "description": "Attacks with a dagger. A critical hit will increase speed of the caster for 2 turns. Damage dealt increases proportional to the caster's speed",
             "enhancement": [
-                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
-                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2}] },
-                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 17000 } , { "item": "path power loop", "qty": 1} , { "item": "molagora", "qty": 3 }] },
-                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 35000 } , { "item": "path power loop", "qty": 3} , { "item": "molagorago", "qty": 1 }] },
-                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 100000 } , { "item": "nightmare mask", "qty": 2} , { "item": "molagorago", "qty": 2 }] }
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "gold", "qty": 4000 }, { "item": "molagora", "qty": 1 }]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "gold", "qty": 8000 }, { "item": "molagora", "qty": 2 }]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        { "item": "gold", "qty": 17000 },
+                        { "item": "path power loop", "qty": 1 },
+                        { "item": "molagora", "qty": 3 }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        { "item": "gold", "qty": 35000 },
+                        { "item": "path power loop", "qty": 3 },
+                        { "item": "molagorago", "qty": 1 }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        { "item": "gold", "qty": 100000 },
+                        { "item": "nightmare mask", "qty": 2 },
+                        { "item": "molagorago", "qty": 2 }
+                    ]
+                }
             ],
             "buffs": ["stic_spd_up"],
             "debuffs": []
@@ -71,11 +98,38 @@
             "soulAcquire": 0,
             "description": "Enhances Relentless Strike, increasing Damage dealt, when the caster is granted increased speed, and decreases defense of the enemy for 1 turn.",
             "enhancement": [
-                { "description": "+5% damage dealt by Relentless Strike", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
-                { "description": "+5% damage dealt by Relentless Strike", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2 }] },
-                { "description": "+5% damage dealt by Relentless Strike", "resources": [{ "item": "gold", "qty": 17000 } , { "item": "path power loop", "qty": 1} , { "item": "molagora", "qty": 3 }] },
-                { "description": "+10% damage dealt by Relentless Strike", "resources": [{ "item": "gold", "qty": 35000 } , { "item": "path power loop", "qty": 3} , { "item": "molagorago", "qty": 1 }] },
-                { "description": "+15% damage dealt by Relentless Strike", "resources": [{ "item": "gold", "qty": 100000 } , { "item": "nightmare mask", "qty": 2} , { "item": "molagoragora", "qty": 2 }] }
+                {
+                    "description": "+5% damage dealt by Relentless Strike",
+                    "resources": [{ "item": "gold", "qty": 4000 }, { "item": "molagora", "qty": 1 }]
+                },
+                {
+                    "description": "+5% damage dealt by Relentless Strike",
+                    "resources": [{ "item": "gold", "qty": 8000 }, { "item": "molagora", "qty": 2 }]
+                },
+                {
+                    "description": "+5% damage dealt by Relentless Strike",
+                    "resources": [
+                        { "item": "gold", "qty": 17000 },
+                        { "item": "path power loop", "qty": 1 },
+                        { "item": "molagora", "qty": 3 }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt by Relentless Strike",
+                    "resources": [
+                        { "item": "gold", "qty": 35000 },
+                        { "item": "path power loop", "qty": 3 },
+                        { "item": "molagorago", "qty": 1 }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt by Relentless Strike",
+                    "resources": [
+                        { "item": "gold", "qty": 100000 },
+                        { "item": "nightmare mask", "qty": 2 },
+                        { "item": "molagoragora", "qty": 2 }
+                    ]
+                }
             ],
             "buffs": ["stic_spd_up"],
             "debuffs": []
@@ -90,11 +144,38 @@
             "soulAcquire": 2,
             "description": "Cuts with a dagger, granting an extra turn if they enemy is defeated. Attacks using an adventageous element when the caster is granted increased Speed. Damage dealt increases proportional to caster's speed.",
             "enhancement": [
-                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
-                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2}] },
-                { "description": "-1 turn cooldown", "resources": [{ "item": "gold", "qty": 17000 } , { "item": "path power loop", "qty": 1} , { "item": "molagora", "qty": 3 }] },
-                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 35000 } , { "item": "path power loop", "qty": 3} , { "item": "molagorago", "qty": 1 }] },
-                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 100000 } , { "item": "nightmare mask", "qty": 2} , { "item": "molagoragora", "qty": 2 }] }
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "gold", "qty": 4000 }, { "item": "molagora", "qty": 1 }]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "gold", "qty": 8000 }, { "item": "molagora", "qty": 2 }]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        { "item": "gold", "qty": 17000 },
+                        { "item": "path power loop", "qty": 1 },
+                        { "item": "molagora", "qty": 3 }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        { "item": "gold", "qty": 35000 },
+                        { "item": "path power loop", "qty": 3 },
+                        { "item": "molagorago", "qty": 1 }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        { "item": "gold", "qty": 100000 },
+                        { "item": "nightmare mask", "qty": 2 },
+                        { "item": "molagoragora", "qty": 2 }
+                    ]
+                }
             ],
             "buffs": ["stic_spd_up"],
             "debuffs": []

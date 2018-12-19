@@ -75,15 +75,27 @@
                 },
                 {
                     "description": "+10% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 4 }, { "item": "mysterious-flash", "qty": 3 }, { "item": "gold", "qty": 31000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 4 },
+                        { "item": "mysterious-flash", "qty": 3 },
+                        { "item": "gold", "qty": 31000 }
+                    ]
                 },
                 {
                     "description": "+10% damage dealt",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "mysterious-flash", "qty": 4 }, { "item": "gold", "qty": 40000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "mysterious-flash", "qty": 4 },
+                        { "item": "gold", "qty": 40000 }
+                    ]
                 },
                 {
                     "description": "+15% damage dealt",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "mysterious-flash", "qty": 5 }, { "item": "gold", "qty": 45000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "mysterious-flash", "qty": 5 },
+                        { "item": "gold", "qty": 45000 }
+                    ]
                 }
             ],
             "buffs": [],
@@ -110,15 +122,27 @@
                 },
                 {
                     "description": "+5% Attack",
-                    "resources": [{ "item": "molagora", "qty": 4 }, { "item": "mysterious-flash", "qty": 3 }, { "item": "gold", "qty": 31000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 4 },
+                        { "item": "mysterious-flash", "qty": 3 },
+                        { "item": "gold", "qty": 31000 }
+                    ]
                 },
                 {
                     "description": "+5% Attack",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "mysterious-flash", "qty": 4 }, { "item": "gold", "qty": 40000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "mysterious-flash", "qty": 4 },
+                        { "item": "gold", "qty": 40000 }
+                    ]
                 },
                 {
                     "description": "+5% Attack",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "mysterious-flash", "qty": 5 }, { "item": "gold", "qty": 45000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "mysterious-flash", "qty": 5 },
+                        { "item": "gold", "qty": 45000 }
+                    ]
                 }
             ],
             "buffs": [],
@@ -145,15 +169,27 @@
                 },
                 {
                     "description": "-1 turn cooldown",
-                    "resources": [{ "item": "molagora", "qty": 4 }, { "item": "mysterious-flash", "qty": 3 }, { "item": "gold", "qty": 31000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 4 },
+                        { "item": "mysterious-flash", "qty": 3 },
+                        { "item": "gold", "qty": 31000 }
+                    ]
                 },
                 {
                     "description": "+10% damage dealt",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "mysterious-flash", "qty": 4 }, { "item": "gold", "qty": 40000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "mysterious-flash", "qty": 4 },
+                        { "item": "gold", "qty": 40000 }
+                    ]
                 },
                 {
                     "description": "+15% damage dealt",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "mysterious-flash", "qty": 5 }, { "item": "gold", "qty": 45000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "mysterious-flash", "qty": 5 },
+                        { "item": "gold", "qty": 45000 }
+                    ]
                 }
             ],
             "buffs": [],

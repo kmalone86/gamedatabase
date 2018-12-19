@@ -67,19 +67,35 @@
                 },
                 {
                     "description": "+10% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "twisted-fang", "qty": 1 }, { "item": "gold", "qty": 17000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 3 },
+                        { "item": "twisted-fang", "qty": 1 },
+                        { "item": "gold", "qty": 17000 }
+                    ]
                 },
                 {
                     "description": "+5% effect chance",
-                    "resources": [{ "item": "molagora", "qty": 5 }, { "item": "twisted-fang", "qty": 2 }, { "item": "gold", "qty": 30000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 5 },
+                        { "item": "twisted-fang", "qty": 2 },
+                        { "item": "gold", "qty": 30000 }
+                    ]
                 },
                 {
                     "description": "+5% effect chance",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "twisted-fang", "qty": 4 }, { "item": "gold", "qty": 40000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "twisted-fang", "qty": 4 },
+                        { "item": "gold", "qty": 40000 }
+                    ]
                 },
                 {
                     "description": "+15% damage dealt",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "twisted-fang", "qty": 6 }, { "item": "gold", "qty": 50000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "twisted-fang", "qty": 6 },
+                        { "item": "gold", "qty": 50000 }
+                    ]
                 }
             ],
             "buffs": [],
@@ -98,15 +114,27 @@
             "enhancement": [
                 {
                     "description": "-5% damage received limit",
-                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "twisted-fang", "qty": 2 }, { "item": "gold", "qty": 14000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 1 },
+                        { "item": "twisted-fang", "qty": 2 },
+                        { "item": "gold", "qty": 14000 }
+                    ]
                 },
                 {
                     "description": "-5% damage received limit",
-                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "twisted-fang", "qty": 3 }, { "item": "gold", "qty": 27000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 3 },
+                        { "item": "twisted-fang", "qty": 3 },
+                        { "item": "gold", "qty": 27000 }
+                    ]
                 },
                 {
                     "description": "-5% damage received limit",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "twisted-fang", "qty": 5 }, { "item": "gold", "qty": 45000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "twisted-fang", "qty": 5 },
+                        { "item": "gold", "qty": 45000 }
+                    ]
                 }
             ],
             "buffs": [],
@@ -133,19 +161,35 @@
                 },
                 {
                     "description": "-1 turn cooldown",
-                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "twisted-fang", "qty": 1 }, { "item": "gold", "qty": 17000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 3 },
+                        { "item": "twisted-fang", "qty": 1 },
+                        { "item": "gold", "qty": 17000 }
+                    ]
                 },
                 {
                     "description": "+10% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 5 }, { "item": "twisted-fang", "qty": 2 }, { "item": "gold", "qty": 30000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 5 },
+                        { "item": "twisted-fang", "qty": 2 },
+                        { "item": "gold", "qty": 30000 }
+                    ]
                 },
                 {
                     "description": "+10% damage dealt",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "twisted-fang", "qty": 4 }, { "item": "gold", "qty": 40000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "twisted-fang", "qty": 4 },
+                        { "item": "gold", "qty": 40000 }
+                    ]
                 },
                 {
                     "description": "+15% damage dealt",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "twisted-fang", "qty": 6 }, { "item": "gold", "qty": 50000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "twisted-fang", "qty": 6 },
+                        { "item": "gold", "qty": 50000 }
+                    ]
                 }
             ],
             "buffs": [],

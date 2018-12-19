@@ -83,7 +83,7 @@
                 {
                     "description": "+10% damage dealt",
                     "resources": [{ "item": "", "qty": 0 }, { "item": "gold", "qty": 0 }]
-                }                                                            
+                }
             ],
             "buffs": [],
             "debuffs": []
@@ -140,11 +140,15 @@
             "enhancement": [
                 {
                     "description": "Acquire +1 soul",
-                    "resources": [{ "item": "molagora", "qty": 3 }, {"item": "ring-of-glory", "qty": 5},{ "item": "gold", "qty": 37000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 3 },
+                        { "item": "ring-of-glory", "qty": 5 },
+                        { "item": "gold", "qty": 37000 }
+                    ]
                 },
                 {
                     "description": "-1 turn cooldown",
-                    "resources": [{ "item": "", "qty": 0 }, {"item": "", "qty": 0},{ "item": "gold", "qty": 0 }]
+                    "resources": [{ "item": "", "qty": 0 }, { "item": "", "qty": 0 }, { "item": "gold", "qty": 0 }]
                 }
             ],
             "buffs": ["stic_att_up", "stic_cri_res_up"],

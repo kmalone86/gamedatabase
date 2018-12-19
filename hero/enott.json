@@ -67,15 +67,27 @@
                 },
                 {
                     "description": "+10% effect chance",
-                    "resources": [{ "item": "molagora", "qty": 4 }, { "item": "sharp-spearhead", "qty": 3 }, { "item": "gold", "qty": 31000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 4 },
+                        { "item": "sharp-spearhead", "qty": 3 },
+                        { "item": "gold", "qty": 31000 }
+                    ]
                 },
                 {
                     "description": "+10% damage dealt",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "sharp-spearhead", "qty": 4 }, { "item": "gold", "qty": 40000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "sharp-spearhead", "qty": 4 },
+                        { "item": "gold", "qty": 40000 }
+                    ]
                 },
                 {
                     "description": "+15% damage dealt",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "sharp-spearhead", "qty": 5 }, { "item": "gold", "qty": 45000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "sharp-spearhead", "qty": 5 },
+                        { "item": "gold", "qty": 45000 }
+                    ]
                 }
             ],
             "buffs": [],
@@ -102,19 +114,31 @@
                 },
                 {
                     "description": "-1 turn cooldown",
-                    "resources": [{ "item": "molagora", "qty": 4 }, { "item": "sharp-spearhead", "qty": 3 }, { "item": "gold", "qty": 31000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 4 },
+                        { "item": "sharp-spearhead", "qty": 3 },
+                        { "item": "gold", "qty": 31000 }
+                    ]
                 },
                 {
                     "description": "+15% effect chance",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "sharp-spearhead", "qty": 4 }, { "item": "gold", "qty": 40000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "sharp-spearhead", "qty": 4 },
+                        { "item": "gold", "qty": 40000 }
+                    ]
                 },
                 {
                     "description": "+15% damage dealt",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "sharp-spearhead", "qty": 5 }, { "item": "gold", "qty": 45000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "sharp-spearhead", "qty": 5 },
+                        { "item": "gold", "qty": 45000 }
+                    ]
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_def_dn","stic_buf_impossible"]
+            "debuffs": ["stic_def_dn", "stic_buf_impossible"]
         },
         {
             "isPassive": false,
@@ -137,18 +161,30 @@
                 },
                 {
                     "description": "-1 turn cooldown",
-                    "resources": [{ "item": "molagora", "qty": 4 }, { "item": "sharp-spearhead", "qty": 3 }, { "item": "gold", "qty": 31000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 4 },
+                        { "item": "sharp-spearhead", "qty": 3 },
+                        { "item": "gold", "qty": 31000 }
+                    ]
                 },
                 {
                     "description": "+5% Combat Readiness",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "sharp-spearhead", "qty": 4 }, { "item": "gold", "qty": 40000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "sharp-spearhead", "qty": 4 },
+                        { "item": "gold", "qty": 40000 }
+                    ]
                 },
                 {
                     "description": "+10% Combat Readiness",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "sharp-spearhead", "qty": 5 }, { "item": "gold", "qty": 45000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "sharp-spearhead", "qty": 5 },
+                        { "item": "gold", "qty": 45000 }
+                    ]
                 }
             ],
-            "buffs": ["stic_att_up","stic_cri_up"],
+            "buffs": ["stic_att_up", "stic_cri_up"],
             "debuffs": []
         }
     ],

@@ -59,15 +59,27 @@
                 },
                 {
                     "description": "+10% effect chance",
-                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "path-power-loop", "qty": 2 }, { "item": "gold", "qty": 22000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 3 },
+                        { "item": "path-power-loop", "qty": 2 },
+                        { "item": "gold", "qty": 22000 }
+                    ]
                 },
                 {
                     "description": "+15% damage dealt",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "path-power-loop", "qty": 3 }, { "item": "gold", "qty": 35000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "path-power-loop", "qty": 3 },
+                        { "item": "gold", "qty": 35000 }
+                    ]
                 },
                 {
                     "description": "+15% effect chance",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "path-power-loop", "qty": 4 }, { "item": "gold", "qty": 40000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "path-power-loop", "qty": 4 },
+                        { "item": "gold", "qty": 40000 }
+                    ]
                 }
             ],
             "buffs": [],
@@ -90,15 +102,27 @@
                 },
                 {
                     "description": "+1% Combat Readiness",
-                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "path-power-loop", "qty": 2 }, { "item": "gold", "qty": 22000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 3 },
+                        { "item": "path-power-loop", "qty": 2 },
+                        { "item": "gold", "qty": 22000 }
+                    ]
                 },
                 {
                     "description": "+1% Combat Readiness",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "path-power-loop", "qty": 3 }, { "item": "gold", "qty": 35000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "path-power-loop", "qty": 3 },
+                        { "item": "gold", "qty": 35000 }
+                    ]
                 },
                 {
                     "description": "+2% Combat Readiness",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "path-power-loop", "qty": 4 }, { "item": "gold", "qty": 40000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "path-power-loop", "qty": 4 },
+                        { "item": "gold", "qty": 40000 }
+                    ]
                 }
             ],
             "buffs": [],
@@ -129,19 +153,35 @@
                 },
                 {
                     "description": "-1 turn cooldown",
-                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "path-power-loop", "qty": 3 }, { "item": "gold", "qty": 27000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 3 },
+                        { "item": "path-power-loop", "qty": 3 },
+                        { "item": "gold", "qty": 27000 }
+                    ]
                 },
                 {
                     "description": "+10% effect chance",
-                    "resources": [{ "item": "molagora", "qty": 4 }, { "item": "path-power-loop", "qty": 4 }, { "item": "gold", "qty": 36000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 4 },
+                        { "item": "path-power-loop", "qty": 4 },
+                        { "item": "gold", "qty": 36000 }
+                    ]
                 },
                 {
                     "description": "+10% effect chance",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "path-power-loop", "qty": 5 }, { "item": "gold", "qty": 45000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "path-power-loop", "qty": 5 },
+                        { "item": "gold", "qty": 45000 }
+                    ]
                 },
                 {
                     "description": "+15% damage dealt",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "path-power-loop", "qty": 6 }, { "item": "gold", "qty": 50000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "path-power-loop", "qty": 6 },
+                        { "item": "gold", "qty": 50000 }
+                    ]
                 }
             ],
             "buffs": [],
