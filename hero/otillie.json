@@ -13,7 +13,7 @@
         { "hero": "cidd", "relationType": "trust" },
         { "hero": "armin", "relationType": "trust" },
         { "hero": "Surin", "relationType": "grudge" },
-		{ "hero": "pyllis", "relationType": "grudge" }
+	{ "hero": "pyllis", "relationType": "grudge" }
     ],
     "stats": {
         "base": {
@@ -55,9 +55,9 @@
             "enhancement": [
                 { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
                 { "description": "+5% effect chance", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2}] },
-                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 27000 } , { "item": "shiny enchantment", "qty": 3} , { "item": "molagora", "qty": 3 }] },
-                { "description": "+10% effect chance", "resources": [{ "item": "gold", "qty": 44000 } , { "item": "shiny enchantment", "qty": 4} , { "item": "molagora", "qty": 6 }] },
-                { "description": "+15% damage dealt", "resources": [{ "item": "gold", "qty": 45000 } , { "item": "shiny enchantment", "qty": 5} , { "item": "molagorago", "qty": 1 }] }
+                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 27000 } , { "item": "shiny-enchantment", "qty": 3} , { "item": "molagora", "qty": 3 }] },
+                { "description": "+10% effect chance", "resources": [{ "item": "gold", "qty": 44000 } , { "item": "shiny-enchantment", "qty": 4} , { "item": "molagora", "qty": 6 }] },
+                { "description": "+15% damage dealt", "resources": [{ "item": "gold", "qty": 45000 } , { "item": "shiny-enchantment", "qty": 5} , { "item": "molagorago", "qty": 1 }] }
             ],
             "buffs": [],
             "debuffs": ["stic_heal_impossible"]
@@ -74,9 +74,9 @@
             "enhancement": [
                 { "description": "-0.5% damage received", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
                 { "description": "-0.5% damage received", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2 }] },
-                { "description": "-1% damage received", "resources": [{ "item": "gold", "qty": 27000 } , { "item": "shiny enchantment", "qty": 3} , { "item": "molagora", "qty": 3 }] },
-                { "description": "-1% damage received", "resources": [{ "item": "gold", "qty": 44000 } , { "item": "shiny enchantment", "qty": 4} , { "item": "molagora", "qty": 6 }] },
-                { "description": "-2% damage received", "resources": [{ "item": "gold", "qty": 45000 } , { "item": "shiny enchantment", "qty": 5} , { "item": "molagorago", "qty": 1 }] }
+                { "description": "-1% damage received", "resources": [{ "item": "gold", "qty": 27000 } , { "item": "shiny-enchantment", "qty": 3} , { "item": "molagora", "qty": 3 }] },
+                { "description": "-1% damage received", "resources": [{ "item": "gold", "qty": 44000 } , { "item": "shiny-enchantment", "qty": 4} , { "item": "molagora", "qty": 6 }] },
+                { "description": "-2% damage received", "resources": [{ "item": "gold", "qty": 45000 } , { "item": "shiny-enchantment", "qty": 5} , { "item": "molagorago", "qty": 1 }] }
             ],
             "buffs": [],
             "debuffs": []
@@ -93,9 +93,9 @@
             "enhancement": [
                 { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
                 { "description": "+5% Combat Readiness", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2}] },
-                { "description": "-1 turn cooldown", "resources": [{ "item": "gold", "qty": 27000 } , { "item": "shiny enchantment", "qty": 3} , { "item": "molagora", "qty": 3 }] },
-                { "description": "+10% Combat Readiness", "resources": [{ "item": "gold", "qty": 44000 } , { "item": "shiny enchantment", "qty": 4} , { "item": "molagora", "qty": 6 }] },
-                { "description": "+15% damage dealt", "resources": [{ "item": "gold", "qty": 45000 } , { "item": "shiny enchantment", "qty": 5} , { "item": "molagorago", "qty": 1 }] }
+                { "description": "-1 turn cooldown", "resources": [{ "item": "gold", "qty": 27000 } , { "item": "shiny-enchantment", "qty": 3} , { "item": "molagora", "qty": 3 }] },
+                { "description": "+10% Combat Readiness", "resources": [{ "item": "gold", "qty": 44000 } , { "item": "shiny-enchantment", "qty": 4} , { "item": "molagora", "qty": 6 }] },
+                { "description": "+15% damage dealt", "resources": [{ "item": "gold", "qty": 45000 } , { "item": "shiny-enchantment", "qty": 5} , { "item": "molagorago", "qty": 1 }] }
             ],
             "buffs": [],
             "debuffs": ["stic_buf_impossible"]
