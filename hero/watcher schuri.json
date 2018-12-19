@@ -53,9 +53,9 @@
             "enhancement": [
                 { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
                 { "description": "+5% effect chance", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2}] },
-                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 17000 } , { "item": "sharp spearhead", "qty": 1} , { "item": "molagora", "qty": 3 }] },
-                { "description": "+10% effect chance", "resources": [{ "item": "gold", "qty": 35000 } , { "item": "sharp spearhead", "qty": 3} , { "item": "molagorago", "qty": 1 }] },
-                { "description": "+15% damage dealt", "resources": [{ "item": "gold", "qty": 100000 } , { "item": "black powder curse", "qty": 2} , { "item": "molagorago", "qty": 2 }] }
+                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 17000 } , { "item": "sharp-spearhead", "qty": 1} , { "item": "molagora", "qty": 3 }] },
+                { "description": "+10% effect chance", "resources": [{ "item": "gold", "qty": 35000 } , { "item": "sharp-spearhead", "qty": 3} , { "item": "molagorago", "qty": 1 }] },
+                { "description": "+15% damage dealt", "resources": [{ "item": "gold", "qty": 100000 } , { "item": "black-powder-curse", "qty": 2} , { "item": "molagorago", "qty": 2 }] }
             ],
             "buffs": [],
             "debuffs": ["stic_sign"]
@@ -72,9 +72,9 @@
             "enhancement": [
                 { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
                 { "description": "+10% effect chance", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2}] },
-                { "description": "-1 turn cooldown", "resources": [{ "item": "gold", "qty": 17000 } , { "item": "sharp spearhead", "qty": 1} , { "item": "molagora", "qty": 3 }] },
-                { "description": "+15% effect chance", "resources": [{ "item": "gold", "qty": 35000 } , { "item": "sharp spearhead", "qty": 3} , { "item": "molagorago", "qty": 1 }] },
-                { "description": "+15% damage dealt", "resources": [{ "item": "gold", "qty": 100000 } , { "item": "black powder curse", "qty": 2} , { "item": "molagorago", "qty": 2 }] }
+                { "description": "-1 turn cooldown", "resources": [{ "item": "gold", "qty": 17000 } , { "item": "sharp-spearhead", "qty": 1} , { "item": "molagora", "qty": 3 }] },
+                { "description": "+15% effect chance", "resources": [{ "item": "gold", "qty": 35000 } , { "item": "sharp-spearhead", "qty": 3} , { "item": "molagorago", "qty": 1 }] },
+                { "description": "+15% damage dealt", "resources": [{ "item": "gold", "qty": 100000 } , { "item": "black-powder-curse", "qty": 2} , { "item": "molagorago", "qty": 2 }] }
             ],
             "buffs": ["stic_spd_up"],
             "debuffs": []
@@ -91,9 +91,9 @@
             "enhancement": [
                 { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
                 { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2}] },
-                { "description": "-1 turn cooldown", "resources": [{ "item": "gold", "qty": 17000 } , { "item": "sharp spearhead", "qty": 1} , { "item": "molagora", "qty": 3 }] },
-                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 35000 } , { "item": "sharp spearhead", "qty": 3} , { "item": "molagorago", "qty": 1 }] },
-                { "description": "+15% damage dealt", "resources": [{ "item": "gold", "qty": 100000 } , { "item": "black powder curse", "qty": 2} , { "item": "molagorago", "qty": 2 }] }
+                { "description": "-1 turn cooldown", "resources": [{ "item": "gold", "qty": 17000 } , { "item": "sharp-spearhead", "qty": 1} , { "item": "molagora", "qty": 3 }] },
+                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 35000 } , { "item": "sharp-spearhead", "qty": 3} , { "item": "molagorago", "qty": 1 }] },
+                { "description": "+15% damage dealt", "resources": [{ "item": "gold", "qty": 100000 } , { "item": "black-powder-curse", "qty": 2} , { "item": "molagorago", "qty": 2 }] }
             ],
             "buffs": [],
             "debuffs": []
