@@ -192,49 +192,49 @@
         {
             "rank": "d",
             "status": {
-                "type": "hp",
-                "increase": 0
+                "type": "spd",
+                "increase": 3
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "hp",
+                "type": "spd",
                 "increase": 0
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "hp",
+                "type": "spd",
                 "increase": 0
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "hp",
+                "type": "spd",
                 "increase": 0
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "hp",
+                "type": "spd",
                 "increase": 0
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "hp",
+                "type": "spd",
                 "increase": 0
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "hp",
+                "type": "spd",
                 "increase": 0
             }
         }
