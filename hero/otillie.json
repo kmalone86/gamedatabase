@@ -143,7 +143,7 @@
             "cooldown": 4,
             "name": "Mana Release",
             "soulAcquire": 2,
-            "description": "Cuts with a dagger, granting an extra turn if they enemy is defeated. Attacks using an adventageous element when the caster is granted increased Speed. Damage dealt increases proportional to caster's speed.",
+            "description": "Exhales powerful dakrnesss, decreasing Combat Readiness by 25%, and making the enemy unable to be buffed for 2 turns.",
             "enhancement": [
                 {
                     "description": "+10% damage dealt",
