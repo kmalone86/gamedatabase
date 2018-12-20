@@ -118,42 +118,42 @@
         {
             "rank": "c",
             "status": {
-                "type": "hp",
+                "type": "atk",
                 "increase": 0
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "hp",
+                "type": "atk",
                 "increase": 0
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "hp",
+                "type": "atk",
                 "increase": 0
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "hp",
+                "type": "atk",
                 "increase": 0
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "hp",
+                "type": "atk",
                 "increase": 0
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "hp",
+                "type": "atk",
                 "increase": 0
             }
         }
