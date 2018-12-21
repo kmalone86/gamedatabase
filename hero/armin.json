@@ -12,8 +12,8 @@
     "relations": [
         { "hero": "kluri", "relationType": "trust" },
         { "hero": "basar", "relationType": "trust" },
-	{ "hero": "cartuja", "relationType": "trust" },
-	{ "hero": "otillie", "relationType": "trust" },
+        { "hero": "cartuja", "relationType": "trust" },
+        { "hero": "otillie", "relationType": "trust" },
         { "hero": "cidd", "relationType": "rival" }
     ],
     "stats": {
@@ -54,13 +54,50 @@
             "soulAcquire": 1,
             "description": "Attacks with a large shield, with a 25% chance of stunning for 1 turn. When the enemy is debuffed, the chance will increase. Damage dealt increases proportional to the caster's Defense.",
             "enhancement": [
-	        { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
-                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2 }] },
-                { "description": "+5% effect chance", "resources": [{ "item": "gold", "qty": 12000 } , { "item": "molagora", "qty": 3 }] },
-                { "description": "+5% effect chance", "resources": [{ "item": "gold", "qty": 17000 } , { "item": "slime-jelly", "qty": 1} , { "item": "molagora", "qty": 3 }] },
-                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 30000 } , { "item": "slime-jelly", "qty": 2} , { "item": "molagora", "qty": 5 }] },
-		{ "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 45000 } , { "item": "slime-jelly", "qty": 5} , { "item": "molagorago", "qty": 1 }] },
-		{ "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 100000 } , { "item": "dragons-wrath", "qty": 2} , { "item": "molagorago", "qty": 2 }] }
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "gold", "qty": 4000 }, { "item": "molagora", "qty": 1 }]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "gold", "qty": 8000 }, { "item": "molagora", "qty": 2 }]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [{ "item": "gold", "qty": 12000 }, { "item": "molagora", "qty": 3 }]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        { "item": "gold", "qty": 17000 },
+                        { "item": "slime-jelly", "qty": 1 },
+                        { "item": "molagora", "qty": 3 }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        { "item": "gold", "qty": 30000 },
+                        { "item": "slime-jelly", "qty": 2 },
+                        { "item": "molagora", "qty": 5 }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        { "item": "gold", "qty": 45000 },
+                        { "item": "slime-jelly", "qty": 5 },
+                        { "item": "molagorago", "qty": 1 }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        { "item": "gold", "qty": 100000 },
+                        { "item": "dragons-wrath", "qty": 2 },
+                        { "item": "molagorago", "qty": 2 }
+                    ]
+                }
             ],
             "buffs": [],
             "debuffs": ["stic_stun"]
@@ -75,15 +112,49 @@
             "soulAcquire": 2,
             "description": "Releases a bright light to attack all enemies, with a 35% chance to decrease Hit Chance for 2 turns, and inflict poison for 3 turns. Increases Defense of the caster for 1 turn.",
             "enhancement": [
-                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
-                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2 }] },
-                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 17000 } , { "item": "slime-jelly", "qty": 1} , { "item": "molagora", "qty": 3 }] },
-                { "description": "+5% effect chance", "resources": [{ "item": "gold", "qty": 30000 } , { "item": "slime-jelly", "qty": 2} , { "item": "molagora", "qty": 5 }] },
-                { "description": "+10% effect chance", "resources": [{ "item": "gold", "qty": 40000 } , { "item": "slime-jelly", "qty": 4} , { "item": "molagorago", "qty": 1 }] },
-		{ "description": "+15% damage dealt", "resources": [{ "item": "gold", "qty": 100000 } , { "item": "dragons-wrath", "qty": 2} , { "item": "molagorago", "qty": 2 }] }
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "gold", "qty": 4000 }, { "item": "molagora", "qty": 1 }]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [{ "item": "gold", "qty": 8000 }, { "item": "molagora", "qty": 2 }]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        { "item": "gold", "qty": 17000 },
+                        { "item": "slime-jelly", "qty": 1 },
+                        { "item": "molagora", "qty": 3 }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        { "item": "gold", "qty": 30000 },
+                        { "item": "slime-jelly", "qty": 2 },
+                        { "item": "molagora", "qty": 5 }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        { "item": "gold", "qty": 40000 },
+                        { "item": "slime-jelly", "qty": 4 },
+                        { "item": "molagorago", "qty": 1 }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        { "item": "gold", "qty": 100000 },
+                        { "item": "dragons-wrath", "qty": 2 },
+                        { "item": "molagorago", "qty": 2 }
+                    ]
+                }
             ],
             "buffs": ["stic_def_up"],
-            "debuffs": ["stic_blind","stic_dot"]
+            "debuffs": ["stic_blind", "stic_dot"]
         },
         {
             "isPassive": false,
@@ -95,8 +166,22 @@
             "soulAcquire": 1,
             "description": "Covers all allies with the Shield of Light and grants a barrier for 3 turns, recovering Health. Barrier strength is proportional to caster's Defense, and amount recovered is proportional to the target's max health.",
             "enhancement": [
-                { "description": "Acquire +1 Soul", "resources": [{ "item": "gold", "qty": 27000 } , { "item": "slime-jelly", "qty": 3} , { "item": "molagora", "qty": 3 }] },
-                { "description": "-1 turn cooldown", "resources": [{ "item": "gold", "qty": 130000 } , { "item": "dragons-wrath", "qty": 1} , { "item": "molagorago", "qty": 1 }] }
+                {
+                    "description": "Acquire +1 Soul",
+                    "resources": [
+                        { "item": "gold", "qty": 27000 },
+                        { "item": "slime-jelly", "qty": 3 },
+                        { "item": "molagora", "qty": 3 }
+                    ]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        { "item": "gold", "qty": 130000 },
+                        { "item": "dragons-wrath", "qty": 1 },
+                        { "item": "molagorago", "qty": 1 }
+                    ]
+                }
             ],
             "buffs": ["stic_protect"],
             "debuffs": []

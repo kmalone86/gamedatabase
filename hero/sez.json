@@ -52,11 +52,38 @@
             "soulAcquire": 1,
             "description": "Penetrates the enemy with dark energy, making the enemy unhealable for one turn. Damage dealt increases proportional to the amount of the enemy's lost Health.",
             "enhancement": [
-                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
-                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2}] },
-                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 37000 } , { "item": "sharp-spearhead", "qty": 5} , { "item": "molagora", "qty": 3 }] },
-                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 55000 } , { "item": "sharp-spearhead", "qty": 7} , { "item": "molagorago", "qty": 1 }] },
-                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 120000 } , { "item": "black-curse-powder", "qty": 2} , { "item": "molagorago", "qty": 3 }] }
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "gold", "qty": 4000 }, { "item": "molagora", "qty": 1 }]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "gold", "qty": 8000 }, { "item": "molagora", "qty": 2 }]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        { "item": "gold", "qty": 37000 },
+                        { "item": "sharp-spearhead", "qty": 5 },
+                        { "item": "molagora", "qty": 3 }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        { "item": "gold", "qty": 55000 },
+                        { "item": "sharp-spearhead", "qty": 7 },
+                        { "item": "molagorago", "qty": 1 }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        { "item": "gold", "qty": 120000 },
+                        { "item": "black-curse-powder", "qty": 2 },
+                        { "item": "molagorago", "qty": 3 }
+                    ]
+                }
             ],
             "buffs": [],
             "debuffs": ["stic_heal_impossible"]
@@ -71,11 +98,38 @@
             "soulAcquire": 0,
             "description": "If the enemy's Health is less than 50% after attacking with Dark Shadow, an extra attack is granted against all enemies with a 50% chance to make them unhealable for 1 turn. Can only activate once per turn.",
             "enhancement": [
-                { "description": "+5% damage dealt by additional skill", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
-                { "description": "+5% damage dealt by additional skill", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2}] },
-                { "description": "+5% damage dealt by additional skill", "resources": [{ "item": "gold", "qty": 37000 } , { "item": "sharp-spearhead", "qty": 5} , { "item": "molagora", "qty": 3 }] },
-                { "description": "+5% damage dealt by additional skill", "resources": [{ "item": "gold", "qty": 55000 } , { "item": "sharp-spearhead", "qty": 7} , { "item": "molagorago", "qty": 1 }] },
-                { "description": "+10% damage dealt by additional skill", "resources": [{ "item": "gold", "qty": 120000 } , { "item": "black-curse-powder", "qty": 2} , { "item": "molagorago", "qty": 3 }] }
+                {
+                    "description": "+5% damage dealt by additional skill",
+                    "resources": [{ "item": "gold", "qty": 4000 }, { "item": "molagora", "qty": 1 }]
+                },
+                {
+                    "description": "+5% damage dealt by additional skill",
+                    "resources": [{ "item": "gold", "qty": 8000 }, { "item": "molagora", "qty": 2 }]
+                },
+                {
+                    "description": "+5% damage dealt by additional skill",
+                    "resources": [
+                        { "item": "gold", "qty": 37000 },
+                        { "item": "sharp-spearhead", "qty": 5 },
+                        { "item": "molagora", "qty": 3 }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt by additional skill",
+                    "resources": [
+                        { "item": "gold", "qty": 55000 },
+                        { "item": "sharp-spearhead", "qty": 7 },
+                        { "item": "molagorago", "qty": 1 }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt by additional skill",
+                    "resources": [
+                        { "item": "gold", "qty": 120000 },
+                        { "item": "black-curse-powder", "qty": 2 },
+                        { "item": "molagorago", "qty": 3 }
+                    ]
+                }
             ],
             "buffs": [],
             "debuffs": ["stic_heal_impossible"]
@@ -90,11 +144,38 @@
             "soulAcquire": 3,
             "description": "Inflicts lethal damage to the enemy, dealing damage proportional to the enemy's lost Health. If the enemy dies, inflicts additional damage to all enemies proportional to the caster's attack.",
             "enhancement": [
-                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
-                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2}] },
-                { "description": "-1 turn cooldown", "resources": [{ "item": "gold", "qty": 37000 } , { "item": "sharp-spearhead", "qty": 5} , { "item": "molagora", "qty": 3 }] },
-                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 55000 } , { "item": "sharp-spearhead", "qty": 7} , { "item": "molagorago", "qty": 1 }] },
-                { "description": "+15% damage dealt", "resources": [{ "item": "gold", "qty": 120000 } , { "item": "black-curse-powder", "qty": 2} , { "item": "molagorago", "qty": 3 }] }
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "gold", "qty": 4000 }, { "item": "molagora", "qty": 1 }]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "gold", "qty": 8000 }, { "item": "molagora", "qty": 2 }]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        { "item": "gold", "qty": 37000 },
+                        { "item": "sharp-spearhead", "qty": 5 },
+                        { "item": "molagora", "qty": 3 }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        { "item": "gold", "qty": 55000 },
+                        { "item": "sharp-spearhead", "qty": 7 },
+                        { "item": "molagorago", "qty": 1 }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        { "item": "gold", "qty": 120000 },
+                        { "item": "black-curse-powder", "qty": 2 },
+                        { "item": "molagorago", "qty": 3 }
+                    ]
+                }
             ],
             "buffs": [],
             "debuffs": []
