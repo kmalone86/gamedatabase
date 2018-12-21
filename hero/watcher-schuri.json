@@ -9,10 +9,7 @@
     "background": [
         "A member of the Sicar assasin organization. Watcher Schuri is an oustanding fighter, but ignorant of the ways of the world. Though his rigid way of speaking gives of an air of unapproachability, he is surprisingly straightforward and open to granting people's requests. However, he hides a secret he cannot share with others."
     ],
-    "relations": [
-        { "hero": "haste", "relationType": "trust" }, 
-        { "hero": "assasin cartuja", "relationType": "trust" }
-    ],        
+    "relations": [{ "hero": "haste", "relationType": "trust" }, { "hero": "assasin cartuja", "relationType": "trust" }],
     "stats": {
         "base": {
             "cp": 1207,

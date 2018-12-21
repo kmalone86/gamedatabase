@@ -9,10 +9,7 @@
     "background": [
         "Fiercely proud and unreserved, Challenger Dominiel has little morality or sense of empathy. While constantly causing trouble, she refuses to admit her faults."
     ],
-    "relations": [
-        { "hero": "dingo", "relationType": "rival" },
-        { "hero": "zerato", "relationType": "rival" }
-    ],
+    "relations": [{ "hero": "dingo", "relationType": "rival" }, { "hero": "zerato", "relationType": "rival" }],
     "stats": {
         "base": {
             "cp": 1274,
@@ -51,11 +48,38 @@
             "soulAcquire": 1,
             "description": "Attacks with electricity. A critical hit will increase damage dealt.",
             "enhancement": [
-                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
-                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2}] },
-                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 17000 } , { "item": "sharp-spearhead", "qty": 1} , { "item": "molagora", "qty": 3 }] },
-                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 35000 } , { "item": "sharp-spearhead", "qty": 3} , { "item": "molagorago", "qty": 1 }] },
-                { "description": "+15% damage dealt", "resources": [{ "item": "gold", "qty": 100000 } , { "item": "black-powder-curse", "qty": 2} , { "item": "molagorago", "qty": 2 }] }
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "gold", "qty": 4000 }, { "item": "molagora", "qty": 1 }]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [{ "item": "gold", "qty": 8000 }, { "item": "molagora", "qty": 2 }]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        { "item": "gold", "qty": 17000 },
+                        { "item": "sharp-spearhead", "qty": 1 },
+                        { "item": "molagora", "qty": 3 }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        { "item": "gold", "qty": 35000 },
+                        { "item": "sharp-spearhead", "qty": 3 },
+                        { "item": "molagorago", "qty": 1 }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        { "item": "gold", "qty": 100000 },
+                        { "item": "black-powder-curse", "qty": 2 },
+                        { "item": "molagorago", "qty": 2 }
+                    ]
+                }
             ],
             "buffs": [],
             "debuffs": []
@@ -70,11 +94,38 @@
             "soulAcquire": 0,
             "description": "When an ally makes a critical hit, the caster's next attack deals stacked additional damage proportional to the number of critical hits and their Combat Readiness increases by 10% per critical hit.",
             "enhancement": [
-                { "description": "+5% additional damage", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
-                { "description": "+5% additional damage", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2}] },
-                { "description": "+5% additional damage", "resources": [{ "item": "gold", "qty": 17000 } , { "item": "sharp-spearhead", "qty": 1} , { "item": "molagora", "qty": 3 }] },
-                { "description": "+5% additional damage", "resources": [{ "item": "gold", "qty": 35000 } , { "item": "sharp-spearhead", "qty": 3} , { "item": "molagorago", "qty": 1 }] },
-                { "description": "+10% additional damage", "resources": [{ "item": "gold", "qty": 100000 } , { "item": "black-powder-curse", "qty": 2} , { "item": "molagorago", "qty": 2 }] }
+                {
+                    "description": "+5% additional damage",
+                    "resources": [{ "item": "gold", "qty": 4000 }, { "item": "molagora", "qty": 1 }]
+                },
+                {
+                    "description": "+5% additional damage",
+                    "resources": [{ "item": "gold", "qty": 8000 }, { "item": "molagora", "qty": 2 }]
+                },
+                {
+                    "description": "+5% additional damage",
+                    "resources": [
+                        { "item": "gold", "qty": 17000 },
+                        { "item": "sharp-spearhead", "qty": 1 },
+                        { "item": "molagora", "qty": 3 }
+                    ]
+                },
+                {
+                    "description": "+5% additional damage",
+                    "resources": [
+                        { "item": "gold", "qty": 35000 },
+                        { "item": "sharp-spearhead", "qty": 3 },
+                        { "item": "molagorago", "qty": 1 }
+                    ]
+                },
+                {
+                    "description": "+10% additional damage",
+                    "resources": [
+                        { "item": "gold", "qty": 100000 },
+                        { "item": "black-powder-curse", "qty": 2 },
+                        { "item": "molagorago", "qty": 2 }
+                    ]
+                }
             ],
             "buffs": [],
             "debuffs": []
@@ -89,11 +140,38 @@
             "soulAcquire": 2,
             "description": "Releases powerful electricity, increasing Critical Hit Rate of all allies for 3 turns, and Combat Readiness by 10%. The caster is also granted an extra turn.",
             "enhancement": [
-                { "description": "+2% Combat Readiness", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
-                { "description": "+2% Combat Readiness", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2}] },
-                { "description": "-1 turn cooldown", "resources": [{ "item": "gold", "qty": 17000 } , { "item": "sharp-spearhead", "qty": 1} , { "item": "molagora", "qty": 3 }] },
-                { "description": "+3% Combat Readiness", "resources": [{ "item": "gold", "qty": 35000 } , { "item": "sharp-spearhead", "qty": 3} , { "item": "molagorago", "qty": 1 }] },
-                { "description": "+3% Combat Readiness", "resources": [{ "item": "gold", "qty": 100000 } , { "item": "black-powder-curse", "qty": 2} , { "item": "molagorago", "qty": 2 }] }
+                {
+                    "description": "+2% Combat Readiness",
+                    "resources": [{ "item": "gold", "qty": 4000 }, { "item": "molagora", "qty": 1 }]
+                },
+                {
+                    "description": "+2% Combat Readiness",
+                    "resources": [{ "item": "gold", "qty": 8000 }, { "item": "molagora", "qty": 2 }]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        { "item": "gold", "qty": 17000 },
+                        { "item": "sharp-spearhead", "qty": 1 },
+                        { "item": "molagora", "qty": 3 }
+                    ]
+                },
+                {
+                    "description": "+3% Combat Readiness",
+                    "resources": [
+                        { "item": "gold", "qty": 35000 },
+                        { "item": "sharp-spearhead", "qty": 3 },
+                        { "item": "molagorago", "qty": 1 }
+                    ]
+                },
+                {
+                    "description": "+3% Combat Readiness",
+                    "resources": [
+                        { "item": "gold", "qty": 100000 },
+                        { "item": "black-powder-curse", "qty": 2 },
+                        { "item": "molagorago", "qty": 2 }
+                    ]
+                }
             ],
             "buffs": ["stic_cri_up"],
             "debuffs": []
