@@ -22,7 +22,7 @@ const mkdirSync = function(dirPath) {
 };
 
 const buildFolder = async (folderToMatch) => {
-    let baseJsonObject = {};
+    let baseJsonObject = [];
 
     return await new Promise((resolve, reject) => {
         const fileArray = glob.sync(`${folderToMatch}/*.json`, {
@@ -41,7 +41,7 @@ const buildFolder = async (folderToMatch) => {
             )
         );
 
-        baseJsonObject[folderToMatch] = [];
+        baseJsonObject = [];
 
         // https://stackoverflow.com/questions/31413749/node-js-promise-all-and-foreach
         let actions = fileArray.map((filename) => {
@@ -52,7 +52,7 @@ const buildFolder = async (folderToMatch) => {
                         return Promise.reject(new Error('filecontents null'));
                     }
                     filecontents.fileId = filename.replace(/(.*\/)(.*)(\.json)/i, '$2');
-                    baseJsonObject[folderToMatch].push(filecontents);
+                    baseJsonObject.push(filecontents);
 
                     return log(success(`√ JSON "${filename}" processed.`));
                 })
