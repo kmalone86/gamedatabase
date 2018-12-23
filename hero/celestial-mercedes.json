@@ -37,23 +37,23 @@
     ],
     "stats": {
         "base": {
-            "cp": 2387,
-            "atk": 242,
-            "hp": 643,
+            "cp": 1274,
+            "atk": 90,
+            "hp": 230,
             "spd": 96,
-            "def": 72,
-            "chc": 24,
-            "chd": 156,
+            "def": 74,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
         },
         "max": {
-            "cp": 15125,
-            "atk": 1138,
-            "hp": 4370,
+            "cp": 15594,
+            "atk": 1187,
+            "hp": 4491,
             "spd": 96,
-            "def": 613,
+            "def": 627,
             "chc": 24,
             "chd": 156,
             "eff": 0,
@@ -84,9 +84,9 @@
                 {
                     "description": "+10% effect chance",
                     "resources": [
-                        { "item": "molagora", "qty": 4 },
+                        { "item": "molagora", "qty": 3 },
                         { "item": "sharp-spearhead", "qty": 1 },
-                        { "item": "gold", "qty": 21000 }
+                         { "item": "gold", "qty": 17000 }
                     ]
                 },
                 {
@@ -100,9 +100,9 @@
                 {
                     "description": "+10% damage dealt",
                     "resources": [
-                        { "item": "molagoragora", "qty": 1 },
+                        { "item": "molagorago", "qty": 2 },
                         { "item": "black-curse-powder", "qty": 2 },
-                        { "item": "gold", "qty": 160000 }
+                         { "item": "gold", "qty": 100000 }
                     ]
                 }
             ],
@@ -131,9 +131,9 @@
                 {
                     "description": "+10% damage dealt",
                     "resources": [
-                        { "item": "molagora", "qty": 4 },
+                        { "item": "molagora", "qty": 3 },
                         { "item": "sharp-spearhead", "qty": 1 },
-                        { "item": "gold", "qty": 21000 }
+                         { "item": "gold", "qty": 17000 }
                     ]
                 },
                 {
@@ -147,9 +147,9 @@
                 {
                     "description": "+10% damage dealt",
                     "resources": [
-                        { "item": "molagoragora", "qty": 1 },
+                        { "item": "molagorago", "qty": 2 },
                         { "item": "black-curse-powder", "qty": 2 },
-                        { "item": "gold", "qty": 160000 }
+                         { "item": "gold", "qty": 100000 }
                     ]
                 }
             ],
@@ -178,9 +178,9 @@
                 {
                     "description": "-1 turn cooldown",
                     "resources": [
-                        { "item": "molagora", "qty": 4 },
+                        { "item": "molagora", "qty": 3 },
                         { "item": "sharp-spearhead", "qty": 1 },
-                        { "item": "gold", "qty": 21000 }
+                         { "item": "gold", "qty": 17000 }
                     ]
                 },
                 {
@@ -194,9 +194,9 @@
                 {
                     "description": "+15% damage dealt",
                     "resources": [
-                        { "item": "molagoragora", "qty": 1 },
+                        { "item": "molagorago", "qty": 2 },
                         { "item": "black-curse-powder", "qty": 2 },
-                        { "item": "gold", "qty": 160000 }
+                         { "item": "gold", "qty": 100000 }
                     ]
                 }
             ],

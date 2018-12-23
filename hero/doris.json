@@ -25,11 +25,11 @@
     ],
     "stats": {
         "base": {
-            "cp": 2051,
-            "atk": 184,
-            "hp": 679,
+            "cp": 1020,
+            "atk": 34,
+            "hp": 220,
             "spd": 86,
-            "def": 77,
+            "def": 73,
             "chc": 15,
             "chd": 150,
             "eff": 0,
@@ -72,17 +72,17 @@
                 {
                     "description": "+10% effect chance",
                     "resources": [
-                        { "item": "molagora", "qty": 4 },
+                        { "item": "molagora", "qty": 3 },
                         { "item": "baby-mouse-insignia", "qty": 3 },
-                        { "item": "gold", "qty": 31000 }
+                         { "item": "gold", "qty": 27000 }
                     ]
                 },
                 {
                     "description": "+15% effect chance",
                     "resources": [
-                        { "item": "molagorago", "qty": 1 },
+                        { "item": "molagora", "qty": 6 },
                         { "item": "baby-mouse-insignia", "qty": 4 },
-                        { "item": "gold", "qty": 40000 }
+                         { "item": "gold", "qty": 44000 }
                     ]
                 },
                 {
@@ -119,17 +119,17 @@
                 {
                     "description": "-1 turn cooldown",
                     "resources": [
-                        { "item": "molagora", "qty": 4 },
+                        { "item": "molagora", "qty": 3 },
                         { "item": "baby-mouse-insignia", "qty": 3 },
-                        { "item": "gold", "qty": 31000 }
+                         { "item": "gold", "qty": 27000 }
                     ]
                 },
                 {
                     "description": "+15% healing",
                     "resources": [
-                        { "item": "molagorago", "qty": 1 },
+                        { "item": "molagora", "qty": 6 },
                         { "item": "baby-mouse-insignia", "qty": 4 },
-                        { "item": "gold", "qty": 40000 }
+                         { "item": "gold", "qty": 44000 }
                     ]
                 },
                 {
@@ -166,17 +166,17 @@
                 {
                     "description": "+10% healing",
                     "resources": [
-                        { "item": "molagora", "qty": 4 },
+                        { "item": "molagora", "qty": 3 },
                         { "item": "baby-mouse-insignia", "qty": 3 },
-                        { "item": "gold", "qty": 31000 }
+                         { "item": "gold", "qty": 27000 }
                     ]
                 },
                 {
                     "description": "+15% healing",
                     "resources": [
-                        { "item": "molagorago", "qty": 1 },
+                        { "item": "molagora", "qty": 6 },
                         { "item": "baby-mouse-insignia", "qty": 4 },
-                        { "item": "gold", "qty": 40000 }
+                         { "item": "gold", "qty": 44000 }
                     ]
                 },
                 {

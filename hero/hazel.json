@@ -29,11 +29,11 @@
     ],
     "stats": {
         "base": {
-            "cp": 2073,
-            "atk": 203,
-            "hp": 631,
+            "cp": 1020,
+            "atk": 49,
+            "hp": 194,
             "spd": 91,
-            "def": 73,
+            "def": 69,
             "chc": 15,
             "chd": 150,
             "eff": 0,
@@ -67,7 +67,10 @@
             "enhancement": [
                 {
                     "description": "+10% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 1 }, 
+                        { "item": "gold", "qty": 4000 }
+                    ]
                 },
                 {
                     "description": "+5% effect chance",
@@ -80,7 +83,7 @@
                 {
                     "description": "+15% effect chance",
                     "resources": [
-                        { "item": "molagorago", "qty": 1 },
+                        { "item": "molagora", "qty": 5 },
                         { "item": "leather-sheath", "qty": 3 },
                         { "item": "gold", "qty": 35000 }
                     ]
@@ -110,7 +113,10 @@
             "enhancement": [
                 {
                     "description": "+5% healing",
-                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 1 }, 
+                        { "item": "gold", "qty": 4000 }
+                    ]
                 },
                 {
                     "description": "+10% healing",
@@ -123,7 +129,7 @@
                 {
                     "description": "+10% healing",
                     "resources": [
-                        { "item": "molagorago", "qty": 1 },
+                        { "item": "molagora", "qty": 5 },
                         { "item": "leather-sheath", "qty": 3 },
                         { "item": "gold", "qty": 35000 }
                     ]
@@ -153,15 +159,24 @@
             "enhancement": [
                 {
                     "description": "+5% healing",
-                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 1 }, 
+                        { "item": "gold", "qty": 4000 }
+                    ]
                 },
                 {
                     "description": "+5% healing",
-                    "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 8000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 2 }, 
+                        { "item": "gold", "qty": 8000 }
+                    ]
                 },
                 {
                     "description": "+5% healing",
-                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "gold", "qty": 12000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 3 }, 
+                        { "item": "gold", "qty": 12000 }
+                    ]
                 },
                 {
                     "description": "-1 turn cooldown",
