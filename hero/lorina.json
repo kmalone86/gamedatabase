@@ -154,7 +154,7 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Grants an extra turn.",
             "awakenUpgrade": false,
-            "cooldown": 3,
+            "cooldown": 4,
             "name": "Resolve",
             "soulAcquire": 2,
             "description": "Jumps into the air and strikes down at the enemy, dealing damage proportional to the amount of the enemy's lost Health.",
