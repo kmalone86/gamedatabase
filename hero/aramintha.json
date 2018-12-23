@@ -109,11 +109,11 @@
             "description": "Sprinkles a catalyst, increasing Attack of all allies for 2 turns. If an enemy is burned, the catalyst will explode and deal damage to all enemies, making them unhealable for 2 turns.",
             "enhancement": [
                 {
-                    "description": "+10% damage dealt",
+                    "description": "+5% damage dealt",
                     "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
                 },
                 {
-                    "description": "+5% effect chance",
+                    "description": "-1 turn cooldown",
                     "resources": [
                         { "item": "ring-of-glory", "qty": 3 },
                         { "item": "molagora", "qty": 4 },
@@ -121,7 +121,7 @@
                     ]
                 },
                 {
-                    "description": "+10% effect chance",
+                    "description": "+10% damage dealt",
                     "resources": [
                         { "item": "ring-of-glory", "qty": 5 },
                         { "item": "molagora", "qty": 7 },
@@ -161,7 +161,7 @@
                 },
                 {
                     "description": "+10% effect chance",
-                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "gold", "qty": 17000 }]
+                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "gold", "qty": 12000 }]
                 },
                 {
                     "description": "-1 turn cooldown",
@@ -190,7 +190,7 @@
                 {
                     "description": "+10% damage dealt",
                     "resources": [
-                        { "item": "fused-nerve", "qty": 2 },
+                        { "item": "fused-nerve", "qty": 3 },
                         { "item": "molagorago", "qty": 3 },
                         { "item": "gold", "qty": 150000 }
                     ]
