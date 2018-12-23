@@ -141,8 +141,8 @@
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": []
+            "buffs": ["stic_speed_up"],
+            "debuffs": ["stic_speed_dn"]
         },
         {
             "isPassive": false,
