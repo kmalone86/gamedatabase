@@ -74,7 +74,7 @@
                     "resources": [
                         { "item": "molagora", "qty": 3 },
                         { "item": "baby-mouse-insignia", "qty": 3 },
-                         { "item": "gold", "qty": 27000 }
+                        { "item": "gold", "qty": 27000 }
                     ]
                 },
                 {
@@ -82,7 +82,7 @@
                     "resources": [
                         { "item": "molagora", "qty": 6 },
                         { "item": "baby-mouse-insignia", "qty": 4 },
-                         { "item": "gold", "qty": 44000 }
+                        { "item": "gold", "qty": 44000 }
                     ]
                 },
                 {
@@ -121,7 +121,7 @@
                     "resources": [
                         { "item": "molagora", "qty": 3 },
                         { "item": "baby-mouse-insignia", "qty": 3 },
-                         { "item": "gold", "qty": 27000 }
+                        { "item": "gold", "qty": 27000 }
                     ]
                 },
                 {
@@ -129,7 +129,7 @@
                     "resources": [
                         { "item": "molagora", "qty": 6 },
                         { "item": "baby-mouse-insignia", "qty": 4 },
-                         { "item": "gold", "qty": 44000 }
+                        { "item": "gold", "qty": 44000 }
                     ]
                 },
                 {
@@ -168,7 +168,7 @@
                     "resources": [
                         { "item": "molagora", "qty": 3 },
                         { "item": "baby-mouse-insignia", "qty": 3 },
-                         { "item": "gold", "qty": 27000 }
+                        { "item": "gold", "qty": 27000 }
                     ]
                 },
                 {
@@ -176,7 +176,7 @@
                     "resources": [
                         { "item": "molagora", "qty": 6 },
                         { "item": "baby-mouse-insignia", "qty": 4 },
-                         { "item": "gold", "qty": 44000 }
+                        { "item": "gold", "qty": 44000 }
                     ]
                 },
                 {

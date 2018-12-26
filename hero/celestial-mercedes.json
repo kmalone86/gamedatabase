@@ -86,7 +86,7 @@
                     "resources": [
                         { "item": "molagora", "qty": 3 },
                         { "item": "sharp-spearhead", "qty": 1 },
-                         { "item": "gold", "qty": 17000 }
+                        { "item": "gold", "qty": 17000 }
                     ]
                 },
                 {
@@ -102,7 +102,7 @@
                     "resources": [
                         { "item": "molagorago", "qty": 2 },
                         { "item": "black-curse-powder", "qty": 2 },
-                         { "item": "gold", "qty": 100000 }
+                        { "item": "gold", "qty": 100000 }
                     ]
                 }
             ],
@@ -133,7 +133,7 @@
                     "resources": [
                         { "item": "molagora", "qty": 3 },
                         { "item": "sharp-spearhead", "qty": 1 },
-                         { "item": "gold", "qty": 17000 }
+                        { "item": "gold", "qty": 17000 }
                     ]
                 },
                 {
@@ -149,7 +149,7 @@
                     "resources": [
                         { "item": "molagorago", "qty": 2 },
                         { "item": "black-curse-powder", "qty": 2 },
-                         { "item": "gold", "qty": 100000 }
+                        { "item": "gold", "qty": 100000 }
                     ]
                 }
             ],
@@ -180,7 +180,7 @@
                     "resources": [
                         { "item": "molagora", "qty": 3 },
                         { "item": "sharp-spearhead", "qty": 1 },
-                         { "item": "gold", "qty": 17000 }
+                        { "item": "gold", "qty": 17000 }
                     ]
                 },
                 {
@@ -196,7 +196,7 @@
                     "resources": [
                         { "item": "molagorago", "qty": 2 },
                         { "item": "black-curse-powder", "qty": 2 },
-                         { "item": "gold", "qty": 100000 }
+                        { "item": "gold", "qty": 100000 }
                     ]
                 }
             ],

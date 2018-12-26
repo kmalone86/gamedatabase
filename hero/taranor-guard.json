@@ -6,9 +6,7 @@
     "zodiac": "libra",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "A member of the Taranor Guard. Unafraid of death, they will obey any order."
-    ],
+    "background": "A member of the Taranor Guard. Unafraid of death, they will obey any order.",
     "relations": [
         {
             "hero": "taranor-royal-guard",
@@ -75,15 +73,27 @@
                 },
                 {
                     "description": "+10% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "mysterious-flash", "qty": 3 }, { "item": "gold", "qty": 27000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 3 },
+                        { "item": "mysterious-flash", "qty": 3 },
+                        { "item": "gold", "qty": 27000 }
+                    ]
                 },
                 {
                     "description": "+15% effect chance",
-                    "resources": [{ "item": "molagora", "qty": 6 }, { "item": "mysterious-flash", "qty": 4 }, { "item": "gold", "qty": 44000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 6 },
+                        { "item": "mysterious-flash", "qty": 4 },
+                        { "item": "gold", "qty": 44000 }
+                    ]
                 },
                 {
                     "description": "+15% damage dealt",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "mysterious-flash", "qty": 5 }, { "item": "gold", "qty": 45000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "mysterious-flash", "qty": 5 },
+                        { "item": "gold", "qty": 45000 }
+                    ]
                 }
             ],
             "buffs": [],
@@ -110,15 +120,27 @@
                 },
                 {
                     "description": "+1% Dual Attack chance",
-                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "mysterious-flash", "qty": 3 }, { "item": "gold", "qty": 27000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 3 },
+                        { "item": "mysterious-flash", "qty": 3 },
+                        { "item": "gold", "qty": 27000 }
+                    ]
                 },
                 {
                     "description": "+1% Dual Attack chance",
-                    "resources": [{ "item": "molagora", "qty": 6 }, { "item": "mysterious-flash", "qty": 4 }, { "item": "gold", "qty": 44000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 6 },
+                        { "item": "mysterious-flash", "qty": 4 },
+                        { "item": "gold", "qty": 44000 }
+                    ]
                 },
                 {
                     "description": "+1% Dual Attack chance",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "mysterious-flash", "qty": 5 }, { "item": "gold", "qty": 45000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "mysterious-flash", "qty": 5 },
+                        { "item": "gold", "qty": 45000 }
+                    ]
                 }
             ],
             "buffs": ["stic_att_up"],
@@ -145,15 +167,27 @@
                 },
                 {
                     "description": "-1 turn cooldown",
-                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "mysterious-flash", "qty": 3 }, { "item": "gold", "qty": 27000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 3 },
+                        { "item": "mysterious-flash", "qty": 3 },
+                        { "item": "gold", "qty": 27000 }
+                    ]
                 },
                 {
                     "description": "+10% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 6 }, { "item": "mysterious-flash", "qty": 4 }, { "item": "gold", "qty": 44000 }]
+                    "resources": [
+                        { "item": "molagora", "qty": 6 },
+                        { "item": "mysterious-flash", "qty": 4 },
+                        { "item": "gold", "qty": 44000 }
+                    ]
                 },
                 {
                     "description": "+15% damage dealt",
-                    "resources": [{ "item": "molagorago", "qty": 1 }, { "item": "mysterious-flash", "qty": 5 }, { "item": "gold", "qty": 45000 }]
+                    "resources": [
+                        { "item": "molagorago", "qty": 1 },
+                        { "item": "mysterious-flash", "qty": 5 },
+                        { "item": "gold", "qty": 45000 }
+                    ]
                 }
             ],
             "buffs": [],
