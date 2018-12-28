@@ -67,10 +67,7 @@
             "enhancement": [
                 {
                     "description": "+10% damage dealt",
-                    "resources": [
-                        { "item": "molagora", "qty": 1 },
-                        { "item": "gold", "qty": 4000 }
-                    ]
+                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
                 },
                 {
                     "description": "+5% effect chance",
@@ -113,10 +110,7 @@
             "enhancement": [
                 {
                     "description": "+5% healing",
-                    "resources": [
-                        { "item": "molagora", "qty": 1 },
-                        { "item": "gold", "qty": 4000 }
-                    ]
+                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
                 },
                 {
                     "description": "+10% healing",
@@ -159,24 +153,15 @@
             "enhancement": [
                 {
                     "description": "+5% healing",
-                    "resources": [
-                        { "item": "molagora", "qty": 1 },
-                        { "item": "gold", "qty": 4000 }
-                    ]
+                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
                 },
                 {
                     "description": "+5% healing",
-                    "resources": [
-                        { "item": "molagora", "qty": 2 },
-                        { "item": "gold", "qty": 8000 }
-                    ]
+                    "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 8000 }]
                 },
                 {
                     "description": "+5% healing",
-                    "resources": [
-                        { "item": "molagora", "qty": 3 },
-                        { "item": "gold", "qty": 12000 }
-                    ]
+                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "gold", "qty": 12000 }]
                 },
                 {
                     "description": "-1 turn cooldown",

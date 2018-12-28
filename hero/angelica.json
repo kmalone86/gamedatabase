@@ -1,544 +1,539 @@
 {
-  "name": "Angelica",
-  "rarity": "4",
-  "classType": "soul-weaver",
-  "element": "ice",
-  "zodiac": "cancer",
-  "specialtyChangeName": "",
-  "selfSkillBarName": "",
-  "background": "High Priestess of the Holy Order of the Blue Cross. Angelica is a healer of incredible divine power. Despite her youthful appearance, she is the most senior member of the Conclave.",
-  "relations": [
-    {
-      "hero": "clarissa",
-      "relationType": "trust"
-    },
-    {
-      "hero": "aither",
-      "relationType": "trust"
-    },
-    {
-      "hero": "crozet",
-      "relationType": "trust"
-    },
-    {
-      "hero": "enott",
-      "relationType": "grudge"
-    }
-  ],
-  "stats": {
-    "base": {
-      "cp": "1161",
-      "atk": "40",
-      "hp": "253",
-      "spd": "88",
-      "def": "82",
-      "chc": "15",
-      "chd": "150",
-      "eff": 0,
-      "efr": 0,
-      "dac": "5"
-    },
-    "max": {
-      "cp": "14709",
-      "atk": "576",
-      "hp": "5700",
-      "spd": "88",
-      "def": "743",
-      "chc": "15",
-      "chd": "150",
-      "eff": 0,
-      "efr": 0,
-      "dac": 5
-    }
-  },
-  "skills": [
-    {
-      "isPassive": false,
-      "soulBurn": 0,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "",
-      "awakenUpgrade": false,
-      "cooldown": 0,
-      "name": "Holy Strike",
-      "soulAcquire": "1",
-      "description": "Attacks with a staff, with a 20% chance to stun for 1 turn.",
-      "enhancement": [
+    "name": "Angelica",
+    "rarity": "4",
+    "classType": "soul-weaver",
+    "element": "ice",
+    "zodiac": "cancer",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": "High Priestess of the Holy Order of the Blue Cross. Angelica is a healer of incredible divine power. Despite her youthful appearance, she is the most senior member of the Conclave.",
+    "relations": [
         {
-          "description": "+5% damage dealt",
-          "resources": [
-            {
-              "item": "molagora",
-              "qty": "1"
-            },
-            {
-              "item": "gold",
-              "qty": "4000"
-            }
-          ]
+            "hero": "clarissa",
+            "relationType": "trust"
         },
         {
-          "description": "+5% damage dealt",
-          "resources": [
-            {
-              "item": "molagora",
-              "qty": "2"
-            },
-            {
-              "item": "gold",
-              "qty": "8000"
-            }
-          ]
+            "hero": "aither",
+            "relationType": "trust"
         },
         {
-          "description": "+5% effect chance",
-          "resources": [
-            {
-              "item": "baby-mouse-insignia",
-              "qty": "1"
-            },
-            {
-              "item": "molagora",
-              "qty": "3"
-            },
-            {
-              "item": "gold",
-              "qty": "17000"
-            }
-          ]
+            "hero": "crozet",
+            "relationType": "trust"
         },
         {
-          "description": "+10% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": "35000"
-            },
-            {
-              "item": "baby-mouse-insignia",
-              "qty": "3"
-            },
-            {
-              "item": "molagorago",
-              "qty": "1"
-            }
-          ]
-        },
-        {
-          "description": "+10% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": "100000"
-            },
-            {
-              "item": "the-heart-of-hypocrisy",
-              "qty": "2"
-            },
-            {
-              "item": "molagorago",
-              "qty": "2"
-            }
-          ]
+            "hero": "enott",
+            "relationType": "grudge"
         }
-      ],
-      "buffs": [],
-      "debuffs": [
-        "stic_stun"
-      ]
-    },
-    {
-      "isPassive": false,
-      "soulBurn": 0,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "",
-      "awakenUpgrade": true,
-      "cooldown": "2",
-      "name": "Origin of Life",
-      "soulAcquire": "1",
-      "description": "Recovers ally's Health, as well as that of another ally with the least Health, with healing power. Amount recovered is proportional to the caster's max Health.",
-      "enhancement": [
-        {
-          "description": "+5% healing",
-          "resources": [
-            {
-              "item": "molagora",
-              "qty": "1"
-            },
-            {
-              "item": "gold",
-              "qty": "4000"
-            }
-          ]
-        },
-        {
-          "description": "+5% healing",
-          "resources": [
-            {
-              "item": "molagora",
-              "qty": "2"
-            },
-            {
-              "item": "gold",
-              "qty": "8000"
-            }
-          ]
-        },
-        {
-          "description": "+10% healing",
-          "resources": [
-            {
-              "item": "baby-mouse-insignia",
-              "qty": "1"
-            },
-            {
-              "item": "molagora",
-              "qty": "3"
-            },
-            {
-              "item": "gold",
-              "qty": "17000"
-            }
-          ]
-        },
-        {
-          "description": "+10% healing",
-          "resources": [
-            {
-              "item": "baby-mouse-insignia",
-              "qty": "3"
-            },
-            {
-              "item": "molagorago",
-              "qty": "1"
-            },
-            {
-              "item": "gold",
-              "qty": "35000"
-            }
-          ]
-        },
-        {
-          "description": "+10% healing",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": "100000"
-            },
-            {
-              "item": "the-heart-of-hypocrisy",
-              "qty": "2"
-            },
-            {
-              "item": "molagorago",
-              "qty": "2"
-            }
-          ]
-        }
-      ],
-      "buffs": [],
-      "debuffs": []
-    },
-    {
-      "isPassive": false,
-      "soulBurn": "20",
-      "selfSkillBarValue": "0",
-      "soulBurnEffect": "Extends buff duration by 2 turns.",
-      "awakenUpgrade": false,
-      "cooldown": "5",
-      "name": "Guide of the Goddess",
-      "soulAcquire": "2",
-      "description": "Recovers to Health of all allies and grants a barrier and immunity for 2 turns. Amount recovered and barrier strength are proportional to the caster's max Health.",
-      "enhancement": [
-        {
-          "description": "+5% healing",
-          "resources": [
-            {
-              "item": "molagora",
-              "qty": "1"
-            },
-            {
-              "item": "gold",
-              "qty": "4000"
-            }
-          ]
-        },
-        {
-          "description": "+5% healing",
-          "resources": [
-            {
-              "item": "molagora",
-              "qty": "2"
-            },
-            {
-              "item": "gold",
-              "qty": "8000"
-            }
-          ]
-        },
-        {
-          "description": "-1 turn cooldown",
-          "resources": [
-            {
-              "item": "baby-mouse-insignia",
-              "qty": "1"
-            },
-            {
-              "item": "molagora",
-              "qty": "3"
-            },
-            {
-              "item": "gold",
-              "qty": "17000"
-            }
-          ]
-        },
-        {
-          "description": "+10% healing",
-          "resources": [
-            {
-              "item": "baby-mouse-insignia",
-              "qty": "3"
-            },
-            {
-              "item": "molagorago",
-              "qty": "1"
-            },
-            {
-              "item": "gold",
-              "qty": "35000"
-            }
-          ]
-        },
-        {
-          "description": "+10% healing",
-          "resources": [
-            {
-              "item": "the-heart-of-hypocrisy",
-              "qty": "2"
-            },
-            {
-              "item": "molagorago",
-              "qty": "2"
-            },
-            {
-              "item": "gold",
-              "qty": "100000"
-            }
-          ]
-        }
-      ],
-      "buffs": [
-        "stic_protect",
-        "stic_debuf_impossible"
-      ],
-      "debuffs": []
-    }
-  ],
-  "specialtySkill": {
-    "name": "Holy Light",
-    "description": "Her light will shine on you to guide you through darkness.",
-    "dispatch": "[Fear] Attribute",
-    "enhancement": "Reward bonus +10%",
+    ],
     "stats": {
-      "command": "25",
-      "charm": "62",
-      "politics": "90"
-    }
-  },
-  "memoryImprint": [
-    {
-      "rank": "d",
-      "status": {
-        "type": "efr",
-        "increase": 0
-      }
+        "base": {
+            "cp": "1161",
+            "atk": "40",
+            "hp": "253",
+            "spd": "88",
+            "def": "82",
+            "chc": "15",
+            "chd": "150",
+            "eff": 0,
+            "efr": 0,
+            "dac": "5"
+        },
+        "max": {
+            "cp": "14709",
+            "atk": "576",
+            "hp": "5700",
+            "spd": "88",
+            "def": "743",
+            "chc": "15",
+            "chd": "150",
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        }
     },
-    {
-      "rank": "c",
-      "status": {
-        "type": "efr",
-        "increase": "3.6%"
-      }
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Holy Strike",
+            "soulAcquire": "1",
+            "description": "Attacks with a staff, with a 20% chance to stun for 1 turn.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": "1"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "4000"
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": "2"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "8000"
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "baby-mouse-insignia",
+                            "qty": "1"
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": "3"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "17000"
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": "35000"
+                        },
+                        {
+                            "item": "baby-mouse-insignia",
+                            "qty": "3"
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": "1"
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": "100000"
+                        },
+                        {
+                            "item": "the-heart-of-hypocrisy",
+                            "qty": "2"
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": "2"
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": ["stic_stun"]
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": true,
+            "cooldown": "2",
+            "name": "Origin of Life",
+            "soulAcquire": "1",
+            "description": "Recovers ally's Health, as well as that of another ally with the least Health, with healing power. Amount recovered is proportional to the caster's max Health.",
+            "enhancement": [
+                {
+                    "description": "+5% healing",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": "1"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "4000"
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% healing",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": "2"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "8000"
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% healing",
+                    "resources": [
+                        {
+                            "item": "baby-mouse-insignia",
+                            "qty": "1"
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": "3"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "17000"
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% healing",
+                    "resources": [
+                        {
+                            "item": "baby-mouse-insignia",
+                            "qty": "3"
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": "1"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "35000"
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% healing",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": "100000"
+                        },
+                        {
+                            "item": "the-heart-of-hypocrisy",
+                            "qty": "2"
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": "2"
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": "20",
+            "selfSkillBarValue": "0",
+            "soulBurnEffect": "Extends buff duration by 2 turns.",
+            "awakenUpgrade": false,
+            "cooldown": "5",
+            "name": "Guide of the Goddess",
+            "soulAcquire": "2",
+            "description": "Recovers to Health of all allies and grants a barrier and immunity for 2 turns. Amount recovered and barrier strength are proportional to the caster's max Health.",
+            "enhancement": [
+                {
+                    "description": "+5% healing",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": "1"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "4000"
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% healing",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": "2"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "8000"
+                        }
+                    ]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        {
+                            "item": "baby-mouse-insignia",
+                            "qty": "1"
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": "3"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "17000"
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% healing",
+                    "resources": [
+                        {
+                            "item": "baby-mouse-insignia",
+                            "qty": "3"
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": "1"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "35000"
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% healing",
+                    "resources": [
+                        {
+                            "item": "the-heart-of-hypocrisy",
+                            "qty": "2"
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": "2"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "100000"
+                        }
+                    ]
+                }
+            ],
+            "buffs": ["stic_protect", "stic_debuf_impossible"],
+            "debuffs": []
+        }
+    ],
+    "specialtySkill": {
+        "name": "Holy Light",
+        "description": "Her light will shine on you to guide you through darkness.",
+        "dispatch": "[Fear] Attribute",
+        "enhancement": "Reward bonus +10%",
+        "stats": {
+            "command": "25",
+            "charm": "62",
+            "politics": "90"
+        }
     },
-    {
-      "rank": "b",
-      "status": {
-        "type": "efr",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "a",
-      "status": {
-        "type": "efr",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "s",
-      "status": {
-        "type": "efr",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "ss",
-      "status": {
-        "type": "efr",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "sss",
-      "status": {
-        "type": "efr",
-        "increase": 0
-      }
-    }
-  ],
-  "awakening": [
-    {
-      "rank": 1,
-      "skillUpgrade": false,
-      "statsIncrease": [
+    "memoryImprint": [
         {
-          "hp": "3%"
+            "rank": "d",
+            "status": {
+                "type": "efr",
+                "increase": 0
+            }
         },
         {
-          "atk": "20"
+            "rank": "c",
+            "status": {
+                "type": "efr",
+                "increase": "3.6%"
+            }
         },
         {
-          "hp": "60"
+            "rank": "b",
+            "status": {
+                "type": "efr",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "efr",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "efr",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "efr",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "efr",
+                "increase": 0
+            }
         }
-      ],
-      "resources": [
+    ],
+    "awakening": [
         {
-          "item": "frost-rune",
-          "qty": "8"
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "hp": "3%"
+                },
+                {
+                    "atk": "20"
+                },
+                {
+                    "hp": "60"
+                }
+            ],
+            "resources": [
+                {
+                    "item": "frost-rune",
+                    "qty": "8"
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "hp": "3%"
+                },
+                {
+                    "atk": "20"
+                },
+                {
+                    "hp": "60"
+                }
+            ],
+            "resources": [
+                {
+                    "item": "frost-rune",
+                    "qty": "12"
+                },
+                {
+                    "item": "greater-frost-rune",
+                    "qty": "2"
+                }
+            ]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [
+                {
+                    "atk": "20"
+                },
+                {
+                    "hp": "60"
+                }
+            ],
+            "resources": [
+                {
+                    "item": "frost-rune",
+                    "qty": "17"
+                },
+                {
+                    "item": "greater-frost-rune",
+                    "qty": "8"
+                }
+            ]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "def": "6%"
+                },
+                {
+                    "atk": "30"
+                },
+                {
+                    "hp": "80"
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-frost-rune",
+                    "qty": "8"
+                },
+                {
+                    "item": "epic-frost-rune",
+                    "qty": "1"
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "hp": "6%"
+                },
+                {
+                    "atk": "30"
+                },
+                {
+                    "hp": "80"
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-frost-rune",
+                    "qty": "5"
+                },
+                {
+                    "item": "special-alarm-loop",
+                    "qty": "12"
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "hp": "6%"
+                },
+                {
+                    "atk": "30"
+                },
+                {
+                    "hp": "80"
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-frost-rune",
+                    "qty": "8"
+                },
+                {
+                    "item": "the-heart-of-hypocrisy",
+                    "qty": "8"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "rank": 2,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "hp": "3%"
-        },
-        {
-          "atk": "20"
-        },
-        {
-          "hp": "60"
-        }
-      ],
-      "resources": [
-        {
-          "item": "frost-rune",
-          "qty": "12"
-        },
-        {
-          "item": "greater-frost-rune",
-          "qty": "2"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "skillUpgrade": true,
-      "statsIncrease": [
-        {
-          "atk": "20"
-        },
-        {
-          "hp": "60"
-        }
-      ],
-      "resources": [
-        {
-          "item": "frost-rune",
-          "qty": "17"
-        },
-        {
-          "item": "greater-frost-rune",
-          "qty": "8"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "def": "6%"
-        },
-        {
-          "atk": "30"
-        },
-        {
-          "hp": "80"
-        }
-      ],
-      "resources": [
-        {
-          "item": "greater-frost-rune",
-          "qty": "8"
-        },
-        {
-          "item": "epic-frost-rune",
-          "qty": "1"
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "hp": "6%"
-        },
-        {
-          "atk": "30"
-        },
-        {
-          "hp": "80"
-        }
-      ],
-      "resources": [
-        {
-          "item": "epic-frost-rune",
-          "qty": "5"
-        },
-        {
-          "item": "special-alarm-loop",
-          "qty": "12"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "hp": "6%"
-        },
-        {
-          "atk": "30"
-        },
-        {
-          "hp": "80"
-        }
-      ],
-      "resources": [
-        {
-          "item": "epic-frost-rune",
-          "qty": "8"
-        },
-        {
-          "item": "the-heart-of-hypocrisy",
-          "qty": "8"
-        }
-      ]
-    }
-  ]
+    ]
 }
