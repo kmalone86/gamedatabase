@@ -1,0 +1,187 @@
+{
+    "name": "Mega-Phantasma",
+    "rarity": 2,
+    "classType": "material",
+    "element": "ice",
+    "zodiac": "taurus",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": "A magical creature that has collected great power over the course of its long life. It is incredibly wary, and unable to properly control its own power, making it capable of delivering great damage.",
+    "relations": [],
+    "stats": {
+        "base": {
+            "cp": 3895,
+            "atk": 209,
+            "hp": 1277,
+            "spd": 91,
+            "def": 197,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max": {
+            "cp": 8377,
+            "atk": 448,
+            "hp": 2888,
+            "spd": 91,
+            "def": 409,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        }
+    },
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Gnaw",
+            "soulAcquire": 1,
+            "description": "Attacks with sharp teeth.",
+            "enhancement": [],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": true,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Phantasma Seeds",
+            "soulAcquire": 0,
+            "description": "The item will be at max level when you receive it, and earn a bonus 3% EXP in battle.",
+            "enhancement": [],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "",
+            "soulAcquire": 0,
+            "description": "",
+            "enhancement": [],
+            "buffs": [],
+            "debuffs": []
+        }
+    ],
+    "specialtySkill": {
+        "name": "",
+        "description": "",
+        "dispatch": [],
+        "enhancement": [],
+        "stats": {
+            "command": 0,
+            "charm": 0,
+            "politics": 0
+        }
+    },
+    "memoryImprintFormation": {
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": false
+    },
+    "memoryImprint": [
+        {
+            "rank": "d",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "c",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "b",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        }
+    ],
+    "awakening": [
+        {
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [],
+            "resources": []
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [],
+            "resources": []
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [],
+            "resources": []
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [],
+            "resources": []
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [],
+            "resources": []
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [],
+            "resources": []
+        }
+    ]
+}
