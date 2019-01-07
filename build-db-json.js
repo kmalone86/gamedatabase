@@ -26,7 +26,7 @@ const buildFolder = async (folderToMatch) => {
 
     return await new Promise((resolve, reject) => {
         const fileArray = glob.sync(`${folderToMatch}/*.json`, {
-            ignore: ['**/node_modules/**', '**/package.json', '**/package-lock.json'],
+            ignore: ['**/node_modules/**', '**/package.json', '**/package-lock.json', '**/_HERO_TEMPLATE.json'],
         });
 
         if (!fileArray || (fileArray && !fileArray.length)) {

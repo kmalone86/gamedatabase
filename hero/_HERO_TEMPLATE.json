@@ -6,10 +6,7 @@
     "zodiac": "lowercased name of the zodiac sign, from the following: aries,taurus,gemini,cancer,leo,virgo,libra,scorpio,sagittarius,capricorn,aquarius,pisces",
     "specialtyChangeName": "lowercased name of the hero on his specialty change, spaces as dashes",
     "selfSkillBarName": "lowercased name of hero's self skill bar, if any (e.g. Fighting Spirit, Focus). Otherwise empty",
-    "background": [
-        "Text just like the background found in-game",
-        "If has other paragraphs, add each new paragraph as a new string inside this Array"
-    ],
+    "background": "Text just like the background found in-game\nIf has other paragraphs, add \n before a new paragraph",
     "relations": [
         {
             "hero": "lowercased name of relation hero",
