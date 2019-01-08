@@ -62,126 +62,15 @@
             "enhancement": [],
             "buffs": [],
             "debuffs": []
-        },
-        {
-            "isPassive": false,
-            "soulBurn": 0,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
-            "awakenUpgrade": false,
-            "cooldown": 0,
-            "name": "",
-            "soulAcquire": 0,
-            "description": "",
-            "enhancement": [],
-            "buffs": [],
-            "debuffs": []
         }
     ],
-    "specialtySkill": {
-        "name": "",
-        "description": "",
-        "dispatch": [],
-        "enhancement": [],
-        "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
-        }
-    },
+    "specialtySkill": {},
     "memoryImprintFormation": {
         "north": false,
         "south": false,
         "east": false,
         "west": false
     },
-    "memoryImprint": [
-        {
-            "rank": "d",
-            "status": {
-                "type": "",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "c",
-            "status": {
-                "type": "",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "b",
-            "status": {
-                "type": "",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "a",
-            "status": {
-                "type": "",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "s",
-            "status": {
-                "type": "",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "ss",
-            "status": {
-                "type": "",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "sss",
-            "status": {
-                "type": "",
-                "increase": 0
-            }
-        }
-    ],
-    "awakening": [
-        {
-            "rank": 1,
-            "skillUpgrade": false,
-            "statsIncrease": [],
-            "resources": []
-        },
-        {
-            "rank": 2,
-            "skillUpgrade": false,
-            "statsIncrease": [],
-            "resources": []
-        },
-        {
-            "rank": 3,
-            "skillUpgrade": true,
-            "statsIncrease": [],
-            "resources": []
-        },
-        {
-            "rank": 4,
-            "skillUpgrade": false,
-            "statsIncrease": [],
-            "resources": []
-        },
-        {
-            "rank": 5,
-            "skillUpgrade": false,
-            "statsIncrease": [],
-            "resources": []
-        },
-        {
-            "rank": 6,
-            "skillUpgrade": false,
-            "statsIncrease": [],
-            "resources": []
-        }
-    ]
+    "memoryImprint": [],
+    "awakening": []
 }
