@@ -11,6 +11,13 @@ const success = chalk.green;
 const finishSuccess = chalk.bold.bgGreen;
 const finishError = chalk.bold.bgRed;
 
+const getDirectories = (baseDir) => {
+    return fs
+        .readdirSync(baseDir, { withFileTypes: true })
+        .filter((f) => f.isDirectory())
+        .map((f) => path.join(baseDir, f.name));
+};
+
 const mkdirSync = function(dirPath) {
     try {
         fs.mkdirSync(dirPath);
@@ -21,11 +28,12 @@ const mkdirSync = function(dirPath) {
     }
 };
 
-const buildFolder = async (folderToMatch) => {
+const buildFolder = async (dir) => {
     let baseJsonObject = [];
+    const folderToMatch = path.basename(dir);
 
     return await new Promise((resolve, reject) => {
-        const fileArray = glob.sync(`${folderToMatch}/*.json`, {
+        const fileArray = glob.sync(`${dir}/*.json`, {
             ignore: ['**/node_modules/**', '**/package.json', '**/package-lock.json', '**/_HERO_TEMPLATE.json'],
         });
 
@@ -37,7 +45,7 @@ const buildFolder = async (folderToMatch) => {
             warning(
                 `BUILD: ${
                     fileArray.length
-                } JSON files were found in "${folderToMatch}" folder and will be built into a single file "dist/${folderToMatch}.json".`
+                } JSON files were found in "${dir}" folder and will be built into a single file "dist/${folderToMatch}.json".`
             )
         );
 
@@ -73,7 +81,7 @@ const buildFolder = async (folderToMatch) => {
             .then(() => {
                 log(
                     finishSuccess(
-                        `\n√ All JSON files on "${folderToMatch}" folder were processed. See file at "dist/${folderToMatch}.json"\n`
+                        `\n√ All JSON files on "${dir}" folder were processed. See file at "dist/${folderToMatch}.json"\n`
                     )
                 );
 
@@ -92,7 +100,7 @@ const buildFolder = async (folderToMatch) => {
             .catch((e) => {
                 log(
                     finishError(
-                        `\nχ One or more JSONs on "${folderToMatch}" folder are not valid. Please fix above file errors and commit the changes.\n`
+                        `\nχ One or more JSONs on "${dir}" folder are not valid. Please fix above file errors and commit the changes.\n`
                     )
                 );
                 return reject();
@@ -104,12 +112,8 @@ const buildDb = async () => {
     //make `dist` folder
     mkdirSync(path.resolve('./dist'));
 
-    return Promise.all([
-        buildFolder('artifact'),
-        buildFolder('buff-debuff'),
-        buildFolder('hero'),
-        buildFolder('resource'),
-    ])
+    const srcDirs = getDirectories('./src');
+    return Promise.all(srcDirs.map((dir) => buildFolder(dir)))
         .then(() => {
             log(
                 finishSuccess(
