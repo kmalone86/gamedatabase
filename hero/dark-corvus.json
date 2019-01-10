@@ -1,45 +1,37 @@
 {
-  "name": "Destina",
+  "name": "Dark Corvus",
   "rarity": 5,
-  "classType": "soul-weaver",
-  "element": "earth",
-  "zodiac": "cancer",
+  "classType": "warrior",
+  "element": "dark",
+  "zodiac": "capricorn",
   "specialtyChangeName": "",
   "selfSkillBarName": "",
-  "background": "Nicknamed \"the Beast of the Western Light\", Destina is a master of light and metal who has physically manifested in the image of her deeply beloved Soul Weaver, Ruele.",
+  "background": "Corvus was originally a soldier from Rose Apostles until something caused him to lose his faith and grow disillusioned with the world, and now he only wishes for its destruction. However, he still contains a gentle side within him.",
   "relations": [
     {
-      "hero": "ruele-of-light",
-      "relationType": "love"
-    },
-    {
-      "hero": "celestial",
-      "relationType": "trust"
-    },
-    {
-      "hero": "dominiel",
-      "relationType": "trust"
-    },
-    {
-      "hero": "dingo",
-      "relationType": "trust"
-    },
-    {
-      "hero": "judge-kise",
-      "relationType": "trust"
+      "hero": "corvus",
+      "relationType": "grudge"
     },
     {
       "hero": "ras",
-      "relationType": "trust"
+      "relationType": "grudge"
+    },
+    {
+      "hero": "tenebria",
+      "relationType": "grudge"
+    },
+    {
+      "hero": "nilgal",
+      "relationType": "grudge"
     }
   ],
   "stats": {
     "base": {
-      "cp": 1304,
-      "atk": 47,
-      "hp": 285,
-      "spd": 89,
-      "def": 91,
+      "cp": 1406,
+      "atk": 81,
+      "hp": 351,
+      "spd": 102,
+      "def": 77,
       "chc": 15,
       "chd": 150,
       "eff": 0,
@@ -47,11 +39,11 @@
       "dac": 5
     },
     "max": {
-      "cp": 15529,
-      "atk": 621,
-      "hp": 6034,
-      "spd": 89,
-      "def": 775,
+      "cp": 17484,
+      "atk": 966,
+      "hp": 7323,
+      "spd": 102,
+      "def": 657,
       "chc": 15,
       "chd": 150,
       "eff": 0,
@@ -62,14 +54,14 @@
   "skills": [
     {
       "isPassive": false,
-      "soulBurn": "20",
+      "soulBurn": 0,
       "selfSkillBarValue": 0,
-      "soulBurnEffect": "Attacks the enemy and greatly heals all allies. Does not trigger a Dual Attack.",
+      "soulBurnEffect": "",
       "awakenUpgrade": false,
       "cooldown": 0,
-      "name": "Key to an Oath",
-      "soulAcquire": "1",
-      "description": "Attacks the enemy with a staff and heals the ally with the lowest Health. Healing increases proportional to the target's max Health.",
+      "name": "Shield Bash",
+      "soulAcquire": 1,
+      "description": "Attacks with a shield and absorbs some of the damage as Health, with a 50% chance to provoke for 1 turn. Damage dealt increases proportional to the caster's max Health.",
       "enhancement": [
         {
           "description": "+5% damage dealt",
@@ -85,7 +77,7 @@
           ]
         },
         {
-          "description": "+5% damage dealt",
+          "description": "+15% healing",
           "resources": [
             {
               "item": "molagora",
@@ -98,10 +90,10 @@
           ]
         },
         {
-          "description": "+15% healing",
+          "description": "+10% effect chance",
           "resources": [
             {
-              "item": "baby-mouse-insignia",
+              "item": "slime-jelly",
               "qty": "2"
             },
             {
@@ -115,10 +107,10 @@
           ]
         },
         {
-          "description": "+5% damage dealt",
+          "description": "+10% damage dealt",
           "resources": [
             {
-              "item": "baby-mouse-insignia",
+              "item": "slime-jelly",
               "qty": "4"
             },
             {
@@ -132,10 +124,10 @@
           ]
         },
         {
-          "description": "+20% healing",
+          "description": "+15% effect chance",
           "resources": [
             {
-              "item": "baby-mouse-insignia",
+              "item": "slime-jelly",
               "qty": "5"
             },
             {
@@ -152,7 +144,7 @@
           "description": "+15% damage dealt",
           "resources": [
             {
-              "item": "the-heart-of-hypocrisy",
+              "item": "dragons-wrath",
               "qty": "2"
             },
             {
@@ -167,24 +159,26 @@
         }
       ],
       "buffs": [],
-      "debuffs": []
+      "debuffs": [
+        "stic_provoke"
+      ]
     },
     {
-      "isPassive": false,
+      "isPassive": true,
       "soulBurn": 0,
       "selfSkillBarValue": 0,
       "soulBurnEffect": "",
       "awakenUpgrade": false,
-      "cooldown": "3",
-      "name": "Regen",
-      "soulAcquire": "2",
-      "description": "Blesses an ally, recovering their Health and increasing their Combat Readiness by 30%. Healing increases proportional to the caster's max Health.",
+      "cooldown": 0,
+      "name": "Ruin's Advent",
+      "soulAcquire": 0,
+      "description": "When attacked, the caster has a 70% chance of their skill cooldown being decreased by 1 turn, or 2 turns in the case of a critical hit.",
       "enhancement": [
         {
-          "description": "+5% healing",
+          "description": "+10% activation chance",
           "resources": [
             {
-              "item": "baby-mouse-insignia",
+              "item": "slime-jelly",
               "qty": "3"
             },
             {
@@ -198,10 +192,10 @@
           ]
         },
         {
-          "description": "+10% healing",
+          "description": "+10% activation chance",
           "resources": [
             {
-              "item": "baby-mouse-insignia",
+              "item": "slime-jelly",
               "qty": "5"
             },
             {
@@ -215,10 +209,10 @@
           ]
         },
         {
-          "description": "+15% healing",
+          "description": "+10% activation chance",
           "resources": [
             {
-              "item": "the-heart-of-hypocrisy",
+              "item": "dragons-wrath",
               "qty": "3"
             },
             {
@@ -237,17 +231,17 @@
     },
     {
       "isPassive": false,
-      "soulBurn": 0,
+      "soulBurn": 10,
       "selfSkillBarValue": 0,
-      "soulBurnEffect": "",
+      "soulBurnEffect": "Increases damage dealt.",
       "awakenUpgrade": true,
-      "cooldown": "6",
-      "name": "Destina's Grace",
-      "soulAcquire": "3",
-      "description": "Grants all allies the blessing of a Spirit Lord, dispelling all debuffs and recovering Health. If ally is debuffed, their Combat Readiness will also be increased by 15% per each debuff. Effect can only be applied up to 4 times. Healing increases proportional to the caster's max Health.",
+      "cooldown": 9,
+      "name": "Devil's Descent",
+      "soulAcquire": 3,
+      "description": "Attacks with a lethal hit, absorbing damage dealth as Health. Damage dealt is only affected by the caster's Health and does not trigger critical hit. Begins the battle with a full skill cooldown count.",
       "enhancement": [
         {
-          "description": "+5% healing",
+          "description": "+5% damage dealt",
           "resources": [
             {
               "item": "molagora",
@@ -260,7 +254,7 @@
           ]
         },
         {
-          "description": "+5% healing",
+          "description": "+5% damage dealt",
           "resources": [
             {
               "item": "molagora",
@@ -276,7 +270,7 @@
           "description": "-1 turn cooldown",
           "resources": [
             {
-              "item": "baby-mouse-insignia",
+              "item": "slime-jelly",
               "qty": "2"
             },
             {
@@ -290,10 +284,10 @@
           ]
         },
         {
-          "description": "+5% healing",
+          "description": "+5% damage dealt",
           "resources": [
             {
-              "item": "baby-mouse-insignia",
+              "item": "slime-jelly",
               "qty": "4"
             },
             {
@@ -307,10 +301,10 @@
           ]
         },
         {
-          "description": "+10% healing",
+          "description": "+10% damage dealt",
           "resources": [
             {
-              "item": "baby-mouse-insignia",
+              "item": "slime-jelly",
               "qty": "5"
             },
             {
@@ -324,10 +318,10 @@
           ]
         },
         {
-          "description": "+10% healing",
+          "description": "+10% damage dealt",
           "resources": [
             {
-              "item": "the-heart-of-hypocrisy",
+              "item": "dragons-wrath",
               "qty": "2"
             },
             {
@@ -346,22 +340,28 @@
     }
   ],
   "specialtySkill": {
-    "name": "Path of Light",
-    "description": "Destina, the Spirit Lord of Light, keeps many memories. The warmth of light, the coldness of loss.",
-    "dispatch": "[Unknown Knowledge] Attribute",
+    "name": "Siege Destroyer",
+    "description": "Enemies cower when they see him destroy fortress walls.",
+    "dispatch": "[Strong Leader] Attribute",
     "enhancement": "Reward Bonus +10%",
     "stats": {
-      "command": "84",
-      "charm": "91",
-      "politics": "19"
+      "command": 78,
+      "charm": 12,
+      "politics": 92
     }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": false,
+    "west": false
   },
   "memoryImprint": [
     {
       "rank": "d",
       "status": {
         "type": "hp",
-        "increase": "4.3%"
+        "increase": 0
       }
     },
     {
@@ -375,35 +375,35 @@
       "rank": "b",
       "status": {
         "type": "hp",
-        "increase": 0
+        "increase": 0.043
       }
     },
     {
       "rank": "a",
       "status": {
         "type": "hp",
-        "increase": 0
+        "increase": 0.064
       }
     },
     {
       "rank": "s",
       "status": {
         "type": "hp",
-        "increase": 0
+        "increase": 0.086
       }
     },
     {
       "rank": "ss",
       "status": {
         "type": "hp",
-        "increase": 0
+        "increase": 0.107
       }
     },
     {
       "rank": "sss",
       "status": {
         "type": "hp",
-        "increase": 0
+        "increase": 0.12
       }
     }
   ],
@@ -413,7 +413,7 @@
       "skillUpgrade": false,
       "statsIncrease": [
         {
-          "hp": "3%"
+          "hp": 0.03
         },
         {
           "atk": "20"
@@ -424,7 +424,7 @@
       ],
       "resources": [
         {
-          "item": "life-rune",
+          "item": "dark-rune",
           "qty": "10"
         }
       ]
@@ -434,7 +434,7 @@
       "skillUpgrade": false,
       "statsIncrease": [
         {
-          "hp": "3%"
+          "hp": 0.03
         },
         {
           "atk": "20"
@@ -445,11 +445,11 @@
       ],
       "resources": [
         {
-          "item": "life-rune",
+          "item": "dark-rune",
           "qty": "15"
         },
         {
-          "item": "greater-life-rune",
+          "item": "greater-dark-rune",
           "qty": "2"
         }
       ]
@@ -467,11 +467,11 @@
       ],
       "resources": [
         {
-          "item": "life-rune",
+          "item": "dark-rune",
           "qty": "20"
         },
         {
-          "item": "greater-life-rune",
+          "item": "greater-dark-rune",
           "qty": "10"
         }
       ]
@@ -481,7 +481,7 @@
       "skillUpgrade": false,
       "statsIncrease": [
         {
-          "def": "6%"
+          "def": 0.06
         },
         {
           "atk": "30"
@@ -492,11 +492,11 @@
       ],
       "resources": [
         {
-          "item": "greater-life-rune",
+          "item": "greater-dark-rune",
           "qty": "10"
         },
         {
-          "item": "epic-life-rune",
+          "item": "epic-dark-rune",
           "qty": "2"
         }
       ]
@@ -506,7 +506,7 @@
       "skillUpgrade": false,
       "statsIncrease": [
         {
-          "hp": "6%"
+          "hp": 0.06
         },
         {
           "atk": "30"
@@ -517,11 +517,11 @@
       ],
       "resources": [
         {
-          "item": "epic-life-rune",
+          "item": "epic-dark-rune",
           "qty": "6"
         },
         {
-          "item": "special-alarm-loop",
+          "item": "cursed-ashes",
           "qty": "15"
         }
       ]
@@ -531,7 +531,7 @@
       "skillUpgrade": false,
       "statsIncrease": [
         {
-          "hp": "6%"
+          "hp": 0.06
         },
         {
           "atk": "30"
@@ -542,11 +542,11 @@
       ],
       "resources": [
         {
-          "item": "epic-life-rune",
+          "item": "epic-dark-rune",
           "qty": "10"
         },
         {
-          "item": "the-heart-of-hypocrisy",
+          "item": "dragons-wrath",
           "qty": "10"
         }
       ]
