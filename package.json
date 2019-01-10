@@ -19,7 +19,7 @@
         "url": "git+https://github.com/EpicSevenDB/gamedatabase.git"
     },
     "author": "RaphaelDDL",
-    "license": "AGPL-3.0-only",
+    "license": "CC BY-NC-SA 4.0",
     "bugs": {
         "url": "https://github.com/EpicSevenDB/gamedatabase/issues"
     },
