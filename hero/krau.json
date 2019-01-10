@@ -1,33 +1,41 @@
 {
-    "name": "Dominiel",
-    "rarity": 4,
-    "classType": "mage",
+    "name": "Krau",
+    "rarity": 5,
+    "classType": "knight",
     "element": "ice",
-    "zodiac": "taurus",
+    "zodiac": "pisces",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "Successor of a Soul Weaver clan worshiping Nixied, the Lord of Winter, rather than being born naturally talented, Dominiel reached the level she is at through constant hard work. After incredible effort, she finally succeeding in summoning Nixied and swearing a compact. Always holds doubts about her abilities.",
+    "background": "One of the Knights of Taranor, Krau's outgoing and confident personality often causes people to misunderstand his intentions, but he tends to silently push ahead with what he thinks is right. He is risking everything he has to fight for the future of his homeland.",
     "relations": [
         {
-            "hero": "zerato",
-            "relationType": "rival"
-        },
-        {
-            "hero": "dingo",
+            "hero": "ras",
             "relationType": "trust"
         },
         {
-            "hero": "cecilia",
-            "relationType": "longing"
+            "hero": "ludwig",
+            "relationType": "trust"
+        },
+        {
+            "hero": "taranor-royal-guard",
+            "relationType": "trust"
+        },
+        {
+            "hero": "schuri",
+            "relationType": "trust"
+        },
+        {
+            "hero": "taranor-guard",
+            "relationType": "trust"
         }
     ],
     "stats": {
         "base": {
-            "cp": 1303,
-            "atk": 76,
-            "hp": 260,
-            "spd": 108,
-            "def": 76,
+            "cp": 1422,
+            "atk": 69,
+            "hp": 339,
+            "spd": 100,
+            "def": 86,
             "chc": 15,
             "chd": 150,
             "eff": 0,
@@ -35,14 +43,14 @@
             "dac": 5
         },
         "max": {
-            "cp": 16096,
-            "atk": 957,
-            "hp": 5016,
-            "spd": 112,
-            "def": 645,
+            "cp": 17231,
+            "atk": 839,
+            "hp": 6409,
+            "spd": 100,
+            "def": 752,
             "chc": 15,
             "chd": 150,
-            "eff": 9,
+            "eff": 0,
             "efr": 9,
             "dac": 5
         }
@@ -55,9 +63,9 @@
             "soulBurnEffect": "",
             "awakenUpgrade": false,
             "cooldown": 0,
-            "name": "Hail",
-            "soulAcquire": "1",
-            "description": "Throws ice fragments at the enemy, with a 35% chance to decrease Speed for 2 turns.",
+            "name": "Swordstorm",
+            "soulAcquire": 1,
+            "description": "Attack an enemy with a swordstorm with 50% chance to provoke for 1 turn. Damage dealt increases proportional to the caster's max Health.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -73,7 +81,7 @@
                     ]
                 },
                 {
-                    "description": "+5% damage dealt",
+                    "description": "+5% effect chance",
                     "resources": [
                         {
                             "item": "molagora",
@@ -86,11 +94,11 @@
                     ]
                 },
                 {
-                    "description": "+5% effect chance",
+                    "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "shiny-enchantment",
-                            "qty": "1"
+                            "item": "strange-jelly",
+                            "qty": "2"
                         },
                         {
                             "item": "molagora",
@@ -98,24 +106,7 @@
                         },
                         {
                             "item": "gold",
-                            "qty": "17000"
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% effect chance",
-                    "resources": [
-                        {
-                            "item": "shiny-enchantment",
-                            "qty": "2"
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": "5"
-                        },
-                        {
-                            "item": "gold",
-                            "qty": "30000"
+                            "qty": "22000"
                         }
                     ]
                 },
@@ -123,12 +114,12 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "shiny-enchantment",
+                            "item": "strange-jelly",
                             "qty": "4"
                         },
                         {
-                            "item": "molagorago",
-                            "qty": "1"
+                            "item": "molagora",
+                            "qty": "5"
                         },
                         {
                             "item": "gold",
@@ -137,164 +128,10 @@
                     ]
                 },
                 {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
-                            "item": "horn-of-desire",
-                            "qty": "2"
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": "2"
-                        },
-                        {
-                            "item": "gold",
-                            "qty": "100000"
-                        }
-                    ]
-                }
-            ],
-            "buffs": [],
-            "debuffs": ["stic_speed_dn"]
-        },
-        {
-            "isPassive": false,
-            "soulBurn": "20",
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "Skill cooldown is decreased by 2 turns.",
-            "awakenUpgrade": true,
-            "cooldown": "4",
-            "name": "Blizzard Cape",
-            "soulAcquire": "1",
-            "description": "Casts reflect and a barrier on all allies for 2 turns with frost magic. Barrier strength increases in proportion to the caster's Attack.",
-            "enhancement": [
-                {
-                    "description": "Acquire +1 Soul",
-                    "resources": [
-                        {
-                            "item": "shiny-enchantment",
-                            "qty": "3"
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": "3"
-                        },
-                        {
-                            "item": "gold",
-                            "qty": "27000"
-                        }
-                    ]
-                },
-                {
-                    "description": "-1 turn cooldown",
-                    "resources": [
-                        {
-                            "item": "horn-of-desire",
-                            "qty": "1"
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": "1"
-                        },
-                        {
-                            "item": "gold",
-                            "qty": "50000"
-                        }
-                    ]
-                }
-            ],
-            "buffs": ["stic_protect"],
-            "debuffs": []
-        },
-        {
-            "isPassive": false,
-            "soulBurn": 0,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
-            "awakenUpgrade": false,
-            "cooldown": "5",
-            "name": "Ice Spear",
-            "soulAcquire": "2",
-            "description": "Attacks all enemies with a large block of ice, with a 35% chance each to stun for 1 turn and decrease Combat Readiness by 30%.",
-            "enhancement": [
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": "1"
-                        },
-                        {
-                            "item": "gold",
-                            "qty": "4000"
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": "2"
-                        },
-                        {
-                            "item": "gold",
-                            "qty": "8000"
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% effect chance",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": "3"
-                        },
-                        {
-                            "item": "gold",
-                            "qty": "12000"
-                        }
-                    ]
-                },
-                {
-                    "description": "-1 turn cooldown",
-                    "resources": [
-                        {
-                            "item": "shiny-enchantment",
-                            "qty": "1"
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": "3"
-                        },
-                        {
-                            "item": "gold",
-                            "qty": "17000"
-                        }
-                    ]
-                },
-                {
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "shiny-enchantment",
-                            "qty": "2"
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": "5"
-                        },
-                        {
-                            "item": "gold",
-                            "qty": "30000"
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
-                            "item": "shiny-enchantment",
+                            "item": "strange-jelly",
                             "qty": "5"
                         },
                         {
@@ -311,7 +148,178 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "horn-of-desire",
+                            "item": "ancient-creature-nucleus",
+                            "qty": "2"
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": "3"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "120000"
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": ["stic_provoke"]
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 4,
+            "name": "Charge",
+            "soulAcquire": 2,
+            "description": "Shoves the enemy with a shield, decreasing Combat Readiness by 35%, before granting increased Defense to all allies for 2 turns. Damage dealt increases proportional to the caster's Defense.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": "1"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "4000"
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": "2"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "8000"
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": "3"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "12000"
+                        }
+                    ]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        {
+                            "item": "strange-jelly",
+                            "qty": "3"
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": "3"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "27000"
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "strange-jelly",
+                            "qty": "4"
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": "5"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "40000"
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "strange-jelly",
+                            "qty": "7"
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": "1"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "55000"
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "ancient-creature-nucleus",
+                            "qty": "3"
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": "3"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "150000"
+                        }
+                    ]
+                }
+            ],
+            "buffs": ["stic_def_up"],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 20,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Grants an extra turn.",
+            "awakenUpgrade": true,
+            "cooldown": 6,
+            "name": "Summon  Ziegfried",
+            "soulAcquire": 2,
+            "description": "Summons the guardian Ziegfried to attack, dealing damage proportional to the caster's lost Health, penetrating Defense. Also grants a barrier to the caster for 2 turns, with strength proportional to the caster's max Health. This attack cannot trigger a critical hit.",
+            "enhancement": [
+                {
+                    "description": "+2 soul acquired",
+                    "resources": [
+                        {
+                            "item": "strange-jelly",
+                            "qty": "5"
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": "3"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "37000"
+                        }
+                    ]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        {
+                            "item": "ancient-creature-nucleus",
                             "qty": "2"
                         },
                         {
@@ -325,69 +333,75 @@
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": ["stic_stun"]
+            "buffs": ["stic_protect"],
+            "debuffs": []
         }
     ],
     "specialtySkill": {
-        "name": "Touch of Winter",
-        "description": "Blessed with the power of Nixied, the Lord of Winter. She's the successor of a Soul Weaver clan that worships him.",
-        "dispatch": "All Missions",
-        "enhancement": "Time Required -5%",
+        "name": "Aggressive Protector",
+        "description": "A sword and a shield are all it takes.",
+        "dispatch": "[Battle] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
-            "command": "72",
-            "charm": "51",
-            "politics": "32"
+            "command": 85,
+            "charm": 79,
+            "politics": 51
         }
+    },
+    "memoryImprintFormation": {
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": false
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "def",
-                "increase": "2.4%"
+                "type": "hp",
+                "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "def",
+                "type": "hp",
                 "increase": 0
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "def",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "def",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.054
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "def",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.072
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "def",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.09
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "def",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.108
             }
         }
     ],
@@ -397,19 +411,19 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "3%"
+                    "def": "0.030"
                 },
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
                 {
                     "item": "frost-rune",
-                    "qty": "8"
+                    "qty": 10
                 }
             ]
         },
@@ -418,23 +432,23 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "3%"
+                    "efr": "0.030"
                 },
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
                 {
                     "item": "frost-rune",
-                    "qty": "12"
+                    "qty": 15
                 },
                 {
                     "item": "greater-frost-rune",
-                    "qty": "2"
+                    "qty": 2
                 }
             ]
         },
@@ -443,20 +457,20 @@
             "skillUpgrade": true,
             "statsIncrease": [
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
                 {
                     "item": "frost-rune",
-                    "qty": "17"
+                    "qty": 20
                 },
                 {
                     "item": "greater-frost-rune",
-                    "qty": "8"
+                    "qty": 10
                 }
             ]
         },
@@ -465,23 +479,23 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "spd": "4"
+                    "hp": "0.060"
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
                 {
                     "item": "greater-frost-rune",
-                    "qty": "8"
+                    "qty": 10
                 },
                 {
                     "item": "epic-frost-rune",
-                    "qty": "1"
+                    "qty": 2
                 }
             ]
         },
@@ -490,23 +504,23 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": "6%"
+                    "def": "0.060"
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
                 {
                     "item": "epic-frost-rune",
-                    "qty": "5"
+                    "qty": 6
                 },
                 {
-                    "item": "blazing-rage",
-                    "qty": "12"
+                    "item": "blood-flaked-bone",
+                    "qty": 15
                 }
             ]
         },
@@ -515,31 +529,25 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "6%"
+                    "efr": "0.060"
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
                 {
                     "item": "epic-frost-rune",
-                    "qty": "8"
+                    "qty": 10
                 },
                 {
-                    "item": "horn-of-desire",
-                    "qty": "8"
+                    "item": "ancient-creature-nucleus",
+                    "qty": 10
                 }
             ]
         }
-    ],
-    "memoryImprintFormation": {
-        "north": true,
-        "south": true,
-        "east": true,
-        "west": true
-    }
+    ]
 }

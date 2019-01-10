@@ -1,6 +1,6 @@
 {
     "name": "Shadow Rose",
-    "rarity": "4",
+    "rarity": 4,
     "classType": "knight",
     "element": "dark",
     "zodiac": "gemini",
@@ -15,27 +15,27 @@
     ],
     "stats": {
         "base": {
-            "cp": "1237",
-            "atk": "66",
-            "hp": "303",
-            "spd": "101",
-            "def": "71",
-            "chc": "15",
-            "chd": "150",
+            "cp": 1237,
+            "atk": 66,
+            "hp": 303,
+            "spd": 101,
+            "def": 71,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": "5"
+            "dac": 5
         },
         "max": {
-            "cp": "15790",
-            "atk": "889",
-            "hp": "5784",
-            "spd": "107",
-            "def": "610",
-            "chc": "24",
-            "chd": "150",
-            "eff": 0,
-            "efr": 0,
+            "cp": 15790,
+            "atk": 889,
+            "hp": 5784,
+            "spd": 107,
+            "def": 610,
+            "chc": 24,
+            "chd": 150,
+            "eff": 9,
+            "efr": 9,
             "dac": 5
         }
     },

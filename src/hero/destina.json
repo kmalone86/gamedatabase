@@ -1,14 +1,12 @@
 {
     "name": "Destina",
-    "rarity": "5",
+    "rarity": 5,
     "classType": "soul-weaver",
     "element": "earth",
     "zodiac": "cancer",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "Nicknamed \"the Beast of the Western Light\", Destina is a master of light and metal who has physically manifested in the image of her deeply beloved Soul Weaver, Ruele."
-    ],
+    "background": "Nicknamed \"the Beast of the Western Light\", Destina is a master of light and metal who has physically manifested in the image of her deeply beloved Soul Weaver, Ruele.",
     "relations": [
         {
             "hero": "ruele-of-light",

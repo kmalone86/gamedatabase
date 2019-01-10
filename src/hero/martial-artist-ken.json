@@ -6,29 +6,32 @@
     "zodiac": "leo",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "In his goal of becoming the strongest in the universe, he is hunting down and challenging every martial arts master he can find. He will cross time and space, and even dimensions, to find a worthy challenger."
+    "background": "In his goal of becoming the strongest in the universe, he is hunting down and challenging every martial arts master he can find. He will cross time and space, and even dimensions, to find a worthy challenger.",
+    "relations": [
+        {
+            "hero": "ken",
+            "relationType": "grudge"
+        }
     ],
-    "relations": [{ "hero": "ken", "relationType": "grudge" }],
     "stats": {
         "base": {
-            "cp": 2557,
-            "atk": 259,
-            "hp": 708,
+            "cp": 1425,
+            "atk": 102,
+            "hp": 307,
             "spd": 105,
-            "def": 70,
-            "chc": 21,
+            "def": 73,
+            "chc": 15,
             "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
         },
         "max": {
-            "cp": 16259,
-            "atk": 1252,
-            "hp": 5219,
+            "cp": 17273,
+            "atk": 1359,
+            "hp": 5542,
             "spd": 105,
-            "def": 564,
+            "def": 585,
             "chc": 21,
             "chd": 150,
             "eff": 0,
@@ -49,42 +52,96 @@
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": "1"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
                 },
                 {
                     "description": "+5% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "gold", "qty": 12000 }]
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": "2"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "8000"
+                        }
+                    ]
                 },
                 {
                     "description": "+10% effect chance",
                     "resources": [
-                        { "item": "twisted-fang", "qty": 2 },
-                        { "item": "molagora", "qty": 4 },
-                        { "item": "gold", "qty": 26000 }
+                        {
+                            "item": "twisted-fang",
+                            "qty": "2"
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": "3"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "22000"
+                        }
                     ]
                 },
                 {
                     "description": "+10% damage dealt",
                     "resources": [
-                        { "item": "twisted-fang", "qty": 4 },
-                        { "item": "molagorago", "qty": 1 },
-                        { "item": "gold", "qty": 26000 }
+                        {
+                            "item": "twisted-fang",
+                            "qty": "4"
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": "5"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "40000"
+                        }
                     ]
                 },
                 {
                     "description": "+15% effect chance",
                     "resources": [
-                        { "item": "twisted-fang", "qty": 5 },
-                        { "item": "molagorago", "qty": 2 },
-                        { "item": "gold", "qty": 65000 }
+                        {
+                            "item": "twisted-fang",
+                            "qty": "5"
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": "1"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "45000"
+                        }
                     ]
                 },
                 {
                     "description": "+15% damage dealt",
                     "resources": [
-                        { "item": "blazing-soul", "qty": 2 },
-                        { "item": "molagoragora", "qty": 1 },
-                        { "item": "gold", "qty": 160000 }
+                        {
+                            "item": "blazing-soul",
+                            "qty": "2"
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": "3"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "120000"
+                        }
                     ]
                 }
             ],
@@ -99,33 +156,57 @@
             "cooldown": 0,
             "name": "Dragon Flame",
             "soulAcquire": 0,
-            "description": [
-                "Has a 30% chance to couterattack when attacked, with a 100% chance to counterattack with Dragon Flame after suffering a critical hit.",
-                "Dragon Flame: Causes critical hit, and deals damage proportional to the caster's lost Health."
-            ],
+            "description": "Has a 30% chance to couterattack when attacked, with a 100% chance to counterattack with Dragon Flame after suffering a critical hit.\nDragon Flame: Causes critical hit, and deals damage proportional to the caster's lost Health.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt by Dragon Flame",
                     "resources": [
-                        { "item": "twisted-fang", "qty": 3 },
-                        { "item": "molagora", "qty": 1 },
-                        { "item": "gold", "qty": 19000 }
+                        {
+                            "item": "twisted-fang",
+                            "qty": "3"
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": "1"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "19000"
+                        }
                     ]
                 },
                 {
                     "description": "+10% damage dealt by Dragon Flame",
                     "resources": [
-                        { "item": "twisted-fang", "qty": 5 },
-                        { "item": "molagorago", "qty": 2 },
-                        { "item": "gold", "qty": 65000 }
+                        {
+                            "item": "twisted-fang",
+                            "qty": "5"
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": "2"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "65000"
+                        }
                     ]
                 },
                 {
                     "description": "+15% damage dealt by Dragon Flame",
                     "resources": [
-                        { "item": "blazing-soul", "qty": 3 },
-                        { "item": "molagoragora", "qty": 1 },
-                        { "item": "gold", "qty": 190000 }
+                        {
+                            "item": "blazing-soul",
+                            "qty": "3"
+                        },
+                        {
+                            "item": "molagoragora",
+                            "qty": "1"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "190000"
+                        }
                     ]
                 }
             ],
@@ -144,42 +225,96 @@
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": "1"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "4000"
+                        }
+                    ]
                 },
                 {
                     "description": "+10% effect chance",
-                    "resources": [{ "item": "molagora", "qty": 3 }, { "item": "gold", "qty": 12000 }]
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": "2"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "8000"
+                        }
+                    ]
                 },
                 {
                     "description": "-1 turn cooldown",
                     "resources": [
-                        { "item": "twisted-fang", "qty": 2 },
-                        { "item": "molagora", "qty": 4 },
-                        { "item": "gold", "qty": 26000 }
+                        {
+                            "item": "twisted-fang",
+                            "qty": "2"
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": "3"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "22000"
+                        }
                     ]
                 },
                 {
                     "description": "+10% damage dealt",
                     "resources": [
-                        { "item": "twisted-fang", "qty": 4 },
-                        { "item": "molagorago", "qty": 1 },
-                        { "item": "gold", "qty": 26000 }
+                        {
+                            "item": "twisted-fang",
+                            "qty": "4"
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": "5"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "40000"
+                        }
                     ]
                 },
                 {
                     "description": "+15% effect chance",
                     "resources": [
-                        { "item": "twisted-fang", "qty": 5 },
-                        { "item": "molagorago", "qty": 2 },
-                        { "item": "gold", "qty": 65000 }
+                        {
+                            "item": "twisted-fang",
+                            "qty": "5"
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": "1"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "45000"
+                        }
                     ]
                 },
                 {
                     "description": "+15% damage dealt",
                     "resources": [
-                        { "item": "blazing-soul", "qty": 2 },
-                        { "item": "molagoragora", "qty": 1 },
-                        { "item": "gold", "qty": 160000 }
+                        {
+                            "item": "blazing-soul",
+                            "qty": "2"
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": "3"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "120000"
+                        }
                     ]
                 }
             ],
@@ -192,14 +327,24 @@
         "description": "His desire to fight the strongest made him follow the path of Asura.",
         "dispatch": ["[Chase] type mission"],
         "enhancement": ["Reward bonus +6%"],
-        "stats": { "command": 28, "charm": 29, "politics": 18 }
+        "stats": {
+            "command": 28,
+            "charm": 29,
+            "politics": 18
+        }
+    },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
                 "type": "atk",
-                "increase": "3.6%"
+                "increase": 0
             }
         },
         {
@@ -213,35 +358,35 @@
             "rank": "b",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 0.054
             }
         },
         {
             "rank": "s",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 0.072
             }
         },
         {
             "rank": "ss",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 0.09
             }
         },
         {
             "rank": "sss",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 0.108
             }
         }
     ],
@@ -249,38 +394,145 @@
         {
             "rank": 1,
             "skillUpgrade": false,
-            "statsIncrease": [{ "atk": "3%" }, { "atk": 20 }, { "hp": 60 }],
-            "resources": [{ "item": "dark-rune", "qty": 10 }]
+            "statsIncrease": [
+                {
+                    "atk": 0.03
+                },
+                {
+                    "atk": "20"
+                },
+                {
+                    "hp": "60"
+                }
+            ],
+            "resources": [
+                {
+                    "item": "dark-rune",
+                    "qty": "10"
+                }
+            ]
         },
         {
             "rank": 2,
             "skillUpgrade": false,
-            "statsIncrease": [{ "atk": "3%" }, { "atk": 20 }, { "hp": 60 }],
-            "resources": [{ "item": "dark-rune", "qty": 15 }, { "item": "greater-dark-rune", "qty": 2 }]
+            "statsIncrease": [
+                {
+                    "atk": 0.03
+                },
+                {
+                    "atk": "20"
+                },
+                {
+                    "hp": "60"
+                }
+            ],
+            "resources": [
+                {
+                    "item": "dark-rune",
+                    "qty": "15"
+                },
+                {
+                    "item": "greater-dark-rune",
+                    "qty": "2"
+                }
+            ]
         },
         {
             "rank": 3,
             "skillUpgrade": true,
-            "statsIncrease": [{ "atk": 20 }, { "hp": 60 }],
-            "resources": [{ "item": "dark-rune", "qty": 20 }, { "item": "greater-dark-rune", "qty": 10 }]
+            "statsIncrease": [
+                {
+                    "atk": "20"
+                },
+                {
+                    "hp": "60"
+                }
+            ],
+            "resources": [
+                {
+                    "item": "dark-rune",
+                    "qty": "20"
+                },
+                {
+                    "item": "greater-dark-rune",
+                    "qty": "10"
+                }
+            ]
         },
         {
             "rank": 4,
             "skillUpgrade": false,
-            "statsIncrease": [{ "chc": "6%" }, { "atk": 30 }, { "hp": 80 }],
-            "resources": [{ "item": "greater-dark-rune", "qty": 10 }, { "item": "epic-dark-rune", "qty": 2 }]
+            "statsIncrease": [
+                {
+                    "chc": 0.06
+                },
+                {
+                    "atk": "30"
+                },
+                {
+                    "hp": "80"
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-dark-rune",
+                    "qty": "10"
+                },
+                {
+                    "item": "epic-dark-rune",
+                    "qty": "2"
+                }
+            ]
         },
         {
             "rank": 5,
             "skillUpgrade": false,
-            "statsIncrease": [{ "atk": "6%" }, { "atk": 30 }, { "hp": 80 }],
-            "resources": [{ "item": "epic-dark-rune", "qty": 6 }, { "item": "ultra-fang", "qty": 15 }]
+            "statsIncrease": [
+                {
+                    "atk": 0.06
+                },
+                {
+                    "atk": "30"
+                },
+                {
+                    "hp": "80"
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-dark-rune",
+                    "qty": "6"
+                },
+                {
+                    "item": "ultra-fang",
+                    "qty": "15"
+                }
+            ]
         },
         {
             "rank": 6,
             "skillUpgrade": false,
-            "statsIncrease": [{ "atk": "6%" }, { "atk": 30 }, { "hp": 80 }],
-            "resources": [{ "item": "epic-dark-rune", "qty": 10 }, { "item": "blazing-soul", "qty": 10 }]
+            "statsIncrease": [
+                {
+                    "atk": 0.06
+                },
+                {
+                    "atk": "30"
+                },
+                {
+                    "hp": "80"
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-dark-rune",
+                    "qty": "10"
+                },
+                {
+                    "item": "blazing-soul",
+                    "qty": "10"
+                }
+            ]
         }
     ]
 }

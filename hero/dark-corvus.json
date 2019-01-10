@@ -1,51 +1,51 @@
 {
-    "name": "Pyllis",
-    "rarity": 3,
-    "classType": "knight",
+    "name": "Dark Corvus",
+    "rarity": 5,
+    "classType": "warrior",
     "element": "dark",
-    "zodiac": "cancer",
+    "zodiac": "capricorn",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "Part of the Church of Ilryos, Pyllis was originally Human before the Homunculus experiments changed her. She cannot remember anything from her time as a Human, but has a lingering feeling of being abandoned by a friend.",
+    "background": "Corvus was originally a soldier from Rose Apostles until something caused him to lose his faith and grow disillusioned with the world, and now he only wishes for its destruction. However, he still contains a gentle side within him.",
     "relations": [
+        {
+            "hero": "corvus",
+            "relationType": "grudge"
+        },
         {
             "hero": "ras",
             "relationType": "grudge"
         },
         {
-            "hero": "ravi",
-            "relationType": "trust"
+            "hero": "tenebria",
+            "relationType": "grudge"
         },
         {
             "hero": "nilgal",
-            "relationType": "trust"
-        },
-        {
-            "hero": "tenebria",
-            "relationType": "trust"
+            "relationType": "grudge"
         }
     ],
     "stats": {
         "base": {
-            "cp": "1113",
-            "atk": "47",
-            "hp": "276",
-            "spd": "91",
-            "def": "71",
-            "chc": "15",
-            "chd": "150",
+            "cp": 1406,
+            "atk": 81,
+            "hp": 351,
+            "spd": 102,
+            "def": 77,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": "5"
+            "dac": 5
         },
         "max": {
-            "cp": 15518,
-            "atk": 685,
-            "hp": 6403,
-            "spd": 91,
-            "def": 703,
-            "chc": "15",
-            "chd": "150",
+            "cp": 17484,
+            "atk": 966,
+            "hp": 7323,
+            "spd": 102,
+            "def": 657,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
@@ -59,20 +59,33 @@
             "soulBurnEffect": "",
             "awakenUpgrade": false,
             "cooldown": 0,
-            "name": "Weak Blow",
-            "soulAcquire": "1",
-            "description": "Attacks the enemy, with a 50% chance to provoke. Damage dealt increases proportional to the caster's Defense.",
+            "name": "Shield Bash",
+            "soulAcquire": 1,
+            "description": "Attacks with a shield and absorbs some of the damage as Health, with a 50% chance to provoke for 1 turn. Damage dealt increases proportional to the caster's max Health.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "4000"
-                        },
-                        {
                             "item": "molagora",
                             "qty": "1"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "4000"
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% healing",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": "2"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "8000"
                         }
                     ]
                 },
@@ -80,12 +93,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "8000"
+                            "item": "slime-jelly",
+                            "qty": "2"
                         },
                         {
                             "item": "molagora",
-                            "qty": "2"
+                            "qty": "3"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "22000"
                         }
                     ]
                 },
@@ -93,16 +110,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "27000"
+                            "item": "slime-jelly",
+                            "qty": "4"
                         },
                         {
                             "item": "molagora",
-                            "qty": "3"
+                            "qty": "5"
                         },
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": "4"
+                            "item": "gold",
+                            "qty": "40000"
                         }
                     ]
                 },
@@ -110,16 +127,16 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
+                            "item": "slime-jelly",
+                            "qty": "5"
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": "1"
+                        },
+                        {
                             "item": "gold",
-                            "qty": "44000"
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": "6"
-                        },
-                        {
-                            "item": "baby-mouse-insignia",
-                            "qty": "4"
+                            "qty": "45000"
                         }
                     ]
                 },
@@ -127,16 +144,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "45000"
+                            "item": "dragons-wrath",
+                            "qty": "2"
                         },
                         {
                             "item": "molagorago",
-                            "qty": "1"
+                            "qty": "3"
                         },
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": "5"
+                            "item": "gold",
+                            "qty": "120000"
                         }
                     ]
                 }
@@ -151,112 +168,86 @@
             "soulBurnEffect": "",
             "awakenUpgrade": false,
             "cooldown": 0,
-            "name": "Will",
+            "name": "Ruin's Advent",
             "soulAcquire": 0,
-            "description": "Increase Defense when attacked. Increases Defense of all allies for 2 turns every fourth attack received. Effect can only stack up to 5 times.",
+            "description": "When attacked, the caster has a 70% chance of their skill cooldown being decreased by 1 turn, or 2 turns in the case of a critical hit.",
             "enhancement": [
                 {
-                    "description": "+10% additional defense increase when attacked",
+                    "description": "+10% activation chance",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "4000"
+                            "item": "slime-jelly",
+                            "qty": "3"
                         },
                         {
                             "item": "molagora",
                             "qty": "1"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "19000"
                         }
                     ]
                 },
                 {
-                    "description": "+10% additional defense increase when attacked",
+                    "description": "+10% activation chance",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "8000"
+                            "item": "slime-jelly",
+                            "qty": "5"
                         },
                         {
                             "item": "molagora",
-                            "qty": "2"
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% additional defense increase when attacked",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": "27000"
+                            "qty": "5"
                         },
-                        {
-                            "item": "molagora",
-                            "qty": "3"
-                        },
-                        {
-                            "item": "baby-mouse-insignia",
-                            "qty": "3"
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% additional defense increase when attacked",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": "44000"
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": "6"
-                        },
-                        {
-                            "item": "baby-mouse-insignia",
-                            "qty": "4"
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% additional defense increase when attacked",
-                    "resources": [
                         {
                             "item": "gold",
                             "qty": "45000"
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% activation chance",
+                    "resources": [
+                        {
+                            "item": "dragons-wrath",
+                            "qty": "3"
                         },
                         {
                             "item": "molagorago",
-                            "qty": "1"
+                            "qty": "2"
                         },
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": "5"
+                            "item": "gold",
+                            "qty": "130000"
                         }
                     ]
                 }
             ],
-            "buffs": ["stic_def_up"],
+            "buffs": [],
             "debuffs": []
         },
         {
             "isPassive": false,
-            "soulBurn": "10",
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "Skill cooldown is decreased by 2 turns.",
+            "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": true,
-            "cooldown": "4",
-            "name": "Guard",
-            "soulAcquire": "2",
-            "description": "Attacks the enemy, and grants barrier on all allies for 2 turns. Barrier strength increases in proportion to the caster's Defense.",
+            "cooldown": 9,
+            "name": "Devil's Descent",
+            "soulAcquire": 3,
+            "description": "Attacks with a lethal hit, absorbing damage dealth as Health. Damage dealt is only affected by the caster's Health and does not trigger critical hit. Begins the battle with a full skill cooldown count.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "4000"
-                        },
-                        {
                             "item": "molagora",
                             "qty": "1"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "4000"
                         }
                     ]
                 },
@@ -264,12 +255,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "8000"
-                        },
-                        {
                             "item": "molagora",
                             "qty": "2"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "8000"
                         }
                     ]
                 },
@@ -277,16 +268,33 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "27000"
+                            "item": "slime-jelly",
+                            "qty": "2"
                         },
                         {
                             "item": "molagora",
                             "qty": "3"
                         },
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": "3"
+                            "item": "gold",
+                            "qty": "22000"
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "slime-jelly",
+                            "qty": "4"
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": "5"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "40000"
                         }
                     ]
                 },
@@ -294,100 +302,106 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "44000"
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": "6"
-                        },
-                        {
-                            "item": "baby-mouse-insignia",
-                            "qty": "4"
-                        }
-                    ]
-                },
-                {
-                    "description": "+15% damage dealt",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": "45000"
+                            "item": "slime-jelly",
+                            "qty": "5"
                         },
                         {
                             "item": "molagorago",
                             "qty": "1"
                         },
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": "5"
+                            "item": "gold",
+                            "qty": "45000"
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "dragons-wrath",
+                            "qty": "2"
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": "3"
+                        },
+                        {
+                            "item": "gold",
+                            "qty": "120000"
                         }
                     ]
                 }
             ],
-            "buffs": ["stic_protect"],
+            "buffs": [],
             "debuffs": []
         }
     ],
     "specialtySkill": {
-        "name": "Resemblance",
-        "description": "Unrepentant and without regret, she follows orders and thinks of herself as a machine.",
-        "dispatch": "[Barren Land] Attribute",
+        "name": "Siege Destroyer",
+        "description": "Enemies cower when they see him destroy fortress walls.",
+        "dispatch": "[Strong Leader] Attribute",
         "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": "17",
-            "charm": "57",
-            "politics": "40"
+            "command": 78,
+            "charm": 12,
+            "politics": 92
         }
+    },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": false,
+        "west": false
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "def",
-                "increase": "12"
+                "type": "hp",
+                "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "def",
+                "type": "hp",
                 "increase": 0
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "def",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.043
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "def",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.064
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "def",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.086
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "def",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.107
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "def",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.12
             }
         }
     ],
@@ -397,7 +411,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": "20"
@@ -409,7 +423,7 @@
             "resources": [
                 {
                     "item": "dark-rune",
-                    "qty": "5"
+                    "qty": "10"
                 }
             ]
         },
@@ -418,7 +432,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": "20"
@@ -430,7 +444,11 @@
             "resources": [
                 {
                     "item": "dark-rune",
-                    "qty": "9"
+                    "qty": "15"
+                },
+                {
+                    "item": "greater-dark-rune",
+                    "qty": "2"
                 }
             ]
         },
@@ -448,11 +466,11 @@
             "resources": [
                 {
                     "item": "dark-rune",
-                    "qty": "12"
+                    "qty": "20"
                 },
                 {
                     "item": "greater-dark-rune",
-                    "qty": "6"
+                    "qty": "10"
                 }
             ]
         },
@@ -461,7 +479,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "def": 0.06
                 },
                 {
                     "atk": "30"
@@ -473,7 +491,11 @@
             "resources": [
                 {
                     "item": "greater-dark-rune",
-                    "qty": "15"
+                    "qty": "10"
+                },
+                {
+                    "item": "epic-dark-rune",
+                    "qty": "2"
                 }
             ]
         },
@@ -482,7 +504,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": "30"
@@ -494,11 +516,11 @@
             "resources": [
                 {
                     "item": "epic-dark-rune",
-                    "qty": "4"
+                    "qty": "6"
                 },
                 {
-                    "item": "special-alarm-loop",
-                    "qty": "9"
+                    "item": "cursed-ashes",
+                    "qty": "15"
                 }
             ]
         },
@@ -507,7 +529,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": "30"
@@ -519,11 +541,11 @@
             "resources": [
                 {
                     "item": "epic-dark-rune",
-                    "qty": "6"
+                    "qty": "10"
                 },
                 {
-                    "item": "the-heart-of-hypocrisy",
-                    "qty": "6"
+                    "item": "dragons-wrath",
+                    "qty": "10"
                 }
             ]
         }
