@@ -1,6 +1,6 @@
 ## Change Log
 
-### upcoming (2019/01/10 17:18 +00:00)
+### upcoming (2019/01/10 17:20 +00:00)
 
 -   [01cb450](https://github.com/EpicSevenDB/gamedatabase/commit/01cb450119580452995807dd094afd1abe1bb05a) updated versions (@RaphaelDDL)
 -   [3ddf8ac](https://github.com/EpicSevenDB/gamedatabase/commit/3ddf8acac4ad297f142178b97802a64d3d54d4d0) prettier
