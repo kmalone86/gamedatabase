@@ -1,3 +1,4 @@
+const fs = require('fs');
 const path = require('path');
 const jsonfile = require('jsonfile');
 const glob = require('glob');
@@ -11,10 +12,18 @@ const success = chalk.green;
 const finishSuccess = chalk.bold.bgGreen;
 const finishError = chalk.bold.bgRed;
 
-const validateFolder = async (folderToMatch) => {
+const getDirectories = (baseDir) => {
+    return fs
+        .readdirSync(baseDir, { withFileTypes: true })
+        .filter((f) => f.isDirectory())
+        .map((f) => path.join(baseDir, f.name));
+};
+
+const validateFolder = async (dir) => {
+    const folderToMatch = path.basename(dir);
     return await new Promise((resolve, reject) => {
         const requiredProperties = validationRules[folderToMatch];
-        const fileArray = glob.sync(`${folderToMatch}/*.json`, {
+        const fileArray = glob.sync(`${dir}/*.json`, {
             ignore: ['**/node_modules/**', '**/package.json', '**/package-lock.json'],
         });
 
@@ -22,13 +31,7 @@ const validateFolder = async (folderToMatch) => {
             log(warning(`χ No JSON files found.`));
             return reject();
         }
-        log(
-            warning(
-                `VALIDATOR: ${
-                    fileArray.length
-                } JSON files were found in "${folderToMatch}" folder and will be validated.`
-            )
-        );
+        log(warning(`VALIDATOR: ${fileArray.length} JSON files were found in "${dir}" folder and will be validated.`));
 
         // https://stackoverflow.com/questions/31413749/node-js-promise-all-and-foreach
         let actions = fileArray.map((filename) => {
@@ -79,13 +82,13 @@ const validateFolder = async (folderToMatch) => {
 
         return Promise.all(actions)
             .then(() => {
-                log(finishSuccess(`\n√ All JSON files on "${folderToMatch}" folder were validated.\n`));
+                log(finishSuccess(`\n√ All JSON files on "${dir}" folder were validated.\n`));
                 return resolve();
             })
             .catch((e) => {
                 log(
                     finishError(
-                        `\nχ One or more JSONs on "${folderToMatch}" folder are not valid. Please fix above file errors and commit the changes.\n`
+                        `\nχ One or more JSONs on "${dir}" folder are not valid. Please fix above file errors and commit the changes.\n`
                     )
                 );
                 return reject();
@@ -94,12 +97,7 @@ const validateFolder = async (folderToMatch) => {
 };
 
 const validate = async () => {
-    return Promise.all([
-        validateFolder('artifact'),
-        validateFolder('buff-debuff'),
-        validateFolder('hero'),
-        validateFolder('resource'),
-    ])
+    return Promise.all(getDirectories('./src').map((dir) => validateFolder(dir)))
         .then(() => {
             log(
                 finishSuccess(
