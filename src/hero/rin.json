@@ -1,0 +1,416 @@
+{
+  "name": "Rin",
+  "rarity": 4,
+  "classType": "soul-weaver",
+  "element": "earth",
+  "zodiac": "virgo",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "A brave and sturdy young girl, Rin was adopted by the great merchant Basar following the loss of her father, though she refuses to believe he is truly dead. She is full of ambition, but also good-natured with a strong sense of justice.",
+  "relations": [
+    {
+      "hero": "",
+      "relationType": ""
+    }
+  ],
+  "stats": {
+    "base": {
+      "cp": 0,
+      "atk": 0,
+      "hp": 0,
+      "spd": 0,
+      "def": 0,
+      "chc": 0,
+      "chd": 0,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0
+    },
+    "max": {
+      "cp": 0,
+      "atk": 0,
+      "hp": 0,
+      "spd": 0,
+      "def": 0,
+      "chc": 0,
+      "chd": 0,
+      "eff": 0,
+      "efr": 0,
+      "dac": 5
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Ring Throw",
+      "soulAcquire": 0,
+      "description": "Throws rings at the enemy, with a 75% chance to dispel one buff. Damage dealt increases proportional to the caster's max Health.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": []
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Dazzling Dance",
+      "soulAcquire": 0,
+      "description": "Dazzles the enemy with a dance, with a 50% chance to decrease Defense for 2 turns, and a 50% chance to use Ring Throw. Damage dealt increases proportional to the caster's max Health.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": []
+        },
+        {
+          "description": "+15% effect chance",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": []
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Extends buff duration by 1 turn.",
+      "awakenUpgrade": true,
+      "cooldown": 0,
+      "name": "Showtime",
+      "soulAcquire": 0,
+      "description": "Heals all allies with an elegant dance, casting two random buffs for 3 turns. Amount recovered and barrier strength is proportional to the target's max Health.",
+      "enhancement": [
+        {
+          "description": "+15% healing",
+          "resources": []
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": []
+        },
+        {
+          "description": "+15% healing",
+          "resources": []
+        }
+      ],
+      "buffs": [],
+      "debuffs": []
+    }
+  ],
+  "specialtySkill": {
+    "name": "Cat's Eyes",
+    "description": "Her cat eyes glow in the darkness.",
+    "dispatch": [],
+    "enhancement": [],
+    "stats": {
+      "command": 0,
+      "charm": 0,
+      "politics": 0
+    }
+  },
+  "memoryImprintFormation": {
+    "north": false,
+    "south": false,
+    "east": false,
+    "west": false
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "": 0
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "earth-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "": 0
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "earth-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-earth-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "earth-rune",
+          "qty": 17
+        },
+        {
+          "item": "greater-earth-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "": 0
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-earth-rune",
+          "qty": 8
+        },
+        {
+          "item": "epic-earth-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "": 0
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-earth-rune",
+          "qty": 5
+        },
+        {
+          "item": "eternal-forest-dust",
+          "qty": 12
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "": 0
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-earth-rune",
+          "qty": 8
+        },
+        {
+          "item": "demon-blood-gem",
+          "qty": 8
+        }
+      ]
+    }
+  ]
+}

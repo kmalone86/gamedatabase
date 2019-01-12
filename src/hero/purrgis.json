@@ -1,0 +1,416 @@
+{
+  "name": "Purrgis",
+  "rarity": 4,
+  "classType": "warrior",
+  "element": "earth",
+  "zodiac": "scorpio",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "Believing life is all about hitting a jackpot, Purrgis loves to snoop around. Born in Farche, a poor region, he has suffered discrimination for many years, turning him into an opportunist obsessed with money.",
+  "relations": [
+    {
+      "hero": "",
+      "relationType": ""
+    }
+  ],
+  "stats": {
+    "base": {
+      "cp": 0,
+      "atk": 0,
+      "hp": 0,
+      "spd": 0,
+      "def": 0,
+      "chc": 0,
+      "chd": 0,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0
+    },
+    "max": {
+      "cp": 0,
+      "atk": 0,
+      "hp": 0,
+      "spd": 0,
+      "def": 0,
+      "chc": 0,
+      "chd": 0,
+      "eff": 0,
+      "efr": 0,
+      "dac": 5
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Falling Strike",
+      "soulAcquire": 0,
+      "description": "Mows down enemies with a great sword, with a 35% chance to decrease Speed for 2 turns.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": []
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": []
+    },
+    {
+      "isPassive": true,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Get Lost!",
+      "soulAcquire": 0,
+      "description": "Hits all enemies when counterattacking, with a 20% chance to counterattack when attacked.",
+      "enhancement": [
+        {
+          "description": "+1% counterattack chance",
+          "resources": []
+        },
+        {
+          "description": "+2% counterattack chance",
+          "resources": []
+        },
+        {
+          "description": "+2% counterattack chance",
+          "resources": []
+        },
+        {
+          "description": "+2% counterattack chance",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+3% counterattack chance",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": []
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Increases damage dealt.",
+      "awakenUpgrade": true,
+      "cooldown": 0,
+      "name": "Final Blow",
+      "soulAcquire": 0,
+      "description": "Attacks all enemies with a powerful ground pound, stunning for 1 turn if they have less than 30% Health.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": []
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": []
+    }
+  ],
+  "specialtySkill": {
+    "name": "Muscle Flexing",
+    "description": "Exaggerates frequently when bragging about his power.",
+    "dispatch": [],
+    "enhancement": [],
+    "stats": {
+      "command": 0,
+      "charm": 0,
+      "politics": 0
+    }
+  },
+  "memoryImprintFormation": {
+    "north": false,
+    "south": false,
+    "east": false,
+    "west": false
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "": 0
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "earth-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "": 0
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "earth-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-earth-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "earth-rune",
+          "qty": 17
+        },
+        {
+          "item": "greater-earth-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "": 0
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-earth-rune",
+          "qty": 8
+        },
+        {
+          "item": "epic-earth-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "": 0
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-earth-rune",
+          "qty": 5
+        },
+        {
+          "item": "erikion-carapace",
+          "qty": 12
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "": 0
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-earth-rune",
+          "qty": 8
+        },
+        {
+          "item": "black-cursed-powder",
+          "qty": 8
+        }
+      ]
+    }
+  ]
+}

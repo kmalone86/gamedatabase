@@ -1,0 +1,416 @@
+{
+  "name": "General Purrgis",
+  "rarity": 4,
+  "classType": "warrior",
+  "element": "light",
+  "zodiac": "cancer",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "Daring and responsible, General Purrgis will never abandon his subordinates in a dangerous situation, and commands all of their respect.",
+  "relations": [
+    {
+      "hero": "",
+      "relationType": ""
+    }
+  ],
+  "stats": {
+    "base": {
+      "cp": 0,
+      "atk": 0,
+      "hp": 0,
+      "spd": 0,
+      "def": 0,
+      "chc": 0,
+      "chd": 0,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0
+    },
+    "max": {
+      "cp": 0,
+      "atk": 0,
+      "hp": 0,
+      "spd": 0,
+      "def": 0,
+      "chc": 0,
+      "chd": 0,
+      "eff": 0,
+      "efr": 0,
+      "dac": 5
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Heroic Strike",
+      "soulAcquire": 0,
+      "description": "Mows down enemies with a great sword, with a 50% chance to provoke for 1 turn.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": []
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": []
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+15% effect chance",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": []
+    },
+    {
+      "isPassive": true,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Spearhead",
+      "soulAcquire": 0,
+      "description": "Increases all allies' Combat Readiness by 10% when the caster is attacked.",
+      "enhancement": [
+        {
+          "description": "+1% Combat Readiness",
+          "resources": []
+        },
+        {
+          "description": "+2% Combat Readiness",
+          "resources": []
+        },
+        {
+          "description": "+2% Combat Readiness",
+          "resources": []
+        }
+      ],
+      "buffs": [],
+      "debuffs": []
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Skill cooldown is decreased by 2 turns.",
+      "awakenUpgrade": true,
+      "cooldown": 0,
+      "name": "Command to Charge",
+      "soulAcquire": 0,
+      "description": "Gives the command to charge, dealing damage to all enemies, with a 75% chance of stunning two random enemies for 1 turn. Increases Attack of all allies for 2 turns.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": []
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": []
+        },
+        {
+          "description": "+15% effect chance",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": []
+    }
+  ],
+  "specialtySkill": {
+    "name": "Regular Customer",
+    "description": "Spend a lot of time hanging around the lobby thinking about his next task.",
+    "dispatch": [],
+    "enhancement": [],
+    "stats": {
+      "command": 0,
+      "charm": 0,
+      "politics": 0
+    }
+  },
+  "memoryImprintFormation": {
+    "north": false,
+    "south": false,
+    "east": false,
+    "west": false
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "": 0
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "light-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "": 0
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "light-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-light-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "light-rune",
+          "qty": 17
+        },
+        {
+          "item": "greater-light-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "": 0
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-light-rune",
+          "qty": 8
+        },
+        {
+          "item": "epic-light-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "": 0
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-light-rune",
+          "qty": 5
+        },
+        {
+          "item": "special-alarm-loop",
+          "qty": 12
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "": 0
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-light-rune",
+          "qty": 8
+        },
+        {
+          "item": "the-heart-of-hypocrisy",
+          "qty": 8
+        }
+      ]
+    }
+  ]
+}

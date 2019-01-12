@@ -1,0 +1,416 @@
+{
+  "name": "Mercedes",
+  "rarity": 4,
+  "classType": "mage",
+  "element": "fire",
+  "zodiac": "scorpio",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "A Homunculus placed in the care of Queen Diene some years previously, Mercedes has a poker face that gives away little emotion, but she grows quickly attached to those who show her kindness. Sometimes, she may awkwardly mimic others or repeat what they say.",
+  "relations": [
+    {
+      "hero": "",
+      "relationType": ""
+    }
+  ],
+  "stats": {
+    "base": {
+      "cp": 0,
+      "atk": 0,
+      "hp": 0,
+      "spd": 0,
+      "def": 0,
+      "chc": 0,
+      "chd": 0,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0
+    },
+    "max": {
+      "cp": 0,
+      "atk": 0,
+      "hp": 0,
+      "spd": 0,
+      "def": 0,
+      "chc": 0,
+      "chd": 0,
+      "eff": 0,
+      "efr": 0,
+      "dac": 5
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Divine Bolt",
+      "soulAcquire": 0,
+      "description": "Attacks two enemies with shock magic.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": []
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Increases damage dealt.",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Dimensional Rupture",
+      "soulAcquire": 0,
+      "description": "Attacks all enemies with a massive light sphere. When there are three or fewer enemies, damage dealt increases as enemies become fewer.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": []
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": true,
+      "cooldown": 0,
+      "name": "Blazing Eye of Kal",
+      "soulAcquire": 0,
+      "description": "Releases the power of the Ancient Book to attack all enemies strongly. The lower the enemy's health, the greater the damage dealt.",
+      "enhancement": [
+        {
+          "description": "+10% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": []
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": []
+    }
+  ],
+  "specialtySkill": {
+    "name": "Eye of Kal's Bookmark",
+    "description": "The Eye of Kal's knowledge came from the Goddess Diche.",
+    "dispatch": [],
+    "enhancement": [],
+    "stats": {
+      "command": 0,
+      "charm": 0,
+      "politics": 0
+    }
+  },
+  "memoryImprintFormation": {
+    "north": false,
+    "south": false,
+    "east": false,
+    "west": false
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "": 0
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "fire-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "": 0
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "fire-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-fire-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "fire-rune",
+          "qty": 17
+        },
+        {
+          "item": "greater-fire-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "": 0
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-fire-rune",
+          "qty": 8
+        },
+        {
+          "item": "epic-fire-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "": 0
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-fire-rune",
+          "qty": 5
+        },
+        {
+          "item": "erikion-carapace",
+          "qty": 12
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "": 0
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-fire-rune",
+          "qty": 8
+        },
+        {
+          "item": "black-cursed-powder",
+          "qty": 8
+        }
+      ]
+    }
+  ]
+}
