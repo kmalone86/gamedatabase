@@ -1,0 +1,419 @@
+{
+  "name": "Celeste",
+  "rarity": 3,
+  "classType": "ranger",
+  "element": "light",
+  "zodiac": "sagittarius",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "Currently working as a private mercenary, Celeste used to be a member of Aramintha's Silver Blade Company long ago. She says little and has an earnest and very serious personality, but suffers from thinking too much and an inability to choose.",
+  "relations": [
+    {
+      "hero": "",
+      "relationType": ""
+    }
+  ],
+  "stats": {
+    "base": {
+      "cp": 0,
+      "atk": 0,
+      "hp": 0,
+      "spd": 0,
+      "def": 0,
+      "chc": 0,
+      "chd": 0,
+      "eff": 0,
+      "efr": 0,
+      "dac": 0
+    },
+    "max": {
+      "cp": 0,
+      "atk": 0,
+      "hp": 0,
+      "spd": 0,
+      "def": 0,
+      "chc": 0,
+      "chd": 0,
+      "eff": 0,
+      "efr": 0,
+      "dac": 5
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Precision Fire",
+      "soulAcquire": 1,
+      "description": "Attacks the enemy, with a 50% chance to decrease Hit Chance for 1 turn.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": []
+        },
+        {
+          "description": "+15% effect chance",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_blind"
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Increases damage dealt.",
+      "awakenUpgrade": false,
+      "cooldown": 4,
+      "name": "Volley",
+      "soulAcquire": 2,
+      "description": "Shoots a volley of arrows at all enemies, with a 50% chance to decrease Combat Readiness by 20%. Does not increase cooldown count when the caster's Health is more than 80%.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": []
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 4,
+      "name": "Defcon",
+      "soulAcquire": 1,
+      "description": "Caster recovers 30% Health and is granted an extra turn and increased Attack for 2 turns.",
+      "enhancement": [
+        {
+          "description": "+2 Soul acquired",
+          "resources": []
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": []
+        }
+      ],
+      "buffs": [],
+      "debuffs": []
+    }
+  ],
+  "specialtySkill": {
+    "name": "Silent Sharpshooter",
+    "description": "When looking for clues, she's as calm and precise as when she's drawing a bow.",
+    "dispatch": [],
+    "enhancement": [],
+    "stats": {
+      "command": 0,
+      "charm": 0,
+      "politics": 0
+    }
+  },
+  "memoryImprintFormation": {
+    "north": false,
+    "south": false,
+    "east": false,
+    "west": false
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "",
+        "increase": 0
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "": 0
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "light-rune",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "": 0
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "light-rune",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "light-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-light-rune",
+          "qty": 6
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "": 0
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-light-rune",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "": 0
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-light-rune",
+          "qty": 4
+        },
+        {
+          "item": "cold-look",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "": 0
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-light-rune",
+          "qty": 6
+        },
+        {
+          "item": "mercenarys-medicine",
+          "qty": 6
+        }
+      ]
+    }
+  ]
+}
