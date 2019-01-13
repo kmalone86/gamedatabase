@@ -1,0 +1,430 @@
+{
+  "name": "Bellona",
+  "rarity": 5,
+  "classType": "ranger",
+  "element": "earth",
+  "zodiac": "capricorn",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "focus",
+  "background": "Daugther of a noble Ezeran family, Bellona ran away from home, refusing to be forced into an arranged marriage. After joining the Phantom CIC she appears to be much more satisfied wit her new life, where she can fight as many strong enemies as she likes and hone her skills.",
+  "relations": [
+    {
+      "hero": "rin",
+      "relationType": "trust"
+    },
+    {
+      "hero": "aramintha",
+      "relationType": "trust"
+    },
+    {
+      "hero": "sez",
+      "relationType": "trust"
+    },
+    {
+      "hero": "lidica",
+      "relationType": "trust"
+    }
+  ],
+  "stats": {
+    "base": {
+      "cp": 1375,
+      "atk": 85,
+      "hp": 317,
+      "spd": 109,
+      "def": 73,
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "efr": 0,
+      "dac": 5
+    },
+    "max": {
+      "cp": 16457,
+      "atk": 1003,
+      "hp": 5704,
+      "spd": 115,
+      "def": 585,
+      "chc": 15,
+      "chd": 150,
+      "eff": 15,
+      "efr": 0,
+      "dac": 5
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 1,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Windbreak Fan",
+      "soulAcquire": 1,
+      "description": "Attacks the enemy with a fan, dealing damage proportional to enemy's max Health. If the caster's stacked Focus is more than 5, loses all Focus and activates Razorwing Fan.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": []
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 1,
+      "soulBurnEffect": "",
+      "awakenUpgrade": true,
+      "cooldown": 3,
+      "name": "Butterfly Fan",
+      "soulAcquire": 2,
+      "description": "Attacks all enemies by waving a fan. Damage dealt increases with more enemies. Grants the caster immunity for 1 turn after attacking.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": []
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 3,
+      "soulBurnEffect": "Increases damage dealt.",
+      "awakenUpgrade": false,
+      "cooldown": 6,
+      "name": "Razorwind Fan",
+      "soulAcquire": 2,
+      "description": "Attacks all enemies by creating a powerful gust of wind, with a 65% chance to decrease Defense for 2 turns. Effect chance increases by 20% when Razorwind Fan is triggered by Windbreak Fan.",
+      "enhancement": [
+        {
+          "description": "+15% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": []
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": []
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_def_dn"
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Competitive Noble",
+    "description": "After leaving her family mansion, she hopes to learn much about the outside world.",
+    "dispatch": "[Explore] type",
+    "enhancement": "Reward bonus +6%",
+    "stats": {
+      "command": 80,
+      "charm": 88,
+      "politics": 52
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "hp",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "hp",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "hp",
+        "increase": 0.036
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "hp",
+        "increase": 0.054
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "hp",
+        "increase": 0.072
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "hp",
+        "increase": 0.09
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "hp",
+        "increase": 0.108
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "spd": 2
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "earth-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "earth-rune",
+          "qty": 15
+        },
+        {
+          "item": "greater-earth-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "earth-rune",
+          "qty": 20
+        },
+        {
+          "item": "greater-earth-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-earth-rune",
+          "qty": 10
+        },
+        {
+          "item": "epic-earth-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "spd": 4
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-earth-rune",
+          "qty": 6
+        },
+        {
+          "item": "cursed-ashes",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-earth-rune",
+          "qty": 10
+        },
+        {
+          "item": "dragons-wrath",
+          "qty": 10
+        }
+      ]
+    }
+  ]
+}

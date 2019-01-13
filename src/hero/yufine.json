@@ -1,0 +1,429 @@
+{
+  "name": "Yufine",
+  "rarity": 5,
+  "classType": "warrior",
+  "element": "earth",
+  "zodiac": "taurus",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "Originally a Dragon of Wintenberg, through certain events Yufine eventually found her way to Ritania. Cheerful and curious, her excessive curiosity often leads to accidents. She loves shiny things so much that she tends to zone out while staring at them.",
+  "relations": [
+    {
+      "hero": "silk",
+      "relationType": "trust"
+    },
+    {
+      "hero": "rin",
+      "relationType": "longing"
+    }
+  ],
+  "stats": {
+    "base": {
+      "cp": 1406,
+      "atk": 99,
+      "hp": 322,
+      "spd": 109,
+      "def": 69,
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "efr": 0,
+      "dac": 5
+    },
+    "max": {
+      "cp": 16902,
+      "atk": 1228,
+      "hp": 5784,
+      "spd": 109,
+      "def": 553,
+      "chc": 21,
+      "chd": 159,
+      "eff": 0,
+      "efr": 0,
+      "dac": 5
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Double Slash",
+      "soulAcquire": 1,
+      "description": "Attacks by swinging their weapon, with a 35% chance to decrease Defense by 2 turns.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": []
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_def_dn"
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 5,
+      "name": "Dragon's Roar",
+      "soulAcquire": 2,
+      "description": "Attacks with a dragon howl, dispelling one buff from all enemies, with a 40% chance to silence for 1 turn, before granting increased Attack and Speed for the caster for 2 turns.",
+      "enhancement": [
+        {
+          "description": "+5% effect chance",
+          "resources": []
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": []
+        },
+        {
+          "description": "+5% effect chance",
+          "resources": []
+        }
+      ],
+      "buffs": [
+        "stic_att_up",
+        "stic_speed_up"
+      ],
+      "debuffs": [
+        "stic_silence"
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 20,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Grants an extra turn.",
+      "awakenUpgrade": true,
+      "cooldown": 5,
+      "name": "Dragon Charge",
+      "soulAcquire": 2,
+      "description": "Hits the enemy with a finishing blow, stunning for 1 turn and dispelling all buffs. Damage dealt increases by 50% if the enemy is buffed.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": []
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": []
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 0
+            },
+            {
+              "item": "",
+              "qty": 0
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_stun"
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Gossip Girl",
+    "description": "She hangs around Garo quite often, so she hears a lot of things.",
+    "dispatch": "[Unknown Knowledge] Attribute",
+    "enhancement": "Reward Bonus +10%",
+    "stats": {
+      "command": 36,
+      "charm": 87,
+      "politics": 55
+    }
+  },
+  "memoryImprintFormation": {
+    "north": true,
+    "south": true,
+    "east": true,
+    "west": true
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "atk",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "c",
+      "status": {
+        "type": "atk",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "b",
+      "status": {
+        "type": "atk",
+        "increase": 0.036
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "atk",
+        "increase": 0.054
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "atk",
+        "increase": 0.072
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "atk",
+        "increase": 0.09
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "atk",
+        "increase": 0.108
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "earth-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chd": 0.03
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "earth-rune",
+          "qty": 15
+        },
+        {
+          "item": "greater-earth-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "earth-rune",
+          "qty": 20
+        },
+        {
+          "item": "greater-earth-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-earth-rune",
+          "qty": 10
+        },
+        {
+          "item": "epic-earth-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-earth-rune",
+          "qty": 6
+        },
+        {
+          "item": "blazing-rage",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chd": 0.06
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-earth-rune",
+          "qty": 10
+        },
+        {
+          "item": "horn-of-desire",
+          "qty": 10
+        }
+      ]
+    }
+  ]
+}
