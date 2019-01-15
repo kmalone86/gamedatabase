@@ -37,6 +37,30 @@
       "eff": 0,
       "efr": 0,
       "dac": 5
+    },
+    "max6": {
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "dac": 5,
+      "hp": 5001,
+      "cp": 13421,
+      "spd": 111,
+      "atk": 907,
+      "def": 462,
+      "efr": 0
+    },
+    "max5": {
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "dac": 5,
+      "hp": 3977,
+      "cp": 10756,
+      "spd": 111,
+      "atk": 728,
+      "def": 373,
+      "efr": 0
     }
   },
   "skills": [
@@ -274,7 +298,7 @@
       "skillUpgrade": false,
       "statsIncrease": [
         {
-          "atk": 0.030
+          "atk": 0.03
         },
         {
           "atk": 20
@@ -295,7 +319,7 @@
       "skillUpgrade": false,
       "statsIncrease": [
         {
-          "hp": 0.030
+          "hp": 0.03
         },
         {
           "atk": 20
@@ -342,7 +366,7 @@
       "skillUpgrade": false,
       "statsIncrease": [
         {
-          "chc": 0.060
+          "chc": 0.06
         },
         {
           "atk": 30
@@ -367,7 +391,7 @@
       "skillUpgrade": false,
       "statsIncrease": [
         {
-          "atk": 0.060
+          "atk": 0.06
         },
         {
           "atk": 30
@@ -392,7 +416,7 @@
       "skillUpgrade": false,
       "statsIncrease": [
         {
-          "hp": 0.060
+          "hp": 0.06
         },
         {
           "atk": 30

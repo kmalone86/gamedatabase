@@ -1,291 +1,564 @@
 {
-    "name": "Carmainerose",
-    "rarity": 3,
-    "classType": "mage",
-    "element": "fire",
-    "zodiac": "aquarius",
-    "specialtyChangeName": "",
-    "selfSkillBarName": "",
-    "background": [
-        "A Banshee formed from a corrupted soul. Reminiscent of the shriveled rose petals the day after a festival, Carmainerose dazzles her opponents by singing a song of her failed revenge."
-    ],
-    "relations": [
+  "name": "Carmainerose",
+  "rarity": 3,
+  "classType": "mage",
+  "element": "fire",
+  "zodiac": "aquarius",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": [
+    "A Banshee formed from a corrupted soul. Reminiscent of the shriveled rose petals the day after a festival, Carmainerose dazzles her opponents by singing a song of her failed revenge."
+  ],
+  "relations": [
+    {
+      "hero": "requiemroar",
+      "relationType": "trust"
+    },
+    {
+      "hero": "mistychain",
+      "relationType": "grudge"
+    },
+    {
+      "hero": "ken",
+      "relationType": "rival"
+    }
+  ],
+  "stats": {
+    "base": {
+      "cp": 1176,
+      "atk": 82,
+      "hp": 173,
+      "spd": 96,
+      "def": 73,
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "efr": 0,
+      "dac": 5
+    },
+    "max": {
+      "cp": 15025,
+      "atk": 1168,
+      "hp": 3877,
+      "spd": 96,
+      "def": 666,
+      "chc": 15,
+      "chd": 150,
+      "eff": 9,
+      "efr": 0,
+      "dac": 5
+    },
+    "max6": {
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "dac": 5,
+      "hp": 3262,
+      "cp": 13153,
+      "spd": 96,
+      "atk": 934,
+      "def": 666,
+      "efr": 0
+    },
+    "max5": {
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "dac": 5,
+      "hp": 2595,
+      "cp": 10554,
+      "spd": 96,
+      "atk": 749,
+      "def": 537,
+      "efr": 0
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Vampirism",
+      "soulAcquire": 1,
+      "description": "Claws the enemy, absorbing some of the damage as Health.",
+      "enhancement": [
         {
-            "hero": "requiemroar",
-            "relationType": "trust"
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
         },
         {
-            "hero": "mistychain",
-            "relationType": "grudge"
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
         },
         {
-            "hero": "ken",
-            "relationType": "rival"
+          "description": "+15% healing",
+          "resources": [
+            {
+              "item": "leather-sheath",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+15% healing",
+          "resources": [
+            {
+              "item": "leather-sheath",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 6
+            },
+            {
+              "item": "gold",
+              "qty": 44000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "leather-sheath",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
         }
+      ],
+      "buffs": [],
+      "debuffs": []
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": true,
+      "cooldown": 4,
+      "name": "Vengeful Strike",
+      "soulAcquire": 2,
+      "description": "Attacks the enemy, decreasing Combat Readiness by 35%, and decreasing Speed of the enemy and increasing Speed of the caster for 2 turns each.",
+      "enhancement": [
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+10% Combat Readiness",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "leather-sheath",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+10% Combat Readiness",
+          "resources": [
+            {
+              "item": "leather-sheath",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 6
+            },
+            {
+              "item": "gold",
+              "qty": 44000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "leather-sheath",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_speed_up"
+      ],
+      "debuffs": [
+        "stic_speed_dn"
+      ]
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Extends buff duration by 1 turn.",
+      "awakenUpgrade": false,
+      "cooldown": 4,
+      "name": "Daze",
+      "soulAcquire": 2,
+      "description": "Attacks the enemy, dispelling all buffs, and increasing Attack and Defense of the caster for 2 turns.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "leather-sheath",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "leather-sheath",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 6
+            },
+            {
+              "item": "gold",
+              "qty": 44000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "leather-sheath",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_att_up",
+        "stic_def_up"
+      ],
+      "debuffs": []
+    }
+  ],
+  "specialtySkill": {
+    "name": "Combat Maniac",
+    "description": "Her thirst for blood and victory knows no bounds. She'll do anything for it.",
+    "dispatch": [
+      "[Battle] Type"
+    ],
+    "enhancement": [
+      "Reward Bonus +6%"
     ],
     "stats": {
-        "base": {
-            "cp": 1176,
-            "atk": 82,
-            "hp": 173,
-            "spd": 96,
-            "def": 73,
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "efr": 0,
-            "dac": 5
-        },
-        "max": {
-            "cp": 15025,
-            "atk": 1168,
-            "hp": 3877,
-            "spd": 96,
-            "def": 666,
-            "chc": 15,
-            "chd": 150,
-            "eff": 9,
-            "efr": 0,
-            "dac": 5
-        }
+      "command": 61,
+      "charm": 15,
+      "politics": 58
+    }
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "def",
+        "increase": 12
+      }
     },
-    "skills": [
-        {
-            "isPassive": false,
-            "soulBurn": 0,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
-            "awakenUpgrade": false,
-            "cooldown": 0,
-            "name": "Vampirism",
-            "soulAcquire": 1,
-            "description": "Claws the enemy, absorbing some of the damage as Health.",
-            "enhancement": [
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 8000 }]
-                },
-                {
-                    "description": "+15% healing",
-                    "resources": [
-                        { "item": "leather-sheath", "qty": 3 },
-                        { "item": "molagora", "qty": 3 },
-                        { "item": "gold", "qty": 27000 }
-                    ]
-                },
-                {
-                    "description": "+15% healing",
-                    "resources": [
-                        { "item": "leather-sheath", "qty": 4 },
-                        { "item": "molagora", "qty": 6 },
-                        { "item": "gold", "qty": 44000 }
-                    ]
-                },
-                {
-                    "description": "+15% damage dealt",
-                    "resources": [
-                        { "item": "leather-sheath", "qty": 5 },
-                        { "item": "molagorago", "qty": 1 },
-                        { "item": "gold", "qty": 45000 }
-                    ]
-                }
-            ],
-            "buffs": [],
-            "debuffs": []
-        },
-        {
-            "isPassive": false,
-            "soulBurn": 0,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
-            "awakenUpgrade": true,
-            "cooldown": 4,
-            "name": "Vengeful Strike",
-            "soulAcquire": 2,
-            "description": "Attacks the enemy, decreasing Combat Readiness by 35%, and decreasing Speed of the enemy and increasing Speed of the caster for 2 turns each.",
-            "enhancement": [
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
-                },
-                {
-                    "description": "+10% Combat Readiness",
-                    "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 8000 }]
-                },
-                {
-                    "description": "-1 turn cooldown",
-                    "resources": [
-                        { "item": "leather-sheath", "qty": 3 },
-                        { "item": "molagora", "qty": 3 },
-                        { "item": "gold", "qty": 27000 }
-                    ]
-                },
-                {
-                    "description": "+10% Combat Readiness",
-                    "resources": [
-                        { "item": "leather-sheath", "qty": 4 },
-                        { "item": "molagora", "qty": 6 },
-                        { "item": "gold", "qty": 44000 }
-                    ]
-                },
-                {
-                    "description": "+15% damage dealt",
-                    "resources": [
-                        { "item": "leather-sheath", "qty": 5 },
-                        { "item": "molagorago", "qty": 1 },
-                        { "item": "gold", "qty": 45000 }
-                    ]
-                }
-            ],
-            "buffs": ["stic_speed_up"],
-            "debuffs": ["stic_speed_dn"]
-        },
-        {
-            "isPassive": false,
-            "soulBurn": 10,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "Extends buff duration by 1 turn.",
-            "awakenUpgrade": false,
-            "cooldown": 4,
-            "name": "Daze",
-            "soulAcquire": 2,
-            "description": "Attacks the enemy, dispelling all buffs, and increasing Attack and Defense of the caster for 2 turns.",
-            "enhancement": [
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 8000 }]
-                },
-                {
-                    "description": "-1 turn cooldown",
-                    "resources": [
-                        { "item": "leather-sheath", "qty": 3 },
-                        { "item": "molagora", "qty": 3 },
-                        { "item": "gold", "qty": 27000 }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        { "item": "leather-sheath", "qty": 4 },
-                        { "item": "molagora", "qty": 6 },
-                        { "item": "gold", "qty": 44000 }
-                    ]
-                },
-                {
-                    "description": "+15% damage dealt",
-                    "resources": [
-                        { "item": "leather-sheath", "qty": 5 },
-                        { "item": "molagorago", "qty": 1 },
-                        { "item": "gold", "qty": 45000 }
-                    ]
-                }
-            ],
-            "buffs": ["stic_att_up", "stic_def_up"],
-            "debuffs": []
-        }
-    ],
-    "specialtySkill": {
-        "name": "Combat Maniac",
-        "description": "Her thirst for blood and victory knows no bounds. She'll do anything for it.",
-        "dispatch": ["[Battle] Type"],
-        "enhancement": ["Reward Bonus +6%"],
-        "stats": { "command": 61, "charm": 15, "politics": 58 }
+    {
+      "rank": "c",
+      "status": {
+        "type": "def",
+        "increase": 0
+      }
     },
-    "memoryImprint": [
+    {
+      "rank": "b",
+      "status": {
+        "type": "def",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "def",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "def",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "def",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "def",
+        "increase": 0
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
         {
-            "rank": "d",
-            "status": {
-                "type": "def",
-                "increase": 12
-            }
+          "atk": "3%"
         },
         {
-            "rank": "c",
-            "status": {
-                "type": "def",
-                "increase": 0
-            }
+          "atk": "20"
         },
         {
-            "rank": "b",
-            "status": {
-                "type": "def",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "a",
-            "status": {
-                "type": "def",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "s",
-            "status": {
-                "type": "def",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "ss",
-            "status": {
-                "type": "def",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "sss",
-            "status": {
-                "type": "def",
-                "increase": 0
-            }
+          "hp": "60"
         }
-    ],
-    "awakening": [
+      ],
+      "resources": [
         {
-            "rank": 1,
-            "skillUpgrade": false,
-            "statsIncrease": [{ "atk": "3%" }, { "atk": "20" }, { "hp": "60" }],
-            "resources": [{ "item": "flame-rune", "qty": 5 }]
-        },
-        {
-            "rank": 2,
-            "skillUpgrade": false,
-            "statsIncrease": [{ "eff": "3%" }, { "atk": "20" }, { "hp": "60" }],
-            "resources": [{ "item": "flame-rune", "qty": 9 }]
-        },
-        {
-            "rank": 3,
-            "skillUpgrade": true,
-            "statsIncrease": [{ "atk": "20" }, { "hp": "60" }],
-            "resources": [{ "item": "flame-rune", "qty": 12 }, { "item": "greater-flame-rune", "qty": 6 }]
-        },
-        {
-            "rank": 4,
-            "skillUpgrade": false,
-            "statsIncrease": [{ "hp": "6%" }, { "atk": "30" }, { "hp": "80" }],
-            "resources": [{ "item": "greater-flame-rune", "qty": 15 }]
-        },
-        {
-            "rank": 5,
-            "skillUpgrade": false,
-            "statsIncrease": [{ "atk": "6%" }, { "atk": "30" }, { "hp": "80" }],
-            "resources": [{ "item": "epic-flame-rune", "qty": 4 }, { "item": "order-of-the-shield-insignia", "qty": 9 }]
-        },
-        {
-            "rank": 6,
-            "skillUpgrade": false,
-            "statsIncrease": [{ "eff": "6%" }, { "atk": "30" }, { "hp": "80" }],
-            "resources": [{ "item": "epic-flame-rune", "qty": 6 }, { "item": "fighter-medal", "qty": 6 }]
+          "item": "flame-rune",
+          "qty": 5
         }
-    ]
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": "3%"
+        },
+        {
+          "atk": "20"
+        },
+        {
+          "hp": "60"
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": "20"
+        },
+        {
+          "hp": "60"
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-flame-rune",
+          "qty": 6
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": "6%"
+        },
+        {
+          "atk": "30"
+        },
+        {
+          "hp": "80"
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-flame-rune",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": "6%"
+        },
+        {
+          "atk": "30"
+        },
+        {
+          "hp": "80"
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-flame-rune",
+          "qty": 4
+        },
+        {
+          "item": "order-of-the-shield-insignia",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "eff": "6%"
+        },
+        {
+          "atk": "30"
+        },
+        {
+          "hp": "80"
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-flame-rune",
+          "qty": 6
+        },
+        {
+          "item": "fighter-medal",
+          "qty": 6
+        }
+      ]
+    }
+  ]
 }

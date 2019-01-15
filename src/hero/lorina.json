@@ -1,295 +1,561 @@
 {
-    "name": "Lorina",
-    "rarity": 3,
-    "classType": "warrior",
-    "element": "dark",
-    "zodiac": "leo",
-    "specialtyChangeName": "commander-lorina",
-    "selfSkillBarName": "",
-    "background": [
-        "An apprentice of the Order of the Shield, Lorina is constantly practicing to achieve her goal of becoming a knight. She thinks she's clever and confident, but in reality she's quite naive and easily tricked by others."
-    ],
-    "relations": [
+  "name": "Lorina",
+  "rarity": 3,
+  "classType": "warrior",
+  "element": "dark",
+  "zodiac": "leo",
+  "specialtyChangeName": "commander-lorina",
+  "selfSkillBarName": "",
+  "background": [
+    "An apprentice of the Order of the Shield, Lorina is constantly practicing to achieve her goal of becoming a knight. She thinks she's clever and confident, but in reality she's quite naive and easily tricked by others."
+  ],
+  "relations": [
+    {
+      "hero": "maya",
+      "relationType": "trust"
+    },
+    {
+      "hero": "crozet",
+      "relationType": "longing"
+    },
+    {
+      "hero": "dingo",
+      "relationType": "trust"
+    },
+    {
+      "hero": "cidd",
+      "relationType": "trust"
+    }
+  ],
+  "stats": {
+    "base": {
+      "cp": 1102,
+      "atk": 74,
+      "hp": 237,
+      "spd": 101,
+      "def": 60,
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "efr": 0,
+      "dac": 5
+    },
+    "max": {
+      "cp": 15047,
+      "atk": 1144,
+      "hp": 4895,
+      "spd": 101,
+      "def": 543,
+      "chc": 21,
+      "chd": 150,
+      "eff": 0,
+      "efr": 0,
+      "dac": 5
+    },
+    "max6": {
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "dac": 5,
+      "hp": 4475,
+      "cp": 13027,
+      "spd": 101,
+      "atk": 843,
+      "def": 543,
+      "efr": 0
+    },
+    "max5": {
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "dac": 5,
+      "hp": 3559,
+      "cp": 10445,
+      "spd": 101,
+      "atk": 677,
+      "def": 438,
+      "efr": 0
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": true,
+      "cooldown": 0,
+      "name": "Sharp Blow",
+      "soulAcquire": 1,
+      "description": "Knocks the enemy into the air with a spear, increasing caster's Combat Readiness by 20%.",
+      "enhancement": [
         {
-            "hero": "maya",
-            "relationType": "trust"
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
         },
         {
-            "hero": "crozet",
-            "relationType": "longing"
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
         },
         {
-            "hero": "dingo",
-            "relationType": "trust"
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
         },
         {
-            "hero": "cidd",
-            "relationType": "trust"
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 6
+            },
+            {
+              "item": "gold",
+              "qty": 44000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
         }
+      ],
+      "buffs": [],
+      "debuffs": []
+    },
+    {
+      "isPassive": true,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Spiritual Armament",
+      "soulAcquire": 0,
+      "description": "Increases Attack 10% each time the caster attacks an enemy. Effect can only stack up to 5 times.",
+      "enhancement": [
+        {
+          "description": "+0.5% Attack",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+0.5% Attack",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+1% Attack",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+1% Attack",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 6
+            },
+            {
+              "item": "gold",
+              "qty": 44000
+            }
+          ]
+        },
+        {
+          "description": "+2% Attack",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": []
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 20,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Grants an extra turn.",
+      "awakenUpgrade": false,
+      "cooldown": 4,
+      "name": "Resolve",
+      "soulAcquire": 2,
+      "description": "Jumps into the air and strikes down at the enemy, dealing damage proportional to the amount of the enemy's lost Health.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 3
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 27000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 4
+            },
+            {
+              "item": "molagora",
+              "qty": 6
+            },
+            {
+              "item": "gold",
+              "qty": 44000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "twisted-fang",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": []
+    }
+  ],
+  "specialtySkill": {
+    "name": "Faithful Spear",
+    "description": "Through faith she can overcome moments of weakness and doubt.",
+    "dispatch": [
+      "[Weakened] Attribute"
+    ],
+    "enhancement": [
+      "Reward Bonus +10%"
     ],
     "stats": {
-        "base": {
-            "cp": 1102,
-            "atk": 74,
-            "hp": 237,
-            "spd": 101,
-            "def": 60,
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "efr": 0,
-            "dac": 5
-        },
-        "max": {
-            "cp": 15047,
-            "atk": 1144,
-            "hp": 4895,
-            "spd": 101,
-            "def": 543,
-            "chc": 21,
-            "chd": 150,
-            "eff": 0,
-            "efr": 0,
-            "dac": 5
-        }
+      "command": 64,
+      "charm": 33,
+      "politics": 10
+    }
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "atk",
+        "increase": 24
+      }
     },
-    "skills": [
-        {
-            "isPassive": false,
-            "soulBurn": 0,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
-            "awakenUpgrade": true,
-            "cooldown": 0,
-            "name": "Sharp Blow",
-            "soulAcquire": 1,
-            "description": "Knocks the enemy into the air with a spear, increasing caster's Combat Readiness by 20%.",
-            "enhancement": [
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 8000 }]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        { "item": "twisted-fang", "qty": 3 },
-                        { "item": "molagora", "qty": 3 },
-                        { "item": "gold", "qty": 27000 }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        { "item": "twisted-fang", "qty": 4 },
-                        { "item": "molagora", "qty": 6 },
-                        { "item": "gold", "qty": 44000 }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        { "item": "twisted-fang", "qty": 5 },
-                        { "item": "molagorago", "qty": 1 },
-                        { "item": "gold", "qty": 45000 }
-                    ]
-                }
-            ],
-            "buffs": [],
-            "debuffs": []
-        },
-        {
-            "isPassive": true,
-            "soulBurn": 0,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
-            "awakenUpgrade": false,
-            "cooldown": 0,
-            "name": "Spiritual Armament",
-            "soulAcquire": 0,
-            "description": "Increases Attack 10% each time the caster attacks an enemy. Effect can only stack up to 5 times.",
-            "enhancement": [
-                {
-                    "description": "+0.5% Attack",
-                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
-                },
-                {
-                    "description": "+0.5% Attack",
-                    "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 8000 }]
-                },
-                {
-                    "description": "+1% Attack",
-                    "resources": [
-                        { "item": "twisted-fang", "qty": 3 },
-                        { "item": "molagora", "qty": 3 },
-                        { "item": "gold", "qty": 27000 }
-                    ]
-                },
-                {
-                    "description": "+1% Attack",
-                    "resources": [
-                        { "item": "twisted-fang", "qty": 4 },
-                        { "item": "molagora", "qty": 6 },
-                        { "item": "gold", "qty": 44000 }
-                    ]
-                },
-                {
-                    "description": "+2% Attack",
-                    "resources": [
-                        { "item": "twisted-fang", "qty": 5 },
-                        { "item": "molagorago", "qty": 1 },
-                        { "item": "gold", "qty": 45000 }
-                    ]
-                }
-            ],
-            "buffs": [],
-            "debuffs": []
-        },
-        {
-            "isPassive": false,
-            "soulBurn": 20,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "Grants an extra turn.",
-            "awakenUpgrade": false,
-            "cooldown": 4,
-            "name": "Resolve",
-            "soulAcquire": 2,
-            "description": "Jumps into the air and strikes down at the enemy, dealing damage proportional to the amount of the enemy's lost Health.",
-            "enhancement": [
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 8000 }]
-                },
-                {
-                    "description": "-1 turn cooldown",
-                    "resources": [
-                        { "item": "twisted-fang", "qty": 3 },
-                        { "item": "molagora", "qty": 3 },
-                        { "item": "gold", "qty": 27000 }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        { "item": "twisted-fang", "qty": 4 },
-                        { "item": "molagora", "qty": 6 },
-                        { "item": "gold", "qty": 44000 }
-                    ]
-                },
-                {
-                    "description": "+15% damage dealt",
-                    "resources": [
-                        { "item": "twisted-fang", "qty": 5 },
-                        { "item": "molagorago", "qty": 1 },
-                        { "item": "gold", "qty": 45000 }
-                    ]
-                }
-            ],
-            "buffs": [],
-            "debuffs": []
-        }
-    ],
-    "specialtySkill": {
-        "name": "Faithful Spear",
-        "description": "Through faith she can overcome moments of weakness and doubt.",
-        "dispatch": ["[Weakened] Attribute"],
-        "enhancement": ["Reward Bonus +10%"],
-        "stats": { "command": 64, "charm": 33, "politics": 10 }
+    {
+      "rank": "c",
+      "status": {
+        "type": "atk",
+        "increase": 0
+      }
     },
-    "memoryImprint": [
+    {
+      "rank": "b",
+      "status": {
+        "type": "atk",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "atk",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "atk",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "atk",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "atk",
+        "increase": 0
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
         {
-            "rank": "d",
-            "status": {
-                "type": "atk",
-                "increase": 24
-            }
+          "atk": "3%"
         },
         {
-            "rank": "c",
-            "status": {
-                "type": "atk",
-                "increase": 0
-            }
+          "atk": "20"
         },
         {
-            "rank": "b",
-            "status": {
-                "type": "atk",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "a",
-            "status": {
-                "type": "atk",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "s",
-            "status": {
-                "type": "atk",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "ss",
-            "status": {
-                "type": "atk",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "sss",
-            "status": {
-                "type": "atk",
-                "increase": 0
-            }
+          "hp": "60"
         }
-    ],
-    "awakening": [
+      ],
+      "resources": [
         {
-            "rank": 1,
-            "skillUpgrade": false,
-            "statsIncrease": [{ "atk": "3%" }, { "atk": "20" }, { "hp": "60" }],
-            "resources": [{ "item": "dark-rune", "qty": 5 }]
-        },
-        {
-            "rank": 2,
-            "skillUpgrade": false,
-            "statsIncrease": [{ "atk": "3%" }, { "atk": "20" }, { "hp": "60" }],
-            "resources": [{ "item": "dark-rune", "qty": 9 }]
-        },
-        {
-            "rank": 3,
-            "skillUpgrade": true,
-            "statsIncrease": [{ "atk": "20" }, { "hp": "60" }],
-            "resources": [{ "item": "dark-rune", "qty": 12 }, { "item": "greater-dark-rune", "qty": 6 }]
-        },
-        {
-            "rank": 4,
-            "skillUpgrade": false,
-            "statsIncrease": [{ "chc": "6%" }, { "atk": "30" }, { "hp": "80" }],
-            "resources": [{ "item": "greater-dark-rune", "qty": 15 }]
-        },
-        {
-            "rank": 5,
-            "skillUpgrade": false,
-            "statsIncrease": [{ "atk": "6%" }, { "atk": "30" }, { "hp": "80" }],
-            "resources": [{ "item": "epic-dark-rune", "qty": 4 }, { "item": "ultra-fang", "qty": 9 }]
-        },
-        {
-            "rank": 6,
-            "skillUpgrade": false,
-            "statsIncrease": [{ "atk": "6%" }, { "atk": "30" }, { "hp": "80" }],
-            "resources": [{ "item": "epic-dark-rune", "qty": 6 }, { "item": "blazing-soul", "qty": 6 }]
+          "item": "dark-rune",
+          "qty": 5
         }
-    ]
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": "3%"
+        },
+        {
+          "atk": "20"
+        },
+        {
+          "hp": "60"
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": "20"
+        },
+        {
+          "hp": "60"
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-dark-rune",
+          "qty": 6
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": "6%"
+        },
+        {
+          "atk": "30"
+        },
+        {
+          "hp": "80"
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-dark-rune",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": "6%"
+        },
+        {
+          "atk": "30"
+        },
+        {
+          "hp": "80"
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-dark-rune",
+          "qty": 4
+        },
+        {
+          "item": "ultra-fang",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": "6%"
+        },
+        {
+          "atk": "30"
+        },
+        {
+          "hp": "80"
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-dark-rune",
+          "qty": 6
+        },
+        {
+          "item": "blazing-soul",
+          "qty": 6
+        }
+      ]
+    }
+  ]
 }

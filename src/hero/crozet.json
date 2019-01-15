@@ -1,557 +1,585 @@
 {
-    "name": "Crozet",
-    "rarity": 4,
-    "classType": "knight",
-    "element": "ice",
-    "zodiac": "cancer",
-    "specialtyChangeName": "",
-    "selfSkillBarName": "",
-    "background": [
-        "Knight Commander of the Order of the Shield, Crozet places a strict emphasis on following the rules, and is notoriously inflexible on them. His excessive uprightness means he often does not realize when others are playing tricks on him."
-    ],
-    "relations": [
+  "name": "Crozet",
+  "rarity": 4,
+  "classType": "knight",
+  "element": "ice",
+  "zodiac": "cancer",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": [
+    "Knight Commander of the Order of the Shield, Crozet places a strict emphasis on following the rules, and is notoriously inflexible on them. His excessive uprightness means he often does not realize when others are playing tricks on him."
+  ],
+  "relations": [
+    {
+      "hero": "jena",
+      "relationType": "love"
+    },
+    {
+      "hero": "lorina",
+      "relationType": "trust"
+    },
+    {
+      "hero": "hazel",
+      "relationType": "trust"
+    },
+    {
+      "hero": "tenebria",
+      "relationType": "grudge"
+    },
+    {
+      "hero": "ras",
+      "relationType": "longing"
+    },
+    {
+      "hero": "maya",
+      "relationType": "trust"
+    },
+    {
+      "hero": "angelica",
+      "relationType": "longing"
+    }
+  ],
+  "stats": {
+    "base": {
+      "cp": 1262,
+      "atk": 55,
+      "hp": 317,
+      "spd": 93,
+      "def": 79,
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "efr": 0,
+      "dac": 5
+    },
+    "max": {
+      "cp": 16523,
+      "atk": 739,
+      "hp": 6868,
+      "spd": 93,
+      "def": 733,
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "efr": 0,
+      "dac": 5
+    },
+    "max6": {
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "dac": 5,
+      "hp": 5607,
+      "cp": 14128,
+      "spd": 93,
+      "atk": 589,
+      "def": 673,
+      "efr": 0
+    },
+    "max5": {
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "dac": 5,
+      "hp": 4460,
+      "cp": 11317,
+      "spd": 93,
+      "atk": 473,
+      "def": 542,
+      "efr": 0
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Rush",
+      "soulAcquire": 1,
+      "description": "Attacks with a sword, with a 50% chance to decrease Attack for 1 turn. Damage dealt increases proportional to the caster's Defense.",
+      "enhancement": [
         {
-            "hero": "jena",
-            "relationType": "love"
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
         },
         {
-            "hero": "lorina",
-            "relationType": "trust"
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 4
+            },
+            {
+              "item": "gold",
+              "qty": 21000
+            }
+          ]
         },
         {
-            "hero": "hazel",
-            "relationType": "trust"
+          "description": "+15% effect chance",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 7
+            },
+            {
+              "item": "gold",
+              "qty": 33000
+            }
+          ]
         },
         {
-            "hero": "tenebria",
-            "relationType": "grudge"
-        },
-        {
-            "hero": "ras",
-            "relationType": "longing"
-        },
-        {
-            "hero": "maya",
-            "relationType": "trust"
-        },
-        {
-            "hero": "angelica",
-            "relationType": "longing"
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "the-heart-of-hypocrisy",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 80000
+            }
+          ]
         }
-    ],
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_att_dn"
+      ]
+    },
+    {
+      "isPassive": true,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": true,
+      "cooldown": 2,
+      "name": "Mark of Protection",
+      "soulAcquire": 0,
+      "description": "Casts a barrier over an ally for 2 turns when an attack causes their Health to fall below 50%. Barrier strength increases proportional to the target's max Health. Can be activated once every 2 turns.",
+      "enhancement": [
+        {
+          "description": "+5% barrier strength",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% barrier strength",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 4
+            },
+            {
+              "item": "gold",
+              "qty": 21000
+            }
+          ]
+        },
+        {
+          "description": "+10% barrier strength",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 7
+            },
+            {
+              "item": "gold",
+              "qty": 33000
+            }
+          ]
+        },
+        {
+          "description": "+10% barrier strength",
+          "resources": [
+            {
+              "item": "the-heart-of-hypocrisy",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 80000
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_protect"
+      ],
+      "debuffs": []
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Increases damage dealt.",
+      "awakenUpgrade": false,
+      "cooldown": 6,
+      "name": "Breakthrough",
+      "soulAcquire": 3,
+      "description": "Attacks all enemies with a swordstorm, decreasing their Combat Readiness by 35%. Damage dealt increases proportional to the caster's Defense.",
+      "enhancement": [
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% Combat Readiness",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+5% Combat Readiness",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 12000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 17000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 2
+            },
+            {
+              "item": "molagora",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 30000
+            }
+          ]
+        },
+        {
+          "description": "+5% Combat Readiness",
+          "resources": [
+            {
+              "item": "baby-mouse-insignia",
+              "qty": 5
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "the-heart-of-hypocrisy",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 100000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": []
+    }
+  ],
+  "specialtySkill": {
+    "name": "Fine Dining",
+    "description": "You might need a specialty or two to lead the Order of the Shield.",
+    "dispatch": "[Cooking] Type",
+    "enhancement": "Reward Bonus +6%",
     "stats": {
-        "base": {
-            "cp": 1262,
-            "atk": 55,
-            "hp": 317,
-            "spd": 93,
-            "def": 79,
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "efr": 0,
-            "dac": 5
-        },
-        "max": {
-            "cp": 16523,
-            "atk": 739,
-            "hp": 6868,
-            "spd": 93,
-            "def": 733,
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "efr": 0,
-            "dac": 5
-        }
+      "command": 89,
+      "charm": 55,
+      "politics": 23
+    }
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "efr",
+        "increase": "3.6%"
+      }
     },
-    "skills": [
-        {
-            "isPassive": false,
-            "soulBurn": 0,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
-            "awakenUpgrade": false,
-            "cooldown": 0,
-            "name": "Rush",
-            "soulAcquire": 1,
-            "description": "Attacks with a sword, with a 50% chance to decrease Attack for 1 turn. Damage dealt increases proportional to the caster's Defense.",
-            "enhancement": [
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% effect chance",
-                    "resources": [
-                        {
-                            "item": "baby-mouse-insignia",
-                            "qty": 1
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 4
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 21000
-                        }
-                    ]
-                },
-                {
-                    "description": "+15% effect chance",
-                    "resources": [
-                        {
-                            "item": "baby-mouse-insignia",
-                            "qty": 1
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 7
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 33000
-                        }
-                    ]
-                },
-                {
-                    "description": "+15% damage dealt",
-                    "resources": [
-                        {
-                            "item": "the-heart-of-hypocrisy",
-                            "qty": 2
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 80000
-                        }
-                    ]
-                }
-            ],
-            "buffs": [],
-            "debuffs": ["stic_att_dn"]
-        },
-        {
-            "isPassive": true,
-            "soulBurn": 0,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
-            "awakenUpgrade": true,
-            "cooldown": 2,
-            "name": "Mark of Protection",
-            "soulAcquire": 0,
-            "description": "Casts a barrier over an ally for 2 turns when an attack causes their Health to fall below 50%. Barrier strength increases proportional to the target's max Health. Can be activated once every 2 turns.",
-            "enhancement": [
-                {
-                    "description": "+5% barrier strength",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% barrier strength",
-                    "resources": [
-                        {
-                            "item": "baby-mouse-insignia",
-                            "qty": 1
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 4
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 21000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% barrier strength",
-                    "resources": [
-                        {
-                            "item": "baby-mouse-insignia",
-                            "qty": 1
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 7
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 33000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% barrier strength",
-                    "resources": [
-                        {
-                            "item": "the-heart-of-hypocrisy",
-                            "qty": 2
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 80000
-                        }
-                    ]
-                }
-            ],
-            "buffs": ["stic_protect"],
-            "debuffs": []
-        },
-        {
-            "isPassive": false,
-            "soulBurn": 10,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "Increases damage dealt.",
-            "awakenUpgrade": false,
-            "cooldown": 6,
-            "name": "Breakthrough",
-            "soulAcquire": 3,
-            "description": "Attacks all enemies with a swordstorm, decreasing their Combat Readiness by 35%. Damage dealt increases proportional to the caster's Defense.",
-            "enhancement": [
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% Combat Readiness",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% Combat Readiness",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 12000
-                        }
-                    ]
-                },
-                {
-                    "description": "-1 turn cooldown",
-                    "resources": [
-                        {
-                            "item": "baby-mouse-insignia",
-                            "qty": 1
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 17000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
-                            "item": "baby-mouse-insignia",
-                            "qty": 2
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 5
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 30000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% Combat Readiness",
-                    "resources": [
-                        {
-                            "item": "baby-mouse-insignia",
-                            "qty": 5
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 45000
-                        }
-                    ]
-                },
-                {
-                    "description": "+15% damage dealt",
-                    "resources": [
-                        {
-                            "item": "the-heart-of-hypocrisy",
-                            "qty": 2
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 100000
-                        }
-                    ]
-                }
-            ],
-            "buffs": [],
-            "debuffs": []
-        }
-    ],
-    "specialtySkill": {
-        "name": "Fine Dining",
-        "description": "You might need a specialty or two to lead the Order of the Shield.",
-        "dispatch": "[Cooking] Type",
-        "enhancement": "Reward Bonus +6%",
-        "stats": {
-            "command": 89,
-            "charm": 55,
-            "politics": 23
-        }
+    {
+      "rank": "c",
+      "status": {
+        "type": "efr",
+        "increase": 0
+      }
     },
-    "memoryImprint": [
+    {
+      "rank": "b",
+      "status": {
+        "type": "efr",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "efr",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "efr",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "efr",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "efr",
+        "increase": 0
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
         {
-            "rank": "d",
-            "status": {
-                "type": "efr",
-                "increase": "3.6%"
-            }
+          "hp": "3%"
         },
         {
-            "rank": "c",
-            "status": {
-                "type": "efr",
-                "increase": 0
-            }
+          "atk": 20
         },
         {
-            "rank": "b",
-            "status": {
-                "type": "efr",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "a",
-            "status": {
-                "type": "efr",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "s",
-            "status": {
-                "type": "efr",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "ss",
-            "status": {
-                "type": "efr",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "sss",
-            "status": {
-                "type": "efr",
-                "increase": 0
-            }
+          "hp": 60
         }
-    ],
-    "awakening": [
+      ],
+      "resources": [
         {
-            "rank": 1,
-            "skillUpgrade": false,
-            "statsIncrease": [
-                {
-                    "hp": "3%"
-                },
-                {
-                    "atk": 20
-                },
-                {
-                    "hp": 60
-                }
-            ],
-            "resources": [
-                {
-                    "item": "frost-rune",
-                    "qty": 8
-                }
-            ]
-        },
-        {
-            "rank": 2,
-            "skillUpgrade": false,
-            "statsIncrease": [
-                {
-                    "def": "3%"
-                },
-                {
-                    "atk": 20
-                },
-                {
-                    "hp": 60
-                }
-            ],
-            "resources": [
-                {
-                    "item": "frost-rune",
-                    "qty": 12
-                },
-                {
-                    "item": "greater-frost-rune",
-                    "qty": 2
-                }
-            ]
-        },
-        {
-            "rank": 3,
-            "skillUpgrade": true,
-            "statsIncrease": [
-                {
-                    "atk": 20
-                },
-                {
-                    "hp": 60
-                }
-            ],
-            "resources": [
-                {
-                    "item": "frost-rune",
-                    "qty": 17
-                },
-                {
-                    "item": "greater-frost-rune",
-                    "qty": 8
-                }
-            ]
-        },
-        {
-            "rank": 4,
-            "skillUpgrade": false,
-            "statsIncrease": [
-                {
-                    "hp": "6%"
-                },
-                {
-                    "atk": 30
-                },
-                {
-                    "hp": 80
-                }
-            ],
-            "resources": [
-                {
-                    "item": "greater-frost-rune",
-                    "qty": 8
-                },
-                {
-                    "item": "epic-frost-rune",
-                    "qty": 1
-                }
-            ]
-        },
-        {
-            "rank": 5,
-            "skillUpgrade": false,
-            "statsIncrease": [
-                {
-                    "hp": "6%"
-                },
-                {
-                    "atk": 30
-                },
-                {
-                    "hp": 80
-                }
-            ],
-            "resources": [
-                {
-                    "item": "epic-frost-rune",
-                    "qty": 5
-                },
-                {
-                    "item": "special-alarm-loop",
-                    "qty": 12
-                }
-            ]
-        },
-        {
-            "rank": 6,
-            "skillUpgrade": false,
-            "statsIncrease": [
-                {
-                    "def": "6%"
-                },
-                {
-                    "atk": 30
-                },
-                {
-                    "hp": 80
-                }
-            ],
-            "resources": [
-                {
-                    "item": "epic-frost-rune",
-                    "qty": 8
-                },
-                {
-                    "item": "the-heart-of-hypocrisy",
-                    "qty": 8
-                }
-            ]
+          "item": "frost-rune",
+          "qty": 8
         }
-    ]
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "def": "3%"
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "frost-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-frost-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "frost-rune",
+          "qty": 17
+        },
+        {
+          "item": "greater-frost-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": "6%"
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-frost-rune",
+          "qty": 8
+        },
+        {
+          "item": "epic-frost-rune",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": "6%"
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-frost-rune",
+          "qty": 5
+        },
+        {
+          "item": "special-alarm-loop",
+          "qty": 12
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "def": "6%"
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-frost-rune",
+          "qty": 8
+        },
+        {
+          "item": "the-heart-of-hypocrisy",
+          "qty": 8
+        }
+      ]
+    }
+  ]
 }

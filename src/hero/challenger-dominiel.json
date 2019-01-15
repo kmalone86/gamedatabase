@@ -1,276 +1,561 @@
 {
-    "name": "Challenger Dominiel",
-    "rarity": 4,
-    "classType": "mage",
-    "element": "dark",
-    "zodiac": "scorpio",
-    "specialtyChangeName": "",
-    "selfSkillBarName": "",
-    "background": [
-        "Fiercely proud and unreserved, Challenger Dominiel has little morality or sense of empathy. While constantly causing trouble, she refuses to admit her faults."
+  "name": "Challenger Dominiel",
+  "rarity": 4,
+  "classType": "mage",
+  "element": "dark",
+  "zodiac": "scorpio",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": [
+    "Fiercely proud and unreserved, Challenger Dominiel has little morality or sense of empathy. While constantly causing trouble, she refuses to admit her faults."
+  ],
+  "relations": [
+    {
+      "hero": "dingo",
+      "relationType": "rival"
+    },
+    {
+      "hero": "zerato",
+      "relationType": "rival"
+    }
+  ],
+  "stats": {
+    "base": {
+      "cp": 1274,
+      "atk": 90,
+      "hp": 230,
+      "spd": 96,
+      "def": 74,
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "efr": 0,
+      "dac": 5
+    },
+    "max": {
+      "cp": 15594,
+      "atk": 1187,
+      "hp": 4491,
+      "spd": 96,
+      "def": 627,
+      "chc": 24,
+      "chd": 156,
+      "eff": 0,
+      "efr": 0,
+      "dac": 5
+    },
+    "max6": {
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "dac": 5,
+      "hp": 4071,
+      "cp": 13671,
+      "spd": 96,
+      "atk": 952,
+      "def": 627,
+      "efr": 0
+    },
+    "max5": {
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "dac": 5,
+      "hp": 3238,
+      "cp": 10968,
+      "spd": 96,
+      "atk": 764,
+      "def": 506,
+      "efr": 0
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 20,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Increases damage dealt.",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Electrocute",
+      "soulAcquire": 1,
+      "description": "Attacks with electricity. A critical hit will increase damage dealt.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 4000
+            },
+            {
+              "item": "molagora",
+              "qty": 1
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 8000
+            },
+            {
+              "item": "molagora",
+              "qty": 2
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 17000
+            },
+            {
+              "item": "sharp-spearhead",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 35000
+            },
+            {
+              "item": "sharp-spearhead",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 100000
+            },
+            {
+              "item": "black-powder-curse",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": []
+    },
+    {
+      "isPassive": true,
+      "soulBurn": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": true,
+      "cooldown": 0,
+      "name": "Electric Charge",
+      "soulAcquire": 0,
+      "description": "When an ally makes a critical hit, the caster's next attack deals stacked additional damage proportional to the number of critical hits and their Combat Readiness increases by 10% per critical hit.",
+      "enhancement": [
+        {
+          "description": "+5% additional damage",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 4000
+            },
+            {
+              "item": "molagora",
+              "qty": 1
+            }
+          ]
+        },
+        {
+          "description": "+5% additional damage",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 8000
+            },
+            {
+              "item": "molagora",
+              "qty": 2
+            }
+          ]
+        },
+        {
+          "description": "+5% additional damage",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 17000
+            },
+            {
+              "item": "sharp-spearhead",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            }
+          ]
+        },
+        {
+          "description": "+5% additional damage",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 35000
+            },
+            {
+              "item": "sharp-spearhead",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            }
+          ]
+        },
+        {
+          "description": "+10% additional damage",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 100000
+            },
+            {
+              "item": "black-powder-curse",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": []
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 5,
+      "name": "Supercharge",
+      "soulAcquire": 2,
+      "description": "Releases powerful electricity, increasing Critical Hit Rate of all allies for 3 turns, and Combat Readiness by 10%. The caster is also granted an extra turn.",
+      "enhancement": [
+        {
+          "description": "+2% Combat Readiness",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 4000
+            },
+            {
+              "item": "molagora",
+              "qty": 1
+            }
+          ]
+        },
+        {
+          "description": "+2% Combat Readiness",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 8000
+            },
+            {
+              "item": "molagora",
+              "qty": 2
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 17000
+            },
+            {
+              "item": "sharp-spearhead",
+              "qty": 1
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            }
+          ]
+        },
+        {
+          "description": "+3% Combat Readiness",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 35000
+            },
+            {
+              "item": "sharp-spearhead",
+              "qty": 3
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            }
+          ]
+        },
+        {
+          "description": "+3% Combat Readiness",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 100000
+            },
+            {
+              "item": "black-powder-curse",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_cri_up"
+      ],
+      "debuffs": []
+    }
+  ],
+  "specialtySkill": {
+    "name": "Echo",
+    "description": "Dreams about her voice ringing out across continents.",
+    "dispatch": [
+      "[Gathering] Attribute"
     ],
-    "relations": [{ "hero": "dingo", "relationType": "rival" }, { "hero": "zerato", "relationType": "rival" }],
+    "enhancement": [
+      "Reward Bonus +10%"
+    ],
     "stats": {
-        "base": {
-            "cp": 1274,
-            "atk": 90,
-            "hp": 230,
-            "spd": 96,
-            "def": 74,
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "efr": 0,
-            "dac": 5
-        },
-        "max": {
-            "cp": 15594,
-            "atk": 1187,
-            "hp": 4491,
-            "spd": 96,
-            "def": 627,
-            "chc": 24,
-            "chd": 156,
-            "eff": 0,
-            "efr": 0,
-            "dac": 5
-        }
+      "command": 32,
+      "charm": 82,
+      "politics": 45
+    }
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "chc",
+        "increase": "3.6%"
+      }
     },
-    "skills": [
-        {
-            "isPassive": false,
-            "soulBurn": 20,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "Increases damage dealt.",
-            "awakenUpgrade": false,
-            "cooldown": 0,
-            "name": "Electrocute",
-            "soulAcquire": 1,
-            "description": "Attacks with electricity. A critical hit will increase damage dealt.",
-            "enhancement": [
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [{ "item": "gold", "qty": 4000 }, { "item": "molagora", "qty": 1 }]
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [{ "item": "gold", "qty": 8000 }, { "item": "molagora", "qty": 2 }]
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        { "item": "gold", "qty": 17000 },
-                        { "item": "sharp-spearhead", "qty": 1 },
-                        { "item": "molagora", "qty": 3 }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        { "item": "gold", "qty": 35000 },
-                        { "item": "sharp-spearhead", "qty": 3 },
-                        { "item": "molagorago", "qty": 1 }
-                    ]
-                },
-                {
-                    "description": "+15% damage dealt",
-                    "resources": [
-                        { "item": "gold", "qty": 100000 },
-                        { "item": "black-powder-curse", "qty": 2 },
-                        { "item": "molagorago", "qty": 2 }
-                    ]
-                }
-            ],
-            "buffs": [],
-            "debuffs": []
-        },
-        {
-            "isPassive": true,
-            "soulBurn": 0,
-            "soulBurnEffect": "",
-            "awakenUpgrade": true,
-            "cooldown": 0,
-            "name": "Electric Charge",
-            "soulAcquire": 0,
-            "description": "When an ally makes a critical hit, the caster's next attack deals stacked additional damage proportional to the number of critical hits and their Combat Readiness increases by 10% per critical hit.",
-            "enhancement": [
-                {
-                    "description": "+5% additional damage",
-                    "resources": [{ "item": "gold", "qty": 4000 }, { "item": "molagora", "qty": 1 }]
-                },
-                {
-                    "description": "+5% additional damage",
-                    "resources": [{ "item": "gold", "qty": 8000 }, { "item": "molagora", "qty": 2 }]
-                },
-                {
-                    "description": "+5% additional damage",
-                    "resources": [
-                        { "item": "gold", "qty": 17000 },
-                        { "item": "sharp-spearhead", "qty": 1 },
-                        { "item": "molagora", "qty": 3 }
-                    ]
-                },
-                {
-                    "description": "+5% additional damage",
-                    "resources": [
-                        { "item": "gold", "qty": 35000 },
-                        { "item": "sharp-spearhead", "qty": 3 },
-                        { "item": "molagorago", "qty": 1 }
-                    ]
-                },
-                {
-                    "description": "+10% additional damage",
-                    "resources": [
-                        { "item": "gold", "qty": 100000 },
-                        { "item": "black-powder-curse", "qty": 2 },
-                        { "item": "molagorago", "qty": 2 }
-                    ]
-                }
-            ],
-            "buffs": [],
-            "debuffs": []
-        },
-        {
-            "isPassive": false,
-            "soulBurn": 0,
-            "soulBurnEffect": "",
-            "awakenUpgrade": false,
-            "cooldown": 5,
-            "name": "Supercharge",
-            "soulAcquire": 2,
-            "description": "Releases powerful electricity, increasing Critical Hit Rate of all allies for 3 turns, and Combat Readiness by 10%. The caster is also granted an extra turn.",
-            "enhancement": [
-                {
-                    "description": "+2% Combat Readiness",
-                    "resources": [{ "item": "gold", "qty": 4000 }, { "item": "molagora", "qty": 1 }]
-                },
-                {
-                    "description": "+2% Combat Readiness",
-                    "resources": [{ "item": "gold", "qty": 8000 }, { "item": "molagora", "qty": 2 }]
-                },
-                {
-                    "description": "-1 turn cooldown",
-                    "resources": [
-                        { "item": "gold", "qty": 17000 },
-                        { "item": "sharp-spearhead", "qty": 1 },
-                        { "item": "molagora", "qty": 3 }
-                    ]
-                },
-                {
-                    "description": "+3% Combat Readiness",
-                    "resources": [
-                        { "item": "gold", "qty": 35000 },
-                        { "item": "sharp-spearhead", "qty": 3 },
-                        { "item": "molagorago", "qty": 1 }
-                    ]
-                },
-                {
-                    "description": "+3% Combat Readiness",
-                    "resources": [
-                        { "item": "gold", "qty": 100000 },
-                        { "item": "black-powder-curse", "qty": 2 },
-                        { "item": "molagorago", "qty": 2 }
-                    ]
-                }
-            ],
-            "buffs": ["stic_cri_up"],
-            "debuffs": []
-        }
-    ],
-    "specialtySkill": {
-        "name": "Echo",
-        "description": "Dreams about her voice ringing out across continents.",
-        "dispatch": ["[Gathering] Attribute"],
-        "enhancement": ["Reward Bonus +10%"],
-        "stats": { "command": 32, "charm": 82, "politics": 45 }
+    {
+      "rank": "c",
+      "status": {
+        "type": "chc",
+        "increase": 0
+      }
     },
-    "memoryImprint": [
+    {
+      "rank": "b",
+      "status": {
+        "type": "chc",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "chc",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "chc",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "chc",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "chc",
+        "increase": 0
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
         {
-            "rank": "d",
-            "status": {
-                "type": "chc",
-                "increase": "3.6%"
-            }
+          "chc": "3%"
         },
         {
-            "rank": "c",
-            "status": {
-                "type": "chc",
-                "increase": 0
-            }
+          "atk": 20
         },
         {
-            "rank": "b",
-            "status": {
-                "type": "chc",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "a",
-            "status": {
-                "type": "chc",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "s",
-            "status": {
-                "type": "chc",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "ss",
-            "status": {
-                "type": "chc",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "sss",
-            "status": {
-                "type": "chc",
-                "increase": 0
-            }
+          "hp": 60
         }
-    ],
-    "awakening": [
+      ],
+      "resources": [
         {
-            "rank": 1,
-            "skillUpgrade": false,
-            "statsIncrease": [{ "chc": "3%" }, { "atk": 20 }, { "hp": 60 }],
-            "resources": [{ "item": "dark-rune", "qty": 8 }]
-        },
-        {
-            "rank": 2,
-            "skillUpgrade": false,
-            "statsIncrease": [{ "atk": "3%" }, { "atk": 20 }, { "hp": 60 }],
-            "resources": [{ "item": "dark-rune", "qty": 12 }, { "item": "greater-dark-rune", "qty": 2 }]
-        },
-        {
-            "rank": 3,
-            "skillUpgrade": true,
-            "statsIncrease": [{ "atk": 20 }, { "hp": 60 }],
-            "resources": [{ "item": "dark-rune", "qty": 17 }, { "item": "greater-dark-rune", "qty": 8 }]
-        },
-        {
-            "rank": 4,
-            "skillUpgrade": false,
-            "statsIncrease": [{ "chd": "6%" }, { "atk": 30 }, { "hp": 80 }],
-            "resources": [{ "item": "greater-dark-rune", "qty": 8 }, { "item": "epic-dark-rune", "qty": 1 }]
-        },
-        {
-            "rank": 5,
-            "skillUpgrade": false,
-            "statsIncrease": [{ "chc": "6%" }, { "atk": 30 }, { "hp": 80 }],
-            "resources": [{ "item": "epic-dark-rune", "qty": 5 }, { "item": "erikion-carapace", "qty": 12 }]
-        },
-        {
-            "rank": 6,
-            "skillUpgrade": false,
-            "statsIncrease": [{ "atk": "6%" }, { "atk": 30 }, { "hp": 80 }],
-            "resources": [{ "item": "epic-dark-rune", "qty": 8 }, { "item": "black-curse-powder", "qty": 6 }]
+          "item": "dark-rune",
+          "qty": 8
         }
-    ]
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": "3%"
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-dark-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "dark-rune",
+          "qty": 17
+        },
+        {
+          "item": "greater-dark-rune",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chd": "6%"
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-dark-rune",
+          "qty": 8
+        },
+        {
+          "item": "epic-dark-rune",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "chc": "6%"
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-dark-rune",
+          "qty": 5
+        },
+        {
+          "item": "erikion-carapace",
+          "qty": 12
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": "6%"
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-dark-rune",
+          "qty": 8
+        },
+        {
+          "item": "black-curse-powder",
+          "qty": 6
+        }
+      ]
+    }
+  ]
 }

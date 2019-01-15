@@ -1,531 +1,559 @@
 {
-    "name": "Fighter Maya",
-    "rarity": 4,
-    "classType": "knight",
-    "element": "light",
-    "zodiac": "libra",
-    "specialtyChangeName": "",
-    "selfSkillBarName": "",
-    "background": "The second magic doll to be created in Reingar, modeled on Maya with incredible combat skills and a belligerent attitude. She is the type to learn and grow from her experiences, but having been created only a short time ago, she tends to be childish and overly honest about her feelings. She is fond of her sparring partner, Zerato.",
-    "relations": [
+  "name": "Fighter Maya",
+  "rarity": 4,
+  "classType": "knight",
+  "element": "light",
+  "zodiac": "libra",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": "The second magic doll to be created in Reingar, modeled on Maya with incredible combat skills and a belligerent attitude. She is the type to learn and grow from her experiences, but having been created only a short time ago, she tends to be childish and overly honest about her feelings. She is fond of her sparring partner, Zerato.",
+  "relations": [
+    {
+      "hero": "zerato",
+      "relationType": "longing"
+    },
+    {
+      "hero": "maya",
+      "relationType": "rival"
+    }
+  ],
+  "stats": {
+    "base": {
+      "cp": 1261,
+      "atk": 63,
+      "hp": 303,
+      "spd": 97,
+      "def": 76,
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "efr": 0,
+      "dac": 5
+    },
+    "max": {
+      "cp": 16327,
+      "atk": 821,
+      "hp": 6266,
+      "spd": 97,
+      "def": 703,
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "efr": 6,
+      "dac": 5
+    },
+    "max6": {
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "dac": 5,
+      "hp": 5364,
+      "cp": 14045,
+      "spd": 97,
+      "atk": 671,
+      "def": 645,
+      "efr": 0
+    },
+    "max5": {
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "dac": 5,
+      "hp": 4267,
+      "cp": 11254,
+      "spd": 97,
+      "atk": 538,
+      "def": 520,
+      "efr": 0
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Strike of Provocation",
+      "soulAcquire": 1,
+      "description": "Attacks with a blunt weapon, with a 50% chance to provoke for 1 turn.",
+      "enhancement": [
         {
-            "hero": "zerato",
-            "relationType": "longing"
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 4000
+            },
+            {
+              "item": "molagora",
+              "qty": 1
+            }
+          ]
         },
         {
-            "hero": "maya",
-            "relationType": "rival"
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 8000
+            },
+            {
+              "item": "molagora",
+              "qty": 2
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 17000
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "mysterious-flash",
+              "qty": 1
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 35000
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "mysterious-flash",
+              "qty": 3
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 100000
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "reingar-student-id",
+              "qty": 2
+            }
+          ]
         }
-    ],
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_provoke"
+      ]
+    },
+    {
+      "isPassive": true,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": true,
+      "cooldown": 0,
+      "name": "Reclaim",
+      "soulAcquire": 0,
+      "description": "Has a 80% chance to dispel one debuff and be granted increased Defense for 2 turns when attacked.",
+      "enhancement": [
+        {
+          "description": "+3% trigger chance",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 4000
+            },
+            {
+              "item": "molagora",
+              "qty": 1
+            }
+          ]
+        },
+        {
+          "description": "+3% trigger chance",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 8000
+            },
+            {
+              "item": "molagora",
+              "qty": 2
+            }
+          ]
+        },
+        {
+          "description": "+4% trigger chance",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 17000
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "mysterious-flash",
+              "qty": 1
+            }
+          ]
+        },
+        {
+          "description": "+5% trigger chance",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 35000
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "mysterious-flash",
+              "qty": 3
+            }
+          ]
+        },
+        {
+          "description": "+5% trigger chance",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 100000
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "reingar-student-id",
+              "qty": 2
+            }
+          ]
+        }
+      ],
+      "buffs": [
+        "stic_def_up"
+      ],
+      "debuffs": []
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Increases damage dealt.",
+      "awakenUpgrade": false,
+      "cooldown": 5,
+      "name": "Finishing Attack",
+      "soulAcquire": 2,
+      "description": "Attacks with a powerful smash.  Damage dealt increases by 300% if the enemy's Health is less than 30%. Damage dealt increases proportional to the caster's Defense.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 4000
+            },
+            {
+              "item": "molagora",
+              "qty": 1
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 8000
+            },
+            {
+              "item": "molagora",
+              "qty": 2
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 17000
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "mysterious-flash",
+              "qty": 1
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 35000
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "mysterious-flash",
+              "qty": 3
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "gold",
+              "qty": 100000
+            },
+            {
+              "item": "molagorago",
+              "qty": 2
+            },
+            {
+              "item": "reingar-studet-id",
+              "qty": 2
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": []
+    }
+  ],
+  "specialtySkill": {
+    "name": "Righteous Stare",
+    "description": "Bravely faces any hardship head-on",
+    "dispatch": "All Missions",
+    "enhancement": "EXP Bonus +6%",
     "stats": {
-        "base": {
-            "cp": 1261,
-            "atk": 63,
-            "hp": 303,
-            "spd": 97,
-            "def": 76,
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "efr": 0,
-            "dac": 5
-        },
-        "max": {
-            "cp": 16327,
-            "atk": 821,
-            "hp": 6266,
-            "spd": 97,
-            "def": 703,
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "efr": 6,
-            "dac": 5
-        }
+      "command": 17,
+      "charm": 75,
+      "politics": 23
+    }
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "efr",
+        "increase": "4.3%"
+      }
     },
-    "skills": [
-        {
-            "isPassive": false,
-            "soulBurn": 0,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
-            "awakenUpgrade": false,
-            "cooldown": 0,
-            "name": "Strike of Provocation",
-            "soulAcquire": 1,
-            "description": "Attacks with a blunt weapon, with a 50% chance to provoke for 1 turn.",
-            "enhancement": [
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 4000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 1
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 17000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "mysterious-flash",
-                            "qty": 1
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 35000
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "mysterious-flash",
-                            "qty": 3
-                        }
-                    ]
-                },
-                {
-                    "description": "+15% damage dealt",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 100000
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 2
-                        },
-                        {
-                            "item": "reingar-student-id",
-                            "qty": 2
-                        }
-                    ]
-                }
-            ],
-            "buffs": [],
-            "debuffs": ["stic_provoke"]
-        },
-        {
-            "isPassive": true,
-            "soulBurn": 0,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
-            "awakenUpgrade": true,
-            "cooldown": 0,
-            "name": "Reclaim",
-            "soulAcquire": 0,
-            "description": "Has a 80% chance to dispel one debuff and be granted increased Defense for 2 turns when attacked.",
-            "enhancement": [
-                {
-                    "description": "+3% trigger chance",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 4000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 1
-                        }
-                    ]
-                },
-                {
-                    "description": "+3% trigger chance",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        }
-                    ]
-                },
-                {
-                    "description": "+4% trigger chance",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 17000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "mysterious-flash",
-                            "qty": 1
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% trigger chance",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 35000
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "mysterious-flash",
-                            "qty": 3
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% trigger chance",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 100000
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 2
-                        },
-                        {
-                            "item": "reingar-student-id",
-                            "qty": 2
-                        }
-                    ]
-                }
-            ],
-            "buffs": ["stic_def_up"],
-            "debuffs": []
-        },
-        {
-            "isPassive": false,
-            "soulBurn": 10,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "Increases damage dealt.",
-            "awakenUpgrade": false,
-            "cooldown": 5,
-            "name": "Finishing Attack",
-            "soulAcquire": 2,
-            "description": "Attacks with a powerful smash.  Damage dealt increases by 300% if the enemy's Health is less than 30%. Damage dealt increases proportional to the caster's Defense.",
-            "enhancement": [
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 4000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 1
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        }
-                    ]
-                },
-                {
-                    "description": "-1 turn cooldown",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 17000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "mysterious-flash",
-                            "qty": 1
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 35000
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "mysterious-flash",
-                            "qty": 3
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 100000
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 2
-                        },
-                        {
-                            "item": "reingar-studet-id",
-                            "qty": 2
-                        }
-                    ]
-                }
-            ],
-            "buffs": [],
-            "debuffs": []
-        }
-    ],
-    "specialtySkill": {
-        "name": "Righteous Stare",
-        "description": "Bravely faces any hardship head-on",
-        "dispatch": "All Missions",
-        "enhancement": "EXP Bonus +6%",
-        "stats": {
-            "command": 17,
-            "charm": 75,
-            "politics": 23
-        }
+    {
+      "rank": "c",
+      "status": {
+        "type": "efr",
+        "increase": 0
+      }
     },
-    "memoryImprint": [
+    {
+      "rank": "b",
+      "status": {
+        "type": "efr",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "efr",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "efr",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "efr",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "efr",
+        "increase": 0
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
         {
-            "rank": "d",
-            "status": {
-                "type": "efr",
-                "increase": "4.3%"
-            }
+          "hp": "3%"
         },
         {
-            "rank": "c",
-            "status": {
-                "type": "efr",
-                "increase": 0
-            }
+          "atk": 20
         },
         {
-            "rank": "b",
-            "status": {
-                "type": "efr",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "a",
-            "status": {
-                "type": "efr",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "s",
-            "status": {
-                "type": "efr",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "ss",
-            "status": {
-                "type": "efr",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "sss",
-            "status": {
-                "type": "efr",
-                "increase": 0
-            }
+          "hp": 60
         }
-    ],
-    "awakening": [
+      ],
+      "resources": [
         {
-            "rank": 1,
-            "skillUpgrade": false,
-            "statsIncrease": [
-                {
-                    "hp": "3%"
-                },
-                {
-                    "atk": 20
-                },
-                {
-                    "hp": 60
-                }
-            ],
-            "resources": [
-                {
-                    "item": "light-rune",
-                    "qty": 8
-                }
-            ]
-        },
-        {
-            "rank": 2,
-            "skillUpgrade": false,
-            "statsIncrease": [
-                {
-                    "def": "3%"
-                },
-                {
-                    "atk": 20
-                },
-                {
-                    "hp": 60
-                }
-            ],
-            "resources": [
-                {
-                    "item": "light-rune",
-                    "qty": 12
-                },
-                {
-                    "item": "greater-light-rune",
-                    "qty": 2
-                }
-            ]
-        },
-        {
-            "rank": 3,
-            "skillUpgrade": true,
-            "statsIncrease": [
-                {
-                    "atk": 20
-                },
-                {
-                    "hp": 60
-                }
-            ],
-            "resources": [
-                {
-                    "item": "greater-light-rune",
-                    "qty": 8
-                },
-                {
-                    "item": "light-rune",
-                    "qty": 17
-                }
-            ]
-        },
-        {
-            "rank": 4,
-            "skillUpgrade": false,
-            "statsIncrease": [
-                {
-                    "efr": "6%"
-                },
-                {
-                    "atk": 30
-                },
-                {
-                    "hp": 80
-                }
-            ],
-            "resources": [
-                {
-                    "item": "greater-light-rune",
-                    "qty": 8
-                },
-                {
-                    "item": "epic-light-rune",
-                    "qty": 1
-                }
-            ]
-        },
-        {
-            "rank": 5,
-            "skillUpgrade": false,
-            "statsIncrease": [
-                {
-                    "hp": "6%"
-                },
-                {
-                    "atk": 30
-                },
-                {
-                    "hp": 80
-                }
-            ],
-            "resources": [
-                {
-                    "item": "epic-light-rune",
-                    "qty": 5
-                },
-                {
-                    "item": "dream-time-circuit",
-                    "qty": 12
-                }
-            ]
-        },
-        {
-            "rank": 6,
-            "skillUpgrade": false,
-            "statsIncrease": [
-                {
-                    "def": "6%"
-                },
-                {
-                    "atk": 30
-                },
-                {
-                    "def": 80
-                }
-            ],
-            "resources": [
-                {
-                    "item": "epic-light-rune",
-                    "qty": 8
-                },
-                {
-                    "item": "reingar-student-id",
-                    "qty": 8
-                }
-            ]
+          "item": "light-rune",
+          "qty": 8
         }
-    ]
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "def": "3%"
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "light-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-light-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-light-rune",
+          "qty": 8
+        },
+        {
+          "item": "light-rune",
+          "qty": 17
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "efr": "6%"
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-light-rune",
+          "qty": 8
+        },
+        {
+          "item": "epic-light-rune",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": "6%"
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-light-rune",
+          "qty": 5
+        },
+        {
+          "item": "dream-time-circuit",
+          "qty": 12
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "def": "6%"
+        },
+        {
+          "atk": 30
+        },
+        {
+          "def": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-light-rune",
+          "qty": 8
+        },
+        {
+          "item": "reingar-student-id",
+          "qty": 8
+        }
+      ]
+    }
+  ]
 }
