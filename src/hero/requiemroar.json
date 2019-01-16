@@ -1,436 +1,432 @@
 {
-  "name": "Requiemroar",
-  "rarity": 3,
-  "classType": "soul-weaver",
-  "element": "dark",
-  "zodiac": "sagittarius",
-  "specialtyChangeName": "",
-  "selfSkillBarName": "",
-  "background": "A Banshee formed from a corrupted soul. She sings a bizarrely pleasant song of brutal murder and mourning. Her funeral dirge is for the enemy she is about to kill.",
-  "relations": [
-    {
-      "hero": "",
-      "relationType": ""
-    }
-  ],
-  "stats": {
-    "base": {
-      "cp": 0,
-      "atk": 0,
-      "hp": 0,
-      "spd": 0,
-      "def": 0,
-      "chc": 0,
-      "chd": 0,
-      "eff": 0,
-      "efr": 0,
-      "dac": 0
-    },
-    "max": {
-      "cp": 0,
-      "atk": 0,
-      "hp": 0,
-      "spd": 0,
-      "def": 0,
-      "chc": 0,
-      "chd": 0,
-      "eff": 0,
-      "efr": 0,
-      "dac": 5
-    },
-    "max6": {
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "dac": 5,
-      "hp": 3626,
-      "cp": 11751,
-      "spd": 100,
-      "atk": 589,
-      "def": 613,
-      "efr": 0
-    },
-    "max5": {
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "dac": 5,
-      "hp": 2884,
-      "cp": 9425,
-      "spd": 100,
-      "atk": 473,
-      "def": 494,
-      "efr": 0
-    }
-  },
-  "skills": [
-    {
-      "isPassive": false,
-      "soulBurn": 0,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "",
-      "awakenUpgrade": false,
-      "cooldown": 0,
-      "name": "Insanity",
-      "soulAcquire": 1,
-      "description": "Claws the enemy, with a 50% chance to decrease Attack for 1 turn.",
-      "enhancement": [
+    "name": "Requiemroar",
+    "rarity": 3,
+    "classType": "soul-weaver",
+    "element": "dark",
+    "zodiac": "sagittarius",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": "A Banshee formed from a corrupted soul. She sings a bizarrely pleasant song of brutal murder and mourning. Her funeral dirge is for the enemy she is about to kill.",
+    "relations": [
         {
-          "description": "+5% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+10% effect chance",
-          "resources": []
-        },
-        {
-          "description": "+10% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+15% effect chance",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+15% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
+            "hero": "",
+            "relationType": ""
         }
-      ],
-      "buffs": [],
-      "debuffs": [
-        "stic_att_dn"
-      ]
-    },
-    {
-      "isPassive": true,
-      "soulBurn": 0,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "",
-      "awakenUpgrade": false,
-      "cooldown": 0,
-      "name": "Blood Feast",
-      "soulAcquire": 0,
-      "description": "All allies absorb 5% of the damage they each inflict as Health and recover 15% Health every time an enemy dies. Health recovery upon enemy death can only be activated once per turn.",
-      "enhancement": [
-        {
-          "description": "+0.5% Healing relative to damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+0.5% Healing relative to damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+1% Healing relative to damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+1% Healing relative to damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+2% Healing relative to damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        }
-      ],
-      "buffs": [],
-      "debuffs": []
-    },
-    {
-      "isPassive": false,
-      "soulBurn": 10,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "Increases damage dealt.",
-      "awakenUpgrade": true,
-      "cooldown": 4,
-      "name": "Dirge",
-      "soulAcquire": 2,
-      "description": "Attacks with magic, with a 75% chance to decrease Defense for 2 turns, and increases Combat Readiness of all allies by 20%.",
-      "enhancement": [
-        {
-          "description": "+5% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+10% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+10% effect chance",
-          "resources": []
-        },
-        {
-          "description": "+15% effect chance",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+15% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        }
-      ],
-      "buffs": [],
-      "debuffs": [
-        "stic_def_dn"
-      ]
-    }
-  ],
-  "specialtySkill": {
-    "name": "Impossible Request",
-    "description": "Her requests, which you can never refuse, are becoming more and more unreasonable.",
-    "dispatch": [],
-    "enhancement": [],
+    ],
     "stats": {
-      "command": 0,
-      "charm": 0,
-      "politics": 0
-    }
-  },
-  "memoryImprintFormation": {
-    "north": false,
-    "south": false,
-    "east": false,
-    "west": false
-  },
-  "memoryImprint": [
-    {
-      "rank": "d",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
+        "base": {
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0,
+            "chd": 0,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0
+        },
+        "max": {
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0,
+            "chd": 0,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max6": {
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "dac": 5,
+            "hp": 3626,
+            "cp": 11751,
+            "spd": 100,
+            "atk": 589,
+            "def": 613,
+            "efr": 0
+        },
+        "max5": {
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "dac": 5,
+            "hp": 2884,
+            "cp": 9425,
+            "spd": 100,
+            "atk": 473,
+            "def": 494,
+            "efr": 0
+        }
     },
-    {
-      "rank": "c",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Insanity",
+            "soulAcquire": 1,
+            "description": "Claws the enemy, with a 50% chance to decrease Attack for 1 turn.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": []
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+15% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": ["stic_att_dn"]
+        },
+        {
+            "isPassive": true,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Blood Feast",
+            "soulAcquire": 0,
+            "description": "All allies absorb 5% of the damage they each inflict as Health and recover 15% Health every time an enemy dies. Health recovery upon enemy death can only be activated once per turn.",
+            "enhancement": [
+                {
+                    "description": "+0.5% Healing relative to damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+0.5% Healing relative to damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+1% Healing relative to damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+1% Healing relative to damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+2% Healing relative to damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 10,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Increases damage dealt.",
+            "awakenUpgrade": true,
+            "cooldown": 4,
+            "name": "Dirge",
+            "soulAcquire": 2,
+            "description": "Attacks with magic, with a 75% chance to decrease Defense for 2 turns, and increases Combat Readiness of all allies by 20%.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": []
+                },
+                {
+                    "description": "+15% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": ["stic_def_dn"]
+        }
+    ],
+    "specialtySkill": {
+        "name": "Impossible Request",
+        "description": "Her requests, which you can never refuse, are becoming more and more unreasonable.",
+        "dispatch": [],
+        "enhancement": [],
+        "stats": {
+            "command": 0,
+            "charm": 0,
+            "politics": 0
+        }
     },
-    {
-      "rank": "b",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
+    "memoryImprintFormation": {
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": false
     },
-    {
-      "rank": "a",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "s",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "ss",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "sss",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    }
-  ],
-  "awakening": [
-    {
-      "rank": 1,
-      "skillUpgrade": false,
-      "statsIncrease": [
+    "memoryImprint": [
         {
-          "spd": 2
+            "rank": "d",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
         },
         {
-          "atk": 20
+            "rank": "c",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
         },
         {
-          "hp": 60
+            "rank": "b",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
         }
-      ],
-      "resources": [
+    ],
+    "awakening": [
         {
-          "item": "dark-rune",
-          "qty": 5
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "spd": 2
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "dark-rune",
+                    "qty": 5
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "dark-rune",
+                    "qty": 9
+                }
+            ]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "dark-rune",
+                    "qty": 12
+                },
+                {
+                    "item": "greater-dark-rune",
+                    "qty": 6
+                }
+            ]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-dark-rune",
+                    "qty": 15
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "spd": 4
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-dark-rune",
+                    "qty": 4
+                },
+                {
+                    "item": "cold-look",
+                    "qty": 9
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-dark-rune",
+                    "qty": 6
+                },
+                {
+                    "item": "mercenarys-medicine",
+                    "qty": 6
+                }
+            ]
         }
-      ]
-    },
-    {
-      "rank": 2,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "atk": 0.03
-        },
-        {
-          "atk": 20
-        },
-        {
-          "hp": 60
-        }
-      ],
-      "resources": [
-        {
-          "item": "dark-rune",
-          "qty": 9
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "skillUpgrade": true,
-      "statsIncrease": [
-        {
-          "atk": 20
-        },
-        {
-          "hp": 60
-        }
-      ],
-      "resources": [
-        {
-          "item": "dark-rune",
-          "qty": 12
-        },
-        {
-          "item": "greater-dark-rune",
-          "qty": 6
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "atk": 0.06
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "greater-dark-rune",
-          "qty": 15
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "spd": 4
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "epic-dark-rune",
-          "qty": 4
-        },
-        {
-          "item": "cold-look",
-          "qty": 9
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "atk": 0.06
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "epic-dark-rune",
-          "qty": 6
-        },
-        {
-          "item": "mercenarys-medicine",
-          "qty": 6
-        }
-      ]
-    }
-  ]
+    ]
 }

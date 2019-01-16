@@ -1,444 +1,440 @@
 {
-  "name": "Cartuja",
-  "rarity": 4,
-  "classType": "warrior",
-  "element": "earth",
-  "zodiac": "cancer",
-  "specialtyChangeName": "",
-  "selfSkillBarName": "",
-  "background": "In Farche, the nomadic Tuharta Clan is wiped out by a great sandstorm. Cartuja leads the few survivors as they wander in search of a new home, working day and night as a mercenary to raise enough money to save his clan.",
-  "relations": [
-    {
-      "hero": "",
-      "relationType": ""
-    }
-  ],
-  "stats": {
-    "base": {
-      "cp": 1237,
-      "atk": 71,
-      "hp": 305,
-      "spd": 103,
-      "def": 68,
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "efr": 0,
-      "dac": 5
-    },
-    "max": {
-      "cp": 16316,
-      "atk": 903,
-      "hp": 6635,
-      "spd": 103,
-      "def": 630,
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "efr": 0,
-      "dac": 5
-    },
-    "max6": {
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "dac": 5,
-      "hp": 5405,
-      "cp": 13968,
-      "spd": 103,
-      "atk": 753,
-      "def": 578,
-      "efr": 0
-    },
-    "max5": {
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "dac": 5,
-      "hp": 4299,
-      "cp": 11189,
-      "spd": 103,
-      "atk": 604,
-      "def": 466,
-      "efr": 0
-    }
-  },
-  "skills": [
-    {
-      "isPassive": false,
-      "soulBurn": 0,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "",
-      "awakenUpgrade": false,
-      "cooldown": 0,
-      "name": "Shred",
-      "soulAcquire": 1,
-      "description": "Attacks with sharp claws, with a 35% chance to decrease Defense for 2 turns. Damage dealt increases proportional to the caster's max Health.",
-      "enhancement": [
+    "name": "Cartuja",
+    "rarity": 4,
+    "classType": "warrior",
+    "element": "earth",
+    "zodiac": "cancer",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": "In Farche, the nomadic Tuharta Clan is wiped out by a great sandstorm. Cartuja leads the few survivors as they wander in search of a new home, working day and night as a mercenary to raise enough money to save his clan.",
+    "relations": [
         {
-          "description": "+5% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+5% effect chance",
-          "resources": []
-        },
-        {
-          "description": "+5% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+10% effect chance",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+10% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+10% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
+            "hero": "",
+            "relationType": ""
         }
-      ],
-      "buffs": [],
-      "debuffs": [
-        "stic_def_dn"
-      ]
-    },
-    {
-      "isPassive": true,
-      "soulBurn": 0,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "",
-      "awakenUpgrade": false,
-      "cooldown": 0,
-      "name": "Danger Zone",
-      "soulAcquire": 0,
-      "description": "When attacked, increases Combat Readiness by 10%. Increases Combat Readiness by an additional 10% if the caster's Health is less than 50%.",
-      "enhancement": [
-        {
-          "description": "+1% Combat Readiness",
-          "resources": []
-        },
-        {
-          "description": "+2% Combat Readiness",
-          "resources": []
-        },
-        {
-          "description": "+2% Combat Readiness",
-          "resources": []
-        }
-      ],
-      "buffs": [],
-      "debuffs": []
-    },
-    {
-      "isPassive": false,
-      "soulBurn": 10,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "Increases damage dealt.",
-      "awakenUpgrade": true,
-      "cooldown": 6,
-      "name": "Predatory Roar",
-      "soulAcquire": 3,
-      "description": "Attacks all enemies with wild energy, with a 50% chance to decrease Attack for 2 turns, before recovering half of the caster's max Health. Damage dealt increases proportional to the caster's max Health, with additional damage increase when the caster has less than 50% Health.",
-      "enhancement": [
-        {
-          "description": "+5% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+10% effect chance",
-          "resources": []
-        },
-        {
-          "description": "-1 turn cooldown",
-          "resources": []
-        },
-        {
-          "description": "+10% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+15% effect chance",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+15% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        }
-      ],
-      "buffs": [],
-      "debuffs": [
-        "stic_att_dn"
-      ]
-    }
-  ],
-  "specialtySkill": {
-    "name": "Explorer",
-    "description": "Their curiosity for the new world is second to none.",
-    "dispatch": [],
-    "enhancement": [],
+    ],
     "stats": {
-      "command": 0,
-      "charm": 0,
-      "politics": 0
-    }
-  },
-  "memoryImprintFormation": {
-    "north": false,
-    "south": false,
-    "east": false,
-    "west": false
-  },
-  "memoryImprint": [
-    {
-      "rank": "d",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
+        "base": {
+            "cp": 1237,
+            "atk": 71,
+            "hp": 305,
+            "spd": 103,
+            "def": 68,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max": {
+            "cp": 16316,
+            "atk": 903,
+            "hp": 6635,
+            "spd": 103,
+            "def": 630,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max6": {
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "dac": 5,
+            "hp": 5405,
+            "cp": 13968,
+            "spd": 103,
+            "atk": 753,
+            "def": 578,
+            "efr": 0
+        },
+        "max5": {
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "dac": 5,
+            "hp": 4299,
+            "cp": 11189,
+            "spd": 103,
+            "atk": 604,
+            "def": 466,
+            "efr": 0
+        }
     },
-    {
-      "rank": "c",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Shred",
+            "soulAcquire": 1,
+            "description": "Attacks with sharp claws, with a 35% chance to decrease Defense for 2 turns. Damage dealt increases proportional to the caster's max Health.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": []
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": ["stic_def_dn"]
+        },
+        {
+            "isPassive": true,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Danger Zone",
+            "soulAcquire": 0,
+            "description": "When attacked, increases Combat Readiness by 10%. Increases Combat Readiness by an additional 10% if the caster's Health is less than 50%.",
+            "enhancement": [
+                {
+                    "description": "+1% Combat Readiness",
+                    "resources": []
+                },
+                {
+                    "description": "+2% Combat Readiness",
+                    "resources": []
+                },
+                {
+                    "description": "+2% Combat Readiness",
+                    "resources": []
+                }
+            ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 10,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Increases damage dealt.",
+            "awakenUpgrade": true,
+            "cooldown": 6,
+            "name": "Predatory Roar",
+            "soulAcquire": 3,
+            "description": "Attacks all enemies with wild energy, with a 50% chance to decrease Attack for 2 turns, before recovering half of the caster's max Health. Damage dealt increases proportional to the caster's max Health, with additional damage increase when the caster has less than 50% Health.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": []
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": []
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": ["stic_att_dn"]
+        }
+    ],
+    "specialtySkill": {
+        "name": "Explorer",
+        "description": "Their curiosity for the new world is second to none.",
+        "dispatch": [],
+        "enhancement": [],
+        "stats": {
+            "command": 0,
+            "charm": 0,
+            "politics": 0
+        }
     },
-    {
-      "rank": "b",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
+    "memoryImprintFormation": {
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": false
     },
-    {
-      "rank": "a",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "s",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "ss",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "sss",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    }
-  ],
-  "awakening": [
-    {
-      "rank": 1,
-      "skillUpgrade": false,
-      "statsIncrease": [
+    "memoryImprint": [
         {
-          "hp": 0.03
+            "rank": "d",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
         },
         {
-          "atk": 20
+            "rank": "c",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
         },
         {
-          "hp": 60
+            "rank": "b",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
         }
-      ],
-      "resources": [
+    ],
+    "awakening": [
         {
-          "item": "earth-rune",
-          "qty": 8
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "hp": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "earth-rune",
+                    "qty": 8
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "def": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "earth-rune",
+                    "qty": 12
+                },
+                {
+                    "item": "greater-earth-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "earth-rune",
+                    "qty": 17
+                },
+                {
+                    "item": "greater-earth-rune",
+                    "qty": 8
+                }
+            ]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "hp": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-earth-rune",
+                    "qty": 8
+                },
+                {
+                    "item": "epic-earth-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "hp": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-earth-rune",
+                    "qty": 5
+                },
+                {
+                    "item": "special-alarm-loop",
+                    "qty": 12
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "def": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-earth-rune",
+                    "qty": 8
+                },
+                {
+                    "item": "the-heart-of-hypocrisy",
+                    "qty": 8
+                }
+            ]
         }
-      ]
-    },
-    {
-      "rank": 2,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "def": 0.03
-        },
-        {
-          "atk": 20
-        },
-        {
-          "hp": 60
-        }
-      ],
-      "resources": [
-        {
-          "item": "earth-rune",
-          "qty": 12
-        },
-        {
-          "item": "greater-earth-rune",
-          "qty": 2
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "skillUpgrade": true,
-      "statsIncrease": [
-        {
-          "atk": 20
-        },
-        {
-          "hp": 60
-        }
-      ],
-      "resources": [
-        {
-          "item": "earth-rune",
-          "qty": 17
-        },
-        {
-          "item": "greater-earth-rune",
-          "qty": 8
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "hp": 0.06
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "greater-earth-rune",
-          "qty": 8
-        },
-        {
-          "item": "epic-earth-rune",
-          "qty": 2
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "hp": 0.06
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "epic-earth-rune",
-          "qty": 5
-        },
-        {
-          "item": "special-alarm-loop",
-          "qty": 12
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "def": 0.06
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "epic-earth-rune",
-          "qty": 8
-        },
-        {
-          "item": "the-heart-of-hypocrisy",
-          "qty": 8
-        }
-      ]
-    }
-  ]
+    ]
 }

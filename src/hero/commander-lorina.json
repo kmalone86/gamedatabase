@@ -1,432 +1,432 @@
 {
-  "name": "Commander Lorina",
-  "rarity": 3,
-  "classType": "warrior",
-  "element": "dark",
-  "zodiac": "leo",
-  "specialtyChangeName": "",
-  "selfSkillBarName": "",
-  "background": "Lorina became an official knight after defeating a Wyvern with her spear. She aims to lead the vanguard of the Order of the Shield one day, and acts without thinking based on what she believes is right.",
-  "relations": [
-    {
-      "hero": "",
-      "relationType": ""
-    }
-  ],
-  "stats": {
-    "base": {
-      "cp": 0,
-      "atk": 0,
-      "hp": 0,
-      "spd": 0,
-      "def": 0,
-      "chc": 0,
-      "chd": 0,
-      "eff": 0,
-      "efr": 0,
-      "dac": 0
-    },
-    "max": {
-      "cp": 0,
-      "atk": 0,
-      "hp": 0,
-      "spd": 0,
-      "def": 0,
-      "chc": 0,
-      "chd": 0,
-      "eff": 0,
-      "efr": 0,
-      "dac": 5
-    },
-    "max6": {
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "dac": 5,
-      "hp": 4475,
-      "cp": 13027,
-      "spd": 101,
-      "atk": 843,
-      "def": 543,
-      "efr": 0
-    },
-    "max5": {
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "dac": 5,
-      "hp": 3559,
-      "cp": 10445,
-      "spd": 101,
-      "atk": 677,
-      "def": 438,
-      "efr": 0
-    }
-  },
-  "skills": [
-    {
-      "isPassive": false,
-      "soulBurn": 0,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "",
-      "awakenUpgrade": true,
-      "cooldown": 0,
-      "name": "Sharp Blow",
-      "soulAcquire": 1,
-      "description": "Knocks the enemy into the air with a spear, increasing Combat Readiness of the caster by 20%.",
-      "enhancement": [
+    "name": "Commander Lorina",
+    "rarity": 3,
+    "classType": "warrior",
+    "element": "dark",
+    "zodiac": "leo",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": "Lorina became an official knight after defeating a Wyvern with her spear. She aims to lead the vanguard of the Order of the Shield one day, and acts without thinking based on what she believes is right.",
+    "relations": [
         {
-          "description": "+5% damage dealt ",
-          "resources": []
-        },
-        {
-          "description": "+5% damage dealt ",
-          "resources": []
-        },
-        {
-          "description": "+10% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+10% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+10% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
+            "hero": "",
+            "relationType": ""
         }
-      ],
-      "buffs": [],
-      "debuffs": []
-    },
-    {
-      "isPassive": true,
-      "soulBurn": 0,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "",
-      "awakenUpgrade": false,
-      "cooldown": 0,
-      "name": "Spiritual Armament",
-      "soulAcquire": 0,
-      "description": "Increases Attack 10% each time the caster attacks an enemy. Effect can only stack up to 5 times.",
-      "enhancement": [
-        {
-          "description": "+0.5% Attack",
-          "resources": []
-        },
-        {
-          "description": "+0.5% Attack",
-          "resources": []
-        },
-        {
-          "description": "+1% Attack",
-          "resources": []
-        },
-        {
-          "description": "+1% Attack",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+1% Attack",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        }
-      ],
-      "buffs": [],
-      "debuffs": []
-    },
-    {
-      "isPassive": false,
-      "soulBurn": 20,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "Grants an extra turn.",
-      "awakenUpgrade": false,
-      "cooldown": 4,
-      "name": "Spiral Breakthrough",
-      "soulAcquire": 2,
-      "description": "Pierces the enemy with a spear, decreasing Combat Readiness by 15%. Damage dealt increases proportional to the amount of the enemy's lost Health.",
-      "enhancement": [
-        {
-          "description": "+5% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+5% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "-1 turn cooldown",
-          "resources": []
-        },
-        {
-          "description": "+10% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+15% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        }
-      ],
-      "buffs": [],
-      "debuffs": []
-    }
-  ],
-  "specialtySkill": {
-    "name": "Faithful Spear",
-    "description": "Through faith she can overcome moments of weakness and doubt.",
-    "dispatch": [],
-    "enhancement": [],
+    ],
     "stats": {
-      "command": 0,
-      "charm": 0,
-      "politics": 0
-    }
-  },
-  "memoryImprintFormation": {
-    "north": false,
-    "south": false,
-    "east": false,
-    "west": false
-  },
-  "memoryImprint": [
-    {
-      "rank": "d",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
+        "base": {
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0,
+            "chd": 0,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0
+        },
+        "max": {
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0,
+            "chd": 0,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max6": {
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "dac": 5,
+            "hp": 4475,
+            "cp": 13027,
+            "spd": 101,
+            "atk": 843,
+            "def": 543,
+            "efr": 0
+        },
+        "max5": {
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "dac": 5,
+            "hp": 3559,
+            "cp": 10445,
+            "spd": 101,
+            "atk": 677,
+            "def": 438,
+            "efr": 0
+        }
     },
-    {
-      "rank": "c",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": true,
+            "cooldown": 0,
+            "name": "Sharp Blow",
+            "soulAcquire": 1,
+            "description": "Knocks the enemy into the air with a spear, increasing Combat Readiness of the caster by 20%.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt ",
+                    "resources": []
+                },
+                {
+                    "description": "+5% damage dealt ",
+                    "resources": []
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": true,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Spiritual Armament",
+            "soulAcquire": 0,
+            "description": "Increases Attack 10% each time the caster attacks an enemy. Effect can only stack up to 5 times.",
+            "enhancement": [
+                {
+                    "description": "+0.5% Attack",
+                    "resources": []
+                },
+                {
+                    "description": "+0.5% Attack",
+                    "resources": []
+                },
+                {
+                    "description": "+1% Attack",
+                    "resources": []
+                },
+                {
+                    "description": "+1% Attack",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+1% Attack",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 20,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Grants an extra turn.",
+            "awakenUpgrade": false,
+            "cooldown": 4,
+            "name": "Spiral Breakthrough",
+            "soulAcquire": 2,
+            "description": "Pierces the enemy with a spear, decreasing Combat Readiness by 15%. Damage dealt increases proportional to the amount of the enemy's lost Health.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": []
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": []
+        }
+    ],
+    "specialtySkill": {
+        "name": "Faithful Spear",
+        "description": "Through faith she can overcome moments of weakness and doubt.",
+        "dispatch": [],
+        "enhancement": [],
+        "stats": {
+            "command": 0,
+            "charm": 0,
+            "politics": 0
+        }
     },
-    {
-      "rank": "b",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
+    "memoryImprintFormation": {
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": false
     },
-    {
-      "rank": "a",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "s",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "ss",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "sss",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    }
-  ],
-  "awakening": [
-    {
-      "rank": 1,
-      "skillUpgrade": false,
-      "statsIncrease": [
+    "memoryImprint": [
         {
-          "atk": 0.03
+            "rank": "d",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
         },
         {
-          "atk": 20
+            "rank": "c",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
         },
         {
-          "hp": 60
+            "rank": "b",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
         }
-      ],
-      "resources": [
+    ],
+    "awakening": [
         {
-          "item": "dark-rune",
-          "qty": 5
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "dark-rune",
+                    "qty": 5
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "dark-rune",
+                    "qty": 9
+                }
+            ]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "dark-rune",
+                    "qty": 12
+                },
+                {
+                    "item": "greater-dark-rune",
+                    "qty": 6
+                }
+            ]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "chc": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-dark-rune",
+                    "qty": 15
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-dark-rune",
+                    "qty": 4
+                },
+                {
+                    "item": "ultra-fang",
+                    "qty": 9
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-dark-rune",
+                    "qty": 6
+                },
+                {
+                    "item": "blazing-soul",
+                    "qty": 6
+                }
+            ]
         }
-      ]
-    },
-    {
-      "rank": 2,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "atk": 0.03
-        },
-        {
-          "atk": 20
-        },
-        {
-          "hp": 60
-        }
-      ],
-      "resources": [
-        {
-          "item": "dark-rune",
-          "qty": 9
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "skillUpgrade": true,
-      "statsIncrease": [
-        {
-          "atk": 20
-        },
-        {
-          "hp": 60
-        }
-      ],
-      "resources": [
-        {
-          "item": "dark-rune",
-          "qty": 12
-        },
-        {
-          "item": "greater-dark-rune",
-          "qty": 6
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "chc": 0.06
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "greater-dark-rune",
-          "qty": 15
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "atk": 0.06
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "epic-dark-rune",
-          "qty": 4
-        },
-        {
-          "item": "ultra-fang",
-          "qty": 9
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "atk": 0.06
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "epic-dark-rune",
-          "qty": 6
-        },
-        {
-          "item": "blazing-soul",
-          "qty": 6
-        }
-      ]
-    }
-  ]
+    ]
 }

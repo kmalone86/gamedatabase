@@ -1,436 +1,432 @@
 {
-  "name": "Church of Ilryos Axe",
-  "rarity": 3,
-  "classType": "warrior",
-  "element": "dark",
-  "zodiac": "leo",
-  "specialtyChangeName": "choas-sect-axe",
-  "selfSkillBarName": "",
-  "background": "A fanatical soldier who believes in the Church of Ilryos, fighting against those who seek to oppress it, and punishing traitors.",
-  "relations": [
-    {
-      "hero": "",
-      "relationType": ""
-    }
-  ],
-  "stats": {
-    "base": {
-      "cp": 0,
-      "atk": 0,
-      "hp": 0,
-      "spd": 0,
-      "def": 0,
-      "chc": 0,
-      "chd": 0,
-      "eff": 0,
-      "efr": 0,
-      "dac": 0
-    },
-    "max": {
-      "cp": 0,
-      "atk": 0,
-      "hp": 0,
-      "spd": 0,
-      "def": 0,
-      "chc": 0,
-      "chd": 0,
-      "eff": 0,
-      "efr": 0,
-      "dac": 5
-    },
-    "max6": {
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "dac": 5,
-      "hp": 4475,
-      "cp": 13027,
-      "spd": 101,
-      "atk": 843,
-      "def": 543,
-      "efr": 0
-    },
-    "max5": {
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "dac": 5,
-      "hp": 3559,
-      "cp": 10445,
-      "spd": 101,
-      "atk": 677,
-      "def": 438,
-      "efr": 0
-    }
-  },
-  "skills": [
-    {
-      "isPassive": false,
-      "soulBurn": 0,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "",
-      "awakenUpgrade": false,
-      "cooldown": 0,
-      "name": "Disconnect",
-      "soulAcquire": 1,
-      "description": "Attacks with an axe. A critical hit will inflict bleeding for 1 turn. Damage dealt increases proportional to the amount of the enemy's lost Health.",
-      "enhancement": [
+    "name": "Church of Ilryos Axe",
+    "rarity": 3,
+    "classType": "warrior",
+    "element": "dark",
+    "zodiac": "leo",
+    "specialtyChangeName": "choas-sect-axe",
+    "selfSkillBarName": "",
+    "background": "A fanatical soldier who believes in the Church of Ilryos, fighting against those who seek to oppress it, and punishing traitors.",
+    "relations": [
         {
-          "description": "+5% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+5% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+10% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+15% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
+            "hero": "",
+            "relationType": ""
         }
-      ],
-      "buffs": [],
-      "debuffs": [
-        "stic_blood"
-      ]
-    },
-    {
-      "isPassive": false,
-      "soulBurn": 10,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "Increases damage dealt.",
-      "awakenUpgrade": true,
-      "cooldown": 3,
-      "name": "Attack Chain",
-      "soulAcquire": 2,
-      "description": "Attacks all enemies with a shockwave, granting an extra turn to the caster if an enemy is defeated. Damage dealt increases proportional to the enemy's lost Health.",
-      "enhancement": [
-        {
-          "description": "+5% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+5% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+10% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+15% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        }
-      ],
-      "buffs": [],
-      "debuffs": []
-    },
-    {
-      "isPassive": false,
-      "soulBurn": 0,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "",
-      "awakenUpgrade": false,
-      "cooldown": 3,
-      "name": "Plagued Strike",
-      "soulAcquire": 1,
-      "description": "Smacks the enemy, with a 80% chance to decrease Defense for 2 turns.",
-      "enhancement": [
-        {
-          "description": "+5% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+5% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+5% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+10% effect chance",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+10% effect chance",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+10% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+15% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        }
-      ],
-      "buffs": [],
-      "debuffs": [
-        "stic_def_dn"
-      ]
-    }
-  ],
-  "specialtySkill": {
-    "name": "Some Doctrine",
-    "description": "To end their suffering, they chose a doctrine of heresy.",
-    "dispatch": [],
-    "enhancement": [],
+    ],
     "stats": {
-      "command": 0,
-      "charm": 0,
-      "politics": 0
-    }
-  },
-  "memoryImprintFormation": {
-    "north": false,
-    "south": false,
-    "east": false,
-    "west": false
-  },
-  "memoryImprint": [
-    {
-      "rank": "d",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
+        "base": {
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0,
+            "chd": 0,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0
+        },
+        "max": {
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0,
+            "chd": 0,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max6": {
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "dac": 5,
+            "hp": 4475,
+            "cp": 13027,
+            "spd": 101,
+            "atk": 843,
+            "def": 543,
+            "efr": 0
+        },
+        "max5": {
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "dac": 5,
+            "hp": 3559,
+            "cp": 10445,
+            "spd": 101,
+            "atk": 677,
+            "def": 438,
+            "efr": 0
+        }
     },
-    {
-      "rank": "c",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Disconnect",
+            "soulAcquire": 1,
+            "description": "Attacks with an axe. A critical hit will inflict bleeding for 1 turn. Damage dealt increases proportional to the amount of the enemy's lost Health.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": ["stic_blood"]
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 10,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Increases damage dealt.",
+            "awakenUpgrade": true,
+            "cooldown": 3,
+            "name": "Attack Chain",
+            "soulAcquire": 2,
+            "description": "Attacks all enemies with a shockwave, granting an extra turn to the caster if an enemy is defeated. Damage dealt increases proportional to the enemy's lost Health.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 3,
+            "name": "Plagued Strike",
+            "soulAcquire": 1,
+            "description": "Smacks the enemy, with a 80% chance to decrease Defense for 2 turns.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": ["stic_def_dn"]
+        }
+    ],
+    "specialtySkill": {
+        "name": "Some Doctrine",
+        "description": "To end their suffering, they chose a doctrine of heresy.",
+        "dispatch": [],
+        "enhancement": [],
+        "stats": {
+            "command": 0,
+            "charm": 0,
+            "politics": 0
+        }
     },
-    {
-      "rank": "b",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
+    "memoryImprintFormation": {
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": false
     },
-    {
-      "rank": "a",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "s",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "ss",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "sss",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    }
-  ],
-  "awakening": [
-    {
-      "rank": 1,
-      "skillUpgrade": false,
-      "statsIncrease": [
+    "memoryImprint": [
         {
-          "": 0
+            "rank": "d",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
         },
         {
-          "atk": 20
+            "rank": "c",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
         },
         {
-          "hp": 60
+            "rank": "b",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
         }
-      ],
-      "resources": [
+    ],
+    "awakening": [
         {
-          "item": "dark-rune",
-          "qty": 5
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "dark-rune",
+                    "qty": 5
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "dark-rune",
+                    "qty": 9
+                }
+            ]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "dark-rune",
+                    "qty": 12
+                },
+                {
+                    "item": "greater-dark-rune",
+                    "qty": 6
+                }
+            ]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-dark-rune",
+                    "qty": 15
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-dark-rune",
+                    "qty": 4
+                },
+                {
+                    "item": "ultra-fang",
+                    "qty": 9
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-dark-rune",
+                    "qty": 6
+                },
+                {
+                    "item": "blazing-soul",
+                    "qty": 6
+                }
+            ]
         }
-      ]
-    },
-    {
-      "rank": 2,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "": 0
-        },
-        {
-          "atk": 20
-        },
-        {
-          "hp": 60
-        }
-      ],
-      "resources": [
-        {
-          "item": "dark-rune",
-          "qty": 9
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "skillUpgrade": true,
-      "statsIncrease": [
-        {
-          "atk": 20
-        },
-        {
-          "hp": 60
-        }
-      ],
-      "resources": [
-        {
-          "item": "dark-rune",
-          "qty": 12
-        },
-        {
-          "item": "greater-dark-rune",
-          "qty": 6
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "": 0
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "greater-dark-rune",
-          "qty": 15
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "": 0
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "epic-dark-rune",
-          "qty": 4
-        },
-        {
-          "item": "ultra-fang",
-          "qty": 9
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "": 0
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "epic-dark-rune",
-          "qty": 6
-        },
-        {
-          "item": "blazing-soul",
-          "qty": 6
-        }
-      ]
-    }
-  ]
+    ]
 }

@@ -1,445 +1,441 @@
 {
-  "name": "Nemunas",
-  "rarity": 3,
-  "classType": "ranger",
-  "element": "fire",
-  "zodiac": "libra",
-  "specialtyChangeName": "",
-  "selfSkillBarName": "",
-  "background": "Her nickname is Nemu. As a child, Nemunas was saved from the Dragon Valley by the Queen of Wintenberg and her Dragon Knights. At this point, she decided she must become a Dragon Knight. She left her home to participate in the Wintenberg Tournament to become a Dragon Knight.",
-  "relations": [
-    {
-      "hero": "",
-      "relationType": ""
-    }
-  ],
-  "stats": {
-    "base": {
-      "cp": 0,
-      "atk": 0,
-      "hp": 0,
-      "spd": 0,
-      "def": 0,
-      "chc": 0,
-      "chd": 0,
-      "eff": 0,
-      "efr": 0,
-      "dac": 0
-    },
-    "max": {
-      "cp": 0,
-      "atk": 0,
-      "hp": 0,
-      "spd": 0,
-      "def": 0,
-      "chc": 0,
-      "chd": 0,
-      "eff": 0,
-      "efr": 0,
-      "dac": 5
-    },
-    "max6": {
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "dac": 5,
-      "hp": 4435,
-      "cp": 12504,
-      "spd": 110,
-      "atk": 707,
-      "def": 525,
-      "efr": 0
-    },
-    "max5": {
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "dac": 5,
-      "hp": 3527,
-      "cp": 10026,
-      "spd": 110,
-      "atk": 567,
-      "def": 424,
-      "efr": 0
-    }
-  },
-  "skills": [
-    {
-      "isPassive": false,
-      "soulBurn": 0,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "",
-      "awakenUpgrade": false,
-      "cooldown": 0,
-      "name": "Cover Fire",
-      "soulAcquire": 1,
-      "description": "Decreases enemy's Combat Readiness by 10% after attacking them.",
-      "enhancement": [
+    "name": "Nemunas",
+    "rarity": 3,
+    "classType": "ranger",
+    "element": "fire",
+    "zodiac": "libra",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": "Her nickname is Nemu. As a child, Nemunas was saved from the Dragon Valley by the Queen of Wintenberg and her Dragon Knights. At this point, she decided she must become a Dragon Knight. She left her home to participate in the Wintenberg Tournament to become a Dragon Knight.",
+    "relations": [
         {
-          "description": "+5% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+5% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+2% Combat Readiness",
-          "resources": []
-        },
-        {
-          "description": " +3% Combat Readiness",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+10% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+15% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
+            "hero": "",
+            "relationType": ""
         }
-      ],
-      "buffs": [],
-      "debuffs": []
-    },
-    {
-      "isPassive": false,
-      "soulBurn": 10,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "Increases damage dealt.",
-      "awakenUpgrade": false,
-      "cooldown": 5,
-      "name": "Shock Arrow",
-      "soulAcquire": 2,
-      "description": "Powerfully shoots an arrow at the enemy, decreasing Hit Chance for 2 turns and Combat Readiness by 30%. Damage dealt increases proportional to the enemy's max Health.",
-      "enhancement": [
-        {
-          "description": "+5% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+5% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+5% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "-1 turn cooldown",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+10% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+10% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+15% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        }
-      ],
-      "buffs": [],
-      "debuffs": [
-        "stic_blind"
-      ]
-    },
-    {
-      "isPassive": false,
-      "soulBurn": 0,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "",
-      "awakenUpgrade": true,
-      "cooldown": 5,
-      "name": "A Girl's Determination",
-      "soulAcquire": 1,
-      "description": "Encourages allies, dispelling one debuff. Increases Attack of the caster for 2 turns.",
-      "enhancement": [
-        {
-          "description": "+2 Soul acquired",
-          "resources": []
-        },
-        {
-          "description": "-1 turn cooldown",
-          "resources": []
-        }
-      ],
-      "buffs": [
-        "stic_att_up"
-      ],
-      "debuffs": []
-    }
-  ],
-  "specialtySkill": {
-    "name": "Hidden Eyes",
-    "description": "She can see farther and more accurately than anyone else.",
-    "dispatch": [],
-    "enhancement": [],
+    ],
     "stats": {
-      "command": 0,
-      "charm": 0,
-      "politics": 0
-    }
-  },
-  "memoryImprintFormation": {
-    "north": false,
-    "south": false,
-    "east": false,
-    "west": false
-  },
-  "memoryImprint": [
-    {
-      "rank": "d",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
+        "base": {
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0,
+            "chd": 0,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0
+        },
+        "max": {
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0,
+            "chd": 0,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max6": {
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "dac": 5,
+            "hp": 4435,
+            "cp": 12504,
+            "spd": 110,
+            "atk": 707,
+            "def": 525,
+            "efr": 0
+        },
+        "max5": {
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "dac": 5,
+            "hp": 3527,
+            "cp": 10026,
+            "spd": 110,
+            "atk": 567,
+            "def": 424,
+            "efr": 0
+        }
     },
-    {
-      "rank": "c",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Cover Fire",
+            "soulAcquire": 1,
+            "description": "Decreases enemy's Combat Readiness by 10% after attacking them.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+2% Combat Readiness",
+                    "resources": []
+                },
+                {
+                    "description": " +3% Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 10,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Increases damage dealt.",
+            "awakenUpgrade": false,
+            "cooldown": 5,
+            "name": "Shock Arrow",
+            "soulAcquire": 2,
+            "description": "Powerfully shoots an arrow at the enemy, decreasing Hit Chance for 2 turns and Combat Readiness by 30%. Damage dealt increases proportional to the enemy's max Health.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": ["stic_blind"]
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": true,
+            "cooldown": 5,
+            "name": "A Girl's Determination",
+            "soulAcquire": 1,
+            "description": "Encourages allies, dispelling one debuff. Increases Attack of the caster for 2 turns.",
+            "enhancement": [
+                {
+                    "description": "+2 Soul acquired",
+                    "resources": []
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": []
+                }
+            ],
+            "buffs": ["stic_att_up"],
+            "debuffs": []
+        }
+    ],
+    "specialtySkill": {
+        "name": "Hidden Eyes",
+        "description": "She can see farther and more accurately than anyone else.",
+        "dispatch": [],
+        "enhancement": [],
+        "stats": {
+            "command": 0,
+            "charm": 0,
+            "politics": 0
+        }
     },
-    {
-      "rank": "b",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
+    "memoryImprintFormation": {
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": false
     },
-    {
-      "rank": "a",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "s",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "ss",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "sss",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    }
-  ],
-  "awakening": [
-    {
-      "rank": 1,
-      "skillUpgrade": false,
-      "statsIncrease": [
+    "memoryImprint": [
         {
-          "chc": 0.03
+            "rank": "d",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
         },
         {
-          "atk": 20
+            "rank": "c",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
         },
         {
-          "hp": 60
+            "rank": "b",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
         }
-      ],
-      "resources": [
+    ],
+    "awakening": [
         {
-          "item": "fire-rune",
-          "qty": 5
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "chc": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "fire-rune",
+                    "qty": 5
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "fire-rune",
+                    "qty": 9
+                }
+            ]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "fire-rune",
+                    "qty": 12
+                },
+                {
+                    "item": "greater-fire-rune",
+                    "qty": 6
+                }
+            ]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "chd": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-fire-rune",
+                    "qty": 15
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "chc": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-fire-rune",
+                    "qty": 4
+                },
+                {
+                    "item": "dream-time-circuit",
+                    "qty": 9
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-fire-rune",
+                    "qty": 6
+                },
+                {
+                    "item": "reingar-student-id",
+                    "qty": 6
+                }
+            ]
         }
-      ]
-    },
-    {
-      "rank": 2,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "atk": 0.03
-        },
-        {
-          "atk": 20
-        },
-        {
-          "hp": 60
-        }
-      ],
-      "resources": [
-        {
-          "item": "fire-rune",
-          "qty": 9
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "skillUpgrade": true,
-      "statsIncrease": [
-        {
-          "atk": 20
-        },
-        {
-          "hp": 60
-        }
-      ],
-      "resources": [
-        {
-          "item": "fire-rune",
-          "qty": 12
-        },
-        {
-          "item": "greater-fire-rune",
-          "qty": 6
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "chd": 0.06
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "greater-fire-rune",
-          "qty": 15
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "chc": 0.06
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "epic-fire-rune",
-          "qty": 4
-        },
-        {
-          "item": "dream-time-circuit",
-          "qty": 9
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "atk": 0.06
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "epic-fire-rune",
-          "qty": 6
-        },
-        {
-          "item": "reingar-student-id",
-          "qty": 6
-        }
-      ]
-    }
-  ]
+    ]
 }

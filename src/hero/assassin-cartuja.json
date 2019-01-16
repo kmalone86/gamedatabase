@@ -1,564 +1,559 @@
 {
-  "name": "Assassin Cartuja",
-  "rarity": 4,
-  "classType": "warrior",
-  "element": "dark",
-  "zodiac": "scorpio",
-  "specialtyChangeName": "",
-  "selfSkillBarName": "",
-  "background": "A member of the Sicar assassin organization, Cartuja is an optimistic thrill seeker who finds great joy in observing the world.",
-  "relations": [
-    {
-      "hero": "watcher-schuri",
-      "relationType": "trust"
-    },
-    {
-      "hero": "aramintha",
-      "relationType": "trust"
-    }
-  ],
-  "stats": {
-    "base": {
-      "cp": 1253,
-      "atk": 84,
-      "hp": 294,
-      "spd": 100,
-      "def": 66,
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "efr": 0,
-      "dac": 5
-    },
-    "max": {
-      "cp": 16221,
-      "atk": 1119,
-      "hp": 6091,
-      "spd": 100,
-      "def": 594,
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "efr": 0,
-      "dac": 5
-    },
-    "max6": {
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "dac": 5,
-      "hp": 5203,
-      "cp": 14079,
-      "spd": 100,
-      "atk": 889,
-      "def": 561,
-      "efr": 0
-    },
-    "max5": {
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "dac": 5,
-      "hp": 4138,
-      "cp": 11276,
-      "spd": 100,
-      "atk": 713,
-      "def": 452,
-      "efr": 0
-    }
-  },
-  "skills": [
-    {
-      "isPassive": false,
-      "soulBurn": 0,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "",
-      "awakenUpgrade": false,
-      "cooldown": 0,
-      "name": "Shred",
-      "soulAcquire": 1,
-      "description": "Attacks with sharp claws, with a 35% chance to inflict bleeding for 2 turns.",
-      "enhancement": [
+    "name": "Assassin Cartuja",
+    "rarity": 4,
+    "classType": "warrior",
+    "element": "dark",
+    "zodiac": "scorpio",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": "A member of the Sicar assassin organization, Cartuja is an optimistic thrill seeker who finds great joy in observing the world.",
+    "relations": [
         {
-          "description": "+5% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 4000
-            },
-            {
-              "item": "molagora",
-              "qty": 1
-            }
-          ]
+            "hero": "watcher-schuri",
+            "relationType": "trust"
         },
         {
-          "description": "+5% effect chance",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 8000
-            },
-            {
-              "item": "molagora",
-              "qty": 2
-            }
-          ]
-        },
-        {
-          "description": "+10% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 17000
-            },
-            {
-              "item": "molagora",
-              "qty": 3
-            },
-            {
-              "item": "sharp-spearhead",
-              "qty": 1
-            }
-          ]
-        },
-        {
-          "description": "+10% effect chance",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 35000
-            },
-            {
-              "item": "sharp-spearhead",
-              "qty": 3
-            },
-            {
-              "item": "molagorago",
-              "qty": 1
-            }
-          ]
-        },
-        {
-          "description": "+15% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 100000
-            },
-            {
-              "item": "black-curse-powder",
-              "qty": 2
-            },
-            {
-              "item": "molagorago",
-              "qty": 2
-            }
-          ]
+            "hero": "aramintha",
+            "relationType": "trust"
         }
-      ],
-      "buffs": [],
-      "debuffs": [
-        "stic_blood"
-      ]
-    },
-    {
-      "isPassive": true,
-      "soulBurn": 0,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "",
-      "awakenUpgrade": false,
-      "cooldown": 0,
-      "name": "Battle Frenzy",
-      "soulAcquire": 0,
-      "description": "Increases Evasion Chance of all allies by 15%. When the turn ends, successfully evades the next attack once. Combat Readiness increases by 10% each time evading the enemy's attack.",
-      "enhancement": [
-        {
-          "description": "+1% Combat Readiness",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 4000
-            },
-            {
-              "item": "molagora",
-              "qty": 1
-            }
-          ]
-        },
-        {
-          "description": "+1% Combat Readiness",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 8000
-            },
-            {
-              "item": "molagora",
-              "qty": 2
-            }
-          ]
-        },
-        {
-          "description": "+1% Combat Readiness",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 17000
-            },
-            {
-              "item": "molagora",
-              "qty": 3
-            },
-            {
-              "item": "sharp-spearhead",
-              "qty": 1
-            }
-          ]
-        },
-        {
-          "description": "+1% Combat Readiness",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 35000
-            },
-            {
-              "item": "molagorago",
-              "qty": 1
-            },
-            {
-              "item": "sharp-spearhead",
-              "qty": 3
-            }
-          ]
-        },
-        {
-          "description": "+1% Combat Readiness",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 100000
-            },
-            {
-              "item": "black-curse-powder",
-              "qty": 2
-            },
-            {
-              "item": "molagorago",
-              "qty": 2
-            }
-          ]
-        }
-      ],
-      "buffs": [],
-      "debuffs": []
-    },
-    {
-      "isPassive": false,
-      "soulBurn": 20,
-      "selfSkillBarValue": "",
-      "soulBurnEffect": "Ignores effect resistance.",
-      "awakenUpgrade": true,
-      "cooldown": 5,
-      "name": "Sudden Assault",
-      "soulAcquire": 2,
-      "description": "Dashes towards the enemy to attack, stunning for 1 turn. Decreases Defense for 2 turns.",
-      "enhancement": [
-        {
-          "description": "+5% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 4000
-            },
-            {
-              "item": "molagora",
-              "qty": 1
-            }
-          ]
-        },
-        {
-          "description": "+5% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 8000
-            },
-            {
-              "item": "molagora",
-              "qty": 2
-            },
-            {
-              "item": "shard-spearhead",
-              "qty": 1
-            }
-          ]
-        },
-        {
-          "description": "-1 turn cooldown",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 17000
-            },
-            {
-              "item": "molagora",
-              "qty": 3
-            },
-            {
-              "item": "sharp-spearhead",
-              "qty": 1
-            }
-          ]
-        },
-        {
-          "description": "+10% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 35000
-            },
-            {
-              "item": "molagorago",
-              "qty": 1
-            },
-            {
-              "item": "sharp-spearhead",
-              "qty": 3
-            }
-          ]
-        },
-        {
-          "description": "+15% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 100000
-            },
-            {
-              "item": "molagorago",
-              "qty": 2
-            },
-            {
-              "item": "black-curse-powder",
-              "qty": 2
-            }
-          ]
-        }
-      ],
-      "buffs": [],
-      "debuffs": [
-        "stic_def_dn",
-        "stic_stun"
-      ]
-    }
-  ],
-  "specialtySkill": {
-    "name": "Glorious Wound",
-    "description": "His accomplishments as a warrior and hunter number as many as his scars.",
-    "dispatch": "[Hunt] Category",
-    "enhancement": "Time Required -6%",
+    ],
     "stats": {
-      "command": 55,
-      "charm": 17,
-      "politics": 88
-    }
-  },
-  "memoryImprint": [
-    {
-      "rank": "d",
-      "status": {
-        "type": "def",
-        "increase": "2.4%"
-      }
+        "base": {
+            "cp": 1253,
+            "atk": 84,
+            "hp": 294,
+            "spd": 100,
+            "def": 66,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max": {
+            "cp": 16221,
+            "atk": 1119,
+            "hp": 6091,
+            "spd": 100,
+            "def": 594,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max6": {
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "dac": 5,
+            "hp": 5203,
+            "cp": 14079,
+            "spd": 100,
+            "atk": 889,
+            "def": 561,
+            "efr": 0
+        },
+        "max5": {
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "dac": 5,
+            "hp": 4138,
+            "cp": 11276,
+            "spd": 100,
+            "atk": 713,
+            "def": 452,
+            "efr": 0
+        }
     },
-    {
-      "rank": "c",
-      "status": {
-        "type": "def",
-        "increase": 0
-      }
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Shred",
+            "soulAcquire": 1,
+            "description": "Attacks with sharp claws, with a 35% chance to inflict bleeding for 2 turns.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 17000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "sharp-spearhead",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 35000
+                        },
+                        {
+                            "item": "sharp-spearhead",
+                            "qty": 3
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 100000
+                        },
+                        {
+                            "item": "black-curse-powder",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 2
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": ["stic_blood"]
+        },
+        {
+            "isPassive": true,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Battle Frenzy",
+            "soulAcquire": 0,
+            "description": "Increases Evasion Chance of all allies by 15%. When the turn ends, successfully evades the next attack once. Combat Readiness increases by 10% each time evading the enemy's attack.",
+            "enhancement": [
+                {
+                    "description": "+1% Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+1% Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        }
+                    ]
+                },
+                {
+                    "description": "+1% Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 17000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "sharp-spearhead",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+1% Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 35000
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "sharp-spearhead",
+                            "qty": 3
+                        }
+                    ]
+                },
+                {
+                    "description": "+1% Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 100000
+                        },
+                        {
+                            "item": "black-curse-powder",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 2
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 20,
+            "selfSkillBarValue": "",
+            "soulBurnEffect": "Ignores effect resistance.",
+            "awakenUpgrade": true,
+            "cooldown": 5,
+            "name": "Sudden Assault",
+            "soulAcquire": 2,
+            "description": "Dashes towards the enemy to attack, stunning for 1 turn. Decreases Defense for 2 turns.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "shard-spearhead",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 17000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "sharp-spearhead",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 35000
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "sharp-spearhead",
+                            "qty": 3
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 100000
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 2
+                        },
+                        {
+                            "item": "black-curse-powder",
+                            "qty": 2
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": ["stic_def_dn", "stic_stun"]
+        }
+    ],
+    "specialtySkill": {
+        "name": "Glorious Wound",
+        "description": "His accomplishments as a warrior and hunter number as many as his scars.",
+        "dispatch": "[Hunt] Category",
+        "enhancement": "Time Required -6%",
+        "stats": {
+            "command": 55,
+            "charm": 17,
+            "politics": 88
+        }
     },
-    {
-      "rank": "b",
-      "status": {
-        "type": "def",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "a",
-      "status": {
-        "type": "def",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "s",
-      "status": {
-        "type": "def",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "ss",
-      "status": {
-        "type": "def",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "sss",
-      "status": {
-        "type": "def",
-        "increase": 0
-      }
-    }
-  ],
-  "awakening": [
-    {
-      "rank": 1,
-      "skillUpgrade": false,
-      "statsIncrease": [
+    "memoryImprint": [
         {
-          "hp": "3%"
+            "rank": "d",
+            "status": {
+                "type": "def",
+                "increase": "2.4%"
+            }
         },
         {
-          "atk": 20
+            "rank": "c",
+            "status": {
+                "type": "def",
+                "increase": 0
+            }
         },
         {
-          "hp": 60
+            "rank": "b",
+            "status": {
+                "type": "def",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "def",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "def",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "def",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "def",
+                "increase": 0
+            }
         }
-      ],
-      "resources": [
+    ],
+    "awakening": [
         {
-          "item": "dark-rune",
-          "qty": 8
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "hp": "3%"
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "dark-rune",
+                    "qty": 8
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": "3%"
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "dark-rune",
+                    "qty": 12
+                },
+                {
+                    "item": "greater-dark-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "dark-rune",
+                    "qty": 17
+                },
+                {
+                    "item": "greater-dark-rune",
+                    "qty": 8
+                }
+            ]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "def": "6%"
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-dark-rune",
+                    "qty": 8
+                },
+                {
+                    "item": "epic-dark-rune",
+                    "qty": 1
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "hp": "6%"
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-dark-rune",
+                    "qty": 5
+                },
+                {
+                    "item": "erikion-carapace",
+                    "qty": 12
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": "6%"
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-dark-rune",
+                    "qty": 8
+                },
+                {
+                    "item": "black-curse-powder",
+                    "qty": 8
+                }
+            ]
         }
-      ]
-    },
-    {
-      "rank": 2,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "atk": "3%"
-        },
-        {
-          "atk": 20
-        },
-        {
-          "hp": 60
-        }
-      ],
-      "resources": [
-        {
-          "item": "dark-rune",
-          "qty": 12
-        },
-        {
-          "item": "greater-dark-rune",
-          "qty": 2
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "skillUpgrade": true,
-      "statsIncrease": [
-        {
-          "atk": 20
-        },
-        {
-          "hp": 60
-        }
-      ],
-      "resources": [
-        {
-          "item": "dark-rune",
-          "qty": 17
-        },
-        {
-          "item": "greater-dark-rune",
-          "qty": 8
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "def": "6%"
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "greater-dark-rune",
-          "qty": 8
-        },
-        {
-          "item": "epic-dark-rune",
-          "qty": 1
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "hp": "6%"
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "epic-dark-rune",
-          "qty": 5
-        },
-        {
-          "item": "erikion-carapace",
-          "qty": 12
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "atk": "6%"
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "epic-dark-rune",
-          "qty": 8
-        },
-        {
-          "item": "black-curse-powder",
-          "qty": 8
-        }
-      ]
-    }
-  ]
+    ]
 }

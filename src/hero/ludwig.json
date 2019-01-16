@@ -1,440 +1,440 @@
 {
-  "name": "Ludwig",
-  "rarity": 5,
-  "classType": "mage",
-  "element": "earth",
-  "zodiac": "leo",
-  "specialtyChangeName": "",
-  "selfSkillBarName": "",
-  "background": "Ludwig is the sole survivor of the Nocturnes, the family responsible for protecting the Lunar Cemetery. He cherishes the Guardian Kromcruz more than anyone else. Though he might look young, he is well along in years.",
-  "relations": [
-    {
-      "hero": "",
-      "relationType": ""
-    }
-  ],
-  "stats": {
-    "base": {
-      "cp": 0,
-      "atk": 0,
-      "hp": 0,
-      "spd": 0,
-      "def": 0,
-      "chc": 0,
-      "chd": 0,
-      "eff": 0,
-      "efr": 0,
-      "dac": 0
-    },
-    "max": {
-      "cp": 0,
-      "atk": 0,
-      "hp": 0,
-      "spd": 0,
-      "def": 0,
-      "chc": 0,
-      "chd": 0,
-      "eff": 0,
-      "efr": 0,
-      "dac": 5
-    },
-    "max6": {
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "dac": 5,
-      "hp": 3828,
-      "cp": 14345,
-      "spd": 100,
-      "atk": 1098,
-      "def": 645,
-      "efr": 0
-    },
-    "max5": {
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "dac": 5,
-      "hp": 3045,
-      "cp": 11503,
-      "spd": 100,
-      "atk": 880,
-      "def": 520,
-      "efr": 0
-    }
-  },
-  "skills": [
-    {
-      "isPassive": false,
-      "soulBurn": 0,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "",
-      "awakenUpgrade": false,
-      "cooldown": 0,
-      "name": "Starlight",
-      "soulAcquire": 0,
-      "description": "Attacks with magic, with a 60% chance to steal one buff.",
-      "enhancement": [
+    "name": "Ludwig",
+    "rarity": 5,
+    "classType": "mage",
+    "element": "earth",
+    "zodiac": "leo",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": "Ludwig is the sole survivor of the Nocturnes, the family responsible for protecting the Lunar Cemetery. He cherishes the Guardian Kromcruz more than anyone else. Though he might look young, he is well along in years.",
+    "relations": [
         {
-          "description": "+5% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+5% effect chance",
-          "resources": []
-        },
-        {
-          "description": "+10% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+10% effect chance",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+15% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
+            "hero": "",
+            "relationType": ""
         }
-      ],
-      "buffs": [],
-      "debuffs": []
-    },
-    {
-      "isPassive": false,
-      "soulBurn": 0,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "",
-      "awakenUpgrade": false,
-      "cooldown": 0,
-      "name": "Moonlight Blow",
-      "soulAcquire": 0,
-      "description": "Attacks with light, with a 35% chance to stun for 1 turn. When the enemy is defeated by this attack, the caster is granted invincibility for 1 turn.",
-      "enhancement": [
-        {
-          "description": "+10% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+5% effect chance",
-          "resources": []
-        },
-        {
-          "description": "-1 turn cooldown",
-          "resources": []
-        },
-        {
-          "description": "+10% effect chance",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+15% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        }
-      ],
-      "buffs": [],
-      "debuffs": []
-    },
-    {
-      "isPassive": false,
-      "soulBurn": 0,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "Increases damage dealt.",
-      "awakenUpgrade": true,
-      "cooldown": 0,
-      "name": "Call of the Full Moon",
-      "soulAcquire": 0,
-      "description": "Attacks all enemies with the magic of the Nocturnes, penetrating defense by 50% if the caster is invincible.",
-      "enhancement": [
-        {
-          "description": "+5% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+5% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "-1 turn cooldown",
-          "resources": []
-        },
-        {
-          "description": "+10% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+15% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        }
-      ],
-      "buffs": [],
-      "debuffs": []
-    }
-  ],
-  "specialtySkill": {
-    "name": "Moonlight Knowledge",
-    "description": "Knowledge of the Nocturnes and immortal life has granted him mysterious and broad knowledge.",
-    "dispatch": [],
-    "enhancement": [],
+    ],
     "stats": {
-      "command": 0,
-      "charm": 0,
-      "politics": 0
-    }
-  },
-  "memoryImprintFormation": {
-    "north": false,
-    "south": false,
-    "east": false,
-    "west": false
-  },
-  "memoryImprint": [
-    {
-      "rank": "d",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
+        "base": {
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0,
+            "chd": 0,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0
+        },
+        "max": {
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0,
+            "chd": 0,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max6": {
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "dac": 5,
+            "hp": 3828,
+            "cp": 14345,
+            "spd": 100,
+            "atk": 1098,
+            "def": 645,
+            "efr": 0
+        },
+        "max5": {
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "dac": 5,
+            "hp": 3045,
+            "cp": 11503,
+            "spd": 100,
+            "atk": 880,
+            "def": 520,
+            "efr": 0
+        }
     },
-    {
-      "rank": "c",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Starlight",
+            "soulAcquire": 0,
+            "description": "Attacks with magic, with a 60% chance to steal one buff.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": []
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Moonlight Blow",
+            "soulAcquire": 0,
+            "description": "Attacks with light, with a 35% chance to stun for 1 turn. When the enemy is defeated by this attack, the caster is granted invincibility for 1 turn.",
+            "enhancement": [
+                {
+                    "description": "+10% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": []
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": []
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Increases damage dealt.",
+            "awakenUpgrade": true,
+            "cooldown": 0,
+            "name": "Call of the Full Moon",
+            "soulAcquire": 0,
+            "description": "Attacks all enemies with the magic of the Nocturnes, penetrating defense by 50% if the caster is invincible.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": []
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": []
+        }
+    ],
+    "specialtySkill": {
+        "name": "Moonlight Knowledge",
+        "description": "Knowledge of the Nocturnes and immortal life has granted him mysterious and broad knowledge.",
+        "dispatch": [],
+        "enhancement": [],
+        "stats": {
+            "command": 0,
+            "charm": 0,
+            "politics": 0
+        }
     },
-    {
-      "rank": "b",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
+    "memoryImprintFormation": {
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": false
     },
-    {
-      "rank": "a",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "s",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "ss",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "sss",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    }
-  ],
-  "awakening": [
-    {
-      "rank": 1,
-      "skillUpgrade": false,
-      "statsIncrease": [
+    "memoryImprint": [
         {
-          "": 0
+            "rank": "d",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
         },
         {
-          "atk": 20
+            "rank": "c",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
         },
         {
-          "hp": 60
+            "rank": "b",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
         }
-      ],
-      "resources": [
+    ],
+    "awakening": [
         {
-          "item": "earth-rune",
-          "qty": 10
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "earth-rune",
+                    "qty": 10
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "earth-rune",
+                    "qty": 15
+                },
+                {
+                    "item": "greater-earth-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "earth-rune",
+                    "qty": 20
+                },
+                {
+                    "item": "greater-earth-rune",
+                    "qty": 10
+                }
+            ]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-earth-rune",
+                    "qty": 10
+                },
+                {
+                    "item": "epic-earth-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-earth-rune",
+                    "qty": 6
+                },
+                {
+                    "item": "ultra-fang",
+                    "qty": 15
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-earth-rune",
+                    "qty": 10
+                },
+                {
+                    "item": "blazing-soul",
+                    "qty": 10
+                }
+            ]
         }
-      ]
-    },
-    {
-      "rank": 2,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "": 0
-        },
-        {
-          "atk": 20
-        },
-        {
-          "hp": 60
-        }
-      ],
-      "resources": [
-        {
-          "item": "earth-rune",
-          "qty": 15
-        },
-        {
-          "item": "greater-earth-rune",
-          "qty": 2
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "skillUpgrade": true,
-      "statsIncrease": [
-        {
-          "atk": 20
-        },
-        {
-          "hp": 60
-        }
-      ],
-      "resources": [
-        {
-          "item": "earth-rune",
-          "qty": 20
-        },
-        {
-          "item": "greater-earth-rune",
-          "qty": 10
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "": 0
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "greater-earth-rune",
-          "qty": 10
-        },
-        {
-          "item": "epic-earth-rune",
-          "qty": 2
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "": 0
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "epic-earth-rune",
-          "qty": 6
-        },
-        {
-          "item": "ultra-fang",
-          "qty": 15
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "": 0
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "epic-earth-rune",
-          "qty": 10
-        },
-        {
-          "item": "blazing-soul",
-          "qty": 10
-        }
-      ]
-    }
-  ]
+    ]
 }

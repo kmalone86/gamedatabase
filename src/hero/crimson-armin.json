@@ -1,454 +1,449 @@
 {
-  "name": "Crimson Armin",
-  "rarity": 4,
-  "classType": "knight",
-  "element": "light",
-  "zodiac": "libra",
-  "specialtyChangeName": "",
-  "selfSkillBarName": "",
-  "background": "A destructive super cute mercenary, the nickname of Super Cute Guardian of the Red Flame fits Armin perfectly. She assures that she will defend fiercely, indifferent of what she destroys while doing so.",
-  "relations": [
-    {
-      "hero": "",
-      "relationType": ""
-    }
-  ],
-  "stats": {
-    "base": {
-      "cp": 1261,
-      "atk": 63,
-      "hp": 303,
-      "spd": 97,
-      "def": 76,
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "efr": 0,
-      "dac": 5
-    },
-    "max": {
-      "cp": 16327,
-      "atk": 821,
-      "hp": 6266,
-      "spd": 97,
-      "def": 703,
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "efr": 6,
-      "dac": 5
-    },
-    "max6": {
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "dac": 5,
-      "hp": 5364,
-      "cp": 14045,
-      "spd": 97,
-      "atk": 671,
-      "def": 645,
-      "efr": 0
-    },
-    "max5": {
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "dac": 5,
-      "hp": 4267,
-      "cp": 11254,
-      "spd": 97,
-      "atk": 538,
-      "def": 520,
-      "efr": 0
-    }
-  },
-  "skills": [
-    {
-      "isPassive": false,
-      "soulBurn": 0,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "",
-      "awakenUpgrade": false,
-      "cooldown": 0,
-      "name": "Takedown",
-      "soulAcquire": 1,
-      "description": "Attacks with a large shield, with a 50% chance to provoke for 1 turn. Damage dealt increases proportional to the caster's Defense.",
-      "enhancement": [
+    "name": "Crimson Armin",
+    "rarity": 4,
+    "classType": "knight",
+    "element": "light",
+    "zodiac": "libra",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": "A destructive super cute mercenary, the nickname of Super Cute Guardian of the Red Flame fits Armin perfectly. She assures that she will defend fiercely, indifferent of what she destroys while doing so.",
+    "relations": [
         {
-          "description": "+5% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+5% effect chance",
-          "resources": []
-        },
-        {
-          "description": "+10% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+5% effect chance",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+15% effect chance",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+15% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
+            "hero": "",
+            "relationType": ""
         }
-      ],
-      "buffs": [],
-      "debuffs": [
-        "stic_provoke"
-      ]
-    },
-    {
-      "isPassive": true,
-      "soulBurn": 0,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "",
-      "awakenUpgrade": false,
-      "cooldown": 0,
-      "name": "Security State",
-      "soulAcquire": 0,
-      "description": "Decreases damage received by allies from a critical hit by 20%. When more than one damage reduction effect is granted, only the strongest effect is applied.",
-      "enhancement": [
-        {
-          "description": "+1% additional damage reduction",
-          "resources": []
-        },
-        {
-          "description": "+1% additional damage reduction",
-          "resources": []
-        },
-        {
-          "description": "+1% additional damage reduction",
-          "resources": []
-        },
-        {
-          "description": "+1% additional damage reduction",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+2% additional damage reduction",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+2% additional damage reduction",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+2% additional damage reduction",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        }
-      ],
-      "buffs": [],
-      "debuffs": []
-    },
-    {
-      "isPassive": false,
-      "soulBurn": 10,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "Skill cooldown is decreased by 2 turns.",
-      "awakenUpgrade": true,
-      "cooldown": 6,
-      "name": "Shield of Holy Spirit",
-      "soulAcquire": 2,
-      "description": "Covers all allies with an aura of holy spirit, granting immunity for 3 turns and invincibility for 1 turn.",
-      "enhancement": [
-        {
-          "description": "+2 Soul acquired",
-          "resources": []
-        },
-        {
-          "description": "-1 turn cooldown",
-          "resources": []
-        }
-      ],
-      "buffs": [
-        "stic_invincible",
-        "stic_debuf_impossible"
-      ],
-      "debuffs": []
-    }
-  ],
-  "specialtySkill": {
-    "name": "Cuteness Wins",
-    "description": "Being cute always wins, right?",
-    "dispatch": [],
-    "enhancement": [],
+    ],
     "stats": {
-      "command": 0,
-      "charm": 0,
-      "politics": 0
-    }
-  },
-  "memoryImprintFormation": {
-    "north": false,
-    "south": false,
-    "east": false,
-    "west": false
-  },
-  "memoryImprint": [
-    {
-      "rank": "d",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
+        "base": {
+            "cp": 1261,
+            "atk": 63,
+            "hp": 303,
+            "spd": 97,
+            "def": 76,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max": {
+            "cp": 16327,
+            "atk": 821,
+            "hp": 6266,
+            "spd": 97,
+            "def": 703,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 6,
+            "dac": 5
+        },
+        "max6": {
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "dac": 5,
+            "hp": 5364,
+            "cp": 14045,
+            "spd": 97,
+            "atk": 671,
+            "def": 645,
+            "efr": 0
+        },
+        "max5": {
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "dac": 5,
+            "hp": 4267,
+            "cp": 11254,
+            "spd": 97,
+            "atk": 538,
+            "def": 520,
+            "efr": 0
+        }
     },
-    {
-      "rank": "c",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Takedown",
+            "soulAcquire": 1,
+            "description": "Attacks with a large shield, with a 50% chance to provoke for 1 turn. Damage dealt increases proportional to the caster's Defense.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": []
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": ["stic_provoke"]
+        },
+        {
+            "isPassive": true,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Security State",
+            "soulAcquire": 0,
+            "description": "Decreases damage received by allies from a critical hit by 20%. When more than one damage reduction effect is granted, only the strongest effect is applied.",
+            "enhancement": [
+                {
+                    "description": "+1% additional damage reduction",
+                    "resources": []
+                },
+                {
+                    "description": "+1% additional damage reduction",
+                    "resources": []
+                },
+                {
+                    "description": "+1% additional damage reduction",
+                    "resources": []
+                },
+                {
+                    "description": "+1% additional damage reduction",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+2% additional damage reduction",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+2% additional damage reduction",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+2% additional damage reduction",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 10,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Skill cooldown is decreased by 2 turns.",
+            "awakenUpgrade": true,
+            "cooldown": 6,
+            "name": "Shield of Holy Spirit",
+            "soulAcquire": 2,
+            "description": "Covers all allies with an aura of holy spirit, granting immunity for 3 turns and invincibility for 1 turn.",
+            "enhancement": [
+                {
+                    "description": "+2 Soul acquired",
+                    "resources": []
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": []
+                }
+            ],
+            "buffs": ["stic_invincible", "stic_debuf_impossible"],
+            "debuffs": []
+        }
+    ],
+    "specialtySkill": {
+        "name": "Cuteness Wins",
+        "description": "Being cute always wins, right?",
+        "dispatch": [],
+        "enhancement": [],
+        "stats": {
+            "command": 0,
+            "charm": 0,
+            "politics": 0
+        }
     },
-    {
-      "rank": "b",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
+    "memoryImprintFormation": {
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": false
     },
-    {
-      "rank": "a",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "s",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "ss",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "sss",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    }
-  ],
-  "awakening": [
-    {
-      "rank": 1,
-      "skillUpgrade": false,
-      "statsIncrease": [
+    "memoryImprint": [
         {
-          "hp": 0.03
+            "rank": "d",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
         },
         {
-          "atk": 20
+            "rank": "c",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
         },
         {
-          "hp": 60
+            "rank": "b",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
         }
-      ],
-      "resources": [
+    ],
+    "awakening": [
         {
-          "item": "light-rune",
-          "qty": 8
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "hp": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "light-rune",
+                    "qty": 8
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "def": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "light-rune",
+                    "qty": 12
+                },
+                {
+                    "item": "greater-light-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "light-rune",
+                    "qty": 17
+                },
+                {
+                    "item": "greater-light-rune",
+                    "qty": 8
+                }
+            ]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "efr": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-light-rune",
+                    "qty": 8
+                },
+                {
+                    "item": "epic-light-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "hp": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-light-rune",
+                    "qty": 5
+                },
+                {
+                    "item": "dream-time-circuit",
+                    "qty": 12
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "def": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-light-rune",
+                    "qty": 8
+                },
+                {
+                    "item": "reingar-student-id",
+                    "qty": 8
+                }
+            ]
         }
-      ]
-    },
-    {
-      "rank": 2,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "def": 0.03
-        },
-        {
-          "atk": 20
-        },
-        {
-          "hp": 60
-        }
-      ],
-      "resources": [
-        {
-          "item": "light-rune",
-          "qty": 12
-        },
-        {
-          "item": "greater-light-rune",
-          "qty": 2
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "skillUpgrade": true,
-      "statsIncrease": [
-        {
-          "atk": 20
-        },
-        {
-          "hp": 60
-        }
-      ],
-      "resources": [
-        {
-          "item": "light-rune",
-          "qty": 17
-        },
-        {
-          "item": "greater-light-rune",
-          "qty": 8
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "efr": 0.06
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "greater-light-rune",
-          "qty": 8
-        },
-        {
-          "item": "epic-light-rune",
-          "qty": 2
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "hp": 0.06
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "epic-light-rune",
-          "qty": 5
-        },
-        {
-          "item": "dream-time-circuit",
-          "qty": 12
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "def": 0.06
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "epic-light-rune",
-          "qty": 8
-        },
-        {
-          "item": "reingar-student-id",
-          "qty": 8
-        }
-      ]
-    }
-  ]
+    ]
 }

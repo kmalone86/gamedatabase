@@ -1,440 +1,440 @@
 {
-  "name": "Rose",
-  "rarity": 4,
-  "classType": "knight",
-  "element": "ice",
-  "zodiac": "libra",
-  "specialtyChangeName": "",
-  "selfSkillBarName": "",
-  "background": "A close aide of Cecilia's, Rose followed her all the way from Wintenberg. She loves to fight and has a good sense of humor. Her belief is that the strongest warrior die with no regrets.",
-  "relations": [
-    {
-      "hero": "",
-      "relationType": ""
-    }
-  ],
-  "stats": {
-    "base": {
-      "cp": 1261,
-      "atk": 63,
-      "hp": 303,
-      "spd": 97,
-      "def": 76,
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "efr": 0,
-      "dac": 5
-    },
-    "max": {
-      "cp": 16327,
-      "atk": 821,
-      "hp": 6266,
-      "spd": 97,
-      "def": 703,
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "efr": 6,
-      "dac": 5
-    },
-    "max6": {
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "dac": 5,
-      "hp": 5364,
-      "cp": 14045,
-      "spd": 97,
-      "atk": 671,
-      "def": 645,
-      "efr": 0
-    },
-    "max5": {
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "dac": 5,
-      "hp": 4267,
-      "cp": 11254,
-      "spd": 97,
-      "atk": 538,
-      "def": 520,
-      "efr": 0
-    }
-  },
-  "skills": [
-    {
-      "isPassive": false,
-      "soulBurn": 0,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "",
-      "awakenUpgrade": false,
-      "cooldown": 0,
-      "name": "Sequential Cutter",
-      "soulAcquire": 0,
-      "description": "Attacks with a sword, with a 50% chance to provoke for 1 turn if the caster's Health is more than 50%, or increase Defense of the caster for 1 turn if the caster's Health is less than 50%.",
-      "enhancement": [
+    "name": "Rose",
+    "rarity": 4,
+    "classType": "knight",
+    "element": "ice",
+    "zodiac": "libra",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": "A close aide of Cecilia's, Rose followed her all the way from Wintenberg. She loves to fight and has a good sense of humor. Her belief is that the strongest warrior die with no regrets.",
+    "relations": [
         {
-          "description": "+5% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+10% damage dealt",
-          "resources": []
-        },
-        {
-          "description": "+10% effect chance",
-          "resources": []
-        },
-        {
-          "description": "+15% effect chance",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+15% damage dealt",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
+            "hero": "",
+            "relationType": ""
         }
-      ],
-      "buffs": [],
-      "debuffs": []
-    },
-    {
-      "isPassive": false,
-      "soulBurn": 0,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "",
-      "awakenUpgrade": false,
-      "cooldown": 0,
-      "name": "Shield of Light",
-      "soulAcquire": 0,
-      "description": "Cover an ally with the Shield of Light, dispelling two debuffs and granting a barrier before increasing Combat Readiness by 10%. Barrier strength is proportional to the caster's Defense.",
-      "enhancement": [
-        {
-          "description": "+2% Combat Readiness",
-          "resources": []
-        },
-        {
-          "description": "+2% Combat Readiness",
-          "resources": []
-        },
-        {
-          "description": "-1 turn cooldown",
-          "resources": []
-        },
-        {
-          "description": "+3% Combat Readiness",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+3% Combat Readiness",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        }
-      ],
-      "buffs": [],
-      "debuffs": []
-    },
-    {
-      "isPassive": false,
-      "soulBurn": 0,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "Extends buff duration by 1 turn.",
-      "awakenUpgrade": true,
-      "cooldown": 0,
-      "name": "Goddess of Victory",
-      "soulAcquire": 0,
-      "description": "Gives blessing to all allies, increasing Attack for 2 turns, and Combat Readiness by 15%.",
-      "enhancement": [
-        {
-          "description": "+2% Combat Readiness",
-          "resources": []
-        },
-        {
-          "description": "+2% Combat Readiness",
-          "resources": []
-        },
-        {
-          "description": "-1 turn cooldown",
-          "resources": []
-        },
-        {
-          "description": "+3% Combat Readiness",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        },
-        {
-          "description": "+3% Combat Readiness",
-          "resources": [
-            {
-              "item": "gold",
-              "qty": 0
-            },
-            {
-              "item": "",
-              "qty": 0
-            }
-          ]
-        }
-      ],
-      "buffs": [],
-      "debuffs": []
-    }
-  ],
-  "specialtySkill": {
-    "name": "Mission Keeper",
-    "description": "Fear won't ever stop her.",
-    "dispatch": [],
-    "enhancement": [],
+    ],
     "stats": {
-      "command": 0,
-      "charm": 0,
-      "politics": 0
-    }
-  },
-  "memoryImprintFormation": {
-    "north": false,
-    "south": false,
-    "east": false,
-    "west": false
-  },
-  "memoryImprint": [
-    {
-      "rank": "d",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
+        "base": {
+            "cp": 1261,
+            "atk": 63,
+            "hp": 303,
+            "spd": 97,
+            "def": 76,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max": {
+            "cp": 16327,
+            "atk": 821,
+            "hp": 6266,
+            "spd": 97,
+            "def": 703,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 6,
+            "dac": 5
+        },
+        "max6": {
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "dac": 5,
+            "hp": 5364,
+            "cp": 14045,
+            "spd": 97,
+            "atk": 671,
+            "def": 645,
+            "efr": 0
+        },
+        "max5": {
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "dac": 5,
+            "hp": 4267,
+            "cp": 11254,
+            "spd": 97,
+            "atk": 538,
+            "def": 520,
+            "efr": 0
+        }
     },
-    {
-      "rank": "c",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Sequential Cutter",
+            "soulAcquire": 0,
+            "description": "Attacks with a sword, with a 50% chance to provoke for 1 turn if the caster's Health is more than 50%, or increase Defense of the caster for 1 turn if the caster's Health is less than 50%.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": []
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": []
+                },
+                {
+                    "description": "+15% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Shield of Light",
+            "soulAcquire": 0,
+            "description": "Cover an ally with the Shield of Light, dispelling two debuffs and granting a barrier before increasing Combat Readiness by 10%. Barrier strength is proportional to the caster's Defense.",
+            "enhancement": [
+                {
+                    "description": "+2% Combat Readiness",
+                    "resources": []
+                },
+                {
+                    "description": "+2% Combat Readiness",
+                    "resources": []
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": []
+                },
+                {
+                    "description": "+3% Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+3% Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Extends buff duration by 1 turn.",
+            "awakenUpgrade": true,
+            "cooldown": 0,
+            "name": "Goddess of Victory",
+            "soulAcquire": 0,
+            "description": "Gives blessing to all allies, increasing Attack for 2 turns, and Combat Readiness by 15%.",
+            "enhancement": [
+                {
+                    "description": "+2% Combat Readiness",
+                    "resources": []
+                },
+                {
+                    "description": "+2% Combat Readiness",
+                    "resources": []
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": []
+                },
+                {
+                    "description": "+3% Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                },
+                {
+                    "description": "+3% Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        },
+                        {
+                            "item": "",
+                            "qty": 0
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": []
+        }
+    ],
+    "specialtySkill": {
+        "name": "Mission Keeper",
+        "description": "Fear won't ever stop her.",
+        "dispatch": [],
+        "enhancement": [],
+        "stats": {
+            "command": 0,
+            "charm": 0,
+            "politics": 0
+        }
     },
-    {
-      "rank": "b",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
+    "memoryImprintFormation": {
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": false
     },
-    {
-      "rank": "a",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "s",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "ss",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    },
-    {
-      "rank": "sss",
-      "status": {
-        "type": "",
-        "increase": 0
-      }
-    }
-  ],
-  "awakening": [
-    {
-      "rank": 1,
-      "skillUpgrade": false,
-      "statsIncrease": [
+    "memoryImprint": [
         {
-          "": 0
+            "rank": "d",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
         },
         {
-          "atk": 20
+            "rank": "c",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
         },
         {
-          "hp": 60
+            "rank": "b",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
         }
-      ],
-      "resources": [
+    ],
+    "awakening": [
         {
-          "item": "ice-rune",
-          "qty": 8
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "ice-rune",
+                    "qty": 8
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "ice-rune",
+                    "qty": 12
+                },
+                {
+                    "item": "greater-ice-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "ice-rune",
+                    "qty": 17
+                },
+                {
+                    "item": "greater-ice-rune",
+                    "qty": 8
+                }
+            ]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-ice-rune",
+                    "qty": 8
+                },
+                {
+                    "item": "epic-ice-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-ice-rune",
+                    "qty": 5
+                },
+                {
+                    "item": "dream-time-circuit",
+                    "qty": 12
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-ice-rune",
+                    "qty": 8
+                },
+                {
+                    "item": "reingar-student-id",
+                    "qty": 8
+                }
+            ]
         }
-      ]
-    },
-    {
-      "rank": 2,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "": 0
-        },
-        {
-          "atk": 20
-        },
-        {
-          "hp": 60
-        }
-      ],
-      "resources": [
-        {
-          "item": "ice-rune",
-          "qty": 12
-        },
-        {
-          "item": "greater-ice-rune",
-          "qty": 2
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "skillUpgrade": true,
-      "statsIncrease": [
-        {
-          "atk": 20
-        },
-        {
-          "hp": 60
-        }
-      ],
-      "resources": [
-        {
-          "item": "ice-rune",
-          "qty": 17
-        },
-        {
-          "item": "greater-ice-rune",
-          "qty": 8
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "": 0
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "greater-ice-rune",
-          "qty": 8
-        },
-        {
-          "item": "epic-ice-rune",
-          "qty": 2
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "": 0
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "epic-ice-rune",
-          "qty": 5
-        },
-        {
-          "item": "dream-time-circuit",
-          "qty": 12
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "": 0
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "epic-ice-rune",
-          "qty": 8
-        },
-        {
-          "item": "reingar-student-id",
-          "qty": 8
-        }
-      ]
-    }
-  ]
+    ]
 }
