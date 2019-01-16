@@ -1,291 +1,559 @@
 {
-    "name": "Taranor Royal Guard",
-    "rarity": 3,
-    "classType": "knight",
-    "element": "ice",
-    "zodiac": "scorpio",
-    "specialtyChangeName": "",
-    "selfSkillBarName": "",
-    "background": [
-        "Soldiers responsible for guarding the King and Taranor Royal Palace, even as the energy of rebellion flows throughout Taranor, they remain faithfully loyal."
-    ],
-    "relations": [
+  "name": "Taranor Royal Guard",
+  "rarity": 3,
+  "classType": "knight",
+  "element": "ice",
+  "zodiac": "scorpio",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "",
+  "background": [
+    "Soldiers responsible for guarding the King and Taranor Royal Palace, even as the energy of rebellion flows throughout Taranor, they remain faithfully loyal."
+  ],
+  "relations": [
+    {
+      "hero": "taranor-guard",
+      "relationType": "trust"
+    },
+    {
+      "hero": "tenebria",
+      "relationType": "love"
+    },
+    {
+      "hero": "church-of-ilryos",
+      "relationType": "trust"
+    }
+  ],
+  "stats": {
+    "base": {
+      "cp": 2154,
+      "atk": 210,
+      "hp": 740,
+      "spd": 90,
+      "def": 68,
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "efr": 0,
+      "dac": 5
+    },
+    "max": {
+      "cp": 15336,
+      "atk": 842,
+      "hp": 6463,
+      "spd": 90,
+      "def": 617,
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "efr": 0,
+      "dac": 5
+    },
+    "max6": {
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "dac": 5,
+      "hp": 5122,
+      "cp": 13291,
+      "spd": 90,
+      "atk": 653,
+      "def": 617,
+      "efr": 0
+    },
+    "max5": {
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "dac": 5,
+      "hp": 4074,
+      "cp": 10647,
+      "spd": 90,
+      "atk": 524,
+      "def": 497,
+      "efr": 0
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Sword of the Kingdom",
+      "soulAcquire": 1,
+      "description": "Attacks with a sword, with a 35% chance to provoke for 1 turn. Damage dealt increases proportional to the caster's max Health.",
+      "enhancement": [
         {
-            "hero": "taranor-guard",
-            "relationType": "trust"
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
         },
         {
-            "hero": "tenebria",
-            "relationType": "love"
+          "description": "+5% effect chance",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
         },
         {
-            "hero": "church-of-ilryos",
-            "relationType": "trust"
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 4
+            },
+            {
+              "item": "sharp-spearhead",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 31000
+            }
+          ]
+        },
+        {
+          "description": "+10% effect chance",
+          "resources": [
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "sharp-spearhead",
+              "qty": 4
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "sharp-spearhead",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
         }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_provoke"
+      ]
+    },
+    {
+      "isPassive": true,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Shield Deflect",
+      "soulAcquire": 0,
+      "description": "The target rebounds 30% of the damage suffered from a critical hit, proportional to the caster's max Health.",
+      "enhancement": [
+        {
+          "description": "+2% deflected damage",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+3% deflected damage",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+5% deflected damage",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 4
+            },
+            {
+              "item": "sharp-spearhead",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 31000
+            }
+          ]
+        },
+        {
+          "description": "+5% deflected damage",
+          "resources": [
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "sharp-spearhead",
+              "qty": 4
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+5% deflected damage",
+          "resources": [
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "sharp-spearhead",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": []
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 10,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "Increases damage dealt.",
+      "awakenUpgrade": true,
+      "cooldown": 4,
+      "name": "Strike",
+      "soulAcquire": 2,
+      "description": "Jumps towards the enemy and attacks them, dispelling all buffs and absorbing all damage as Health. Damage dealt increases proportional to the caster's max Health.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "-1 turn cooldown",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 4
+            },
+            {
+              "item": "sharp-spearhead",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 31000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "sharp-spearhead",
+              "qty": 4
+            },
+            {
+              "item": "gold",
+              "qty": 40000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "sharp-spearhead",
+              "qty": 5
+            },
+            {
+              "item": "gold",
+              "qty": 45000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": []
+    }
+  ],
+  "specialtySkill": {
+    "name": "Veteran Soldier",
+    "description": "As a soldier of the palace, they take pride in keeping order.",
+    "dispatch": [
+      "[Security] type mission"
+    ],
+    "enhancement": [
+      "Reward Bonus +6%"
     ],
     "stats": {
-        "base": {
-            "cp": 2154,
-            "atk": 210,
-            "hp": 740,
-            "spd": 90,
-            "def": 68,
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "efr": 0,
-            "dac": 5
-        },
-        "max": {
-            "cp": 15336,
-            "atk": 842,
-            "hp": 6463,
-            "spd": 90,
-            "def": 617,
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "efr": 0,
-            "dac": 5
-        }
+      "command": 19,
+      "charm": 12,
+      "politics": 17
+    }
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "hp",
+        "increase": 120
+      }
     },
-    "skills": [
-        {
-            "isPassive": false,
-            "soulBurn": 0,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
-            "awakenUpgrade": false,
-            "cooldown": 0,
-            "name": "Sword of the Kingdom",
-            "soulAcquire": 1,
-            "description": "Attacks with a sword, with a 35% chance to provoke for 1 turn. Damage dealt increases proportional to the caster's max Health.",
-            "enhancement": [
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
-                },
-                {
-                    "description": "+5% effect chance",
-                    "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 8000 }]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        { "item": "molagora", "qty": 4 },
-                        { "item": "sharp-spearhead", "qty": 3 },
-                        { "item": "gold", "qty": 31000 }
-                    ]
-                },
-                {
-                    "description": "+10% effect chance",
-                    "resources": [
-                        { "item": "molagorago", "qty": 1 },
-                        { "item": "sharp-spearhead", "qty": 4 },
-                        { "item": "gold", "qty": 40000 }
-                    ]
-                },
-                {
-                    "description": "+15% damage dealt",
-                    "resources": [
-                        { "item": "molagorago", "qty": 1 },
-                        { "item": "sharp-spearhead", "qty": 5 },
-                        { "item": "gold", "qty": 45000 }
-                    ]
-                }
-            ],
-            "buffs": [],
-            "debuffs": ["stic_provoke"]
-        },
-        {
-            "isPassive": true,
-            "soulBurn": 0,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
-            "awakenUpgrade": false,
-            "cooldown": 0,
-            "name": "Shield Deflect",
-            "soulAcquire": 0,
-            "description": "The target rebounds 30% of the damage suffered from a critical hit, proportional to the caster's max Health.",
-            "enhancement": [
-                {
-                    "description": "+2% deflected damage",
-                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
-                },
-                {
-                    "description": "+3% deflected damage",
-                    "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 8000 }]
-                },
-                {
-                    "description": "+5% deflected damage",
-                    "resources": [
-                        { "item": "molagora", "qty": 4 },
-                        { "item": "sharp-spearhead", "qty": 3 },
-                        { "item": "gold", "qty": 31000 }
-                    ]
-                },
-                {
-                    "description": "+5% deflected damage",
-                    "resources": [
-                        { "item": "molagorago", "qty": 1 },
-                        { "item": "sharp-spearhead", "qty": 4 },
-                        { "item": "gold", "qty": 40000 }
-                    ]
-                },
-                {
-                    "description": "+5% deflected damage",
-                    "resources": [
-                        { "item": "molagorago", "qty": 1 },
-                        { "item": "sharp-spearhead", "qty": 5 },
-                        { "item": "gold", "qty": 45000 }
-                    ]
-                }
-            ],
-            "buffs": [],
-            "debuffs": []
-        },
-        {
-            "isPassive": false,
-            "soulBurn": 10,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "Increases damage dealt.",
-            "awakenUpgrade": true,
-            "cooldown": 4,
-            "name": "Strike",
-            "soulAcquire": 2,
-            "description": "Jumps towards the enemy and attacks them, dispelling all buffs and absorbing all damage as Health. Damage dealt increases proportional to the caster's max Health.",
-            "enhancement": [
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 8000 }]
-                },
-                {
-                    "description": "-1 turn cooldown",
-                    "resources": [
-                        { "item": "molagora", "qty": 4 },
-                        { "item": "sharp-spearhead", "qty": 3 },
-                        { "item": "gold", "qty": 31000 }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        { "item": "molagorago", "qty": 1 },
-                        { "item": "sharp-spearhead", "qty": 4 },
-                        { "item": "gold", "qty": 40000 }
-                    ]
-                },
-                {
-                    "description": "+15% damage dealt",
-                    "resources": [
-                        { "item": "molagorago", "qty": 1 },
-                        { "item": "sharp-spearhead", "qty": 5 },
-                        { "item": "gold", "qty": 45000 }
-                    ]
-                }
-            ],
-            "buffs": [],
-            "debuffs": []
-        }
-    ],
-    "specialtySkill": {
-        "name": "Veteran Soldier",
-        "description": "As a soldier of the palace, they take pride in keeping order.",
-        "dispatch": ["[Security] type mission"],
-        "enhancement": ["Reward Bonus +6%"],
-        "stats": { "command": 19, "charm": 12, "politics": 17 }
+    {
+      "rank": "c",
+      "status": {
+        "type": "hp",
+        "increase": 180
+      }
     },
-    "memoryImprint": [
+    {
+      "rank": "b",
+      "status": {
+        "type": "hp",
+        "increase": 240
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "hp",
+        "increase": 300
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "hp",
+        "increase": 360
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "hp",
+        "increase": 420
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "hp",
+        "increase": 480
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
         {
-            "rank": "d",
-            "status": {
-                "type": "hp",
-                "increase": 120
-            }
+          "hp": "3%"
         },
         {
-            "rank": "c",
-            "status": {
-                "type": "hp",
-                "increase": 180
-            }
+          "atk": 20
         },
         {
-            "rank": "b",
-            "status": {
-                "type": "hp",
-                "increase": 240
-            }
-        },
-        {
-            "rank": "a",
-            "status": {
-                "type": "hp",
-                "increase": 300
-            }
-        },
-        {
-            "rank": "s",
-            "status": {
-                "type": "hp",
-                "increase": 360
-            }
-        },
-        {
-            "rank": "ss",
-            "status": {
-                "type": "hp",
-                "increase": 420
-            }
-        },
-        {
-            "rank": "sss",
-            "status": {
-                "type": "hp",
-                "increase": 480
-            }
+          "hp": 60
         }
-    ],
-    "awakening": [
+      ],
+      "resources": [
         {
-            "rank": 1,
-            "skillUpgrade": false,
-            "statsIncrease": [{ "hp": "3%" }, { "atk": 20 }, { "hp": 60 }],
-            "resources": [{ "item": "frost-rune", "qty": 5 }]
-        },
-        {
-            "rank": 2,
-            "skillUpgrade": false,
-            "statsIncrease": [{ "hp": "3%" }, { "atk": 20 }, { "hp": 60 }],
-            "resources": [{ "item": "frost-rune", "qty": 9 }]
-        },
-        {
-            "rank": 3,
-            "skillUpgrade": true,
-            "statsIncrease": [{ "atk": 20 }, { "hp": 60 }],
-            "resources": [{ "item": "frost-rune", "qty": 12 }, { "item": "greater-frost-rune", "qty": 6 }]
-        },
-        {
-            "rank": 4,
-            "skillUpgrade": false,
-            "statsIncrease": [{ "atk": "6%" }, { "atk": 30 }, { "hp": 80 }],
-            "resources": [{ "item": "greater-frost-rune", "qty": 15 }]
-        },
-        {
-            "rank": 5,
-            "skillUpgrade": false,
-            "statsIncrease": [{ "hp": "6%" }, { "atk": 30 }, { "hp": 80 }],
-            "resources": [{ "item": "epic-frost-rune", "qty": 4 }, { "item": "erikion-carapace", "qty": 9 }]
-        },
-        {
-            "rank": 6,
-            "skillUpgrade": false,
-            "statsIncrease": [{ "hp": "6%" }, { "atk": 30 }, { "hp": 80 }],
-            "resources": [{ "item": "epic-frost-rune", "qty": 6 }, { "item": "black-curse-powder", "qty": 6 }]
+          "item": "frost-rune",
+          "qty": 5
         }
-    ]
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": "3%"
+        },
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "frost-rune",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": 20
+        },
+        {
+          "hp": 60
+        }
+      ],
+      "resources": [
+        {
+          "item": "frost-rune",
+          "qty": 12
+        },
+        {
+          "item": "greater-frost-rune",
+          "qty": 6
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "atk": "6%"
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-frost-rune",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": "6%"
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-frost-rune",
+          "qty": 4
+        },
+        {
+          "item": "erikion-carapace",
+          "qty": 9
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": "6%"
+        },
+        {
+          "atk": 30
+        },
+        {
+          "hp": 80
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-frost-rune",
+          "qty": 6
+        },
+        {
+          "item": "black-curse-powder",
+          "qty": 6
+        }
+      ]
+    }
+  ]
 }

@@ -1,529 +1,559 @@
 {
-    "name": "Ravi",
-    "rarity": 5,
-    "classType": "warrior",
-    "element": "fire",
-    "zodiac": "capricorn",
-    "specialtyChangeName": "",
-    "selfSkillBarName": "fighting-spirit",
-    "background": [
-        "Ravi once was a quiet girl living in a countryside, until she fell into a victim of the Homunculus experiments and became a Wraith. Since Ravi was made by the power of Tenebria, she strongly believes she is the chosen one."
-    ],
-    "relations": [
+  "name": "Ravi",
+  "rarity": 5,
+  "classType": "warrior",
+  "element": "fire",
+  "zodiac": "capricorn",
+  "specialtyChangeName": "",
+  "selfSkillBarName": "fighting-spirit",
+  "background": [
+    "Ravi once was a quiet girl living in a countryside, until she fell into a victim of the Homunculus experiments and became a Wraith. Since Ravi was made by the power of Tenebria, she strongly believes she is the chosen one."
+  ],
+  "relations": [
+    {
+      "hero": "tenebria",
+      "relationType": "longing"
+    }
+  ],
+  "stats": {
+    "base": {
+      "cp": 1406,
+      "atk": 81,
+      "hp": 351,
+      "spd": 102,
+      "def": 77,
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "efr": 0,
+      "dac": 5
+    },
+    "max": {
+      "cp": 17484,
+      "atk": 966,
+      "hp": 7323,
+      "spd": 102,
+      "def": 657,
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "efr": 0,
+      "dac": 5
+    },
+    "max6": {
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "dac": 5,
+      "hp": 5850,
+      "cp": 15038,
+      "spd": 102,
+      "atk": 816,
+      "def": 620,
+      "efr": 0
+    },
+    "max5": {
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "dac": 5,
+      "hp": 4653,
+      "cp": 12050,
+      "spd": 102,
+      "atk": 655,
+      "def": 500,
+      "efr": 0
+    }
+  },
+  "skills": [
+    {
+      "isPassive": false,
+      "soulBurn": 20,
+      "selfSkillBarValue": 10,
+      "soulBurnEffect": "Greatly increases amount of damage dealt. Does not trigger a Dual Attack.",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Slaughter",
+      "soulAcquire": 1,
+      "description": "Attacks with a double-edged axe and absorbs some of the damage as Health.",
+      "enhancement": [
         {
-            "hero": "tenebria",
-            "relationType": "longing"
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+15% healing",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "slime-jelly",
+              "qty": 5
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 37000
+            }
+          ]
+        },
+        {
+          "description": "+15% healing",
+          "resources": [
+            {
+              "item": "slime-jelly",
+              "qty": 7
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 55000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "dragons-wrath",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 120000
+            }
+          ]
         }
+      ],
+      "buffs": [],
+      "debuffs": []
+    },
+    {
+      "isPassive": true,
+      "soulBurn": 0,
+      "selfSkillBarValue": -80,
+      "soulBurnEffect": "",
+      "awakenUpgrade": false,
+      "cooldown": 0,
+      "name": "Demon's Blood",
+      "soulAcquire": 0,
+      "description": "Increases Attack proportional to fighting spirit. When attacked, Combat Readiness increases by 8% and 5 Fighting Spirit is gained.",
+      "enhancement": [
+        {
+          "description": "+1% Combat Readiness",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+1% Combat Readiness",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "+1% Combat Readiness",
+          "resources": [
+            {
+              "item": "slime-jelly",
+              "qty": 5
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 37000
+            }
+          ]
+        },
+        {
+          "description": "+2% Combat Readiness",
+          "resources": [
+            {
+              "item": "slime-jelly",
+              "qty": 7
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 55000
+            }
+          ]
+        },
+        {
+          "description": "+2% Combat Readiness",
+          "resources": [
+            {
+              "item": "dragons-wrath",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 120000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": []
+    },
+    {
+      "isPassive": false,
+      "soulBurn": 0,
+      "selfSkillBarValue": 0,
+      "soulBurnEffect": "",
+      "awakenUpgrade": true,
+      "cooldown": 0,
+      "name": "Devil Drive",
+      "soulAcquire": 3,
+      "description": "Brutally attacks all enemies, with a 75% chance to stun for 1 turn and decrease their Combat Readiness to 0%.",
+      "enhancement": [
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 4000
+            }
+          ]
+        },
+        {
+          "description": "+5% damage dealt",
+          "resources": [
+            {
+              "item": "molagora",
+              "qty": 2
+            },
+            {
+              "item": "gold",
+              "qty": 8000
+            }
+          ]
+        },
+        {
+          "description": "Consume -10 Fighting Spirit",
+          "resources": [
+            {
+              "item": "slime-jelly",
+              "qty": 5
+            },
+            {
+              "item": "molagora",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 37000
+            }
+          ]
+        },
+        {
+          "description": "+10% damage dealt",
+          "resources": [
+            {
+              "item": "slime-jelly",
+              "qty": 7
+            },
+            {
+              "item": "molagorago",
+              "qty": 1
+            },
+            {
+              "item": "gold",
+              "qty": 55000
+            }
+          ]
+        },
+        {
+          "description": "+15% damage dealt",
+          "resources": [
+            {
+              "item": "dragons-wrath",
+              "qty": 2
+            },
+            {
+              "item": "molagorago",
+              "qty": 3
+            },
+            {
+              "item": "gold",
+              "qty": 120000
+            }
+          ]
+        }
+      ],
+      "buffs": [],
+      "debuffs": [
+        "stic_stun"
+      ]
+    }
+  ],
+  "specialtySkill": {
+    "name": "Blood Burst",
+    "description": "She vanquishes all enemies according to Acolyte Tenebria's will.",
+    "dispatch": [
+      "[Strong Leader] Attribute"
+    ],
+    "enhancement": [
+      "Reward Bonus +10%"
     ],
     "stats": {
-        "base": {
-            "cp": 1406,
-            "atk": 81,
-            "hp": 351,
-            "spd": 102,
-            "def": 77,
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "efr": 0,
-            "dac": 5
-        },
-        "max": {
-            "cp": 17484,
-            "atk": 966,
-            "hp": 7323,
-            "spd": 102,
-            "def": 657,
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "efr": 0,
-            "dac": 5
-        }
+      "command": 56,
+      "charm": 43,
+      "politics": 32
+    }
+  },
+  "memoryImprint": [
+    {
+      "rank": "d",
+      "status": {
+        "type": "atk",
+        "increase": 0
+      }
     },
-    "skills": [
-        {
-            "isPassive": false,
-            "soulBurn": 20,
-            "selfSkillBarValue": 10,
-            "soulBurnEffect": "Greatly increases amount of damage dealt. Does not trigger a Dual Attack.",
-            "awakenUpgrade": false,
-            "cooldown": 0,
-            "name": "Slaughter",
-            "soulAcquire": 1,
-            "description": "Attacks with a double-edged axe and absorbs some of the damage as Health.",
-            "enhancement": [
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+15% healing",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
-                            "item": "slime-jelly",
-                            "qty": 5
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 37000
-                        }
-                    ]
-                },
-                {
-                    "description": "+15% healing",
-                    "resources": [
-                        {
-                            "item": "slime-jelly",
-                            "qty": 7
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 55000
-                        }
-                    ]
-                },
-                {
-                    "description": "+15% damage dealt",
-                    "resources": [
-                        {
-                            "item": "dragons-wrath",
-                            "qty": 2
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 120000
-                        }
-                    ]
-                }
-            ],
-            "buffs": [],
-            "debuffs": []
-        },
-        {
-            "isPassive": true,
-            "soulBurn": 0,
-            "selfSkillBarValue": -80,
-            "soulBurnEffect": "",
-            "awakenUpgrade": false,
-            "cooldown": 0,
-            "name": "Demon's Blood",
-            "soulAcquire": 0,
-            "description": "Increases Attack proportional to fighting spirit. When attacked, Combat Readiness increases by 8% and 5 Fighting Spirit is gained.",
-            "enhancement": [
-                {
-                    "description": "+1% Combat Readiness",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+1% Combat Readiness",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        }
-                    ]
-                },
-                {
-                    "description": "+1% Combat Readiness",
-                    "resources": [
-                        {
-                            "item": "slime-jelly",
-                            "qty": 5
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 37000
-                        }
-                    ]
-                },
-                {
-                    "description": "+2% Combat Readiness",
-                    "resources": [
-                        {
-                            "item": "slime-jelly",
-                            "qty": 7
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 55000
-                        }
-                    ]
-                },
-                {
-                    "description": "+2% Combat Readiness",
-                    "resources": [
-                        {
-                            "item": "dragons-wrath",
-                            "qty": 2
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 120000
-                        }
-                    ]
-                }
-            ],
-            "buffs": [],
-            "debuffs": []
-        },
-        {
-            "isPassive": false,
-            "soulBurn": 0,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
-            "awakenUpgrade": true,
-            "cooldown": 0,
-            "name": "Devil Drive",
-            "soulAcquire": 3,
-            "description": "Brutally attacks all enemies, with a 75% chance to stun for 1 turn and decrease their Combat Readiness to 0%.",
-            "enhancement": [
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        }
-                    ]
-                },
-                {
-                    "description": "Consume -10 Fighting Spirit",
-                    "resources": [
-                        {
-                            "item": "slime-jelly",
-                            "qty": 5
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 37000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
-                            "item": "slime-jelly",
-                            "qty": 7
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 55000
-                        }
-                    ]
-                },
-                {
-                    "description": "+15% damage dealt",
-                    "resources": [
-                        {
-                            "item": "dragons-wrath",
-                            "qty": 2
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 120000
-                        }
-                    ]
-                }
-            ],
-            "buffs": [],
-            "debuffs": ["stic_stun"]
-        }
-    ],
-    "specialtySkill": {
-        "name": "Blood Burst",
-        "description": "She vanquishes all enemies according to Acolyte Tenebria's will.",
-        "dispatch": ["[Strong Leader] Attribute"],
-        "enhancement": ["Reward Bonus +10%"],
-        "stats": {
-            "command": 56,
-            "charm": 43,
-            "politics": 32
-        }
+    {
+      "rank": "c",
+      "status": {
+        "type": "atk",
+        "increase": 0
+      }
     },
-    "memoryImprint": [
+    {
+      "rank": "b",
+      "status": {
+        "type": "atk",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "a",
+      "status": {
+        "type": "atk",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "s",
+      "status": {
+        "type": "atk",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "ss",
+      "status": {
+        "type": "atk",
+        "increase": 0
+      }
+    },
+    {
+      "rank": "sss",
+      "status": {
+        "type": "atk",
+        "increase": 0
+      }
+    }
+  ],
+  "awakening": [
+    {
+      "rank": 1,
+      "skillUpgrade": false,
+      "statsIncrease": [
         {
-            "rank": "d",
-            "status": {
-                "type": "atk",
-                "increase": 0
-            }
+          "hp": "3%"
         },
         {
-            "rank": "c",
-            "status": {
-                "type": "atk",
-                "increase": 0
-            }
+          "atk": "20"
         },
         {
-            "rank": "b",
-            "status": {
-                "type": "atk",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "a",
-            "status": {
-                "type": "atk",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "s",
-            "status": {
-                "type": "atk",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "ss",
-            "status": {
-                "type": "atk",
-                "increase": 0
-            }
-        },
-        {
-            "rank": "sss",
-            "status": {
-                "type": "atk",
-                "increase": 0
-            }
+          "hp": "60"
         }
-    ],
-    "awakening": [
+      ],
+      "resources": [
         {
-            "rank": 1,
-            "skillUpgrade": false,
-            "statsIncrease": [
-                {
-                    "hp": "3%"
-                },
-                {
-                    "atk": "20"
-                },
-                {
-                    "hp": "60"
-                }
-            ],
-            "resources": [
-                {
-                    "item": "flame-rune",
-                    "qty": 10
-                }
-            ]
-        },
-        {
-            "rank": 2,
-            "skillUpgrade": false,
-            "statsIncrease": [
-                {
-                    "hp": "3%"
-                },
-                {
-                    "atk": "20"
-                },
-                {
-                    "hp": "60"
-                }
-            ],
-            "resources": [
-                {
-                    "item": "flame-rune",
-                    "qty": 15
-                },
-                {
-                    "item": "greater-flame-rune",
-                    "qty": 2
-                }
-            ]
-        },
-        {
-            "rank": 3,
-            "skillUpgrade": true,
-            "statsIncrease": [
-                {
-                    "atk": "20"
-                },
-                {
-                    "hp": "60"
-                }
-            ],
-            "resources": [
-                {
-                    "item": "flame-rune",
-                    "qty": 20
-                },
-                {
-                    "item": "greater-flame-rune",
-                    "qty": 10
-                }
-            ]
-        },
-        {
-            "rank": 4,
-            "skillUpgrade": false,
-            "statsIncrease": [
-                {
-                    "def": "6%"
-                },
-                {
-                    "atk": "30"
-                },
-                {
-                    "hp": "80"
-                }
-            ],
-            "resources": [
-                {
-                    "item": "greater-flame-rune",
-                    "qty": 10
-                },
-                {
-                    "item": "epic-flame-rune",
-                    "qty": 2
-                }
-            ]
-        },
-        {
-            "rank": 5,
-            "skillUpgrade": false,
-            "statsIncrease": [
-                {
-                    "hp": "6%"
-                },
-                {
-                    "atk": "30"
-                },
-                {
-                    "hp": "80"
-                }
-            ],
-            "resources": [
-                {
-                    "item": "epic-flame-rune",
-                    "qty": 6
-                },
-                {
-                    "item": "cursed-ashes",
-                    "qty": 15
-                }
-            ]
-        },
-        {
-            "rank": 6,
-            "skillUpgrade": false,
-            "statsIncrease": [
-                {
-                    "hp": "6%"
-                },
-                {
-                    "atk": "30"
-                },
-                {
-                    "hp": "80"
-                }
-            ],
-            "resources": [
-                {
-                    "item": "epic-flame-rune",
-                    "qty": 10
-                },
-                {
-                    "item": "dragons-wrath",
-                    "qty": 10
-                }
-            ]
+          "item": "flame-rune",
+          "qty": 10
         }
-    ]
+      ]
+    },
+    {
+      "rank": 2,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": "3%"
+        },
+        {
+          "atk": "20"
+        },
+        {
+          "hp": "60"
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 15
+        },
+        {
+          "item": "greater-flame-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "skillUpgrade": true,
+      "statsIncrease": [
+        {
+          "atk": "20"
+        },
+        {
+          "hp": "60"
+        }
+      ],
+      "resources": [
+        {
+          "item": "flame-rune",
+          "qty": 20
+        },
+        {
+          "item": "greater-flame-rune",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "def": "6%"
+        },
+        {
+          "atk": "30"
+        },
+        {
+          "hp": "80"
+        }
+      ],
+      "resources": [
+        {
+          "item": "greater-flame-rune",
+          "qty": 10
+        },
+        {
+          "item": "epic-flame-rune",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": "6%"
+        },
+        {
+          "atk": "30"
+        },
+        {
+          "hp": "80"
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-flame-rune",
+          "qty": 6
+        },
+        {
+          "item": "cursed-ashes",
+          "qty": 15
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "skillUpgrade": false,
+      "statsIncrease": [
+        {
+          "hp": "6%"
+        },
+        {
+          "atk": "30"
+        },
+        {
+          "hp": "80"
+        }
+      ],
+      "resources": [
+        {
+          "item": "epic-flame-rune",
+          "qty": 10
+        },
+        {
+          "item": "dragons-wrath",
+          "qty": 10
+        }
+      ]
+    }
+  ]
 }

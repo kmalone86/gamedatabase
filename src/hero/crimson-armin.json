@@ -15,28 +15,52 @@
   ],
   "stats": {
     "base": {
-      "cp": 0,
-      "atk": 0,
-      "hp": 0,
-      "spd": 0,
-      "def": 0,
-      "chc": 0,
-      "chd": 0,
-      "eff": 0,
-      "efr": 0,
-      "dac": 0
-    },
-    "max": {
-      "cp": 0,
-      "atk": 0,
-      "hp": 0,
-      "spd": 0,
-      "def": 0,
-      "chc": 0,
-      "chd": 0,
+      "cp": 1261,
+      "atk": 63,
+      "hp": 303,
+      "spd": 97,
+      "def": 76,
+      "chc": 15,
+      "chd": 150,
       "eff": 0,
       "efr": 0,
       "dac": 5
+    },
+    "max": {
+      "cp": 16327,
+      "atk": 821,
+      "hp": 6266,
+      "spd": 97,
+      "def": 703,
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "efr": 6,
+      "dac": 5
+    },
+    "max6": {
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "dac": 5,
+      "hp": 5364,
+      "cp": 14045,
+      "spd": 97,
+      "atk": 671,
+      "def": 645,
+      "efr": 0
+    },
+    "max5": {
+      "chc": 15,
+      "chd": 150,
+      "eff": 0,
+      "dac": 5,
+      "hp": 4267,
+      "cp": 11254,
+      "spd": 97,
+      "atk": 538,
+      "def": 520,
+      "efr": 0
     }
   },
   "skills": [
@@ -288,7 +312,7 @@
       "skillUpgrade": false,
       "statsIncrease": [
         {
-          "hp": 0.030
+          "hp": 0.03
         },
         {
           "atk": 20
@@ -309,7 +333,7 @@
       "skillUpgrade": false,
       "statsIncrease": [
         {
-          "def": 0.030
+          "def": 0.03
         },
         {
           "atk": 20
@@ -356,7 +380,7 @@
       "skillUpgrade": false,
       "statsIncrease": [
         {
-          "efr": 0.060
+          "efr": 0.06
         },
         {
           "atk": 30
@@ -381,7 +405,7 @@
       "skillUpgrade": false,
       "statsIncrease": [
         {
-          "hp": 0.060
+          "hp": 0.06
         },
         {
           "atk": 30
@@ -406,7 +430,7 @@
       "skillUpgrade": false,
       "statsIncrease": [
         {
-          "def": 0.060
+          "def": 0.06
         },
         {
           "atk": 30
