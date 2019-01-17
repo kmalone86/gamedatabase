@@ -155,7 +155,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_blaze"]
+            "debuffs": [
+                "stic_blaze"
+            ]
         },
         {
             "isPassive": false,
@@ -233,8 +235,13 @@
                     ]
                 }
             ],
-            "buffs": ["stic_att_up"],
-            "debuffs": ["stic_heal_impossible", "stic_blaze"]
+            "buffs": [
+                "stic_att_up"
+            ],
+            "debuffs": [
+                "stic_heal_impossible",
+                "stic_blaze"
+            ]
         },
         {
             "isPassive": false,
@@ -356,14 +363,20 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_blaze"]
+            "debuffs": [
+                "stic_blaze"
+            ]
         }
     ],
     "specialtySkill": {
         "name": "Leader of Phantom",
         "description": "She is cold-hearted and resolute in achieving her goals.",
-        "dispatch": ["[Strong Leader] Attribute"],
-        "enhancement": ["Reward Bonus +10%"],
+        "dispatch": [
+            "[Strong Leader] Attribute"
+        ],
+        "enhancement": [
+            "Reward Bonus +10%"
+        ],
         "stats": {
             "command": 94,
             "charm": 85,
