@@ -1,566 +1,566 @@
 {
-  "name": "Zeno",
-  "rarity": 5,
-  "classType": "mage",
-  "element": "ice",
-  "zodiac": "taurus",
-  "specialtyChangeName": "",
-  "selfSkillBarName": "",
-  "background": "An emperor from another galaxy who was defeated in a tournament held by Notos. He obsessed over power and life, eventually binding his soul with that of a star and becoming transcendent. He now heads toward Orbis in search of the Monolith.",
-  "relations": [
-    {
-      "hero": "kayron",
-      "relationType": "rival"
-    },
-    {
-      "hero": "ras",
-      "relationType": "rival"
-    }
-  ],
-  "stats": {
-    "base": {
-      "cp": 1477,
-      "atk": 89,
-      "hp": 292,
-      "spd": 111,
-      "def": 84,
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "efr": 0,
-      "dac": 5
-    },
-    "max": {
-      "cp": 17185,
-      "atk": 1039,
-      "hp": 5299,
-      "spd": 115,
-      "def": 673,
-      "chc": 15,
-      "chd": 150,
-      "eff": 9,
-      "efr": 9,
-      "dac": 5
-    },
-    "max6": {
-      "cp": 15180,
-      "atk": 889,
-      "hp": 4879,
-      "spd": 111,
-      "def": 673,
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "efr": 0,
-      "dac": 5
-    },
-    "max5": {
-      "cp": 12163,
-      "atk": 713,
-      "hp": 3881,
-      "spd": 111,
-      "def": 542,
-      "chc": 15,
-      "chd": 150,
-      "eff": 0,
-      "efr": 0,
-      "dac": 5
-    }
-  },
-  "skills": [
-    {
-      "isPassive": false,
-      "soulBurn": 0,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "",
-      "awakenUpgrade": false,
-      "cooldown": 0,
-      "name": "Black Thorn",
-      "soulAcquire": 1,
-      "description": "Attacks with thorns, with a 25% chance to stun for 1 turn. Damage dealt increases proportional to the caster's max Health.",
-      "enhancement": [
+    "name": "Zeno",
+    "rarity": 5,
+    "classType": "mage",
+    "element": "ice",
+    "zodiac": "taurus",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": "An emperor from another galaxy who was defeated in a tournament held by Notos. He obsessed over power and life, eventually binding his soul with that of a star and becoming transcendent. He now heads toward Orbis in search of the Monolith.",
+    "relations": [
         {
-          "description": "+5% damage dealt",
-          "resources": [
-            {
-              "item": "molagora",
-              "qty": 1
-            },
-            {
-              "item": "gold",
-              "qty": 4000
-            }
-          ]
+            "hero": "kayron",
+            "relationType": "rival"
         },
         {
-          "description": "+5% effect chance",
-          "resources": [
-            {
-              "item": "molagora",
-              "qty": 2
-            },
-            {
-              "item": "gold",
-              "qty": 8000
-            }
-          ]
-        },
-        {
-          "description": "+10% damage dealt",
-          "resources": [
-            {
-              "item": "shiny-enchantment",
-              "qty": 5
-            },
-            {
-              "item": "molagora",
-              "qty": 3
-            },
-            {
-              "item": "gold",
-              "qty": 37000
-            }
-          ]
-        },
-        {
-          "description": "+5% effect chance",
-          "resources": [
-            {
-              "item": "shiny-enchantment",
-              "qty": 7
-            },
-            {
-              "item": "molagorago",
-              "qty": 1
-            },
-            {
-              "item": "gold",
-              "qty": 55000
-            }
-          ]
-        },
-        {
-          "description": "+15% damage dealt",
-          "resources": [
-            {
-              "item": "horn-of-desire",
-              "qty": 2
-            },
-            {
-              "item": "molagorago",
-              "qty": 3
-            },
-            {
-              "item": "gold",
-              "qty": 120000
-            }
-          ]
+            "hero": "ras",
+            "relationType": "rival"
         }
-      ],
-      "buffs": [],
-      "debuffs": [
-        "stic_stun"
-      ]
-    },
-    {
-      "isPassive": true,
-      "soulBurn": 0,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "",
-      "awakenUpgrade": false,
-      "cooldown": 0,
-      "name": "Star's Armor",
-      "soulAcquire": 0,
-      "description": "Increases Defense and damage of Ancient Beast by 5.0% when the enemy uses a non-attack skill. Can stack up to 10 times.",
-      "enhancement": [
-        {
-          "description": "+0.5% effect",
-          "resources": [
-            {
-              "item": "molagora",
-              "qty": 1
-            },
-            {
-              "item": "gold",
-              "qty": 4000
-            }
-          ]
-        },
-        {
-          "description": "+0.5% effect",
-          "resources": [
-            {
-              "item": "molagora",
-              "qty": 2
-            },
-            {
-              "item": "gold",
-              "qty": 8000
-            }
-          ]
-        },
-        {
-          "description": "+0.5% effect",
-          "resources": [
-            {
-              "item": "shiny-enchantment",
-              "qty": 5
-            },
-            {
-              "item": "molagora",
-              "qty": 3
-            },
-            {
-              "item": "gold",
-              "qty": 37000
-            }
-          ]
-        },
-        {
-          "description": "+0.5% effect",
-          "resources": [
-            {
-              "item": "shiny-enchantment",
-              "qty": 7
-            },
-            {
-              "item": "molagorago",
-              "qty": 1
-            },
-            {
-              "item": "gold",
-              "qty": 55000
-            }
-          ]
-        },
-        {
-          "description": "+1% effect",
-          "resources": [
-            {
-              "item": "horn-of-desire",
-              "qty": 2
-            },
-            {
-              "item": "molagorago",
-              "qty": 3
-            },
-            {
-              "item": "gold",
-              "qty": 120000
-            }
-          ]
-        }
-      ],
-      "buffs": [],
-      "debuffs": []
-    },
-    {
-      "isPassive": false,
-      "soulBurn": 20,
-      "selfSkillBarValue": 0,
-      "soulBurnEffect": "Grants an extra turn.",
-      "awakenUpgrade": true,
-      "cooldown": 4,
-      "name": "Ancient Beast",
-      "soulAcquire": 2,
-      "description": "Summons an ancient beast to attack all enemies, with a 55% chance to silence for 1 turn and inflict bleeding for 2 turns. Damage dealt increases proportional to the caster's max Health.",
-      "enhancement": [
-        {
-          "description": "+5% damage dealt",
-          "resources": [
-            {
-              "item": "molagora",
-              "qty": 1
-            },
-            {
-              "item": "gold",
-              "qty": 4000
-            }
-          ]
-        },
-        {
-          "description": "+5% effect chance",
-          "resources": [
-            {
-              "item": "molagora",
-              "qty": 2
-            },
-            {
-              "item": "gold",
-              "qty": 8000
-            }
-          ]
-        },
-        {
-          "description": "+10% damage dealt",
-          "resources": [
-            {
-              "item": "shiny-enchantment",
-              "qty": 5
-            },
-            {
-              "item": "molagora",
-              "qty": 3
-            },
-            {
-              "item": "gold",
-              "qty": 37000
-            }
-          ]
-        },
-        {
-          "description": "+10% effect chance",
-          "resources": [
-            {
-              "item": "shiny-enchantment",
-              "qty": 7
-            },
-            {
-              "item": "molagorago",
-              "qty": 1
-            },
-            {
-              "item": "gold",
-              "qty": 55000
-            }
-          ]
-        },
-        {
-          "description": "+15% damage dealt",
-          "resources": [
-            {
-              "item": "horn-of-desire",
-              "qty": 2
-            },
-            {
-              "item": "molagorago",
-              "qty": 3
-            },
-            {
-              "item": "gold",
-              "qty": 120000
-            }
-          ]
-        }
-      ],
-      "buffs": [],
-      "debuffs": [
-        "stic_silence",
-        "stic_blood"
-      ]
-    }
-  ],
-  "specialtySkill": {
-    "name": "Planet Embezzler",
-    "description": "Driven to steal away the Monolith with the infinite might of a star.",
-    "dispatch": "[Time Limit] Attribute",
-    "enhancement": "Reward Bonus +10%",
+    ],
     "stats": {
-      "command": 86,
-      "charm": 15,
-      "politics": 79
-    }
-  },
-  "memoryImprintFormation": {
-    "north": true,
-    "south": true,
-    "east": true,
-    "west": true
-  },
-  "memoryImprint": [
-    {
-      "rank": "d",
-      "status": {
-        "type": "eff",
-        "increase": 0
-      }
+        "base": {
+            "cp": 1477,
+            "atk": 89,
+            "hp": 292,
+            "spd": 111,
+            "def": 84,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max": {
+            "cp": 17185,
+            "atk": 1039,
+            "hp": 5299,
+            "spd": 115,
+            "def": 673,
+            "chc": 15,
+            "chd": 150,
+            "eff": 9,
+            "efr": 9,
+            "dac": 5
+        },
+        "max6": {
+            "cp": 15180,
+            "atk": 889,
+            "hp": 4879,
+            "spd": 111,
+            "def": 673,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max5": {
+            "cp": 12163,
+            "atk": 713,
+            "hp": 3881,
+            "spd": 111,
+            "def": 542,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        }
     },
-    {
-      "rank": "c",
-      "status": {
-        "type": "eff",
-        "increase": 0
-      }
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Black Thorn",
+            "soulAcquire": 1,
+            "description": "Attacks with thorns, with a 25% chance to stun for 1 turn. Damage dealt increases proportional to the caster's max Health.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "shiny-enchantment",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 37000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "shiny-enchantment",
+                            "qty": 7
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 55000
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "horn-of-desire",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [
+                "stic_stun"
+            ]
+        },
+        {
+            "isPassive": true,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Star's Armor",
+            "soulAcquire": 0,
+            "description": "Increases Defense and damage of Ancient Beast by 5.0% when the enemy uses a non-attack skill. Can stack up to 10 times.",
+            "enhancement": [
+                {
+                    "description": "+0.5% effect",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+0.5% effect",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "+0.5% effect",
+                    "resources": [
+                        {
+                            "item": "shiny-enchantment",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 37000
+                        }
+                    ]
+                },
+                {
+                    "description": "+0.5% effect",
+                    "resources": [
+                        {
+                            "item": "shiny-enchantment",
+                            "qty": 7
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 55000
+                        }
+                    ]
+                },
+                {
+                    "description": "+1% effect",
+                    "resources": [
+                        {
+                            "item": "horn-of-desire",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 20,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Grants an extra turn.",
+            "awakenUpgrade": true,
+            "cooldown": 4,
+            "name": "Ancient Beast",
+            "soulAcquire": 2,
+            "description": "Summons an ancient beast to attack all enemies, with a 55% chance to silence for 1 turn and inflict bleeding for 2 turns. Damage dealt increases proportional to the caster's max Health.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "shiny-enchantment",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 37000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "shiny-enchantment",
+                            "qty": 7
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 55000
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "horn-of-desire",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [
+                "stic_silence",
+                "stic_blood"
+            ]
+        }
+    ],
+    "specialtySkill": {
+        "name": "Planet Embezzler",
+        "description": "Driven to steal away the Monolith with the infinite might of a star.",
+        "dispatch": "[Time Limit] Attribute",
+        "enhancement": "Reward Bonus +10%",
+        "stats": {
+            "command": 86,
+            "charm": 15,
+            "politics": 79
+        }
     },
-    {
-      "rank": "b",
-      "status": {
-        "type": "eff",
-        "increase": 0.048
-      }
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
-    {
-      "rank": "a",
-      "status": {
-        "type": "eff",
-        "increase": 0.072
-      }
-    },
-    {
-      "rank": "s",
-      "status": {
-        "type": "eff",
-        "increase": 0.096
-      }
-    },
-    {
-      "rank": "ss",
-      "status": {
-        "type": "eff",
-        "increase": 0.120
-      }
-    },
-    {
-      "rank": "sss",
-      "status": {
-        "type": "eff",
-        "increase": 0.144
-      }
-    }
-  ],
-  "awakening": [
-    {
-      "rank": 1,
-      "skillUpgrade": false,
-      "statsIncrease": [
+    "memoryImprint": [
         {
-          "efr": 0.03
+            "rank": "d",
+            "status": {
+                "type": "eff",
+                "increase": 0
+            }
         },
         {
-          "atk": 20
+            "rank": "c",
+            "status": {
+                "type": "eff",
+                "increase": 0
+            }
         },
         {
-          "hp": 60
+            "rank": "b",
+            "status": {
+                "type": "eff",
+                "increase": 0.048
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "eff",
+                "increase": 0.072
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "eff",
+                "increase": 0.096
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "eff",
+                "increase": 0.12
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "eff",
+                "increase": 0.144
+            }
         }
-      ],
-      "resources": [
+    ],
+    "awakening": [
         {
-          "item": "frost-rune",
-          "qty": 10
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "efr": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "frost-rune",
+                    "qty": 10
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "eff": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "frost-rune",
+                    "qty": 15
+                },
+                {
+                    "item": "greater-frost-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "frost-rune",
+                    "qty": 20
+                },
+                {
+                    "item": "greater-frost-rune",
+                    "qty": 10
+                }
+            ]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "spd": 4
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-frost-rune",
+                    "qty": 10
+                },
+                {
+                    "item": "epic-frost-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "efr": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-frost-rune",
+                    "qty": 6
+                },
+                {
+                    "item": "blazing-rage",
+                    "qty": 15
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "eff": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-frost-rune",
+                    "qty": 10
+                },
+                {
+                    "item": "horn-of-desire",
+                    "qty": 10
+                }
+            ]
         }
-      ]
-    },
-    {
-      "rank": 2,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "eff": 0.03
-        },
-        {
-          "atk": 20
-        },
-        {
-          "hp": 60
-        }
-      ],
-      "resources": [
-        {
-          "item": "frost-rune",
-          "qty": 15
-        },
-        {
-          "item": "greater-frost-rune",
-          "qty": 2
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "skillUpgrade": true,
-      "statsIncrease": [
-        {
-          "atk": 20
-        },
-        {
-          "hp": 60
-        }
-      ],
-      "resources": [
-        {
-          "item": "frost-rune",
-          "qty": 20
-        },
-        {
-          "item": "greater-frost-rune",
-          "qty": 10
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "spd": 4
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "greater-frost-rune",
-          "qty": 10
-        },
-        {
-          "item": "epic-frost-rune",
-          "qty": 2
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "efr": 0.06
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "epic-frost-rune",
-          "qty": 6
-        },
-        {
-          "item": "blazing-rage",
-          "qty": 15
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "skillUpgrade": false,
-      "statsIncrease": [
-        {
-          "eff": 0.06
-        },
-        {
-          "atk": 30
-        },
-        {
-          "hp": 80
-        }
-      ],
-      "resources": [
-        {
-          "item": "epic-frost-rune",
-          "qty": 10
-        },
-        {
-          "item": "horn-of-desire",
-          "qty": 10
-        }
-      ]
-    }
-  ]
+    ]
 }
