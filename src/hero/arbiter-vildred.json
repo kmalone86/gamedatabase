@@ -123,11 +123,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 12000
+                            "qty": 8000
                         }
                     ]
                 },
@@ -140,11 +140,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 4
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 26000
+                            "qty": 22000
                         }
                     ]
                 },
@@ -156,12 +156,12 @@
                             "qty": 4
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 5
                         },
                         {
                             "item": "gold",
-                            "qty": 26000
+                            "qty": 40000
                         }
                     ]
                 },
@@ -174,11 +174,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 65000
+                            "qty": 45000
                         }
                     ]
                 },
@@ -190,12 +190,12 @@
                             "qty": 2
                         },
                         {
-                            "item": "molagoragora",
-                            "qty": 1
+                            "item": "molagorago",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 160000
+                            "qty": 120000
                         }
                     ]
                 }
@@ -239,12 +239,12 @@
                             "qty": 5
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 2
+                            "item": "molagora",
+                            "qty": 5
                         },
                         {
                             "item": "gold",
-                            "qty": 65000
+                            "qty": 45000
                         }
                     ]
                 },
@@ -256,12 +256,12 @@
                             "qty": 3
                         },
                         {
-                            "item": "molagoragora",
-                            "qty": 1
+                            "item": "molagorago",
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 190000
+                            "qty": 130000
                         }
                     ]
                 }
@@ -298,11 +298,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 12000
+                            "qty": 8000
                         }
                     ]
                 },
@@ -315,11 +315,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 4
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 26000
+                            "qty": 22000
                         }
                     ]
                 },
@@ -331,12 +331,12 @@
                             "qty": 4
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 5
                         },
                         {
                             "item": "gold",
-                            "qty": 26000
+                            "qty": 40000
                         }
                     ]
                 },
@@ -349,11 +349,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 65000
+                            "qty": 45000
                         }
                     ]
                 },
@@ -365,25 +365,31 @@
                             "qty": 2
                         },
                         {
-                            "item": "molagoragora",
-                            "qty": 1
+                            "item": "molagorago",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 160000
+                            "qty": 120000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_blind"]
+            "debuffs": [
+                "stic_blind"
+            ]
         }
     ],
     "specialtySkill": {
         "name": "Irresistible Offer",
         "description": "Neither truth nor lie matters to his offer.",
-        "dispatch": ["[Gourmet] type mission"],
-        "enhancement": ["Reward bonus +10%"],
+        "dispatch": [
+            "[Gourmet] type mission"
+        ],
+        "enhancement": [
+            "Reward bonus +10%"
+        ],
         "stats": {
             "command": 82,
             "charm": 55,
