@@ -119,11 +119,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": "4"
+                            "qty": 4
                         },
                         {
                             "item": "gold",
-                            "qty": "31000"
+                            "qty": 31000
                         }
                     ]
                 },
@@ -136,11 +136,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": "7"
+                            "qty": 7
                         },
                         {
                             "item": "gold",
-                            "qty": "53000"
+                            "qty": 53000
                         }
                     ]
                 },
@@ -153,17 +153,19 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": "2"
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": "100000"
+                            "qty": 100000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_def_dn"]
+            "debuffs": [
+                "stic_def_dn"
+            ]
         },
         {
             "isPassive": false,
@@ -198,11 +200,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": "4"
+                            "qty": 4
                         },
                         {
                             "item": "gold",
-                            "qty": "31000"
+                            "qty": 31000
                         }
                     ]
                 },
@@ -215,11 +217,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": "7"
+                            "qty": 7
                         },
                         {
                             "item": "gold",
-                            "qty": "53000"
+                            "qty": 53000
                         }
                     ]
                 },
@@ -232,11 +234,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": "2"
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": "100000"
+                            "qty": 100000
                         }
                     ]
                 }
@@ -303,11 +305,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": "27000"
+                            "qty": 27000
                         }
                     ]
                 },
@@ -320,11 +322,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": "5"
+                            "qty": 5
                         },
                         {
                             "item": "gold",
-                            "qty": "40000"
+                            "qty": 40000
                         }
                     ]
                 },
@@ -337,11 +339,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": "1"
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": "55000"
+                            "qty": 55000
                         }
                     ]
                 },
@@ -354,11 +356,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": "150000"
+                            "qty": 150000
                         }
                     ]
                 }
@@ -370,8 +372,12 @@
     "specialtySkill": {
         "name": "Fate Watcher",
         "description": "Facing her fate, she carries out her duty.",
-        "dispatch": ["[Fear] type mission"],
-        "enhancement": ["Reward bonus +10%"],
+        "dispatch": [
+            "[Fear] type mission"
+        ],
+        "enhancement": [
+            "Reward bonus +10%"
+        ],
         "stats": {
             "command": 95,
             "charm": 87,
