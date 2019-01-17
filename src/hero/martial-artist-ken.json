@@ -79,7 +79,7 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": "1"
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -92,11 +92,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": "2"
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": "8000"
+                            "qty": 8000
                         }
                     ]
                 },
@@ -105,15 +105,15 @@
                     "resources": [
                         {
                             "item": "twisted-fang",
-                            "qty": "2"
+                            "qty": 2
                         },
                         {
                             "item": "molagora",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": "22000"
+                            "qty": 22000
                         }
                     ]
                 },
@@ -122,15 +122,15 @@
                     "resources": [
                         {
                             "item": "twisted-fang",
-                            "qty": "4"
+                            "qty": 4
                         },
                         {
                             "item": "molagora",
-                            "qty": "5"
+                            "qty": 5
                         },
                         {
                             "item": "gold",
-                            "qty": "40000"
+                            "qty": 40000
                         }
                     ]
                 },
@@ -139,15 +139,15 @@
                     "resources": [
                         {
                             "item": "twisted-fang",
-                            "qty": "5"
+                            "qty": 5
                         },
                         {
                             "item": "molagorago",
-                            "qty": "1"
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": "45000"
+                            "qty": 45000
                         }
                     ]
                 },
@@ -156,21 +156,23 @@
                     "resources": [
                         {
                             "item": "blazing-soul",
-                            "qty": "2"
+                            "qty": 2
                         },
                         {
                             "item": "molagorago",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": "120000"
+                            "qty": 120000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_att_dn"]
+            "debuffs": [
+                "stic_att_dn"
+            ]
         },
         {
             "isPassive": true,
@@ -187,15 +189,15 @@
                     "resources": [
                         {
                             "item": "twisted-fang",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
                             "item": "molagora",
-                            "qty": "1"
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": "19000"
+                            "qty": 19000
                         }
                     ]
                 },
@@ -204,15 +206,15 @@
                     "resources": [
                         {
                             "item": "twisted-fang",
-                            "qty": "5"
+                            "qty": 5
                         },
                         {
-                            "item": "molagorago",
-                            "qty": "2"
+                            "item": "molagora",
+                            "qty": 5
                         },
                         {
                             "item": "gold",
-                            "qty": "65000"
+                            "qty": 45000
                         }
                     ]
                 },
@@ -221,15 +223,15 @@
                     "resources": [
                         {
                             "item": "blazing-soul",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
-                            "item": "molagoragora",
-                            "qty": "1"
+                            "item": "molagorago",
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": "190000"
+                            "qty": 130000
                         }
                     ]
                 }
@@ -252,11 +254,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": "1"
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": "4000"
+                            "qty": 4000
                         }
                     ]
                 },
@@ -265,11 +267,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": "2"
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": "8000"
+                            "qty": 8000
                         }
                     ]
                 },
@@ -278,15 +280,15 @@
                     "resources": [
                         {
                             "item": "twisted-fang",
-                            "qty": "2"
+                            "qty": 2
                         },
                         {
                             "item": "molagora",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": "22000"
+                            "qty": 22000
                         }
                     ]
                 },
@@ -295,15 +297,15 @@
                     "resources": [
                         {
                             "item": "twisted-fang",
-                            "qty": "4"
+                            "qty": 4
                         },
                         {
                             "item": "molagora",
-                            "qty": "5"
+                            "qty": 5
                         },
                         {
                             "item": "gold",
-                            "qty": "40000"
+                            "qty": 40000
                         }
                     ]
                 },
@@ -312,15 +314,15 @@
                     "resources": [
                         {
                             "item": "twisted-fang",
-                            "qty": "5"
+                            "qty": 5
                         },
                         {
                             "item": "molagorago",
-                            "qty": "1"
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": "45000"
+                            "qty": 45000
                         }
                     ]
                 },
@@ -329,28 +331,36 @@
                     "resources": [
                         {
                             "item": "blazing-soul",
-                            "qty": "2"
+                            "qty": 2
                         },
                         {
                             "item": "molagorago",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": "120000"
+                            "qty": 120000
                         }
                     ]
                 }
             ],
-            "buffs": ["stic_att_up"],
-            "debuffs": ["stic_def_dn"]
+            "buffs": [
+                "stic_att_up"
+            ],
+            "debuffs": [
+                "stic_def_dn"
+            ]
         }
     ],
     "specialtySkill": {
         "name": "Finding the Strongest",
         "description": "His desire to fight the strongest made him follow the path of Asura.",
-        "dispatch": ["[Chase] type mission"],
-        "enhancement": ["Reward bonus +6%"],
+        "dispatch": [
+            "[Chase] type mission"
+        ],
+        "enhancement": [
+            "Reward bonus +6%"
+        ],
         "stats": {
             "command": 28,
             "charm": 29,
@@ -432,7 +442,7 @@
             "resources": [
                 {
                     "item": "dark-rune",
-                    "qty": "10"
+                    "qty": 10
                 }
             ]
         },
@@ -453,11 +463,11 @@
             "resources": [
                 {
                     "item": "dark-rune",
-                    "qty": "15"
+                    "qty": 15
                 },
                 {
                     "item": "greater-dark-rune",
-                    "qty": "2"
+                    "qty": 2
                 }
             ]
         },
@@ -475,11 +485,11 @@
             "resources": [
                 {
                     "item": "dark-rune",
-                    "qty": "20"
+                    "qty": 20
                 },
                 {
                     "item": "greater-dark-rune",
-                    "qty": "10"
+                    "qty": 10
                 }
             ]
         },
@@ -500,11 +510,11 @@
             "resources": [
                 {
                     "item": "greater-dark-rune",
-                    "qty": "10"
+                    "qty": 10
                 },
                 {
                     "item": "epic-dark-rune",
-                    "qty": "2"
+                    "qty": 2
                 }
             ]
         },
@@ -525,11 +535,11 @@
             "resources": [
                 {
                     "item": "epic-dark-rune",
-                    "qty": "6"
+                    "qty": 6
                 },
                 {
                     "item": "ultra-fang",
-                    "qty": "15"
+                    "qty": 15
                 }
             ]
         },
@@ -550,11 +560,11 @@
             "resources": [
                 {
                     "item": "epic-dark-rune",
-                    "qty": "10"
+                    "qty": 10
                 },
                 {
                     "item": "blazing-soul",
-                    "qty": "10"
+                    "qty": 10
                 }
             ]
         }
