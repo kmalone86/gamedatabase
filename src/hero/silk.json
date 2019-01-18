@@ -355,15 +355,23 @@
                     ]
                 }
             ],
-            "buffs": ["stic_speed_up"],
-            "debuffs": ["stic_speed_dn"]
+            "buffs": [
+                "stic_speed_up"
+            ],
+            "debuffs": [
+                "stic_speed_dn"
+            ]
         }
     ],
     "specialtySkill": {
         "name": "Wind Direction",
         "description": "Maybe it sounds like wind, but it's really a song sent from the forest.",
-        "dispatch": ["[Explore] Type"],
-        "enhancement": ["Reward Bonus +6%"],
+        "dispatch": [
+            "[Explore] Type"
+        ],
+        "enhancement": [
+            "Reward Bonus +6%"
+        ],
         "stats": {
             "command": 20,
             "charm": 87,
@@ -427,7 +435,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": "20"
@@ -448,7 +456,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": "20"
@@ -511,7 +519,7 @@
                 },
                 {
                     "item": "epic-life-rune",
-                    "qty": 1
+                    "qty": 2
                 }
             ]
         },
@@ -520,7 +528,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": "30"
@@ -545,7 +553,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": "30"
