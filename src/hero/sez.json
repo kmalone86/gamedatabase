@@ -89,35 +89,31 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 4000
-                        },
-                        {
                             "item": "molagora",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
                         }
                     ]
                 },
                 {
                     "description": "+5% damage dealt",
                     "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        },
                         {
                             "item": "molagora",
                             "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
                         }
                     ]
                 },
                 {
                     "description": "+5% damage dealt",
                     "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 37000
-                        },
                         {
                             "item": "sharp-spearhead",
                             "qty": 5
@@ -125,16 +121,16 @@
                         {
                             "item": "molagora",
                             "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 37000
                         }
                     ]
                 },
                 {
                     "description": "+10% damage dealt",
                     "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 55000
-                        },
                         {
                             "item": "sharp-spearhead",
                             "qty": 7
@@ -142,6 +138,10 @@
                         {
                             "item": "molagorago",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 55000
                         }
                     ]
                 },
@@ -149,22 +149,24 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 120000
-                        },
-                        {
                             "item": "black-curse-powder",
                             "qty": 2
                         },
                         {
                             "item": "molagorago",
                             "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_heal_impossible"]
+            "debuffs": [
+                "stic_heal_impossible"
+            ]
         },
         {
             "isPassive": true,
@@ -180,35 +182,31 @@
                     "description": "+5% damage dealt by additional skill",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 4000
-                        },
-                        {
                             "item": "molagora",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
                         }
                     ]
                 },
                 {
                     "description": "+5% damage dealt by additional skill",
                     "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        },
                         {
                             "item": "molagora",
                             "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
                         }
                     ]
                 },
                 {
                     "description": "+5% damage dealt by additional skill",
                     "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 37000
-                        },
                         {
                             "item": "sharp-spearhead",
                             "qty": 5
@@ -216,6 +214,10 @@
                         {
                             "item": "molagora",
                             "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 37000
                         }
                     ]
                 },
@@ -223,16 +225,16 @@
                     "description": "+5% damage dealt by additional skill",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 55000
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 7
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 55000
                         }
                     ]
                 },
@@ -240,22 +242,24 @@
                     "description": "+10% damage dealt by additional skill",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 120000
-                        },
-                        {
                             "item": "black-curse-powder",
                             "qty": 2
                         },
                         {
                             "item": "molagorago",
                             "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_heal_impossible"]
+            "debuffs": [
+                "stic_heal_impossible"
+            ]
         },
         {
             "isPassive": false,
@@ -271,12 +275,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 4000
-                        },
-                        {
                             "item": "molagora",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
                         }
                     ]
                 },
@@ -284,12 +288,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 8000
-                        },
-                        {
                             "item": "molagora",
                             "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
                         }
                     ]
                 },
@@ -297,16 +301,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 37000
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 5
                         },
                         {
                             "item": "molagora",
                             "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 37000
                         }
                     ]
                 },
@@ -314,16 +318,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 55000
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 7
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 55000
                         }
                     ]
                 },
@@ -331,16 +335,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 120000
-                        },
-                        {
                             "item": "black-curse-powder",
                             "qty": 2
                         },
                         {
                             "item": "molagorago",
                             "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
                         }
                     ]
                 }
@@ -352,8 +356,12 @@
     "specialtySkill": {
         "name": "Ridiculous Answer",
         "description": "Makes stupid comments and is always wasting time no matter how dire the situation.",
-        "dispatch": ["[All missions] type mission"],
-        "enhancement": ["Time required -5%"],
+        "dispatch": [
+            "[All missions] type mission"
+        ],
+        "enhancement": [
+            "Time required -5%"
+        ],
         "stats": {
             "command": 15,
             "charm": 67,
@@ -526,7 +534,7 @@
                 },
                 {
                     "item": "erikion-carapace",
-                    "qty": 12
+                    "qty": 15
                 }
             ]
         },
@@ -551,7 +559,7 @@
                 },
                 {
                     "item": "black-curse-powder",
-                    "qty": 8
+                    "qty": 10
                 }
             ]
         }
