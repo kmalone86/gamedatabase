@@ -263,7 +263,10 @@
                     ]
                 }
             ],
-            "buffs": ["stic_hide", "stic_protect"],
+            "buffs": [
+                "stic_hide",
+                "stic_protect"
+            ],
             "debuffs": []
         },
         {
@@ -355,15 +358,23 @@
                     ]
                 }
             ],
-            "buffs": ["stic_hide"],
-            "debuffs": ["stic_stun"]
+            "buffs": [
+                "stic_hide"
+            ],
+            "debuffs": [
+                "stic_stun"
+            ]
         }
     ],
     "specialtySkill": {
         "name": "Life of Frugality",
         "description": "Has always dreamed of using her savings to build a new village for everyone.",
-        "dispatch": ["All Missions"],
-        "enhancement": ["Gold Bonus +6%"],
+        "dispatch": [
+            "All Missions"
+        ],
+        "enhancement": [
+            "Gold Bonus +6%"
+        ],
         "stats": {
             "command": 55,
             "charm": 68,
@@ -427,7 +438,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": "20"
@@ -448,7 +459,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": "20"
@@ -495,7 +506,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": "6%"
+                    "chc": 0.06
                 },
                 {
                     "atk": "30"
@@ -511,7 +522,7 @@
                 },
                 {
                     "item": "epic-frost-rune",
-                    "qty": 1
+                    "qty": 2
                 }
             ]
         },
@@ -520,7 +531,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": "30"
@@ -545,7 +556,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": "30"

@@ -79,12 +79,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "4000"
+                            "item": "molagora",
+                            "qty": 1
                         },
                         {
-                            "item": "molagora",
-                            "qty": "1"
+                            "item": "gold",
+                            "qty": 4000
                         }
                     ]
                 },
@@ -92,12 +92,12 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "8000"
+                            "item": "molagora",
+                            "qty": 2
                         },
                         {
-                            "item": "molagora",
-                            "qty": "2"
+                            "item": "gold",
+                            "qty": 8000
                         }
                     ]
                 },
@@ -105,16 +105,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "17000"
+                            "item": "ring-of-glory",
+                            "qty": 1
                         },
                         {
                             "item": "molagora",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
-                            "item": "ring-of-glory",
-                            "qty": "1"
+                            "item": "gold",
+                            "qty": 17000
                         }
                     ]
                 },
@@ -122,16 +122,16 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "35000"
+                            "item": "ring-of-glory",
+                            "qty": 3
                         },
                         {
                             "item": "molagorago",
-                            "qty": "1"
+                            "qty": 1
                         },
                         {
-                            "item": "ring-of-glory",
-                            "qty": "3"
+                            "item": "gold",
+                            "qty": 35000
                         }
                     ]
                 },
@@ -139,22 +139,25 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "100000"
+                            "item": "fused-nerve",
+                            "qty": 2
                         },
                         {
                             "item": "molagorago",
-                            "qty": "2"
+                            "qty": 2
                         },
                         {
-                            "item": "fused-nerve",
-                            "qty": "2"
+                            "item": "gold",
+                            "qty": 100000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_def_dn", "stic_heal_impossible"]
+            "debuffs": [
+                "stic_def_dn",
+                "stic_heal_impossible"
+            ]
         },
         {
             "isPassive": false,
@@ -171,12 +174,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "4000"
+                            "item": "molagora",
+                            "qty": 1
                         },
                         {
-                            "item": "molagora",
-                            "qty": "1"
+                            "item": "gold",
+                            "qty": 4000
                         }
                     ]
                 },
@@ -184,69 +187,71 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
                             "item": "gold",
-                            "qty": "8000"
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 1
                         },
                         {
                             "item": "molagora",
-                            "qty": "2"
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 17000
                         }
                     ]
                 },
                 {
                     "description": "+10% damage dealt",
                     "resources": [
-                        {
-                            "item": "gold",
-                            "qty": "17000"
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": "3"
-                        },
                         {
                             "item": "ring-of-glory",
-                            "qty": "1"
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": "35000"
+                            "qty": 3
                         },
                         {
                             "item": "molagorago",
-                            "qty": "1"
+                            "qty": 1
                         },
                         {
-                            "item": "ring-of-glory",
-                            "qty": "3"
+                            "item": "gold",
+                            "qty": 35000
                         }
                     ]
                 },
                 {
                     "description": "+10% damage dealt",
                     "resources": [
-                        {
-                            "item": "gold",
-                            "qty": "100000"
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": "2"
-                        },
                         {
                             "item": "fused-nerve",
-                            "qty": "2"
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 100000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_def_dn"]
+            "debuffs": [
+                "stic_def_dn"
+            ]
         },
         {
             "isPassive": false,
@@ -263,12 +268,12 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "4000"
+                            "item": "molagora",
+                            "qty": 1
                         },
                         {
-                            "item": "molagora",
-                            "qty": "1"
+                            "item": "gold",
+                            "qty": 4000
                         }
                     ]
                 },
@@ -276,12 +281,12 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "8000"
+                            "item": "molagora",
+                            "qty": 2
                         },
                         {
-                            "item": "molagora",
-                            "qty": "2"
+                            "item": "gold",
+                            "qty": 8000
                         }
                     ]
                 },
@@ -289,16 +294,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "17000"
+                            "item": "ring-of-glory",
+                            "qty": 1
                         },
                         {
                             "item": "molagora",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
-                            "item": "ring-of-glory",
-                            "qty": "1"
+                            "item": "gold",
+                            "qty": 17000
                         }
                     ]
                 },
@@ -306,33 +311,33 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "35000"
+                            "item": "ring-of-glory",
+                            "qty": 3
                         },
                         {
                             "item": "molagorago",
-                            "qty": "1"
+                            "qty": 1
                         },
                         {
-                            "item": "ring-of-glory",
-                            "qty": "3"
+                            "item": "gold",
+                            "qty": 35000
                         }
                     ]
                 },
                 {
                     "description": "+15% damage dealt",
                     "resources": [
-                        {
-                            "item": "gold",
-                            "qty": "100000"
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": "2"
-                        },
                         {
                             "item": "fused-nerve",
-                            "qty": "2"
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 100000
                         }
                     ]
                 }
@@ -421,7 +426,7 @@
             "resources": [
                 {
                     "item": "dark-rune",
-                    "qty": "8"
+                    "qty": 8
                 }
             ]
         },
@@ -430,7 +435,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": "3%"
+                    "chc": 0.03
                 },
                 {
                     "atk": "20"
@@ -442,11 +447,11 @@
             "resources": [
                 {
                     "item": "dark-rune",
-                    "qty": "12"
+                    "qty": 12
                 },
                 {
                     "item": "greater-dark-rune",
-                    "qty": "2"
+                    "qty": 2
                 }
             ]
         },
@@ -464,11 +469,11 @@
             "resources": [
                 {
                     "item": "dark-rune",
-                    "qty": "17"
+                    "qty": 17
                 },
                 {
-                    "item": "great-dark-rune",
-                    "qty": "8"
+                    "item": "greater-dark-rune",
+                    "qty": 8
                 }
             ]
         },
@@ -477,7 +482,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": "30"
@@ -489,11 +494,11 @@
             "resources": [
                 {
                     "item": "greater-dark-rune",
-                    "qty": "8"
+                    "qty": 8
                 },
                 {
                     "item": "epic-dark-rune",
-                    "qty": "1"
+                    "qty": 2
                 }
             ]
         },
@@ -514,11 +519,11 @@
             "resources": [
                 {
                     "item": "epic-dark-rune",
-                    "qty": "5"
+                    "qty": 5
                 },
                 {
                     "item": "small-sun-badge",
-                    "qty": "12"
+                    "qty": 12
                 }
             ]
         },
@@ -527,7 +532,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": "6%"
+                    "chc": 0.06
                 },
                 {
                     "atk": "30"
@@ -539,11 +544,11 @@
             "resources": [
                 {
                     "item": "epic-dark-rune",
-                    "qty": "8"
+                    "qty": 8
                 },
                 {
                     "item": "fused-nerve",
-                    "qty": "8"
+                    "qty": 8
                 }
             ]
         }

@@ -77,26 +77,61 @@
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
-                    "resources": []
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": []
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
                 },
                 {
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "molagora",
+                            "qty": 2
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "flame-of-soul",
+                            "qty": 1
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 17000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "flame-of-soul",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 30000
                         }
                     ]
                 },
@@ -104,12 +139,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "flame-of-soul",
+                            "qty": 4
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 40000
                         }
                     ]
                 },
@@ -117,12 +156,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "demon-blood-gem",
+                            "qty": 2
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 100000
                         }
                     ]
                 }
@@ -143,26 +186,61 @@
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
                 },
                 {
                     "description": "+5% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
                 },
                 {
                     "description": "+10% effect chance",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "flame-of-soul",
+                            "qty": 1
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 17000
+                        }
+                    ]
                 },
                 {
                     "description": "+15% effect chance",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "flame-of-soul",
+                            "qty": 2
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 30000
                         }
                     ]
                 },
@@ -170,12 +248,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "flame-of-soul",
+                            "qty": 4
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 40000
                         }
                     ]
                 },
@@ -183,12 +265,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "demon-blood-gem",
+                            "qty": 2
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 100000
                         }
                     ]
                 }
@@ -209,15 +295,54 @@
             "enhancement": [
                 {
                     "description": "+15% healing",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "flame-of-soul",
+                            "qty": 1
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 9000
+                        }
+                    ]
                 },
                 {
                     "description": "-1 turn cooldown",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "flame-of-soul",
+                            "qty": 3
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 35000
+                        }
+                    ]
                 },
                 {
                     "description": "+15% healing",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "demon-blood-gem",
+                            "qty": 1
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 50000
+                        }
+                    ]
                 }
             ],
             "buffs": [],
@@ -309,7 +434,7 @@
             ],
             "resources": [
                 {
-                    "item": "earth-rune",
+                    "item": "life-rune",
                     "qty": 8
                 }
             ]
@@ -330,11 +455,11 @@
             ],
             "resources": [
                 {
-                    "item": "earth-rune",
+                    "item": "life-rune",
                     "qty": 12
                 },
                 {
-                    "item": "greater-earth-rune",
+                    "item": "greater-life-rune",
                     "qty": 2
                 }
             ]
@@ -352,11 +477,11 @@
             ],
             "resources": [
                 {
-                    "item": "earth-rune",
+                    "item": "life-rune",
                     "qty": 17
                 },
                 {
-                    "item": "greater-earth-rune",
+                    "item": "greater-life-rune",
                     "qty": 8
                 }
             ]
@@ -377,11 +502,11 @@
             ],
             "resources": [
                 {
-                    "item": "greater-earth-rune",
+                    "item": "greater-life-rune",
                     "qty": 8
                 },
                 {
-                    "item": "epic-earth-rune",
+                    "item": "epic-life-rune",
                     "qty": 2
                 }
             ]
@@ -402,7 +527,7 @@
             ],
             "resources": [
                 {
-                    "item": "epic-earth-rune",
+                    "item": "epic-life-rune",
                     "qty": 5
                 },
                 {
@@ -427,7 +552,7 @@
             ],
             "resources": [
                 {
-                    "item": "epic-earth-rune",
+                    "item": "epic-life-rune",
                     "qty": 8
                 },
                 {

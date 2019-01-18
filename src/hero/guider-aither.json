@@ -1,12 +1,12 @@
 {
-    "name": "Lots",
+    "name": "Guider Aither",
     "rarity": 4,
-    "classType": "soul-weaver",
-    "element": "earth",
-    "zodiac": "gemini",
+    "classType": "mage",
+    "element": "light",
+    "zodiac": "cancer",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "Originally a part of the Order of the Blue Cross, Lots was dispatched to Reingar, where he studied healing magic. Wanting to test his abilities and find a rare magical item, he has left on a journey.",
+    "background": "An ever-cheerful traveler, Aither loves life on the road. As he embarks on a journey to find his lost memories, he is often followed by small animals.",
     "relations": [
         {
             "hero": "",
@@ -15,52 +15,28 @@
     ],
     "stats": {
         "base": {
-            "cp": 1127,
-            "atk": 42,
-            "hp": 234,
-            "spd": 97,
-            "def": 78,
-            "chc": 15,
-            "chd": 150,
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0,
+            "chd": 0,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0
+        },
+        "max": {
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0,
+            "chd": 0,
             "eff": 0,
             "efr": 0,
             "dac": 5
-        },
-        "max": {
-            "cp": 13913,
-            "atk": 603,
-            "hp": 4945,
-            "spd": 101,
-            "def": 662,
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "efr": 9,
-            "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4152,
-            "cp": 12119,
-            "spd": 97,
-            "atk": 453,
-            "def": 662,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 3302,
-            "cp": 9723,
-            "spd": 97,
-            "atk": 364,
-            "def": 534,
-            "efr": 0
         }
     },
     "skills": [
@@ -71,9 +47,9 @@
             "soulBurnEffect": "",
             "awakenUpgrade": false,
             "cooldown": 0,
-            "name": "Holy Light",
+            "name": "Whispering Spirit",
             "soulAcquire": 1,
-            "description": "Attacks with a light sphere, with a 50% chance to decrease Attack for 1 turn.",
+            "description": "Attacks with spirit power, with a 25% chance to decrease Speed for 2 turns.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -89,7 +65,7 @@
                     ]
                 },
                 {
-                    "description": "+10% effect chance",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
                             "item": "molagora",
@@ -102,10 +78,10 @@
                     ]
                 },
                 {
-                    "description": "+15% effect chance",
+                    "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
+                            "item": "baby-mouse-insignia",
                             "qty": 1
                         },
                         {
@@ -119,10 +95,10 @@
                     ]
                 },
                 {
-                    "description": "+10% damage dealt",
+                    "description": "+15% effect chance",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
+                            "item": "baby-mouse-insignia",
                             "qty": 3
                         },
                         {
@@ -139,7 +115,7 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "fused-nerve",
+                            "item": "the-heart-of-hypocrisy",
                             "qty": 2
                         },
                         {
@@ -155,7 +131,7 @@
             ],
             "buffs": [],
             "debuffs": [
-                "stic_att_dn"
+                "stic_speed_dn"
             ]
         },
         {
@@ -164,13 +140,13 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 2,
-            "name": "Regen",
-            "soulAcquire": 1,
-            "description": "Recovers ally's Health with healing magic, and increases Combat Readiness by 80%. Amount recovered is proportional to the ally's max Health.",
+            "cooldown": 3,
+            "name": "Spirit's Protection",
+            "soulAcquire": 2,
+            "description": "Attacks with spirit power, and grants caster a barrier for 2 turns. Barrier strength is proportional to the caster's Attack.",
             "enhancement": [
                 {
-                    "description": "+5% healing",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "molagora",
@@ -183,7 +159,7 @@
                     ]
                 },
                 {
-                    "description": "+5% Combat Readiness",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "molagora",
@@ -196,10 +172,10 @@
                     ]
                 },
                 {
-                    "description": "+15% healing",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
+                            "item": "baby-mouse-insignia",
                             "qty": 1
                         },
                         {
@@ -213,10 +189,10 @@
                     ]
                 },
                 {
-                    "description": "+5% Combat Readiness",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
+                            "item": "baby-mouse-insignia",
                             "qty": 3
                         },
                         {
@@ -230,10 +206,10 @@
                     ]
                 },
                 {
-                    "description": "+10% Combat Readiness",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "fused-nerve",
+                            "item": "the-heart-of-hypocrisy",
                             "qty": 2
                         },
                         {
@@ -247,22 +223,24 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_protect"
+            ],
             "debuffs": []
         },
         {
             "isPassive": false,
-            "soulBurn": 20,
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "Extends buff duration by 2 turns.",
+            "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": true,
-            "cooldown": 0,
-            "name": "Serenity",
-            "soulAcquire": 0,
-            "description": "Uses strengthening magic to increase the Combat Readiness of allies by 10% and grant continuous healing for 3 turns.",
+            "cooldown": 5,
+            "name": "Wave of Force",
+            "soulAcquire": 2,
+            "description": "Delivers a blow to the enemy with the Energy of Souls, recovering Health of all allies. All allies are granted continuous healing for 2 turns. Amount healed increased proportional to damage dealt.",
             "enhancement": [
                 {
-                    "description": "+2% Combat Readiness",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
                             "item": "molagora",
@@ -275,7 +253,7 @@
                     ]
                 },
                 {
-                    "description": "+2% Combat Readiness",
+                    "description": "+20% healing",
                     "resources": [
                         {
                             "item": "molagora",
@@ -291,7 +269,7 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
+                            "item": "baby-mouse-insignia",
                             "qty": 1
                         },
                         {
@@ -305,10 +283,10 @@
                     ]
                 },
                 {
-                    "description": "+3% Combat Readiness",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
+                            "item": "baby-mouse-insignia",
                             "qty": 3
                         },
                         {
@@ -322,10 +300,10 @@
                     ]
                 },
                 {
-                    "description": "+3% Combat Readiness",
+                    "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "fused-nerve",
+                            "item": "the-heart-of-hypocrisy",
                             "qty": 2
                         },
                         {
@@ -346,14 +324,14 @@
         }
     ],
     "specialtySkill": {
-        "name": "Calm Darkness",
-        "description": "Those who are used to darkness don't lose their senses even in the midst of chaos.",
+        "name": "Innocent Wanderer",
+        "description": "Neither wind nor rain can stop him.",
         "dispatch": [],
         "enhancement": [],
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 44,
+            "charm": 80,
+            "politics": 20
         }
     },
     "memoryImprintFormation": {
@@ -419,7 +397,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": 0.03
+                    "": 0
                 },
                 {
                     "atk": 20
@@ -430,7 +408,7 @@
             ],
             "resources": [
                 {
-                    "item": "life-rune",
+                    "item": "light-rune",
                     "qty": 8
                 }
             ]
@@ -440,7 +418,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": 0.03
+                    "": 0
                 },
                 {
                     "atk": 20
@@ -451,11 +429,11 @@
             ],
             "resources": [
                 {
-                    "item": "life-rune",
+                    "item": "light-rune",
                     "qty": 12
                 },
                 {
-                    "item": "greater-life-rune",
+                    "item": "greater-light-rune",
                     "qty": 2
                 }
             ]
@@ -473,11 +451,11 @@
             ],
             "resources": [
                 {
-                    "item": "life-rune",
+                    "item": "light-rune",
                     "qty": 17
                 },
                 {
-                    "item": "greater-life-rune",
+                    "item": "greater-light-rune",
                     "qty": 8
                 }
             ]
@@ -487,7 +465,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "spd": 4
+                    "": 0
                 },
                 {
                     "atk": 30
@@ -498,11 +476,11 @@
             ],
             "resources": [
                 {
-                    "item": "greater-life-rune",
+                    "item": "greater-light-rune",
                     "qty": 8
                 },
                 {
-                    "item": "epic-life-rune",
+                    "item": "epic-light-rune",
                     "qty": 2
                 }
             ]
@@ -512,7 +490,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": 0.06
+                    "": 0
                 },
                 {
                     "atk": 30
@@ -523,11 +501,11 @@
             ],
             "resources": [
                 {
-                    "item": "epic-life-rune",
+                    "item": "epic-light-rune",
                     "qty": 5
                 },
                 {
-                    "item": "small-sun-badge",
+                    "item": "special-alarm-loop",
                     "qty": 12
                 }
             ]
@@ -537,7 +515,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": 0.06
+                    "": 0
                 },
                 {
                     "atk": 30
@@ -548,11 +526,11 @@
             ],
             "resources": [
                 {
-                    "item": "epic-life-rune",
+                    "item": "epic-light-rune",
                     "qty": 8
                 },
                 {
-                    "item": "fused-nerve",
+                    "item": "the-heart-of-hypocrisy",
                     "qty": 8
                 }
             ]

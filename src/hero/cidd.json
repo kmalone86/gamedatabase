@@ -89,25 +89,25 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 4000
-                        },
-                        {
                             "item": "molagora",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
                         }
                     ]
                 },
                 {
                     "description": "+5% damage dealt",
                     "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
                         {
                             "item": "gold",
                             "qty": 8000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 2
                         }
                     ]
                 },
@@ -115,16 +115,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 17000
-                        },
-                        {
-                            "item": "path power loop",
+                            "item": "path-power-loop",
                             "qty": 1
                         },
                         {
                             "item": "molagora",
                             "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 17000
                         }
                     ]
                 },
@@ -132,16 +132,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 35000
-                        },
-                        {
-                            "item": "path power loop",
+                            "item": "path-power-loop",
                             "qty": 3
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 35000
                         }
                     ]
                 },
@@ -149,21 +149,23 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 100000
-                        },
-                        {
-                            "item": "nightmare mask",
+                            "item": "nightmare-mask",
                             "qty": 2
                         },
                         {
                             "item": "molagorago",
                             "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 100000
                         }
                     ]
                 }
             ],
-            "buffs": ["stic_spd_up"],
+            "buffs": [
+                "stic_spd_up"
+            ],
             "debuffs": []
         },
         {
@@ -180,25 +182,25 @@
                     "description": "+5% damage dealt by Relentless Strike",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 4000
-                        },
-                        {
                             "item": "molagora",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
                         }
                     ]
                 },
                 {
                     "description": "+5% damage dealt by Relentless Strike",
                     "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        },
                         {
                             "item": "molagora",
                             "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
                         }
                     ]
                 },
@@ -206,16 +208,16 @@
                     "description": "+5% damage dealt by Relentless Strike",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 17000
-                        },
-                        {
-                            "item": "path power loop",
+                            "item": "path-power-loop",
                             "qty": 1
                         },
                         {
                             "item": "molagora",
                             "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 17000
                         }
                     ]
                 },
@@ -223,16 +225,16 @@
                     "description": "+10% damage dealt by Relentless Strike",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 35000
-                        },
-                        {
-                            "item": "path power loop",
+                            "item": "path-power-loop",
                             "qty": 3
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 35000
                         }
                     ]
                 },
@@ -240,21 +242,23 @@
                     "description": "+15% damage dealt by Relentless Strike",
                     "resources": [
                         {
+                            "item": "nightmare-mask",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 2
+                        },
+                        {
                             "item": "gold",
                             "qty": 100000
-                        },
-                        {
-                            "item": "nightmare mask",
-                            "qty": 2
-                        },
-                        {
-                            "item": "molagoragora",
-                            "qty": 2
                         }
                     ]
                 }
             ],
-            "buffs": ["stic_spd_up"],
+            "buffs": [
+                "stic_spd_up"
+            ],
             "debuffs": []
         },
         {
@@ -271,12 +275,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 4000
-                        },
-                        {
                             "item": "molagora",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
                         }
                     ]
                 },
@@ -284,12 +288,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 8000
-                        },
-                        {
                             "item": "molagora",
                             "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
                         }
                     ]
                 },
@@ -297,16 +301,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 17000
-                        },
-                        {
-                            "item": "path power loop",
+                            "item": "path-power-loop",
                             "qty": 1
                         },
                         {
                             "item": "molagora",
                             "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 17000
                         }
                     ]
                 },
@@ -314,16 +318,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 35000
-                        },
-                        {
-                            "item": "path power loop",
+                            "item": "path-power-loop",
                             "qty": 3
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 35000
                         }
                     ]
                 },
@@ -331,29 +335,35 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
+                            "item": "nightmare-mask",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 2
+                        },
+                        {
                             "item": "gold",
                             "qty": 100000
-                        },
-                        {
-                            "item": "nightmare mask",
-                            "qty": 2
-                        },
-                        {
-                            "item": "molagoragora",
-                            "qty": 2
                         }
                     ]
                 }
             ],
-            "buffs": ["stic_spd_up"],
+            "buffs": [
+                "stic_spd_up"
+            ],
             "debuffs": []
         }
     ],
     "specialtySkill": {
         "name": "Animal Instinct",
         "description": "Oustanding senses of smell and hearing are very helpful when hunting.",
-        "dispatch": ["[Adventure] type mission"],
-        "enhancement": ["Time requiered -6%"],
+        "dispatch": [
+            "[Adventure] type mission"
+        ],
+        "enhancement": [
+            "Time requiered -6%"
+        ],
         "stats": {
             "command": 45,
             "charm": 90,
@@ -417,7 +427,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -485,7 +495,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": "6%"
+                    "chc": 0.06
                 },
                 {
                     "atk": 30
@@ -501,7 +511,7 @@
                 },
                 {
                     "item": "epic-life-rune",
-                    "qty": 1
+                    "qty": 2
                 }
             ]
         },
@@ -510,7 +520,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": 30

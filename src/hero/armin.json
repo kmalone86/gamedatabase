@@ -97,12 +97,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 4000
-                        },
-                        {
                             "item": "molagora",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
                         }
                     ]
                 },
@@ -110,35 +110,31 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 8000
-                        },
-                        {
                             "item": "molagora",
                             "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
                         }
                     ]
                 },
                 {
                     "description": "+5% effect chance",
                     "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 12000
-                        },
                         {
                             "item": "molagora",
                             "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 12000
                         }
                     ]
                 },
                 {
                     "description": "+5% effect chance",
                     "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 17000
-                        },
                         {
                             "item": "slime-jelly",
                             "qty": 1
@@ -146,16 +142,16 @@
                         {
                             "item": "molagora",
                             "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 17000
                         }
                     ]
                 },
                 {
                     "description": "+10% damage dealt",
                     "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 30000
-                        },
                         {
                             "item": "slime-jelly",
                             "qty": 2
@@ -163,16 +159,16 @@
                         {
                             "item": "molagora",
                             "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 30000
                         }
                     ]
                 },
                 {
                     "description": "+10% damage dealt",
                     "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 45000
-                        },
                         {
                             "item": "slime-jelly",
                             "qty": 5
@@ -180,16 +176,16 @@
                         {
                             "item": "molagorago",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
                         }
                     ]
                 },
                 {
                     "description": "+10% damage dealt",
                     "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 100000
-                        },
                         {
                             "item": "dragons-wrath",
                             "qty": 2
@@ -197,12 +193,18 @@
                         {
                             "item": "molagorago",
                             "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 100000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_stun"]
+            "debuffs": [
+                "stic_stun"
+            ]
         },
         {
             "isPassive": false,
@@ -218,35 +220,31 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 4000
-                        },
-                        {
                             "item": "molagora",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
                         }
                     ]
                 },
                 {
                     "description": "+10% damage dealt",
                     "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        },
                         {
                             "item": "molagora",
                             "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
                         }
                     ]
                 },
                 {
                     "description": "+10% damage dealt",
                     "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 17000
-                        },
                         {
                             "item": "slime-jelly",
                             "qty": 1
@@ -254,6 +252,10 @@
                         {
                             "item": "molagora",
                             "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 17000
                         }
                     ]
                 },
@@ -261,16 +263,16 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 30000
-                        },
-                        {
                             "item": "slime-jelly",
                             "qty": 2
                         },
                         {
                             "item": "molagora",
                             "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 30000
                         }
                     ]
                 },
@@ -278,16 +280,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 40000
-                        },
-                        {
                             "item": "slime-jelly",
                             "qty": 4
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 40000
                         }
                     ]
                 },
@@ -295,22 +297,27 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 100000
-                        },
-                        {
                             "item": "dragons-wrath",
                             "qty": 2
                         },
                         {
                             "item": "molagorago",
                             "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 100000
                         }
                     ]
                 }
             ],
-            "buffs": ["stic_def_up"],
-            "debuffs": ["stic_blind", "stic_dot"]
+            "buffs": [
+                "stic_def_up"
+            ],
+            "debuffs": [
+                "stic_blind",
+                "stic_dot"
+            ]
         },
         {
             "isPassive": false,
@@ -326,16 +333,16 @@
                     "description": "Acquire +1 Soul",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 27000
-                        },
-                        {
                             "item": "slime-jelly",
                             "qty": 3
                         },
                         {
                             "item": "molagora",
                             "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 27000
                         }
                     ]
                 },
@@ -343,29 +350,35 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 130000
-                        },
-                        {
                             "item": "dragons-wrath",
                             "qty": 1
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 50000
                         }
                     ]
                 }
             ],
-            "buffs": ["stic_protect"],
+            "buffs": [
+                "stic_protect"
+            ],
             "debuffs": []
         }
     ],
     "specialtySkill": {
         "name": "Agile Mercenaries",
         "description": "Handles requests with diligence and efficiency.",
-        "dispatch": ["[All missions] type mission"],
-        "enhancement": ["Time required -5%"],
+        "dispatch": [
+            "[All missions] type mission"
+        ],
+        "enhancement": [
+            "Time required -5%"
+        ],
         "stats": {
             "command": 78,
             "charm": 22,
@@ -429,7 +442,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "3%"
+                    "def": 0.03
                 },
                 {
                     "atk": 20
@@ -450,7 +463,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": "3%"
+                    "efr": 0.03
                 },
                 {
                     "atk": 20
@@ -497,7 +510,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "6%"
+                    "def": 0.06
                 },
                 {
                     "atk": 30
@@ -513,7 +526,7 @@
                 },
                 {
                     "item": "epic-life-rune",
-                    "qty": 1
+                    "qty": 2
                 }
             ]
         },
@@ -522,7 +535,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "6%"
+                    "def": 0.06
                 },
                 {
                     "atk": 30
@@ -547,7 +560,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": "6%"
+                    "efr": 0.06
                 },
                 {
                     "atk": 30

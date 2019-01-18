@@ -185,7 +185,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_stun"]
+            "debuffs": [
+                "stic_stun"
+            ]
         },
         {
             "isPassive": false,
@@ -294,7 +296,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_stun"]
+            "debuffs": [
+                "stic_stun"
+            ]
         },
         {
             "isPassive": false,
@@ -359,15 +363,24 @@
                     ]
                 }
             ],
-            "buffs": ["stic_def_up"],
-            "debuffs": ["stic_att_dn", "stic_provoke"]
+            "buffs": [
+                "stic_def_up"
+            ],
+            "debuffs": [
+                "stic_att_dn",
+                "stic_provoke"
+            ]
         }
     ],
     "specialtySkill": {
         "name": "Strong Arms",
         "description": "Uses their buff arms to fight against injustice.",
-        "dispatch": ["[Security] Type"],
-        "enhancement": ["Reward Bonus +6%"],
+        "dispatch": [
+            "[Security] Type"
+        ],
+        "enhancement": [
+            "Reward Bonus +6%"
+        ],
         "stats": {
             "command": 50,
             "charm": 83,
@@ -431,7 +444,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": "20"
@@ -452,7 +465,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "3%"
+                    "eff": 0.03
                 },
                 {
                     "atk": "20"
@@ -515,7 +528,7 @@
                 },
                 {
                     "item": "epic-flame-rune",
-                    "qty": 1
+                    "qty": 2
                 }
             ]
         },
@@ -524,7 +537,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": "30"
@@ -549,7 +562,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "6%"
+                    "eff": 0.06
                 },
                 {
                     "atk": "30"

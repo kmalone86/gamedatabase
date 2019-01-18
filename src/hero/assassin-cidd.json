@@ -1,12 +1,12 @@
 {
-    "name": "Lots",
+    "name": "Assassin Cidd",
     "rarity": 4,
-    "classType": "soul-weaver",
-    "element": "earth",
-    "zodiac": "gemini",
+    "classType": "thief",
+    "element": "dark",
+    "zodiac": "aquarius",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "Originally a part of the Order of the Blue Cross, Lots was dispatched to Reingar, where he studied healing magic. Wanting to test his abilities and find a rare magical item, he has left on a journey.",
+    "background": "A boy who spent his days looking for a place where he belonged, until Eligos took him in.",
     "relations": [
         {
             "hero": "",
@@ -15,52 +15,28 @@
     ],
     "stats": {
         "base": {
-            "cp": 1127,
-            "atk": 42,
-            "hp": 234,
-            "spd": 97,
-            "def": 78,
-            "chc": 15,
-            "chd": 150,
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0,
+            "chd": 0,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0
+        },
+        "max": {
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0,
+            "chd": 0,
             "eff": 0,
             "efr": 0,
             "dac": 5
-        },
-        "max": {
-            "cp": 13913,
-            "atk": 603,
-            "hp": 4945,
-            "spd": 101,
-            "def": 662,
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "efr": 9,
-            "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4152,
-            "cp": 12119,
-            "spd": 97,
-            "atk": 453,
-            "def": 662,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 3302,
-            "cp": 9723,
-            "spd": 97,
-            "atk": 364,
-            "def": 534,
-            "efr": 0
         }
     },
     "skills": [
@@ -71,9 +47,9 @@
             "soulBurnEffect": "",
             "awakenUpgrade": false,
             "cooldown": 0,
-            "name": "Holy Light",
+            "name": "Slice",
             "soulAcquire": 1,
-            "description": "Attacks with a light sphere, with a 50% chance to decrease Attack for 1 turn.",
+            "description": "Attacks with an axe, with a 40% chance to poison for 2 turns. Damage dealt increases proportional to the caster's Speed.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -89,7 +65,7 @@
                     ]
                 },
                 {
-                    "description": "+10% effect chance",
+                    "description": "+5% effect chance",
                     "resources": [
                         {
                             "item": "molagora",
@@ -102,10 +78,10 @@
                     ]
                 },
                 {
-                    "description": "+15% effect chance",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
+                            "item": "leather-sheath",
                             "qty": 1
                         },
                         {
@@ -119,11 +95,28 @@
                     ]
                 },
                 {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "leather-sheath",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 30000
+                        }
+                    ]
+                },
+                {
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 3
+                            "item": "leather-sheath",
+                            "qty": 4
                         },
                         {
                             "item": "molagorago",
@@ -131,15 +124,15 @@
                         },
                         {
                             "item": "gold",
-                            "qty": 35000
+                            "qty": 40000
                         }
                     ]
                 },
                 {
-                    "description": "+15% damage dealt",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "fused-nerve",
+                            "item": "fighter-medal",
                             "qty": 2
                         },
                         {
@@ -155,73 +148,47 @@
             ],
             "buffs": [],
             "debuffs": [
-                "stic_att_dn"
+                "stic_dot"
             ]
         },
         {
-            "isPassive": false,
+            "isPassive": true,
             "soulBurn": 0,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 2,
-            "name": "Regen",
-            "soulAcquire": 1,
-            "description": "Recovers ally's Health with healing magic, and increases Combat Readiness by 80%. Amount recovered is proportional to the ally's max Health.",
+            "cooldown": 0,
+            "name": "Swift Action",
+            "soulAcquire": 0,
+            "description": "When an enemy is defeated, targets the enemy with the least Health for 2 turns and increases Speed of the caster by 30% for 1 turn.",
             "enhancement": [
                 {
-                    "description": "+5% healing",
+                    "description": "+5% Speed",
                     "resources": [
+                        {
+                            "item": "leather-sheath",
+                            "qty": 1
+                        },
                         {
                             "item": "molagora",
                             "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 9000
                         }
                     ]
                 },
                 {
-                    "description": "+5% Combat Readiness",
+                    "description": "+5% Speed",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        }
-                    ]
-                },
-                {
-                    "description": "+15% healing",
-                    "resources": [
-                        {
-                            "item": "ring-of-glory",
-                            "qty": 1
-                        },
-                        {
-                            "item": "molagora",
+                            "item": "leather-sheath",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 17000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% Combat Readiness",
-                    "resources": [
-                        {
-                            "item": "ring-of-glory",
-                            "qty": 3
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 5
                         },
                         {
                             "item": "gold",
@@ -230,39 +197,41 @@
                     ]
                 },
                 {
-                    "description": "+10% Combat Readiness",
+                    "description": "+10% Speed",
                     "resources": [
                         {
-                            "item": "fused-nerve",
-                            "qty": 2
+                            "item": "fighter-medal",
+                            "qty": 1
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 100000
+                            "qty": 50000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_sign"
+            ]
         },
         {
             "isPassive": false,
-            "soulBurn": 20,
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "Extends buff duration by 2 turns.",
+            "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": true,
-            "cooldown": 0,
-            "name": "Serenity",
-            "soulAcquire": 0,
-            "description": "Uses strengthening magic to increase the Combat Readiness of allies by 10% and grant continuous healing for 3 turns.",
+            "cooldown": 4,
+            "name": "Execution",
+            "soulAcquire": 2,
+            "description": "Attacks the enemy with a powerful ground pound, silencing them for 1 turn and decreasing their Combat Readiness by 30%. Damage dealt increases proportional to the caster and the enemy's Speed.",
             "enhancement": [
                 {
-                    "description": "+2% Combat Readiness",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "molagora",
@@ -275,7 +244,7 @@
                     ]
                 },
                 {
-                    "description": "+2% Combat Readiness",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "molagora",
@@ -291,7 +260,7 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
+                            "item": "leather-sheath",
                             "qty": 1
                         },
                         {
@@ -305,11 +274,28 @@
                     ]
                 },
                 {
-                    "description": "+3% Combat Readiness",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 3
+                            "item": "leather-sheath",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 30000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "leather-sheath",
+                            "qty": 4
                         },
                         {
                             "item": "molagorago",
@@ -317,15 +303,15 @@
                         },
                         {
                             "item": "gold",
-                            "qty": 35000
+                            "qty": 40000
                         }
                     ]
                 },
                 {
-                    "description": "+3% Combat Readiness",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "fused-nerve",
+                            "item": "fighter-medal",
                             "qty": 2
                         },
                         {
@@ -339,21 +325,21 @@
                     ]
                 }
             ],
-            "buffs": [
-                "stic_heal"
-            ],
-            "debuffs": []
+            "buffs": [],
+            "debuffs": [
+                "stic_silence"
+            ]
         }
     ],
     "specialtySkill": {
-        "name": "Calm Darkness",
-        "description": "Those who are used to darkness don't lose their senses even in the midst of chaos.",
+        "name": "Faithful Dog",
+        "description": "He will do whatever it takes to fulfill his given mission.",
         "dispatch": [],
         "enhancement": [],
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 21,
+            "charm": 72,
+            "politics": 55
         }
     },
     "memoryImprintFormation": {
@@ -419,7 +405,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": 0.03
+                    "": 0
                 },
                 {
                     "atk": 20
@@ -430,7 +416,7 @@
             ],
             "resources": [
                 {
-                    "item": "life-rune",
+                    "item": "dark-rune",
                     "qty": 8
                 }
             ]
@@ -440,7 +426,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": 0.03
+                    "": 0
                 },
                 {
                     "atk": 20
@@ -451,11 +437,11 @@
             ],
             "resources": [
                 {
-                    "item": "life-rune",
+                    "item": "dark-rune",
                     "qty": 12
                 },
                 {
-                    "item": "greater-life-rune",
+                    "item": "greater-dark-rune",
                     "qty": 2
                 }
             ]
@@ -473,11 +459,11 @@
             ],
             "resources": [
                 {
-                    "item": "life-rune",
+                    "item": "dark-rune",
                     "qty": 17
                 },
                 {
-                    "item": "greater-life-rune",
+                    "item": "greater-dark-rune",
                     "qty": 8
                 }
             ]
@@ -487,7 +473,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "spd": 4
+                    "": 0
                 },
                 {
                     "atk": 30
@@ -498,11 +484,11 @@
             ],
             "resources": [
                 {
-                    "item": "greater-life-rune",
+                    "item": "greater-dark-rune",
                     "qty": 8
                 },
                 {
-                    "item": "epic-life-rune",
+                    "item": "epic-dark-rune",
                     "qty": 2
                 }
             ]
@@ -512,7 +498,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": 0.06
+                    "": 0
                 },
                 {
                     "atk": 30
@@ -523,11 +509,11 @@
             ],
             "resources": [
                 {
-                    "item": "epic-life-rune",
+                    "item": "epic-dark-rune",
                     "qty": 5
                 },
                 {
-                    "item": "small-sun-badge",
+                    "item": "order-of-the-shield-insignia",
                     "qty": 12
                 }
             ]
@@ -537,7 +523,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": 0.06
+                    "": 0
                 },
                 {
                     "atk": 30
@@ -548,11 +534,11 @@
             ],
             "resources": [
                 {
-                    "item": "epic-life-rune",
+                    "item": "epic-dark-rune",
                     "qty": 8
                 },
                 {
-                    "item": "fused-nerve",
+                    "item": "fighter-medal",
                     "qty": 8
                 }
             ]

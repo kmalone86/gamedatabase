@@ -244,7 +244,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_def_dn"]
+            "debuffs": [
+                "stic_def_dn"
+            ]
         },
         {
             "isPassive": false,
@@ -527,7 +529,7 @@
                 },
                 {
                     "item": "epic-frost-rune",
-                    "qty": 1
+                    "qty": 2
                 }
             ]
         },

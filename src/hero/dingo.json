@@ -177,7 +177,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_blood"]
+            "debuffs": [
+                "stic_blood"
+            ]
         },
         {
             "isPassive": false,
@@ -299,7 +301,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_blaze"]
+            "debuffs": [
+                "stic_blaze"
+            ]
         },
         {
             "isPassive": false,
@@ -419,7 +423,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "3%"
+                    "eff": 0.03
                 },
                 {
                     "atk": 20
@@ -440,7 +444,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": "3%"
+                    "chc": 0.03
                 },
                 {
                     "atk": 20
@@ -503,7 +507,7 @@
                 },
                 {
                     "item": "epic-flame-rune",
-                    "qty": 1
+                    "qty": 2
                 }
             ]
         },
@@ -512,7 +516,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "6%"
+                    "eff": 0.06
                 },
                 {
                     "atk": 30
@@ -537,7 +541,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": "6%"
+                    "chc": 0.06
                 },
                 {
                     "atk": 30
