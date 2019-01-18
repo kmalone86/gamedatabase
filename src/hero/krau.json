@@ -96,11 +96,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": "1"
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": "4000"
+                            "qty": 4000
                         }
                     ]
                 },
@@ -109,11 +109,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": "2"
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": "8000"
+                            "qty": 8000
                         }
                     ]
                 },
@@ -122,15 +122,15 @@
                     "resources": [
                         {
                             "item": "strange-jelly",
-                            "qty": "2"
+                            "qty": 2
                         },
                         {
                             "item": "molagora",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": "22000"
+                            "qty": 22000
                         }
                     ]
                 },
@@ -139,15 +139,15 @@
                     "resources": [
                         {
                             "item": "strange-jelly",
-                            "qty": "4"
+                            "qty": 4
                         },
                         {
                             "item": "molagora",
-                            "qty": "5"
+                            "qty": 5
                         },
                         {
                             "item": "gold",
-                            "qty": "40000"
+                            "qty": 40000
                         }
                     ]
                 },
@@ -156,15 +156,15 @@
                     "resources": [
                         {
                             "item": "strange-jelly",
-                            "qty": "5"
+                            "qty": 5
                         },
                         {
                             "item": "molagorago",
-                            "qty": "1"
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": "45000"
+                            "qty": 45000
                         }
                     ]
                 },
@@ -173,21 +173,23 @@
                     "resources": [
                         {
                             "item": "ancient-creature-nucleus",
-                            "qty": "2"
+                            "qty": 2
                         },
                         {
                             "item": "molagorago",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": "120000"
+                            "qty": 120000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_provoke"]
+            "debuffs": [
+                "stic_provoke"
+            ]
         },
         {
             "isPassive": false,
@@ -205,11 +207,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": "1"
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": "4000"
+                            "qty": 4000
                         }
                     ]
                 },
@@ -218,11 +220,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": "2"
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": "8000"
+                            "qty": 8000
                         }
                     ]
                 },
@@ -231,11 +233,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": "12000"
+                            "qty": 12000
                         }
                     ]
                 },
@@ -244,15 +246,15 @@
                     "resources": [
                         {
                             "item": "strange-jelly",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
                             "item": "molagora",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": "27000"
+                            "qty": 27000
                         }
                     ]
                 },
@@ -261,15 +263,15 @@
                     "resources": [
                         {
                             "item": "strange-jelly",
-                            "qty": "4"
+                            "qty": 4
                         },
                         {
                             "item": "molagora",
-                            "qty": "5"
+                            "qty": 5
                         },
                         {
                             "item": "gold",
-                            "qty": "40000"
+                            "qty": 40000
                         }
                     ]
                 },
@@ -278,15 +280,15 @@
                     "resources": [
                         {
                             "item": "strange-jelly",
-                            "qty": "7"
+                            "qty": 7
                         },
                         {
                             "item": "molagorago",
-                            "qty": "1"
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": "55000"
+                            "qty": 55000
                         }
                     ]
                 },
@@ -295,20 +297,22 @@
                     "resources": [
                         {
                             "item": "ancient-creature-nucleus",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
                             "item": "molagorago",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": "150000"
+                            "qty": 150000
                         }
                     ]
                 }
             ],
-            "buffs": ["stic_def_up"],
+            "buffs": [
+                "stic_def_up"
+            ],
             "debuffs": []
         },
         {
@@ -327,15 +331,15 @@
                     "resources": [
                         {
                             "item": "strange-jelly",
-                            "qty": "5"
+                            "qty": 5
                         },
                         {
                             "item": "molagora",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": "37000"
+                            "qty": 37000
                         }
                     ]
                 },
@@ -344,20 +348,22 @@
                     "resources": [
                         {
                             "item": "ancient-creature-nucleus",
-                            "qty": "2"
+                            "qty": 2
                         },
                         {
                             "item": "molagorago",
-                            "qty": "2"
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": "100000"
+                            "qty": 100000
                         }
                     ]
                 }
             ],
-            "buffs": ["stic_protect"],
+            "buffs": [
+                "stic_protect"
+            ],
             "debuffs": []
         }
     ],
