@@ -77,26 +77,65 @@
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
                 },
                 {
                     "description": "+10% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "path-power-loop",
+                            "qty": 1
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 4
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 21000
+                        }
+                    ]
                 },
                 {
                     "description": "+10% effect chance",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "path-power-loop",
+                            "qty": 1
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 7
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 33000
+                        }
+                    ]
                 },
                 {
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "nightmare-mask",
+                            "qty": 2
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 80000
                         }
                     ]
                 }
@@ -117,26 +156,65 @@
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
                 },
                 {
                     "description": "+5% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "path-power-loop",
+                            "qty": 1
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 4
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 21000
+                        }
+                    ]
                 },
                 {
                     "description": "+10% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "path-power-loop",
+                            "qty": 1
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 7
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 33000
+                        }
+                    ]
                 },
                 {
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "nightmare-mask",
+                            "qty": 2
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 80000
                         }
                     ]
                 }
@@ -157,26 +235,57 @@
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
                 },
                 {
                     "description": "+5% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
                 },
                 {
                     "description": "+10% effect chance",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 12000
+                        }
+                    ]
                 },
                 {
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "path-power-loop",
+                            "qty": 1
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 17000
                         }
                     ]
                 },
@@ -184,12 +293,16 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "path-power-loop",
+                            "qty": 2
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 30000
                         }
                     ]
                 },
@@ -197,12 +310,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "path-power-loop",
+                            "qty": 5
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
                         }
                     ]
                 },
@@ -210,12 +327,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "nightmare-mask",
+                            "qty": 2
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 100000
                         }
                     ]
                 }
@@ -309,7 +430,7 @@
             ],
             "resources": [
                 {
-                    "item": "ice-rune",
+                    "item": "frost-rune",
                     "qty": 8
                 }
             ]
@@ -330,11 +451,11 @@
             ],
             "resources": [
                 {
-                    "item": "ice-rune",
+                    "item": "frost-rune",
                     "qty": 12
                 },
                 {
-                    "item": "greater-ice-rune",
+                    "item": "greater-frost-rune",
                     "qty": 2
                 }
             ]
@@ -352,11 +473,11 @@
             ],
             "resources": [
                 {
-                    "item": "ice-rune",
+                    "item": "frost-rune",
                     "qty": 17
                 },
                 {
-                    "item": "greater-ice-rune",
+                    "item": "greater-frost-rune",
                     "qty": 8
                 }
             ]
@@ -377,11 +498,11 @@
             ],
             "resources": [
                 {
-                    "item": "greater-ice-rune",
+                    "item": "greater-frost-rune",
                     "qty": 8
                 },
                 {
-                    "item": "epic-ice-rune",
+                    "item": "epic-frost-rune",
                     "qty": 2
                 }
             ]
@@ -402,7 +523,7 @@
             ],
             "resources": [
                 {
-                    "item": "epic-ice-rune",
+                    "item": "epic-frost-rune",
                     "qty": 5
                 },
                 {
@@ -427,7 +548,7 @@
             ],
             "resources": [
                 {
-                    "item": "epic-ice-rune",
+                    "item": "epic-frost-rune",
                     "qty": 8
                 },
                 {
