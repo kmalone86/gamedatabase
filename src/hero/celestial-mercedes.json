@@ -127,12 +127,12 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 1
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
@@ -144,12 +144,12 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 3
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -161,11 +161,11 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
+                            "item": "black-curse-powder",
                             "qty": 2
                         },
                         {
-                            "item": "black-curse-powder",
+                            "item": "molagorago",
                             "qty": 2
                         },
                         {
@@ -176,7 +176,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_heal_impossible"]
+            "debuffs": [
+                "stic_heal_impossible"
+            ]
         },
         {
             "isPassive": false,
@@ -219,12 +221,12 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 1
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
@@ -236,12 +238,12 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 3
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -253,11 +255,11 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
+                            "item": "black-curse-powder",
                             "qty": 2
                         },
                         {
-                            "item": "black-curse-powder",
+                            "item": "molagorago",
                             "qty": 2
                         },
                         {
@@ -311,12 +313,12 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 1
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
@@ -328,12 +330,12 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 3
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -345,11 +347,11 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
+                            "item": "black-curse-powder",
                             "qty": 2
                         },
                         {
-                            "item": "black-curse-powder",
+                            "item": "molagorago",
                             "qty": 2
                         },
                         {
@@ -359,15 +361,21 @@
                     ]
                 }
             ],
-            "buffs": ["stic_att_inc"],
+            "buffs": [
+                "stic_att_inc"
+            ],
             "debuffs": []
         }
     ],
     "specialtySkill": {
         "name": "Good and Evil",
         "description": "There's a fine line between good and evil.",
-        "dispatch": ["[Sanctuary] Category"],
-        "enhancement": ["Time Required -6%"],
+        "dispatch": [
+            "[Sanctuary] Category"
+        ],
+        "enhancement": [
+            "Time Required -6%"
+        ],
         "stats": {
             "command": 64,
             "charm": 55,
@@ -424,7 +432,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": "3%"
+                    "chc": 0.03
                 },
                 {
                     "atk": 20
@@ -445,7 +453,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -492,7 +500,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chd": "6%"
+                    "chd": 0.06
                 },
                 {
                     "atk": 30
@@ -508,7 +516,7 @@
                 },
                 {
                     "item": "epic-dark-rune",
-                    "qty": 1
+                    "qty": 2
                 }
             ]
         },
@@ -517,7 +525,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": "6%"
+                    "chc": 0.06
                 },
                 {
                     "atk": 30
@@ -542,7 +550,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
