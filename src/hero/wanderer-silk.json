@@ -156,7 +156,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_blood"]
+            "debuffs": [
+                "stic_blood"
+            ]
         },
         {
             "isPassive": false,
@@ -340,14 +342,21 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_heal_impossible", "stic_silence"]
+            "debuffs": [
+                "stic_heal_impossible",
+                "stic_silence"
+            ]
         }
     ],
     "specialtySkill": {
         "name": "Calm Before the Storm",
         "description": "She keeps on her toes, knowing danger lurks around every corner.",
-        "dispatch": ["[Battle] Type"],
-        "enhancement": ["Reward Bonus +6%"],
+        "dispatch": [
+            "[Battle] Type"
+        ],
+        "enhancement": [
+            "Reward Bonus +6%"
+        ],
         "stats": {
             "command": 15,
             "charm": 85,
@@ -432,7 +441,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "3%"
+                    "eff": 0.03
                 },
                 {
                     "atk": "20"
@@ -479,7 +488,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "6%"
+                    "eff": 0.06
                 },
                 {
                     "atk": "30"
@@ -495,7 +504,7 @@
                 },
                 {
                     "item": "epic-light-rune",
-                    "qty": 1
+                    "qty": 2
                 }
             ]
         },
@@ -529,7 +538,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "6%"
+                    "eff": 0.06
                 },
                 {
                     "atk": "30"
