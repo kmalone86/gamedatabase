@@ -83,25 +83,25 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 4000
-                        },
-                        {
                             "item": "molagora",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
                         }
                     ]
                 },
                 {
                     "description": "+5% damage dealt",
                     "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        },
                         {
                             "item": "molagora",
                             "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
                         }
                     ]
                 },
@@ -109,16 +109,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "mysterious-flash",
+                            "qty": 1
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "mysterious-flash",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 17000
                         }
                     ]
                 },
@@ -126,16 +126,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 35000
+                            "item": "mysterious-flash",
+                            "qty": 3
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "mysterious-flash",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 35000
                         }
                     ]
                 },
@@ -143,22 +143,24 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "reingar-student-id",
+                            "qty": 2
                         },
                         {
                             "item": "molagorago",
                             "qty": 2
                         },
                         {
-                            "item": "reingar-student-id",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 100000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_provoke"]
+            "debuffs": [
+                "stic_provoke"
+            ]
         },
         {
             "isPassive": true,
@@ -175,12 +177,12 @@
                     "description": "+3% trigger chance",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 4000
-                        },
-                        {
                             "item": "molagora",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
                         }
                     ]
                 },
@@ -188,12 +190,12 @@
                     "description": "+3% trigger chance",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 8000
-                        },
-                        {
                             "item": "molagora",
                             "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
                         }
                     ]
                 },
@@ -201,33 +203,33 @@
                     "description": "+4% trigger chance",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "mysterious-flash",
+                            "qty": 1
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "mysterious-flash",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 17000
                         }
                     ]
                 },
                 {
                     "description": "+5% trigger chance",
                     "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 35000
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
                         {
                             "item": "mysterious-flash",
                             "qty": 3
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 35000
                         }
                     ]
                 },
@@ -235,21 +237,23 @@
                     "description": "+5% trigger chance",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "reingar-student-id",
+                            "qty": 2
                         },
                         {
                             "item": "molagorago",
                             "qty": 2
                         },
                         {
-                            "item": "reingar-student-id",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 100000
                         }
                     ]
                 }
             ],
-            "buffs": ["stic_def_up"],
+            "buffs": [
+                "stic_def_up"
+            ],
             "debuffs": []
         },
         {
@@ -267,12 +271,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 4000
-                        },
-                        {
                             "item": "molagora",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
                         }
                     ]
                 },
@@ -280,12 +284,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 8000
-                        },
-                        {
                             "item": "molagora",
                             "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
                         }
                     ]
                 },
@@ -293,33 +297,33 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "mysterious-flash",
+                            "qty": 1
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "mysterious-flash",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 17000
                         }
                     ]
                 },
                 {
                     "description": "+10% damage dealt",
                     "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 35000
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
                         {
                             "item": "mysterious-flash",
                             "qty": 3
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 35000
                         }
                     ]
                 },
@@ -327,16 +331,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "reingar-student-id",
+                            "qty": 2
                         },
                         {
                             "item": "molagorago",
                             "qty": 2
                         },
                         {
-                            "item": "reingar-studet-id",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 100000
                         }
                     ]
                 }
@@ -413,7 +417,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -434,7 +438,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "3%"
+                    "def": 0.03
                 },
                 {
                     "atk": 20
@@ -467,12 +471,12 @@
             ],
             "resources": [
                 {
-                    "item": "greater-light-rune",
-                    "qty": 8
-                },
-                {
                     "item": "light-rune",
                     "qty": 17
+                },
+                {
+                    "item": "greater-light-rune",
+                    "qty": 8
                 }
             ]
         },
@@ -481,7 +485,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": "6%"
+                    "efr": 0.06
                 },
                 {
                     "atk": 30
@@ -497,7 +501,7 @@
                 },
                 {
                     "item": "epic-light-rune",
-                    "qty": 1
+                    "qty": 2
                 }
             ]
         },
@@ -506,7 +510,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
@@ -531,7 +535,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "6%"
+                    "def": 0.06
                 },
                 {
                     "atk": 30
