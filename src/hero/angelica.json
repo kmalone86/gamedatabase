@@ -92,11 +92,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": "1"
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": "4000"
+                            "qty": 4000
                         }
                     ]
                 },
@@ -105,11 +105,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": "2"
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": "8000"
+                            "qty": 8000
                         }
                     ]
                 },
@@ -118,32 +118,32 @@
                     "resources": [
                         {
                             "item": "baby-mouse-insignia",
-                            "qty": "1"
+                            "qty": 1
                         },
                         {
                             "item": "molagora",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": "17000"
+                            "qty": 17000
                         }
                     ]
                 },
                 {
                     "description": "+10% damage dealt",
                     "resources": [
-                        {
-                            "item": "gold",
-                            "qty": "35000"
-                        },
                         {
                             "item": "baby-mouse-insignia",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
                             "item": "molagorago",
-                            "qty": "1"
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 35000
                         }
                     ]
                 },
@@ -151,22 +151,24 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "100000"
-                        },
-                        {
                             "item": "the-heart-of-hypocrisy",
-                            "qty": "2"
+                            "qty": 2
                         },
                         {
                             "item": "molagorago",
-                            "qty": "2"
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 100000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_stun"]
+            "debuffs": [
+                "stic_stun"
+            ]
         },
         {
             "isPassive": false,
@@ -184,11 +186,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": "1"
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": "4000"
+                            "qty": 4000
                         }
                     ]
                 },
@@ -197,11 +199,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": "2"
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": "8000"
+                            "qty": 8000
                         }
                     ]
                 },
@@ -210,15 +212,15 @@
                     "resources": [
                         {
                             "item": "baby-mouse-insignia",
-                            "qty": "1"
+                            "qty": 1
                         },
                         {
                             "item": "molagora",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": "17000"
+                            "qty": 17000
                         }
                     ]
                 },
@@ -227,15 +229,15 @@
                     "resources": [
                         {
                             "item": "baby-mouse-insignia",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
                             "item": "molagorago",
-                            "qty": "1"
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": "35000"
+                            "qty": 35000
                         }
                     ]
                 },
@@ -243,16 +245,16 @@
                     "description": "+10% healing",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "100000"
-                        },
-                        {
                             "item": "the-heart-of-hypocrisy",
-                            "qty": "2"
+                            "qty": 2
                         },
                         {
                             "item": "molagorago",
-                            "qty": "2"
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 100000
                         }
                     ]
                 }
@@ -276,11 +278,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": "1"
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": "4000"
+                            "qty": 4000
                         }
                     ]
                 },
@@ -289,11 +291,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": "2"
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": "8000"
+                            "qty": 8000
                         }
                     ]
                 },
@@ -302,15 +304,15 @@
                     "resources": [
                         {
                             "item": "baby-mouse-insignia",
-                            "qty": "1"
+                            "qty": 1
                         },
                         {
                             "item": "molagora",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": "17000"
+                            "qty": 17000
                         }
                     ]
                 },
@@ -319,15 +321,15 @@
                     "resources": [
                         {
                             "item": "baby-mouse-insignia",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
                             "item": "molagorago",
-                            "qty": "1"
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": "35000"
+                            "qty": 35000
                         }
                     ]
                 },
@@ -336,20 +338,23 @@
                     "resources": [
                         {
                             "item": "the-heart-of-hypocrisy",
-                            "qty": "2"
+                            "qty": 2
                         },
                         {
                             "item": "molagorago",
-                            "qty": "2"
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": "100000"
+                            "qty": 100000
                         }
                     ]
                 }
             ],
-            "buffs": ["stic_protect", "stic_debuf_impossible"],
+            "buffs": [
+                "stic_protect",
+                "stic_debuf_impossible"
+            ],
             "debuffs": []
         }
     ],
@@ -421,7 +426,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": "20"
@@ -433,7 +438,7 @@
             "resources": [
                 {
                     "item": "frost-rune",
-                    "qty": "8"
+                    "qty": 8
                 }
             ]
         },
@@ -442,7 +447,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": "20"
@@ -454,11 +459,11 @@
             "resources": [
                 {
                     "item": "frost-rune",
-                    "qty": "12"
+                    "qty": 12
                 },
                 {
                     "item": "greater-frost-rune",
-                    "qty": "2"
+                    "qty": 2
                 }
             ]
         },
@@ -476,11 +481,11 @@
             "resources": [
                 {
                     "item": "frost-rune",
-                    "qty": "17"
+                    "qty": 17
                 },
                 {
                     "item": "greater-frost-rune",
-                    "qty": "8"
+                    "qty": 8
                 }
             ]
         },
@@ -489,7 +494,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "6%"
+                    "def": 0.06
                 },
                 {
                     "atk": "30"
@@ -501,11 +506,11 @@
             "resources": [
                 {
                     "item": "greater-frost-rune",
-                    "qty": "8"
+                    "qty": 8
                 },
                 {
                     "item": "epic-frost-rune",
-                    "qty": "1"
+                    "qty": 2
                 }
             ]
         },
@@ -514,7 +519,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": "30"
@@ -526,11 +531,11 @@
             "resources": [
                 {
                     "item": "epic-frost-rune",
-                    "qty": "5"
+                    "qty": 5
                 },
                 {
                     "item": "special-alarm-loop",
-                    "qty": "12"
+                    "qty": 12
                 }
             ]
         },
@@ -539,7 +544,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": "30"
@@ -551,11 +556,11 @@
             "resources": [
                 {
                     "item": "epic-frost-rune",
-                    "qty": "8"
+                    "qty": 8
                 },
                 {
                     "item": "the-heart-of-hypocrisy",
-                    "qty": "8"
+                    "qty": 8
                 }
             ]
         }
