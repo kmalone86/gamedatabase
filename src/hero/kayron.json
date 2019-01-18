@@ -1,12 +1,12 @@
 {
-    "name": "Vildred",
+    "name": "Kayron",
     "rarity": 5,
     "classType": "thief",
-    "element": "earth",
-    "zodiac": "leo",
+    "element": "fire",
+    "zodiac": "aries",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "Due to his humorous style of speaking, many mistake Vildred as being light-hearted, but he has a serious side that leads him to stubbornly push ahead with what he thinks is right.",
+    "background": "An Acolyte, and commander of an army of undead known as the Dust Walkers. It is said that he demands your soul and loyalty in return for releasing you from your grudges.",
     "relations": [
         {
             "hero": "",
@@ -37,43 +37,19 @@
             "eff": 0,
             "efr": 0,
             "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4718,
-            "cp": 14130,
-            "spd": 116,
-            "atk": 961,
-            "def": 522,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 3752,
-            "cp": 11324,
-            "spd": 116,
-            "atk": 771,
-            "def": 421,
-            "efr": 0
         }
     },
     "skills": [
         {
             "isPassive": false,
-            "soulBurn": 0,
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
+            "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": false,
             "cooldown": 0,
-            "name": "Sweep",
-            "soulAcquire": 0,
-            "description": "Rapidly attacks two enemies with a swordstorm. Damage dealt increases proportional to the caster's Speed.",
+            "name": "Void Slash",
+            "soulAcquire": 1,
+            "description": "Attacks with a sword, with a 35% chance to decrease Hit Chance for 1 turn, dealing damage proportional to the caster's lost Health.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -102,11 +78,11 @@
                     ]
                 },
                 {
-                    "description": "+5% damage dealt",
+                    "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "twisted-fang",
-                            "qty": 5
+                            "item": "path-power-loop",
+                            "qty": 2
                         },
                         {
                             "item": "molagora",
@@ -114,16 +90,33 @@
                         },
                         {
                             "item": "gold",
-                            "qty": 37000
+                            "qty": 22000
                         }
                     ]
                 },
                 {
-                    "description": "+10% damage dealt",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "twisted-fang",
-                            "qty": 7
+                            "item": "path-power-loop",
+                            "qty": 4
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 40000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "path-power-loop",
+                            "qty": 5
                         },
                         {
                             "item": "molagorago",
@@ -131,15 +124,15 @@
                         },
                         {
                             "item": "gold",
-                            "qty": 55000
+                            "qty": 45000
                         }
                     ]
                 },
                 {
-                    "description": "+10% damage dealt",
+                    "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "blazing-soul",
+                            "item": "nightmare-mask",
                             "qty": 2
                         },
                         {
@@ -154,110 +147,88 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_blind"
+            ]
         },
         {
             "isPassive": true,
             "soulBurn": 0,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
-            "awakenUpgrade": true,
+            "awakenUpgrade": false,
             "cooldown": 0,
-            "name": "Dancing Blade",
+            "name": "Immortal Will",
             "soulAcquire": 0,
-            "description": "Increases Attack of the caster for 2 turns and attacks all enemies one more time when an enemy is defeated by Sweep or Blade Ascent. Increases Combat Readiness of the caster by 20% when an enemy is defeated.",
+            "description": "Grants immortality for 1 turn when the caster receives lethal damage and resets skill cooldown of Apocalypse.\nCan only be activated once every 9 turn(s).\nOn the caster's turn, when buffed and using Void Slash, the skill will become an AoE attack and does not trigger Dual Attack.",
             "enhancement": [
                 {
-                    "description": "+5% damage dealt by additional skill",
+                    "description": "-1 turn cooldown",
                     "resources": [
+                        {
+                            "item": "path-power-loop",
+                            "qty": 3
+                        },
                         {
                             "item": "molagora",
                             "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 19000
                         }
                     ]
                 },
                 {
-                    "description": "+5% damage dealt by additional skill",
+                    "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% damage dealt by additional skill",
-                    "resources": [
-                        {
-                            "item": "twisted-fang",
+                            "item": "path-power-loop",
                             "qty": 5
                         },
                         {
                             "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
+                        }
+                    ]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        {
+                            "item": "nightmare-mask",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 37000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% damage dealt by additional skill",
-                    "resources": [
-                        {
-                            "item": "twisted-fang",
-                            "qty": 7
-                        },
-                        {
                             "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 55000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt by additional skill",
-                    "resources": [
-                        {
-                            "item": "blazing-soul",
                             "qty": 2
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 3
-                        },
-                        {
                             "item": "gold",
-                            "qty": 120000
+                            "qty": 130000
                         }
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_immortal"
+            ],
             "debuffs": []
         },
         {
             "isPassive": false,
             "soulBurn": 0,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "Increases damage dealt.",
-            "awakenUpgrade": false,
-            "cooldown": 0,
-            "name": "Blade Ascent",
-            "soulAcquire": 0,
-            "description": "Attacks all enemies with a swordstorm, dealing damage proportional to the caster's Speed.",
+            "soulBurnEffect": "",
+            "awakenUpgrade": true,
+            "cooldown": 6,
+            "name": "Apocalypse",
+            "soulAcquire": 3,
+            "description": "Attacks the enemy by exploding the Archdemon's Might contained within their sword, increasing Attack of the caster for 2 turns. If the enemy is defeated, extends any buffs granted to the caster by 1 turn. Deals damage proportional to the caster's lost Health.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -289,8 +260,8 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "twisted-fang",
-                            "qty": 5
+                            "item": "path-power-loop",
+                            "qty": 2
                         },
                         {
                             "item": "molagora",
@@ -298,7 +269,7 @@
                         },
                         {
                             "item": "gold",
-                            "qty": 37000
+                            "qty": 22000
                         }
                     ]
                 },
@@ -306,8 +277,25 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "twisted-fang",
-                            "qty": 7
+                            "item": "path-power-loop",
+                            "qty": 4
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 40000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "path-power-loop",
+                            "qty": 5
                         },
                         {
                             "item": "molagorago",
@@ -315,7 +303,7 @@
                         },
                         {
                             "item": "gold",
-                            "qty": 55000
+                            "qty": 45000
                         }
                     ]
                 },
@@ -323,7 +311,7 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "blazing-soul",
+                            "item": "nightmare-mask",
                             "qty": 2
                         },
                         {
@@ -337,19 +325,21 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_att_up"
+            ],
             "debuffs": []
         }
     ],
     "specialtySkill": {
-        "name": "Legendary Gladiator",
-        "description": "Under his sword, every ill will is brought to light.",
+        "name": "Desire for Ruin",
+        "description": "He destroys everything with his army of Dust Walkers, yearning for the annihilation of the world.",
         "dispatch": [],
         "enhancement": [],
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 94,
+            "charm": 81,
+            "politics": 75
         }
     },
     "memoryImprintFormation": {
@@ -426,7 +416,7 @@
             ],
             "resources": [
                 {
-                    "item": "life-rune",
+                    "item": "flame-rune",
                     "qty": 10
                 }
             ]
@@ -447,11 +437,11 @@
             ],
             "resources": [
                 {
-                    "item": "life-rune",
+                    "item": "flame-rune",
                     "qty": 15
                 },
                 {
-                    "item": "greater-life-rune",
+                    "item": "greater-flame-rune",
                     "qty": 2
                 }
             ]
@@ -469,11 +459,11 @@
             ],
             "resources": [
                 {
-                    "item": "life-rune",
+                    "item": "flame-rune",
                     "qty": 20
                 },
                 {
-                    "item": "greater-life-rune",
+                    "item": "greater-flame-rune",
                     "qty": 10
                 }
             ]
@@ -494,11 +484,11 @@
             ],
             "resources": [
                 {
-                    "item": "greater-life-rune",
+                    "item": "greater-flame-rune",
                     "qty": 10
                 },
                 {
-                    "item": "epic-life-rune",
+                    "item": "epic-flame-rune",
                     "qty": 2
                 }
             ]
@@ -519,11 +509,11 @@
             ],
             "resources": [
                 {
-                    "item": "epic-life-rune",
+                    "item": "epic-flame-rune",
                     "qty": 6
                 },
                 {
-                    "item": "ultra-fang",
+                    "item": "blessing-of-orbis",
                     "qty": 15
                 }
             ]
@@ -544,11 +534,11 @@
             ],
             "resources": [
                 {
-                    "item": "epic-life-rune",
+                    "item": "epic-flame-rune",
                     "qty": 10
                 },
                 {
-                    "item": "blazing-soul",
+                    "item": "nightmare-mask",
                     "qty": 10
                 }
             ]

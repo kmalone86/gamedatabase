@@ -96,14 +96,88 @@
             "soulAcquire": 1,
             "description": "Attacks with a spear, with a 35% chance to decrease Defense fo 2 turns. Damage dealt increases proportional to the caster's max Health.",
             "enhancement": [
-                "+5% damage dealt",
-                "+5% effect chance",
-                "+10% damage dealt",
-                "+10% effect chance",
-                "+15% damage dealt"
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "5% effect chance",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "path-power-loop",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 37000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "path-power-loop",
+                            "qty": 7
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 55000
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "nightmare-mask",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
+                        }
+                    ]
+                }
             ],
             "buffs": [],
-            "debuffs": ["stic_def_dn"]
+            "debuffs": [
+                "stic_def_dn"
+            ]
         },
         {
             "isPassive": false,
@@ -115,14 +189,88 @@
             "soulAcquire": 2,
             "description": "Attacks all enemies with a magical spear, with a 35% chance to decrease Attack for 2 turns. The chance increases by 50% when the caster's Health is less than 50%. Damage dealt increases proportional to the caster's max Health.",
             "enhancement": [
-                "+5% damage dealt",
-                "+5% effect chance",
-                "+10% damage dealt",
-                "+10% effect chance",
-                "+15% damage dealt"
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "path-power-loop",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 37000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "path-power-loop",
+                            "qty": 7
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 55000
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "nightmare-mask",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
+                        }
+                    ]
+                }
             ],
             "buffs": [],
-            "debuffs": ["stic_att_dn"]
+            "debuffs": [
+                "stic_att_dn"
+            ]
         },
         {
             "isPassive": false,
@@ -134,21 +282,101 @@
             "soulAcquire": 2,
             "description": "Attacks all enemies with a spear infused with dark energy, 60% chance to provoke for 1 turn, granting a barrier to the caster for 2 turns. Damage dealt and barrier strength increases proportional to the caster's max Health.",
             "enhancement": [
-                "+10% damage dealt",
-                "+5% effect chance",
-                "-1 turn cooldown",
-                "+10% effect chance",
-                "+15% damage dealt"
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        {
+                            "item": "path-power-loop",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 37000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "path-power-loop",
+                            "qty": 7
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 55000
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "nightmare-mask",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
+                        }
+                    ]
+                }
             ],
-            "buffs": ["stic_protect"],
-            "debuffs": ["stic_provoke"]
+            "buffs": [
+                "stic_protect"
+            ],
+            "debuffs": [
+                "stic_provoke"
+            ]
         }
     ],
     "specialtySkill": {
         "name": "Legacy of Dragon Knight",
         "description": "Having long fought dragons, the Wintenberg dynasty passes down their knowledge via holy scripture.",
-        "dispatch": ["[Gathering] Attribute"],
-        "enhancement": ["Reward bonus +10%"],
+        "dispatch": [
+            "[Gathering] Attribute"
+        ],
+        "enhancement": [
+            "Reward bonus +10%"
+        ],
         "stats": {
             "command": 91,
             "charm": 90,

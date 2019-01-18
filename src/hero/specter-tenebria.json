@@ -93,47 +93,103 @@
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
                 },
                 {
                     "description": "+5% effect chance",
-                    "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 12000 }]
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
                 },
                 {
                     "description": "+5% damage dealt",
                     "resources": [
-                        { "item": "ring-of-glory", "qty": 2 },
-                        { "item": "molagora", "qty": 3 },
-                        { "item": "gold", "qty": 22000 }
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 22000
+                        }
                     ]
                 },
                 {
                     "description": "+15% effect chance",
                     "resources": [
-                        { "item": "ring-of-glory", "qty": 4 },
-                        { "item": "molagora", "qty": 5 },
-                        { "item": "gold", "qty": 40000 }
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 4
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 40000
+                        }
                     ]
                 },
                 {
                     "description": "+5% damage dealt",
                     "resources": [
-                        { "item": "ring-of-glory", "qty": 5 },
-                        { "item": "molagorago", "qty": 1 },
-                        { "item": "gold", "qty": 45000 }
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
+                        }
                     ]
                 },
                 {
                     "description": "+15% damage dealt",
                     "resources": [
-                        { "item": "fused-nerve", "qty": 2 },
-                        { "item": "molagorago", "qty": 3 },
-                        { "item": "gold", "qty": 120000 }
+                        {
+                            "item": "fused-nerve",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
+                        }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_dot"]
+            "debuffs": [
+                "stic_dot"
+            ]
         },
         {
             "isPassive": true,
@@ -149,25 +205,52 @@
                 {
                     "description": "-2% damage received",
                     "resources": [
-                        { "item": "ring-of-glory", "qty": 3 },
-                        { "item": "molagora", "qty": 1 },
-                        { "item": "gold", "qty": 19000 }
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 3
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 19000
+                        }
                     ]
                 },
                 {
                     "description": "-3% damage received",
                     "resources": [
-                        { "item": "ring-of-glory", "qty": 5 },
-                        { "item": "molagora", "qty": 5 },
-                        { "item": "gold", "qty": 45000 }
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
+                        }
                     ]
                 },
                 {
                     "description": "-5% damage received",
                     "resources": [
-                        { "item": "fused-nerve", "qty": 3 },
-                        { "item": "molagorago", "qty": 2 },
-                        { "item": "gold", "qty": 130000 }
+                        {
+                            "item": "fused-nerve",
+                            "qty": 3
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 130000
+                        }
                     ]
                 }
             ],
@@ -187,42 +270,96 @@
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 1 }, { "item": "gold", "qty": 4000 }]
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
                 },
                 {
                     "description": "+5% damage dealt",
-                    "resources": [{ "item": "molagora", "qty": 2 }, { "item": "gold", "qty": 12000 }]
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
                 },
                 {
                     "description": "-1 turn cooldown",
                     "resources": [
-                        { "item": "ring-of-glory", "qty": 2 },
-                        { "item": "molagora", "qty": 3 },
-                        { "item": "gold", "qty": 22000 }
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 22000
+                        }
                     ]
                 },
                 {
                     "description": "+5% damage dealt",
                     "resources": [
-                        { "item": "ring-of-glory", "qty": 4 },
-                        { "item": "molagora", "qty": 5 },
-                        { "item": "gold", "qty": 40000 }
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 4
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 40000
+                        }
                     ]
                 },
                 {
                     "description": "+10% damage dealt",
                     "resources": [
-                        { "item": "ring-of-glory", "qty": 5 },
-                        { "item": "molagorago", "qty": 1 },
-                        { "item": "gold", "qty": 45000 }
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
+                        }
                     ]
                 },
                 {
                     "description": "+10% damage dealt",
                     "resources": [
-                        { "item": "fused-nerve", "qty": 2 },
-                        { "item": "molagorago", "qty": 3 },
-                        { "item": "gold", "qty": 120000 }
+                        {
+                            "item": "fused-nerve",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
+                        }
                     ]
                 }
             ],
@@ -233,8 +370,12 @@
     "specialtySkill": {
         "name": "Similar but Better",
         "description": "Sometimes fulfilling desires can result in great things.",
-        "dispatch": ["[Weakened] Attribute"],
-        "enhancement": ["Reward Bonus +10%"],
+        "dispatch": [
+            "[Weakened] Attribute"
+        ],
+        "enhancement": [
+            "Reward Bonus +10%"
+        ],
         "stats": {
             "command": 34,
             "charm": 84,

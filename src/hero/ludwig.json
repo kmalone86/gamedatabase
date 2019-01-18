@@ -77,26 +77,61 @@
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
                 },
                 {
                     "description": "+5% effect chance",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
                 },
                 {
                     "description": "+10% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "twisted-fang",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 37000
+                        }
+                    ]
                 },
                 {
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "twisted-fang",
+                            "qty": 7
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 55000
                         }
                     ]
                 },
@@ -104,12 +139,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "blazing-soul",
+                            "qty": 2
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
                         }
                     ]
                 }
@@ -130,26 +169,61 @@
             "enhancement": [
                 {
                     "description": "+10% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
                 },
                 {
                     "description": "+5% effect chance",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
                 },
                 {
                     "description": "-1 turn cooldown",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "twisted-fang",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 37000
+                        }
+                    ]
                 },
                 {
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "twisted-fang",
+                            "qty": 7
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 55000
                         }
                     ]
                 },
@@ -157,12 +231,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "blazing-soul",
+                            "qty": 2
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
                         }
                     ]
                 }
@@ -183,26 +261,61 @@
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
                 },
                 {
                     "description": "+5% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
                 },
                 {
                     "description": "-1 turn cooldown",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "twisted-fang",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 37000
+                        }
+                    ]
                 },
                 {
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "twisted-fang",
+                            "qty": 7
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 55000
                         }
                     ]
                 },
@@ -210,12 +323,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "blazing-soul",
+                            "qty": 2
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
                         }
                     ]
                 }
@@ -309,7 +426,7 @@
             ],
             "resources": [
                 {
-                    "item": "earth-rune",
+                    "item": "life-rune",
                     "qty": 10
                 }
             ]
@@ -330,11 +447,11 @@
             ],
             "resources": [
                 {
-                    "item": "earth-rune",
+                    "item": "life-rune",
                     "qty": 15
                 },
                 {
-                    "item": "greater-earth-rune",
+                    "item": "greater-life-rune",
                     "qty": 2
                 }
             ]
@@ -352,11 +469,11 @@
             ],
             "resources": [
                 {
-                    "item": "earth-rune",
+                    "item": "life-rune",
                     "qty": 20
                 },
                 {
-                    "item": "greater-earth-rune",
+                    "item": "greater-life-rune",
                     "qty": 10
                 }
             ]
@@ -377,11 +494,11 @@
             ],
             "resources": [
                 {
-                    "item": "greater-earth-rune",
+                    "item": "greater-life-rune",
                     "qty": 10
                 },
                 {
-                    "item": "epic-earth-rune",
+                    "item": "epic-life-rune",
                     "qty": 2
                 }
             ]
@@ -402,7 +519,7 @@
             ],
             "resources": [
                 {
-                    "item": "epic-earth-rune",
+                    "item": "epic-life-rune",
                     "qty": 6
                 },
                 {
@@ -427,7 +544,7 @@
             ],
             "resources": [
                 {
-                    "item": "epic-earth-rune",
+                    "item": "epic-life-rune",
                     "qty": 10
                 },
                 {

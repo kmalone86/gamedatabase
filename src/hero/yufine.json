@@ -81,26 +81,61 @@
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
-                    "resources": []
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": []
-                },
-                {
-                    "description": "+5% effect chance",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
                 },
                 {
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "molagora",
+                            "qty": 2
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "shiny-enchantment",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 22000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "shiny-enchantment",
+                            "qty": 4
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 40000
                         }
                     ]
                 },
@@ -108,12 +143,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "shiny-enchantment",
+                            "qty": 5
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
                         }
                     ]
                 },
@@ -121,18 +160,24 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "horn-of-desire",
+                            "qty": 2
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_def_dn"]
+            "debuffs": [
+                "stic_def_dn"
+            ]
         },
         {
             "isPassive": false,
@@ -147,19 +192,63 @@
             "enhancement": [
                 {
                     "description": "+5% effect chance",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "shiny-enchantment",
+                            "qty": 3
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 19000
+                        }
+                    ]
                 },
                 {
                     "description": "-1 turn cooldown",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "shiny-enchantment",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
+                        }
+                    ]
                 },
                 {
                     "description": "+5% effect chance",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "horn-of-desire",
+                            "qty": 3
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 130000
+                        }
+                    ]
                 }
             ],
-            "buffs": ["stic_att_up", "stic_speed_up"],
-            "debuffs": ["stic_silence"]
+            "buffs": [
+                "stic_att_up",
+                "stic_speed_up"
+            ],
+            "debuffs": [
+                "stic_silence"
+            ]
         },
         {
             "isPassive": false,
@@ -174,26 +263,61 @@
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
                 },
                 {
                     "description": "+5% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
                 },
                 {
                     "description": "-1 turn cooldown",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "shiny-enchantment",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 22000
+                        }
+                    ]
                 },
                 {
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "shiny-enchantment",
+                            "qty": 4
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 40000
                         }
                     ]
                 },
@@ -201,12 +325,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "shiny-enchantment",
+                            "qty": 5
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
                         }
                     ]
                 },
@@ -214,18 +342,24 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "horn-of-desire",
+                            "qty": 2
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_stun"]
+            "debuffs": [
+                "stic_stun"
+            ]
         }
     ],
     "specialtySkill": {
@@ -313,7 +447,7 @@
             ],
             "resources": [
                 {
-                    "item": "earth-rune",
+                    "item": "life-rune",
                     "qty": 10
                 }
             ]
@@ -334,11 +468,11 @@
             ],
             "resources": [
                 {
-                    "item": "earth-rune",
+                    "item": "life-rune",
                     "qty": 15
                 },
                 {
-                    "item": "greater-earth-rune",
+                    "item": "greater-life-rune",
                     "qty": 2
                 }
             ]
@@ -356,11 +490,11 @@
             ],
             "resources": [
                 {
-                    "item": "earth-rune",
+                    "item": "life-rune",
                     "qty": 20
                 },
                 {
-                    "item": "greater-earth-rune",
+                    "item": "greater-life-rune",
                     "qty": 10
                 }
             ]
@@ -381,11 +515,11 @@
             ],
             "resources": [
                 {
-                    "item": "greater-earth-rune",
+                    "item": "greater-life-rune",
                     "qty": 10
                 },
                 {
-                    "item": "epic-earth-rune",
+                    "item": "epic-life-rune",
                     "qty": 2
                 }
             ]
@@ -406,7 +540,7 @@
             ],
             "resources": [
                 {
-                    "item": "epic-earth-rune",
+                    "item": "epic-life-rune",
                     "qty": 6
                 },
                 {
@@ -431,7 +565,7 @@
             ],
             "resources": [
                 {
-                    "item": "epic-earth-rune",
+                    "item": "epic-life-rune",
                     "qty": 10
                 },
                 {
