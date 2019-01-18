@@ -167,7 +167,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_att_dn"]
+            "debuffs": [
+                "stic_att_dn"
+            ]
         },
         {
             "isPassive": true,
@@ -245,7 +247,9 @@
                     ]
                 }
             ],
-            "buffs": ["stic_protect"],
+            "buffs": [
+                "stic_protect"
+            ],
             "debuffs": []
         },
         {
@@ -439,7 +443,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -460,7 +464,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "3%"
+                    "def": 0.03
                 },
                 {
                     "atk": 20
@@ -507,7 +511,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
@@ -523,7 +527,7 @@
                 },
                 {
                     "item": "epic-frost-rune",
-                    "qty": 1
+                    "qty": 2
                 }
             ]
         },
@@ -532,7 +536,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
@@ -557,7 +561,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "6%"
+                    "def": 0.06
                 },
                 {
                     "atk": 30
