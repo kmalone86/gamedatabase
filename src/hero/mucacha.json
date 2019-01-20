@@ -1,12 +1,12 @@
 {
-    "name": "Commander Lorina",
+    "name": "Mucacha",
     "rarity": 3,
     "classType": "warrior",
-    "element": "dark",
-    "zodiac": "leo",
+    "element": "earth",
+    "zodiac": "sagittarius",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "Lorina became an official knight after defeating a Wyvern with her spear. She aims to lead the vanguard of the Order of the Shield one day, and acts without thinking based on what she believes is right.",
+    "background": "Living carefree as the leader of a group of thieves, Mucacha turned over a new leaf after meeting Cecilia and began an honest life as a follower of Corvus. He cherishes loyalty.",
     "relations": [
         {
             "hero": "",
@@ -37,30 +37,6 @@
             "eff": 0,
             "efr": 0,
             "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4475,
-            "cp": 13027,
-            "spd": 101,
-            "atk": 843,
-            "def": 543,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 3559,
-            "cp": 10445,
-            "spd": 101,
-            "atk": 677,
-            "def": 438,
-            "efr": 0
         }
     },
     "skills": [
@@ -69,14 +45,14 @@
             "soulBurn": 0,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
-            "awakenUpgrade": true,
+            "awakenUpgrade": false,
             "cooldown": 0,
-            "name": "Sharp Blow",
+            "name": "Ancient Spear Art",
             "soulAcquire": 1,
-            "description": "Knocks the enemy into the air with a spear, increasing Combat Readiness of the caster by 20%.",
+            "description": "Attacks with a spear, increasing own Combat Readiness by 15%. Damage dealt increases proportional to the caster's Speed.",
             "enhancement": [
                 {
-                    "description": "+5% damage dealt ",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "molagora",
@@ -89,7 +65,7 @@
                     ]
                 },
                 {
-                    "description": "+5% damage dealt ",
+                    "description": "+2% Combat Readiness",
                     "resources": [
                         {
                             "item": "molagora",
@@ -105,7 +81,7 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "twisted-fang",
+                            "item": "archers-vision",
                             "qty": 3
                         },
                         {
@@ -119,10 +95,10 @@
                     ]
                 },
                 {
-                    "description": "+10% damage dealt",
+                    "description": "+3% Combat Readiness",
                     "resources": [
                         {
-                            "item": "twisted-fang",
+                            "item": "archers-vision",
                             "qty": 4
                         },
                         {
@@ -136,10 +112,10 @@
                     ]
                 },
                 {
-                    "description": "+10% damage dealt",
+                    "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "twisted-fang",
+                            "item": "archers-vision",
                             "qty": 5
                         },
                         {
@@ -163,12 +139,12 @@
             "soulBurnEffect": "",
             "awakenUpgrade": false,
             "cooldown": 0,
-            "name": "Spiritual Armament",
+            "name": "Wild",
             "soulAcquire": 0,
-            "description": "Increases Attack 10% each time the caster attacks an enemy. Effect can only stack up to 5 times.",
+            "description": "Increases Speed by 1% each time the caster attacks an enemy. Effect can only stack up to 5 times.",
             "enhancement": [
                 {
-                    "description": "+0.5% Attack",
+                    "description": "+0.1% Speed",
                     "resources": [
                         {
                             "item": "molagora",
@@ -181,7 +157,7 @@
                     ]
                 },
                 {
-                    "description": "+0.5% Attack",
+                    "description": "+0.2% Speed",
                     "resources": [
                         {
                             "item": "molagora",
@@ -194,10 +170,10 @@
                     ]
                 },
                 {
-                    "description": "+1% Attack",
+                    "description": "+0.2% Speed",
                     "resources": [
                         {
-                            "item": "twisted-fang",
+                            "item": "archers-vision",
                             "qty": 3
                         },
                         {
@@ -211,10 +187,10 @@
                     ]
                 },
                 {
-                    "description": "+1% Attack",
+                    "description": "+0.2% Speed",
                     "resources": [
                         {
-                            "item": "twisted-fang",
+                            "item": "archers-vision",
                             "qty": 4
                         },
                         {
@@ -228,10 +204,10 @@
                     ]
                 },
                 {
-                    "description": "+1% Attack",
+                    "description": "+0.3% Speed",
                     "resources": [
                         {
-                            "item": "twisted-fang",
+                            "item": "archers-vision",
                             "qty": 5
                         },
                         {
@@ -253,11 +229,11 @@
             "soulBurn": 20,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Grants an extra turn.",
-            "awakenUpgrade": false,
+            "awakenUpgrade": true,
             "cooldown": 4,
-            "name": "Spiral Breakthrough",
-            "soulAcquire": 2,
-            "description": "Pierces the enemy with a spear, decreasing Combat Readiness by 15%. Damage dealt increases proportional to the amount of the enemy's lost Health.",
+            "name": "Enlightened Blow",
+            "soulAcquire": 3,
+            "description": "Attacks with a fatal blow, with a 75% chance to decrease Defense for 2 turns and increase Speed of the caster for 2 turns. Damage dealt increases proportional to the caster's Speed.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -273,7 +249,7 @@
                     ]
                 },
                 {
-                    "description": "+5% damage dealt",
+                    "description": "+10% effect chance",
                     "resources": [
                         {
                             "item": "molagora",
@@ -286,10 +262,10 @@
                     ]
                 },
                 {
-                    "description": "-1 turn cooldown",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "twisted-fang",
+                            "item": "archers-vision",
                             "qty": 3
                         },
                         {
@@ -303,10 +279,10 @@
                     ]
                 },
                 {
-                    "description": "+10% damage dealt",
+                    "description": "+15% effect chance",
                     "resources": [
                         {
-                            "item": "twisted-fang",
+                            "item": "archers-vision",
                             "qty": 4
                         },
                         {
@@ -323,7 +299,7 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "twisted-fang",
+                            "item": "archers-vision",
                             "qty": 5
                         },
                         {
@@ -337,19 +313,23 @@
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": []
+            "buffs": [
+                "stic_speed_up"
+            ],
+            "debuffs": [
+                "stic_def_dn"
+            ]
         }
     ],
     "specialtySkill": {
-        "name": "Faithful Spear",
-        "description": "Through faith she can overcome moments of weakness and doubt.",
+        "name": "Manly Man",
+        "description": "Come at me! As you know, experience always makes you stronger.",
         "dispatch": [],
         "enhancement": [],
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 41,
+            "charm": 48,
+            "politics": 40
         }
     },
     "memoryImprintFormation": {
@@ -415,7 +395,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": 0.03
+                    "": 0
                 },
                 {
                     "atk": 20
@@ -426,7 +406,7 @@
             ],
             "resources": [
                 {
-                    "item": "dark-rune",
+                    "item": "life-rune",
                     "qty": 5
                 }
             ]
@@ -436,7 +416,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": 0.03
+                    "": 0
                 },
                 {
                     "atk": 20
@@ -447,7 +427,7 @@
             ],
             "resources": [
                 {
-                    "item": "dark-rune",
+                    "item": "life-rune",
                     "qty": 9
                 }
             ]
@@ -465,11 +445,11 @@
             ],
             "resources": [
                 {
-                    "item": "dark-rune",
+                    "item": "life-rune",
                     "qty": 12
                 },
                 {
-                    "item": "greater-dark-rune",
+                    "item": "greater-life-rune",
                     "qty": 6
                 }
             ]
@@ -479,7 +459,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.06
+                    "": 0
                 },
                 {
                     "atk": 30
@@ -490,7 +470,7 @@
             ],
             "resources": [
                 {
-                    "item": "greater-dark-rune",
+                    "item": "greater-life-rune",
                     "qty": 15
                 }
             ]
@@ -500,7 +480,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": 0.06
+                    "": 0
                 },
                 {
                     "atk": 30
@@ -511,11 +491,11 @@
             ],
             "resources": [
                 {
-                    "item": "epic-dark-rune",
+                    "item": "epic-life-rune",
                     "qty": 4
                 },
                 {
-                    "item": "ultra-fang",
+                    "item": "cold-look",
                     "qty": 9
                 }
             ]
@@ -525,7 +505,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": 0.06
+                    "": 0
                 },
                 {
                     "atk": 30
@@ -536,11 +516,11 @@
             ],
             "resources": [
                 {
-                    "item": "epic-dark-rune",
+                    "item": "epic-life-rune",
                     "qty": 6
                 },
                 {
-                    "item": "blazing-soul",
+                    "item": "mercenarys-medicine",
                     "qty": 6
                 }
             ]

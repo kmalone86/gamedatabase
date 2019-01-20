@@ -91,12 +91,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "4000"
+                            "item": "molagora",
+                            "qty": 1
                         },
                         {
-                            "item": "molagora",
-                            "qty": "1"
+                            "item": "gold",
+                            "qty": 4000
                         }
                     ]
                 },
@@ -104,12 +104,12 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "8000"
+                            "item": "molagora",
+                            "qty": 2
                         },
                         {
-                            "item": "molagora",
-                            "qty": "2"
+                            "item": "gold",
+                            "qty": 8000
                         }
                     ]
                 },
@@ -117,16 +117,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "27000"
+                            "item": "baby-mouse-insignia",
+                            "qty": 3
                         },
                         {
                             "item": "molagora",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": "4"
+                            "item": "gold",
+                            "qty": 27000
                         }
                     ]
                 },
@@ -134,16 +134,16 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "44000"
+                            "item": "baby-mouse-insignia",
+                            "qty": 4
                         },
                         {
                             "item": "molagora",
-                            "qty": "6"
+                            "qty": 6
                         },
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": "4"
+                            "item": "gold",
+                            "qty": 44000
                         }
                     ]
                 },
@@ -151,22 +151,24 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "45000"
+                            "item": "baby-mouse-insignia",
+                            "qty": 5
                         },
                         {
                             "item": "molagorago",
-                            "qty": "1"
+                            "qty": 1
                         },
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": "5"
+                            "item": "gold",
+                            "qty": 45000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_provoke"]
+            "debuffs": [
+                "stic_provoke"
+            ]
         },
         {
             "isPassive": true,
@@ -183,12 +185,12 @@
                     "description": "+10% additional defense increase when attacked",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "4000"
+                            "item": "molagora",
+                            "qty": 1
                         },
                         {
-                            "item": "molagora",
-                            "qty": "1"
+                            "item": "gold",
+                            "qty": 4000
                         }
                     ]
                 },
@@ -196,46 +198,29 @@
                     "description": "+10% additional defense increase when attacked",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "8000"
+                            "item": "molagora",
+                            "qty": 2
                         },
                         {
-                            "item": "molagora",
-                            "qty": "2"
+                            "item": "gold",
+                            "qty": 8000
                         }
                     ]
                 },
                 {
                     "description": "+10% additional defense increase when attacked",
                     "resources": [
-                        {
-                            "item": "gold",
-                            "qty": "27000"
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": "3"
-                        },
                         {
                             "item": "baby-mouse-insignia",
-                            "qty": "3"
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% additional defense increase when attacked",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": "44000"
+                            "qty": 3
                         },
                         {
                             "item": "molagora",
-                            "qty": "6"
+                            "qty": 3
                         },
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": "4"
+                            "item": "gold",
+                            "qty": 27000
                         }
                     ]
                 },
@@ -243,21 +228,40 @@
                     "description": "+10% additional defense increase when attacked",
                     "resources": [
                         {
+                            "item": "baby-mouse-insignia",
+                            "qty": 4
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 6
+                        },
+                        {
                             "item": "gold",
-                            "qty": "45000"
+                            "qty": 44000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% additional defense increase when attacked",
+                    "resources": [
+                        {
+                            "item": "baby-mouse-insignia",
+                            "qty": 5
                         },
                         {
                             "item": "molagorago",
-                            "qty": "1"
+                            "qty": 1
                         },
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": "5"
+                            "item": "gold",
+                            "qty": 45000
                         }
                     ]
                 }
             ],
-            "buffs": ["stic_def_up"],
+            "buffs": [
+                "stic_def_up"
+            ],
             "debuffs": []
         },
         {
@@ -275,12 +279,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "4000"
+                            "item": "molagora",
+                            "qty": 1
                         },
                         {
-                            "item": "molagora",
-                            "qty": "1"
+                            "item": "gold",
+                            "qty": 4000
                         }
                     ]
                 },
@@ -288,12 +292,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "8000"
+                            "item": "molagora",
+                            "qty": 2
                         },
                         {
-                            "item": "molagora",
-                            "qty": "2"
+                            "item": "gold",
+                            "qty": 8000
                         }
                     ]
                 },
@@ -301,16 +305,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "27000"
+                            "item": "baby-mouse-insignia",
+                            "qty": 3
                         },
                         {
                             "item": "molagora",
-                            "qty": "3"
+                            "qty": 3
                         },
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": "3"
+                            "item": "gold",
+                            "qty": 27000
                         }
                     ]
                 },
@@ -318,16 +322,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "44000"
+                            "item": "baby-mouse-insignia",
+                            "qty": 4
                         },
                         {
                             "item": "molagora",
-                            "qty": "6"
+                            "qty": 6
                         },
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": "4"
+                            "item": "gold",
+                            "qty": 44000
                         }
                     ]
                 },
@@ -335,21 +339,23 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": "45000"
+                            "item": "baby-mouse-insignia",
+                            "qty": 5
                         },
                         {
                             "item": "molagorago",
-                            "qty": "1"
+                            "qty": 1
                         },
                         {
-                            "item": "baby-mouse-insignia",
-                            "qty": "5"
+                            "item": "gold",
+                            "qty": 45000
                         }
                     ]
                 }
             ],
-            "buffs": ["stic_protect"],
+            "buffs": [
+                "stic_protect"
+            ],
             "debuffs": []
         }
     ],
@@ -364,6 +370,12 @@
             "politics": "40"
         }
     },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
+    },
     "memoryImprint": [
         {
             "rank": "d",
@@ -376,42 +388,42 @@
             "rank": "c",
             "status": {
                 "type": "def",
-                "increase": 0
+                "increase": 18
             }
         },
         {
             "rank": "b",
             "status": {
                 "type": "def",
-                "increase": 0
+                "increase": 24
             }
         },
         {
             "rank": "a",
             "status": {
                 "type": "def",
-                "increase": 0
+                "increase": 30
             }
         },
         {
             "rank": "s",
             "status": {
                 "type": "def",
-                "increase": 0
+                "increase": 36
             }
         },
         {
             "rank": "ss",
             "status": {
                 "type": "def",
-                "increase": 0
+                "increase": 42
             }
         },
         {
             "rank": "sss",
             "status": {
                 "type": "def",
-                "increase": 0
+                "increase": 48
             }
         }
     ],
@@ -421,7 +433,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": "20"
@@ -433,7 +445,7 @@
             "resources": [
                 {
                     "item": "dark-rune",
-                    "qty": "5"
+                    "qty": 5
                 }
             ]
         },
@@ -442,7 +454,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "3%"
+                    "def": 0.03
                 },
                 {
                     "atk": "20"
@@ -454,7 +466,7 @@
             "resources": [
                 {
                     "item": "dark-rune",
-                    "qty": "9"
+                    "qty": 9
                 }
             ]
         },
@@ -472,11 +484,11 @@
             "resources": [
                 {
                     "item": "dark-rune",
-                    "qty": "12"
+                    "qty": 12
                 },
                 {
                     "item": "greater-dark-rune",
-                    "qty": "6"
+                    "qty": 6
                 }
             ]
         },
@@ -485,7 +497,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": "30"
@@ -497,7 +509,7 @@
             "resources": [
                 {
                     "item": "greater-dark-rune",
-                    "qty": "15"
+                    "qty": 15
                 }
             ]
         },
@@ -506,7 +518,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": "30"
@@ -518,11 +530,11 @@
             "resources": [
                 {
                     "item": "epic-dark-rune",
-                    "qty": "4"
+                    "qty": 4
                 },
                 {
                     "item": "special-alarm-loop",
-                    "qty": "9"
+                    "qty": 9
                 }
             ]
         },
@@ -531,7 +543,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "6%"
+                    "def": 0.06
                 },
                 {
                     "atk": "30"
@@ -543,11 +555,11 @@
             "resources": [
                 {
                     "item": "epic-dark-rune",
-                    "qty": "6"
+                    "qty": 6
                 },
                 {
                     "item": "the-heart-of-hypocrisy",
-                    "qty": "6"
+                    "qty": 6
                 }
             ]
         }

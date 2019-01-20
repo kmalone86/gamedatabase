@@ -77,23 +77,80 @@
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
                 },
                 {
                     "description": "+10% effect chance",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
                 },
                 {
                     "description": "+10% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "slime-jelly",
+                            "qty": 3
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 27000
+                        }
+                    ]
                 },
                 {
                     "description": "+15% effect chance",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "slime-jelly",
+                            "qty": 4
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 6
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 44000
+                        }
+                    ]
                 },
                 {
                     "description": "+15% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "slime-jelly",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
+                        }
+                    ]
                 }
             ],
             "buffs": [],
@@ -112,23 +169,80 @@
             "enhancement": [
                 {
                     "description": "+0.5% Defense",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
                 },
                 {
                     "description": "+0.5% Defense",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
                 },
                 {
                     "description": "+0.5% Defense",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "slime-jelly",
+                            "qty": 3
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 27000
+                        }
+                    ]
                 },
                 {
                     "description": "+0.5% Defense",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "slime-jelly",
+                            "qty": 4
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 6
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 44000
+                        }
+                    ]
                 },
                 {
                     "description": "+1% Defense",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "slime-jelly",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
+                        }
+                    ]
                 }
             ],
             "buffs": [],
@@ -147,27 +261,88 @@
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
                 },
                 {
                     "description": "+5% effect chance",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
                 },
                 {
                     "description": "+10% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "slime-jelly",
+                            "qty": 3
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 27000
+                        }
+                    ]
                 },
                 {
                     "description": "+10% effect chance",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "slime-jelly",
+                            "qty": 4
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 6
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 44000
+                        }
+                    ]
                 },
                 {
                     "description": "+15% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "slime-jelly",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
+                        }
+                    ]
                 }
             ],
-            "buffs": ["stic_counter"],
-            "debuffs": ["stic_blind"]
+            "buffs": [
+                "stic_counter"
+            ],
+            "debuffs": [
+                "stic_blind"
+            ]
         }
     ],
     "specialtySkill": {

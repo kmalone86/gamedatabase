@@ -185,7 +185,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_speed_dn"]
+            "debuffs": [
+                "stic_speed_dn"
+            ]
         },
         {
             "isPassive": true,
@@ -233,8 +235,12 @@
                     ]
                 }
             ],
-            "buffs": ["stic_protect"],
-            "debuffs": ["stic_blaze"]
+            "buffs": [
+                "stic_protect"
+            ],
+            "debuffs": [
+                "stic_blaze"
+            ]
         },
         {
             "isPassive": false,
@@ -356,7 +362,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_blaze"]
+            "debuffs": [
+                "stic_blaze"
+            ]
         }
     ],
     "specialtySkill": {
@@ -370,12 +378,18 @@
             "politics": 10
         }
     },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
+    },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 24
             }
         },
         {
@@ -427,7 +441,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -448,7 +462,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": "3%"
+                    "chc": 0.03
                 },
                 {
                     "atk": 20
@@ -512,7 +526,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -537,7 +551,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": "6%"
+                    "chc": 0.06
                 },
                 {
                     "atk": 30

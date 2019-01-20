@@ -119,11 +119,11 @@
                     "description": "+15% healing",
                     "resources": [
                         {
-                            "item": "molagora",
+                            "item": "sharp-spearhead",
                             "qty": 3
                         },
                         {
-                            "item": "sharp-spearhead",
+                            "item": "molagora",
                             "qty": 3
                         },
                         {
@@ -136,12 +136,12 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 6
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 4
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 6
                         },
                         {
                             "item": "gold",
@@ -153,12 +153,12 @@
                     "description": "+15% healing",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -211,11 +211,11 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "molagora",
+                            "item": "sharp-spearhead",
                             "qty": 3
                         },
                         {
-                            "item": "sharp-spearhead",
+                            "item": "molagora",
                             "qty": 3
                         },
                         {
@@ -228,12 +228,12 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 6
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 4
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 6
                         },
                         {
                             "item": "gold",
@@ -245,12 +245,12 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -260,7 +260,10 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_provoke", "stic_heal_impossible"]
+            "debuffs": [
+                "stic_provoke",
+                "stic_heal_impossible"
+            ]
         },
         {
             "isPassive": false,
@@ -303,11 +306,11 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "molagora",
+                            "item": "sharp-spearhead",
                             "qty": 3
                         },
                         {
-                            "item": "sharp-spearhead",
+                            "item": "molagora",
                             "qty": 3
                         },
                         {
@@ -320,12 +323,12 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 6
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 4
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 6
                         },
                         {
                             "item": "gold",
@@ -337,12 +340,12 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -352,19 +355,31 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_speed_dn"]
+            "debuffs": [
+                "stic_speed_dn"
+            ]
         }
     ],
     "specialtySkill": {
         "name": "Sharp Insight",
         "description": "With sharp eyes, she thwarts those that would do evil.",
-        "dispatch": ["[Time Limit] attribute mission"],
-        "enhancement": ["Reward Bonus +10%"],
+        "dispatch": [
+            "[Time Limit] attribute mission"
+        ],
+        "enhancement": [
+            "Reward Bonus +10%"
+        ],
         "stats": {
             "command": 22,
             "charm": 60,
             "politics": 43
         }
+    },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
@@ -423,7 +438,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -444,7 +459,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -487,7 +502,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "6%"
+                    "def": 0.06
                 },
                 {
                     "atk": 30
@@ -508,7 +523,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
@@ -533,7 +548,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": 30

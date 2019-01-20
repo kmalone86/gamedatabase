@@ -132,11 +132,11 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
+                            "item": "archers-vision",
                             "qty": 3
                         },
                         {
-                            "item": "archers-vision",
+                            "item": "molagora",
                             "qty": 3
                         },
                         {
@@ -149,11 +149,11 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
+                            "item": "archers-vision",
                             "qty": 4
                         },
                         {
-                            "item": "archers-vision",
+                            "item": "molagora",
                             "qty": 4
                         },
                         {
@@ -166,12 +166,12 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "archers-vision",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -183,12 +183,12 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "archers-vision",
                             "qty": 6
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -198,7 +198,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_def_dn"]
+            "debuffs": [
+                "stic_def_dn"
+            ]
         },
         {
             "isPassive": false,
@@ -241,12 +243,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
                             "item": "archers-vision",
                             "qty": 1
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
@@ -258,12 +260,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 5
-                        },
-                        {
                             "item": "archers-vision",
                             "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
                         },
                         {
                             "item": "gold",
@@ -275,12 +277,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "archers-vision",
                             "qty": 4
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -292,12 +294,12 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "archers-vision",
                             "qty": 6
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -324,11 +326,11 @@
                     "description": "Acquire +1 Soul",
                     "resources": [
                         {
-                            "item": "molagora",
+                            "item": "archers-vision",
                             "qty": 2
                         },
                         {
-                            "item": "archers-vision",
+                            "item": "molagora",
                             "qty": 2
                         },
                         {
@@ -341,12 +343,12 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "archers-vision",
                             "qty": 3
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -355,15 +357,21 @@
                     ]
                 }
             ],
-            "buffs": ["stic_att_up"],
+            "buffs": [
+                "stic_att_up"
+            ],
             "debuffs": []
         }
     ],
     "specialtySkill": {
         "name": "One by One",
         "description": "She shows no hesitation while defeating her enemies.",
-        "dispatch": ["[Gathering] attribute mission"],
-        "enhancement": ["Reward Bonus +10%"],
+        "dispatch": [
+            "[Gathering] attribute mission"
+        ],
+        "enhancement": [
+            "Reward Bonus +10%"
+        ],
         "stats": {
             "command": 74,
             "charm": 11,
@@ -427,7 +435,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -448,7 +456,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": "3%"
+                    "chc": 0.03
                 },
                 {
                     "atk": 20
@@ -512,7 +520,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -537,7 +545,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": "6%"
+                    "chc": 0.06
                 },
                 {
                     "atk": 30

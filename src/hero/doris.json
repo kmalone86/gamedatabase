@@ -115,11 +115,11 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
+                            "item": "baby-mouse-insignia",
                             "qty": 3
                         },
                         {
-                            "item": "baby-mouse-insignia",
+                            "item": "molagora",
                             "qty": 3
                         },
                         {
@@ -132,12 +132,12 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 6
-                        },
-                        {
                             "item": "baby-mouse-insignia",
                             "qty": 4
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 6
                         },
                         {
                             "item": "gold",
@@ -149,12 +149,12 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "baby-mouse-insignia",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -164,7 +164,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_blind"]
+            "debuffs": [
+                "stic_blind"
+            ]
         },
         {
             "isPassive": false,
@@ -207,11 +209,11 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "molagora",
+                            "item": "baby-mouse-insignia",
                             "qty": 3
                         },
                         {
-                            "item": "baby-mouse-insignia",
+                            "item": "molagora",
                             "qty": 3
                         },
                         {
@@ -224,12 +226,12 @@
                     "description": "+15% healing",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 6
-                        },
-                        {
                             "item": "baby-mouse-insignia",
                             "qty": 4
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 6
                         },
                         {
                             "item": "gold",
@@ -241,12 +243,12 @@
                     "description": "+15% healing",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "baby-mouse-insignia",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -255,7 +257,10 @@
                     ]
                 }
             ],
-            "buffs": ["stic_heal", "stic_def_up"],
+            "buffs": [
+                "stic_heal",
+                "stic_def_up"
+            ],
             "debuffs": []
         },
         {
@@ -299,11 +304,11 @@
                     "description": "+10% healing",
                     "resources": [
                         {
-                            "item": "molagora",
+                            "item": "baby-mouse-insignia",
                             "qty": 3
                         },
                         {
-                            "item": "baby-mouse-insignia",
+                            "item": "molagora",
                             "qty": 3
                         },
                         {
@@ -316,12 +321,12 @@
                     "description": "+15% healing",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 6
-                        },
-                        {
                             "item": "baby-mouse-insignia",
                             "qty": 4
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 6
                         },
                         {
                             "item": "gold",
@@ -333,12 +338,12 @@
                     "description": "+15% healing",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "baby-mouse-insignia",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -354,13 +359,23 @@
     "specialtySkill": {
         "name": "Family Heritage",
         "description": "The knowledge of past generations guides her.",
-        "dispatch": ["[Hidden Clue] Attribute"],
-        "enhancement": ["Reward Bonus +10%"],
+        "dispatch": [
+            "[Hidden Clue] Attribute"
+        ],
+        "enhancement": [
+            "Reward Bonus +10%"
+        ],
         "stats": {
             "command": 8,
             "charm": 38,
             "politics": 25
         }
+    },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
@@ -419,7 +434,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -440,7 +455,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -483,7 +498,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "6%"
+                    "def": 0.06
                 },
                 {
                     "atk": 30
@@ -504,7 +519,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
@@ -529,7 +544,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": 30

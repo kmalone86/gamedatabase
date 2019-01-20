@@ -185,7 +185,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_def_dn"]
+            "debuffs": [
+                "stic_def_dn"
+            ]
         },
         {
             "isPassive": false,
@@ -233,7 +235,9 @@
                     ]
                 }
             ],
-            "buffs": ["stic_speed_up"],
+            "buffs": [
+                "stic_speed_up"
+            ],
             "debuffs": []
         },
         {
@@ -362,13 +366,23 @@
     "specialtySkill": {
         "name": "Righteous Helper",
         "description": "He can't turn his back on anyone who asks for help.",
-        "dispatch": ["[Gathering] Attribute"],
-        "enhancement": ["Reward Bonus +10%"],
+        "dispatch": [
+            "[Gathering] Attribute"
+        ],
+        "enhancement": [
+            "Reward Bonus +10%"
+        ],
         "stats": {
             "command": 41,
             "charm": 83,
             "politics": 17
         }
+    },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
@@ -427,7 +441,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": "20"
@@ -448,7 +462,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": "20"
@@ -491,7 +505,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "6%"
+                    "def": 0.06
                 },
                 {
                     "atk": "30"
@@ -512,7 +526,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": "30"
@@ -537,7 +551,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": "30"

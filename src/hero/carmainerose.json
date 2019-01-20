@@ -255,8 +255,12 @@
                     ]
                 }
             ],
-            "buffs": ["stic_speed_up"],
-            "debuffs": ["stic_speed_dn"]
+            "buffs": [
+                "stic_speed_up"
+            ],
+            "debuffs": [
+                "stic_speed_dn"
+            ]
         },
         {
             "isPassive": false,
@@ -347,20 +351,33 @@
                     ]
                 }
             ],
-            "buffs": ["stic_att_up", "stic_def_up"],
+            "buffs": [
+                "stic_att_up",
+                "stic_def_up"
+            ],
             "debuffs": []
         }
     ],
     "specialtySkill": {
         "name": "Combat Maniac",
         "description": "Her thirst for blood and victory knows no bounds. She'll do anything for it.",
-        "dispatch": ["[Battle] Type"],
-        "enhancement": ["Reward Bonus +6%"],
+        "dispatch": [
+            "[Battle] Type"
+        ],
+        "enhancement": [
+            "Reward Bonus +6%"
+        ],
         "stats": {
             "command": 61,
             "charm": 15,
             "politics": 58
         }
+    },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
@@ -419,7 +436,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": "20"
@@ -440,7 +457,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "3%"
+                    "eff": 0.03
                 },
                 {
                     "atk": "20"
@@ -483,7 +500,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": "30"
@@ -504,7 +521,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": "30"
@@ -529,7 +546,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "6%"
+                    "eff": 0.06
                 },
                 {
                     "atk": "30"

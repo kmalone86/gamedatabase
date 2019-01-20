@@ -106,12 +106,12 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
                             "item": "leather-sheath",
                             "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
@@ -123,12 +123,12 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 5
-                        },
-                        {
                             "item": "leather-sheath",
                             "qty": 3
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
                         },
                         {
                             "item": "gold",
@@ -140,12 +140,12 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "leather-sheath",
                             "qty": 4
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -155,7 +155,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_heal_impossible"]
+            "debuffs": [
+                "stic_heal_impossible"
+            ]
         },
         {
             "isPassive": false,
@@ -185,12 +187,12 @@
                     "description": "+10% healing",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
                             "item": "leather-sheath",
                             "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
@@ -202,12 +204,12 @@
                     "description": "+10% healing",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 5
-                        },
-                        {
                             "item": "leather-sheath",
                             "qty": 3
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
                         },
                         {
                             "item": "gold",
@@ -219,12 +221,12 @@
                     "description": "+15% healing",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "leather-sheath",
                             "qty": 4
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -290,11 +292,11 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "molagora",
+                            "item": "leather-sheath",
                             "qty": 3
                         },
                         {
-                            "item": "leather-sheath",
+                            "item": "molagora",
                             "qty": 3
                         },
                         {
@@ -307,11 +309,11 @@
                     "description": "+10% healing",
                     "resources": [
                         {
-                            "item": "molagora",
+                            "item": "leather-sheath",
                             "qty": 4
                         },
                         {
-                            "item": "leather-sheath",
+                            "item": "molagora",
                             "qty": 4
                         },
                         {
@@ -324,12 +326,12 @@
                     "description": "+10% healing",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "leather-sheath",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -341,12 +343,12 @@
                     "description": "+15% healing",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "leather-sheath",
                             "qty": 6
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -355,20 +357,32 @@
                     ]
                 }
             ],
-            "buffs": ["stic_att_up"],
+            "buffs": [
+                "stic_att_up"
+            ],
             "debuffs": []
         }
     ],
     "specialtySkill": {
         "name": "Knowledge Is Power",
         "description": "Brain beat brawn every time.",
-        "dispatch": ["[Unknown Knowledge] Attribute"],
-        "enhancement": ["Reward Bonus +10%"],
+        "dispatch": [
+            "[Unknown Knowledge] Attribute"
+        ],
+        "enhancement": [
+            "Reward Bonus +10%"
+        ],
         "stats": {
             "command": 11,
             "charm": 48,
             "politics": 88
         }
+    },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
@@ -427,7 +441,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -448,7 +462,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -491,7 +505,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "6%"
+                    "def": 0.06
                 },
                 {
                     "atk": 30
@@ -512,7 +526,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -537,7 +551,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": 30

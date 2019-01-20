@@ -115,16 +115,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 4
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 3
                         },
                         {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
                             "item": "gold",
-                            "qty": 31000
+                            "qty": 27000
                         }
                     ]
                 },
@@ -132,16 +132,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 4
                         },
                         {
+                            "item": "molagora",
+                            "qty": 6
+                        },
+                        {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 44000
                         }
                     ]
                 },
@@ -149,12 +149,12 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -164,7 +164,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_provoke"]
+            "debuffs": [
+                "stic_provoke"
+            ]
         },
         {
             "isPassive": true,
@@ -207,33 +209,33 @@
                     "description": "+5% deflected damage",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 4
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 3
                         },
                         {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
                             "item": "gold",
-                            "qty": 31000
+                            "qty": 27000
                         }
                     ]
                 },
                 {
                     "description": "+5% deflected damage",
                     "resources": [
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
                         {
                             "item": "sharp-spearhead",
                             "qty": 4
                         },
                         {
+                            "item": "molagora",
+                            "qty": 6
+                        },
+                        {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 44000
                         }
                     ]
                 },
@@ -241,12 +243,12 @@
                     "description": "+5% deflected damage",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -299,16 +301,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 4
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 3
                         },
                         {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
                             "item": "gold",
-                            "qty": 31000
+                            "qty": 27000
                         }
                     ]
                 },
@@ -316,16 +318,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 4
                         },
                         {
+                            "item": "molagora",
+                            "qty": 6
+                        },
+                        {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 44000
                         }
                     ]
                 },
@@ -333,12 +335,12 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -354,13 +356,23 @@
     "specialtySkill": {
         "name": "Veteran Soldier",
         "description": "As a soldier of the palace, they take pride in keeping order.",
-        "dispatch": ["[Security] type mission"],
-        "enhancement": ["Reward Bonus +6%"],
+        "dispatch": [
+            "[Security] type mission"
+        ],
+        "enhancement": [
+            "Reward Bonus +6%"
+        ],
         "stats": {
             "command": 19,
             "charm": 12,
             "politics": 17
         }
+    },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
@@ -419,7 +431,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -440,7 +452,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -483,7 +495,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -504,7 +516,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
@@ -529,7 +541,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": 30

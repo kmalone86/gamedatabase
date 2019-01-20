@@ -106,8 +106,12 @@
                     "description": "+2% Combat Readiness",
                     "resources": [
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
                         }
                     ]
                 },
@@ -115,8 +119,16 @@
                     "description": "+3% Combat Readiness",
                     "resources": [
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "ring-of-glory",
+                            "qty": 1
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 17000
                         }
                     ]
                 },
@@ -124,8 +136,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "ring-of-glory",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 30000
                         }
                     ]
                 },
@@ -133,8 +153,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "ring-of-glory",
+                            "qty": 4
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 40000
                         }
                     ]
                 },
@@ -142,14 +170,24 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "ring-of-glory",
+                            "qty": 6
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 50000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_sign"]
+            "debuffs": [
+                "stic_sign"
+            ]
         },
         {
             "isPassive": true,
@@ -166,12 +204,12 @@
                     "description": "+5% trigger chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "ring-of-glory",
                             "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -183,8 +221,16 @@
                     "description": "+5% trigger chance",
                     "resources": [
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "ring-of-glory",
+                            "qty": 3
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 27000
                         }
                     ]
                 },
@@ -192,14 +238,24 @@
                     "description": "+10% trigger chance",
                     "resources": [
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "ring-of-glory",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_sign"]
+            "debuffs": [
+                "stic_sign"
+            ]
         },
         {
             "isPassive": false,
@@ -308,19 +364,31 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_stun"]
+            "debuffs": [
+                "stic_stun"
+            ]
         }
     ],
     "specialtySkill": {
         "name": "Fine Idea",
         "description": "Not enough time? Work faster.",
-        "dispatch": ["[Time Limit] Attribute"],
-        "enhancement": ["Reward Bonus +10%"],
+        "dispatch": [
+            "[Time Limit] Attribute"
+        ],
+        "enhancement": [
+            "Reward Bonus +10%"
+        ],
         "stats": {
             "command": 65,
             "charm": 61,
             "politics": 22
         }
+    },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
@@ -334,42 +402,42 @@
             "rank": "c",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 36
             }
         },
         {
             "rank": "b",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 48
             }
         },
         {
             "rank": "a",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 60
             }
         },
         {
             "rank": "s",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 72
             }
         },
         {
             "rank": "ss",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 84
             }
         },
         {
             "rank": "sss",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 96
             }
         }
     ],
@@ -379,7 +447,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "3%"
+                    "eff": 0.03
                 },
                 {
                     "atk": 20,
@@ -398,7 +466,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": 20,
@@ -437,7 +505,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": 30,
@@ -456,7 +524,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "6%"
+                    "eff": 0.06
                 },
                 {
                     "atk": 30,
@@ -479,7 +547,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": 30,

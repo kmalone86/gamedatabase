@@ -230,7 +230,10 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_att_dn", "stic_speed_dn"]
+            "debuffs": [
+                "stic_att_dn",
+                "stic_speed_dn"
+            ]
         },
         {
             "isPassive": false,
@@ -352,7 +355,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_blind"]
+            "debuffs": [
+                "stic_blind"
+            ]
         }
     ],
     "specialtySkill": {
@@ -366,33 +371,39 @@
             "politics": 68
         }
     },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
+    },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 24
             }
         },
         {
             "rank": "c",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 36
             }
         },
         {
             "rank": "b",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 48
             }
         },
         {
             "rank": "a",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 60
             }
         },
         {
@@ -406,14 +417,14 @@
             "rank": "ss",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 84
             }
         },
         {
             "rank": "sss",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 96
             }
         }
     ],
@@ -423,7 +434,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "3%"
+                    "eff": 0.03
                 },
                 {
                     "atk": 20
@@ -444,7 +455,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": "3%"
+                    "chc": 0.03
                 },
                 {
                     "atk": 20
@@ -487,7 +498,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -508,7 +519,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "6%"
+                    "eff": 0.06
                 },
                 {
                     "atk": 30
@@ -533,7 +544,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": "6%"
+                    "chc": 0.06
                 },
                 {
                     "atk": 30

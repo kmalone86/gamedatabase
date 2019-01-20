@@ -77,26 +77,61 @@
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
-                    "resources": []
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": []
-                },
-                {
-                    "description": "+5% Combat Readiness",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
                 },
                 {
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "molagora",
+                            "qty": 2
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "path-power-loop",
+                            "qty": 1
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 17000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "path-power-loop",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 30000
                         }
                     ]
                 },
@@ -104,12 +139,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "path-power-loop",
+                            "qty": 4
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 40000
                         }
                     ]
                 },
@@ -117,12 +156,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "path-power-loop",
+                            "qty": 6
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 50000
                         }
                     ]
                 }
@@ -143,26 +186,27 @@
             "enhancement": [
                 {
                     "description": "+0.5% healing",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
                 },
                 {
                     "description": "+0.5% healing",
-                    "resources": []
-                },
-                {
-                    "description": "+1% healing",
-                    "resources": []
-                },
-                {
-                    "description": "+1% healing",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "molagora",
+                            "qty": 2
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "gold",
+                            "qty": 8000
                         }
                     ]
                 },
@@ -170,12 +214,16 @@
                     "description": "+1% healing",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "path-power-loop",
+                            "qty": 1
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 17000
                         }
                     ]
                 },
@@ -183,12 +231,50 @@
                     "description": "+1% healing",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "path-power-loop",
+                            "qty": 2
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 30000
+                        }
+                    ]
+                },
+                {
+                    "description": "+1% healing",
+                    "resources": [
+                        {
+                            "item": "path-power-loop",
+                            "qty": 4
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 40000
+                        }
+                    ]
+                },
+                {
+                    "description": "+1% healing",
+                    "resources": [
+                        {
+                            "item": "path-power-loop",
+                            "qty": 6
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 50000
                         }
                     ]
                 }
@@ -209,19 +295,61 @@
             "enhancement": [
                 {
                     "description": "+10% Defense decrease, provoke chance",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "path-power-loop",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 14000
+                        }
+                    ]
                 },
                 {
                     "description": "-1 turn cooldown",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "path-power-loop",
+                            "qty": 3
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 27000
+                        }
+                    ]
                 },
                 {
                     "description": "+15% Defense decrease, provoke chance",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "path-power-loop",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
+                        }
+                    ]
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_def_dn", "stic_provoke"]
+            "debuffs": [
+                "stic_def_dn",
+                "stic_provoke"
+            ]
         }
     ],
     "specialtySkill": {
@@ -309,7 +437,7 @@
             ],
             "resources": [
                 {
-                    "item": "earth-rune",
+                    "item": "life-rune",
                     "qty": 5
                 }
             ]
@@ -330,7 +458,7 @@
             ],
             "resources": [
                 {
-                    "item": "earth-rune",
+                    "item": "life-rune",
                     "qty": 9
                 }
             ]
@@ -348,11 +476,11 @@
             ],
             "resources": [
                 {
-                    "item": "earth-rune",
+                    "item": "life-rune",
                     "qty": 12
                 },
                 {
-                    "item": "greater-earth-rune",
+                    "item": "greater-life-rune",
                     "qty": 6
                 }
             ]
@@ -373,7 +501,7 @@
             ],
             "resources": [
                 {
-                    "item": "greater-earth-rune",
+                    "item": "greater-life-rune",
                     "qty": 15
                 }
             ]
@@ -394,7 +522,7 @@
             ],
             "resources": [
                 {
-                    "item": "epic-earth-rune",
+                    "item": "epic-life-rune",
                     "qty": 4
                 },
                 {
@@ -419,7 +547,7 @@
             ],
             "resources": [
                 {
-                    "item": "epic-earth-rune",
+                    "item": "epic-life-rune",
                     "qty": 6
                 },
                 {

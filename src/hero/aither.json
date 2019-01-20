@@ -118,12 +118,12 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
                             "item": "mysterious-flash",
                             "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
@@ -135,12 +135,12 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "mysterious-flash",
                             "qty": 3
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
                         },
                         {
                             "item": "gold",
@@ -152,12 +152,12 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "mysterious-flash",
                             "qty": 4
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -167,7 +167,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_speed_dn"]
+            "debuffs": [
+                "stic_speed_dn"
+            ]
         },
         {
             "isPassive": false,
@@ -197,12 +199,12 @@
                     "description": "+5% healing",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
                             "item": "mysterious-flash",
                             "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
@@ -214,12 +216,12 @@
                     "description": "+10% healing",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "mysterious-flash",
                             "qty": 3
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
                         },
                         {
                             "item": "gold",
@@ -231,12 +233,12 @@
                     "description": "+10% healing",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "mysterious-flash",
                             "qty": 4
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -302,11 +304,11 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "molagora",
+                            "item": "mysterious-flash",
                             "qty": 3
                         },
                         {
-                            "item": "mysterious-flash",
+                            "item": "molagora",
                             "qty": 3
                         },
                         {
@@ -319,11 +321,11 @@
                     "description": "+5% healing",
                     "resources": [
                         {
-                            "item": "molagora",
+                            "item": "mysterious-flash",
                             "qty": 4
                         },
                         {
-                            "item": "mysterious-flash",
+                            "item": "molagora",
                             "qty": 4
                         },
                         {
@@ -336,12 +338,12 @@
                     "description": "+10% healing",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "mysterious-flash",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -353,12 +355,12 @@
                     "description": "+10% healing",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "mysterious-flash",
                             "qty": 6
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -367,20 +369,32 @@
                     ]
                 }
             ],
-            "buffs": ["stic_protect"],
+            "buffs": [
+                "stic_protect"
+            ],
             "debuffs": []
         }
     ],
     "specialtySkill": {
         "name": "First Aid",
         "description": "With his warm touch, there's nothing he can't heal.",
-        "dispatch": ["[Weakened] attribute mission"],
-        "enhancement": ["Reward bonus +10%"],
+        "dispatch": [
+            "[Weakened] attribute mission"
+        ],
+        "enhancement": [
+            "Reward bonus +10%"
+        ],
         "stats": {
             "command": 41,
             "charm": 80,
             "politics": 37
         }
+    },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
@@ -439,7 +453,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -460,7 +474,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -503,7 +517,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "6%"
+                    "def": 0.06
                 },
                 {
                     "atk": 30
@@ -524,7 +538,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -549,7 +563,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": 30

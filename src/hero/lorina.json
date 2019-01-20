@@ -358,13 +358,23 @@
     "specialtySkill": {
         "name": "Faithful Spear",
         "description": "Through faith she can overcome moments of weakness and doubt.",
-        "dispatch": ["[Weakened] Attribute"],
-        "enhancement": ["Reward Bonus +10%"],
+        "dispatch": [
+            "[Weakened] Attribute"
+        ],
+        "enhancement": [
+            "Reward Bonus +10%"
+        ],
         "stats": {
             "command": 64,
             "charm": 33,
             "politics": 10
         }
+    },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
@@ -378,42 +388,42 @@
             "rank": "c",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 36
             }
         },
         {
             "rank": "b",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 48
             }
         },
         {
             "rank": "a",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 60
             }
         },
         {
             "rank": "s",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 72
             }
         },
         {
             "rank": "ss",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 84
             }
         },
         {
             "rank": "sss",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 96
             }
         }
     ],
@@ -423,7 +433,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": "20"
@@ -444,7 +454,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": "20"
@@ -487,7 +497,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": "6%"
+                    "chc": 0.06
                 },
                 {
                     "atk": "30"
@@ -508,7 +518,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": "30"
@@ -533,7 +543,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": "30"

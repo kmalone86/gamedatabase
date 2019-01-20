@@ -117,11 +117,11 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
+                            "item": "mysterious-flash",
                             "qty": 3
                         },
                         {
-                            "item": "mysterious-flash",
+                            "item": "molagora",
                             "qty": 3
                         },
                         {
@@ -134,12 +134,12 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 6
-                        },
-                        {
                             "item": "mysterious-flash",
                             "qty": 4
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 6
                         },
                         {
                             "item": "gold",
@@ -151,12 +151,12 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "mysterious-flash",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -166,7 +166,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_def_dn"]
+            "debuffs": [
+                "stic_def_dn"
+            ]
         },
         {
             "isPassive": true,
@@ -209,11 +211,11 @@
                     "description": "+1% Dual Attack chance",
                     "resources": [
                         {
-                            "item": "molagora",
+                            "item": "mysterious-flash",
                             "qty": 3
                         },
                         {
-                            "item": "mysterious-flash",
+                            "item": "molagora",
                             "qty": 3
                         },
                         {
@@ -226,12 +228,12 @@
                     "description": "+1% Dual Attack chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 6
-                        },
-                        {
                             "item": "mysterious-flash",
                             "qty": 4
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 6
                         },
                         {
                             "item": "gold",
@@ -243,12 +245,12 @@
                     "description": "+1% Dual Attack chance",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "mysterious-flash",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -257,7 +259,9 @@
                     ]
                 }
             ],
-            "buffs": ["stic_att_up"],
+            "buffs": [
+                "stic_att_up"
+            ],
             "debuffs": []
         },
         {
@@ -301,11 +305,11 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "molagora",
+                            "item": "mysterious-flash",
                             "qty": 3
                         },
                         {
-                            "item": "mysterious-flash",
+                            "item": "molagora",
                             "qty": 3
                         },
                         {
@@ -318,12 +322,12 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 6
-                        },
-                        {
                             "item": "mysterious-flash",
                             "qty": 4
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 6
                         },
                         {
                             "item": "gold",
@@ -335,12 +339,12 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "mysterious-flash",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -356,13 +360,23 @@
     "specialtySkill": {
         "name": "Experienced Soldier",
         "description": "They've honed their skills by confronting countless enemies.",
-        "dispatch": ["[Time Limit] attribute mission"],
-        "enhancement": ["Reward Bonus +10%"],
+        "dispatch": [
+            "[Time Limit] attribute mission"
+        ],
+        "enhancement": [
+            "Reward Bonus +10%"
+        ],
         "stats": {
             "command": 20,
             "charm": 20,
             "politics": 21
         }
+    },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
@@ -421,7 +435,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -442,7 +456,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -485,7 +499,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "6%"
+                    "def": 0.06
                 },
                 {
                     "atk": 30
@@ -506,7 +520,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -531,7 +545,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": 30

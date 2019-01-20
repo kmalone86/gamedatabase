@@ -93,12 +93,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 4000
-                        },
-                        {
                             "item": "molagora",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
                         }
                     ]
                 },
@@ -106,12 +106,12 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 8000
-                        },
-                        {
                             "item": "molagora",
                             "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
                         }
                     ]
                 },
@@ -119,16 +119,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 27000
-                        },
-                        {
                             "item": "shiny-enchantment",
                             "qty": 3
                         },
                         {
                             "item": "molagora",
                             "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 27000
                         }
                     ]
                 },
@@ -136,16 +136,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 44000
-                        },
-                        {
                             "item": "shiny-enchantment",
                             "qty": 4
                         },
                         {
                             "item": "molagora",
                             "qty": 6
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 44000
                         }
                     ]
                 },
@@ -153,22 +153,24 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 45000
-                        },
-                        {
                             "item": "shiny-enchantment",
                             "qty": 5
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_heal_impossible"]
+            "debuffs": [
+                "stic_heal_impossible"
+            ]
         },
         {
             "isPassive": true,
@@ -184,12 +186,12 @@
                     "description": "-0.5% damage received",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 4000
-                        },
-                        {
                             "item": "molagora",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
                         }
                     ]
                 },
@@ -197,22 +199,18 @@
                     "description": "-0.5% damage received",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 8000
-                        },
-                        {
                             "item": "molagora",
                             "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
                         }
                     ]
                 },
                 {
                     "description": "-1% damage received",
                     "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 27000
-                        },
                         {
                             "item": "shiny-enchantment",
                             "qty": 3
@@ -220,16 +218,16 @@
                         {
                             "item": "molagora",
                             "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 27000
                         }
                     ]
                 },
                 {
                     "description": "-1% damage received",
                     "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 44000
-                        },
                         {
                             "item": "shiny-enchantment",
                             "qty": 4
@@ -237,6 +235,10 @@
                         {
                             "item": "molagora",
                             "qty": 6
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 44000
                         }
                     ]
                 },
@@ -244,16 +246,16 @@
                     "description": "-2% damage received",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 45000
-                        },
-                        {
                             "item": "shiny-enchantment",
                             "qty": 5
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
                         }
                     ]
                 }
@@ -275,12 +277,12 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 4000
-                        },
-                        {
                             "item": "molagora",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
                         }
                     ]
                 },
@@ -288,12 +290,12 @@
                     "description": "+5% Combat Readiness",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 8000
-                        },
-                        {
                             "item": "molagora",
                             "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
                         }
                     ]
                 },
@@ -301,16 +303,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 27000
-                        },
-                        {
                             "item": "shiny-enchantment",
                             "qty": 3
                         },
                         {
                             "item": "molagora",
                             "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 27000
                         }
                     ]
                 },
@@ -318,16 +320,16 @@
                     "description": "+10% Combat Readiness",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 44000
-                        },
-                        {
                             "item": "shiny-enchantment",
                             "qty": 4
                         },
                         {
                             "item": "molagora",
                             "qty": 6
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 44000
                         }
                     ]
                 },
@@ -335,34 +337,46 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 45000
-                        },
-                        {
                             "item": "shiny-enchantment",
                             "qty": 5
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_buf_impossible"]
+            "debuffs": [
+                "stic_buf_impossible"
+            ]
         }
     ],
     "specialtySkill": {
         "name": "Fearless",
         "description": "She is unrelenting in her advance; she does not know fear.",
-        "dispatch": ["[Hunt] type mission"],
-        "enhancement": ["Time requiered -6%"],
+        "dispatch": [
+            "[Hunt] type mission"
+        ],
+        "enhancement": [
+            "Time requiered -6%"
+        ],
         "stats": {
             "command": 40,
             "charm": 25,
             "politics": 35
         }
+    },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
@@ -376,42 +390,42 @@
             "rank": "c",
             "status": {
                 "type": "def",
-                "increase": 0
+                "increase": 18
             }
         },
         {
             "rank": "b",
             "status": {
                 "type": "def",
-                "increase": 0
+                "increase": 24
             }
         },
         {
             "rank": "a",
             "status": {
                 "type": "def",
-                "increase": 0
+                "increase": 30
             }
         },
         {
             "rank": "s",
             "status": {
                 "type": "def",
-                "increase": 0
+                "increase": 36
             }
         },
         {
             "rank": "ss",
             "status": {
                 "type": "def",
-                "increase": 0
+                "increase": 42
             }
         },
         {
             "rank": "sss",
             "status": {
                 "type": "def",
-                "increase": 0
+                "increase": 48
             }
         }
     ],
@@ -421,7 +435,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": "3%"
+                    "efr": 0.03
                 },
                 {
                     "atk": 20
@@ -442,7 +456,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "3%"
+                    "eff": 0.03
                 },
                 {
                     "atk": 20
@@ -506,7 +520,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": "6%"
+                    "efr": 0.06
                 },
                 {
                     "atk": 30
@@ -531,7 +545,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "6%"
+                    "eff": 0.06
                 },
                 {
                     "atk": 30

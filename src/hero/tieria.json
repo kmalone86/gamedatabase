@@ -94,12 +94,12 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
                             "item": "path-power-loop",
                             "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
@@ -111,12 +111,12 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "path-power-loop",
                             "qty": 3
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
                         },
                         {
                             "item": "gold",
@@ -128,12 +128,12 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "path-power-loop",
                             "qty": 4
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -143,7 +143,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_blind"]
+            "debuffs": [
+                "stic_blind"
+            ]
         },
         {
             "isPassive": true,
@@ -173,12 +175,12 @@
                     "description": "+1% Combat Readiness",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
                             "item": "path-power-loop",
                             "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
@@ -190,12 +192,12 @@
                     "description": "+1% Combat Readiness",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "path-power-loop",
                             "qty": 3
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
                         },
                         {
                             "item": "gold",
@@ -207,12 +209,12 @@
                     "description": "+2% Combat Readiness",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "path-power-loop",
                             "qty": 4
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -278,11 +280,11 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "molagora",
+                            "item": "path-power-loop",
                             "qty": 3
                         },
                         {
-                            "item": "path-power-loop",
+                            "item": "molagora",
                             "qty": 3
                         },
                         {
@@ -295,11 +297,11 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
+                            "item": "path-power-loop",
                             "qty": 4
                         },
                         {
-                            "item": "path-power-loop",
+                            "item": "molagora",
                             "qty": 4
                         },
                         {
@@ -312,12 +314,12 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "path-power-loop",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -329,12 +331,12 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "path-power-loop",
                             "qty": 6
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -344,19 +346,31 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_def_dn"]
+            "debuffs": [
+                "stic_def_dn"
+            ]
         }
     ],
     "specialtySkill": {
         "name": "Hobby",
         "description": "She seeks adventure, but treads lightly.",
-        "dispatch": ["[Adventure] category mission"],
-        "enhancement": ["Time Required -6%"],
+        "dispatch": [
+            "[Adventure] category mission"
+        ],
+        "enhancement": [
+            "Time Required -6%"
+        ],
         "stats": {
             "command": 45,
             "charm": 31,
             "politics": 62
         }
+    },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
@@ -415,7 +429,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "3%"
+                    "def": 0.03
                 },
                 {
                     "atk": 20
@@ -436,7 +450,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -500,7 +514,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "6%"
+                    "def": 0.06
                 },
                 {
                     "atk": 30
@@ -525,7 +539,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": 30

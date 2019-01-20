@@ -93,12 +93,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "twisted-fang",
                             "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -110,11 +110,11 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
+                            "item": "twisted-fang",
                             "qty": 3
                         },
                         {
-                            "item": "twisted-fang",
+                            "item": "molagora",
                             "qty": 3
                         },
                         {
@@ -127,12 +127,12 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "twisted-fang",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -185,12 +185,12 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
                             "item": "twisted-fang",
                             "qty": 1
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
@@ -202,12 +202,12 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 5
-                        },
-                        {
                             "item": "twisted-fang",
                             "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
                         },
                         {
                             "item": "gold",
@@ -219,12 +219,12 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "twisted-fang",
                             "qty": 4
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -236,12 +236,12 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "twisted-fang",
                             "qty": 6
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -251,7 +251,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_dot"]
+            "debuffs": [
+                "stic_dot"
+            ]
         },
         {
             "isPassive": false,
@@ -294,12 +296,12 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
                             "item": "twisted-fang",
                             "qty": 1
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
@@ -311,29 +313,12 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "twisted-fang",
-                            "qty": 4
+                            "qty": 2
                         },
-                        {
-                            "item": "gold",
-                            "qty": 40000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
                         {
                             "item": "molagora",
                             "qty": 5
-                        },
-                        {
-                            "item": "twisted-fang",
-                            "qty": 2
                         },
                         {
                             "item": "gold",
@@ -345,16 +330,33 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "twisted-fang",
                             "qty": 4
                         },
                         {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
                             "item": "gold",
                             "qty": 40000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "twisted-fang",
+                            "qty": 6
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 50000
                         }
                     ]
                 }
@@ -366,13 +368,23 @@
     "specialtySkill": {
         "name": "Excellent Instructor",
         "description": "She's contributed greatly to helping knights in their development.",
-        "dispatch": ["All missions"],
-        "enhancement": ["EXP Bonus +6%"],
+        "dispatch": [
+            "All missions"
+        ],
+        "enhancement": [
+            "EXP Bonus +6%"
+        ],
         "stats": {
             "command": 85,
             "charm": 25,
             "politics": 35
         }
+    },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
@@ -431,7 +443,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -452,7 +464,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -495,7 +507,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": "6%"
+                    "chc": 0.06
                 },
                 {
                     "atk": 30
@@ -516,7 +528,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -541,7 +553,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": 30

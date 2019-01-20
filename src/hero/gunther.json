@@ -119,16 +119,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 4
-                        },
-                        {
                             "item": "mysterious-flash",
                             "qty": 3
                         },
                         {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
                             "item": "gold",
-                            "qty": 31000
+                            "qty": 27000
                         }
                     ]
                 },
@@ -136,16 +136,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "mysterious-flash",
                             "qty": 4
                         },
                         {
+                            "item": "molagora",
+                            "qty": 6
+                        },
+                        {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 44000
                         }
                     ]
                 },
@@ -153,12 +153,12 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "mysterious-flash",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -168,7 +168,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_blood"]
+            "debuffs": [
+                "stic_blood"
+            ]
         },
         {
             "isPassive": true,
@@ -211,33 +213,33 @@
                     "description": "+5% Attack",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 4
-                        },
-                        {
                             "item": "mysterious-flash",
                             "qty": 3
                         },
                         {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
                             "item": "gold",
-                            "qty": 31000
+                            "qty": 27000
                         }
                     ]
                 },
                 {
                     "description": "+5% Attack",
                     "resources": [
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
                         {
                             "item": "mysterious-flash",
                             "qty": 4
                         },
                         {
+                            "item": "molagora",
+                            "qty": 6
+                        },
+                        {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 44000
                         }
                     ]
                 },
@@ -245,12 +247,12 @@
                     "description": "+5% Attack",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "mysterious-flash",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -303,16 +305,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 4
-                        },
-                        {
                             "item": "mysterious-flash",
                             "qty": 3
                         },
                         {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
                             "item": "gold",
-                            "qty": 31000
+                            "qty": 27000
                         }
                     ]
                 },
@@ -320,16 +322,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "mysterious-flash",
                             "qty": 4
                         },
                         {
+                            "item": "molagora",
+                            "qty": 6
+                        },
+                        {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 44000
                         }
                     ]
                 },
@@ -337,12 +339,12 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "mysterious-flash",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -352,19 +354,31 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_stun"]
+            "debuffs": [
+                "stic_stun"
+            ]
         }
     ],
     "specialtySkill": {
         "name": "Veteran Mercenary",
         "description": "He's diligent and skillful. War doesn't take place just on the battlefield.",
-        "dispatch": ["[Impossible Mission] attribute mission"],
-        "enhancement": ["Reward Bonus +10%"],
+        "dispatch": [
+            "[Impossible Mission] attribute mission"
+        ],
+        "enhancement": [
+            "Reward Bonus +10%"
+        ],
         "stats": {
             "command": 81,
             "charm": 68,
             "politics": 22
         }
+    },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
@@ -423,7 +437,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -444,7 +458,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -487,7 +501,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "6%"
+                    "def": 0.06
                 },
                 {
                     "atk": 30
@@ -508,7 +522,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -533,7 +547,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": 30

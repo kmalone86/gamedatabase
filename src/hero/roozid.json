@@ -115,16 +115,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 4
-                        },
-                        {
                             "item": "ring-of-glory",
                             "qty": 3
                         },
                         {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
                             "item": "gold",
-                            "qty": 31000
+                            "qty": 27000
                         }
                     ]
                 },
@@ -132,16 +132,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "ring-of-glory",
                             "qty": 4
                         },
                         {
+                            "item": "molagora",
+                            "qty": 6
+                        },
+                        {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 44000
                         }
                     ]
                 },
@@ -149,12 +149,12 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "ring-of-glory",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -164,7 +164,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_dodge_dn"]
+            "debuffs": [
+                "stic_dodge_dn"
+            ]
         },
         {
             "isPassive": false,
@@ -207,16 +209,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 4
-                        },
-                        {
                             "item": "ring-of-glory",
                             "qty": 3
                         },
                         {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
                             "item": "gold",
-                            "qty": 31000
+                            "qty": 27000
                         }
                     ]
                 },
@@ -224,16 +226,16 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "ring-of-glory",
                             "qty": 4
                         },
                         {
+                            "item": "molagora",
+                            "qty": 6
+                        },
+                        {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 44000
                         }
                     ]
                 },
@@ -241,12 +243,12 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "ring-of-glory",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -256,7 +258,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_att_dn"]
+            "debuffs": [
+                "stic_att_dn"
+            ]
         },
         {
             "isPassive": false,
@@ -299,16 +303,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 4
-                        },
-                        {
                             "item": "ring-of-glory",
                             "qty": 3
                         },
                         {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
                             "item": "gold",
-                            "qty": 31000
+                            "qty": 27000
                         }
                     ]
                 },
@@ -316,16 +320,16 @@
                     "description": "+1% Combat Readiness",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "ring-of-glory",
                             "qty": 4
                         },
                         {
+                            "item": "molagora",
+                            "qty": 6
+                        },
+                        {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 44000
                         }
                     ]
                 },
@@ -333,12 +337,12 @@
                     "description": "+2% Combat Readiness",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "ring-of-glory",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -347,15 +351,21 @@
                     ]
                 }
             ],
-            "buffs": ["stic_speed_up"],
+            "buffs": [
+                "stic_speed_up"
+            ],
             "debuffs": []
         }
     ],
     "specialtySkill": {
         "name": "Food Master",
         "description": "Not very popular, but a great cook. A self-taught chef from his days leading a group of nomads.",
-        "dispatch": ["[Gourmet] attribute mission"],
-        "enhancement": ["Reward Bonus +10%"],
+        "dispatch": [
+            "[Gourmet] attribute mission"
+        ],
+        "enhancement": [
+            "Reward Bonus +10%"
+        ],
         "stats": {
             "command": 55,
             "charm": 75,
@@ -419,7 +429,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -440,7 +450,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": "3%"
+                    "chc": 0.03
                 },
                 {
                     "atk": 20
@@ -483,7 +493,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "6%"
+                    "eff": 0.06
                 },
                 {
                     "atk": 30
@@ -504,7 +514,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -529,7 +539,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": "6%"
+                    "chc": 0.06
                 },
                 {
                     "atk": 30

@@ -77,26 +77,14 @@
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
-                    "resources": []
-                },
-                {
-                    "description": "+5% effect chance",
-                    "resources": []
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": []
-                },
-                {
-                    "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "molagora",
+                            "qty": 1
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "gold",
+                            "qty": 4000
                         }
                     ]
                 },
@@ -104,12 +92,63 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "molagora",
+                            "qty": 2
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "strange-jelly",
+                            "qty": 1
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 17000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "strange-jelly",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 30000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "strange-jelly",
+                            "qty": 4
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 40000
                         }
                     ]
                 },
@@ -117,18 +156,24 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "strange-jelly",
+                            "qty": 6
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 50000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_speed_dn"]
+            "debuffs": [
+                "stic_speed_dn"
+            ]
         },
         {
             "isPassive": true,
@@ -143,18 +188,59 @@
             "enhancement": [
                 {
                     "description": "+5% Evasion Chance",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "strange-jelly",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 14000
+                        }
+                    ]
                 },
                 {
                     "description": "+5% Evasion Chance",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "strange-jelly",
+                            "qty": 3
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 27000
+                        }
+                    ]
                 },
                 {
                     "description": "+5% Evasion Chance",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "strange-jelly",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
+                        }
+                    ]
                 }
             ],
-            "buffs": ["stic_speed_up"],
+            "buffs": [
+                "stic_speed_up"
+            ],
             "debuffs": []
         },
         {
@@ -170,26 +256,44 @@
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
                 },
                 {
                     "description": "+5% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
                 },
                 {
                     "description": "-1 turn cooldown",
-                    "resources": []
-                },
-                {
-                    "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "strange-jelly",
+                            "qty": 1
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 17000
                         }
                     ]
                 },
@@ -197,12 +301,33 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "strange-jelly",
+                            "qty": 2
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 30000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "strange-jelly",
+                            "qty": 4
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 40000
                         }
                     ]
                 },
@@ -210,18 +335,24 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "strange-jelly",
+                            "qty": 6
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 50000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_silence"]
+            "debuffs": [
+                "stic_silence"
+            ]
         }
     ],
     "specialtySkill": {

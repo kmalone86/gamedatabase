@@ -1,12 +1,12 @@
 {
-    "name": "Commander Lorina",
+    "name": "Chaos Sect Axe",
     "rarity": 3,
     "classType": "warrior",
     "element": "dark",
     "zodiac": "leo",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "Lorina became an official knight after defeating a Wyvern with her spear. She aims to lead the vanguard of the Order of the Shield one day, and acts without thinking based on what she believes is right.",
+    "background": "Following the end of the Archdemon War, the Church of Ilryos Axe suffered a difficult period of desolation, until the God of Chaos spoke to him. Inspired to found the Chaos Sect, he has found a new purpose to subdue the world under the blade of his axe.",
     "relations": [
         {
             "hero": "",
@@ -37,30 +37,6 @@
             "eff": 0,
             "efr": 0,
             "dac": 5
-        },
-        "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4475,
-            "cp": 13027,
-            "spd": 101,
-            "atk": 843,
-            "def": 543,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 3559,
-            "cp": 10445,
-            "spd": 101,
-            "atk": 677,
-            "def": 438,
-            "efr": 0
         }
     },
     "skills": [
@@ -69,14 +45,14 @@
             "soulBurn": 0,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
-            "awakenUpgrade": true,
+            "awakenUpgrade": false,
             "cooldown": 0,
-            "name": "Sharp Blow",
+            "name": "Disconnect",
             "soulAcquire": 1,
-            "description": "Knocks the enemy into the air with a spear, increasing Combat Readiness of the caster by 20%.",
+            "description": "Attacks with an axe. A critical hit will inflict bleeding for 1 turn. Damage dealt increases proportional to the amount of the enemy's lost Health.",
             "enhancement": [
                 {
-                    "description": "+5% damage dealt ",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "molagora",
@@ -89,15 +65,19 @@
                     ]
                 },
                 {
-                    "description": "+5% damage dealt ",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
+                            "item": "twisted-fang",
                             "qty": 2
                         },
                         {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 22000
                         }
                     ]
                 },
@@ -110,37 +90,20 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 5
                         },
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 35000
                         }
                     ]
                 },
                 {
-                    "description": "+10% damage dealt",
+                    "description": "+15% damage dealt",
                     "resources": [
                         {
                             "item": "twisted-fang",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 6
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 44000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
-                            "item": "twisted-fang",
-                            "qty": 5
                         },
                         {
                             "item": "molagorago",
@@ -148,27 +111,29 @@
                         },
                         {
                             "item": "gold",
-                            "qty": 45000
+                            "qty": 40000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_blood"
+            ]
         },
         {
-            "isPassive": true,
-            "soulBurn": 0,
+            "isPassive": false,
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
-            "awakenUpgrade": false,
-            "cooldown": 0,
-            "name": "Spiritual Armament",
-            "soulAcquire": 0,
-            "description": "Increases Attack 10% each time the caster attacks an enemy. Effect can only stack up to 5 times.",
+            "soulBurnEffect": "Increases damage dealt.",
+            "awakenUpgrade": true,
+            "cooldown": 3,
+            "name": "Attack Chain",
+            "soulAcquire": 2,
+            "description": "Attacks all enemies with a shockwave, granting an extra turn to the caster if an enemy is defeated. Damage dealt increases proportional to the enemy's lost Health.",
             "enhancement": [
                 {
-                    "description": "+0.5% Attack",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "molagora",
@@ -181,20 +146,24 @@
                     ]
                 },
                 {
-                    "description": "+0.5% Attack",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
+                            "item": "twisted-fang",
                             "qty": 2
                         },
                         {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 22000
                         }
                     ]
                 },
                 {
-                    "description": "+1% Attack",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
                             "item": "twisted-fang",
@@ -202,37 +171,20 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 5
                         },
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 35000
                         }
                     ]
                 },
                 {
-                    "description": "+1% Attack",
+                    "description": "+15% damage dealt",
                     "resources": [
                         {
                             "item": "twisted-fang",
                             "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 6
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 44000
-                        }
-                    ]
-                },
-                {
-                    "description": "+1% Attack",
-                    "resources": [
-                        {
-                            "item": "twisted-fang",
-                            "qty": 5
                         },
                         {
                             "item": "molagorago",
@@ -240,7 +192,7 @@
                         },
                         {
                             "item": "gold",
-                            "qty": 45000
+                            "qty": 40000
                         }
                     ]
                 }
@@ -250,14 +202,14 @@
         },
         {
             "isPassive": false,
-            "soulBurn": 20,
+            "soulBurn": 0,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "Grants an extra turn.",
+            "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 4,
-            "name": "Spiral Breakthrough",
-            "soulAcquire": 2,
-            "description": "Pierces the enemy with a spear, decreasing Combat Readiness by 15%. Damage dealt increases proportional to the amount of the enemy's lost Health.",
+            "cooldown": 3,
+            "name": "Vigorous Strike",
+            "soulAcquire": 1,
+            "description": "Smacks the enemy, with a 80% chance to decrease Defense for 2 turns and recover Health by 20% of max Health. Amount recovered increases by 50% if an enemy is defeated. Damage dealt increases proportional to the caster's max Health.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -286,7 +238,20 @@
                     ]
                 },
                 {
-                    "description": "-1 turn cooldown",
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 12000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
                     "resources": [
                         {
                             "item": "twisted-fang",
@@ -303,7 +268,7 @@
                     ]
                 },
                 {
-                    "description": "+10% damage dealt",
+                    "description": "+10% effect chance",
                     "resources": [
                         {
                             "item": "twisted-fang",
@@ -311,16 +276,16 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 4
                         },
                         {
                             "item": "gold",
-                            "qty": 44000
+                            "qty": 36000
                         }
                     ]
                 },
                 {
-                    "description": "+15% damage dealt",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
                             "item": "twisted-fang",
@@ -335,21 +300,40 @@
                             "qty": 45000
                         }
                     ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "twisted-fang",
+                            "qty": 6
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 50000
+                        }
+                    ]
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_def_dn"
+            ]
         }
     ],
     "specialtySkill": {
-        "name": "Faithful Spear",
-        "description": "Through faith she can overcome moments of weakness and doubt.",
+        "name": "Some Doctrine",
+        "description": "To end their suffering, they chose a doctrine of heresy.",
         "dispatch": [],
         "enhancement": [],
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 25,
+            "charm": 7,
+            "politics": 14
         }
     },
     "memoryImprintFormation": {
@@ -415,7 +399,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": 0.03
+                    "": 0
                 },
                 {
                     "atk": 20
@@ -436,7 +420,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": 0.03
+                    "": 0
                 },
                 {
                     "atk": 20
@@ -479,7 +463,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.06
+                    "": 0
                 },
                 {
                     "atk": 30
@@ -500,7 +484,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": 0.06
+                    "": 0
                 },
                 {
                     "atk": 30
@@ -525,7 +509,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": 0.06
+                    "": 0
                 },
                 {
                     "atk": 30

@@ -111,16 +111,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 4
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 3
                         },
                         {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
                             "item": "gold",
-                            "qty": 31000
+                            "qty": 27000
                         }
                     ]
                 },
@@ -128,16 +128,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 4
                         },
                         {
+                            "item": "molagora",
+                            "qty": 6
+                        },
+                        {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 44000
                         }
                     ]
                 },
@@ -145,12 +145,12 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -160,7 +160,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_blood"]
+            "debuffs": [
+                "stic_blood"
+            ]
         },
         {
             "isPassive": false,
@@ -203,16 +205,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 4
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 3
                         },
                         {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
                             "item": "gold",
-                            "qty": 31000
+                            "qty": 27000
                         }
                     ]
                 },
@@ -220,16 +222,16 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 4
                         },
                         {
+                            "item": "molagora",
+                            "qty": 6
+                        },
+                        {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 44000
                         }
                     ]
                 },
@@ -237,12 +239,12 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -252,7 +254,10 @@
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_def_dn", "stic_buf_impossible"]
+            "debuffs": [
+                "stic_def_dn",
+                "stic_buf_impossible"
+            ]
         },
         {
             "isPassive": false,
@@ -295,16 +300,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 4
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 3
                         },
                         {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
                             "item": "gold",
-                            "qty": 31000
+                            "qty": 27000
                         }
                     ]
                 },
@@ -312,16 +317,16 @@
                     "description": "+5% Combat Readiness",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 4
                         },
                         {
+                            "item": "molagora",
+                            "qty": 6
+                        },
+                        {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 44000
                         }
                     ]
                 },
@@ -329,12 +334,12 @@
                     "description": "+10% Combat Readiness",
                     "resources": [
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "sharp-spearhead",
                             "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -343,15 +348,22 @@
                     ]
                 }
             ],
-            "buffs": ["stic_att_up", "stic_cri_up"],
+            "buffs": [
+                "stic_att_up",
+                "stic_cri_up"
+            ],
             "debuffs": []
         }
     ],
     "specialtySkill": {
         "name": "Pharmacy of Apostles",
         "description": "A maker of medicine to heal wounds and food to stimulate thought.",
-        "dispatch": ["[Weakened] attribute mission"],
-        "enhancement": ["Reward Bonus +10%"],
+        "dispatch": [
+            "[Weakened] attribute mission"
+        ],
+        "enhancement": [
+            "Reward Bonus +10%"
+        ],
         "stats": {
             "command": 22,
             "charm": 73,
@@ -409,13 +421,19 @@
             }
         }
     ],
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
+    },
     "awakening": [
         {
             "rank": 1,
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -436,7 +454,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -479,7 +497,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "6%"
+                    "def": 0.06
                 },
                 {
                     "atk": 30
@@ -500,7 +518,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
@@ -525,7 +543,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -536,7 +554,7 @@
             ],
             "resources": [
                 {
-                    "item": "epic-flame-rune",
+                    "item": "epic-frost-rune",
                     "qty": 6
                 },
                 {

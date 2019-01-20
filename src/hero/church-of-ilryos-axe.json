@@ -77,32 +77,73 @@
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
                 },
                 {
                     "description": "+5% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "twisted-fang",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 22000
+                        }
+                    ]
                 },
                 {
                     "description": "+10% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "twisted-fang",
+                            "qty": 3
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 35000
+                        }
+                    ]
                 },
                 {
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "twisted-fang",
+                            "qty": 4
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 40000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_blood"]
+            "debuffs": [
+                "stic_blood"
+            ]
         },
         {
             "isPassive": false,
@@ -117,26 +158,65 @@
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
                 },
                 {
                     "description": "+5% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "twisted-fang",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 22000
+                        }
+                    ]
                 },
                 {
                     "description": "+10% damage dealt",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "twisted-fang",
+                            "qty": 3
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 35000
+                        }
+                    ]
                 },
                 {
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "twisted-fang",
+                            "qty": 4
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 40000
                         }
                     ]
                 }
@@ -157,26 +237,40 @@
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
-                    "resources": []
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": []
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": []
-                },
-                {
-                    "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "molagora",
+                            "qty": 1
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 12000
                         }
                     ]
                 },
@@ -184,12 +278,33 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "twisted-fang",
+                            "qty": 3
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 27000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "twisted-fang",
+                            "qty": 4
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 4
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 36000
                         }
                     ]
                 },
@@ -197,12 +312,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "twisted-fang",
+                            "qty": 5
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
                         }
                     ]
                 },
@@ -210,18 +329,24 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "gold",
-                            "qty": 0
+                            "item": "twisted-fang",
+                            "qty": 6
                         },
                         {
-                            "item": "",
-                            "qty": 0
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 50000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": ["stic_def_dn"]
+            "debuffs": [
+                "stic_def_dn"
+            ]
         }
     ],
     "specialtySkill": {

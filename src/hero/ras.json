@@ -111,6 +111,10 @@
                         {
                             "item": "molagora",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
                         }
                     ]
                 },
@@ -119,7 +123,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 1
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
                         }
                     ]
                 },
@@ -127,8 +135,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
+                            "item": "mysterious-flash",
+                            "qty": 3
+                        },
+                        {
                             "item": "molagora",
-                            "qty": 1
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 27000
                         }
                     ]
                 },
@@ -136,8 +152,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
+                            "item": "mysterious-flash",
+                            "qty": 4
+                        },
+                        {
                             "item": "molagora",
-                            "qty": 1
+                            "qty": 6
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 44000
                         }
                     ]
                 },
@@ -145,8 +169,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
+                            "item": "mysterious-flash",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
                         }
                     ]
                 }
@@ -171,6 +203,10 @@
                         {
                             "item": "molagora",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
                         }
                     ]
                 },
@@ -179,7 +215,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 1
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
                         }
                     ]
                 },
@@ -187,8 +227,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
+                            "item": "mysterious-flash",
+                            "qty": 3
+                        },
+                        {
                             "item": "molagora",
-                            "qty": 1
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 27000
                         }
                     ]
                 },
@@ -196,8 +244,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
+                            "item": "mysterious-flash",
+                            "qty": 4
+                        },
+                        {
                             "item": "molagora",
-                            "qty": 1
+                            "qty": 6
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 44000
                         }
                     ]
                 },
@@ -205,8 +261,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
+                            "item": "mysterious-flash",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
                         }
                     ]
                 }
@@ -231,6 +295,10 @@
                         {
                             "item": "molagora",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
                         }
                     ]
                 },
@@ -239,7 +307,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 1
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
                         }
                     ]
                 },
@@ -247,8 +319,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
+                            "item": "mysterious-flash",
+                            "qty": 3
+                        },
+                        {
                             "item": "molagora",
-                            "qty": 1
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 27000
                         }
                     ]
                 },
@@ -256,8 +336,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
+                            "item": "mysterious-flash",
+                            "qty": 4
+                        },
+                        {
                             "item": "molagora",
-                            "qty": 1
+                            "qty": 6
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 44000
                         }
                     ]
                 },
@@ -265,26 +353,46 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
+                            "item": "mysterious-flash",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
                             "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
                         }
                     ]
                 }
             ],
-            "buffs": ["stic_def_up"],
+            "buffs": [
+                "stic_def_up"
+            ],
             "debuffs": []
         }
     ],
     "specialtySkill": {
         "name": "Blessings of Covenants",
         "description": "The Heir of the Covenant bears the weight of the world upon his shoulders.",
-        "dispatch": ["[Security] type mission"],
-        "enhancement": ["Reward bonus +6%"],
+        "dispatch": [
+            "[Security] type mission"
+        ],
+        "enhancement": [
+            "Reward bonus +6%"
+        ],
         "stats": {
             "command": 88,
             "charm": 76,
             "politics": 15
         }
+    },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
@@ -343,7 +451,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -364,7 +472,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "3%"
+                    "def": 0.03
                 },
                 {
                     "atk": 20
@@ -407,7 +515,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": "6%"
+                    "efr": 0.06
                 },
                 {
                     "atk": 30
@@ -428,7 +536,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
@@ -453,7 +561,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "6%"
+                    "def": 0.06
                 },
                 {
                     "atk": 30
