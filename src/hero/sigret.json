@@ -9,31 +9,43 @@
     "background": "Head of the Homunculus Unit, Sigret is a close friend of Friedrich's. She holds complicated feelings towards Mercedes, who resembles her past self.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "mercedes",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "arbiter-vildred",
+            "relationType": "trust"
+        },
+        {
+            "hero": "ras",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "krau",
+            "relationType": "grudge"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1406,
+            "atk": 99,
+            "hp": 322,
+            "spd": 109,
+            "def": 69,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 16902,
+            "atk": 1228,
+            "hp": 5784,
+            "spd": 109,
+            "def": 553,
+            "chc": 21,
+            "chd": 159,
             "eff": 0,
             "efr": 0,
             "dac": 5
@@ -72,7 +84,7 @@
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Sever",
-            "soulAcquire": 0,
+            "soulAcquire": 1,
             "description": "Attacks with a scythe, with a 25% chance each of inflicting two bleeding effects for 2 turns.",
             "enhancement": [
                 {
@@ -154,17 +166,19 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_blood"
+            ]
         },
         {
             "isPassive": false,
-            "soulBurn": 0,
+            "soulBurn": 20,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Grants an extra turn.",
             "awakenUpgrade": false,
-            "cooldown": 0,
+            "cooldown": 3,
             "name": "Smash",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Batters the enemy with a scythe, with a 85% chance to make them unhealable and cause bleeding for 2 turns. When the enemy's Health is less than 50% after attack, Sever is activated.",
             "enhancement": [
                 {
@@ -246,7 +260,10 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_heal_impossible",
+                "stic_blood"
+            ]
         },
         {
             "isPassive": false,
@@ -254,9 +271,9 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
-            "cooldown": 0,
+            "cooldown": 5,
             "name": "Guillotine",
-            "soulAcquire": 0,
+            "soulAcquire": 3,
             "description": "Inflicts lethal damage to the enemy, piercing their weak point, penetrating Defense by 10% for each debuff inflicted on the enemy.",
             "enhancement": [
                 {
@@ -344,68 +361,68 @@
     "specialtySkill": {
         "name": "Charismatic Commander",
         "description": "Commanders need remarkable insight and clear judgment.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Strong Leader] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 88,
+            "charm": 80,
+            "politics": 34
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "atk",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
+                "type": "atk",
                 "increase": 0
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.054
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.072
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.09
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.108
             }
         }
     ],
@@ -415,7 +432,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -436,7 +453,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chd": 0.03
                 },
                 {
                     "atk": 20
@@ -483,7 +500,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.06
                 },
                 {
                     "atk": 30
@@ -508,7 +525,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -533,7 +550,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chd": 0.06
                 },
                 {
                     "atk": 30
