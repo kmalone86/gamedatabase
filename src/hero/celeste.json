@@ -9,31 +9,39 @@
     "background": "Currently working as a private mercenary, Celeste used to be a member of Aramintha's Silver Blade Company long ago. She says little and has an earnest and very serious personality, but suffers from thinking too much and an inability to choose.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "aramintha",
+            "relationType": "longing"
+        },
+        {
+            "hero": "armin",
+            "relationType": "rival"
+        },
+        {
+            "hero": "sven",
+            "relationType": "trust"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1039,
+            "atk": 65,
+            "hp": 229,
+            "spd": 116,
+            "def": 54,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 14170,
+            "atk": 929,
+            "hp": 4733,
+            "spd": 128,
+            "def": 494,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
@@ -302,7 +310,7 @@
             "soulBurn": 0,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
-            "awakenUpgrade": false,
+            "awakenUpgrade": true,
             "cooldown": 4,
             "name": "Defcon",
             "soulAcquire": 1,
@@ -343,75 +351,77 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_att_up"
+            ],
             "debuffs": []
         }
     ],
     "specialtySkill": {
         "name": "Silent Sharpshooter",
         "description": "When looking for clues, she's as calm and precise as when she's drawing a bow.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Hidden Clue] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 70,
+            "charm": 20,
+            "politics": 45
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 2
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 3
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 4
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 5
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 6
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 7
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 8
             }
         }
     ],
@@ -421,7 +431,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "spd": 2
                 },
                 {
                     "atk": 20
@@ -442,7 +452,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "spd": 2
                 },
                 {
                     "atk": 20
@@ -485,7 +495,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -506,7 +516,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "spd": 4
                 },
                 {
                     "atk": 30
@@ -531,7 +541,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "spd": 4
                 },
                 {
                     "atk": 30

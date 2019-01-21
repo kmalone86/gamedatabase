@@ -9,31 +9,43 @@
     "background": "A Banshee formed from a corrupted soul. When the ruins are masked in fog, she sings songs of rumors. Looking like a small lantern flame flickering in the darkness, if you allow yourself to be tempted you will lose your life in a moment.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "baal-sezan",
+            "relationType": "longing"
+        },
+        {
+            "hero": "requiemroar",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "yuna",
+            "relationType": "trust"
+        },
+        {
+            "hero": "yufine",
+            "relationType": "grudge"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1166,
+            "atk": 78,
+            "hp": 216,
+            "spd": 102,
+            "def": 67,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 15590,
+            "atk": 1199,
+            "hp": 4491,
+            "spd": 102,
+            "def": 613,
+            "chc": 21,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
@@ -352,68 +364,68 @@
     "specialtySkill": {
         "name": "Fearful Defense",
         "description": "Extreme fear can lead to disastrous results.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Unknown Knowledge] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 22,
+            "charm": 44,
+            "politics": 68
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 2
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 3
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 4
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 5
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 6
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 7
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 8
             }
         }
     ],

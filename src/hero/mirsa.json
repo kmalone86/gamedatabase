@@ -9,32 +9,44 @@
     "background": "A mercenary and adventurer constantly going back and forth between Savara and the Great Desert, Mirsa's main business is treasure hunting. A child of nomads, she has no fixed home. Finding old ruins in the desert is one of her favorite things.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "coli",
+            "relationType": "trust"
+        },
+        {
+            "hero": "gunther",
+            "relationType": "trust"
+        },
+        {
+            "hero": "sven",
+            "relationType": "trust"
+        },
+        {
+            "hero": "helga",
+            "relationType": "rival"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1030,
+            "atk": 65,
+            "hp": 211,
+            "spd": 116,
+            "def": 55,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
-            "eff": 0,
+            "cp": 14196,
+            "atk": 885,
+            "hp": 4410,
+            "spd": 120,
+            "def": 501,
+            "chc": 24,
+            "chd": 150,
+            "eff": 9,
             "efr": 0,
             "dac": 5
         },
@@ -245,7 +257,7 @@
         },
         {
             "isPassive": false,
-            "soulBurn": 0,
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": true,
@@ -358,68 +370,68 @@
     "specialtySkill": {
         "name": "Basic of Ambush",
         "description": "She kills her targets quickly and silently.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Time Limit] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 34,
+            "charm": 55,
+            "politics": 32
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 2
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 3
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 4
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 5
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 6
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 7
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 8
             }
         }
     ],

@@ -9,31 +9,39 @@
     "background": "A knight apprentice of the Order of the Sword, Elson. He is originally from Ezera, yet his parents left for Savara to set up a business of their own. He is kind and friendly but lacks confidence.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "iseria",
+            "relationType": "longing"
+        },
+        {
+            "hero": "clarissa",
+            "relationType": "longing"
+        },
+        {
+            "hero": "montmorancy",
+            "relationType": "trust"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1000,
+            "atk": 34,
+            "hp": 218,
+            "spd": 94,
+            "def": 70,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 13775,
+            "atk": 540,
+            "hp": 4900,
+            "spd": 94,
+            "def": 729,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
@@ -353,68 +361,68 @@
     "specialtySkill": {
         "name": "Struggle",
         "description": "He's always struggled to prove himself as a real knight.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Support] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 11,
+            "charm": 44,
+            "politics": 15
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 12
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 18
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 24
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 30
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 36
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 42
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 48
             }
         }
     ],
@@ -424,7 +432,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -445,7 +453,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "def": 0.03
                 },
                 {
                     "atk": 20
@@ -488,7 +496,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "def": 0.06
                 },
                 {
                     "atk": 30
@@ -509,7 +517,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
@@ -534,7 +542,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "def": 0.06
                 },
                 {
                     "atk": 30

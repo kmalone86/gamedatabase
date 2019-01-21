@@ -9,33 +9,41 @@
     "background": "Doris Rutton's personal bodyguard, Arowell often comes off as stiff due to her serious personality. She is willing to follow Doris anywhere, and will protect her at any cost.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "doris",
+            "relationType": "love"
+        },
+        {
+            "hero": "judith",
+            "relationType": "rival"
+        },
+        {
+            "hero": "sven",
+            "relationType": "longing"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1103,
+            "atk": 53,
+            "hp": 263,
+            "spd": 95,
+            "def": 68,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 15272,
+            "atk": 758,
+            "hp": 5826,
+            "spd": 95,
+            "def": 672,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
-            "efr": 0,
+            "efr": 6,
             "dac": 5
         },
         "max6": {
@@ -243,7 +251,7 @@
         },
         {
             "isPassive": false,
-            "soulBurn": 0,
+            "soulBurn": 20,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Ignores effect resistance.",
             "awakenUpgrade": true,
@@ -356,12 +364,12 @@
     "specialtySkill": {
         "name": "It's Basic",
         "description": "In order to defend your client, some basic hunting is required.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Hunt] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 35,
+            "charm": 62,
+            "politics": 18
         }
     },
     "memoryImprintFormation": {
@@ -374,50 +382,50 @@
         {
             "rank": "d",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 120
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 180
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 240
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 300
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 360
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 420
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 480
             }
         }
     ],
@@ -427,7 +435,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -448,7 +456,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "def": 0.03
                 },
                 {
                     "atk": 20
@@ -491,7 +499,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "efr": 0.06
                 },
                 {
                     "atk": 30
@@ -512,7 +520,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
@@ -537,7 +545,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "def": 0.06
                 },
                 {
                     "atk": 30
