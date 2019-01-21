@@ -9,31 +9,43 @@
     "background": "Luna is a half-Dragon, half-Human knight that has been loyal to Wintenberg since the time of Queen Francesca. Only a few know of the true feelings hidden behind her smile.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "cecilia",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "yufine",
+            "relationType": "love"
+        },
+        {
+            "hero": "rose",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "nemunas",
+            "relationType": "grudge"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1407,
+            "atk": 89,
+            "hp": 322,
+            "spd": 109,
+            "def": 74,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 17097,
+            "atk": 1119,
+            "hp": 6266,
+            "spd": 109,
+            "def": 627,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
@@ -72,7 +84,7 @@
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Infinity Slash",
-            "soulAcquire": 0,
+            "soulAcquire": 1,
             "description": "Stabs the target a random number of times. Skill cooldown decreases by 1-3 turns and damage dealt increases according to the number of attacks.",
             "enhancement": [
                 {
@@ -250,13 +262,13 @@
         },
         {
             "isPassive": false,
-            "soulBurn": 0,
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": true,
-            "cooldown": 0,
+            "cooldown": 10,
             "name": "Ragnar Spear",
-            "soulAcquire": 0,
+            "soulAcquire": 3,
             "description": "Soars into the air and hits the enemy with a spear, with a 80% chance to decrease Defense for 2 turns. Attacks with a more powerful element.",
             "enhancement": [
                 {
@@ -338,74 +350,76 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_def_dn"
+            ]
         }
     ],
     "specialtySkill": {
         "name": "Battle Instinct",
         "description": "She watches over the endless wars looking for a chance to destroy Wintenberg.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[War] Category",
+        "enhancement": "Time Required -6%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 62,
+            "charm": 82,
+            "politics": 91
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "chc",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
+                "type": "chc",
                 "increase": 0
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "chc",
+                "increase": 0.048
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "chc",
+                "increase": 0.072
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "chc",
+                "increase": 0.098
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "chc",
+                "increase": 0.12
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "chc",
+                "increase": 0.144
             }
         }
     ],
@@ -415,7 +429,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -436,7 +450,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -483,7 +497,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "def": 0.06
                 },
                 {
                     "atk": 30
@@ -508,7 +522,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -533,7 +547,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
