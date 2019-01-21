@@ -9,31 +9,71 @@
     "background": "An Acolyte, and commander of an army of undead known as the Dust Walkers. It is said that he demands your soul and loyalty in return for releasing you from your grudges.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "vildred",
+            "relationType": "trust"
+        },
+        {
+            "hero": "diene",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "nilgal",
+            "relationType": "rival"
+        },
+        {
+            "hero": "tenebria",
+            "relationType": "rival"
+        },
+        {
+            "hero": "ras",
+            "relationType": "grudge"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1299,
+            "atk": 89,
+            "hp": 295,
+            "spd": 123,
+            "def": 60,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 16141,
+            "atk": 1119,
+            "hp": 5340,
+            "spd": 129,
+            "def": 483,
+            "chc": 21,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max6": {
+            "cp": 13872,
+            "atk": 889,
+            "hp": 4920,
+            "spd": 123,
+            "def": 483,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max5": {
+            "cp": 11117,
+            "atk": 713,
+            "hp": 3913,
+            "spd": 123,
+            "def": 390,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
@@ -334,8 +374,8 @@
     "specialtySkill": {
         "name": "Desire for Ruin",
         "description": "He destroys everything with his army of Dust Walkers, yearning for the annihilation of the world.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Time Limit] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 94,
             "charm": 81,
@@ -343,59 +383,59 @@
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "hp",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
+                "type": "hp",
                 "increase": 0
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.054
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.072
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.086
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.108
             }
         }
     ],
@@ -405,7 +445,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -426,7 +466,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "spd": 2
                 },
                 {
                     "atk": 20
@@ -473,7 +513,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.06
                 },
                 {
                     "atk": 30
@@ -498,7 +538,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -523,7 +563,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "spd": 4
                 },
                 {
                     "atk": 30
