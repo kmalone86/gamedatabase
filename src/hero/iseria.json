@@ -9,31 +9,51 @@
     "background": "Second-in-Command of the Order of the Sword, Iseria is an Elf unable to return to her ancestral home of Dun Blyraia due to some reason. Known as the Knight of White Flowers, she has a calm and solemn personality.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "ras",
+            "relationType": "trust"
+        },
+        {
+            "hero": "nilgal",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "arbiter-vildred",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "silk",
+            "relationType": "trust"
+        },
+        {
+            "hero": "alexa",
+            "relationType": "trust"
+        },
+        {
+            "hero": "elson",
+            "relationType": "trust"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1370,
+            "atk": 92,
+            "hp": 307,
+            "spd": 112,
+            "def": 69,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 16846,
+            "atk": 1158,
+            "hp": 6002,
+            "spd": 112,
+            "def": 553,
+            "chc": 21,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
@@ -66,13 +86,13 @@
     "skills": [
         {
             "isPassive": false,
-            "soulBurn": 0,
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Increases effect chance by 50% and increases damage dealt. Does not trigger a Dual Attack.",
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Refined Flower",
-            "soulAcquire": 0,
+            "soulAcquire": 1,
             "description": "Throws swords at the enemy, with a 35% chance to decrease Defense for 2 turns.",
             "enhancement": [
                 {
@@ -184,7 +204,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_def_dn"
+            ]
         },
         {
             "isPassive": false,
@@ -192,9 +214,9 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
-            "cooldown": 0,
+            "cooldown": 6,
             "name": "Oathkeeper",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Resets skill cooldown of an ally except for the caster with light energy. Grants an extra turn.",
             "enhancement": [
                 {
@@ -241,9 +263,9 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 0,
+            "cooldown": 5,
             "name": "Full Bloom",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Attacks with a giant Magic Sword, dispelling all buffs, decreasing Defense, and making them unable to be buffed for 2 turns.",
             "enhancement": [
                 {
@@ -342,74 +364,77 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_def_dn",
+                "stic_buf_impossible"
+            ]
         }
     ],
     "specialtySkill": {
         "name": "Unknown Call",
         "description": "Elves are always curious about new worlds.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Barren Land} Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 96,
+            "charm": 62,
+            "politics": 71
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "atk",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
+                "type": "atk",
                 "increase": 0
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.054
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.072
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.09
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.108
             }
         }
     ],
@@ -419,7 +444,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -440,7 +465,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -487,7 +512,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.06
                 },
                 {
                     "atk": 30
@@ -512,7 +537,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -537,7 +562,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
