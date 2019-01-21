@@ -9,31 +9,39 @@
     "background": "Trained since he was young, Haste is the optimal assassin. Part of the Sicar assassin organization, he is fearless and hates losing. He has no interest in other people, but deep down he yearns for the same close relationships they hold.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "pyllis",
+            "relationType": "trust"
+        },
+        {
+            "hero": "assassin-coli",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "assassin-cidd",
+            "relationType": "grudge"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1313,
+            "atk": 86,
+            "hp": 297,
+            "spd": 120,
+            "def": 64,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 16297,
+            "atk": 1089,
+            "hp": 5380,
+            "spd": 120,
+            "def": 511,
+            "chc": 24,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
@@ -72,7 +80,7 @@
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Envoy's Scythe",
-            "soulAcquire": 0,
+            "soulAcquire": 1,
             "description": "Soul Attacks with an enormous scythe, with a 40% chance to inflict bleeding for 2 turns.",
             "enhancement": [
                 {
@@ -154,17 +162,19 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_blood"
+            ]
         },
         {
             "isPassive": false,
-            "soulBurn": 0,
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": true,
-            "cooldown": 0,
+            "cooldown": 3,
             "name": "Blood Rend",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Attacks by spinning an enormous scythe, making the enemy unhealable and inflicting Vampiric Touch for 2 turns. Recovers the Health of all allies proportional to the damage dealt, and if the enemy is bleeding recovery increases by an additional 50%.",
             "enhancement": [
                 {
@@ -246,7 +256,10 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_heal_impossible",
+                "stic_vampire"
+            ]
         },
         {
             "isPassive": false,
@@ -254,9 +267,9 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 0,
+            "cooldown": 6,
             "name": "Vampiric Seal",
-            "soulAcquire": 0,
+            "soulAcquire": 3,
             "description": "Attacks all enemies with Envoy's Scythe, with a 60% chance each to randomly inflict three bleeding effects among the enemies for 2 turns. When there are less than three enemies, damage dealt increases with fewer enemies.",
             "enhancement": [
                 {
@@ -338,74 +351,76 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_blood"
+            ]
         }
     ],
     "specialtySkill": {
         "name": "Cold Heart",
         "description": "Without a sense of guilt you can carry out a mission by any means necessary.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Impossible Mission] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 60,
+            "charm": 67,
+            "politics": 91
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "hp",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
+                "type": "hp",
                 "increase": 0
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.054
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.072
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.09
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.108
             }
         }
     ],
@@ -415,7 +430,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -436,7 +451,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.03
                 },
                 {
                     "atk": 20
@@ -483,7 +498,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "eff": 0.06
                 },
                 {
                     "atk": 30
@@ -508,7 +523,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -533,7 +548,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.06
                 },
                 {
                     "atk": 30
