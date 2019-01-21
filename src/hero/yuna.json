@@ -9,31 +9,51 @@
     "background": "President of the Reingar Student Council and the chosen Heir by the Guardian, Kazran. Yuna is a high school girl who was summoned into this world. She is full of curiosity and obsessed with technology, constantly running experiments.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "ras",
+            "relationType": "love"
+        },
+        {
+            "hero": "tenebria",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "judith",
+            "relationType": "trust"
+        },
+        {
+            "hero": "hazel",
+            "relationType": "trust"
+        },
+        {
+            "hero": "karin",
+            "relationType": "trust"
+        },
+        {
+            "hero": "rikoris",
+            "relationType": "trust"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1370,
+            "atk": 92,
+            "hp": 307,
+            "spd": 112,
+            "def": 69,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 16846,
+            "atk": 1158,
+            "hp": 6002,
+            "spd": 112,
+            "def": 553,
+            "chc": 21,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
@@ -66,13 +86,13 @@
     "skills": [
         {
             "isPassive": false,
-            "soulBurn": 0,
-            "selfSkillBarValue": 0,
+            "soulBurn": 10,
+            "selfSkillBarValue": 1,
             "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Homing Laser",
-            "soulAcquire": 0,
+            "soulAcquire": 1,
             "description": "Attacks all enemies with a drone, increasing the caster's Combat Readiness by 6% per target. When there are less than 3 enemies, damage dealt increases with fewer enemies.",
             "enhancement": [
                 {
@@ -176,12 +196,12 @@
         {
             "isPassive": false,
             "soulBurn": 0,
-            "selfSkillBarValue": 0,
+            "selfSkillBarValue": 1,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
-            "cooldown": 0,
+            "cooldown": 5,
             "name": "Upgrade",
-            "soulAcquire": 0,
+            "soulAcquire": 1,
             "description": "Buffs all allies with a drone and increases Attack and speed for 2 turns.",
             "enhancement": [
                 {
@@ -219,18 +239,21 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_att_up",
+                "stic_speed_up"
+            ],
             "debuffs": []
         },
         {
             "isPassive": false,
             "soulBurn": 0,
-            "selfSkillBarValue": 0,
+            "selfSkillBarValue": -5,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Meteor Cannon",
-            "soulAcquire": 0,
+            "soulAcquire": 3,
             "description": "Attacks all enemies with an enormous and powerful cannon, inflicting huge damage. When there are less than 3 enemies, damage dealt increases with fewer enemies.",
             "enhancement": [
                 {
@@ -348,68 +371,68 @@
     "specialtySkill": {
         "name": "Lovely Machinery",
         "description": "She understands machinery well based on her strong affection towards it.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Barren Land] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 71,
+            "charm": 77,
+            "politics": 68
         }
     },
     "memoryImprintFormation": {
         "north": false,
-        "south": false,
+        "south": true,
         "east": false,
-        "west": false
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "hp",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
+                "type": "hp",
                 "increase": 0
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.043
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.064
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.086
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.107
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.129
             }
         }
     ],
@@ -419,7 +442,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -440,7 +463,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -487,7 +510,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.06
                 },
                 {
                     "atk": 30
@@ -512,7 +535,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -537,7 +560,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
