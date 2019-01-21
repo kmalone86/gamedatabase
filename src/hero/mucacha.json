@@ -9,31 +9,67 @@
     "background": "Living carefree as the leader of a group of thieves, Mucacha turned over a new leaf after meeting Cecilia and began an honest life as a follower of Corvus. He cherishes loyalty.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "cecilia",
+            "relationType": "love"
+        },
+        {
+            "hero": "corvus",
+            "relationType": "trust"
+        },
+        {
+            "hero": "basar",
+            "relationType": "trust"
+        },
+        {
+            "hero": "purrgis",
+            "relationType": "grudge"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1078,
+            "atk": 69,
+            "hp": 237,
+            "spd": 110,
+            "def": 57,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 14891,
+            "atk": 1000,
+            "hp": 4895,
+            "spd": 114,
+            "def": 518,
+            "chc": 24,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max6": {
+            "cp": 12808,
+            "atk": 780,
+            "hp": 4475,
+            "spd": 110,
+            "def": 518,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max5": {
+            "cp": 10268,
+            "atk": 626,
+            "hp": 3559,
+            "spd": 110,
+            "def": 418,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
@@ -324,8 +360,8 @@
     "specialtySkill": {
         "name": "Manly Man",
         "description": "Come at me! As you know, experience always makes you stronger.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Hidden Clue] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 41,
             "charm": 48,
@@ -333,59 +369,59 @@
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 2
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 3
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 4
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 5
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 6
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 7
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 8
             }
         }
     ],
@@ -395,7 +431,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -416,7 +452,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.03
                 },
                 {
                     "atk": 20
@@ -459,7 +495,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "spd": 4
                 },
                 {
                     "atk": 30
@@ -480,7 +516,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -505,7 +541,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.06
                 },
                 {
                     "atk": 30
