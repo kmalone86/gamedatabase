@@ -9,31 +9,67 @@
     "background": "A boy who spent his days looking for a place where he belonged, until Eligos took him in.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "assassin-coli",
+            "relationType": "rival"
+        },
+        {
+            "hero": "haste",
+            "relationType": "trust"
+        },
+        {
+            "hero": "watcher-schuri",
+            "relationType": "trust"
+        },
+        {
+            "hero": "kiris",
+            "relationType": "trust"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1148,
+            "atk": 73,
+            "hp": 246,
+            "spd": 122,
+            "def": 58,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 15135,
+            "atk": 930,
+            "hp": 4774,
+            "spd": 128,
+            "def": 497,
+            "chc": 30,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max6": {
+            "cp": 12859,
+            "atk": 780,
+            "hp": 4354,
+            "spd": 122,
+            "def": 497,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max5": {
+            "cp": 10308,
+            "atk": 626,
+            "hp": 3463,
+            "spd": 122,
+            "def": 401,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
@@ -334,8 +370,8 @@
     "specialtySkill": {
         "name": "Faithful Dog",
         "description": "He will do whatever it takes to fulfill his given mission.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Hunt] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
             "command": 21,
             "charm": 72,
@@ -343,59 +379,59 @@
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "atk",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.024
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.048
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.06
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.072
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.084
             }
         }
     ],
@@ -405,7 +441,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "spd": 2
                 },
                 {
                     "atk": 20
@@ -426,7 +462,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.03
                 },
                 {
                     "atk": 20
@@ -473,7 +509,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.06
                 },
                 {
                     "atk": 30
@@ -498,7 +534,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "spd": 4
                 },
                 {
                     "atk": 30
@@ -523,7 +559,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.06
                 },
                 {
                     "atk": 30
