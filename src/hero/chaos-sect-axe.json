@@ -9,34 +9,70 @@
     "background": "Following the end of the Archdemon War, the Church of Ilryos Axe suffered a difficult period of desolation, until the God of Chaos spoke to him. Inspired to found the Chaos Sect, he has found a new purpose to subdue the world under the blade of his axe.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "clarissa",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "corvus",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "ras",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "angelica",
+            "relationType": "grudge"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
-            "eff": 0,
-            "efr": 0,
-            "dac": 0
-        },
-        "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1102,
+            "atk": 74,
+            "hp": 237,
+            "spd": 101,
+            "def": 60,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
+        },
+        "max": {
+            "cp": 15047,
+            "atk": 1144,
+            "hp": 4895,
+            "spd": 101,
+            "def": 543,
+            "chc": 21,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max6": {
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "dac": 5,
+            "hp": 4475,
+            "cp": 13027,
+            "spd": 101,
+            "atk": 843,
+            "def": 543,
+            "efr": 0
+        },
+        "max5": {
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "dac": 5,
+            "hp": 3559,
+            "cp": 10445,
+            "spd": 101,
+            "atk": 677,
+            "def": 438,
+            "efr": 0
         }
     },
     "skills": [
@@ -328,8 +364,8 @@
     "specialtySkill": {
         "name": "Some Doctrine",
         "description": "To end their suffering, they chose a doctrine of heresy.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Impossible Mission] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 25,
             "charm": 7,
@@ -337,59 +373,59 @@
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 120
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 180
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 240
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 300
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 360
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 420
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 480
             }
         }
     ],
@@ -399,7 +435,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -420,7 +456,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -463,7 +499,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.06
                 },
                 {
                     "atk": 30
@@ -484,7 +520,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -509,7 +545,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
