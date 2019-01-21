@@ -9,31 +9,47 @@
     "background": "Due to his humorous style of speaking, many mistake Vildred as being light-hearted, but he has a serious side that leads him to stubbornly push ahead with what he thinks is right.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "ras",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "iseria",
+            "relationType": "rival"
+        },
+        {
+            "hero": "aither",
+            "relationType": "trust"
+        },
+        {
+            "hero": "ruele-of-light",
+            "relationType": "trust"
+        },
+        {
+            "hero": "judge-kise",
+            "relationType": "trust"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1342,
+            "atk": 96,
+            "hp": 283,
+            "spd": 116,
+            "def": 65,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 16525,
+            "atk": 1283,
+            "hp": 5138,
+            "spd": 116,
+            "def": 522,
+            "chc": 21,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
@@ -72,7 +88,7 @@
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Sweep",
-            "soulAcquire": 0,
+            "soulAcquire": 1,
             "description": "Rapidly attacks two enemies with a swordstorm. Damage dealt increases proportional to the caster's Speed.",
             "enhancement": [
                 {
@@ -245,18 +261,20 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_att_up"
+            ],
             "debuffs": []
         },
         {
             "isPassive": false,
-            "soulBurn": 0,
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": false,
-            "cooldown": 0,
+            "cooldown": 5,
             "name": "Blade Ascent",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Attacks all enemies with a swordstorm, dealing damage proportional to the caster's Speed.",
             "enhancement": [
                 {
@@ -344,68 +362,68 @@
     "specialtySkill": {
         "name": "Legendary Gladiator",
         "description": "Under his sword, every ill will is brought to light.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Hidden Clue] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 80,
+            "charm": 67,
+            "politics": 64
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "spd",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
+                "type": "spd",
                 "increase": 0
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 4
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 6
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 8
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 10
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 12
             }
         }
     ],
@@ -415,7 +433,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -436,7 +454,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -483,7 +501,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.06
                 },
                 {
                     "atk": 30
@@ -508,7 +526,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -533,7 +551,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
