@@ -9,31 +9,39 @@
     "background": "A mercenary from the Itan Clan, Jecht is committed to self-discipline and hopes to improve the treatment of his fellow Suin by becoming a skilled and famous warrior.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "cartuja",
+            "relationType": "longing"
+        },
+        {
+            "hero": "basar",
+            "relationType": "trust"
+        },
+        {
+            "hero": "roozid",
+            "relationType": "trust"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 997,
+            "atk": 49,
+            "hp": 186,
+            "spd": 98,
+            "def": 66,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 12896,
+            "atk": 796,
+            "hp": 3925,
+            "spd": 104,
+            "def": 599,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
@@ -353,12 +361,12 @@
     "specialtySkill": {
         "name": "Using Talent",
         "description": "Uses his talents to improve how Suin are treated and portrayed.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Intelligence] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 55,
+            "charm": 18,
+            "politics": 42
         }
     },
     "memoryImprintFormation": {
@@ -371,50 +379,50 @@
         {
             "rank": "d",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 2
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 3
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 4
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 5
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 6
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 7
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 8
             }
         }
     ],

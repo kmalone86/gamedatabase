@@ -9,33 +9,37 @@
     "background": "A Banshee formed from a corrupted soul. She sing songs of malice that flow slowly like dust. She is known to strangle opponent with a gentle and friendly face.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "haste",
+            "relationType": "trust"
+        },
+        {
+            "hero": "gloomyrain",
+            "relationType": "trust"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1177,
+            "atk": 68,
+            "hp": 235,
+            "spd": 108,
+            "def": 69,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
-            "eff": 0,
-            "efr": 0,
+            "cp": 15620,
+            "atk": 921,
+            "hp": 4855,
+            "spd": 112,
+            "def": 631,
+            "chc": 15,
+            "chd": 150,
+            "eff": 9,
+            "efr": 9,
             "dac": 5
         },
         "max6": {
@@ -358,12 +362,12 @@
     "specialtySkill": {
         "name": "Doll Collection",
         "description": "This doll we found recently is in great condition. It almost seems as if it was alive.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Intelligence] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 18,
+            "charm": 22,
+            "politics": 80
         }
     },
     "memoryImprintFormation": {
@@ -376,50 +380,50 @@
         {
             "rank": "d",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 24
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 36
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 48
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 60
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 72
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 84
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 96
             }
         }
     ],

@@ -9,31 +9,43 @@
     "background": "A young boy with wild dreams of becoming a legendary hero, or meeting the Heir of the Covenant, in reality Adlay is a rather plain and timid student. He wants to stand out but very ordinary.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "hazel",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "zerato",
+            "relationType": "longing"
+        },
+        {
+            "hero": "rikoris",
+            "relationType": "trust"
+        },
+        {
+            "hero": "yuna",
+            "relationType": "longing"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1122,
+            "atk": 72,
+            "hp": 186,
+            "spd": 106,
+            "def": 67,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 14760,
+            "atk": 1039,
+            "hp": 3925,
+            "spd": 110,
+            "def": 606,
+            "chc": 24,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
@@ -346,12 +358,12 @@
     "specialtySkill": {
         "name": "Legend of Legend",
         "description": "Believing himself to be a legendary warrior, he uses his power to overcome adversity.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Strong Leader] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 11,
+            "charm": 78,
+            "politics": 15
         }
     },
     "memoryImprintFormation": {
@@ -364,50 +376,50 @@
         {
             "rank": "d",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 120
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 180
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 240
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 300
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 360
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 420
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 480
             }
         }
     ],
@@ -417,7 +429,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -438,7 +450,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.03
                 },
                 {
                     "atk": 20
@@ -481,7 +493,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "spd": 4
                 },
                 {
                     "atk": 30
@@ -502,7 +514,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -527,7 +539,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.06
                 },
                 {
                     "atk": 30

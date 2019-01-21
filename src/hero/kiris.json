@@ -9,32 +9,40 @@
     "background": "An Elf of Dun Blyraia, Kiris left her home after losing her lover to the Archdemon War and joined the Sicar assassin organization. She is often absent-minded, but as you get to know her you discover she possesses an acute sense.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "silk",
+            "relationType": "trust"
+        },
+        {
+            "hero": "kluri",
+            "relationType": "trust"
+        },
+        {
+            "hero": "maya",
+            "relationType": "grudge"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1068,
+            "atk": 62,
+            "hp": 246,
+            "spd": 104,
+            "def": 60,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
-            "eff": 0,
+            "cp": 14494,
+            "atk": 857,
+            "hp": 5057,
+            "spd": 110,
+            "def": 543,
+            "chc": 15,
+            "chd": 150,
+            "eff": 15,
             "efr": 0,
             "dac": 5
         },
@@ -350,12 +358,12 @@
     "specialtySkill": {
         "name": "Set Shifting",
         "description": "Her attitude changes as soon as she begins pursuit.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Chase] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 12,
+            "charm": 44,
+            "politics": 77
         }
     },
     "memoryImprintFormation": {
@@ -368,50 +376,50 @@
         {
             "rank": "d",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 120
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 180
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 240
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 300
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 360
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 420
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 480
             }
         }
     ],

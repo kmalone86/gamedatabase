@@ -9,32 +9,44 @@
     "background": "Kluri started raising a falcon in hope of reducing her workload. Although it ended up doing the exact opposite, she's carried on raising it for fun. Perhaps it learned from its master, because it will never do anything too difficult unless Kluri orders it to.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "armin",
+            "relationType": "trust"
+        },
+        {
+            "hero": "basar",
+            "relationType": "longing"
+        },
+        {
+            "hero": "kiris",
+            "relationType": "trust"
+        },
+        {
+            "hero": "silk",
+            "relationType": "rival"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1075,
+            "atk": 49,
+            "hp": 267,
+            "spd": 101,
+            "def": 65,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
-            "eff": 0,
+            "cp": 14814,
+            "atk": 703,
+            "hp": 5914,
+            "spd": 105,
+            "def": 596,
+            "chc": 15,
+            "chd": 150,
+            "eff": 9,
             "efr": 0,
             "dac": 5
         },
@@ -355,68 +367,68 @@
     "specialtySkill": {
         "name": "Born in the Woods",
         "description": "She can smell the woods even from the middle of a desert.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Explore] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 64,
+            "charm": 35,
+            "politics": 22
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 12
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 18
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 24
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 30
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 36
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 42
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 48
             }
         }
     ],
