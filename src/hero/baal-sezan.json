@@ -9,32 +9,44 @@
     "background": "Sezan was once a dark magician, until her body was destroyed in a forbidden summoning ceremony gone awry. Before her soul also perished, her apprentice Baal placed it inside a doll, and together they have embarked on a long journey to return her soul to a Human body.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "gloomyrain",
+            "relationType": "trust"
+        },
+        {
+            "hero": "sez",
+            "relationType": "trust"
+        },
+        {
+            "hero": "specter-tenebria",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "charlotte",
+            "relationType": "trust"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1457,
+            "atk": 96,
+            "hp": 249,
+            "spd": 106,
+            "def": 85,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
-            "eff": 0,
+            "cp": 16737,
+            "atk": 1197,
+            "hp": 4572,
+            "spd": 106,
+            "def": 683,
+            "chc": 15,
+            "chd": 150,
+            "eff": 15,
             "efr": 0,
             "dac": 5
         },
@@ -72,7 +84,7 @@
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Ghost Haunt",
-            "soulAcquire": 0,
+            "soulAcquire": 1,
             "description": "Summons an evil spirit to attack the enemy, with a 35% chance to inflict poison for 2 turns.",
             "enhancement": [
                 {
@@ -128,17 +140,19 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_dot"
+            ]
         },
         {
             "isPassive": false,
-            "soulBurn": 0,
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": false,
-            "cooldown": 0,
+            "cooldown": 4,
             "name": "Dark Cloud",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Summons the Cloud of Darkness to attack all enemies, dealing damage proportional to the number of debuffs inflicted on the enemy. When the enemy is defeated by this attack, the cooldown for Last Requiem is reset.",
             "enhancement": [
                 {
@@ -245,9 +259,9 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
-            "cooldown": 0,
+            "cooldown": 6,
             "name": "Last Requiem",
-            "soulAcquire": 0,
+            "soulAcquire": 3,
             "description": "Baal & Sezan attack all enemies with Strike Magic, with a 65% chance to decrease Speed and Defense and make them unhealable for 2 turns.",
             "enhancement": [
                 {
@@ -346,74 +360,78 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_speed_dn",
+                "stic_def_dn",
+                "stic_heal_impossible"
+            ]
         }
     ],
     "specialtySkill": {
         "name": "Necromancer",
         "description": "Baal & Sezan don't back down easily; something in their hearts just won't let them.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Battle] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 65,
+            "charm": 55,
+            "politics": 45
         }
     },
     "memoryImprintFormation": {
         "north": false,
-        "south": false,
-        "east": false,
+        "south": true,
+        "east": true,
         "west": false
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "eff",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
+                "type": "eff",
                 "increase": 0
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "eff",
+                "increase": 0.058
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "eff",
+                "increase": 0.087
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "eff",
+                "increase": 0.116
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "eff",
+                "increase": 0.145
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "eff",
+                "increase": 0.174
             }
         }
     ],
@@ -423,7 +441,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -444,7 +462,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "eff": 0.03
                 },
                 {
                     "atk": 20
@@ -491,7 +509,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "eff": 0.06
                 },
                 {
                     "atk": 30
@@ -516,7 +534,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -541,7 +559,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "eff": 0.06
                 },
                 {
                     "atk": 30
