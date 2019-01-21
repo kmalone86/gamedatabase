@@ -9,31 +9,75 @@
     "background": "An ever-cheerful traveler, Aither loves life on the road. As he embarks on a journey to find his lost memories, he is often followed by small animals.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "alexa",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "tieria",
+            "relationType": "longing"
+        },
+        {
+            "hero": "wanda",
+            "relationType": "longing"
+        },
+        {
+            "hero": "elson",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "iseria",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "clarissa",
+            "relationType": "grudge"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1294,
+            "atk": 88,
+            "hp": 237,
+            "spd": 102,
+            "def": 74,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 16080,
+            "atk": 1252,
+            "hp": 4612,
+            "spd": 102,
+            "def": 627,
+            "chc": 21,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max6": {
+            "cp": 13940,
+            "atk": 934,
+            "hp": 4192,
+            "spd": 102,
+            "def": 627,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max5": {
+            "cp": 11181,
+            "atk": 749,
+            "hp": 3334,
+            "spd": 102,
+            "def": 506,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
@@ -326,8 +370,8 @@
     "specialtySkill": {
         "name": "Innocent Wanderer",
         "description": "Neither wind nor rain can stop him.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Barren Land] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 44,
             "charm": 80,
@@ -335,59 +379,59 @@
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "hp",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.024
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.048
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.06
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.072
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.084
             }
         }
     ],
@@ -397,7 +441,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -418,7 +462,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -465,7 +509,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.06
                 },
                 {
                     "atk": 30
@@ -490,7 +534,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -515,7 +559,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
