@@ -393,7 +393,7 @@
             "rank": "b",
             "status": {
                 "type": "atk",
-                "increase": 0.36
+                "increase": 0.036
             }
         },
         {

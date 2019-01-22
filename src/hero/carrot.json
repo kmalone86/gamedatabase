@@ -394,42 +394,42 @@
             "rank": "c",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 36
             }
         },
         {
             "rank": "b",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 48
             }
         },
         {
             "rank": "a",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 60
             }
         },
         {
             "rank": "s",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 72
             }
         },
         {
             "rank": "ss",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 84
             }
         },
         {
             "rank": "sss",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 96
             }
         }
     ],

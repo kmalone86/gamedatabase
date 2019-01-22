@@ -380,7 +380,7 @@
             "rank": "d",
             "status": {
                 "type": "efr",
-                "increase": 0.048
+                "increase": 0
             }
         },
         {
@@ -394,35 +394,35 @@
             "rank": "b",
             "status": {
                 "type": "efr",
-                "increase": 0
+                "increase": 0.048
             }
         },
         {
             "rank": "a",
             "status": {
                 "type": "efr",
-                "increase": 0
+                "increase": 0.072
             }
         },
         {
             "rank": "s",
             "status": {
                 "type": "efr",
-                "increase": 0
+                "increase": 0.096
             }
         },
         {
             "rank": "ss",
             "status": {
                 "type": "efr",
-                "increase": 0
+                "increase": 0.12
             }
         },
         {
             "rank": "sss",
             "status": {
                 "type": "efr",
-                "increase": 0
+                "increase": 0.144
             }
         }
     ],

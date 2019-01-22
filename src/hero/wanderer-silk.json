@@ -357,6 +357,12 @@
             "politics": 12
         }
     },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": false,
+        "east": true,
+        "west": false
+    },
     "memoryImprint": [
         {
             "rank": "d",
@@ -369,42 +375,42 @@
             "rank": "c",
             "status": {
                 "type": "chc",
-                "increase": 0
+                "increase": 0.043
             }
         },
         {
             "rank": "b",
             "status": {
                 "type": "chc",
-                "increase": 0
+                "increase": 0.065
             }
         },
         {
             "rank": "a",
             "status": {
                 "type": "chc",
-                "increase": 0
+                "increase": 0.086
             }
         },
         {
             "rank": "s",
             "status": {
                 "type": "chc",
-                "increase": 0
+                "increase": 0.107
             }
         },
         {
             "rank": "ss",
             "status": {
                 "type": "chc",
-                "increase": 0
+                "increase": 0.129
             }
         },
         {
             "rank": "sss",
             "status": {
                 "type": "chc",
-                "increase": 0
+                "increase": 0.15
             }
         }
     ],

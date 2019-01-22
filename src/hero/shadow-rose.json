@@ -357,6 +357,12 @@
             "politics": 67
         }
     },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": false,
+        "west": false
+    },
     "memoryImprint": [
         {
             "rank": "d",

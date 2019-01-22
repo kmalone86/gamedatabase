@@ -364,6 +364,12 @@
             "politics": 40
         }
     },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
+    },
     "memoryImprint": [
         {
             "rank": "d",
@@ -415,12 +421,6 @@
             }
         }
     ],
-    "memoryImprintFormation": {
-        "north": true,
-        "south": true,
-        "east": true,
-        "west": true
-    },
     "awakening": [
         {
             "rank": 1,

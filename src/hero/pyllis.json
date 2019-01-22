@@ -381,7 +381,7 @@
             "rank": "d",
             "status": {
                 "type": "def",
-                "increase": "12"
+                "increase": 12
             }
         },
         {
