@@ -9,8 +9,24 @@
     "background": "Believing life is all about hitting a jackpot, Purrgis loves to snoop around. Born in Farche, a poor region, he has suffered discrimination for many years, turning him into an opportunist obsessed with money.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "ras",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "cartuja",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "rin",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "basar",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "mucacha",
+            "relationType": "trust"
         }
     ],
     "stats": {
@@ -72,7 +88,7 @@
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Falling Strike",
-            "soulAcquire": 0,
+            "soulAcquire": 1,
             "description": "Mows down enemies with a great sword, with a 35% chance to decrease Speed for 2 turns.",
             "enhancement": [
                 {
@@ -154,7 +170,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_speed_dn"
+            ]
         },
         {
             "isPassive": true,
@@ -250,13 +268,13 @@
         },
         {
             "isPassive": false,
-            "soulBurn": 0,
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": true,
-            "cooldown": 0,
+            "cooldown": 4,
             "name": "Final Blow",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Attacks all enemies with a powerful ground pound, stunning for 1 turn if they have less than 30% Health.",
             "enhancement": [
                 {
@@ -338,74 +356,76 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_stun"
+            ]
         }
     ],
     "specialtySkill": {
         "name": "Muscle Flexing",
         "description": "Exaggerates frequently when bragging about his power.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Impossible Mission] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 52,
+            "charm": 22,
+            "politics": 29
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "hp",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.024
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.048
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.06
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.072
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.084
             }
         }
     ],
@@ -415,7 +435,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -436,7 +456,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -483,7 +503,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "def": 0.06
                 },
                 {
                     "atk": 30
@@ -508,7 +528,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
@@ -533,7 +553,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
