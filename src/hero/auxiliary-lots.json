@@ -9,8 +9,16 @@
     "background": "A magical doll modeled on Lots. Compared to the original Lots, this, doll is extremely competitive and desperate for recognition, and so participates in as many activities around Reingar as possible.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "yuna",
+            "relationType": "longing"
+        },
+        {
+            "hero": "fighter-maya",
+            "relationType": "rival"
+        },
+        {
+            "hero": "lots",
+            "relationType": "rival"
         }
     ],
     "stats": {
@@ -72,7 +80,7 @@
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Black Magic",
-            "soulAcquire": 0,
+            "soulAcquire": 1,
             "description": "Attacks with a magic sphere. Increases Attack of caster for 1 turn.",
             "enhancement": [
                 {
@@ -170,7 +178,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_att_up"
+            ],
             "debuffs": []
         },
         {
@@ -179,9 +189,9 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
-            "cooldown": 0,
+            "cooldown": 2,
             "name": "Mana Injection",
-            "soulAcquire": 0,
+            "soulAcquire": 1,
             "description": "Injects an ally with mana, increasing Attack for 2 turns and Combat Readiness by 80%.",
             "enhancement": [
                 {
@@ -236,18 +246,20 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_att_up"
+            ],
             "debuffs": []
         },
         {
             "isPassive": false,
-            "soulBurn": 0,
+            "soulBurn": 20,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Grants an extra turn.",
             "awakenUpgrade": false,
-            "cooldown": 0,
+            "cooldown": 5,
             "name": "Desolation",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Attacks all enemies by releasing strong Mana, with a 50% chance to silence for 1 turn.",
             "enhancement": [
                 {
@@ -346,74 +358,76 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_silence"
+            ]
         }
     ],
     "specialtySkill": {
         "name": "No Tolerance",
         "description": "Expressionless, with little patience. Disobeying his orders will bring swift punishment.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Sanctuary] Category",
+        "enhancement": "Time Required -6%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 42,
+            "charm": 64,
+            "politics": 66
         }
     },
     "memoryImprintFormation": {
-        "north": false,
+        "north": true,
         "south": false,
-        "east": false,
+        "east": true,
         "west": false
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "atk",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.029
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.058
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.072
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.087
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.102
             }
         }
     ],
@@ -423,7 +437,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "spd": 2
                 },
                 {
                     "atk": 20
@@ -444,7 +458,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.03
                 },
                 {
                     "atk": 20
@@ -491,7 +505,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.06
                 },
                 {
                     "atk": 30
@@ -516,7 +530,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "spd": 4
                 },
                 {
                     "atk": 30
@@ -541,7 +555,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.06
                 },
                 {
                     "atk": 30

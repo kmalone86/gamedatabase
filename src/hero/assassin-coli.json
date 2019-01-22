@@ -9,8 +9,20 @@
     "background": "A silent assassin in the shadows, it is said that anyone who sees the glint of Assassin Coli's blade in the moonlight will not live much longer.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "coli",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "assassin-cidd",
+            "relationType": "rival"
+        },
+        {
+            "hero": "sez",
+            "relationType": "longing"
+        },
+        {
+            "hero": "helga",
+            "relationType": "grudge"
         }
     ],
     "stats": {
@@ -354,68 +366,68 @@
     "specialtySkill": {
         "name": "Split Second",
         "description": "Victory becomes hers in the blink of an eye.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Hunt] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 21,
+            "charm": 72,
+            "politics": 55
         }
     },
     "memoryImprintFormation": {
         "north": false,
-        "south": false,
-        "east": false,
+        "south": true,
+        "east": true,
         "west": false
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "chc",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "chc",
+                "increase": 0.043
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "chc",
+                "increase": 0.065
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "chc",
+                "increase": 0.086
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "chc",
+                "increase": 0.107
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "chc",
+                "increase": 0.129
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "chc",
+                "increase": 0.15
             }
         }
     ],

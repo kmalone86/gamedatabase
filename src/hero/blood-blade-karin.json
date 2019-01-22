@@ -9,31 +9,43 @@
     "background": "Karin is embroiled in an endless battle against the will of a cursed magical sword, compelled by its power to cause trouble. Though aggressive and cold-hearted while possessed by the sword, she sometimes escapes from the control of it and shows an unexpected side.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "zerato",
+            "relationType": "rival"
+        },
+        {
+            "hero": "judith",
+            "relationType": "rival"
+        },
+        {
+            "hero": "adlay",
+            "relationType": "rival"
+        },
+        {
+            "hero": "azalea",
+            "relationType": "rival"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1170,
+            "atk": 85,
+            "hp": 282,
+            "spd": 111,
+            "def": 54,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 15722,
+            "atk": 1138,
+            "hp": 5871,
+            "spd": 111,
+            "def": 462,
+            "chc": 21,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
@@ -344,68 +356,68 @@
     "specialtySkill": {
         "name": "Blood Chaser",
         "description": "The smell of blood travels far. She'll track the victim in no time.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Chase] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 30,
+            "charm": 55,
+            "politics": 12
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "atk",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.024
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.048
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.06
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.072
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.084
             }
         }
     ],
