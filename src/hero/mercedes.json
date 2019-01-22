@@ -9,8 +9,36 @@
     "background": "A Homunculus placed in the care of Queen Diene some years previously, Mercedes has a poker face that gives away little emotion, but she grows quickly attached to those who show her kindness. Sometimes, she may awkwardly mimic others or repeat what they say.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "ras",
+            "relationType": "longing"
+        },
+        {
+            "hero": "sigret",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "cartuja",
+            "relationType": "trust"
+        },
+        {
+            "hero": "arbiter-vildred",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "tenebria",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "nilgal",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "aither",
+            "relationType": "trust"
+        },
+        {
+            "hero": "jecht",
+            "relationType": "trust"
         }
     ],
     "stats": {
@@ -72,7 +100,7 @@
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Divine Bolt",
-            "soulAcquire": 0,
+            "soulAcquire": 1,
             "description": "Attacks two enemies with shock magic.",
             "enhancement": [
                 {
@@ -158,13 +186,13 @@
         },
         {
             "isPassive": false,
-            "soulBurn": 0,
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": false,
-            "cooldown": 0,
+            "cooldown": 3,
             "name": "Dimensional Rupture",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Attacks all enemies with a massive light sphere. When there are three or fewer enemies, damage dealt increases as enemies become fewer.",
             "enhancement": [
                 {
@@ -254,9 +282,9 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
-            "cooldown": 0,
+            "cooldown": 4,
             "name": "Blazing Eye of Kal",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Releases the power of the Ancient Book to attack all enemies strongly. The lower the enemy's health, the greater the damage dealt.",
             "enhancement": [
                 {
@@ -344,68 +372,68 @@
     "specialtySkill": {
         "name": "Eye of Kal's Bookmark",
         "description": "The Eye of Kal's knowledge came from the Goddess Diche.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Unknown Knowledge] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 30,
+            "charm": 75,
+            "politics": 20
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "atk",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.024
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.048
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.06
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.072
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.084
             }
         }
     ],
@@ -415,7 +443,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.03
                 },
                 {
                     "atk": 20
@@ -436,7 +464,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -483,7 +511,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chd": 0.06
                 },
                 {
                     "atk": 30
@@ -508,7 +536,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.06
                 },
                 {
                     "atk": 30
@@ -533,7 +561,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30

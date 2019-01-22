@@ -9,8 +9,16 @@
     "background": "With her glamorous beauty and enchanting smile, she's the quintessential witch. She loves money, especially when using it to decorate herself with beautiful things. She doesn't go anywhere without her magical weapon, Chatty.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "zerato",
+            "relationType": "rival"
+        },
+        {
+            "hero": "yuna",
+            "relationType": "trust"
+        },
+        {
+            "hero": "basar",
+            "relationType": "trust"
         }
     ],
     "stats": {
@@ -72,7 +80,7 @@
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Seduction",
-            "soulAcquire": 0,
+            "soulAcquire": 1,
             "description": "Attacks with a flame of seduction, decreasing Combat Readiness by 7%.",
             "enhancement": [
                 {
@@ -158,13 +166,13 @@
         },
         {
             "isPassive": false,
-            "soulBurn": 0,
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": true,
-            "cooldown": 0,
+            "cooldown": 4,
             "name": "Spirit Absorb",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Absorbs the enemy's Attack, increasing Attack of the caster for 2 turns before recovering Health proportional to the damage dealt, with a 60% chance to decrease Attack of the enemy for 2 turns. When the enemy is defeated, cooldown does not increase.",
             "enhancement": [
                 {
@@ -245,8 +253,12 @@
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": []
+            "buffs": [
+                "stic_att_up"
+            ],
+            "debuffs": [
+                "stic_att_dn"
+            ]
         },
         {
             "isPassive": false,
@@ -254,9 +266,9 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 0,
+            "cooldown": 6,
             "name": "Flame Kiss",
-            "soulAcquire": 0,
+            "soulAcquire": 3,
             "description": "Swallows the enemy in the flame of Chatty, the magic lantern, with a 60% chance each to inflict two burn effects for 2 turns.",
             "enhancement": [
                 {
@@ -338,74 +350,76 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_blaze"
+            ]
         }
     ],
     "specialtySkill": {
         "name": "Genius",
         "description": "Makes the impossible possible with their brilliance and genius.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Impossible Mission] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 31,
+            "charm": 74,
+            "politics": 85
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "eff",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "eff",
+                "increase": 0.036
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "eff",
+                "increase": 0.054
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "eff",
+                "increase": 0.072
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "eff",
+                "increase": 0.09
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "eff",
+                "increase": 0.108
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "eff",
+                "increase": 0.126
             }
         }
     ],
@@ -415,7 +429,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -436,7 +450,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "eff": 0.03
                 },
                 {
                     "atk": 20
@@ -483,7 +497,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
@@ -508,7 +522,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -533,7 +547,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "eff": 0.06
                 },
                 {
                     "atk": 30

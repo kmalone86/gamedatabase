@@ -9,8 +9,12 @@
     "background": "Coming from the East with her sentient weapon Mann, Surin vaguely remembers the journey that brought her to Ritania, but nothing else. Following Mann's voice, she embarks on a journey to find her lost memories.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "serila",
+            "relationType": "trust"
+        },
+        {
+            "hero": "otillie",
+            "relationType": "grudge"
         }
     ],
     "stats": {
@@ -72,7 +76,7 @@
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Chain Dagger",
-            "soulAcquire": 0,
+            "soulAcquire": 1,
             "description": "Attacks with a chain axe. If the enemy is bleeding, causes two bleeding effects for 2 turns.",
             "enhancement": [
                 {
@@ -154,17 +158,19 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_blood"
+            ]
         },
         {
             "isPassive": false,
-            "soulBurn": 0,
+            "soulBurn": 20,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Grants an extra turn.",
             "awakenUpgrade": true,
-            "cooldown": 0,
+            "cooldown": 3,
             "name": "Edge Smash",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Batters the enemy with a chain axe and inflicts two to four bleeding effects for 2 turns, decreasing Attack for 1 turn.",
             "enhancement": [
                 {
@@ -246,7 +252,10 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_blood",
+                "stic_att_dn"
+            ]
         },
         {
             "isPassive": false,
@@ -254,9 +263,9 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 0,
+            "cooldown": 5,
             "name": "Implosion",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Detonates all the bleeding effects currently inflicted on the enemy. Damage dealt increases proportional to the number of bleeding effects inflicted on the enemy, and debuff duration is extended by 1 turn. Additionally, the caster's Combat Readiness increases by 15% per every bleeding effect inflicted on the enemy. Effect can only be applied up to 5 times.",
             "enhancement": [
                 {
@@ -344,68 +353,68 @@
     "specialtySkill": {
         "name": "Sword-Forged Path",
         "description": "She handles every situation as if she's handling a sword.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Intelligence] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 45,
+            "charm": 66,
+            "politics": 37
         }
     },
     "memoryImprintFormation": {
         "north": false,
         "south": false,
-        "east": false,
-        "west": false
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "spd",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 4
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 6
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 8
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 10
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 12
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 14
             }
         }
     ],
@@ -415,7 +424,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -436,7 +445,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.03
                 },
                 {
                     "atk": 20
@@ -483,7 +492,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "eff": 0.06
                 },
                 {
                     "atk": 30
@@ -508,7 +517,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -533,7 +542,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.06
                 },
                 {
                     "atk": 30

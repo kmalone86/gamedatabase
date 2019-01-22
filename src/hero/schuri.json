@@ -9,8 +9,28 @@
     "background": "A master of gunpowder weaponry, Schuri has a strong sense of pride and arrogance, though suffers a complex about his weak physical strength.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "hazel",
+            "relationType": "trust"
+        },
+        {
+            "hero": "judith",
+            "relationType": "trust"
+        },
+        {
+            "hero": "zerato",
+            "relationType": "rival"
+        },
+        {
+            "hero": "krau",
+            "relationType": "longing"
+        },
+        {
+            "hero": "taranor-royal-guard",
+            "relationType": "longing"
+        },
+        {
+            "hero": "taranor-guard",
+            "relationType": "longing"
         }
     ],
     "stats": {
@@ -72,7 +92,7 @@
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Rapid Fire",
-            "soulAcquire": 0,
+            "soulAcquire": 1,
             "description": "Attack the enemy with a pistol, with a 25% chance to inflict poison for 2 turns.",
             "enhancement": [
                 {
@@ -154,7 +174,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_dot"
+            ]
         },
         {
             "isPassive": true,
@@ -250,13 +272,13 @@
         },
         {
             "isPassive": false,
-            "soulBurn": 0,
+            "soulBurn": 20,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Grants an extra turn.",
             "awakenUpgrade": true,
-            "cooldown": 0,
+            "cooldown": 4,
             "name": "Rifle Shot",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Shoots all enemies with a rifle. Enhanced into Full Burst when the number of stacked Focus is more than 3. Full Burst always results in a Critical Hit, decreasing Combat Readiness of all enemies by 30%.",
             "enhancement": [
                 {
@@ -344,68 +366,68 @@
     "specialtySkill": {
         "name": "Deadly Blow",
         "description": "Sharp instincts separate truth from falsehood.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Unknown Knowledge] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 65,
+            "charm": 80,
+            "politics": 72
         }
     },
     "memoryImprintFormation": {
-        "north": false,
+        "north": true,
         "south": false,
         "east": false,
-        "west": false
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "spd",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 4
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 6
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 8
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 10
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 12
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "spd",
+                "increase": 14
             }
         }
     ],
@@ -415,7 +437,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -436,7 +458,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -483,7 +505,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.06
                 },
                 {
                     "atk": 30
@@ -508,7 +530,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -533,7 +555,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
