@@ -6,9 +6,7 @@
     "zodiac": "scorpio",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "Soldiers responsible for guarding the King and Taranor Royal Palace, even as the energy of rebellion flows throughout Taranor, they remain faithfully loyal."
-    ],
+    "background": "Soldiers responsible for guarding the King and Taranor Royal Palace, even as the energy of rebellion flows throughout Taranor, they remain faithfully loyal.",
     "relations": [
         {
             "hero": "taranor-guard",
@@ -356,12 +354,8 @@
     "specialtySkill": {
         "name": "Veteran Soldier",
         "description": "As a soldier of the palace, they take pride in keeping order.",
-        "dispatch": [
-            "[Security] type mission"
-        ],
-        "enhancement": [
-            "Reward Bonus +6%"
-        ],
+        "dispatch": "[Security] type mission",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
             "command": 19,
             "charm": 12,

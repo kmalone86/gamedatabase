@@ -6,9 +6,7 @@
     "zodiac": "scorpio",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "A mysterious being from the stars, nobody knows where Celestial Mercedes came from, or what she has gone through. She freely duplicates any Human or thing she pleases, and currently resides in the Farche Frontier in a cloned body of Mercedes."
-    ],
+    "background": "A mysterious being from the stars, nobody knows where Celestial Mercedes came from, or what she has gone through. She freely duplicates any Human or thing she pleases, and currently resides in the Farche Frontier in a cloned body of Mercedes.",
     "relations": [
         {
             "hero": "destina",
@@ -370,12 +368,8 @@
     "specialtySkill": {
         "name": "Good and Evil",
         "description": "There's a fine line between good and evil.",
-        "dispatch": [
-            "[Sanctuary] Category"
-        ],
-        "enhancement": [
-            "Time Required -6%"
-        ],
+        "dispatch": "[Sanctuary] Category",
+        "enhancement": "Time Required -6%",
         "stats": {
             "command": 64,
             "charm": 55,

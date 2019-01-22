@@ -86,13 +86,13 @@
     "skills": [
         {
             "isPassive": false,
-            "soulBurn": "20",
+            "soulBurn": 20,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Attacks the enemy and greatly heals all allies. Does not trigger a Dual Attack.",
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Key to an Oath",
-            "soulAcquire": "1",
+            "soulAcquire": 1,
             "description": "Attacks the enemy with a staff and heals the ally with the lowest Health. Healing increases proportional to the target's max Health.",
             "enhancement": [
                 {
@@ -199,9 +199,9 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": "3",
+            "cooldown": 3,
             "name": "Regen",
-            "soulAcquire": "2",
+            "soulAcquire": 2,
             "description": "Blesses an ally, recovering their Health and increasing their Combat Readiness by 30%. Healing increases proportional to the caster's max Health.",
             "enhancement": [
                 {
@@ -265,9 +265,9 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
-            "cooldown": "6",
+            "cooldown": 6,
             "name": "Destina's Grace",
-            "soulAcquire": "3",
+            "soulAcquire": 3,
             "description": "Grants all allies the blessing of a Spirit Lord, dispelling all debuffs and recovering Health. If ally is debuffed, their Combat Readiness will also be increased by 15% per each debuff. Effect can only be applied up to 4 times. Healing increases proportional to the caster's max Health.",
             "enhancement": [
                 {
@@ -375,9 +375,9 @@
         "dispatch": "[Unknown Knowledge] Attribute",
         "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": "84",
-            "charm": "91",
-            "politics": "19"
+            "command": 84,
+            "charm": 91,
+            "politics": 19
         }
     },
     "memoryImprint": [
@@ -385,7 +385,7 @@
             "rank": "d",
             "status": {
                 "type": "hp",
-                "increase": "4.3%"
+                "increase": 0
             }
         },
         {
@@ -399,35 +399,35 @@
             "rank": "b",
             "status": {
                 "type": "hp",
-                "increase": 0
+                "increase": 0.043
             }
         },
         {
             "rank": "a",
             "status": {
                 "type": "hp",
-                "increase": 0
+                "increase": 0.064
             }
         },
         {
             "rank": "s",
             "status": {
                 "type": "hp",
-                "increase": 0
+                "increase": 0.086
             }
         },
         {
             "rank": "ss",
             "status": {
                 "type": "hp",
-                "increase": 0
+                "increase": 0.107
             }
         },
         {
             "rank": "sss",
             "status": {
                 "type": "hp",
-                "increase": 0
+                "increase": 0.129
             }
         }
     ],
@@ -437,7 +437,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": "20"
@@ -458,7 +458,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": "20"
@@ -505,7 +505,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "6%"
+                    "def": 0.06
                 },
                 {
                     "atk": "30"
@@ -530,7 +530,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": "30"
@@ -555,7 +555,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": "30"

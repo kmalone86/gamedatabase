@@ -6,9 +6,7 @@
     "zodiac": "aries",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "An apprentice knight of the Order of the Shield, Maya boasts incredible arm strength. Finding great value in her work protecting people, she devoted herself to the Order of the Shield. She cares greatly for her family back home."
-    ],
+    "background": "An apprentice knight of the Order of the Shield, Maya boasts incredible arm strength. Finding great value in her work protecting people, she devoted herself to the Order of the Shield. She cares greatly for her family back home.",
     "relations": [
         {
             "hero": "crozet",
@@ -375,12 +373,8 @@
     "specialtySkill": {
         "name": "Strong Arms",
         "description": "Uses their buff arms to fight against injustice.",
-        "dispatch": [
-            "[Security] Type"
-        ],
-        "enhancement": [
-            "Reward Bonus +6%"
-        ],
+        "dispatch": "[Security] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
             "command": 50,
             "charm": 83,

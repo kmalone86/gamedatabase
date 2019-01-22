@@ -6,9 +6,7 @@
     "zodiac": "gemini",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "Diene, Saint of Ezera, received the Goddess's divine revelation and fearlessly led the world to victory against the Archdemon, even without the Heir of the Covenant. Later, she became Ezera's queen."
-    ],
+    "background": "Diene, Saint of Ezera, received the Goddess's divine revelation and fearlessly led the world to victory against the Archdemon, even without the Heir of the Covenant. Later, she became Ezera's queen.",
     "relations": [
         {
             "hero": "bask",
@@ -379,12 +377,8 @@
     "specialtySkill": {
         "name": "Saint of Ezera",
         "description": "She overcomes the hardship through her deeply pious faith.",
-        "dispatch": [
-            "[Support] Type"
-        ],
-        "enhancement": [
-            "Reward bonus +6%"
-        ],
+        "dispatch": "[Support] Type",
+        "enhancement": "Reward bonus +6%",
         "stats": {
             "command": 78,
             "charm": 86,
@@ -448,7 +442,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "afr": "3%"
+                    "afr": 0.03
                 },
                 {
                     "atk": 20
@@ -469,7 +463,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -541,7 +535,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "afr": "6%"
+                    "afr": 0.06
                 },
                 {
                     "atk": 30
@@ -566,7 +560,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": 30

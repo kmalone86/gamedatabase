@@ -6,9 +6,7 @@
     "zodiac": "cancer",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "Knight Commander of the Order of the Shield, Crozet places a strict emphasis on following the rules, and is notoriously inflexible on them. His excessive uprightness means he often does not realize when others are playing tricks on him."
-    ],
+    "background": "Knight Commander of the Order of the Shield, Crozet places a strict emphasis on following the rules, and is notoriously inflexible on them. His excessive uprightness means he often does not realize when others are playing tricks on him.",
     "relations": [
         {
             "hero": "jena",

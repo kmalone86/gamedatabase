@@ -6,9 +6,7 @@
     "zodiac": "scorpio",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "Born in a village, Coli was made a refugee by the Archdemon War. She joined a band of vigilantes in order to help protect her family and has a talent for stealing items from thieves when she attacks them."
-    ],
+    "background": "Born in a village, Coli was made a refugee by the Archdemon War. She joined a band of vigilantes in order to help protect her family and has a talent for stealing items from thieves when she attacks them.",
     "relations": [
         {
             "hero": "jecht",
@@ -369,12 +367,8 @@
     "specialtySkill": {
         "name": "Life of Frugality",
         "description": "Has always dreamed of using her savings to build a new village for everyone.",
-        "dispatch": [
-            "All Missions"
-        ],
-        "enhancement": [
-            "Gold Bonus +6%"
-        ],
+        "dispatch": "All Missions",
+        "enhancement": "Gold Bonus +6%",
         "stats": {
             "command": 55,
             "charm": 68,

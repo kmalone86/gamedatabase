@@ -6,9 +6,7 @@
     "zodiac": "capricorn",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "A particularly ticklish feline Suin, Armin is the valiant and cheerful Commander of the Longtail Company. However, she is easily tempted, and quickly convinced to go along with the whims of her fellow mercenaries. She loves to collect earrings but since her ears are so sensitive she's unable to wear them."
-    ],
+    "background": "A particularly ticklish feline Suin, Armin is the valiant and cheerful Commander of the Longtail Company. However, she is easily tempted, and quickly convinced to go along with the whims of her fellow mercenaries. She loves to collect earrings but since her ears are so sensitive she's unable to wear them.",
     "relations": [
         {
             "hero": "kluri",
@@ -373,12 +371,8 @@
     "specialtySkill": {
         "name": "Agile Mercenaries",
         "description": "Handles requests with diligence and efficiency.",
-        "dispatch": [
-            "[All missions] type mission"
-        ],
-        "enhancement": [
-            "Time required -5%"
-        ],
+        "dispatch": "[All missions] type mission",
+        "enhancement": "Time required -5%",
         "stats": {
             "command": 78,
             "charm": 22,
@@ -390,49 +384,49 @@
             "rank": "d",
             "status": {
                 "type": "hp",
-                "increase": "2.4%"
+                "increase": ""
             }
         },
         {
             "rank": "c",
             "status": {
                 "type": "hp",
-                "increase": 0
+                "increase": 0.024
             }
         },
         {
             "rank": "b",
             "status": {
                 "type": "hp",
-                "increase": 0
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
                 "type": "hp",
-                "increase": 0
+                "increase": 0.048
             }
         },
         {
             "rank": "s",
             "status": {
                 "type": "hp",
-                "increase": 0
+                "increase": 0.06
             }
         },
         {
             "rank": "ss",
             "status": {
                 "type": "hp",
-                "increase": 0
+                "increase": 0.072
             }
         },
         {
             "rank": "sss",
             "status": {
                 "type": "hp",
-                "increase": 0
+                "increase": 0.084
             }
         }
     ],

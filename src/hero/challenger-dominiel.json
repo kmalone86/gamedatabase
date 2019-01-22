@@ -6,9 +6,7 @@
     "zodiac": "scorpio",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "Fiercely proud and unreserved, Challenger Dominiel has little morality or sense of empathy. While constantly causing trouble, she refuses to admit her faults."
-    ],
+    "background": "Fiercely proud and unreserved, Challenger Dominiel has little morality or sense of empathy. While constantly causing trouble, she refuses to admit her faults.",
     "relations": [
         {
             "hero": "dingo",
@@ -350,12 +348,8 @@
     "specialtySkill": {
         "name": "Echo",
         "description": "Dreams about her voice ringing out across continents.",
-        "dispatch": [
-            "[Gathering] Attribute"
-        ],
-        "enhancement": [
-            "Reward Bonus +10%"
-        ],
+        "dispatch": "[Gathering] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 32,
             "charm": 82,

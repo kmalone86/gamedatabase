@@ -6,9 +6,7 @@
     "zodiac": "cancer",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "Born to a noble Taranor family, Doris was forced to flee to Reingar after receiving a huge inheritance to escape her greedy stepmother. She wants to heal those wounded with her magic."
-    ],
+    "background": "Born to a noble Taranor family, Doris was forced to flee to Reingar after receiving a huge inheritance to escape her greedy stepmother. She wants to heal those wounded with her magic.",
     "relations": [
         {
             "hero": "arowell",
@@ -359,12 +357,8 @@
     "specialtySkill": {
         "name": "Family Heritage",
         "description": "The knowledge of past generations guides her.",
-        "dispatch": [
-            "[Hidden Clue] Attribute"
-        ],
-        "enhancement": [
-            "Reward Bonus +10%"
-        ],
+        "dispatch": "[Hidden Clue] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 8,
             "charm": 38,

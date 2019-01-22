@@ -6,9 +6,7 @@
     "zodiac": "gemini",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "Aramintha is a gentle and cheerful woman, and leader of the Phantom CIC, a group dedicated to investigating the Unknown to whom she lost her husband. She is an incredible fighter, but often gets caught up bragging about her husband when she's not in a battle."
-    ],
+    "background": "Aramintha is a gentle and cheerful woman, and leader of the Phantom CIC, a group dedicated to investigating the Unknown to whom she lost her husband. She is an incredible fighter, but often gets caught up bragging about her husband when she's not in a battle.",
     "relations": [
         {
             "hero": "basar",
@@ -371,12 +369,8 @@
     "specialtySkill": {
         "name": "Leader of Phantom",
         "description": "She is cold-hearted and resolute in achieving her goals.",
-        "dispatch": [
-            "[Strong Leader] Attribute"
-        ],
-        "enhancement": [
-            "Reward Bonus +10%"
-        ],
+        "dispatch": "[Strong Leader] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 94,
             "charm": 85,
@@ -388,7 +382,7 @@
             "rank": "d",
             "status": {
                 "type": "atk",
-                "increase": "3.6%"
+                "increase": 0
             }
         },
         {
@@ -402,35 +396,35 @@
             "rank": "b",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 0.054
             }
         },
         {
             "rank": "s",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 0.072
             }
         },
         {
             "rank": "ss",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 0.09
             }
         },
         {
             "rank": "sss",
             "status": {
                 "type": "atk",
-                "increase": 0
+                "increase": 0.108
             }
         }
     ],
@@ -440,7 +434,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": "20"
@@ -461,7 +455,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "3%"
+                    "eff": 0.03
                 },
                 {
                     "atk": "20"
@@ -508,7 +502,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "6%"
+                    "eff": 0.06
                 },
                 {
                     "atk": "30"
@@ -533,7 +527,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": "30"
@@ -558,7 +552,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "6%"
+                    "eff": 0.06
                 },
                 {
                     "atk": "30"

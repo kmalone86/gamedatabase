@@ -355,12 +355,8 @@
     "specialtySkill": {
         "name": "Finding the Strongest",
         "description": "His desire to fight the strongest made him follow the path of Asura.",
-        "dispatch": [
-            "[Chase] type mission"
-        ],
-        "enhancement": [
-            "Reward bonus +6%"
-        ],
+        "dispatch": "[Chase] type mission",
+        "enhancement": "Reward bonus +6%",
         "stats": {
             "command": 28,
             "charm": 29,

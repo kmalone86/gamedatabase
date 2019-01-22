@@ -6,9 +6,7 @@
     "zodiac": "aquarius",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "Younger sister of Ginger, the vice president of the student council, Hazel is the self-styled \"Black Sheep\" clerk of the student council. An inflexible, sharp-tongued slob, yet also an extensively knowledgeable model student. She has a detailed understanding of the personal relationships and weaknesses of everyone in Reingar."
-    ],
+    "background": "Younger sister of Ginger, the vice president of the student council, Hazel is the self-styled \"Black Sheep\" clerk of the student council. An inflexible, sharp-tongued slob, yet also an extensively knowledgeable model student. She has a detailed understanding of the personal relationships and weaknesses of everyone in Reingar.",
     "relations": [
         {
             "hero": "yuna",
@@ -366,12 +364,8 @@
     "specialtySkill": {
         "name": "Knowledge Is Power",
         "description": "Brain beat brawn every time.",
-        "dispatch": [
-            "[Unknown Knowledge] Attribute"
-        ],
-        "enhancement": [
-            "Reward Bonus +10%"
-        ],
+        "dispatch": "[Unknown Knowledge] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 11,
             "charm": 48,

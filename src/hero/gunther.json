@@ -6,9 +6,7 @@
     "zodiac": "libra",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "A veteran of the Archdemon War, Gunther is often misunderstood because of his rough-looking face, but he is a highly-talented treasure hunter."
-    ],
+    "background": "A veteran of the Archdemon War, Gunther is often misunderstood because of his rough-looking face, but he is a highly-talented treasure hunter.",
     "relations": [
         {
             "hero": "corvus",
@@ -362,12 +360,8 @@
     "specialtySkill": {
         "name": "Veteran Mercenary",
         "description": "He's diligent and skillful. War doesn't take place just on the battlefield.",
-        "dispatch": [
-            "[Impossible Mission] attribute mission"
-        ],
-        "enhancement": [
-            "Reward Bonus +10%"
-        ],
+        "dispatch": "[Impossible Mission] attribute mission",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 81,
             "charm": 68,

@@ -80,7 +80,7 @@
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Hail",
-            "soulAcquire": "1",
+            "soulAcquire": 1,
             "description": "Throws ice fragments at the enemy, with a 35% chance to decrease Speed for 2 turns.",
             "enhancement": [
                 {
@@ -185,13 +185,13 @@
         },
         {
             "isPassive": false,
-            "soulBurn": "20",
+            "soulBurn": 20,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Skill cooldown is decreased by 2 turns.",
             "awakenUpgrade": true,
-            "cooldown": "4",
+            "cooldown": 4,
             "name": "Blizzard Cape",
-            "soulAcquire": "1",
+            "soulAcquire": 1,
             "description": "Casts reflect and a barrier on all allies for 2 turns with frost magic. Barrier strength increases in proportion to the caster's Attack.",
             "enhancement": [
                 {
@@ -240,9 +240,9 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": "5",
+            "cooldown": 5,
             "name": "Ice Spear",
-            "soulAcquire": "2",
+            "soulAcquire": 2,
             "description": "Attacks all enemies with a large block of ice, with a 35% chance each to stun for 1 turn and decrease Combat Readiness by 30%.",
             "enhancement": [
                 {
@@ -365,9 +365,9 @@
         "dispatch": "All Missions",
         "enhancement": "Time Required -5%",
         "stats": {
-            "command": "72",
-            "charm": "51",
-            "politics": "32"
+            "command": 72,
+            "charm": 51,
+            "politics": 32
         }
     },
     "memoryImprintFormation": {
@@ -381,49 +381,49 @@
             "rank": "d",
             "status": {
                 "type": "def",
-                "increase": "2.4%"
+                "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
                 "type": "def",
-                "increase": 0
+                "increase": 0.024
             }
         },
         {
             "rank": "b",
             "status": {
                 "type": "def",
-                "increase": 0
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
                 "type": "def",
-                "increase": 0
+                "increase": 0.048
             }
         },
         {
             "rank": "s",
             "status": {
                 "type": "def",
-                "increase": 0
+                "increase": 0.06
             }
         },
         {
             "rank": "ss",
             "status": {
                 "type": "def",
-                "increase": 0
+                "increase": 0.072
             }
         },
         {
             "rank": "sss",
             "status": {
                 "type": "def",
-                "increase": 0
+                "increase": 0.084
             }
         }
     ],

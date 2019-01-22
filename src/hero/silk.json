@@ -6,9 +6,7 @@
     "zodiac": "virgo",
     "specialtyChangeName": "",
     "selfSkillBarName": "focus",
-    "background": [
-        "A young Elf born in Dun Blyraia, the Eternal Forest. At a young age Silk left the forest, meaning she knows little of her own race and her home. Her personality is bright and cheerful like a spring breeze."
-    ],
+    "background": "A young Elf born in Dun Blyraia, the Eternal Forest. At a young age Silk left the forest, meaning she knows little of her own race and her home. Her personality is bright and cheerful like a spring breeze.",
     "relations": [
         {
             "hero": "rin",
@@ -366,12 +364,8 @@
     "specialtySkill": {
         "name": "Wind Direction",
         "description": "Maybe it sounds like wind, but it's really a song sent from the forest.",
-        "dispatch": [
-            "[Explore] Type"
-        ],
-        "enhancement": [
-            "Reward Bonus +6%"
-        ],
+        "dispatch": "[Explore] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
             "command": 20,
             "charm": 87,

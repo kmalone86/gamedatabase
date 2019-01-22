@@ -72,7 +72,7 @@
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Sequential Cutter",
-            "soulAcquire": "1",
+            "soulAcquire": 1,
             "description": "Attacks with a sword, with a 50% chance to decrease Defense if the target's Health is more than 50%, or a 50% chance to make them unhealable for 1 turn if the target's Health is less than 50%.",
             "enhancement": [
                 {
@@ -165,9 +165,9 @@
             "selfSkillBarValue": "0",
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": "3",
+            "cooldown": 3,
             "name": "Spear of Darkness",
-            "soulAcquire": "2",
+            "soulAcquire": 2,
             "description": "Leaps into the air and strikes at the enemy with a swordstorm, dispelling one buff and decreasing Defense for 2 turns.",
             "enhancement": [
                 {
@@ -255,13 +255,13 @@
         },
         {
             "isPassive": false,
-            "soulBurn": "10",
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Increase damage dealt.",
             "awakenUpgrade": true,
-            "cooldown": "5",
+            "cooldown": 5,
             "name": "Goddess of Ruin",
-            "soulAcquire": "2",
+            "soulAcquire": 2,
             "description": "Attacks all enemies with aura of destruction, decreasing their Combat Readiness by 25%. Increases Combat Readiness of all allies by 25%.",
             "enhancement": [
                 {
@@ -352,9 +352,9 @@
         "dispatch": "[Fear] Attribute",
         "enhancement": "Reward bonus +10%",
         "stats": {
-            "command": "17",
-            "charm": "82",
-            "politics": "67"
+            "command": 17,
+            "charm": 82,
+            "politics": 67
         }
     },
     "memoryImprint": [
@@ -369,42 +369,42 @@
             "rank": "c",
             "status": {
                 "type": "dac",
-                "increase": "0.9"
+                "increase": 0.009
             }
         },
         {
             "rank": "b",
             "status": {
                 "type": "dac",
-                "increase": 0
+                "increase": 0.013
             }
         },
         {
             "rank": "a",
             "status": {
                 "type": "dac",
-                "increase": 0
+                "increase": 0.018
             }
         },
         {
             "rank": "s",
             "status": {
                 "type": "dac",
-                "increase": 0
+                "increase": 0.022
             }
         },
         {
             "rank": "ss",
             "status": {
                 "type": "dac",
-                "increase": 0
+                "increase": 0.027
             }
         },
         {
             "rank": "sss",
             "status": {
                 "type": "dac",
-                "increase": 0
+                "increase": 0.031
             }
         }
     ],

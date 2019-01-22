@@ -6,9 +6,7 @@
     "zodiac": "gemini",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "A girl from Reingar, Wanda is a curious young woman who gets bored of things very easily. Former student, nun, and mercenary, she is currently working as a self styled treasure hunter... for now."
-    ],
+    "background": "A girl from Reingar, Wanda is a curious young woman who gets bored of things very easily. Former student, nun, and mercenary, she is currently working as a self styled treasure hunter... for now.",
     "relations": [
         {
             "hero": "hazel",
@@ -372,12 +370,8 @@
     "specialtySkill": {
         "name": "Fine Idea",
         "description": "Not enough time? Work faster.",
-        "dispatch": [
-            "[Time Limit] Attribute"
-        ],
-        "enhancement": [
-            "Reward Bonus +10%"
-        ],
+        "dispatch": "[Time Limit] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 65,
             "charm": 61,

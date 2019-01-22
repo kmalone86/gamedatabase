@@ -360,12 +360,8 @@
     "specialtySkill": {
         "name": "Experienced Soldier",
         "description": "They've honed their skills by confronting countless enemies.",
-        "dispatch": [
-            "[Time Limit] attribute mission"
-        ],
-        "enhancement": [
-            "Reward Bonus +10%"
-        ],
+        "dispatch": "[Time Limit] attribute mission",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 20,
             "charm": 20,

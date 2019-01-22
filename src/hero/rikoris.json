@@ -6,9 +6,7 @@
     "zodiac": "libra",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "A founding member of the Martial Arts Club, Rikoris got caught up with Azalea and began helping out with the Public Security Club. He often lacks common sense, and is weak to the requests of others."
-    ],
+    "background": "A founding member of the Martial Arts Club, Rikoris got caught up with Azalea and began helping out with the Public Security Club. He often lacks common sense, and is weak to the requests of others.",
     "relations": [
         {
             "hero": "wanda",
@@ -366,12 +364,8 @@
     "specialtySkill": {
         "name": "Righteous Helper",
         "description": "He can't turn his back on anyone who asks for help.",
-        "dispatch": [
-            "[Gathering] Attribute"
-        ],
-        "enhancement": [
-            "Reward Bonus +10%"
-        ],
+        "dispatch": "[Gathering] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 41,
             "charm": 83,

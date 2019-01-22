@@ -6,9 +6,7 @@
     "zodiac": "pisces",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "A cute and cheerful member of Reingar's Public Security Club, Judith originally came to Reingar as a thief with her eyes on magical artifacts. However, she enjoyed her time in the Public Security Club so much, she eventually forgot her original goal. She is an old friend of the Longtail Company's commander, Armin."
-    ],
+    "background": "A cute and cheerful member of Reingar's Public Security Club, Judith originally came to Reingar as a thief with her eyes on magical artifacts. However, she enjoyed her time in the Public Security Club so much, she eventually forgot her original goal. She is an old friend of the Longtail Company's commander, Armin.",
     "relations": [
         {
             "hero": "armin",
@@ -360,12 +358,8 @@
     "specialtySkill": {
         "name": "Undercover",
         "description": "She can go anywhere with her skills of subterfuge.",
-        "dispatch": [
-            "[Sanctuary] category mission"
-        ],
-        "enhancement": [
-            "Time Required -6%"
-        ],
+        "dispatch": "[Sanctuary] category mission",
+        "enhancement": "Time Required -6%",
         "stats": {
             "command": 6,
             "charm": 73,

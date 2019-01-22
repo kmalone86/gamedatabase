@@ -6,9 +6,7 @@
     "zodiac": "capricorn",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "An Elf born on the outskirts of Dun Blyraia, the Eternal Forest. Raised by the World Tree that pitied her, Silk is fiercely proud, but forever yearning for her people."
-    ],
+    "background": "An Elf born on the outskirts of Dun Blyraia, the Eternal Forest. Raised by the World Tree that pitied her, Silk is fiercely proud, but forever yearning for her people.",
     "relations": [
         {
             "hero": "silk",
@@ -351,12 +349,8 @@
     "specialtySkill": {
         "name": "Calm Before the Storm",
         "description": "She keeps on her toes, knowing danger lurks around every corner.",
-        "dispatch": [
-            "[Battle] Type"
-        ],
-        "enhancement": [
-            "Reward Bonus +6%"
-        ],
+        "dispatch": "[Battle] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
             "command": 15,
             "charm": 85,

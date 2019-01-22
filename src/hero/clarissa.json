@@ -6,9 +6,7 @@
     "zodiac": "leo",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "A young nun of the Holy Order of the Blue Cross, Clarissa's purity made her a mascot of the church. However, as soon as she set out on her pilgrimage, her true fighting nature began to reveal itself."
-    ],
+    "background": "A young nun of the Holy Order of the Blue Cross, Clarissa's purity made her a mascot of the church. However, as soon as she set out on her pilgrimage, her true fighting nature began to reveal itself.",
     "relations": [
         {
             "hero": "angelica",

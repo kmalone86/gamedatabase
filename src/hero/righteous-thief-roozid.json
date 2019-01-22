@@ -363,12 +363,8 @@
     "specialtySkill": {
         "name": "Food Master",
         "description": "Not very popular, but a great cook. A self-taught chef from his days leading a group of nomads.",
-        "dispatch": [
-            "[Gourmet] attribute mission"
-        ],
-        "enhancement": [
-            "Reward Bonus +10%"
-        ],
+        "dispatch": "[Gourmet] attribute mission",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 55,
             "charm": 75,

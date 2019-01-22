@@ -6,9 +6,7 @@
     "zodiac": "scorpio",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "A member of the Sicar assasin organization. Watcher Schuri is an oustanding fighter, but ignorant of the ways of the world. Though his rigid way of speaking gives of an air of unapproachability, he is surprisingly straightforward and open to granting people's requests. However, he hides a secret he cannot share with others."
-    ],
+    "background": "A member of the Sicar assasin organization. Watcher Schuri is an oustanding fighter, but ignorant of the ways of the world. Though his rigid way of speaking gives of an air of unapproachability, he is surprisingly straightforward and open to granting people's requests. However, he hides a secret he cannot share with others.",
     "relations": [
         {
             "hero": "haste",
@@ -352,12 +350,8 @@
     "specialtySkill": {
         "name": "Hypervision",
         "description": "He can see through everything.",
-        "dispatch": [
-            "[Hidden Clue] Attribute"
-        ],
-        "enhancement": [
-            "Reward Bonus +10%"
-        ],
+        "dispatch": "[Hidden Clue] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 75,
             "charm": 73,

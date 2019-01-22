@@ -6,9 +6,7 @@
     "zodiac": "aries",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "Cidd is the youngest member and mascot of the Wild Dog Company, a group of mercenaries headquartered in an old ruined fortress in Wetheric Moor. Contrary to his cheerful and carefree appearance, he will complete any task assigned to him. He cares for the Wild Dog Company as if they were family."
-    ],
+    "background": "Cidd is the youngest member and mascot of the Wild Dog Company, a group of mercenaries headquartered in an old ruined fortress in Wetheric Moor. Contrary to his cheerful and carefree appearance, he will complete any task assigned to him. He cares for the Wild Dog Company as if they were family.",
     "relations": [
         {
             "hero": "dingo",
@@ -358,12 +356,8 @@
     "specialtySkill": {
         "name": "Animal Instinct",
         "description": "Oustanding senses of smell and hearing are very helpful when hunting.",
-        "dispatch": [
-            "[Adventure] type mission"
-        ],
-        "enhancement": [
-            "Time requiered -6%"
-        ],
+        "dispatch": "[Adventure] type mission",
+        "enhancement": "Time requiered -6%",
         "stats": {
             "command": 45,
             "charm": 90,

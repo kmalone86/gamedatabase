@@ -27,16 +27,16 @@
     ],
     "stats": {
         "base": {
-            "cp": "1113",
-            "atk": "47",
-            "hp": "276",
-            "spd": "91",
-            "def": "71",
-            "chc": "15",
-            "chd": "150",
+            "cp": 1113,
+            "atk": 47,
+            "hp": 276,
+            "spd": 91,
+            "def": 71,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": "5"
+            "dac": 5
         },
         "max": {
             "cp": 15518,
@@ -44,8 +44,8 @@
             "hp": 6403,
             "spd": 91,
             "def": 703,
-            "chc": "15",
-            "chd": "150",
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
@@ -84,7 +84,7 @@
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Weak Blow",
-            "soulAcquire": "1",
+            "soulAcquire": 1,
             "description": "Attacks the enemy, with a 50% chance to provoke. Damage dealt increases proportional to the caster's Defense.",
             "enhancement": [
                 {
@@ -266,13 +266,13 @@
         },
         {
             "isPassive": false,
-            "soulBurn": "10",
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Skill cooldown is decreased by 2 turns.",
             "awakenUpgrade": true,
-            "cooldown": "4",
+            "cooldown": 4,
             "name": "Guard",
-            "soulAcquire": "2",
+            "soulAcquire": 2,
             "description": "Attacks the enemy, and grants barrier on all allies for 2 turns. Barrier strength increases in proportion to the caster's Defense.",
             "enhancement": [
                 {
@@ -365,9 +365,9 @@
         "dispatch": "[Barren Land] Attribute",
         "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": "17",
-            "charm": "57",
-            "politics": "40"
+            "command": 17,
+            "charm": 57,
+            "politics": 40
         }
     },
     "memoryImprintFormation": {

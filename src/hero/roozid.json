@@ -6,9 +6,7 @@
     "zodiac": "gemini",
     "specialtyChangeName": "righteous-thief-roozid",
     "selfSkillBarName": "",
-    "background": [
-        "A quiet and kind young canine Suin of the Itan Clan, despite struggling to feed even himself, Roozid makes sure the sandcats of the Great Desert do not starve either. He admires Cartuja greatly."
-    ],
+    "background": "A quiet and kind young canine Suin of the Itan Clan, despite struggling to feed even himself, Roozid makes sure the sandcats of the Great Desert do not starve either. He admires Cartuja greatly.",
     "relations": [
         {
             "hero": "cartuja",
@@ -360,12 +358,8 @@
     "specialtySkill": {
         "name": "Food Master",
         "description": "Not very popular, but a great cook. A self-taught chef from his days leading a group of nomads.",
-        "dispatch": [
-            "[Gourmet] attribute mission"
-        ],
-        "enhancement": [
-            "Reward Bonus +10%"
-        ],
+        "dispatch": "[Gourmet] attribute mission",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 55,
             "charm": 75,

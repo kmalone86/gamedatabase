@@ -6,9 +6,7 @@
     "zodiac": "scorpio",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "With no particular religious faith, and wishing solely to become stronger, he joined the Order of the Sword. His only goal is to have his name remembered by future generations as a powerful knight and he cannot understand anyone who dies in the service of faith or personal beliefs."
-    ],
+    "background": "With no particular religious faith, and wishing solely to become stronger, he joined the Order of the Sword. His only goal is to have his name remembered by future generations as a powerful knight and he cannot understand anyone who dies in the service of faith or personal beliefs.",
     "relations": [
         {
             "hero": "diene",
@@ -367,12 +365,8 @@
     "specialtySkill": {
         "name": "Strong Will",
         "description": "He's always training, determined to become the strongest knight.",
-        "dispatch": [
-            "[War] category mission"
-        ],
-        "enhancement": [
-            "Time Required -6%"
-        ],
+        "dispatch": "[War] category mission",
+        "enhancement": "Time Required -6%",
         "stats": {
             "command": 35,
             "charm": 70,

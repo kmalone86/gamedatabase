@@ -6,9 +6,7 @@
     "zodiac": "libra",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "Aither is the royal child of Ezera. He is bright and energetic, but he does not like those people who treat him as a weak boy. He desires to make his name as a brave knight one day, just like his mother."
-    ],
+    "background": "Aither is the royal child of Ezera. He is bright and energetic, but he does not like those people who treat him as a weak boy. He desires to make his name as a brave knight one day, just like his mother.",
     "relations": [
         {
             "hero": "arbiter-vildred",
@@ -378,12 +376,8 @@
     "specialtySkill": {
         "name": "First Aid",
         "description": "With his warm touch, there's nothing he can't heal.",
-        "dispatch": [
-            "[Weakened] attribute mission"
-        ],
-        "enhancement": [
-            "Reward bonus +10%"
-        ],
+        "dispatch": "[Weakened] attribute mission",
+        "enhancement": "Reward bonus +10%",
         "stats": {
             "command": 41,
             "charm": 80,

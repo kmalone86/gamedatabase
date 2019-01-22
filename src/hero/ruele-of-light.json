@@ -6,9 +6,7 @@
     "zodiac": "pisces",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "An Heir of the Sixth World, Ruele is revered for her kindness. She is a Soul Weaver who gained the favor of the Lord of Light, Destina. Her only hobby is telling fortunes with rabbit fortune cookies."
-    ],
+    "background": "An Heir of the Sixth World, Ruele is revered for her kindness. She is a Soul Weaver who gained the favor of the Lord of Light, Destina. Her only hobby is telling fortunes with rabbit fortune cookies.",
     "relations": [
         {
             "hero": "ras",
@@ -370,12 +368,8 @@
     "specialtySkill": {
         "name": "Saint of Light",
         "description": "In her presence, even evil loses its darkness.",
-        "dispatch": [
-            "[Fear] type mission"
-        ],
-        "enhancement": [
-            "Reward bonus +10%"
-        ],
+        "dispatch": "[Fear] type mission",
+        "enhancement": "Reward bonus +10%",
         "stats": {
             "command": 45,
             "charm": 79,
@@ -439,7 +433,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -460,7 +454,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "3%"
+                    "def": 0.03
                 },
                 {
                     "atk": 20
@@ -507,7 +501,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "6%"
+                    "def": 0.06
                 },
                 {
                     "atk": 30
@@ -532,7 +526,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
@@ -557,7 +551,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "6%"
+                    "def": 0.06
                 },
                 {
                     "atk": 30

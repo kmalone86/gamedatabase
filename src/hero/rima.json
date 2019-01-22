@@ -6,9 +6,7 @@
     "zodiac": "aquarius",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "An energetic and cheerful girl, Rima is a master archer who spends her time as a wandering minstrel. Otherwise fearless and daring, she is terrified of mice."
-    ],
+    "background": "An energetic and cheerful girl, Rima is a master archer who spends her time as a wandering minstrel. Otherwise fearless and daring, she is terrified of mice.",
     "relations": [
         {
             "hero": "roozid",

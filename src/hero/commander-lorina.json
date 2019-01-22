@@ -356,12 +356,8 @@
     "specialtySkill": {
         "name": "Faithful Spear",
         "description": "Through faith she can overcome moments of weakness and doubt.",
-        "dispatch": [
-            "[Weakened] Attribute"
-        ],
-        "enhancement": [
-            "Reward Bonus +10%"
-        ],
+        "dispatch": "[Weakened] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 64,
             "charm": 33,

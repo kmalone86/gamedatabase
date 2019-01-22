@@ -370,12 +370,8 @@
     "specialtySkill": {
         "name": "Similar but Better",
         "description": "Sometimes fulfilling desires can result in great things.",
-        "dispatch": [
-            "[Weakened] Attribute"
-        ],
-        "enhancement": [
-            "Reward Bonus +10%"
-        ],
+        "dispatch": "[Weakened] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 34,
             "charm": 84,

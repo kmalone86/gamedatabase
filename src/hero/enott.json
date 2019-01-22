@@ -6,9 +6,7 @@
     "zodiac": "scorpio",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "A nasty, arrogant and ambitious man with an inflated sense of his own abilities, Enott used his connections with a noble Ezera family to become a priest of the Rose Apostles."
-    ],
+    "background": "A nasty, arrogant and ambitious man with an inflated sense of his own abilities, Enott used his connections with a noble Ezera family to become a priest of the Rose Apostles.",
     "relations": [
         {
             "hero": "jena",
@@ -358,12 +356,8 @@
     "specialtySkill": {
         "name": "Pharmacy of Apostles",
         "description": "A maker of medicine to heal wounds and food to stimulate thought.",
-        "dispatch": [
-            "[Weakened] attribute mission"
-        ],
-        "enhancement": [
-            "Reward Bonus +10%"
-        ],
+        "dispatch": "[Weakened] attribute mission",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 22,
             "charm": 73,

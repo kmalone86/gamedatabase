@@ -348,8 +348,8 @@
     "specialtySkill": {
         "name": "Calm Darkness",
         "description": "Those who are used to darkness don't lose their senses even in the midst of chaos.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Time Limit] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 0,
             "charm": 0,

@@ -361,54 +361,60 @@
             "politics": 88
         }
     },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
+    },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
                 "type": "def",
-                "increase": "2.4%"
+                "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
                 "type": "def",
-                "increase": 0
+                "increase": 0.024
             }
         },
         {
             "rank": "b",
             "status": {
                 "type": "def",
-                "increase": 0
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
                 "type": "def",
-                "increase": 0
+                "increase": 0.048
             }
         },
         {
             "rank": "s",
             "status": {
                 "type": "def",
-                "increase": 0
+                "increase": 0.06
             }
         },
         {
             "rank": "ss",
             "status": {
                 "type": "def",
-                "increase": 0
+                "increase": 0.072
             }
         },
         {
             "rank": "sss",
             "status": {
                 "type": "def",
-                "increase": 0
+                "increase": 0.84
             }
         }
     ],

@@ -6,9 +6,7 @@
     "zodiac": "leo",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "Despite her young age, Alexa has managed to become a formally appointed knight of the Order of the Sword trusted with all kinds of duties. She greatly admires Iseria, who taught her how to use a sword."
-    ],
+    "background": "Despite her young age, Alexa has managed to become a formally appointed knight of the Order of the Sword trusted with all kinds of duties. She greatly admires Iseria, who taught her how to use a sword.",
     "relations": [
         {
             "hero": "iseria",
@@ -368,12 +366,8 @@
     "specialtySkill": {
         "name": "Excellent Instructor",
         "description": "She's contributed greatly to helping knights in their development.",
-        "dispatch": [
-            "All missions"
-        ],
-        "enhancement": [
-            "EXP Bonus +6%"
-        ],
+        "dispatch": "All missions",
+        "enhancement": "EXP Bonus +6%",
         "stats": {
             "command": 85,
             "charm": 25,

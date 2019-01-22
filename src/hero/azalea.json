@@ -6,9 +6,7 @@
     "zodiac": "scorpio",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "An officer of the Reingar Public Security Club, Azalea is mainly responsible for guarding the library and catching book thieves. Despite being trusted with many leadership duties, she has a history of continuously failing to be appointed to the Student Council."
-    ],
+    "background": "An officer of the Reingar Public Security Club, Azalea is mainly responsible for guarding the library and catching book thieves. Despite being trusted with many leadership duties, she has a history of continuously failing to be appointed to the Student Council.",
     "relations": [
         {
             "hero": "wanda",
@@ -363,12 +361,8 @@
     "specialtySkill": {
         "name": "Sharp Insight",
         "description": "With sharp eyes, she thwarts those that would do evil.",
-        "dispatch": [
-            "[Time Limit] attribute mission"
-        ],
-        "enhancement": [
-            "Reward Bonus +10%"
-        ],
+        "dispatch": "[Time Limit] attribute mission",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 22,
             "charm": 60,

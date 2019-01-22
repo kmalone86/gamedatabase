@@ -27,25 +27,25 @@
     ],
     "stats": {
         "base": {
-            "cp": "1161",
-            "atk": "40",
-            "hp": "253",
-            "spd": "88",
-            "def": "82",
-            "chc": "15",
-            "chd": "150",
+            "cp": 1161,
+            "atk": 40,
+            "hp": 253,
+            "spd": 88,
+            "def": 82,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": "5"
+            "dac": 5
         },
         "max": {
-            "cp": "14709",
-            "atk": "576",
-            "hp": "5700",
-            "spd": "88",
-            "def": "743",
-            "chc": "15",
-            "chd": "150",
+            "cp": 14709,
+            "atk": 576,
+            "hp": 5700,
+            "spd": 88,
+            "def": 743,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
@@ -84,7 +84,7 @@
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Holy Strike",
-            "soulAcquire": "1",
+            "soulAcquire": 1,
             "description": "Attacks with a staff, with a 20% chance to stun for 1 turn.",
             "enhancement": [
                 {
@@ -176,9 +176,9 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
-            "cooldown": "2",
+            "cooldown": 2,
             "name": "Origin of Life",
-            "soulAcquire": "1",
+            "soulAcquire": 1,
             "description": "Recovers ally's Health, as well as that of another ally with the least Health, with healing power. Amount recovered is proportional to the caster's max Health.",
             "enhancement": [
                 {
@@ -264,13 +264,13 @@
         },
         {
             "isPassive": false,
-            "soulBurn": "20",
-            "selfSkillBarValue": "0",
+            "soulBurn": 20,
+            "selfSkillBarValue": 0,
             "soulBurnEffect": "Extends buff duration by 2 turns.",
             "awakenUpgrade": false,
-            "cooldown": "5",
+            "cooldown": 5,
             "name": "Guide of the Goddess",
-            "soulAcquire": "2",
+            "soulAcquire": 2,
             "description": "Recovers to Health of all allies and grants a barrier and immunity for 2 turns. Amount recovered and barrier strength are proportional to the caster's max Health.",
             "enhancement": [
                 {
@@ -364,9 +364,9 @@
         "dispatch": "[Fear] Attribute",
         "enhancement": "Reward bonus +10%",
         "stats": {
-            "command": "25",
-            "charm": "62",
-            "politics": "90"
+            "command": 25,
+            "charm": 62,
+            "politics": 90
         }
     },
     "memoryImprint": [
@@ -381,42 +381,42 @@
             "rank": "c",
             "status": {
                 "type": "efr",
-                "increase": "3.6%"
+                "increase": 0.036
             }
         },
         {
             "rank": "b",
             "status": {
                 "type": "efr",
-                "increase": 0
+                "increase": 0.054
             }
         },
         {
             "rank": "a",
             "status": {
                 "type": "efr",
-                "increase": 0
+                "increase": 0.072
             }
         },
         {
             "rank": "s",
             "status": {
                 "type": "efr",
-                "increase": 0
+                "increase": 0.09
             }
         },
         {
             "rank": "ss",
             "status": {
                 "type": "efr",
-                "increase": 0
+                "increase": 0.108
             }
         },
         {
             "rank": "sss",
             "status": {
                 "type": "efr",
-                "increase": 0
+                "increase": 0.126
             }
         }
     ],

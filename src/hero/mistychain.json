@@ -6,9 +6,7 @@
     "zodiac": "leo",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "A Banshee formed from a corrupted soul. She sings songs of passion frozen by painful betrayal. She is known to mercilessly tear things apart with her bare hands."
-    ],
+    "background": "A Banshee formed from a corrupted soul. She sings songs of passion frozen by painful betrayal. She is known to mercilessly tear things apart with her bare hands.",
     "relations": [
         {
             "hero": "auxiliary-lots",

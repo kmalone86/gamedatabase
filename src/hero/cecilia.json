@@ -6,9 +6,7 @@
     "zodiac": "aries",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "A brave woman known as the Storm Dragon Knight. Cecilia is Queen of Wintenberg and has a strong sense of responsibility. She has a righteous and sincere personality, but will stubbornly resist any attempts to change her mind."
-    ],
+    "background": "A brave woman known as the Storm Dragon Knight. Cecilia is Queen of Wintenberg and has a strong sense of responsibility. She has a righteous and sincere personality, but will stubbornly resist any attempts to change her mind.",
     "relations": [
         {
             "hero": "yufine",
@@ -371,12 +369,8 @@
     "specialtySkill": {
         "name": "Legacy of Dragon Knight",
         "description": "Having long fought dragons, the Wintenberg dynasty passes down their knowledge via holy scripture.",
-        "dispatch": [
-            "[Gathering] Attribute"
-        ],
-        "enhancement": [
-            "Reward bonus +10%"
-        ],
+        "dispatch": "[Gathering] Attribute",
+        "enhancement": "Reward bonus +10%",
         "stats": {
             "command": 91,
             "charm": 90,
@@ -440,7 +434,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -461,7 +455,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "3%"
+                    "eff": 0.03
                 },
                 {
                     "atk": 20
@@ -533,7 +527,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
@@ -558,7 +552,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "6%"
+                    "eff": 0.06
                 },
                 {
                     "atk": 30

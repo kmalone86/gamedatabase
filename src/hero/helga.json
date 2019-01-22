@@ -6,9 +6,7 @@
     "zodiac": "sagittarius",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "Though small in stature, Helga is a fierce eyed bounty hunter who is never without her trademark axe and horned helm. Rough-spoken and rough-tempered, she has no time for those who look down on her, and prefers to work alone."
-    ],
+    "background": "Though small in stature, Helga is a fierce eyed bounty hunter who is never without her trademark axe and horned helm. Rough-spoken and rough-tempered, she has no time for those who look down on her, and prefers to work alone.",
     "relations": [
         {
             "hero": "gunther",
@@ -366,12 +364,8 @@
     "specialtySkill": {
         "name": "One by One",
         "description": "She shows no hesitation while defeating her enemies.",
-        "dispatch": [
-            "[Gathering] attribute mission"
-        ],
-        "enhancement": [
-            "Reward Bonus +10%"
-        ],
+        "dispatch": "[Gathering] attribute mission",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 74,
             "charm": 11,

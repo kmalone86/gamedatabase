@@ -6,9 +6,7 @@
     "zodiac": "pisces",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "An apprentice sister of the Holy of the Blue Cross, Montmorancy is an understudy of Achates and Clarissa, the latter of which she likes very much. She is naive and often makes mistakes, but overcomes them with a positive attitude."
-    ],
+    "background": "An apprentice sister of the Holy of the Blue Cross, Montmorancy is an understudy of Achates and Clarissa, the latter of which she likes very much. She is naive and often makes mistakes, but overcomes them with a positive attitude.",
     "relations": [
         {
             "hero": "clarissa",

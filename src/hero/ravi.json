@@ -6,9 +6,7 @@
     "zodiac": "capricorn",
     "specialtyChangeName": "",
     "selfSkillBarName": "fighting-spirit",
-    "background": [
-        "Ravi once was a quiet girl living in a countryside, until she fell into a victim of the Homunculus experiments and became a Wraith. Since Ravi was made by the power of Tenebria, she strongly believes she is the chosen one."
-    ],
+    "background": "Ravi once was a quiet girl living in a countryside, until she fell into a victim of the Homunculus experiments and became a Wraith. Since Ravi was made by the power of Tenebria, she strongly believes she is the chosen one.",
     "relations": [
         {
             "hero": "tenebria",
@@ -348,12 +346,8 @@
     "specialtySkill": {
         "name": "Blood Burst",
         "description": "She vanquishes all enemies according to Acolyte Tenebria's will.",
-        "dispatch": [
-            "[Strong Leader] Attribute"
-        ],
-        "enhancement": [
-            "Reward Bonus +10%"
-        ],
+        "dispatch": "[Strong Leader] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 56,
             "charm": 43,
@@ -417,7 +411,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": "20"
@@ -438,7 +432,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": "20"
@@ -485,7 +479,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "6%"
+                    "def": 0.06
                 },
                 {
                     "atk": "30"
@@ -510,7 +504,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": "30"
@@ -535,7 +529,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": "30"

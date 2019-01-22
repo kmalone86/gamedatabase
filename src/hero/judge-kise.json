@@ -6,9 +6,7 @@
     "zodiac": "virgo",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "An Heir of the Sixth World, Kise is leader of the Nocturnes. She fought every battle against the Archdemon alongside the Guardian Kromcruz. Though she can be sluggish and sharp-tongued, she cares greatly for her fellow Heirs."
-    ],
+    "background": "An Heir of the Sixth World, Kise is leader of the Nocturnes. She fought every battle against the Archdemon alongside the Guardian Kromcruz. Though she can be sluggish and sharp-tongued, she cares greatly for her fellow Heirs.",
     "relations": [
         {
             "hero": "ras",
@@ -372,12 +370,8 @@
     "specialtySkill": {
         "name": "Fate Watcher",
         "description": "Facing her fate, she carries out her duty.",
-        "dispatch": [
-            "[Fear] type mission"
-        ],
-        "enhancement": [
-            "Reward bonus +10%"
-        ],
+        "dispatch": "[Fear] type mission",
+        "enhancement": "Reward bonus +10%",
         "stats": {
             "command": 95,
             "charm": 87,
@@ -441,7 +435,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "3%"
+                    "eff": 0.03
                 },
                 {
                     "atk": 20
@@ -462,7 +456,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": "3%"
+                    "chc": 0.03
                 },
                 {
                     "atk": 20
@@ -534,7 +528,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "6%"
+                    "eff": 0.06
                 },
                 {
                     "atk": 30
@@ -559,7 +553,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": "6%"
+                    "chc": 0.06
                 },
                 {
                     "atk": 30

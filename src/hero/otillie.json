@@ -6,9 +6,7 @@
     "zodiac": "taurus",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "Having escaped the Homunculus experiments in the Laboratory, Otillie went to Wetheric Moor, following her cloudy memory of the past. Her blank facial expression and lack of Human emotion makes it very hard to tell if she is lying. She is quick-witted with good conversational skills."
-    ],
+    "background": "Having escaped the Homunculus experiments in the Laboratory, Otillie went to Wetheric Moor, following her cloudy memory of the past. Her blank facial expression and lack of Human emotion makes it very hard to tell if she is lying. She is quick-witted with good conversational skills.",
     "relations": [
         {
             "hero": "cidd",
@@ -360,12 +358,8 @@
     "specialtySkill": {
         "name": "Fearless",
         "description": "She is unrelenting in her advance; she does not know fear.",
-        "dispatch": [
-            "[Hunt] type mission"
-        ],
-        "enhancement": [
-            "Time requiered -6%"
-        ],
+        "dispatch": "[Hunt] type mission",
+        "enhancement": "Time requiered -6%",
         "stats": {
             "command": 40,
             "charm": 25,

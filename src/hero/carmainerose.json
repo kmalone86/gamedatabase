@@ -6,9 +6,7 @@
     "zodiac": "aquarius",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "A Banshee formed from a corrupted soul. Reminiscent of the shriveled rose petals the day after a festival, Carmainerose dazzles her opponents by singing a song of her failed revenge."
-    ],
+    "background": "A Banshee formed from a corrupted soul. Reminiscent of the shriveled rose petals the day after a festival, Carmainerose dazzles her opponents by singing a song of her failed revenge.",
     "relations": [
         {
             "hero": "requiemroar",
@@ -361,12 +359,8 @@
     "specialtySkill": {
         "name": "Combat Maniac",
         "description": "Her thirst for blood and victory knows no bounds. She'll do anything for it.",
-        "dispatch": [
-            "[Battle] Type"
-        ],
-        "enhancement": [
-            "Reward Bonus +6%"
-        ],
+        "dispatch": "[Battle] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
             "command": 61,
             "charm": 15,

@@ -6,9 +6,7 @@
     "zodiac": "leo",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "The main duty of the Church of Ilryos Butcher Corps is to track down and punish traitors or fugitives."
-    ],
+    "background": "The main duty of the Church of Ilryos Butcher Corps is to track down and punish traitors or fugitives.",
     "relations": [
         {
             "hero": "taranor-guard",
@@ -358,12 +356,8 @@
     "specialtySkill": {
         "name": "Know-How",
         "description": "Inquisitors know how to defeat their enemies easily with the knowledge they've acquired from Ilyros.",
-        "dispatch": [
-            "[Unknown Knowledge] attribute mission"
-        ],
-        "enhancement": [
-            "Reward Bonus +10%"
-        ],
+        "dispatch": "[Unknown Knowledge] attribute mission",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 11,
             "charm": 8,

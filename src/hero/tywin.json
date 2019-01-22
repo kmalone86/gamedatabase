@@ -6,9 +6,7 @@
     "zodiac": "aries",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "Captain of the Royal Guard of Lefundos, situated in Northern Eureka, Tywin holds the favor of his king Schniel. A hard worker, he values rule and order over all else, and gives off the impression that he will not listen to what you have to say."
-    ],
+    "background": "Captain of the Royal Guard of Lefundos, situated in Northern Eureka, Tywin holds the favor of his king Schniel. A hard worker, he values rule and order over all else, and gives off the impression that he will not listen to what you have to say.",
     "relations": [
         {
             "hero": "romann",
@@ -363,12 +361,8 @@
     "specialtySkill": {
         "name": "Commander",
         "description": "His incredible command ability boosts the efficiency of his troops.",
-        "dispatch": [
-            "[War] type mission"
-        ],
-        "enhancement": [
-            "Time requiered -6%"
-        ],
+        "dispatch": "[War] type mission",
+        "enhancement": "Time requiered -6%",
         "stats": {
             "command": 98,
             "charm": 75,
@@ -432,7 +426,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -453,7 +447,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "3%"
+                    "eff": 0.03
                 },
                 {
                     "atk": 20
@@ -525,7 +519,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
@@ -550,7 +544,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": "6%"
+                    "eff": 0.06
                 },
                 {
                     "atk": 30

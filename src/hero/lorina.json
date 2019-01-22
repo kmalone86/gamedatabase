@@ -6,9 +6,7 @@
     "zodiac": "leo",
     "specialtyChangeName": "commander-lorina",
     "selfSkillBarName": "",
-    "background": [
-        "An apprentice of the Order of the Shield, Lorina is constantly practicing to achieve her goal of becoming a knight. She thinks she's clever and confident, but in reality she's quite naive and easily tricked by others."
-    ],
+    "background": "An apprentice of the Order of the Shield, Lorina is constantly practicing to achieve her goal of becoming a knight. She thinks she's clever and confident, but in reality she's quite naive and easily tricked by others.",
     "relations": [
         {
             "hero": "maya",
@@ -358,12 +356,8 @@
     "specialtySkill": {
         "name": "Faithful Spear",
         "description": "Through faith she can overcome moments of weakness and doubt.",
-        "dispatch": [
-            "[Weakened] Attribute"
-        ],
-        "enhancement": [
-            "Reward Bonus +10%"
-        ],
+        "dispatch": "[Weakened] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 64,
             "charm": 33,

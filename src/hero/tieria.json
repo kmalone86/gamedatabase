@@ -6,9 +6,7 @@
     "zodiac": "aries",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "An adventurous woman, Tieria always chooses to travel in dangerous locations to satisfy her love for thrills. Her personality is calm and carefree, and she prefers to travel alone instead of dealing with other people. However, her beauty ensures she always attracts plenty of attention."
-    ],
+    "background": "An adventurous woman, Tieria always chooses to travel in dangerous locations to satisfy her love for thrills. Her personality is calm and carefree, and she prefers to travel alone instead of dealing with other people. However, her beauty ensures she always attracts plenty of attention.",
     "relations": [
         {
             "hero": "serila",
@@ -354,12 +352,8 @@
     "specialtySkill": {
         "name": "Hobby",
         "description": "She seeks adventure, but treads lightly.",
-        "dispatch": [
-            "[Adventure] category mission"
-        ],
-        "enhancement": [
-            "Time Required -6%"
-        ],
+        "dispatch": "[Adventure] category mission",
+        "enhancement": "Time Required -6%",
         "stats": {
             "command": 45,
             "charm": 31,

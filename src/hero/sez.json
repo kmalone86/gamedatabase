@@ -6,9 +6,7 @@
     "zodiac": "scorpio",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "A cynical and quiet man, Sez Gaien is a living weapon known to many as \"the Berseker\". After gaining power from an Acolyte to escape the homunculus experiments, he was branded a mass murderer and has been running ever since."
-    ],
+    "background": "A cynical and quiet man, Sez Gaien is a living weapon known to many as \"the Berseker\". After gaining power from an Acolyte to escape the homunculus experiments, he was branded a mass murderer and has been running ever since.",
     "relations": [
         {
             "hero": "aramintha",
@@ -356,12 +354,8 @@
     "specialtySkill": {
         "name": "Ridiculous Answer",
         "description": "Makes stupid comments and is always wasting time no matter how dire the situation.",
-        "dispatch": [
-            "[All missions] type mission"
-        ],
-        "enhancement": [
-            "Time required -5%"
-        ],
+        "dispatch": "[All missions] type mission",
+        "enhancement": "Time required -5%",
         "stats": {
             "command": 15,
             "charm": 67,
@@ -425,7 +419,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -446,7 +440,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "3%"
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -493,7 +487,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": "6%"
+                    "chc": 0.06
                 },
                 {
                     "atk": 30
@@ -518,7 +512,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -543,7 +537,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "6%"
+                    "hp": 0.06
                 },
                 {
                     "atk": 30

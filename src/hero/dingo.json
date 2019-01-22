@@ -6,9 +6,7 @@
     "zodiac": "virgo",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "A genius holding the power of inferno in his hands after swearing a compact with Malicus, the Lord of Fire, Dingo became a chef to make full use of his abilities. He sees all living creatures as potential ingredients."
-    ],
+    "background": "A genius holding the power of inferno in his hands after swearing a compact with Malicus, the Lord of Fire, Dingo became a chef to make full use of his abilities. He sees all living creatures as potential ingredients.",
     "relations": [
         {
             "hero": "cidd",

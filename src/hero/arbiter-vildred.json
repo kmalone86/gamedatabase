@@ -6,9 +6,7 @@
     "zodiac": "leo",
     "specialtyChangeName": "",
     "selfSkillBarName": "focus",
-    "background": [
-        "Once among the greatest of believers in the Goddess and her Covenant, Arbiter Vildred joined hands with the Acolyte Kayron and betrayed everyone and everything he once believed in. Within his body is contained the power of the Archdemon Anghraf."
-    ],
+    "background": "Once among the greatest of believers in the Goddess and her Covenant, Arbiter Vildred joined hands with the Acolyte Kayron and betrayed everyone and everything he once believed in. Within his body is contained the power of the Archdemon Anghraf.",
     "relations": [
         {
             "hero": "tenebria",
@@ -384,24 +382,26 @@
     "specialtySkill": {
         "name": "Irresistible Offer",
         "description": "Neither truth nor lie matters to his offer.",
-        "dispatch": [
-            "[Gourmet] type mission"
-        ],
-        "enhancement": [
-            "Reward bonus +10%"
-        ],
+        "dispatch": "[Gourmet] type mission",
+        "enhancement": "Reward bonus +10%",
         "stats": {
             "command": 82,
             "charm": 55,
             "politics": 70
         }
     },
+    "memoryImprintFormation": {
+        "north": false,
+        "south": false,
+        "east": true,
+        "west": true
+    },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
                 "type": "eff",
-                "increase": "5.8%"
+                "increase": 0
             }
         },
         {
@@ -415,35 +415,35 @@
             "rank": "b",
             "status": {
                 "type": "eff",
-                "increase": 0
+                "increase": 0.058
             }
         },
         {
             "rank": "a",
             "status": {
                 "type": "eff",
-                "increase": 0
+                "increase": 0.087
             }
         },
         {
             "rank": "s",
             "status": {
                 "type": "eff",
-                "increase": 0
+                "increase": 0.116
             }
         },
         {
             "rank": "ss",
             "status": {
                 "type": "eff",
-                "increase": 0
+                "increase": 0.14
             }
         },
         {
             "rank": "sss",
             "status": {
                 "type": "eff",
-                "increase": 0
+                "increase": 0.174
             }
         }
     ],
@@ -453,7 +453,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -474,7 +474,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "3%"
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -521,7 +521,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": "6%"
+                    "chc": 0.06
                 },
                 {
                     "atk": 30
@@ -546,7 +546,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -571,7 +571,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": "6%"
+                    "atk": 0.06
                 },
                 {
                     "atk": 30

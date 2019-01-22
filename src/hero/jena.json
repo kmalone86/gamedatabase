@@ -6,9 +6,7 @@
     "zodiac": "aries",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "A calm and cautious mage of the Rose Apostles, Jena is rarely agitated by anything. She is childhood friends with fellow Rose Apostle, Lidica."
-    ],
+    "background": "A calm and cautious mage of the Rose Apostles, Jena is rarely agitated by anything. She is childhood friends with fellow Rose Apostle, Lidica.",
     "relations": [
         {
             "hero": "sven",
