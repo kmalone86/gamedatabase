@@ -9,8 +9,20 @@
     "background": "The frost mage of Reingar, Zerato is the second son of a Spirit Weaver clan, blessed by Nixied, the Lord of Winter. He's a genius who hates to feel hot, and loves showing off. Like most Reingar students he pays no attention to those things he deems unimportant, and often crosses the line in his study of magic.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "serila",
+            "relationType": "trust"
+        },
+        {
+            "hero": "dingo",
+            "relationType": "rival"
+        },
+        {
+            "hero": "fighter-maya",
+            "relationType": "trust"
+        },
+        {
+            "hero": "karin",
+            "relationType": "trust"
         }
     ],
     "stats": {
@@ -72,7 +84,7 @@
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Ice Thorn",
-            "soulAcquire": 0,
+            "soulAcquire": 1,
             "description": "Attacks an enemy with an ice pick, with a 40% chance to decrease Speed for 2 turns.",
             "enhancement": [
                 {
@@ -141,17 +153,19 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_speed_dn"
+            ]
         },
         {
             "isPassive": false,
-            "soulBurn": 0,
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": true,
-            "cooldown": 0,
+            "cooldown": 3,
             "name": "Ice Pick",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Attacks the enemy repeatedly, dealing increased damage when the enemy is debuffed.",
             "enhancement": [
                 {
@@ -228,9 +242,9 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 0,
+            "cooldown": 6,
             "name": "Iceberg",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Attacks all enemies with a giant iceberg, with a 50% chance to stun for 1 turn.",
             "enhancement": [
                 {
@@ -342,74 +356,76 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_stun"
+            ]
         }
     ],
     "specialtySkill": {
         "name": "Genius of Geniuses",
         "description": "Gifted with natural talent and the blessing of Nixied, nobody can best him.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Hunt] Category",
+        "enhancement": "Time Required -6%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 55,
+            "charm": 77,
+            "politics": 35
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "def",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 0.024
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 0.048
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 0.06
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 0.072
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 0.084
             }
         }
     ],
@@ -419,7 +435,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "eff": 0.03
                 },
                 {
                     "atk": 20
@@ -440,7 +456,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.03
                 },
                 {
                     "atk": 20
@@ -487,7 +503,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -512,7 +528,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "eff": 0.06
                 },
                 {
                     "atk": 30
@@ -537,7 +553,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.06
                 },
                 {
                     "atk": 30

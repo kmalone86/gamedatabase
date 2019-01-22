@@ -9,8 +9,12 @@
     "background": "Knight Captain of Lefundos, situated in Eureka the Northern Continent. Romann has no desire to be king despite being the cousin and successor of the current king, Schniel. Cynical and assertive, yet weak to affection.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "armin",
+            "relationType": "trust"
+        },
+        {
+            "hero": "tywin",
+            "relationType": "trust"
         }
     ],
     "stats": {
@@ -72,7 +76,7 @@
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Gravity Arrow",
-            "soulAcquire": 0,
+            "soulAcquire": 1,
             "description": "Shoots gravity arrows at the enemy, decreasing Combat Readiness by 8%, and increasing Combat Readiness of the caster by 8%.",
             "enhancement": [
                 {
@@ -158,13 +162,13 @@
         },
         {
             "isPassive": false,
-            "soulBurn": 0,
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Skill cooldown is decreased by 2 turns.",
             "awakenUpgrade": false,
-            "cooldown": 0,
+            "cooldown": 3,
             "name": "Gravitation",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Attacks all enemies with a magic circle, with a 50% chance each to decrease Combat Readiness by 15% twice",
             "enhancement": [
                 {
@@ -254,9 +258,9 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
-            "cooldown": 0,
+            "cooldown": 5,
             "name": "Event Horizon",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Shoots a powerful gravity sphere at all enemies, dispelling all buffs and increasing Combat Readiness of the caster by 50%. Damage dealt increases and the enemy is inflicted with two poison effects for 2 turns when the enemy is buffed.",
             "enhancement": [
                 {
@@ -338,74 +342,76 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_dot"
+            ]
         }
     ],
     "specialtySkill": {
         "name": "God of War",
         "description": "A war hero who brought about many victories through careful strategizing.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Gourmet] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 41,
+            "charm": 82,
+            "politics": 94
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "def",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 0.024
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 0.048
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 0.06
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 0.072
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 0.084
             }
         }
     ],
@@ -415,7 +421,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -436,7 +442,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "eff": 0.03
                 },
                 {
                     "atk": 20
@@ -483,7 +489,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "eff": 0.06
                 },
                 {
                     "atk": 30
@@ -508,7 +514,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -533,7 +539,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "eff": 0.06
                 },
                 {
                     "atk": 30

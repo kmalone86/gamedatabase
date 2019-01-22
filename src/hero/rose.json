@@ -9,8 +9,16 @@
     "background": "A close aide of Cecilia's, Rose followed her all the way from Wintenberg. She loves to fight and has a good sense of humor. Her belief is that the strongest warrior die with no regrets.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "cecilia",
+            "relationType": "longing"
+        },
+        {
+            "hero": "ravi",
+            "relationType": "rival"
+        },
+        {
+            "hero": "tenebria",
+            "relationType": "trust"
         }
     ],
     "stats": {
@@ -72,7 +80,7 @@
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Sequential Cutter",
-            "soulAcquire": 0,
+            "soulAcquire": 1,
             "description": "Attacks with a sword, with a 50% chance to provoke for 1 turn if the caster's Health is more than 50%, or increase Defense of the caster for 1 turn if the caster's Health is less than 50%.",
             "enhancement": [
                 {
@@ -153,8 +161,12 @@
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": []
+            "buffs": [
+                "stic_def_up"
+            ],
+            "debuffs": [
+                "stic_provoke"
+            ]
         },
         {
             "isPassive": false,
@@ -162,9 +174,9 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 0,
+            "cooldown": 4,
             "name": "Shield of Light",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Cover an ally with the Shield of Light, dispelling two debuffs and granting a barrier before increasing Combat Readiness by 10%. Barrier strength is proportional to the caster's Defense.",
             "enhancement": [
                 {
@@ -245,18 +257,20 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_protect"
+            ],
             "debuffs": []
         },
         {
             "isPassive": false,
-            "soulBurn": 0,
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Extends buff duration by 1 turn.",
             "awakenUpgrade": true,
-            "cooldown": 0,
+            "cooldown": 5,
             "name": "Goddess of Victory",
-            "soulAcquire": 0,
+            "soulAcquire": 3,
             "description": "Gives blessing to all allies, increasing Attack for 2 turns, and Combat Readiness by 15%.",
             "enhancement": [
                 {
@@ -337,75 +351,77 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_att_up"
+            ],
             "debuffs": []
         }
     ],
     "specialtySkill": {
         "name": "Mission Keeper",
         "description": "Fear won't ever stop her.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Fear] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 85,
+            "charm": 60,
+            "politics": 25
         }
     },
     "memoryImprintFormation": {
-        "north": false,
+        "north": true,
         "south": false,
         "east": false,
-        "west": false
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "def",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 0.029
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 0.058
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 0.072
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 0.087
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 0.102
             }
         }
     ],
@@ -415,7 +431,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -436,7 +452,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "def": 0.03
                 },
                 {
                     "atk": 20
@@ -483,7 +499,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "efr": 0.06
                 },
                 {
                     "atk": 30
@@ -508,7 +524,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
@@ -533,7 +549,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "def": 0.06
                 },
                 {
                     "atk": 30
