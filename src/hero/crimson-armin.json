@@ -9,8 +9,12 @@
     "background": "A destructive super cute mercenary, the nickname of Super Cute Guardian of the Red Flame fits Armin perfectly. She assures that she will defend fiercely, indifferent of what she destroys while doing so.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "serila",
+            "relationType": "rival"
+        },
+        {
+            "hero": "tywin",
+            "relationType": "trust"
         }
     ],
     "stats": {
@@ -353,68 +357,68 @@
     "specialtySkill": {
         "name": "Cuteness Wins",
         "description": "Being cute always wins, right?",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Cooking] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 50,
+            "charm": 85,
+            "politics": 35
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "efr",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "efr",
+                "increase": 0.036
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "efr",
+                "increase": 0.054
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "efr",
+                "increase": 0.072
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "efr",
+                "increase": 0.09
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "efr",
+                "increase": 0.108
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "efr",
+                "increase": 0.126
             }
         }
     ],

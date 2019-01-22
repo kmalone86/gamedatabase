@@ -9,31 +9,39 @@
     "background": "Hurado is a mercenary with no memories, wandering in search for his home. Unlike his intimidating appearance, he is extremely kind and sincere, and vulnerable to being conned by others.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "sven",
+            "relationType": "trust"
+        },
+        {
+            "hero": "roozid",
+            "relationType": "trust"
+        },
+        {
+            "hero": "cartuja",
+            "relationType": "trust"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1112,
+            "atk": 69,
+            "hp": 220,
+            "spd": 105,
+            "def": 64,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 15018,
+            "atk": 930,
+            "hp": 4572,
+            "spd": 111,
+            "def": 585,
+            "chc": 30,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
@@ -354,12 +362,12 @@
     "specialtySkill": {
         "name": "Pilgrim of Strange Land",
         "description": "No matter where you are, just keep calm.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Barren Land] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 60,
+            "charm": 50,
+            "politics": 66
         }
     },
     "memoryImprintFormation": {
@@ -372,50 +380,50 @@
         {
             "rank": "d",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 120
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 180
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 240
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 300
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 360
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 420
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 480
             }
         }
     ],

@@ -9,31 +9,43 @@
     "background": "Lorina became an official knight after defeating a Wyvern with her spear. She aims to lead the vanguard of the Order of the Shield one day, and acts without thinking based on what she believes is right.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "maya",
+            "relationType": "trust"
+        },
+        {
+            "hero": "dingo",
+            "relationType": "trust"
+        },
+        {
+            "hero": "cidd",
+            "relationType": "trust"
+        },
+        {
+            "hero": "crozet",
+            "relationType": "longing"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1102,
+            "atk": 74,
+            "hp": 237,
+            "spd": 101,
+            "def": 60,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 15047,
+            "atk": 1144,
+            "hp": 4895,
+            "spd": 101,
+            "def": 543,
+            "chc": 21,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
@@ -344,68 +356,72 @@
     "specialtySkill": {
         "name": "Faithful Spear",
         "description": "Through faith she can overcome moments of weakness and doubt.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": [
+            "[Weakened] Attribute"
+        ],
+        "enhancement": [
+            "Reward Bonus +10%"
+        ],
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 64,
+            "charm": 33,
+            "politics": 10
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 24
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 36
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 48
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 60
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 72
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 84
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 96
             }
         }
     ],
@@ -418,10 +434,10 @@
                     "atk": 0.03
                 },
                 {
-                    "atk": 20
+                    "atk": "20"
                 },
                 {
-                    "hp": 60
+                    "hp": "60"
                 }
             ],
             "resources": [
@@ -439,10 +455,10 @@
                     "atk": 0.03
                 },
                 {
-                    "atk": 20
+                    "atk": "20"
                 },
                 {
-                    "hp": 60
+                    "hp": "60"
                 }
             ],
             "resources": [
@@ -457,10 +473,10 @@
             "skillUpgrade": true,
             "statsIncrease": [
                 {
-                    "atk": 20
+                    "atk": "20"
                 },
                 {
-                    "hp": 60
+                    "hp": "60"
                 }
             ],
             "resources": [
@@ -482,10 +498,10 @@
                     "chc": 0.06
                 },
                 {
-                    "atk": 30
+                    "atk": "30"
                 },
                 {
-                    "hp": 80
+                    "hp": "80"
                 }
             ],
             "resources": [
@@ -503,10 +519,10 @@
                     "atk": 0.06
                 },
                 {
-                    "atk": 30
+                    "atk": "30"
                 },
                 {
-                    "hp": 80
+                    "hp": "80"
                 }
             ],
             "resources": [
@@ -528,10 +544,10 @@
                     "atk": 0.06
                 },
                 {
-                    "atk": 30
+                    "atk": "30"
                 },
                 {
-                    "hp": 80
+                    "hp": "80"
                 }
             ],
             "resources": [

@@ -9,8 +9,20 @@
     "background": "Daring and responsible, General Purrgis will never abandon his subordinates in a dangerous situation, and commands all of their respect.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "purrgis",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "mucacha",
+            "relationType": "trust"
+        },
+        {
+            "hero": "basar",
+            "relationType": "rival"
+        },
+        {
+            "hero": "cartuja",
+            "relationType": "rival"
         }
     ],
     "stats": {
@@ -72,7 +84,7 @@
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Heroic Strike",
-            "soulAcquire": 0,
+            "soulAcquire": 1,
             "description": "Mows down enemies with a great sword, with a 50% chance to provoke for 1 turn.",
             "enhancement": [
                 {
@@ -171,7 +183,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [
+                "stic_provoke"
+            ]
         },
         {
             "isPassive": true,
@@ -241,13 +255,13 @@
         },
         {
             "isPassive": false,
-            "soulBurn": 0,
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Skill cooldown is decreased by 2 turns.",
             "awakenUpgrade": true,
-            "cooldown": 0,
+            "cooldown": 6,
             "name": "Command to Charge",
-            "soulAcquire": 0,
+            "soulAcquire": 3,
             "description": "Gives the command to charge, dealing damage to all enemies, with a 75% chance of stunning two random enemies for 1 turn. Increases Attack of all allies for 2 turns.",
             "enhancement": [
                 {
@@ -345,75 +359,79 @@
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": []
+            "buffs": [
+                "stic_att_up"
+            ],
+            "debuffs": [
+                "stic_stun"
+            ]
         }
     ],
     "specialtySkill": {
         "name": "Regular Customer",
         "description": "Spend a lot of time hanging around the lobby thinking about his next task.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Adventure] Category",
+        "enhancement": "Time Required -6%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 88,
+            "charm": 65,
+            "politics": 60
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "hp",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.024
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.048
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.06
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.072
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.084
             }
         }
     ],
@@ -423,7 +441,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -444,7 +462,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "def": 0.03
                 },
                 {
                     "atk": 20
@@ -491,7 +509,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
@@ -516,7 +534,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
@@ -541,7 +559,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "def": 0.06
                 },
                 {
                     "atk": 30
