@@ -1,0 +1,314 @@
+{
+    "name": "Violet",
+    "rarity": 5,
+    "classType": "thief",
+    "element": "earth",
+    "zodiac": "scorpio",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": "A swordsman of the Perland Raiders, born into a noble Perland family. Though Violet may appear elegant, he behaves anything but. While incredibly skilled, he has few friends due to his excessive narcissism.",
+    "relations": [
+        {
+            "hero": "",
+            "relationType": ""
+        }
+    ],
+    "stats": {
+        "base": {
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0,
+            "chd": 0,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0
+        },
+        "max": {
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0,
+            "chd": 0,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        }
+    },
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Graceful Cut",
+            "soulAcquire": 0,
+            "description": "Attacks with a sword, with a 65% chance to decrease Attack for 1 turn.",
+            "enhancement": [
+                {
+                    "description": "",
+                    "resources": []
+                }
+            ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 5,
+            "name": "Duel Accepted",
+            "soulAcquire": 0,
+            "description": "Prepares for a duel by recovering Health, granting an extra turn to the caster. If the skill is on cooldown, increases Evasion Chance by 30%. After successfully evading, gains 1 Focus and counterattacks. Amount recovered is proportional to the caster's max Health.",
+            "enhancement": [
+                {
+                    "description": "",
+                    "resources": []
+                }
+            ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 6,
+            "name": "Butterfly Cut",
+            "soulAcquire": 0,
+            "description": "Pierces the enemy with a sword, and loses all Focus. Damage dealt increases proportional to the amount of Focus consumed. If 5 Focus is consumed, resets cool down of Butterfly Cut.",
+            "enhancement": [
+                {
+                    "description": "",
+                    "resources": []
+                }
+            ],
+            "buffs": [],
+            "debuffs": []
+        }
+    ],
+    "specialtySkill": {
+        "name": "Master Swordsman",
+        "description": "Incredible swordsmanship is one of the many talents he was born with.",
+        "dispatch": [],
+        "enhancement": [],
+        "stats": {
+            "command": 41,
+            "charm": 98,
+            "politics": 75
+        }
+    },
+    "memoryImprintFormation": {
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": false
+    },
+    "memoryImprint": [
+        {
+            "rank": "d",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "c",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "b",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        }
+    ],
+    "awakening": [
+        {
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "life-rune",
+                    "qty": 10
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "life-rune",
+                    "qty": 15
+                },
+                {
+                    "item": "greater-life-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "life-rune",
+                    "qty": 20
+                },
+                {
+                    "item": "greater-life-rune",
+                    "qty": 10
+                }
+            ]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-life-rune",
+                    "qty": 10
+                },
+                {
+                    "item": "epic-life-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-life-rune",
+                    "qty": 6
+                },
+                {
+                    "item": "erikion-carapace",
+                    "qty": 15
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-life-rune",
+                    "qty": 10
+                },
+                {
+                    "item": "black-curse-powder",
+                    "qty": 10
+                }
+            ]
+        }
+    ]
+}
