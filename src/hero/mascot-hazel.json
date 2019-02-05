@@ -1,0 +1,569 @@
+{
+    "name": "Mascot Hazel",
+    "rarity": 3,
+    "classType": "soul-weaver",
+    "element": "fire",
+    "zodiac": "aquarius",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": "Hazel disguised herself to recruit more members for the student council. Only a few know her true identity, and once she's finished with her business, she returns to her original appearance.",
+    "relations": [
+        {
+            "hero": "yuna",
+            "relationType": "longing"
+        },
+        {
+            "hero": "carrot",
+            "relationType": "trust"
+        },
+        {
+            "hero": "adlay",
+            "relationType": "trust"
+        },
+        {
+            "hero": "karin",
+            "relationType": "rival"
+        }
+    ],
+    "stats": {
+        "base": {
+            "cp": 1020,
+            "atk": 49,
+            "hp": 194,
+            "spd": 91,
+            "def": 69,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max": {
+            "cp": 13431,
+            "atk": 762,
+            "hp": 4417,
+            "spd": 91,
+            "def": 661,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max6": {
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "dac": 5,
+            "hp": 3667,
+            "cp": 11585,
+            "spd": 91,
+            "atk": 562,
+            "def": 624,
+            "efr": 0
+        },
+        "max5": {
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "dac": 5,
+            "hp": 2916,
+            "cp": 9291,
+            "spd": 91,
+            "atk": 451,
+            "def": 503,
+            "efr": 0
+        }
+    },
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Book of Fire",
+            "soulAcquire": 1,
+            "description": "Attacks all enemies with fire magic, with a 30% chance to make them unhealable, for 2 turns.",
+            "enhancement": [
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "leather-sheath",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 22000
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% effect chance",
+                    "resources": [
+                        {
+                            "item": "leather-sheath",
+                            "qty": 3
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 35000
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "leather-sheath",
+                            "qty": 4
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 40000
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [
+                "stic_heal_impossible"
+            ]
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 2,
+            "name": "Urgent Regen",
+            "soulAcquire": 1,
+            "description": "Heals the target proportional to the caster's Attack and the target's max Health. If the ally's Health is less than 50%, the amount recovered will increase by 50%.",
+            "enhancement": [
+                {
+                    "description": "+5% healing",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% healing",
+                    "resources": [
+                        {
+                            "item": "leather-sheath",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 22000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% healing",
+                    "resources": [
+                        {
+                            "item": "leather-sheath",
+                            "qty": 3
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 35000
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% healing",
+                    "resources": [
+                        {
+                            "item": "leather-sheath",
+                            "qty": 4
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 40000
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 10,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Extends buff duration by 1 turn.",
+            "awakenUpgrade": true,
+            "cooldown": 4,
+            "name": "A Girl in Uniform",
+            "soulAcquire": 2,
+            "description": "Encourages the target and all other allies, increasing Attack for 2 turns before healing them. If the initial target is a Fire elemental Hero, increases Attack (Greater) for 1 turn. This effect will only be applied to one ally. Health recovered increases proportional to the target's max Health and the caster's Attack.",
+            "enhancement": [
+                {
+                    "description": "+5% healing",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% healing",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% healing",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 12000
+                        }
+                    ]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        {
+                            "item": "leather-sheath",
+                            "qty": 3
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 27000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% healing",
+                    "resources": [
+                        {
+                            "item": "leather-sheath",
+                            "qty": 4
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 4
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 36000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% healing",
+                    "resources": [
+                        {
+                            "item": "leather-sheath",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% healing",
+                    "resources": [
+                        {
+                            "item": "leather-sheath",
+                            "qty": 6
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 50000
+                        }
+                    ]
+                }
+            ],
+            "buffs": [
+                "stic_att_up"
+            ],
+            "debuffs": []
+        }
+    ],
+    "specialtySkill": {
+        "name": "Knowledge Is Power",
+        "description": "Brain beat brawn every time.",
+        "dispatch": "[Unknown Knowledge] Attribute",
+        "enhancement": "Reward Bonus +10%",
+        "stats": {
+            "command": 11,
+            "charm": 48,
+            "politics": 88
+        }
+    },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
+    },
+    "memoryImprint": [
+        {
+            "rank": "d",
+            "status": {
+                "type": "atk",
+                "increase": 24
+            }
+        },
+        {
+            "rank": "c",
+            "status": {
+                "type": "atk",
+                "increase": 36
+            }
+        },
+        {
+            "rank": "b",
+            "status": {
+                "type": "atk",
+                "increase": 48
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "atk",
+                "increase": 60
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "atk",
+                "increase": 72
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "atk",
+                "increase": 84
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "atk",
+                "increase": 96
+            }
+        }
+    ],
+    "awakening": [
+        {
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "flame-rune",
+                    "qty": 5
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "hp": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "flame-rune",
+                    "qty": 9
+                }
+            ]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "flame-rune",
+                    "qty": 12
+                },
+                {
+                    "item": "greater-flame-rune",
+                    "qty": 6
+                }
+            ]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "def": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-flame-rune",
+                    "qty": 15
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-flame-rune",
+                    "qty": 4
+                },
+                {
+                    "item": "order-of-the-shield-insignia",
+                    "qty": 9
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "hp": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-flame-rune",
+                    "qty": 6
+                },
+                {
+                    "item": "fighter-medal",
+                    "qty": 6
+                }
+            ]
+        }
+    ]
+}
