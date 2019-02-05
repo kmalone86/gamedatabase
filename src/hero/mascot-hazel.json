@@ -21,8 +21,12 @@
             "relationType": "trust"
         },
         {
-            "hero": "karin",
-            "relationType": "rival"
+            "hero": "rikoris",
+            "relationType": "trust"
+        },
+        {
+            "hero": "zerato",
+            "relationType": "trust"
         }
     ],
     "stats": {
