@@ -420,6 +420,12 @@
             }
         }
     ],
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
+    },
     "awakening": [
         {
             "rank": 1,
