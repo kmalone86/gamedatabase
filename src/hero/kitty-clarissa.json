@@ -9,8 +9,20 @@
     "background": "The Holy Order of the Blue Cross requested that Reingar find a way to calm Clarissa down. Instead, the researchers focused on how cats can still be loved after wreaking havoc. Then they turned her into a cat to eliminate everyone's complaints about her violence.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "montmorancy",
+            "relationType": "trust"
+        },
+        {
+            "hero": "angelica",
+            "relationType": "longing"
+        },
+        {
+            "hero": "lots",
+            "relationType": "rival"
+        },
+        {
+            "hero": "achates",
+            "relationType": "trust"
         }
     ],
     "stats": {
