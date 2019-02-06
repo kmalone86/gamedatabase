@@ -1,78 +1,78 @@
 {
-    "name": "Hazel",
-    "rarity": 3,
-    "classType": "soul-weaver",
-    "element": "fire",
-    "zodiac": "aquarius",
-    "specialtyChangeName": "mascot-hazel",
+    "name": "Kitty Clarissa",
+    "rarity": 4,
+    "classType": "warrior",
+    "element": "dark",
+    "zodiac": "virgo",
+    "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "Younger sister of Ginger, the vice president of the student council, Hazel is the self-styled \"Black Sheep\" clerk of the student council. An inflexible, sharp-tongued slob, yet also an extensively knowledgeable model student. She has a detailed understanding of the personal relationships and weaknesses of everyone in Reingar.",
+    "background": "The Holy Order of the Blue Cross requested that Reingar find a way to calm Clarissa down. Instead, the researchers focused on how cats can still be loved after wreaking havoc. Then they turned her into a cat to eliminate everyone's complaints about her violence.",
     "relations": [
         {
-            "hero": "yuna",
+            "hero": "montmorancy",
+            "relationType": "trust"
+        },
+        {
+            "hero": "angelica",
             "relationType": "longing"
         },
         {
-            "hero": "carrot",
-            "relationType": "trust"
-        },
-        {
-            "hero": "adlay",
-            "relationType": "trust"
-        },
-        {
-            "hero": "karin",
+            "hero": "lots",
             "relationType": "rival"
+        },
+        {
+            "hero": "achates",
+            "relationType": "trust"
         }
     ],
     "stats": {
         "base": {
-            "cp": 1020,
-            "atk": 49,
-            "hp": 194,
-            "spd": 91,
-            "def": 69,
-            "chc": 15,
-            "chd": 150,
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0,
+            "chd": 0,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0
+        },
+        "max": {
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0,
+            "chd": 0,
             "eff": 0,
             "efr": 0,
             "dac": 5
         },
-        "max": {
-            "cp": 13431,
-            "atk": 762,
-            "hp": 4417,
-            "spd": 91,
-            "def": 661,
-            "chc": 15,
-            "chd": 150,
+        "max5": {
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0,
+            "chd": 0,
             "eff": 0,
             "efr": 0,
             "dac": 5
         },
         "max6": {
-            "chc": 15,
-            "chd": 150,
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0,
+            "chd": 0,
             "eff": 0,
-            "dac": 5,
-            "hp": 3667,
-            "cp": 11585,
-            "spd": 91,
-            "atk": 562,
-            "def": 624,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 2916,
-            "cp": 9291,
-            "spd": 91,
-            "atk": 451,
-            "def": 503,
-            "efr": 0
+            "efr": 0,
+            "dac": 5
         }
     },
     "skills": [
@@ -83,12 +83,12 @@
             "soulBurnEffect": "",
             "awakenUpgrade": false,
             "cooldown": 0,
-            "name": "Book of Fire",
+            "name": "Get Away, Meow!",
             "soulAcquire": 1,
-            "description": "Attacks with fire magic, with a 30% chance to make unhealable for 2 turns.",
+            "description": "Attacks with a morning star. Damage dealt increases proportional to the caster's max Health. If the caster is granted loveliness, triggers Dual Attack from the ally with the highest Attack.",
             "enhancement": [
                 {
-                    "description": "+10% damage dealt",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "molagora",
@@ -101,11 +101,37 @@
                     ]
                 },
                 {
-                    "description": "+5% effect chance",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "leather-sheath",
+                            "item": "molagora",
                             "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 12000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "flame-of-soul",
+                            "qty": 1
                         },
                         {
                             "item": "molagora",
@@ -113,16 +139,16 @@
                         },
                         {
                             "item": "gold",
-                            "qty": 22000
+                            "qty": 17000
                         }
                     ]
                 },
                 {
-                    "description": "+15% effect chance",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "leather-sheath",
-                            "qty": 3
+                            "item": "flame-of-soul",
+                            "qty": 2
                         },
                         {
                             "item": "molagora",
@@ -130,16 +156,16 @@
                         },
                         {
                             "item": "gold",
-                            "qty": 35000
+                            "qty": 30000
                         }
                     ]
                 },
                 {
-                    "description": "+15% damage dealt",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "leather-sheath",
-                            "qty": 4
+                            "item": "flame-of-soul",
+                            "qty": 5
                         },
                         {
                             "item": "molagorago",
@@ -147,7 +173,146 @@
                         },
                         {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 45000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "demon-blood-gem",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 100000
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 10,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Increases damage dealt.",
+            "awakenUpgrade": true,
+            "cooldown": 3,
+            "name": "Meow I'm Angry!",
+            "soulAcquire": 1,
+            "description": "Attacks all enemies with a morning star while raging, with a 60% chance to decrease buff duration by 1 turn and make them unhealable for 2 turns. If the caster is granted loveliness, effect chance increases by 20%.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 12000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "flame-of-soul",
+                            "qty": 1
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 17000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "flame-of-soul",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 30000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "flame-of-soul",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "demon-blood-gem",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 100000
                         }
                     ]
                 }
@@ -163,213 +328,31 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 2,
-            "name": "Urgent Regen",
-            "soulAcquire": 1,
-            "description": "Heals the ally proportional to the caster's Attack and the target's max Health. If the ally's Health is less than 50%, the amount recovered will increase by 50%.",
-            "enhancement": [
-                {
-                    "description": "+5% healing",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% healing",
-                    "resources": [
-                        {
-                            "item": "leather-sheath",
-                            "qty": 2
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 22000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% healing",
-                    "resources": [
-                        {
-                            "item": "leather-sheath",
-                            "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 5
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 35000
-                        }
-                    ]
-                },
-                {
-                    "description": "+15% healing",
-                    "resources": [
-                        {
-                            "item": "leather-sheath",
-                            "qty": 4
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 40000
-                        }
-                    ]
-                }
-            ],
-            "buffs": [],
-            "debuffs": []
-        },
-        {
-            "isPassive": false,
-            "soulBurn": 10,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "Extends buff duration by 1 turn.",
-            "awakenUpgrade": true,
-            "cooldown": 4,
-            "name": "Attack Command",
+            "cooldown": 6,
+            "name": "I'm So Cute, Meow♡",
             "soulAcquire": 2,
-            "description": "Heals all allies with strengthening magic, healing them and increasing Attack for 2 turns. Amount recovered is proportional to the caster's Attack and the target's max Health.",
+            "description": "Wiggles tail cutely, decreasing debuff duration on all allies by 2 turns, and granting the caster immunity and loveliness for 3 turns.",
             "enhancement": [
-                {
-                    "description": "+5% healing",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% healing",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% healing",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 12000
-                        }
-                    ]
-                },
                 {
                     "description": "-1 turn cooldown",
-                    "resources": [
-                        {
-                            "item": "leather-sheath",
-                            "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% healing",
-                    "resources": [
-                        {
-                            "item": "leather-sheath",
-                            "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 4
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 36000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% healing",
-                    "resources": [
-                        {
-                            "item": "leather-sheath",
-                            "qty": 5
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 45000
-                        }
-                    ]
-                },
-                {
-                    "description": "+15% healing",
-                    "resources": [
-                        {
-                            "item": "leather-sheath",
-                            "qty": 6
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 50000
-                        }
-                    ]
+                    "resources": []
                 }
             ],
             "buffs": [
-                "stic_att_up"
+                "stic_debuf_impossible"
             ],
             "debuffs": []
         }
     ],
     "specialtySkill": {
-        "name": "Knowledge Is Power",
-        "description": "Brain beat brawn every time.",
-        "dispatch": "[Unknown Knowledge] Attribute",
-        "enhancement": "Reward Bonus +10%",
+        "name": "Cat's Nature",
+        "description": "She's very violent, but she's too adorable to be hated.",
+        "dispatch": [],
+        "enhancement": [],
         "stats": {
-            "command": 11,
-            "charm": 48,
-            "politics": 88
+            "command": 45,
+            "charm": 99,
+            "politics": 20
         }
     },
     "memoryImprintFormation": {
@@ -382,50 +365,50 @@
         {
             "rank": "d",
             "status": {
-                "type": "atk",
-                "increase": 24
+                "type": "dac",
+                "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "atk",
-                "increase": 36
+                "type": "dac",
+                "increase": 0
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "atk",
-                "increase": 48
+                "type": "dac",
+                "increase": 0
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "atk",
-                "increase": 60
+                "type": "dac",
+                "increase": 0
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "atk",
-                "increase": 72
+                "type": "dac",
+                "increase": 0
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "atk",
-                "increase": 84
+                "type": "dac",
+                "increase": 0
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "atk",
-                "increase": 96
+                "type": "dac",
+                "increase": 0
             }
         }
     ],
@@ -435,7 +418,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": 0.03
+                    "": 0
                 },
                 {
                     "atk": 20
@@ -446,8 +429,8 @@
             ],
             "resources": [
                 {
-                    "item": "flame-rune",
-                    "qty": 5
+                    "item": "dark-rune",
+                    "qty": 8
                 }
             ]
         },
@@ -456,7 +439,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": 0.03
+                    "": 0
                 },
                 {
                     "atk": 20
@@ -467,8 +450,12 @@
             ],
             "resources": [
                 {
-                    "item": "flame-rune",
-                    "qty": 9
+                    "item": "dark-rune",
+                    "qty": 12
+                },
+                {
+                    "item": "greater-dark-rune",
+                    "qty": 2
                 }
             ]
         },
@@ -485,12 +472,12 @@
             ],
             "resources": [
                 {
-                    "item": "flame-rune",
-                    "qty": 12
+                    "item": "dark-rune",
+                    "qty": 17
                 },
                 {
-                    "item": "greater-flame-rune",
-                    "qty": 6
+                    "item": "greater-dark-rune",
+                    "qty": 8
                 }
             ]
         },
@@ -499,7 +486,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": 0.06
+                    "": 0
                 },
                 {
                     "atk": 30
@@ -510,8 +497,12 @@
             ],
             "resources": [
                 {
-                    "item": "greater-flame-rune",
-                    "qty": 15
+                    "item": "greater-dark-rune",
+                    "qty": 8
+                },
+                {
+                    "item": "epic-dark-rune",
+                    "qty": 2
                 }
             ]
         },
@@ -520,7 +511,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": 0.06
+                    "": 0
                 },
                 {
                     "atk": 30
@@ -531,12 +522,12 @@
             ],
             "resources": [
                 {
-                    "item": "epic-flame-rune",
-                    "qty": 4
+                    "item": "epic-dark-rune",
+                    "qty": 5
                 },
                 {
-                    "item": "order-of-the-shield-insignia",
-                    "qty": 9
+                    "item": "eternal-forest-dust",
+                    "qty": 12
                 }
             ]
         },
@@ -545,7 +536,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": 0.06
+                    "": 0
                 },
                 {
                     "atk": 30
@@ -556,12 +547,12 @@
             ],
             "resources": [
                 {
-                    "item": "epic-flame-rune",
-                    "qty": 6
+                    "item": "epic-dark-rune",
+                    "qty": 8
                 },
                 {
-                    "item": "fighter-medal",
-                    "qty": 6
+                    "item": "demon-blood-gem",
+                    "qty": 8
                 }
             ]
         }

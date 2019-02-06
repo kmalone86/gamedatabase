@@ -1,37 +1,29 @@
 {
-    "name": "Hazel",
-    "rarity": 3,
-    "classType": "soul-weaver",
-    "element": "fire",
-    "zodiac": "aquarius",
-    "specialtyChangeName": "mascot-hazel",
+    "name": "Specimen Sez",
+    "rarity": 5,
+    "classType": "thief",
+    "element": "light",
+    "zodiac": "scorpio",
+    "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "Younger sister of Ginger, the vice president of the student council, Hazel is the self-styled \"Black Sheep\" clerk of the student council. An inflexible, sharp-tongued slob, yet also an extensively knowledgeable model student. She has a detailed understanding of the personal relationships and weaknesses of everyone in Reingar.",
+    "background": "Researchers who barely escaped with their lives from Sez's murderous rampage built a new living weapon modeled after him. This new weapon seeks to kill Sez to prove its superiority and worth.",
     "relations": [
         {
-            "hero": "yuna",
-            "relationType": "longing"
-        },
-        {
-            "hero": "carrot",
-            "relationType": "trust"
-        },
-        {
-            "hero": "adlay",
-            "relationType": "trust"
-        },
-        {
-            "hero": "karin",
+            "hero": "sez",
             "relationType": "rival"
+        },
+        {
+            "hero": "bellona",
+            "relationType": "grudge"
         }
     ],
     "stats": {
         "base": {
-            "cp": 1020,
-            "atk": 49,
-            "hp": 194,
-            "spd": 91,
-            "def": 69,
+            "cp": 1328,
+            "atk": 99,
+            "hp": 4267,
+            "spd": 113,
+            "def": 59,
             "chc": 15,
             "chd": 150,
             "eff": 0,
@@ -39,11 +31,23 @@
             "dac": 5
         },
         "max": {
-            "cp": 13431,
-            "atk": 762,
-            "hp": 4417,
-            "spd": 91,
-            "def": 661,
+            "cp": 16762,
+            "atk": 1228,
+            "hp": 6266,
+            "spd": 113,
+            "def": 473,
+            "chc": 21,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max5": {
+            "cp": 11478,
+            "atk": 793,
+            "hp": 4267,
+            "spd": 113,
+            "def": 381,
             "chc": 15,
             "chd": 150,
             "eff": 0,
@@ -51,28 +55,16 @@
             "dac": 5
         },
         "max6": {
+            "cp": 14337,
+            "atk": 989,
+            "hp": 5364,
+            "spd": 113,
+            "def": 473,
             "chc": 15,
             "chd": 150,
             "eff": 0,
-            "dac": 5,
-            "hp": 3667,
-            "cp": 11585,
-            "spd": 91,
-            "atk": 562,
-            "def": 624,
-            "efr": 0
-        },
-        "max5": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 2916,
-            "cp": 9291,
-            "spd": 91,
-            "atk": 451,
-            "def": 503,
-            "efr": 0
+            "efr": 0,
+            "dac": 5
         }
     },
     "skills": [
@@ -83,12 +75,12 @@
             "soulBurnEffect": "",
             "awakenUpgrade": false,
             "cooldown": 0,
-            "name": "Book of Fire",
+            "name": "Dreamy Iron Mace",
             "soulAcquire": 1,
-            "description": "Attacks with fire magic, with a 30% chance to make unhealable for 2 turns.",
+            "description": "Attacks with an iron mace, with a 35% chance to stun the enemy for 1 turn.",
             "enhancement": [
                 {
-                    "description": "+10% damage dealt",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "molagora",
@@ -101,167 +93,7 @@
                     ]
                 },
                 {
-                    "description": "+5% effect chance",
-                    "resources": [
-                        {
-                            "item": "leather-sheath",
-                            "qty": 2
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 22000
-                        }
-                    ]
-                },
-                {
-                    "description": "+15% effect chance",
-                    "resources": [
-                        {
-                            "item": "leather-sheath",
-                            "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 5
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 35000
-                        }
-                    ]
-                },
-                {
-                    "description": "+15% damage dealt",
-                    "resources": [
-                        {
-                            "item": "leather-sheath",
-                            "qty": 4
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 40000
-                        }
-                    ]
-                }
-            ],
-            "buffs": [],
-            "debuffs": [
-                "stic_heal_impossible"
-            ]
-        },
-        {
-            "isPassive": false,
-            "soulBurn": 0,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
-            "awakenUpgrade": false,
-            "cooldown": 2,
-            "name": "Urgent Regen",
-            "soulAcquire": 1,
-            "description": "Heals the ally proportional to the caster's Attack and the target's max Health. If the ally's Health is less than 50%, the amount recovered will increase by 50%.",
-            "enhancement": [
-                {
-                    "description": "+5% healing",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% healing",
-                    "resources": [
-                        {
-                            "item": "leather-sheath",
-                            "qty": 2
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 22000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% healing",
-                    "resources": [
-                        {
-                            "item": "leather-sheath",
-                            "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 5
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 35000
-                        }
-                    ]
-                },
-                {
-                    "description": "+15% healing",
-                    "resources": [
-                        {
-                            "item": "leather-sheath",
-                            "qty": 4
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 40000
-                        }
-                    ]
-                }
-            ],
-            "buffs": [],
-            "debuffs": []
-        },
-        {
-            "isPassive": false,
-            "soulBurn": 10,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "Extends buff duration by 1 turn.",
-            "awakenUpgrade": true,
-            "cooldown": 4,
-            "name": "Attack Command",
-            "soulAcquire": 2,
-            "description": "Heals all allies with strengthening magic, healing them and increasing Attack for 2 turns. Amount recovered is proportional to the caster's Attack and the target's max Health.",
-            "enhancement": [
-                {
-                    "description": "+5% healing",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% healing",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "molagora",
@@ -274,75 +106,28 @@
                     ]
                 },
                 {
-                    "description": "+5% healing",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 12000
-                        }
-                    ]
-                },
-                {
-                    "description": "-1 turn cooldown",
-                    "resources": [
-                        {
-                            "item": "leather-sheath",
-                            "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% healing",
-                    "resources": [
-                        {
-                            "item": "leather-sheath",
-                            "qty": 4
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 4
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 36000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% healing",
-                    "resources": [
-                        {
-                            "item": "leather-sheath",
+                            "item": "sharp-spearhead",
                             "qty": 5
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 45000
+                            "qty": 37000
                         }
                     ]
                 },
                 {
-                    "description": "+15% healing",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "leather-sheath",
-                            "qty": 6
+                            "item": "sharp-spearhead",
+                            "qty": 7
                         },
                         {
                             "item": "molagorago",
@@ -350,26 +135,227 @@
                         },
                         {
                             "item": "gold",
-                            "qty": 50000
+                            "qty": 55000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "black-curse-powder",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
                         }
                     ]
                 }
             ],
-            "buffs": [
-                "stic_att_up"
+            "buffs": [],
+            "debuffs": [
+                "stic_stun"
+            ]
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 10,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Increases damage dealt.",
+            "awakenUpgrade": true,
+            "cooldown": 3,
+            "name": "Evil Claw",
+            "soulAcquire": 2,
+            "description": "Attacks all enemies with evil claws, increasing the caster's Combat Readiness by 50%.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "sharp-spearhead",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 37000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "sharp-spearhead",
+                            "qty": 7
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 55000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "black-curse-powder",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
+                        }
+                    ]
+                }
             ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 5,
+            "name": "Light Storm",
+            "soulAcquire": 3,
+            "description": "Attacks the enemy with a light storm. If the enemy is stunned, penetrates their Defense.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "sharp-spearhead",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 37000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "sharp-spearhead",
+                            "qty": 7
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 55000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "black-curse-powder",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
             "debuffs": []
         }
     ],
     "specialtySkill": {
-        "name": "Knowledge Is Power",
-        "description": "Brain beat brawn every time.",
-        "dispatch": "[Unknown Knowledge] Attribute",
-        "enhancement": "Reward Bonus +10%",
+        "name": "Excellent Specimen",
+        "description": "He's looking for Sez to prove his superiority.",
+        "dispatch": "[Explore] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
-            "command": 11,
-            "charm": 48,
-            "politics": 88
+            "command": 8,
+            "charm": 72,
+            "politics": 44
         }
     },
     "memoryImprintFormation": {
@@ -383,49 +369,49 @@
             "rank": "d",
             "status": {
                 "type": "atk",
-                "increase": 24
+                "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
                 "type": "atk",
-                "increase": 36
+                "increase": 0
             }
         },
         {
             "rank": "b",
             "status": {
                 "type": "atk",
-                "increase": 48
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
                 "type": "atk",
-                "increase": 60
+                "increase": 0.054
             }
         },
         {
             "rank": "s",
             "status": {
                 "type": "atk",
-                "increase": 72
+                "increase": 0.072
             }
         },
         {
             "rank": "ss",
             "status": {
                 "type": "atk",
-                "increase": 84
+                "increase": 0.09
             }
         },
         {
             "rank": "sss",
             "status": {
                 "type": "atk",
-                "increase": 96
+                "increase": 0.108
             }
         }
     ],
@@ -446,8 +432,8 @@
             ],
             "resources": [
                 {
-                    "item": "flame-rune",
-                    "qty": 5
+                    "item": "light-rune",
+                    "qty": 10
                 }
             ]
         },
@@ -467,8 +453,12 @@
             ],
             "resources": [
                 {
-                    "item": "flame-rune",
-                    "qty": 9
+                    "item": "light-rune",
+                    "qty": 15
+                },
+                {
+                    "item": "greater-light-rune",
+                    "qty": 2
                 }
             ]
         },
@@ -485,12 +475,12 @@
             ],
             "resources": [
                 {
-                    "item": "flame-rune",
-                    "qty": 12
+                    "item": "light-rune",
+                    "qty": 20
                 },
                 {
-                    "item": "greater-flame-rune",
-                    "qty": 6
+                    "item": "greater-light-rune",
+                    "qty": 10
                 }
             ]
         },
@@ -499,7 +489,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": 0.06
+                    "chc": 0.06
                 },
                 {
                     "atk": 30
@@ -510,8 +500,12 @@
             ],
             "resources": [
                 {
-                    "item": "greater-flame-rune",
-                    "qty": 15
+                    "item": "greater-light-rune",
+                    "qty": 10
+                },
+                {
+                    "item": "epic-light-rune",
+                    "qty": 2
                 }
             ]
         },
@@ -531,12 +525,12 @@
             ],
             "resources": [
                 {
-                    "item": "epic-flame-rune",
-                    "qty": 4
+                    "item": "epic-light-rune",
+                    "qty": 6
                 },
                 {
-                    "item": "order-of-the-shield-insignia",
-                    "qty": 9
+                    "item": "erikion-carapace",
+                    "qty": 15
                 }
             ]
         },
@@ -556,12 +550,12 @@
             ],
             "resources": [
                 {
-                    "item": "epic-flame-rune",
-                    "qty": 6
+                    "item": "epic-light-rune",
+                    "qty": 10
                 },
                 {
-                    "item": "fighter-medal",
-                    "qty": 6
+                    "item": "black-curse-powder",
+                    "qty": 10
                 }
             ]
         }

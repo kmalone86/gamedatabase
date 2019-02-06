@@ -1,12 +1,12 @@
 {
-    "name": "Hazel",
+    "name": "Mascot Hazel",
     "rarity": 3,
     "classType": "soul-weaver",
     "element": "fire",
     "zodiac": "aquarius",
-    "specialtyChangeName": "mascot-hazel",
+    "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "Younger sister of Ginger, the vice president of the student council, Hazel is the self-styled \"Black Sheep\" clerk of the student council. An inflexible, sharp-tongued slob, yet also an extensively knowledgeable model student. She has a detailed understanding of the personal relationships and weaknesses of everyone in Reingar.",
+    "background": "Hazel disguised herself to recruit more members for the student council. Only a few know her true identity, and once she's finished with her business, she returns to her original appearance.",
     "relations": [
         {
             "hero": "yuna",
@@ -21,8 +21,12 @@
             "relationType": "trust"
         },
         {
-            "hero": "karin",
-            "relationType": "rival"
+            "hero": "rikoris",
+            "relationType": "trust"
+        },
+        {
+            "hero": "zerato",
+            "relationType": "trust"
         }
     ],
     "stats": {
@@ -85,7 +89,7 @@
             "cooldown": 0,
             "name": "Book of Fire",
             "soulAcquire": 1,
-            "description": "Attacks with fire magic, with a 30% chance to make unhealable for 2 turns.",
+            "description": "Attacks all enemies with fire magic, with a 30% chance to make them unhealable, for 2 turns.",
             "enhancement": [
                 {
                     "description": "+10% damage dealt",
@@ -166,7 +170,7 @@
             "cooldown": 2,
             "name": "Urgent Regen",
             "soulAcquire": 1,
-            "description": "Heals the ally proportional to the caster's Attack and the target's max Health. If the ally's Health is less than 50%, the amount recovered will increase by 50%.",
+            "description": "Heals the target proportional to the caster's Attack and the target's max Health. If the ally's Health is less than 50%, the amount recovered will increase by 50%.",
             "enhancement": [
                 {
                     "description": "+5% healing",
@@ -243,9 +247,9 @@
             "soulBurnEffect": "Extends buff duration by 1 turn.",
             "awakenUpgrade": true,
             "cooldown": 4,
-            "name": "Attack Command",
+            "name": "A Girl in Uniform",
             "soulAcquire": 2,
-            "description": "Heals all allies with strengthening magic, healing them and increasing Attack for 2 turns. Amount recovered is proportional to the caster's Attack and the target's max Health.",
+            "description": "Encourages the target and all other allies, increasing Attack for 2 turns before healing them. If the initial target is a Fire elemental Hero, increases Attack (Greater) for 1 turn. This effect will only be applied to one ally. Health recovered increases proportional to the target's max Health and the caster's Attack.",
             "enhancement": [
                 {
                     "description": "+5% healing",
