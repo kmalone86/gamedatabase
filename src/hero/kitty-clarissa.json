@@ -335,7 +335,20 @@
             "enhancement": [
                 {
                     "description": "-1 turn cooldown",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "demon-blood-gem",
+                            "qty": 0
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 0
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 0
+                        }
+                    ]
                 }
             ],
             "buffs": [
