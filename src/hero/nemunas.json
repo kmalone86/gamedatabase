@@ -9,31 +9,43 @@
     "background": "Her nickname is Nemu. As a child, Nemunas was saved from the Dragon Valley by the Queen of Wintenberg and her Dragon Knights. At this point, she decided she must become a Dragon Knight. She left her home to participate in the Wintenberg Tournament to become a Dragon Knight.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "rose",
+            "relationType": "longing"
+        },
+        {
+            "hero": "rin",
+            "relationType": "trust"
+        },
+        {
+            "hero": "silk",
+            "relationType": "trust"
+        },
+        {
+            "hero": "cecilia",
+            "relationType": "longing"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1053,
+            "atk": 62,
+            "hp": 235,
+            "spd": 110,
+            "def": 58,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 14390,
+            "atk": 920,
+            "hp": 4855,
+            "spd": 110,
+            "def": 525,
+            "chc": 24,
+            "chd": 156,
             "eff": 0,
             "efr": 0,
             "dac": 5
@@ -119,7 +131,7 @@
                     ]
                 },
                 {
-                    "description": " +3% Combat Readiness",
+                    "description": "+3% Combat Readiness",
                     "resources": [
                         {
                             "item": "mysterious-flash",
@@ -355,9 +367,9 @@
         "dispatch": "[Hidden Clue] Attribute",
         "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 37,
+            "charm": 28,
+            "politics": 48
         }
     },
     "memoryImprintFormation": {
