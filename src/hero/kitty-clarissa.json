@@ -27,49 +27,49 @@
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
-            "eff": 0,
-            "efr": 0,
-            "dac": 0
-        },
-        "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1240,
+            "atk": 76,
+            "hp": 262,
+            "spd": 108,
+            "def": 89,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
         },
+        "max": {
+            "cp": 15782,
+            "atk": 957,
+            "hp": 5057,
+            "spd": 112,
+            "def": 592,
+            "chc": 24,
+            "chd": 150,
+            "eff": 9,
+            "efr": 0,
+            "dac": 5
+        },
         "max5": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 10990,
+            "atk": 647,
+            "hp": 3688,
+            "spd": 108,
+            "def": 477,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
         },
         "max6": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 13717,
+            "atk": 807,
+            "hp": 4637,
+            "spd": 108,
+            "def": 592,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
@@ -347,8 +347,8 @@
     "specialtySkill": {
         "name": "Cat's Nature",
         "description": "She's very violent, but she's too adorable to be hated.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Battle] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
             "command": 45,
             "charm": 99,
@@ -373,42 +373,42 @@
             "rank": "c",
             "status": {
                 "type": "dac",
-                "increase": 0
+                "increase": 0.007
             }
         },
         {
             "rank": "b",
             "status": {
                 "type": "dac",
-                "increase": 0
+                "increase": 0.01
             }
         },
         {
             "rank": "a",
             "status": {
                 "type": "dac",
-                "increase": 0
+                "increase": 0.014
             }
         },
         {
             "rank": "s",
             "status": {
                 "type": "dac",
-                "increase": 0
+                "increase": 0.018
             }
         },
         {
             "rank": "ss",
             "status": {
                 "type": "dac",
-                "increase": 0
+                "increase": 0.021
             }
         },
         {
             "rank": "sss",
             "status": {
                 "type": "dac",
-                "increase": 0
+                "increase": 0.025
             }
         }
     ],
@@ -418,7 +418,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "eff": 0.03
                 },
                 {
                     "atk": 20
@@ -439,7 +439,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.03
                 },
                 {
                     "atk": 20
@@ -486,7 +486,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "spd": 4
                 },
                 {
                     "atk": 30
@@ -511,7 +511,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "eff": 0.06
                 },
                 {
                     "atk": 30
@@ -536,7 +536,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.06
                 },
                 {
                     "atk": 30
