@@ -337,16 +337,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "demon-blood-gem",
-                            "qty": 0
+                            "item": "flame-of-soul",
+                            "qty": 8
                         },
                         {
                             "item": "molagorago",
-                            "qty": 0
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 0
+                            "qty": 60000
                         }
                     ]
                 }
