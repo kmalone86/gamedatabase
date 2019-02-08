@@ -605,25 +605,6 @@
                 "stic_att_up"
             ],
             "debuffs": []
-        },
-        {
-            "isPassive": false,
-            "soulBurn": 0,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
-            "awakenUpgrade": false,
-            "cooldown": 0,
-            "name": "",
-            "soulAcquire": 0,
-            "description": "",
-            "enhancement": [
-                {
-                    "description": "",
-                    "resources": []
-                }
-            ],
-            "buffs": [],
-            "debuffs": []
         }
     ],
     "specialtySkill": {
