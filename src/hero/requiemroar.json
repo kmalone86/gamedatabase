@@ -9,58 +9,70 @@
     "background": "A Banshee formed from a corrupted soul. She sings a bizarrely pleasant song of brutal murder and mourning. Her funeral dirge is for the enemy she is about to kill.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "gloomyrain",
+            "relationType": "love"
+        },
+        {
+            "hero": "carmainerose",
+            "relationType": "trust"
+        },
+        {
+            "hero": "chloe",
+            "relationType": "trust"
+        },
+        {
+            "hero": "celeste",
+            "relationType": "grudge"
         }
     ],
     "stats": {
         "base": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 1029,
+            "atk": 52,
+            "hp": 192,
+            "spd": 100,
+            "def": 67,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": 0
+            "dac": 5
         },
         "max": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0,
-            "chd": 0,
+            "cp": 13345,
+            "atk": 827,
+            "hp": 4046,
+            "spd": 106,
+            "def": 613,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "max5": {
+            "cp": 9425,
+            "atk": 473,
+            "hp": 2884,
+            "spd": 100,
+            "def": 494,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
         },
         "max6": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 3626,
             "cp": 11751,
-            "spd": 100,
             "atk": 589,
+            "hp": 3626,
+            "spd": 100,
             "def": 613,
-            "efr": 0
-        },
-        "max5": {
             "chc": 15,
             "chd": 150,
             "eff": 0,
-            "dac": 5,
-            "hp": 2884,
-            "cp": 9425,
-            "spd": 100,
-            "atk": 473,
-            "def": 494,
-            "efr": 0
+            "efr": 0,
+            "dac": 5
         }
     },
     "skills": [
@@ -351,9 +363,9 @@
         "dispatch": "[Gourmet] Attribute",
         "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 44,
+            "charm": 55,
+            "politics": 33
         }
     },
     "memoryImprintFormation": {
