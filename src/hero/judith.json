@@ -22,7 +22,7 @@
         }
     ],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 2298,
             "atk": 211,
             "hp": 625,
@@ -34,7 +34,7 @@
             "efr": 0,
             "dac": 5
         },
-        "max": {
+        "lv60SixStarFullyAwakened": {
             "cp": 13686,
             "atk": 848,
             "hp": 4289,
@@ -46,7 +46,7 @@
             "efr": 0,
             "dac": 5
         },
-        "max6": {
+        "lv60SixStarNoAwaken": {
             "chc": 15,
             "chd": 150,
             "eff": 0,
@@ -58,7 +58,7 @@
             "def": 494,
             "efr": 0
         },
-        "max5": {
+        "lv50FiveStarNoAwaken": {
             "chc": 15,
             "chd": 150,
             "eff": 0,

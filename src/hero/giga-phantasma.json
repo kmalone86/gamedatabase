@@ -9,7 +9,7 @@
     "background": "A magical creature that has collected immense power over the course of its eternal life. Hunted down by countless warriors and magicians desperate to posses its concentrated power, it is now extremely hard to find.",
     "relations": [],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 5786,
             "atk": 310,
             "hp": 1960,
@@ -21,7 +21,7 @@
             "efr": 0,
             "dac": 5
         },
-        "max": {
+        "lv60SixStarFullyAwakened": {
             "cp": 8377,
             "atk": 448,
             "hp": 2888,

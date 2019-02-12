@@ -9,7 +9,7 @@
     "background": "A magical creature that has lived since before time began, seen by some as a spiritual guardian and others as an omen of catastrophe. They are rumored to share their power with those heroes they judge worthy.",
     "relations": [],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 7889,
             "atk": 422,
             "hp": 2721,
@@ -21,7 +21,7 @@
             "efr": 0,
             "dac": 5
         },
-        "max": {
+        "lv60SixStarFullyAwakened": {
             "cp": 8377,
             "atk": 448,
             "hp": 2888,

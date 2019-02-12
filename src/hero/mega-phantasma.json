@@ -9,7 +9,7 @@
     "background": "A magical creature that has collected great power over the course of its long life. It is incredibly wary, and unable to properly control its own power, making it capable of delivering great damage.",
     "relations": [],
     "stats": {
-        "base": {
+        "lv1BaseStarNoAwaken": {
             "cp": 3895,
             "atk": 209,
             "hp": 1277,
@@ -21,7 +21,7 @@
             "efr": 0,
             "dac": 5
         },
-        "max": {
+        "lv60SixStarFullyAwakened": {
             "cp": 8377,
             "atk": 448,
             "hp": 2888,
