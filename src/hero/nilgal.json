@@ -20,47 +20,11 @@
             "hp": 530,
             "spd": 108,
             "def": 73,
-            "chc": 15.2,
-            "chd": 150,
-            "eff": 0,
-            "efr": 0,
-            "dac": 5
-        },
-        "lv60SixStarFullyAwakened": {
-            "cp": 52223,
-            "atk": 4473,
-            "hp": 21568,
-            "spd": 108,
-            "def": 931,
-            "chc": 24,
-            "chd": 150,
-            "eff": 0,
-            "efr": 0,
-            "dac": 5
-        },
-        "lv60SixStarNoAwaken": {
-            "cp": 52223,
-            "atk": 4473,
-            "hp": 21568,
-            "spd": 108,
-            "def": 931,
-            "chc": 24,
-            "chd": 150,
-            "eff": 0,
-            "efr": 0,
-            "dac": 5
-        },
-        "lv50FiveStarFullyAwakened": {
-            "cp": 36951,
-            "atk": 3094,
-            "hp": 15440,
-            "spd": 108,
-            "def": 704,
-            "chc": "22.5",
-            "chd": 150,
-            "eff": 0,
-            "efr": 0,
-            "dac": 5
+            "chc": 0.152,
+            "chd": 1.5,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
             "cp": 36951,
@@ -68,11 +32,47 @@
             "hp": 15440,
             "spd": 108,
             "def": 704,
-            "chc": "22.5",
-            "chd": 150,
-            "eff": 0,
-            "efr": 0,
-            "dac": 5
+            "chc": 0.225,
+            "chd": 1.5,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 36951,
+            "atk": 3094,
+            "hp": 15440,
+            "spd": 108,
+            "def": 704,
+            "chc": 0.225,
+            "chd": 1.5,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 52223,
+            "atk": 4473,
+            "hp": 21568,
+            "spd": 108,
+            "def": 931,
+            "chc": 0.24,
+            "chd": 1.5,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 52223,
+            "atk": 4473,
+            "hp": 21568,
+            "spd": 108,
+            "def": 931,
+            "chc": 0.24,
+            "chd": 1.5,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
         }
     },
     "skills": [
