@@ -26,6 +26,42 @@
             "efr": 0,
             "dac": 5
         },
+        "lv50FiveStarNoAwaken": {
+            "cp": 10900,
+            "atk": 626,
+            "hp": 3945,
+            "spd": 106,
+            "def": 455,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 0,
+            "atk": 746,
+            "hp": 4285,
+            "spd": 112,
+            "def": 455,
+            "chc": 15,
+            "chd": 150,
+            "eff": 9,
+            "efr": 0,
+            "dac": 5
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 13599,
+            "atk": 780,
+            "hp": 4960,
+            "spd": 106,
+            "def": 564,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
         "lv60SixStarFullyAwakened": {
             "cp": 15448,
             "atk": 930,
@@ -37,30 +73,6 @@
             "eff": 15,
             "efr": 0,
             "dac": 5
-        },
-        "lv60SixStarNoAwaken": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4960,
-            "cp": 13599,
-            "spd": 106,
-            "atk": 780,
-            "def": 564,
-            "efr": 0
-        },
-        "lv50FiveStarNoAwaken": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 3945,
-            "cp": 10900,
-            "spd": 106,
-            "atk": 626,
-            "def": 455,
-            "efr": 0
         }
     },
     "skills": [
@@ -420,13 +432,13 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "spd": "2"
+                    "spd": 2
                 },
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
@@ -444,10 +456,10 @@
                     "eff": 0.03
                 },
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
@@ -466,10 +478,10 @@
             "skillUpgrade": true,
             "statsIncrease": [
                 {
-                    "atk": "20"
+                    "atk": 20
                 },
                 {
-                    "hp": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
@@ -491,10 +503,10 @@
                     "eff": 0.06
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
@@ -513,13 +525,13 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "spd": "4"
+                    "spd": 4
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [

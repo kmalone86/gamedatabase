@@ -42,6 +42,42 @@
             "efr": 0,
             "dac": 5
         },
+        "lv50FiveStarNoAwaken": {
+            "cp": 11948,
+            "atk": 553,
+            "hp": 4492,
+            "spd": 100,
+            "def": 557,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 0,
+            "atk": 673,
+            "hp": 5101,
+            "spd": 100,
+            "def": 607,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 3,
+            "dac": 5
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 14899,
+            "atk": 689,
+            "hp": 5647,
+            "spd": 100,
+            "def": 690,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
         "lv60SixStarFullyAwakened": {
             "cp": 17231,
             "atk": 839,
@@ -53,30 +89,6 @@
             "eff": 0,
             "efr": 9,
             "dac": 5
-        },
-        "lv60SixStarNoAwaken": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 5647,
-            "cp": 14899,
-            "spd": 100,
-            "atk": 689,
-            "def": 690,
-            "efr": 0
-        },
-        "lv50FiveStarNoAwaken": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4492,
-            "cp": 11948,
-            "spd": 100,
-            "atk": 553,
-            "def": 557,
-            "efr": 0
         }
     },
     "skills": [
@@ -441,7 +453,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "0.030"
+                    "def": 0.03
                 },
                 {
                     "atk": 20
@@ -462,7 +474,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": "0.030"
+                    "efr": 0.03
                 },
                 {
                     "atk": 20
@@ -509,7 +521,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": "0.060"
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
@@ -534,7 +546,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": "0.060"
+                    "def": 0.06
                 },
                 {
                     "atk": 30

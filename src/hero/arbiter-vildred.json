@@ -54,6 +54,42 @@
             "efr": 0,
             "dac": 5
         },
+        "lv50FiveStarNoAwaken": {
+            "cp": 11324,
+            "atk": 771,
+            "hp": 3752,
+            "spd": 116,
+            "def": 421,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 0,
+            "atk": 983,
+            "hp": 4092,
+            "spd": 116,
+            "def": 421,
+            "chc": 21,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 14130,
+            "atk": 961,
+            "hp": 4718,
+            "spd": 116,
+            "def": 522,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
         "lv60SixStarFullyAwakened": {
             "cp": 16525,
             "atk": 1283,
@@ -65,30 +101,6 @@
             "eff": 0,
             "efr": 0,
             "dac": 5
-        },
-        "lv60SixStarNoAwaken": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 4718,
-            "cp": 14130,
-            "spd": 116,
-            "atk": 961,
-            "def": 522,
-            "efr": 0
-        },
-        "lv50FiveStarNoAwaken": {
-            "chc": 15,
-            "chd": 150,
-            "eff": 0,
-            "dac": 5,
-            "hp": 3752,
-            "cp": 11324,
-            "spd": 116,
-            "atk": 771,
-            "def": 421,
-            "efr": 0
         }
     },
     "skills": [

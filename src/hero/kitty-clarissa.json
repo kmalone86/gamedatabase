@@ -38,18 +38,6 @@
             "efr": 0,
             "dac": 5
         },
-        "lv60SixStarFullyAwakened": {
-            "cp": 15782,
-            "atk": 957,
-            "hp": 5057,
-            "spd": 112,
-            "def": 592,
-            "chc": 24,
-            "chd": 150,
-            "eff": 9,
-            "efr": 0,
-            "dac": 5
-        },
         "lv50FiveStarNoAwaken": {
             "cp": 10990,
             "atk": 647,
@@ -62,6 +50,18 @@
             "efr": 0,
             "dac": 5
         },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 0,
+            "atk": 767,
+            "hp": 4028,
+            "spd": 112,
+            "def": 477,
+            "chc": 18,
+            "chd": 150,
+            "eff": 9,
+            "efr": 0,
+            "dac": 5
+        },
         "lv60SixStarNoAwaken": {
             "cp": 13717,
             "atk": 807,
@@ -71,6 +71,18 @@
             "chc": 15,
             "chd": 150,
             "eff": 0,
+            "efr": 0,
+            "dac": 5
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 15782,
+            "atk": 957,
+            "hp": 5057,
+            "spd": 112,
+            "def": 592,
+            "chc": 24,
+            "chd": 150,
+            "eff": 9,
             "efr": 0,
             "dac": 5
         }
