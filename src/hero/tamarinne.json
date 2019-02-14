@@ -100,7 +100,7 @@
             "isPassive": false,
             "soulBurn": 20,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "Increases damage dealt.",
+            "soulBurnEffect": "Greatly recovers Health of all allies after attacking.",
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Serene Tune",
@@ -227,7 +227,7 @@
             "cooldown": 2,
             "name": "Song of the Forest",
             "soulAcquire": 1,
-            "description": "(Tamarinne) Heals all allies with a peaceful melody. Amount recovered increases proportional to the caster's max Health. Decreases cooldown of Shining Star✰ by 1 turn.\n(Idol) With a powerful performance, increases Attack of all allies for 2 turns and increases Combat Readiness by 30%.",
+            "description": "(Tamarinne) Heals all allies with a peaceful melody. Amount recovered increases proportional to the caster's max Health. Decreases cooldown of Shining Star✰ by 1 turn.\n(Idol) With a powerful performance, increases Attack of all allies for 2 turns and increases Combat Readiness by 30%, recovering Health. Amount recovered increases proportional to the caster's max Health.",
             "enhancement": [
                 {
                     "description": "+2% healing / Combat Readiness",
@@ -349,7 +349,7 @@
             "cooldown": 9,
             "name": "Shining Star✰",
             "soulAcquire": 2,
-            "description": "Before performing, dispels all debuffs inflicted on all allies and recovers the caster to max Health and grants an extra turn. The caster becomes an idol for 3 turns and performs a concert. Begins every battle with full cooldown count.",
+            "description": "Before performing, dispels all debuffs inflicted on all allies and recovers the caster to max Health and grants an extra turn. The caster becomes an idol for 3 turns and performs a concert. Begins the first battle with full cooldown count.",
             "enhancement": [
                 {
                     "description": "-1 turn cooldown",
@@ -376,7 +376,7 @@
             "isPassive": false,
             "soulBurn": 20,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "Increases damage dealt.",
+            "soulBurnEffect": "Greatly recovers Health of all allies after attacking.",
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Sing Together",
@@ -503,7 +503,7 @@
             "cooldown": 2,
             "name": "Climax",
             "soulAcquire": 1,
-            "description": "(Tamarinne) Heals all allies with a peaceful melody. Amount recovered increases proportional to the caster's max Health. Decreases cooldown of Shining Star✰ by 1 turn.\n(Idol) With a powerful performance, increases Attack of all allies for 2 turns and increases Combat Readiness by 30%.",
+            "description": "(Tamarinne) Heals all allies with a peaceful melody. Amount recovered increases proportional to the caster's max Health. Decreases cooldown of Shining Star✰ by 1 turn.\n(Idol) With a powerful performance, increases Attack of all allies for 2 turns and increases Combat Readiness by 30%, recovering Health. Amount recovered increases proportional to the caster's max Health.",
             "enhancement": [
                 {
                     "description": "+2% healing / Combat Readiness",
