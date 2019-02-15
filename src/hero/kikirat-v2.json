@@ -368,6 +368,10 @@
             "politics": 0
         }
     },
+    "camping": {
+        "options": [],
+        "reactions": {}
+    },
     "memoryImprintFormation": {
         "north": true,
         "south": true,

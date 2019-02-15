@@ -382,6 +382,36 @@
             "politics": 40
         }
     },
+    "camping": {
+        "options": [
+            "dream",
+            "joyful-memory"
+        ],
+        "reactions": {
+            "advice": 2,
+            "belief": -3,
+            "bizarre-story": -1,
+            "comforting-cheer": 3,
+            "complain": -1,
+            "criticism": -1,
+            "cute-cheer": 2,
+            "dream": 1,
+            "food-story": 6,
+            "gossip": -3,
+            "happy-memory": 2,
+            "heroic-cheer": 5,
+            "heroic-tale": 4,
+            "horror-story": -2,
+            "interesting-story": 1,
+            "joyful-memory": 3,
+            "myth": 1,
+            "occult": -2,
+            "reality-check": 1,
+            "sad-memory": 3,
+            "self-indulgent": -2,
+            "unique-comment": 1
+        }
+    },
     "memoryImprintFormation": {
         "north": true,
         "south": true,
