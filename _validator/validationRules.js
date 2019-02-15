@@ -14,6 +14,7 @@ module.exports = {
         'stats',
         'skills',
         'specialtySkill',
+        'camping',
         'memoryImprint',
         'awakening',
     ],
