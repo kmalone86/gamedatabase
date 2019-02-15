@@ -145,6 +145,10 @@
             "politics": 0
         }
     },
+    "camping": {
+        "options": [],
+        "reactions": {}
+    },
     "memoryImprintFormation": {
         "north": false,
         "south": false,

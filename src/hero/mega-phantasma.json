@@ -65,6 +65,10 @@
         }
     ],
     "specialtySkill": {},
+    "camping": {
+        "options": [],
+        "reactions": {}
+    },
     "memoryImprintFormation": {
         "north": false,
         "south": false,

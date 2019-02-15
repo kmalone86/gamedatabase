@@ -394,6 +394,36 @@
             "politics": 75
         }
     },
+    "camping": {
+        "options": [
+            "criticism",
+            "myth"
+        ],
+        "reactions": {
+            "advice": 3,
+            "belief": 0,
+            "bizarre-story": -3,
+            "comforting-cheer": 3,
+            "complain": 1,
+            "criticism": 8,
+            "cute-cheer": 5,
+            "dream": 0,
+            "food-story": 3,
+            "gossip": 2,
+            "happy-memory": 2,
+            "heroic-cheer": -3,
+            "heroic-tale": 5,
+            "horror-story": 1,
+            "interesting-story": -1,
+            "joyful-memory": 2,
+            "myth": 5,
+            "occult": 3,
+            "reality-check": -3,
+            "sad-memory": 0,
+            "self-indulgent": -5,
+            "unique-comment": 0
+        }
+    },
     "memoryImprintFormation": {
         "north": true,
         "south": true,
