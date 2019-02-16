@@ -1,7 +1,9 @@
 {
     "name": "Kal'adra",
     "rarity": 4,
-    "exclusive": ["mage"],
+    "exclusive": [
+        "mage"
+    ],
     "loreDescription": [
         "A cursed weapon created by the fallen priest, Sestia. It causes a mental breakdown in the target by reminding them of their most painful memories. Even ages later, when fallen priests have sided with the Covenant, use of this mask is banned."
     ],

@@ -13,7 +13,9 @@ const finishError = chalk.bold.bgRed;
 
 const getDirectories = (baseDir) => {
     return fs
-        .readdirSync(baseDir, { withFileTypes: true })
+        .readdirSync(baseDir, {
+            withFileTypes: true,
+        })
         .filter((f) => f.isDirectory())
         .map((f) => path.join(baseDir, f.name));
 };
@@ -54,7 +56,9 @@ const buildFolder = async (dir) => {
         // https://stackoverflow.com/questions/31413749/node-js-promise-all-and-foreach
         let actions = fileArray.map((filename) => {
             return jsonfile
-                .readFile(filename, { throws: false })
+                .readFile(filename, {
+                    throws: false,
+                })
                 .then((filecontents = null) => {
                     if (filecontents === null) {
                         return Promise.reject(new Error('filecontents null'));

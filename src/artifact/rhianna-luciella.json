@@ -1,7 +1,9 @@
 {
     "name": "Rhianna & Luciella",
     "rarity": 5,
-    "exclusive": ["thief"],
+    "exclusive": [
+        "thief"
+    ],
     "loreDescription": [
         "You're today's target. I'll let you know now that there's nowhere to run.",
         "- Moon Assassins, Rhianna and Luciella"

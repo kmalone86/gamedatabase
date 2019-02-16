@@ -1,7 +1,9 @@
 {
     "name": "Infinity Basket",
     "rarity": 4,
-    "exclusive": ["ranger"],
+    "exclusive": [
+        "ranger"
+    ],
     "loreDescription": [
         "Now, put your most expensive possession in this basket - it doubles! Put in two? Quadruples! This isn't a scam, trust me!"
     ],

@@ -1,7 +1,9 @@
 {
     "name": "Noble Oath",
     "rarity": 5,
-    "exclusive": ["knight"],
+    "exclusive": [
+        "knight"
+    ],
     "loreDescription": [
         "An emblem given to members of Ezera's Orders after they pledge to dedicate their lives to the Goddess. Those given to knights resemble an escutcheon, while those given to priests resemble a rosary."
     ],

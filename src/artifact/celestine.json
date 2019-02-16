@@ -1,7 +1,9 @@
 {
     "name": "Celestine",
     "rarity": 5,
-    "exclusive": ["soul-weaver"],
+    "exclusive": [
+        "soul-weaver"
+    ],
     "event": "",
     "loreDescription": [
         "A rare ore extracted from near the Sanctuary. Known as the Blessing of Diche, it has the power to infuse the wearer with the energy of life and is carried by royalty and some high-ranking priests."
@@ -16,7 +18,7 @@
             "hp": 76
         },
         "max": {
-            "atk":117,
+            "atk": 117,
             "hp": 988
         }
     }

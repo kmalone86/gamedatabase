@@ -1,7 +1,9 @@
 {
     "name": "Sashe Ithanes",
     "rarity": 4,
-    "exclusive": ["ranger"],
+    "exclusive": [
+        "ranger"
+    ],
     "loreDescription": [
         "This is the Sashe Ithanes. It is a flame that will shake the world on its axis, that will destroy people, cities, kingdoms, even dreams. Take it, and in my name bring an end to everything."
     ],

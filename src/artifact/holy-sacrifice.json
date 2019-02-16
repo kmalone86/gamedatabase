@@ -1,7 +1,9 @@
 {
     "name": "Holy Sacrifice",
     "rarity": 5,
-    "exclusive": ["knight"],
+    "exclusive": [
+        "knight"
+    ],
     "loreDescription": [
         "The Statue of Grace is given to whichever knight wins the Goddess's favor and will save them from death once before shattering to pieces.",
         "Written by Barrett [Treasures of the Holy Kingdom, 15p]"

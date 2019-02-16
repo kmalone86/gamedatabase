@@ -1,7 +1,9 @@
 {
     "name": "Time Matter",
     "rarity": 5,
-    "exclusive": ["mage"],
+    "exclusive": [
+        "mage"
+    ],
     "loreDescription": [
         "A source of power that Guardian Kazran wields that controls time. It can bring forth a time in the past that no one can remember."
     ],

@@ -1,7 +1,9 @@
 {
     "name": "Idol's Cheer",
     "rarity": 5,
-    "exclusive": ["soul-weaver"],
+    "exclusive": [
+        "soul-weaver"
+    ],
     "loreDescription": [
         "I believe that music can change the world. Because it changed me!"
     ],

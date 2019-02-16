@@ -1,7 +1,9 @@
 {
     "name": "Chatty",
     "rarity": 5,
-    "exclusive": ["mage"],
+    "exclusive": [
+        "mage"
+    ],
     "loreDescription": [
         "I was once the best mercenary in the world!! Before Serila... No, master trapped my soul inside this lantern."
     ],

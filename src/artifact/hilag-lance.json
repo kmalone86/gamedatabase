@@ -1,7 +1,9 @@
 {
     "name": "Hilag Lance",
     "rarity": 4,
-    "exclusive": ["knight"],
+    "exclusive": [
+        "knight"
+    ],
     "loreDescription": [
         "As she lifted her lance, a cry burst out from behind her. She believed she would soon be able to overthrow the Archdemon. \"If I cannot do it, Goddess, give me the power to fight on forever.\""
     ],

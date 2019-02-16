@@ -1,7 +1,9 @@
 {
     "name": "Abyssal Crown",
     "rarity": 5,
-    "exclusive": ["mage"],
+    "exclusive": [
+        "mage"
+    ],
     "loreDescription": [
         "May those ruled by the crown walk the road of corruption forever.",
         "- Witch Reinwood, hung high up on the stake"

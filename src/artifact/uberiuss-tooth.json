@@ -1,7 +1,9 @@
 {
     "name": "Uberius's Tooth",
     "rarity": 5,
-    "exclusive": ["warrior"],
+    "exclusive": [
+        "warrior"
+    ],
     "loreDescription": [
         "Treasure of the Wintenberg royal family made from the remains of wicked dragon Uberius. It's said to be capable of ripping dragon scale armor."
     ],

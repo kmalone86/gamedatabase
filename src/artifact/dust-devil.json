@@ -1,7 +1,9 @@
 {
     "name": "Dust Devil",
     "rarity": 4,
-    "exclusive": ["thief"],
+    "exclusive": [
+        "thief"
+    ],
     "loreDescription": [
         "\"Once this long fight is over, will everything go back to the way it was?\" mused the hero of the Dejurak desert with a deep sigh of anger."
     ],

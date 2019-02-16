@@ -1,7 +1,9 @@
 {
     "name": "Sira-Ren",
     "rarity": 4,
-    "exclusive": ["mage"],
+    "exclusive": [
+        "mage"
+    ],
     "loreDescription": [
         "This rare magical flower blooms from the corpse of a Human who possessed incredible magic power. It quickly withers away unless it is constantly being infused with powerful Mana. Few have been lucky enough to witness such a sight."
     ],

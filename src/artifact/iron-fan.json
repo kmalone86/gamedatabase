@@ -1,7 +1,9 @@
 {
     "name": "Iron Fan",
     "rarity": 5,
-    "exclusive": ["ranger"],
+    "exclusive": [
+        "ranger"
+    ],
     "event": "",
     "loreDescription": [
         "\"Ladies use fans for many purposes: hiding smiles, expressing feelings indirectly, and of course, eliminating enemies.\""
@@ -16,7 +18,7 @@
             "hp": 32
         },
         "max": {
-            "atk":273,
+            "atk": 273,
             "hp": 416
         }
     }

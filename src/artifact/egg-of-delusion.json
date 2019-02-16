@@ -2,7 +2,9 @@
     "name": "Egg of Delusion",
     "rarity": 3,
     "exclusive": [],
-    "loreDescription": ["A dark egg containing demonic energy. Nobody knows what it may contain inside."],
+    "loreDescription": [
+        "A dark egg containing demonic energy. Nobody knows what it may contain inside."
+    ],
     "skillDescription": {
         "base": "Defense increases by 10.0% when Health is above 50%.",
         "max": "Defense increases by 20.0% when Health is above 50%."

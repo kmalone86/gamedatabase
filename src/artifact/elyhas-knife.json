@@ -1,7 +1,9 @@
 {
     "name": "Elyha's Knife",
     "rarity": 4,
-    "exclusive": ["thief"],
+    "exclusive": [
+        "thief"
+    ],
     "loreDescription": [
         "Whenever Elyha, the leader of the Black Fog Company, wielded a knife, it got darker with blood and more brutal every time."
     ],

@@ -1,7 +1,9 @@
 {
     "name": "Water's Origin",
     "rarity": 4,
-    "exclusive": ["soul-weaver"],
+    "exclusive": [
+        "soul-weaver"
+    ],
     "loreDescription": [
         "Wherever this talisman is, I will be too. To bring safety from storms, freedom from illness, life where once there was only ruin.",
         "- Shaman Cizette"

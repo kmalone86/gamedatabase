@@ -1,7 +1,9 @@
 {
     "name": "Strak Gauntlet",
     "rarity": 4,
-    "exclusive": ["warrior"],
+    "exclusive": [
+        "warrior"
+    ],
     "loreDescription": [
         "When the eclipse began, those small gloves started to spew fire and engulf my whole body. The spirit inside the gloves had woken up, and we were able to defeat the Archdemon.",
         "- Heir Aki"

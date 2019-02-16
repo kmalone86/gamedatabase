@@ -1,7 +1,9 @@
 {
     "name": "Sigurd Scythe",
     "rarity": 5,
-    "exclusive": ["warrior"],
+    "exclusive": [
+        "warrior"
+    ],
     "loreDescription": [
         "As the moonlight revealed a figure holding a scythe, the astonished onlookers exclaimed, \"the God of Death has descended!\""
     ],

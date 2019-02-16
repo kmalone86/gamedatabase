@@ -1,7 +1,9 @@
 {
     "name": "Iela Violin",
     "rarity": 4,
-    "exclusive": ["mage"],
+    "exclusive": [
+        "mage"
+    ],
     "loreDescription": [
         "No matter how much power or darkness one wields, they're just a part of the audience. Iela started to play the violin and her melody touched the hearts of all that heard it. Even the genius mage who was only interested in fighting was moved."
     ],

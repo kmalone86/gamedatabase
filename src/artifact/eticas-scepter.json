@@ -1,7 +1,9 @@
 {
     "name": "Etica's Scepter",
     "rarity": 5,
-    "exclusive": ["mage"],
+    "exclusive": [
+        "mage"
+    ],
     "loreDescription": [
         "When the empire is in its greatest peril, the exiled princess, Etica, will return with the five spirits to take back the royal hall and call down a rain of repentance to save the devastated world."
     ],

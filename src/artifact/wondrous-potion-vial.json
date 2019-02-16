@@ -1,7 +1,9 @@
 {
     "name": "Wondrous Potion Vial",
     "rarity": 4,
-    "exclusive": ["soul-weaver"],
+    "exclusive": [
+        "soul-weaver"
+    ],
     "loreDescription": [
         "A potion of love, or a potion of eternal youth. Only one of each exists in this world. Which do you choose?",
         "- A Senior Fellow of the Alchemy Society, Pei"

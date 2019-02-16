@@ -2,7 +2,9 @@
     "name": "Daydream Joker",
     "rarity": 3,
     "exclusive": [],
-    "loreDescription": ["Did you enjoy the world I showed you? Was it satisfying? Now, pay the price with your life."],
+    "loreDescription": [
+        "Did you enjoy the world I showed you? Was it satisfying? Now, pay the price with your life."
+    ],
     "skillDescription": {
         "base": "Deals extra damage equivalent to 1.5% of the enemy's max Health when attacking.",
         "max": "Deals extra damage equivalent to 3.0% of the enemy's max Health when attacking."

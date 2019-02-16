@@ -1,7 +1,9 @@
 {
     "name": "Rod of Amaryllis",
     "rarity": 5,
-    "exclusive": ["soul-weaver"],
+    "exclusive": [
+        "soul-weaver"
+    ],
     "loreDescription": [
         "Everyone who fights for the salvation of the world will have the divine protection of the goddess."
     ],

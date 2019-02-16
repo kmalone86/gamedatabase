@@ -14,9 +14,10 @@ module.exports = {
         'stats',
         'skills',
         'specialtySkill',
+        'memoryImprintFormation',
         'camping',
         'memoryImprint',
         'awakening',
     ],
-    resource: ['name', 'type', 'description'],
+    item: ['name', 'locations', 'description', 'type', 'rarity'],
 };

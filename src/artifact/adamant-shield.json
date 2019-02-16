@@ -1,7 +1,9 @@
 {
     "name": "Adamant Shield",
     "rarity": 4,
-    "exclusive": ["knight"],
+    "exclusive": [
+        "knight"
+    ],
     "loreDescription": [
         "That damn shield can't be penetrated by anything. I guarantee you, cause even my sword couldn't.",
         "- Star Fencer Ayla"
