@@ -63,7 +63,9 @@ const buildFolder = async (dir) => {
                     if (filecontents === null) {
                         return Promise.reject(new Error('filecontents null'));
                     }
-                    filecontents.fileId = filename.replace(/(.*\/)(.*)(\.json)/i, '$2');
+                    let identifierId = filename.replace(/(.*\/)(.*)(\.json)/i, '$2');
+                    filecontents.fileId = identifierId;
+                    filecontents._id = identifierId;
                     baseJsonObject.push(filecontents);
 
                     return log(success(`√ JSON "${filename}" processed.`));
