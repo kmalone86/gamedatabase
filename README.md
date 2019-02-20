@@ -1,5 +1,7 @@
 # EpicSevenDB.com - Game Database [![Build Status](https://travis-ci.com/EpicSevenDB/gamedatabase.svg?branch=master)](https://travis-ci.com/EpicSevenDB/gamedatabase)
 
+License: `Attribution-NonCommercial-ShareAlike 4.0 International`
+
 EpicSevenDB.com community database for game information, such as Heroes, Artifacts, Gear, Skills and anything else necessary to feed the DB
 
 > Feel free to open an Issue if you see something wrong or some data/property is missing. Better yet if you make a Pull Request with the fixes :-)
