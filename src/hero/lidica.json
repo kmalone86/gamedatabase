@@ -89,7 +89,80 @@
             "enhancement": [
                 {
                     "description": "",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "",
+                    "resources": [
+                        {
+                            "item": "flame-of-soul",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 37000
+                        }
+                    ]
+                },
+                {
+                    "description": "",
+                    "resources": [
+                        {
+                            "item": "flame-of-soul",
+                            "qty": 7
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 55000
+                        }
+                    ]
+                },
+                {
+                    "description": "",
+                    "resources": [
+                        {
+                            "item": "demon-blood-gem",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
+                        }
+                    ]
                 }
             ],
             "buffs": [],
@@ -108,7 +181,80 @@
             "enhancement": [
                 {
                     "description": "",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "",
+                    "resources": [
+                        {
+                            "item": "flame-of-soul",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 37000
+                        }
+                    ]
+                },
+                {
+                    "description": "",
+                    "resources": [
+                        {
+                            "item": "flame-of-soul",
+                            "qty": 7
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 55000
+                        }
+                    ]
+                },
+                {
+                    "description": "",
+                    "resources": [
+                        {
+                            "item": "demon-blood-gem",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
+                        }
+                    ]
                 }
             ],
             "buffs": [],
@@ -129,7 +275,80 @@
             "enhancement": [
                 {
                     "description": "",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "",
+                    "resources": [
+                        {
+                            "item": "flame-of-soul",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 37000
+                        }
+                    ]
+                },
+                {
+                    "description": "",
+                    "resources": [
+                        {
+                            "item": "flame-of-soul",
+                            "qty": 7
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 55000
+                        }
+                    ]
+                },
+                {
+                    "description": "",
+                    "resources": [
+                        {
+                            "item": "demon-blood-gem",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
+                        }
+                    ]
                 }
             ],
             "buffs": [],
