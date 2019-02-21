@@ -1,93 +1,97 @@
 {
-    "name": "Armin",
-    "rarity": 4,
-    "classType": "knight",
-    "element": "earth",
-    "zodiac": "capricorn",
+    "name": "Lidica",
+    "rarity": 5,
+    "classType": "ranger",
+    "element": "fire",
+    "zodiac": "virgo",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "A particularly ticklish feline Suin, Armin is the valiant and cheerful Commander of the Longtail Company. However, she is easily tempted, and quickly convinced to go along with the whims of her fellow mercenaries. She loves to collect earrings but since her ears are so sensitive she's unable to wear them.",
+    "background": "Expelled from the Rose Apostles, she joined the Phantom CIC to investigate the Land of Death. She wanted to defeat the Unknown and instill faith unto others. However, her rough personality still causes problems within the Phantom CIC.",
     "relations": [
         {
-            "hero": "kluri",
+            "hero": "aramintha",
+            "relationType": "longing"
+        },
+        {
+            "hero": "jena",
             "relationType": "trust"
         },
         {
-            "hero": "basar",
+            "hero": "bellona",
             "relationType": "trust"
         },
         {
-            "hero": "cartuja",
+            "hero": "lots",
             "relationType": "trust"
         },
         {
-            "hero": "otillie",
+            "hero": "rin",
             "relationType": "trust"
         },
         {
-            "hero": "cidd",
+            "hero": "sez",
             "relationType": "rival"
         }
     ],
     "stats": {
         "lv1BaseStarNoAwaken": {
-            "cp": 1273,
-            "atk": 54,
-            "hp": 326,
-            "spd": 91,
-            "def": 80,
+            "cp": 1366,
+            "atk": 96,
+            "hp": 273,
+            "spd": 120,
+            "def": 67,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
-            "cp": 11435,
-            "atk": 458,
-            "hp": 4588,
-            "spd": 91,
-            "def": 551,
+            "cp": 11419,
+            "atk": 771,
+            "hp": 3624,
+            "spd": 120,
+            "def": 432,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
-            "cp": 0,
-            "atk": 578,
-            "hp": 4928,
-            "spd": 91,
-            "def": 633,
+            "cp": 12952,
+            "atk": 983,
+            "hp": 3964,
+            "spd": 124,
+            "def": 432,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.03,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
-            "cp": 14269,
-            "atk": 571,
-            "hp": 5769,
-            "spd": 91,
-            "def": 683,
+            "cp": 14249,
+            "atk": 961,
+            "hp": 4556,
+            "spd": 120,
+            "def": 536,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
-            "cp": 16567,
-            "atk": 721,
-            "hp": 6189,
-            "spd": 91,
-            "def": 785,
+            "cp": 16448,
+            "atk": 1283,
+            "hp": 4976,
+            "spd": 124,
+            "def": 536,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.09,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         }
     },
@@ -97,11 +101,11 @@
             "soulBurn": 0,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
-            "awakenUpgrade": false,
+            "awakenUpgrade": true,
             "cooldown": 0,
-            "name": "Takedown",
+            "name": "Wild Rose",
             "soulAcquire": 1,
-            "description": "Attacks with a large shield, with a 25% chance of stunning for 1 turn. When the enemy is debuffed, the chance will increase. Damage dealt increases proportional to the caster's Defense.",
+            "description": "Attacks with a sword, decreasing Combat Readiness by 10%. If the enemy is debuffed, decreases Combat Readiness by an additional 10%.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -130,24 +134,11 @@
                     ]
                 },
                 {
-                    "description": "+5% effect chance",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 12000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% effect chance",
-                    "resources": [
-                        {
-                            "item": "slime-jelly",
-                            "qty": 1
+                            "item": "flame-of-soul",
+                            "qty": 5
                         },
                         {
                             "item": "molagora",
@@ -155,33 +146,16 @@
                         },
                         {
                             "item": "gold",
-                            "qty": 17000
+                            "qty": 37000
                         }
                     ]
                 },
                 {
-                    "description": "+10% damage dealt",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "slime-jelly",
-                            "qty": 2
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 5
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 30000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
-                            "item": "slime-jelly",
-                            "qty": 5
+                            "item": "flame-of-soul",
+                            "qty": 7
                         },
                         {
                             "item": "molagorago",
@@ -189,7 +163,7 @@
                         },
                         {
                             "item": "gold",
-                            "qty": 45000
+                            "qty": 55000
                         }
                     ]
                 },
@@ -197,34 +171,33 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "dragons-wrath",
+                            "item": "demon-blood-gem",
                             "qty": 2
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 100000
+                            "qty": 120000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": [
-                "stic_stun"
-            ]
+            "debuffs": []
         },
         {
             "isPassive": false,
-            "soulBurn": 0,
-            "soulBurnEffect": "",
-            "awakenUpgrade": true,
+            "soulBurn": 10,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Ignores effect resistance.",
+            "awakenUpgrade": false,
             "cooldown": 3,
-            "name": "Flash of Light",
+            "name": "Thornbush",
             "soulAcquire": 2,
-            "description": "Releases a bright light to attack all enemies, with a 35% chance to decrease Hit Chance for 2 turns, and inflict poison for 3 turns. Increases Defense of the caster for 1 turn.",
+            "description": "Attacks all enemies, with a 85% chance to decrease Hit Chance for 1 turn.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -240,7 +213,7 @@
                     ]
                 },
                 {
-                    "description": "+10% damage dealt",
+                    "description": "+5% effect chance",
                     "resources": [
                         {
                             "item": "molagora",
@@ -256,8 +229,8 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "slime-jelly",
-                            "qty": 1
+                            "item": "flame-of-soul",
+                            "qty": 5
                         },
                         {
                             "item": "molagora",
@@ -265,24 +238,7 @@
                         },
                         {
                             "item": "gold",
-                            "qty": 17000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% effect chance",
-                    "resources": [
-                        {
-                            "item": "slime-jelly",
-                            "qty": 2
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 5
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 30000
+                            "qty": 37000
                         }
                     ]
                 },
@@ -290,8 +246,8 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "slime-jelly",
-                            "qty": 4
+                            "item": "flame-of-soul",
+                            "qty": 7
                         },
                         {
                             "item": "molagorago",
@@ -299,7 +255,7 @@
                         },
                         {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 55000
                         }
                     ]
                 },
@@ -307,52 +263,59 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "dragons-wrath",
+                            "item": "demon-blood-gem",
                             "qty": 2
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 100000
+                            "qty": 120000
                         }
                     ]
                 }
             ],
-            "buffs": [
-                "stic_def_up"
-            ],
+            "buffs": [],
             "debuffs": [
-                "stic_blind",
-                "stic_dot"
+                "stic_blind"
             ]
         },
         {
             "isPassive": false,
-            "soulBurn": 10,
-            "soulBurnEffect": "Skill cooldown is decreased by 2 turns.",
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
             "awakenUpgrade": false,
             "cooldown": 5,
-            "name": "Shield Wall",
-            "soulAcquire": 1,
-            "description": "Covers all allies with the Shield of Light and grants a barrier for 3 turns, recovering Health. Barrier strength is proportional to caster's Defense, and amount recovered is proportional to the target's max health.",
+            "name": "Public Execution",
+            "soulAcquire": 3,
+            "description": "Attacks the enemy with a whip sword and decreases Combat Readiness by 100% and decreases Speed for 2 turns. Grants the caster Skill Nullifier, negating damage received from the next skill attack.",
             "enhancement": [
                 {
-                    "description": "Acquire +1 Soul",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "slime-jelly",
-                            "qty": 3
-                        },
-                        {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
                         }
                     ]
                 },
@@ -360,8 +323,25 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "dragons-wrath",
-                            "qty": 1
+                            "item": "flame-of-soul",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 37000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "flame-of-soul",
+                            "qty": 7
                         },
                         {
                             "item": "molagorago",
@@ -369,112 +349,129 @@
                         },
                         {
                             "item": "gold",
-                            "qty": 50000
+                            "qty": 55000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "demon-blood-gem",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 120000
                         }
                     ]
                 }
             ],
-            "buffs": [
-                "stic_protect"
-            ],
-            "debuffs": []
+            "buffs": [],
+            "debuffs": [
+                "stic_speed_dn"
+            ]
         }
     ],
     "specialtySkill": {
-        "name": "Agile Mercenaries",
-        "description": "Handles requests with diligence and efficiency.",
-        "dispatch": "[All missions] type mission",
-        "enhancement": "Time required -5%",
+        "name": "Hot-Blooded",
+        "description": "She was born to cause trouble all over the place.",
+        "dispatch": "[Strong Leader] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 78,
-            "charm": 22,
-            "politics": 38
+            "command": 85,
+            "charm": 41,
+            "politics": 88
         }
     },
     "camping": {
         "options": [
-            "heroic-tale",
-            "gossip"
+            "joyful-memory",
+            "sad-memory"
         ],
         "reactions": {
             "advice": 0,
-            "belief": 4,
-            "bizarre-story": 2,
-            "comforting-cheer": 1,
-            "complain": -2,
-            "criticism": 3,
-            "cute-cheer": 5,
-            "dream": 5,
-            "food-story": 3,
-            "gossip": 2,
-            "happy-memory": 3,
-            "heroic-cheer": 6,
-            "heroic-tale": 5,
-            "horror-story": 3,
-            "interesting-story": 3,
-            "joyful-memory": 4,
-            "myth": 5,
-            "occult": 3,
+            "belief": 0,
+            "bizarre-story": 0,
+            "comforting-cheer": 0,
+            "complain": 0,
+            "criticism": 0,
+            "cute-cheer": 0,
+            "dream": 0,
+            "food-story": 0,
+            "gossip": 0,
+            "happy-memory": 0,
+            "heroic-cheer": 0,
+            "heroic-tale": 0,
+            "horror-story": 0,
+            "interesting-story": 0,
+            "joyful-memory": 0,
+            "myth": 0,
+            "occult": 0,
             "reality-check": 0,
-            "sad-memory": -3,
-            "self-indulgent": 4,
-            "unique-comment": 1
+            "sad-memory": 0,
+            "self-indulgent": 0,
+            "unique-comment": 0
         }
     },
     "memoryImprintFormation": {
         "north": true,
         "south": true,
-        "east": true,
-        "west": true
+        "east": false,
+        "west": false
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "hp",
+                "type": "atk",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "hp",
-                "increase": 0.024
+                "type": "atk",
+                "increase": 0
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "hp",
-                "increase": 0.036
+                "type": "atk",
+                "increase": 0.043
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "hp",
-                "increase": 0.048
+                "type": "atk",
+                "increase": 0.064
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "hp",
-                "increase": 0.06
+                "type": "atk",
+                "increase": 0.086
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "hp",
-                "increase": 0.072
+                "type": "atk",
+                "increase": 0.107
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "hp",
-                "increase": 0.084
+                "type": "atk",
+                "increase": 0.129
             }
         }
     ],
@@ -484,7 +481,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": 0.03
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -495,8 +492,8 @@
             ],
             "resources": [
                 {
-                    "item": "life-rune",
-                    "qty": 8
+                    "item": "flame-rune",
+                    "qty": 10
                 }
             ]
         },
@@ -505,7 +502,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": 0.03
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -516,11 +513,11 @@
             ],
             "resources": [
                 {
-                    "item": "life-rune",
-                    "qty": 12
+                    "item": "flame-rune",
+                    "qty": 15
                 },
                 {
-                    "item": "greater-life-rune",
+                    "item": "greater-flame-rune",
                     "qty": 2
                 }
             ]
@@ -538,12 +535,12 @@
             ],
             "resources": [
                 {
-                    "item": "life-rune",
-                    "qty": 17
+                    "item": "flame-rune",
+                    "qty": 20
                 },
                 {
-                    "item": "greater-life-rune",
-                    "qty": 8
+                    "item": "greater-flame-rune",
+                    "qty": 10
                 }
             ]
         },
@@ -552,7 +549,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": 0.06
+                    "spd": 4
                 },
                 {
                     "atk": 30
@@ -563,11 +560,11 @@
             ],
             "resources": [
                 {
-                    "item": "greater-life-rune",
-                    "qty": 8
+                    "item": "greater-flame-rune",
+                    "qty": 10
                 },
                 {
-                    "item": "epic-life-rune",
+                    "item": "epic-flame-rune",
                     "qty": 2
                 }
             ]
@@ -577,7 +574,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": 0.06
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -588,12 +585,12 @@
             ],
             "resources": [
                 {
-                    "item": "epic-life-rune",
-                    "qty": 5
+                    "item": "epic-flame-rune",
+                    "qty": 6
                 },
                 {
-                    "item": "cursed-ashes",
-                    "qty": 12
+                    "item": "eternal-forest-dust",
+                    "qty": 15
                 }
             ]
         },
@@ -602,7 +599,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": 0.06
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -613,12 +610,12 @@
             ],
             "resources": [
                 {
-                    "item": "epic-life-rune",
-                    "qty": 8
+                    "item": "epic-flame-rune",
+                    "qty": 10
                 },
                 {
-                    "item": "dragons-wrath",
-                    "qty": 8
+                    "item": "demon-blood-gem",
+                    "qty": 10
                 }
             ]
         }
