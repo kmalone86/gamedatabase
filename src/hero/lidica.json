@@ -9,17 +9,37 @@
     "background": "Expelled from the Rose Apostles, she joined the Phantom CIC to investigate the Land of Death. She wanted to defeat the Unknown and instill faith unto others. However, her rough personality still causes problems within the Phantom CIC.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "aramintha",
+            "relationType": "longing"
+        },
+        {
+            "hero": "jena",
+            "relationType": "trust"
+        },
+        {
+            "hero": "bellona",
+            "relationType": "trust"
+        },
+        {
+            "hero": "lots",
+            "relationType": "trust"
+        },
+        {
+            "hero": "rin",
+            "relationType": "trust"
+        },
+        {
+            "hero": "sez",
+            "relationType": "rival"
         }
     ],
     "stats": {
         "lv1BaseStarNoAwaken": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
+            "cp": 1366,
+            "atk": 96,
+            "hp": 273,
+            "spd": 120,
+            "def": 67,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -27,11 +47,11 @@
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
+            "cp": 11419,
+            "atk": 771,
+            "hp": 3624,
+            "spd": 120,
+            "def": 432,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -39,11 +59,11 @@
             "dac": 0.05
         },
         "lv50FiveStarFullyAwaken": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
+            "cp": 12952,
+            "atk": 983,
+            "hp": 3964,
+            "spd": 124,
+            "def": 432,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -51,11 +71,11 @@
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
+            "cp": 14249,
+            "atk": 961,
+            "hp": 4556,
+            "spd": 120,
+            "def": 536,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -63,11 +83,11 @@
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
+            "cp": 16448,
+            "atk": 1283,
+            "hp": 4976,
+            "spd": 124,
+            "def": 536,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -88,7 +108,7 @@
             "description": "Attacks with a sword, decreasing Combat Readiness by 10%. If the enemy is debuffed, decreases Combat Readiness by an additional 10%.",
             "enhancement": [
                 {
-                    "description": "",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "molagora",
@@ -101,7 +121,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "molagora",
@@ -114,7 +134,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "flame-of-soul",
@@ -131,7 +151,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "flame-of-soul",
@@ -148,7 +168,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
                             "item": "demon-blood-gem",
@@ -172,15 +192,15 @@
             "isPassive": false,
             "soulBurn": 10,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
+            "soulBurnEffect": "Ignores effect resistance.",
             "awakenUpgrade": false,
             "cooldown": 3,
             "name": "Thornbush",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Attacks all enemies, with a 85% chance to decrease Hit Chance for 1 turn.",
             "enhancement": [
                 {
-                    "description": "",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "molagora",
@@ -193,7 +213,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+5% effect chance",
                     "resources": [
                         {
                             "item": "molagora",
@@ -206,7 +226,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
                             "item": "flame-of-soul",
@@ -223,7 +243,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+10% effect chance",
                     "resources": [
                         {
                             "item": "flame-of-soul",
@@ -240,7 +260,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+15% damage dealt",
                     "resources": [
                         {
                             "item": "demon-blood-gem",
@@ -271,10 +291,10 @@
             "cooldown": 5,
             "name": "Public Execution",
             "soulAcquire": 3,
-            "description": "Attacks the enemy with a whip sword and decreases Combat Readiness by 100% and decreases Speed for 2 turns. Grants the caster Skill Nullifier, negat ing damage received from the next skill attack.",
+            "description": "Attacks the enemy with a whip sword and decreases Combat Readiness by 100% and decreases Speed for 2 turns. Grants the caster Skill Nullifier, negating damage received from the next skill attack.",
             "enhancement": [
                 {
-                    "description": "",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "molagora",
@@ -287,7 +307,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "molagora",
@@ -300,7 +320,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "-1 turn cooldown",
                     "resources": [
                         {
                             "item": "flame-of-soul",
@@ -317,7 +337,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
                             "item": "flame-of-soul",
@@ -334,7 +354,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
                             "item": "demon-blood-gem",
@@ -360,8 +380,8 @@
     "specialtySkill": {
         "name": "Hot-Blooded",
         "description": "She was born to cause trouble all over the place.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Strong Leader] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 85,
             "charm": 41,
@@ -461,7 +481,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -482,7 +502,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -529,7 +549,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "spd": 4
                 },
                 {
                     "atk": 30
@@ -554,7 +574,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -579,7 +599,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
