@@ -390,8 +390,8 @@
     },
     "camping": {
         "options": [
-            "Option1",
-            "Option2"
+            "joyful-memory",
+            "sad-memory"
         ],
         "reactions": {
             "advice": 0,
