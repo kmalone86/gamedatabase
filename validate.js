@@ -52,7 +52,9 @@ const validateFolder = async (dir) => {
 							let propTest = prop in filecontents;
 
 							if (!propTest) {
-								log(error(`χ JSON "${filename}" does not containt required property "${prop}"!!`));
+								log(
+									finishError(`χ JSON "${filename}" does not containt required property "${prop}"!!`)
+								);
 							}
 							return propTest;
 						})
