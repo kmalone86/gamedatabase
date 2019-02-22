@@ -174,7 +174,7 @@
         {
             "isPassive": false,
             "soulBurn": 0,
-            "selfSkillBarValue": "0",
+            "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
             "cooldown": 3,
@@ -583,10 +583,10 @@
                     "chc": 0.06
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [

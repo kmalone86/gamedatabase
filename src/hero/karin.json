@@ -533,10 +533,10 @@
             "skillUpgrade": true,
             "statsIncrease": [
                 {
-                    "Attack": "20"
+                    "atk": 20
                 },
                 {
-                    "Health": "60"
+                    "hp": 60
                 }
             ],
             "resources": [
@@ -608,10 +608,10 @@
                     "atk": 0.06
                 },
                 {
-                    "atk": "30"
+                    "atk": 30
                 },
                 {
-                    "hp": "80"
+                    "hp": 80
                 }
             ],
             "resources": [
