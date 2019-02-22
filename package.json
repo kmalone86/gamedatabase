@@ -7,16 +7,27 @@
         "node": "10.15.0"
     },
     "scripts": {
-        "prettier:json": "prettier --write \"**/*.json\"",
-        "prettier:js": "prettier --write \"**/*.js\"",
+        "prettier:json": "prettier --config ./json.prettierrc.json --write \"./src/**/*.json\"",
+        "prettier:js": "prettier --config ./js.prettierrc.json --write \"**/*.js\"",
+        "prettier": "npm run prettier:json && npm run prettier:js",
         "changelog": "github-changes -o EpicSevenDB -r gamedatabase -f CHANGELOG.md --use-commit-body",
         "build": "node build-db-json.js",
         "test": "node validate.js"
     },
     "husky": {
         "hooks": {
-            "pre-commit": "pretty-quick --staged && npm test"
+            "pre-commit": "npm test && lint-staged"
         }
+    },
+    "lint-staged": {
+        "*.js": [
+            "prettier --config ./js.prettierrc.json --write",
+            "git add"
+        ],
+        "*.json": [
+            "prettier --config ./json.prettierrc.json --write",
+            "git add"
+        ]
     },
     "repository": {
         "type": "git",
@@ -35,6 +46,7 @@
     },
     "devDependencies": {
         "github-changes": "^1.1.2",
+        "lint-staged": "^8.1.4",
         "husky": "^1.3.1",
         "prettier": "^1.15.3",
         "pretty-quick": "^1.8.0"
