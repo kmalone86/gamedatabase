@@ -372,7 +372,7 @@
                 }
             ],
             "buffs": [
-                "stic_att_inc"
+                "stic_att_up"
             ],
             "debuffs": []
         }
