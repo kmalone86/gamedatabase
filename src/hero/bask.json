@@ -368,7 +368,7 @@
                 }
             ],
             "buffs": [
-                "stic_debuff_impossible",
+                "stic_debuf_impossible",
                 "stic_protect"
             ],
             "debuffs": []
