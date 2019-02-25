@@ -201,7 +201,7 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "mercendarys-medicine",
+                            "item": "mercenarys-medicine",
                             "qty": 3
                         },
                         {
@@ -323,7 +323,7 @@
                     "description": "+5% healing / Combat Readiness",
                     "resources": [
                         {
-                            "item": "mercendarys-medicine",
+                            "item": "mercenarys-medicine",
                             "qty": 3
                         },
                         {
@@ -355,7 +355,7 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "mercendarys-medicine",
+                            "item": "mercenarys-medicine",
                             "qty": 8
                         },
                         {
@@ -477,7 +477,7 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "mercendarys-medicine",
+                            "item": "mercenarys-medicine",
                             "qty": 3
                         },
                         {
@@ -599,7 +599,7 @@
                     "description": "+5% healing / Combat Readiness",
                     "resources": [
                         {
-                            "item": "mercendarys-medicine",
+                            "item": "mercenarys-medicine",
                             "qty": 3
                         },
                         {
