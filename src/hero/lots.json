@@ -9,8 +9,24 @@
     "background": "Originally a part of the Order of the Blue Cross, Lots was dispatched to Reingar, where he studied healing magic. Wanting to test his abilities and find a rare magical item, he has left on a journey.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "clarissa",
+            "relationType": "rival"
+        },
+        {
+            "hero": "judith",
+            "relationType": "trust"
+        },
+        {
+            "hero": "angelica",
+            "relationType": "longing"
+        },
+        {
+            "hero": "achates",
+            "relationType": "trust"
+        },
+        {
+            "hero": "auxiliary-lots",
+            "relationType": "trust"
         }
     ],
     "stats": {
@@ -39,7 +55,7 @@
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
-            "cp": 0,
+            "cp": 10959,
             "atk": 484,
             "hp": 3741,
             "spd": 101,
@@ -268,9 +284,9 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Extends buff duration by 2 turns.",
             "awakenUpgrade": true,
-            "cooldown": 0,
+            "cooldown": 4,
             "name": "Serenity",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Uses strengthening magic to increase the Combat Readiness of allies by 10% and grant continuous healing for 3 turns.",
             "enhancement": [
                 {
@@ -363,9 +379,9 @@
         "dispatch": "[Time Limit] Attribute",
         "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 23,
+            "charm": 71,
+            "politics": 80
         }
     },
     "camping": {
