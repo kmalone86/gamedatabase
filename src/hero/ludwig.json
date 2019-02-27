@@ -101,7 +101,7 @@
             "cooldown": 0,
             "name": "Starlight",
             "soulAcquire": 1,
-            "description": "Attacks with magic, with a 60% chance to steal one buff.",
+            "description": "Attacks with magic, with a 60% chance to steal one buff. Increases caster's Combat Readiness by 15% if buffed.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -289,7 +289,7 @@
             "cooldown": 5,
             "name": "Call of the Full Moon",
             "soulAcquire": 3,
-            "description": "Attacks all enemies with the magic of the Nocturnes, penetrating defense by 50% if the caster is invincible.",
+            "description": "Attacks all enemies with the magic of the Nocturnes, penetrating defense by 50% if the caster is invincible. A critical hit will grant the caster a barrier for 2 turns, with strength increasing proportional to the caster's Attack.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
