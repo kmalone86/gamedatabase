@@ -43,15 +43,15 @@
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
-            "cp": 0,
-            "atk": 742,
-            "hp": 4478,
-            "spd": 110,
+            "cp": 12411,
+            "atk": 778,
+            "hp": 4726,
+            "spd": 106,
             "def": 449,
             "chc": 0.18,
             "chd": 1.5,
             "eff": 0.0,
-            "efr": 0.06,
+            "efr": 0.0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
@@ -531,7 +531,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "spd": 4
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
@@ -556,7 +556,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": 0.06
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -581,7 +581,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.06
+                    "chc": 0.06
                 },
                 {
                     "atk": 30
