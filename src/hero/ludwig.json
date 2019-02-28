@@ -369,7 +369,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_protect"
+            ],
             "debuffs": []
         }
     ],
