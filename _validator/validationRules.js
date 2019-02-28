@@ -2,6 +2,7 @@ module.exports = {
 	artifact: ['name', 'rarity', 'exclusive', 'loreDescription', 'skillDescription', 'stats'],
 	'buff-debuff': ['title', 'description'],
 	hero: [
+		'gameId',
 		'name',
 		'rarity',
 		'classType',

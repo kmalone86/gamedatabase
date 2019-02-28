@@ -1,4 +1,5 @@
 {
+    "gameId": "c3021",
     "name": "Tieria",
     "rarity": 3,
     "classType": "warrior",
@@ -245,7 +246,7 @@
             "cooldown": 5,
             "name": "Soul Break",
             "soulAcquire": 2,
-            "description": "Strongly strikes downwards at the enemy, with a 75% chance to decrease Defense for 2 turns. Damage dealt increases proportional to the caster's max Health.",
+            "description": "Strikes the enemy strongly, dealing damage proportional to the target's max Health.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -356,9 +357,7 @@
                 }
             ],
             "buffs": [],
-            "debuffs": [
-                "stic_def_dn"
-            ]
+            "debuffs": []
         }
     ],
     "specialtySkill": {

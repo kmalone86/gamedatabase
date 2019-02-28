@@ -1,4 +1,5 @@
 {
+    "gameId": "c1067",
     "name": "Tamarinne",
     "rarity": 5,
     "classType": "soul-weaver",
@@ -105,7 +106,7 @@
             "cooldown": 0,
             "name": "Serene Tune",
             "soulAcquire": 1,
-            "description": "(Tamarinne) Attacks an enemy with serene melody and heals the ally with the lowest Health. Amount recovered increases proportional to the ally's max Health. Decreases cooldown of Shining Star✰ by 1 turn.\n(Idol) Attacks all enemies with a beautiful voice, dispelling all buffs. Triggers a Dual Attack from the ally with the highest Attack.",
+            "description": "(Tamarinne) Attacks an enemy with serene melody and heals the ally with the lowest Health. Amount recovered increases proportional to the ally's max Health. Decreases cooldown of Shining Star✰ by 1 turn.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -227,7 +228,7 @@
             "cooldown": 2,
             "name": "Song of the Forest",
             "soulAcquire": 1,
-            "description": "(Tamarinne) Heals all allies with a peaceful melody. Amount recovered increases proportional to the caster's max Health. Decreases cooldown of Shining Star✰ by 1 turn.\n(Idol) With a powerful performance, increases Attack of all allies for 2 turns and increases Combat Readiness by 30%, recovering Health. Amount recovered increases proportional to the caster's max Health.",
+            "description": "(Tamarinne) Heals all allies with a peaceful melody. Amount recovered increases proportional to the caster's max Health. Decreases cooldown of Shining Star✰ by 1 turn.",
             "enhancement": [
                 {
                     "description": "+2% healing / Combat Readiness",
@@ -381,7 +382,7 @@
             "cooldown": 0,
             "name": "Sing Together",
             "soulAcquire": 1,
-            "description": "(Tamarinne) Attacks an enemy with serene melody and heals the ally with the lowest Health. Amount recovered increases proportional to the ally's max Health. Decreases cooldown of Shining Star☆ by 1 turn.\n(Idol) Attacks all enemies with a beautiful voice, dispelling all buffs. Triggers a Dual Attack from the ally with the highest Attack.",
+            "description": "(Idol) Attacks all enemies with a beautiful voice, dispelling all buffs. Triggers a Dual Attack from the ally with the highest Attack.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -503,7 +504,7 @@
             "cooldown": 2,
             "name": "Climax",
             "soulAcquire": 1,
-            "description": "(Tamarinne) Heals all allies with a peaceful melody. Amount recovered increases proportional to the caster's max Health. Decreases cooldown of Shining Star✰ by 1 turn.\n(Idol) With a powerful performance, increases Attack of all allies for 2 turns and increases Combat Readiness by 30%, recovering Health. Amount recovered increases proportional to the caster's max Health.",
+            "description": "(Idol) With a powerful performance, increases Attack of all allies for 2 turns and increases Combat Readiness by 30%, recovering Health. Amount recovered increases proportional to the caster's max Health.",
             "enhancement": [
                 {
                     "description": "+2% healing / Combat Readiness",
