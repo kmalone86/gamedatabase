@@ -28,12 +28,12 @@
     ],
     "stats": {
         "lv1BaseStarNoAwaken": {
-            "cp": 2274,
-            "atk": 232,
-            "hp": 640,
+            "cp": 1040,
+            "atk": 70,
+            "hp": 220,
             "spd": 111,
             "def": 54,
-            "chc": 0.21,
+            "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
             "efr": 0.0,
