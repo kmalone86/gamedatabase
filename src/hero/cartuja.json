@@ -186,6 +186,19 @@
             "buffs": [],
             "debuffs": [
                 "stic_def_dn"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1.0
+                },
+                {
+                    "name": "statModifier",
+                    "stat": "atk",
+                    "type": "additive",
+                    "target": "self",
+                    "value": 0.5
+                }
             ]
         },
         {
@@ -252,7 +265,20 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.0
+                },
+                {
+                    "name": "statModifier",
+                    "stat": "atk",
+                    "type": "additive",
+                    "target": "self",
+                    "value": 0.0
+                }
+            ]
         },
         {
             "isPassive": false,
@@ -363,6 +389,19 @@
             "buffs": [],
             "debuffs": [
                 "stic_att_dn"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1.0
+                },
+                {
+                    "name": "statModifier",
+                    "stat": "atk",
+                    "type": "additive",
+                    "target": "self",
+                    "value": 0.5
+                }
             ]
         }
     ],

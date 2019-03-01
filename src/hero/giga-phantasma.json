@@ -48,7 +48,20 @@
             "description": "Attacks with sharp teeth.",
             "enhancement": [],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.0
+                },
+                {
+                    "name": "statModifier",
+                    "stat": "atk",
+                    "type": "additive",
+                    "target": "self",
+                    "value": 0.0
+                }
+            ]
         },
         {
             "isPassive": true,
@@ -62,7 +75,20 @@
             "description": "The item will be at max level when you receive it, and earn a bonus 6% EXP in battle.",
             "enhancement": [],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.0
+                },
+                {
+                    "name": "statModifier",
+                    "stat": "atk",
+                    "type": "additive",
+                    "target": "self",
+                    "value": 0.0
+                }
+            ]
         }
     ],
     "specialtySkill": {},

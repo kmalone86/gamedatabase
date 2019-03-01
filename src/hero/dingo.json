@@ -190,6 +190,19 @@
             "buffs": [],
             "debuffs": [
                 "stic_blood"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1.0
+                },
+                {
+                    "name": "statModifier",
+                    "stat": "atk",
+                    "type": "additive",
+                    "target": "self",
+                    "value": 1.0
+                }
             ]
         },
         {
@@ -314,6 +327,19 @@
             "buffs": [],
             "debuffs": [
                 "stic_blaze"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1.0
+                },
+                {
+                    "name": "statModifier",
+                    "stat": "atk",
+                    "type": "additive",
+                    "target": "self",
+                    "value": 0.8
+                }
             ]
         },
         {
@@ -363,7 +389,20 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.0
+                },
+                {
+                    "name": "statModifier",
+                    "stat": "atk",
+                    "type": "additive",
+                    "target": "self",
+                    "value": 0.0
+                }
+            ]
         }
     ],
     "specialtySkill": {

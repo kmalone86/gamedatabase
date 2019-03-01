@@ -177,6 +177,19 @@
             "buffs": [],
             "debuffs": [
                 "stic_heal_impossible"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.95
+                },
+                {
+                    "name": "statModifier",
+                    "stat": "atk",
+                    "type": "additive",
+                    "target": "self",
+                    "value": 1.0
+                }
             ]
         },
         {
@@ -270,6 +283,19 @@
             "buffs": [],
             "debuffs": [
                 "stic_heal_impossible"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1.0
+                },
+                {
+                    "name": "statModifier",
+                    "stat": "atk",
+                    "type": "additive",
+                    "target": "self",
+                    "value": 0.5
+                }
             ]
         },
         {
@@ -361,7 +387,20 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.95
+                },
+                {
+                    "name": "statModifier",
+                    "stat": "atk",
+                    "type": "additive",
+                    "target": "self",
+                    "value": 1.8
+                }
+            ]
         }
     ],
     "specialtySkill": {

@@ -175,7 +175,20 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1.0
+                },
+                {
+                    "name": "statModifier",
+                    "stat": "atk",
+                    "type": "additive",
+                    "target": "self",
+                    "value": 1.0
+                }
+            ]
         },
         {
             "isPassive": false,
@@ -271,6 +284,19 @@
             ],
             "debuffs": [
                 "stic_speed_dn"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1.05
+                },
+                {
+                    "name": "statModifier",
+                    "stat": "atk",
+                    "type": "additive",
+                    "target": "self",
+                    "value": 1.5
+                }
             ]
         },
         {
@@ -366,7 +392,20 @@
                 "stic_att_up",
                 "stic_def_up"
             ],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.95
+                },
+                {
+                    "name": "statModifier",
+                    "stat": "atk",
+                    "type": "additive",
+                    "target": "self",
+                    "value": 1.5
+                }
+            ]
         }
     ],
     "specialtySkill": {

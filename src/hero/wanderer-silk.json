@@ -169,6 +169,19 @@
             "buffs": [],
             "debuffs": [
                 "stic_blood"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1.0
+                },
+                {
+                    "name": "statModifier",
+                    "stat": "atk",
+                    "type": "additive",
+                    "target": "self",
+                    "value": 1.0
+                }
             ]
         },
         {
@@ -261,7 +274,20 @@
                 }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.9
+                },
+                {
+                    "name": "statModifier",
+                    "stat": "atk",
+                    "type": "additive",
+                    "target": "self",
+                    "value": 1.0
+                }
+            ]
         },
         {
             "isPassive": false,
@@ -356,6 +382,19 @@
             "debuffs": [
                 "stic_heal_impossible",
                 "stic_silence"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.8
+                },
+                {
+                    "name": "statModifier",
+                    "stat": "atk",
+                    "type": "additive",
+                    "target": "self",
+                    "value": 1.8
+                }
             ]
         }
     ],

@@ -198,6 +198,19 @@
             "buffs": [],
             "debuffs": [
                 "stic_stun"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.95
+                },
+                {
+                    "name": "statModifier",
+                    "stat": "atk",
+                    "type": "additive",
+                    "target": "self",
+                    "value": 0.5
+                }
             ]
         },
         {
@@ -309,6 +322,19 @@
             "buffs": [],
             "debuffs": [
                 "stic_stun"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1.0
+                },
+                {
+                    "name": "statModifier",
+                    "stat": "atk",
+                    "type": "additive",
+                    "target": "self",
+                    "value": 0.8
+                }
             ]
         },
         {
@@ -380,6 +406,19 @@
             "debuffs": [
                 "stic_att_dn",
                 "stic_provoke"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.0
+                },
+                {
+                    "name": "statModifier",
+                    "stat": "atk",
+                    "type": "additive",
+                    "target": "self",
+                    "value": 0.0
+                }
             ]
         }
     ],

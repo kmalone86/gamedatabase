@@ -168,6 +168,19 @@
             "buffs": [],
             "debuffs": [
                 "stic_blaze"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1.05
+                },
+                {
+                    "name": "statModifier",
+                    "stat": "atk",
+                    "type": "additive",
+                    "target": "self",
+                    "value": 1.0
+                }
             ]
         },
         {
@@ -252,6 +265,19 @@
             "debuffs": [
                 "stic_heal_impossible",
                 "stic_blaze"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1.0
+                },
+                {
+                    "name": "statModifier",
+                    "stat": "atk",
+                    "type": "additive",
+                    "target": "self",
+                    "value": 0.7
+                }
             ]
         },
         {
@@ -376,6 +402,19 @@
             "buffs": [],
             "debuffs": [
                 "stic_blaze"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1.0
+                },
+                {
+                    "name": "statModifier",
+                    "stat": "atk",
+                    "type": "additive",
+                    "target": "self",
+                    "value": 0.85
+                }
             ]
         }
     ],
