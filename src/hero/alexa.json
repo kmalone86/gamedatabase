@@ -118,7 +118,7 @@
                     ]
                 },
                 {
-                    "description": "+10% effect chance",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
                             "item": "twisted-fang",
