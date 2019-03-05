@@ -256,7 +256,8 @@
                 }
             ],
             "buffs": [
-                "stic_protect"
+                "stic_protect",
+                "stic_reflect"
             ],
             "debuffs": [],
             "damageModifiers": [

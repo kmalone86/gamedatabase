@@ -270,7 +270,8 @@
                 }
             ],
             "buffs": [
-                "stic_speed_up"
+                "stic_speed_up",
+                "stic_haki"
             ],
             "debuffs": [
                 "stic_def_dn"

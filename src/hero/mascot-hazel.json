@@ -288,7 +288,7 @@
             "cooldown": 4,
             "name": "A Girl in Uniform",
             "soulAcquire": 2,
-            "description": "Encourages the target and all other allies, increasing Attack for 2 turns before healing them. If the initial target is a Fire elemental Hero, increases Attack (Greater) for 1 turn. This effect will only be applied to one ally. Health recovered increases proportional to the target's max Health and the caster's Attack.",
+            "description": "Encourages allies by increasing Attack of the target and all allies for 2 turns, and recovers Health of all allies. If the target is a Fire elemental Hero, grants the target increased Attack (Greater) instead. Amount recovered increases proportional to the target's max Health and the caster's Attack.",
             "enhancement": [
                 {
                     "description": "+5% healing",
@@ -399,7 +399,8 @@
                 }
             ],
             "buffs": [
-                "stic_att_up"
+                "stic_att_up",
+                "stic_att_up2"
             ],
             "debuffs": [],
             "damageModifiers": [

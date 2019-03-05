@@ -396,7 +396,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_showtime"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {

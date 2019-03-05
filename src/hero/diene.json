@@ -408,7 +408,7 @@
             ],
             "buffs": [
                 "stic_att_up",
-                "stic_cri_res_up"
+                "stic_crires_up"
             ],
             "debuffs": [],
             "damageModifiers": [
