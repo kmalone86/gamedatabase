@@ -199,14 +199,19 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.95
+                    "section": "pow",
+                    "value": 0.95,
+                    "soulburn": 0.95
                 },
                 {
                     "name": "statModifier",
+                    "description": "",
+                    "section": "additive",
                     "stat": "atk",
-                    "type": "additive",
+                    "type": "multiplier",
                     "target": "self",
-                    "value": 0.7
+                    "value": 0.7,
+                    "soulburn": 0.7
                 }
             ]
         },
@@ -304,14 +309,19 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.9
+                    "section": "pow",
+                    "value": 0.9,
+                    "soulburn": 0.9
                 },
                 {
                     "name": "statModifier",
+                    "description": "",
+                    "section": "additive",
                     "stat": "atk",
-                    "type": "additive",
+                    "type": "multiplier",
                     "target": "self",
-                    "value": 0.7
+                    "value": 0.7,
+                    "soulburn": 0.7
                 }
             ]
         },
@@ -409,14 +419,19 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.8
+                    "section": "pow",
+                    "value": 0.8,
+                    "soulburn": 0.8
                 },
                 {
                     "name": "statModifier",
+                    "description": "",
+                    "section": "additive",
                     "stat": "atk",
-                    "type": "additive",
+                    "type": "multiplier",
                     "target": "self",
-                    "value": 1.2
+                    "value": 1.2,
+                    "soulburn": 1.2
                 }
             ]
         }
