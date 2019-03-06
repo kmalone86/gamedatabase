@@ -398,7 +398,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_endure"
+            ],
             "debuffs": [
                 "stic_speed_dn"
             ],

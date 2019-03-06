@@ -391,6 +391,7 @@
                 }
             ],
             "buffs": [
+                "stic_lovely",
                 "stic_debuf_impossible"
             ],
             "debuffs": [],
