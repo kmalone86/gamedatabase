@@ -56,7 +56,7 @@
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
-            "cp": 0,
+            "cp": 13551,
             "atk": 1040,
             "hp": 3899,
             "spd": 104,
@@ -425,7 +425,7 @@
                     "type": "multiplier",
                     "target": "self",
                     "value": 1.1,
-                    "soulburn": 1.1
+                    "soulburn": 1.35
                 }
             ]
         }

@@ -42,7 +42,7 @@
         "lv50FiveStarNoAwaken": {
             "cp": 10510,
             "atk": 640,
-            "hp": 3381,
+            "hp": 3881,
             "spd": 98,
             "def": 435,
             "chc": 0.15,
@@ -52,9 +52,9 @@
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
-            "cp": 0,
+            "cp": 12002,
             "atk": 779,
-            "hp": 4025,
+            "hp": 4570,
             "spd": 98,
             "def": 461,
             "chc": 0.15,

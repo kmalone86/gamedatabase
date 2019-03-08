@@ -52,8 +52,8 @@
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
-            "cp": 0,
-            "atk": 647,
+            "cp": 11209,
+            "atk": 659,
             "hp": 3739,
             "spd": 117,
             "def": 452,
@@ -530,7 +530,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": 3
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
