@@ -545,7 +545,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "afr": 0.03
+                    "efr": 0.03
                 },
                 {
                     "atk": 20
@@ -638,7 +638,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "afr": 0.06
+                    "efr": 0.06
                 },
                 {
                     "atk": 30
