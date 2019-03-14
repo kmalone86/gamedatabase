@@ -1,34 +1,38 @@
 {
-    "gameId": "c2021",
-    "name": "Blaze Dingo",
-    "rarity": 4,
-    "classType": "soul-weaver",
+    "gameId": "c4034",
+    "name": "Captain Rikoris",
+    "rarity": 3,
+    "classType": "warrior",
     "element": "light",
-    "zodiac": "sagittarius",
+    "zodiac": "libra",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "Originally far from what anyone would consider a normal Human, he is now a completely normal upstanding member of society. Every word out of his mouth is considerate and he has impeccable manners.",
+    "background": "Rikoris joined the Taranor Army on Schuri's advice and mastered his skills of spearmanship in a battle against the Chaos Sect. Now he spends his time trying to ease the unrest in Taranor while becoming the greatest spearman ever.",
     "relations": [
         {
-            "hero": "dingo",
-            "relationType": "grudge"
-        },
-        {
-            "hero": "cidd",
+            "hero": "azalea",
             "relationType": "trust"
         },
         {
-            "hero": "dominiel",
+            "hero": "krau",
+            "relationType": "longing"
+        },
+        {
+            "hero": "schuri",
+            "relationType": "trust"
+        },
+        {
+            "hero": "adlay",
             "relationType": "trust"
         }
     ],
     "stats": {
         "lv1BaseStarNoAwaken": {
-            "cp": 1138,
-            "atk": 58,
-            "hp": 212,
-            "spd": 100,
-            "def": 74,
+            "cp": 1083,
+            "atk": 65,
+            "hp": 248,
+            "spd": 104,
+            "def": 60,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
@@ -36,11 +40,11 @@
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
-            "cp": 9724,
-            "atk": 495,
-            "hp": 2981,
-            "spd": 100,
-            "def": 506,
+            "cp": 10356,
+            "atk": 589,
+            "hp": 3720,
+            "spd": 104,
+            "def": 443,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
@@ -48,11 +52,11 @@
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
-            "cp": 10894,
-            "atk": 659,
-            "hp": 3321,
-            "spd": 106,
-            "def": 506,
+            "cp": 11788,
+            "atk": 762,
+            "hp": 4171,
+            "spd": 104,
+            "def": 469,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
@@ -60,11 +64,11 @@
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
-            "cp": 12117,
-            "atk": 617,
-            "hp": 3747,
-            "spd": 100,
-            "def": 627,
+            "cp": 12932,
+            "atk": 735,
+            "hp": 4677,
+            "spd": 104,
+            "def": 550,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
@@ -72,11 +76,11 @@
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
-            "cp": 13735,
-            "atk": 859,
-            "hp": 4167,
-            "spd": 106,
-            "def": 627,
+            "cp": 15002,
+            "atk": 951,
+            "hp": 5517,
+            "spd": 104,
+            "def": 583,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
@@ -92,9 +96,9 @@
             "soulBurnEffect": "",
             "awakenUpgrade": false,
             "cooldown": 0,
-            "name": "Punishment",
+            "name": "Quick Pierce",
             "soulAcquire": 1,
-            "description": "Attacks an enemy with a sharp dagger, healing the ally with the lowest Health. Amount recovered increases proportional to the damage dealt.",
+            "description": "Attacks with a spear, with 35% chance to decrease Defense for 2 turns.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -123,10 +127,10 @@
                     ]
                 },
                 {
-                    "description": "+5% damage dealt",
+                    "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "archers-vision",
+                            "item": "mysterious-flash",
                             "qty": 1
                         },
                         {
@@ -140,10 +144,113 @@
                     ]
                 },
                 {
-                    "description": "+10% damage dealt",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "archers-vision",
+                            "item": "mysterious-flash",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 30000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "mysterious-flash",
+                            "qty": 4
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 40000
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "mysterious-flash",
+                            "qty": 6
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 50000
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [
+                "stic_def_dn"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "section": "pow",
+                    "value": 1.0,
+                    "soulburn": 1.0
+                },
+                {
+                    "name": "statModifier",
+                    "description": "",
+                    "section": "additive",
+                    "stat": "atk",
+                    "type": "multiplier",
+                    "target": "self",
+                    "value": 1.0,
+                    "soulburn": 1.0
+                }
+            ]
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 10,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Extends buff duration by 1 turn.",
+            "awakenUpgrade": true,
+            "cooldown": 6,
+            "name": "Cheer",
+            "soulAcquire": 1,
+            "description": "Encourage all allies, decreasing skill cooldown by 1 turn and increasing Speed for 2 turns.",
+            "enhancement": [
+                {
+                    "description": "Acquire +1 Soul",
+                    "resources": [
+                        {
+                            "item": "mysterious-flash",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 18000
+                        }
+                    ]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        {
+                            "item": "mysterious-flash",
                             "qty": 3
                         },
                         {
@@ -155,33 +262,18 @@
                             "qty": 35000
                         }
                     ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
-                            "item": "mercenarys-medicine",
-                            "qty": 2
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 100000
-                        }
-                    ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_speed_up"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {
                     "name": "pow",
                     "section": "pow",
-                    "value": 0.95,
-                    "soulburn": 0.95
+                    "value": 0.0,
+                    "soulburn": 0.0
                 },
                 {
                     "name": "statModifier",
@@ -190,8 +282,8 @@
                     "stat": "atk",
                     "type": "multiplier",
                     "target": "self",
-                    "value": 1.5,
-                    "soulburn": 1.5
+                    "value": 0.0,
+                    "soulburn": 0.0
                 }
             ]
         },
@@ -200,11 +292,11 @@
             "soulBurn": 0,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
-            "awakenUpgrade": true,
+            "awakenUpgrade": false,
             "cooldown": 3,
-            "name": "Divine Punishment",
+            "name": "Supreme Spear",
             "soulAcquire": 2,
-            "description": "Attacks all enemies with a giant gauntlet, healing the ally with the lowest Health. A Critical Hit activates Punishment. Amount recovered increases proportional to the damage dealt.",
+            "description": "Attacks all enemies with hard-trained spear art, with a 75% chance to dispel a buff from the target before having a 75% chance to stun an enemy with the highest Combat Readiness regardless of skill miss. Recovers caster's Health after attack. Amount recovered is proportional to the caster's Attack.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -220,7 +312,7 @@
                     ]
                 },
                 {
-                    "description": "+5% damage dealt",
+                    "description": "+5% effect chance",
                     "resources": [
                         {
                             "item": "molagora",
@@ -236,8 +328,21 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "archers-vision",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 12000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "mysterious-flash",
+                            "qty": 3
                         },
                         {
                             "item": "molagora",
@@ -245,7 +350,7 @@
                         },
                         {
                             "item": "gold",
-                            "qty": 17000
+                            "qty": 27000
                         }
                     ]
                 },
@@ -253,8 +358,25 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "archers-vision",
-                            "qty": 3
+                            "item": "mysterious-flash",
+                            "qty": 4
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 4
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 36000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "mysterious-flash",
+                            "qty": 5
                         },
                         {
                             "item": "molagorago",
@@ -262,7 +384,7 @@
                         },
                         {
                             "item": "gold",
-                            "qty": 35000
+                            "qty": 45000
                         }
                     ]
                 },
@@ -270,28 +392,30 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "mercenarys-medicine",
-                            "qty": 2
+                            "item": "mysterious-flash",
+                            "qty": 6
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 100000
+                            "qty": 50000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "stic_stun"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
                     "section": "pow",
-                    "value": 0.95,
-                    "soulburn": 0.95
+                    "value": 1.0,
+                    "soulburn": 1.0
                 },
                 {
                     "name": "statModifier",
@@ -300,163 +424,50 @@
                     "stat": "atk",
                     "type": "multiplier",
                     "target": "self",
-                    "value": 1.2,
-                    "soulburn": 1.2
-                }
-            ]
-        },
-        {
-            "isPassive": false,
-            "soulBurn": 20,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "Grants an extra turn.",
-            "awakenUpgrade": false,
-            "cooldown": 5,
-            "name": "Sacred Power",
-            "soulAcquire": 2,
-            "description": "Heals an ally and the caster with sacred power, grants Invincibility for 1 turn and increases Attack for 2 turns. Amount recovered increases proportional to the caster's Attack.",
-            "enhancement": [
-                {
-                    "description": "+5% healing",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% healing",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        }
-                    ]
-                },
-                {
-                    "description": "-1 turn cooldown",
-                    "resources": [
-                        {
-                            "item": "archers-vision",
-                            "qty": 1
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 17000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% healing",
-                    "resources": [
-                        {
-                            "item": "archers-vision",
-                            "qty": 3
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 35000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% healing",
-                    "resources": [
-                        {
-                            "item": "mercenarys-medicine",
-                            "qty": 2
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 100000
-                        }
-                    ]
-                }
-            ],
-            "buffs": [
-                "stic_invincible",
-                "stic_att_up"
-            ],
-            "debuffs": [],
-            "damageModifiers": [
-                {
-                    "name": "pow",
-                    "section": "pow",
-                    "value": 0.0,
-                    "soulburn": 0.0
-                },
-                {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0.6,
+                    "soulburn": 0.6
                 }
             ]
         }
     ],
     "specialtySkill": {
-        "name": "Scholar's Dignity",
-        "description": "The dignified do not show signs of panic.",
-        "dispatch": "[Hidden Clue] Attribute",
+        "name": "Endless Effort",
+        "description": "In order to become the best spearman, he continues to practive every day.",
+        "dispatch": "[Gathering] Attribute",
         "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 75,
-            "charm": 80,
-            "politics": 94
+            "command": 41,
+            "charm": 83,
+            "politics": 17
         }
     },
     "camping": {
         "options": [
-            "self-indulgent",
-            "food-story"
+            "reality-check",
+            "complain"
         ],
         "reactions": {
-            "advice": 5,
-            "belief": -4,
-            "bizarre-story": -5,
-            "comforting-cheer": 6,
-            "complain": -5,
-            "criticism": 0,
-            "cute-cheer": 5,
+            "advice": 1,
+            "belief": 0,
+            "bizarre-story": 0,
+            "comforting-cheer": 3,
+            "complain": -1,
+            "criticism": -2,
+            "cute-cheer": 4,
             "dream": 2,
-            "food-story": 5,
-            "gossip": -3,
-            "happy-memory": 5,
+            "food-story": 4,
+            "gossip": 1,
+            "happy-memory": 2,
             "heroic-cheer": 0,
-            "heroic-tale": 8,
-            "horror-story": 0,
-            "interesting-story": 0,
+            "heroic-tale": 1,
+            "horror-story": -4,
+            "interesting-story": 2,
             "joyful-memory": 3,
-            "myth": 8,
-            "occult": 3,
-            "reality-check": -6,
+            "myth": 0,
+            "occult": 0,
+            "reality-check": 0,
             "sad-memory": 3,
-            "self-indulgent": -4,
+            "self-indulgent": -3,
             "unique-comment": 2
         }
     },
@@ -470,77 +481,56 @@
         {
             "rank": "d",
             "status": {
-                "type": "atk",
-                "increase": 0
+                "type": "def",
+                "increase": 12
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "atk",
-                "increase": 0.024
+                "type": "def",
+                "increase": 18
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "atk",
-                "increase": 0.036
+                "type": "def",
+                "increase": 24
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "atk",
-                "increase": 0.048
+                "type": "def",
+                "increase": 30
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "atk",
-                "increase": 0.06
+                "type": "def",
+                "increase": 36
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "atk",
-                "increase": 0.072
+                "type": "def",
+                "increase": 42
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "atk",
-                "increase": 0.084
+                "type": "def",
+                "increase": 48
             }
         }
     ],
     "awakening": [
         {
             "rank": 1,
-            "skillUpgrade": false,
-            "statsIncrease": [
-                {
-                    "spd": 2
-                },
-                {
-                    "atk": 20
-                },
-                {
-                    "hp": 60
-                }
-            ],
-            "resources": [
-                {
-                    "item": "light-rune",
-                    "qty": 8
-                }
-            ]
-        },
-        {
-            "rank": 2,
             "skillUpgrade": false,
             "statsIncrease": [
                 {
@@ -556,11 +546,28 @@
             "resources": [
                 {
                     "item": "light-rune",
-                    "qty": 12
+                    "qty": 5
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "hp": 0.03
                 },
                 {
-                    "item": "greater-light-rune",
-                    "qty": 2
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "light-rune",
+                    "qty": 9
                 }
             ]
         },
@@ -578,11 +585,11 @@
             "resources": [
                 {
                     "item": "light-rune",
-                    "qty": 17
+                    "qty": 12
                 },
                 {
                     "item": "greater-light-rune",
-                    "qty": 8
+                    "qty": 6
                 }
             ]
         },
@@ -591,7 +598,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": 0.06
+                    "def": 0.06
                 },
                 {
                     "atk": 30
@@ -603,41 +610,12 @@
             "resources": [
                 {
                     "item": "greater-light-rune",
-                    "qty": 8
-                },
-                {
-                    "item": "epic-light-rune",
-                    "qty": 2
+                    "qty": 15
                 }
             ]
         },
         {
             "rank": 5,
-            "skillUpgrade": false,
-            "statsIncrease": [
-                {
-                    "spd": 4
-                },
-                {
-                    "atk": 30
-                },
-                {
-                    "hp": 80
-                }
-            ],
-            "resources": [
-                {
-                    "item": "epic-light-rune",
-                    "qty": 5
-                },
-                {
-                    "item": "cold-look",
-                    "qty": 12
-                }
-            ]
-        },
-        {
-            "rank": 6,
             "skillUpgrade": false,
             "statsIncrease": [
                 {
@@ -653,11 +631,36 @@
             "resources": [
                 {
                     "item": "epic-light-rune",
-                    "qty": 8
+                    "qty": 4
                 },
                 {
-                    "item": "mercenarys-medicine",
-                    "qty": 8
+                    "item": "dream-time-circuit",
+                    "qty": 9
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "hp": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-light-rune",
+                    "qty": 6
+                },
+                {
+                    "item": "reingar-student-id",
+                    "qty": 6
                 }
             ]
         }
