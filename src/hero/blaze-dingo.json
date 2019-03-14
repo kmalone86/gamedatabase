@@ -478,42 +478,42 @@
             "rank": "c",
             "status": {
                 "type": "atk",
-                "increase": 0.24
+                "increase": 0.024
             }
         },
         {
             "rank": "b",
             "status": {
                 "type": "atk",
-                "increase": 0.36
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
                 "type": "atk",
-                "increase": 0.48
+                "increase": 0.048
             }
         },
         {
             "rank": "s",
             "status": {
                 "type": "atk",
-                "increase": 0.6
+                "increase": 0.06
             }
         },
         {
             "rank": "ss",
             "status": {
                 "type": "atk",
-                "increase": 0.72
+                "increase": 0.072
             }
         },
         {
             "rank": "sss",
             "status": {
                 "type": "atk",
-                "increase": 0.84
+                "increase": 0.084
             }
         }
     ],
