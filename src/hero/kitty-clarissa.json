@@ -118,6 +118,19 @@
                     "resources": [
                         {
                             "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
                             "qty": 2
                         },
                         {
@@ -130,29 +143,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 12000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
                             "item": "flame-of-soul",
                             "qty": 1
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 17000
+                            "qty": 13000
                         }
                     ]
                 },
@@ -165,11 +165,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 30000
+                            "qty": 22000
                         }
                     ]
                 },
@@ -199,11 +199,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 100000
+                            "qty": 80000
                         }
                     ]
                 }
@@ -248,8 +248,21 @@
             "cooldown": 3,
             "name": "Meow I'm Angry!",
             "soulAcquire": 1,
-            "description": "Attacks all enemies with a morning star while raging, with a 60% chance to decrease buff duration by 1 turn and make them unhealable for 2 turns. If the caster is granted loveliness, effect chance increases by 20%.",
+            "description": "Attacks all enemies with a morning star while raging, with a 60% chance to decrease buff duration by 2 turn and make them unhealable for 2 turns. If the caster is granted loveliness, effect chance increases by 20%.",
             "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
                 {
                     "description": "+5% damage dealt",
                     "resources": [
@@ -277,19 +290,6 @@
                     ]
                 },
                 {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 12000
-                        }
-                    ]
-                },
-                {
                     "description": "+5% effect chance",
                     "resources": [
                         {
@@ -298,11 +298,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 17000
+                            "qty": 13000
                         }
                     ]
                 },
@@ -315,11 +315,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 30000
+                            "qty": 22000
                         }
                     ]
                 },
@@ -349,11 +349,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 100000
+                            "qty": 80000
                         }
                     ]
                 }
@@ -387,7 +387,7 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 6,
+            "cooldown": 5,
             "name": "I'm So Cute, Meow♡",
             "soulAcquire": 2,
             "description": "Wiggles tail cutely, decreasing debuff duration on all allies by 2 turns, and granting the caster immunity and loveliness for 3 turns.",
@@ -400,8 +400,8 @@
                             "qty": 8
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 5
                         },
                         {
                             "item": "gold",
@@ -539,7 +539,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.03
+                    "eff": 0.06
                 },
                 {
                     "atk": 20
@@ -560,7 +560,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.03
+                    "chc": 0.04
                 },
                 {
                     "atk": 20
@@ -632,7 +632,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.06
+                    "eff": 0.12
                 },
                 {
                     "atk": 30
@@ -657,7 +657,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.06
+                    "chc": 0.08
                 },
                 {
                     "atk": 30

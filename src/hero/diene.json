@@ -126,7 +126,7 @@
                     ]
                 },
                 {
-                    "description": "+2% combat readiness",
+                    "description": "+2% Combat Readiness",
                     "resources": [
                         {
                             "item": "molagora",
@@ -143,11 +143,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 12000
+                            "qty": 8000
                         }
                     ]
                 },
@@ -169,15 +169,15 @@
                     ]
                 },
                 {
-                    "description": "+3% combat readiness",
+                    "description": "+3% Combat Readiness",
                     "resources": [
                         {
                             "item": "ring-of-glory",
                             "qty": 4
                         },
                         {
-                            "item": "molagora",
-                            "qty": 5
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -211,11 +211,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 150000
+                            "qty": 110000
                         }
                     ]
                 }
@@ -304,11 +304,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 4
                         },
                         {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 36000
                         }
                     ]
                 },
@@ -338,11 +338,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 120000
+                            "qty": 80000
                         }
                     ]
                 }
@@ -390,11 +390,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 37000
+                            "qty": 33000
                         }
                     ]
                 },
@@ -545,7 +545,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": 0.03
+                    "efr": 0.06
                 },
                 {
                     "atk": 20
@@ -638,7 +638,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": 0.06
+                    "efr": 0.12
                 },
                 {
                     "atk": 30

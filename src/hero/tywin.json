@@ -148,11 +148,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 4
                         },
                         {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 36000
                         }
                     ]
                 },
@@ -182,11 +182,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 120000
+                            "qty": 80000
                         }
                     ]
                 }
@@ -241,11 +241,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 37000
+                            "qty": 33000
                         }
                     ]
                 },
@@ -299,7 +299,7 @@
             "cooldown": 5,
             "name": "All-Out Attack",
             "soulAcquire": 2,
-            "description": "Attacks all enemies again after a swordstorm, with a 50% chance to decrease Defense for 2 turns and increase Defense of the caster for 3 turns. Damage dealt increases proportional to the caster's max Health. ",
+            "description": "Attacks all enemies again after a swordstorm, with a 75% chance to decrease Defense for 2 turns and increase Defense of the caster for 3 turns. Damage dealt increases proportional to the caster's max Health. ",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -332,11 +332,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 12000
+                            "qty": 8000
                         }
                     ]
                 },
@@ -365,8 +365,8 @@
                             "qty": 4
                         },
                         {
-                            "item": "molagora",
-                            "qty": 5
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -400,11 +400,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 150000
+                            "qty": 110000
                         }
                     ]
                 }
@@ -570,7 +570,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.03
+                    "eff": 0.06
                 },
                 {
                     "atk": 20
@@ -667,7 +667,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.06
+                    "eff": 0.12
                 },
                 {
                     "atk": 30

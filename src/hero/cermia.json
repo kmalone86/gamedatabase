@@ -34,7 +34,7 @@
             "spd": 105,
             "def": 73,
             "chc": 0.15,
-            "chd": 1.50,
+            "chd": 1.5,
             "eff": 0.0,
             "efr": 0.0,
             "dac": 0.05
@@ -46,7 +46,7 @@
             "spd": 105,
             "def": 472,
             "chc": 0.15,
-            "chd": 1.50,
+            "chd": 1.5,
             "eff": 0.0,
             "efr": 0.0,
             "dac": 0.05
@@ -58,7 +58,7 @@
             "spd": 105,
             "def": 472,
             "chc": 0.21,
-            "chd": 1.50,
+            "chd": 1.5,
             "eff": 0.0,
             "efr": 0.0,
             "dac": 0.05
@@ -70,7 +70,7 @@
             "spd": 105,
             "def": 585,
             "chc": 0.15,
-            "chd": 1.50,
+            "chd": 1.5,
             "eff": 0.0,
             "efr": 0.0,
             "dac": 0.05
@@ -82,7 +82,7 @@
             "spd": 105,
             "def": 585,
             "chc": 0.21,
-            "chd": 1.50,
+            "chd": 1.5,
             "eff": 0.0,
             "efr": 0.0,
             "dac": 0.05
@@ -131,11 +131,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 12000
+                            "qty": 8000
                         }
                     ]
                 },
@@ -164,8 +164,8 @@
                             "qty": 4
                         },
                         {
-                            "item": "molagora",
-                            "qty": 5
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -199,11 +199,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 150000
+                            "qty": 110000
                         }
                     ]
                 }
@@ -325,11 +325,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 12000
+                            "qty": 8000
                         }
                     ]
                 },
@@ -358,8 +358,8 @@
                             "qty": 4
                         },
                         {
-                            "item": "molagora",
-                            "qty": 5
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -393,11 +393,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 150000
+                            "qty": 110000
                         }
                     ]
                 }
@@ -596,7 +596,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.06
+                    "chc": 0.08
                 },
                 {
                     "atk": 30

@@ -9,8 +9,8 @@
         "- Witch Reinwood, hung high up on the stake"
     ],
     "skillDescription": {
-        "base": "12.0% chance to stun the enemy for 1 turn when attacking.",
-        "max": "24.0% chance to stun the enemy for 1 turn when attacking."
+        "base": "12.0% chance to stun the enemy for 1 turn after attacking.",
+        "max": "24.0% chance to stun the enemy for 1 turn after attacking."
     },
     "stats": {
         "base": {

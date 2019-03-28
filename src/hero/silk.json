@@ -118,11 +118,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         }
                     ]
                 },
@@ -131,11 +131,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 12000
+                            "qty": 8000
                         }
                     ]
                 },
@@ -148,11 +148,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 17000
+                            "qty": 13000
                         }
                     ]
                 },
@@ -165,11 +165,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 30000
+                            "qty": 22000
                         }
                     ]
                 },
@@ -199,11 +199,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 100000
+                            "qty": 80000
                         }
                     ]
                 }
@@ -248,7 +248,7 @@
             "cooldown": 0,
             "name": "Concentration",
             "soulAcquire": 0,
-            "description": "Gains 1 Focus at the end of the turn, and consumes 2 Focus when attacked. If the caster's stacked Focus is more than 2, Single Shoot is enhanced to Automatic Fire and damage dealt is increased.",
+            "description": "Gains 1 Focus at the end of the turn, and consumes 1 Focus when attacked. If the caster's stacked Focus is more than 2, Single Shoot is enhanced to Automatic Fire and damage dealt is increased.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt by Automatic Fire",
@@ -272,11 +272,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 4
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 21000
+                            "qty": 13000
                         }
                     ]
                 },
@@ -289,11 +289,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 7
+                            "qty": 4
                         },
                         {
                             "item": "gold",
-                            "qty": 33000
+                            "qty": 21000
                         }
                     ]
                 },
@@ -345,7 +345,7 @@
             "cooldown": 5,
             "name": "Storm Arrow",
             "soulAcquire": 2,
-            "description": "Attacks all enemies with wind, with a 80% chance to decrease Speed for 2 turns, and granting increased Speed to all allies for 2 turns.",
+            "description": "Attacks all enemies with wind, with a 85% chance to decrease Speed for 2 turns, and granting increased Speed to all allies for 2 turns.",
             "enhancement": [
                 {
                     "description": "+10% damage dealt",
@@ -369,11 +369,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 4
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 21000
+                            "qty": 13000
                         }
                     ]
                 },
@@ -386,11 +386,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 7
+                            "qty": 4
                         },
                         {
                             "item": "gold",
-                            "qty": 33000
+                            "qty": 21000
                         }
                     ]
                 },

@@ -156,11 +156,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 4
                         },
                         {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 36000
                         }
                     ]
                 },
@@ -190,11 +190,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 120000
+                            "qty": 80000
                         }
                     ]
                 }
@@ -231,10 +231,10 @@
             "cooldown": 0,
             "name": "Nightmare Illusion",
             "soulAcquire": 0,
-            "description": "When an enemy is debuffed, the range of Poison Blast extends to two enemies. Damage dealt by poisoned enemies is decreased by 20%. When this effect is granted more than once, only the strongest effect is applied.",
+            "description": "When an ally capable of being attacked is still remaining, the caster will not be attacked. Increases Attack and Defense of the caster by 7% every time somebody dies. Effect can only stack up to 5 times.",
             "enhancement": [
                 {
-                    "description": "-2% damage received",
+                    "description": "+0.5% all stats",
                     "resources": [
                         {
                             "item": "ring-of-glory",
@@ -251,7 +251,7 @@
                     ]
                 },
                 {
-                    "description": "-3% damage received",
+                    "description": "+1% all stats",
                     "resources": [
                         {
                             "item": "ring-of-glory",
@@ -259,16 +259,16 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 45000
+                            "qty": 37000
                         }
                     ]
                 },
                 {
-                    "description": "-5% damage received",
+                    "description": "+1.5% all stats",
                     "resources": [
                         {
                             "item": "fused-nerve",
@@ -315,7 +315,7 @@
             "cooldown": 5,
             "name": "Endless Nightmare",
             "soulAcquire": 2,
-            "description": "Attacks with a nightmare crystal, decreasing the Combat Readiness of all remaining enemies by 50% when an enemy dies. Damage dealt increases proportional to the number of debuffs inflicted on the enemy.",
+            "description": "Attacks with a nightmare crystal, stunning for 1 turn. Decreases the Combat Readiness of all remaining enemies by 50% when an enemy dies. Damage dealt increases proportional to the number of debuffs inflicted on the enemy.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -369,11 +369,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 4
                         },
                         {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 36000
                         }
                     ]
                 },
@@ -403,17 +403,19 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 120000
+                            "qty": 80000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "stic_stun"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
@@ -559,7 +561,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.03
+                    "eff": 0.06
                 },
                 {
                     "atk": 20
@@ -606,7 +608,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.06
+                    "eff": 0.12
                 },
                 {
                     "atk": 30
@@ -656,7 +658,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.06
+                    "eff": 0.12
                 },
                 {
                     "atk": 30

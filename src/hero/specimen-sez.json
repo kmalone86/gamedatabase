@@ -90,7 +90,7 @@
             "cooldown": 0,
             "name": "Dreamy Iron Mace",
             "soulAcquire": 1,
-            "description": "Attacks with an iron mace, with a 35% chance to stun the enemy for 1 turn.",
+            "description": "Attacks with an iron mace, with a 50% chance to stun the enemy for 1 turn.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -127,11 +127,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 37000
+                            "qty": 33000
                         }
                     ]
                 },
@@ -143,12 +143,12 @@
                             "qty": 7
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 55000
+                            "qty": 47000
                         }
                     ]
                 },
@@ -161,11 +161,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 120000
+                            "qty": 100000
                         }
                     ]
                 }
@@ -202,7 +202,7 @@
             "cooldown": 3,
             "name": "Evil Claw",
             "soulAcquire": 2,
-            "description": "Attacks all enemies with evil claws, increasing the caster's Combat Readiness by 50%.",
+            "description": "Attacks all enemies with evil claws, with a 30% chance to stun for 1 turn, before increasing the caster's Combat Readiness by 50%.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -239,11 +239,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 37000
+                            "qty": 33000
                         }
                     ]
                 },
@@ -255,12 +255,12 @@
                             "qty": 7
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 55000
+                            "qty": 47000
                         }
                     ]
                 },
@@ -273,17 +273,19 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 120000
+                            "qty": 100000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "stic_stun"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
@@ -312,7 +314,7 @@
             "cooldown": 5,
             "name": "Light Storm",
             "soulAcquire": 3,
-            "description": "Attacks the enemy with a light storm. If the enemy is stunned, penetrates their Defense.",
+            "description": "Attacks the enemy with a light storm. If the enemy is stunned, penetrates their Defense. Skill cooldown is reset if the enemy is defeated.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -349,11 +351,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 37000
+                            "qty": 33000
                         }
                     ]
                 },
@@ -365,12 +367,12 @@
                             "qty": 7
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 55000
+                            "qty": 47000
                         }
                     ]
                 },
@@ -383,11 +385,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 120000
+                            "qty": 100000
                         }
                     ]
                 }
@@ -586,7 +588,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.06
+                    "chc": 0.08
                 },
                 {
                     "atk": 30

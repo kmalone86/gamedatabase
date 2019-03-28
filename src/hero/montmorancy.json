@@ -118,11 +118,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         }
                     ]
                 },
@@ -135,11 +135,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 23000
                         }
                     ]
                 },
@@ -152,11 +152,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 44000
+                            "qty": 32000
                         }
                     ]
                 },
@@ -230,11 +230,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         }
                     ]
                 },
@@ -247,11 +247,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 23000
                         }
                     ]
                 },
@@ -264,11 +264,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 44000
+                            "qty": 32000
                         }
                     ]
                 },
@@ -340,11 +340,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         }
                     ]
                 },
@@ -357,11 +357,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 23000
                         }
                     ]
                 },
@@ -374,11 +374,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 44000
+                            "qty": 32000
                         }
                     ]
                 },

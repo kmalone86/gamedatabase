@@ -122,6 +122,19 @@
                     "resources": [
                         {
                             "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "molagora",
                             "qty": 2
                         },
                         {
@@ -134,29 +147,16 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 12000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% effect chance",
-                    "resources": [
-                        {
                             "item": "slime-jelly",
                             "qty": 1
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 17000
+                            "qty": 13000
                         }
                     ]
                 },
@@ -169,11 +169,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 30000
+                            "qty": 22000
                         }
                     ]
                 },
@@ -203,11 +203,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 100000
+                            "qty": 80000
                         }
                     ]
                 }
@@ -290,11 +290,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 17000
+                            "qty": 13000
                         }
                     ]
                 },
@@ -307,11 +307,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 30000
+                            "qty": 22000
                         }
                     ]
                 },
@@ -323,12 +323,12 @@
                             "qty": 4
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 32000
                         }
                     ]
                 },
@@ -341,11 +341,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 100000
+                            "qty": 80000
                         }
                     ]
                 }
@@ -580,7 +580,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": 0.03
+                    "efr": 0.06
                 },
                 {
                     "atk": 20
@@ -677,7 +677,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "efr": 0.06
+                    "efr": 0.12
                 },
                 {
                     "atk": 30

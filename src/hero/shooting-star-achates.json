@@ -135,11 +135,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 17000
+                            "qty": 13000
                         }
                     ]
                 },
@@ -152,11 +152,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 30000
+                            "qty": 22000
                         }
                     ]
                 },
@@ -168,12 +168,12 @@
                             "qty": 4
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 32000
                         }
                     ]
                 },
@@ -186,11 +186,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 100000
+                            "qty": 80000
                         }
                     ]
                 }
@@ -316,11 +316,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         }
                     ]
                 },
@@ -329,11 +329,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 12000
+                            "qty": 8000
                         }
                     ]
                 },
@@ -346,11 +346,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 17000
+                            "qty": 13000
                         }
                     ]
                 },
@@ -363,11 +363,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 30000
+                            "qty": 22000
                         }
                     ]
                 },
@@ -397,11 +397,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 100000
+                            "qty": 80000
                         }
                     ]
                 }

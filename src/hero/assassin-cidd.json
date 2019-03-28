@@ -135,11 +135,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 17000
+                            "qty": 13000
                         }
                     ]
                 },
@@ -152,11 +152,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 30000
+                            "qty": 22000
                         }
                     ]
                 },
@@ -168,12 +168,12 @@
                             "qty": 4
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 32000
                         }
                     ]
                 },
@@ -186,11 +186,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 100000
+                            "qty": 80000
                         }
                     ]
                 }
@@ -237,10 +237,10 @@
             "cooldown": 0,
             "name": "Swift Action",
             "soulAcquire": 0,
-            "description": "When an enemy is defeated, targets the enemy with the least Health for 2 turns and increases Speed of the caster by 30% for 1 turn.",
+            "description": "When somebody dies, caster is granted increased Attack for 1 turn and Combat Readiness increases by 15%. Cooldown 1 turn.",
             "enhancement": [
                 {
-                    "description": "+5% Speed",
+                    "description": "+3% Combat Readiness",
                     "resources": [
                         {
                             "item": "leather-sheath",
@@ -257,7 +257,7 @@
                     ]
                 },
                 {
-                    "description": "+5% Speed",
+                    "description": "+5% Combat Readiness",
                     "resources": [
                         {
                             "item": "leather-sheath",
@@ -265,16 +265,16 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 4
                         },
                         {
                             "item": "gold",
-                            "qty": 35000
+                            "qty": 31000
                         }
                     ]
                 },
                 {
-                    "description": "+10% Speed",
+                    "description": "+7% Combat Readiness",
                     "resources": [
                         {
                             "item": "fighter-medal",
@@ -291,10 +291,10 @@
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": [
-                "stic_sign"
+            "buffs": [
+                "stic_att_up"
             ],
+            "debuffs": [],
             "damageModifiers": [
                 {
                     "name": "pow",
@@ -323,7 +323,7 @@
             "cooldown": 4,
             "name": "Execution",
             "soulAcquire": 2,
-            "description": "Attacks the enemy with a powerful ground pound, silencing them for 1 turn and decreasing their Combat Readiness by 30%. Damage dealt increases proportional to the caster and the enemy's Speed.",
+            "description": "Attacks the enemy with a powerful ground pound, silencing them for 1 turn and decreasing their Combat Readiness by 50%. Damage dealt increases proportional to the caster and the enemy's Speed.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -360,11 +360,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 17000
+                            "qty": 13000
                         }
                     ]
                 },
@@ -377,11 +377,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 30000
+                            "qty": 22000
                         }
                     ]
                 },
@@ -393,12 +393,12 @@
                             "qty": 4
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 32000
                         }
                     ]
                 },
@@ -411,11 +411,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 100000
+                            "qty": 80000
                         }
                     ]
                 }
@@ -589,7 +589,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.03
+                    "chc": 0.04
                 },
                 {
                     "atk": 20
@@ -636,7 +636,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.06
+                    "chc": 0.08
                 },
                 {
                     "atk": 30
@@ -686,7 +686,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.06
+                    "chc": 0.08
                 },
                 {
                     "atk": 30

@@ -94,7 +94,7 @@
             "cooldown": 0,
             "name": "Black Magic",
             "soulAcquire": 1,
-            "description": "Attacks with a magic sphere. Increases Attack of caster for 1 turn.",
+            "description": "Attacks with a magic sphere, increasing caster's Combat Readiness by 15%.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -131,11 +131,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 17000
+                            "qty": 13000
                         }
                     ]
                 },
@@ -148,11 +148,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 30000
+                            "qty": 22000
                         }
                     ]
                 },
@@ -164,12 +164,12 @@
                             "qty": 4
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 32000
                         }
                     ]
                 },
@@ -182,11 +182,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 100000
+                            "qty": 80000
                         }
                     ]
                 }
@@ -223,7 +223,7 @@
             "cooldown": 2,
             "name": "Mana Injection",
             "soulAcquire": 1,
-            "description": "Injects an ally with mana, increasing Attack for 2 turns and Combat Readiness by 80%.",
+            "description": "Injects an ally with mana, increasing Attack for 2 turns and increasing Combat Readiness by 80%, before granting the caster increased Attack for 2 turns and a 30% increase in Combat Readiness.",
             "enhancement": [
                 {
                     "description": "+5% Combat Readiness",
@@ -251,11 +251,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 4
                         },
                         {
                             "item": "gold",
-                            "qty": 35000
+                            "qty": 31000
                         }
                     ]
                 },
@@ -309,7 +309,7 @@
             "cooldown": 5,
             "name": "Desolation",
             "soulAcquire": 2,
-            "description": "Attacks all enemies by releasing strong Mana, with a 50% chance to silence for 1 turn.",
+            "description": "Attacks all enemies by releasing strong Mana, with a 50% chance to silence for 2 turn.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -346,11 +346,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 17000
+                            "qty": 13000
                         }
                     ]
                 },
@@ -363,11 +363,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 30000
+                            "qty": 22000
                         }
                     ]
                 },
@@ -379,12 +379,12 @@
                             "qty": 4
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 32000
                         }
                     ]
                 },
@@ -397,11 +397,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 100000
+                            "qty": 80000
                         }
                     ]
                 }
@@ -555,7 +555,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.03
+                    "chc": 0.04
                 },
                 {
                     "atk": 20
@@ -602,7 +602,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.06
+                    "chc": 0.08
                 },
                 {
                     "atk": 30
@@ -652,7 +652,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.06
+                    "chc": 0.08
                 },
                 {
                     "atk": 30

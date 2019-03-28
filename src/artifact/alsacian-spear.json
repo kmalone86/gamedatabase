@@ -6,8 +6,8 @@
         "It is said that this spear contains the souls of the spirits who protect the forest, and grants strong protection to those who wield it."
     ],
     "skillDescription": {
-        "base": "Decreases Combat Readiness by 2.5% upon Single Attack.",
-        "max": "Decreases Combat Readiness by 5.0% upon Single Attack."
+        "base": "Decreases Combat Readiness by 2.5% after a Single Attack.",
+        "max": "Decreases Combat Readiness by 5.0% after a Single Attack."
     },
     "stats": {
         "base": {

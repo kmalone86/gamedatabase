@@ -9,8 +9,8 @@
         "There was nothing that Haste's scythe could not slay. The peaceful darkness could not stand in its way, nor even could life and death, until eventually he slayed even his own humanity."
     ],
     "skillDescription": {
-        "base": "When a single attack is inflicted against an Earth elemental Hero, decrease Combat Readiness by 5.0%.",
-        "max": "When a single attack is inflicted against an Earth elemental Hero, decrease Combat Readiness by 10.0%."
+        "base": "After a single attack is inflicted against an Earth elemental Hero, decrease Combat Readiness by 5.0%.",
+        "max": "After a single attack is inflicted against an Earth elemental Hero, decrease Combat Readiness by 10.0%."
     },
     "stats": {
         "base": {

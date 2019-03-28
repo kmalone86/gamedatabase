@@ -139,11 +139,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 12000
+                            "qty": 8000
                         }
                     ]
                 },
@@ -172,8 +172,8 @@
                             "qty": 4
                         },
                         {
-                            "item": "molagora",
-                            "qty": 5
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -207,11 +207,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 150000
+                            "qty": 110000
                         }
                     ]
                 }
@@ -279,11 +279,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 12000
+                            "qty": 8000
                         }
                     ]
                 },
@@ -312,8 +312,8 @@
                             "qty": 4
                         },
                         {
-                            "item": "molagora",
-                            "qty": 5
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -347,11 +347,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 150000
+                            "qty": 110000
                         }
                     ]
                 }
@@ -392,7 +392,7 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "mercenarys-medicine",
+                            "item": "archers-vision",
                             "qty": 8
                         },
                         {
@@ -471,11 +471,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 12000
+                            "qty": 8000
                         }
                     ]
                 },
@@ -504,8 +504,8 @@
                             "qty": 4
                         },
                         {
-                            "item": "molagora",
-                            "qty": 5
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -539,11 +539,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 150000
+                            "qty": 110000
                         }
                     ]
                 }
@@ -611,11 +611,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 12000
+                            "qty": 8000
                         }
                     ]
                 },
@@ -644,8 +644,8 @@
                             "qty": 4
                         },
                         {
-                            "item": "molagora",
-                            "qty": 5
+                            "item": "molagorago",
+                            "qty": 1
                         },
                         {
                             "item": "gold",
@@ -679,11 +679,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 150000
+                            "qty": 110000
                         }
                     ]
                 }

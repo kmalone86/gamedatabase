@@ -118,11 +118,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         }
                     ]
                 },
@@ -135,11 +135,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 23000
                         }
                     ]
                 },
@@ -152,11 +152,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 44000
+                            "qty": 32000
                         }
                     ]
                 },
@@ -240,11 +240,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         }
                     ]
                 },
@@ -257,11 +257,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 23000
                         }
                     ]
                 },
@@ -274,11 +274,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 44000
+                            "qty": 32000
                         }
                     ]
                 },
@@ -362,11 +362,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         }
                     ]
                 },
@@ -379,11 +379,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 23000
                         }
                     ]
                 },
@@ -396,11 +396,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 44000
+                            "qty": 32000
                         }
                     ]
                 },
@@ -572,7 +572,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.03
+                    "chc": 0.04
                 },
                 {
                     "atk": 20
@@ -615,7 +615,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.06
+                    "eff": 0.12
                 },
                 {
                     "atk": 30
@@ -661,7 +661,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.06
+                    "chc": 0.08
                 },
                 {
                     "atk": 30

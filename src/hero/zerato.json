@@ -122,11 +122,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 4
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 21000
+                            "qty": 13000
                         }
                     ]
                 },
@@ -139,11 +139,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 7
+                            "qty": 4
                         },
                         {
                             "item": "gold",
-                            "qty": 33000
+                            "qty": 21000
                         }
                     ]
                 },
@@ -197,7 +197,7 @@
             "cooldown": 3,
             "name": "Ice Pick",
             "soulAcquire": 2,
-            "description": "Attacks the enemy repeatedly, dealing increased damage when the enemy is debuffed.",
+            "description": "Attacks the enemy repeatedly and increases the caster’s Combat Readiness by 50%. Damage dealt is increased when the enemy is debuffed.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -221,11 +221,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 4
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 21000
+                            "qty": 13000
                         }
                     ]
                 },
@@ -238,11 +238,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 7
+                            "qty": 4
                         },
                         {
                             "item": "gold",
-                            "qty": 33000
+                            "qty": 21000
                         }
                     ]
                 },
@@ -291,7 +291,7 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 6,
+            "cooldown": 5,
             "name": "Iceberg",
             "soulAcquire": 2,
             "description": "Attacks all enemies with a giant iceberg, with a 50% chance to stun for 1 turn.",
@@ -314,11 +314,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         }
                     ]
                 },
@@ -327,11 +327,11 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 12000
+                            "qty": 8000
                         }
                     ]
                 },
@@ -344,11 +344,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 17000
+                            "qty": 13000
                         }
                     ]
                 },
@@ -361,11 +361,11 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 30000
+                            "qty": 22000
                         }
                     ]
                 },
@@ -395,11 +395,11 @@
                         },
                         {
                             "item": "molagorago",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 100000
+                            "qty": 80000
                         }
                     ]
                 }
@@ -532,7 +532,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.03
+                    "eff": 0.06
                 },
                 {
                     "atk": 20
@@ -553,7 +553,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.03
+                    "chc": 0.04
                 },
                 {
                     "atk": 20
@@ -625,7 +625,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.06
+                    "eff": 0.12
                 },
                 {
                     "atk": 30
@@ -650,7 +650,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.06
+                    "chc": 0.08
                 },
                 {
                     "atk": 30
