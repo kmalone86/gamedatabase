@@ -338,7 +338,7 @@
             "cooldown": 6,
             "name": "Finale",
             "soulAcquire": 3,
-            "description": "Attacks all enemies by releasing spells of The Last Spellbook. Increases Attack of the caster for 2 turns and increases Combat Readiness by 15% according to the number of critical hits made.",
+            "description": "Attacks all enemies by releasing spells of The Last Spellbook. Increases Attack of the caster for 2 turns and increases Combat Readiness by 20% according to the number of critical hits made.",
             "enhancement": [
                 {
                     "description": "+10% damage dealt",
