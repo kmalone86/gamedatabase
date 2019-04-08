@@ -282,7 +282,7 @@
                 }
             ],
             "buffs": [
-                "stic_spd_up"
+                "stic_speed_up"
             ],
             "debuffs": [],
             "damageModifiers": [
