@@ -182,7 +182,7 @@
                     ]
                 }
             ],
-            "buffs": "",
+            "buffs": [],
             "debuffs": [
                 "stic_sleep"
             ],
