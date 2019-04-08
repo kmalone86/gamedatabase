@@ -175,7 +175,7 @@
                 }
             ],
             "buffs": [
-                "stic_spd_up"
+                "stic_speed_up"
             ],
             "debuffs": [],
             "damageModifiers": [
@@ -295,10 +295,10 @@
                     ]
                 }
             ],
-            "buffs": [
-                "stic_spd_up"
+            "buffs": [],
+            "debuffs": [
+                "stic_def_dn"
             ],
-            "debuffs": [],
             "damageModifiers": [
                 {
                     "name": "pow",
@@ -406,9 +406,7 @@
                     ]
                 }
             ],
-            "buffs": [
-                "stic_spd_up"
-            ],
+            "buffs": [],
             "debuffs": [],
             "damageModifiers": [
                 {
