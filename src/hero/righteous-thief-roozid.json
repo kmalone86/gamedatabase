@@ -180,7 +180,7 @@
             ],
             "buffs": [],
             "debuffs": [
-                "stic_dspeed_dn"
+                "stic_speed_dn"
             ],
             "damageModifiers": [
                 {
@@ -342,7 +342,7 @@
             "cooldown": 4,
             "name": "Moonlight Roar",
             "soulAcquire": 2,
-            "description": "Increases Combat Readiness by 20% and grants increased Speed ​​for 2 turns to all allies through the power of the moon. Also grants the caster continuous heal for 2 turns.",
+            "description": "Increases Combat Readiness by 20% and grants increased Speed for 2 turns to all allies through the power of the moon. Also grants the caster continuous heal for 2 turns.",
             "enhancement": [
                 {
                     "description": "+1% Combat Readiness",

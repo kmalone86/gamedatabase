@@ -268,7 +268,7 @@
                 }
             ],
             "buffs": [
-                "stic_atk_up",
+                "stic_att_up",
                 "stic_cri_up"
             ],
             "debuffs": [],

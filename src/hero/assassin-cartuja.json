@@ -306,7 +306,7 @@
         {
             "isPassive": false,
             "soulBurn": 20,
-            "selfSkillBarValue": "",
+            "selfSkillBarValue": 0,
             "soulBurnEffect": "Ignores effect resistance.",
             "awakenUpgrade": true,
             "cooldown": 5,
