@@ -192,8 +192,8 @@
     "specialtySkill": {
         "name": "",
         "description": "",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "",
+        "enhancement": "",
         "stats": {
             "command": 0,
             "charm": 0,
