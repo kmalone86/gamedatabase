@@ -3,6 +3,18 @@
     "type": "catalyst",
     "rarity": "",
     "description": "Those who sacrifice above and beyond the call of duty to prove their faith are given a badge with a little sun on it.",
+    "apShops": [
+        {
+            "chapter": "Chapter 7",
+            "quantity": 5,
+            "cost": 120
+        },
+        {
+            "chapter": "Chapter 9-1",
+            "quantity": 5,
+            "cost": 120
+        }
+    ],
     "locations": [
         {
             "node": "Normal 4-9",

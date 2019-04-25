@@ -3,6 +3,18 @@
     "type": "catalyst",
     "rarity": "",
     "description": "A fang fragment of incomprehensible composition. It is said to contain the power of the outside world.",
+    "apShops": [
+        {
+            "chapter": "Chapter 8",
+            "quantity": 5,
+            "cost": 120
+        },
+        {
+            "chapter": "Chapter 8S",
+            "quantity": 5,
+            "cost": 120
+        }    
+    ],
     "locations": [
         {
             "node": "Normal 8-S2",

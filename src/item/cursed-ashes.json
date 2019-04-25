@@ -3,6 +3,18 @@
     "type": "catalyst",
     "rarity": "",
     "description": "Ashes left behind from a scorching flame, said to be used in curse magic.",
+    "apShops": [
+        {
+            "chapter": "Chapter 10",
+            "quantity": 5,
+            "cost": 120
+        },
+        {
+            "chapter": "Chapter 8S",
+            "quantity": 5,
+            "cost": 120
+        }
+    ],
     "locations": [
         {
             "node": "Normal 3-5",

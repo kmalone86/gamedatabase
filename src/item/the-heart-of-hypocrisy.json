@@ -3,16 +3,28 @@
     "type": "catalyst",
     "rarity": "",
     "description": "A special mechanism similar to an artificial heart needed in the creation of a Homunculus.",
+    "apShops": [
+        {
+            "chapter": "Chapter 9-1",
+            "quantity": 2,
+            "cost": 400
+        }
+    ],
     "locations": [
         {
-            "node": "World 9-10",
-            "name": "Klowbe Mountains",
-            "mobcount": "???"
+            "node": "World 9-3",
+            "name": "?",
+            "mobcount": "?"
         },
         {
-            "node": "World 10-4",
-            "name": "Crimson Outpost",
-            "mobcount": "???"
+            "node": "World 9-9",
+            "name": "?",
+            "mobcount": "?"
+        },
+        {
+            "node": "World 9-10",
+            "name": "?",
+            "mobcount": "?"
         }
     ]
 }

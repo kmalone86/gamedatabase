@@ -3,6 +3,18 @@
     "type": "catalyst",
     "rarity": "",
     "description": "A kind of bone as durable as a Dragon's tooth.",
+    "apShops": [
+        {
+            "chapter": "Chapter 2S",
+            "quantity": 5,
+            "cost": 120
+        },
+        {
+            "chapter": "Chapter 5S",
+            "quantity": 5,
+            "cost": 120
+        }
+    ],
     "locations": [
         {
             "node": "Normal 6-1",
@@ -10,9 +22,24 @@
             "mobcount": 11
         },
         {
+            "node": "World 2S-S2",
+            "name": "?",
+            "mobcount": "?"
+        },
+        {
+            "node": "World 2S-S3",
+            "name": "?",
+            "mobcount": "?"
+        },
+        {
             "node": "World 5-7",
             "name": "Dun Perenoa",
             "mobcount": 9
+        },
+        {
+            "node": "World 5S-5",
+            "name": "?",
+            "mobcount": "?"
         },
         {
             "node": "World 6-1",

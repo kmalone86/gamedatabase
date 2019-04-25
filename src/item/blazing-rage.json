@@ -3,6 +3,18 @@
     "type": "catalyst",
     "rarity": "",
     "description": "A nucleus found inside the creatures of Dragon Valley. It burns red hot.",
+    "apShops": [
+        {
+            "chapter": "Chapter 3",
+            "quantity": 5,
+            "cost": 120
+        },
+        {
+            "chapter": "Chapter 5",
+            "quantity": 5,
+            "cost": 120
+        }
+    ],
     "locations": [
         {
             "node": "Normal 5-5",

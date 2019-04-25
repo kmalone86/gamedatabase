@@ -3,11 +3,23 @@
     "type": "catalyst",
     "rarity": "",
     "description": "The strange power contained within this devil horn is said to drive people to insanity.",
+    "apShops": [
+        {
+            "chapter": "Chapter 8",
+            "quantity": 2,
+            "cost": 400
+        }
+    ],
     "locations": [
+        {
+            "node": "World 8-5",
+            "name": "?",
+            "mobcount": "?"
+        },
         {
             "node": "World 8-S3",
             "name": "Dawn Crown Gorge",
-            "mobcount": "???"
+            "mobcount": "?"
         }
     ]
 }

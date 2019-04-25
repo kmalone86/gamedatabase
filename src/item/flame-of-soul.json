@@ -3,6 +3,18 @@
     "type": "catalyst",
     "rarity": "",
     "description": "A fraction of Spirit who was held by dark magic and couldn't leave for the underworld. You can listen to a faint sound of crying.",
+    "apShops": [
+        {
+            "chapter": "Chapter 4-2",
+            "quantity": 5,
+            "cost": 120
+        },
+        {
+            "chapter": "Chapter 9-2",
+            "quantity": 5,
+            "cost": 120
+        }    
+    ],
     "locations": [
         {
             "node": "Normal 9-7",

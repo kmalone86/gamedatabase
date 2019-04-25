@@ -3,11 +3,33 @@
     "type": "catalyst",
     "rarity": "",
     "description": "There is a rumor that mercenaries use this medicine to gain temporary strength.",
+    "apShops": [
+        {
+            "chapter": "Chapter 4-1",
+            "quantity": 2,
+            "cost": 400
+        }
+    ],
     "locations": [
         {
             "node": "World 3-S2",
             "name": "Gold Scorpion Dock",
-            "mobcount": "???"
+            "mobcount": "?"
+        },
+        {
+            "node": "World 4-4",
+            "name": "?",
+            "mobcount": "?"
+        },
+        {
+            "node": "World 4-S3",
+            "name": "?",
+            "mobcount": "?"
+        },
+        {
+            "node": "World 6-4",
+            "name": "?",
+            "mobcount": "?"
         }
     ]
 }

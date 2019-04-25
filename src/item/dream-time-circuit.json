@@ -3,6 +3,18 @@
     "type": "catalyst",
     "rarity": "",
     "description": "Part of the nerves of a Dreamer, that some say can be used as a magical catalyst to manipulate time.",
+    "apShops": [
+        {
+            "chapter": "Chapter 6",
+            "quantity": 5,
+            "cost": 120
+        },
+        {
+            "chapter": "Chapter 7",
+            "quantity": 5,
+            "cost": 120
+        }
+    ],
     "locations": [
         {
             "node": "Normal 6-9",

@@ -3,6 +3,18 @@
     "type": "catalyst",
     "rarity": "",
     "description": "A sheath of tough leather used by soldiers to carry their swords.",
+    "apShops": [
+        {
+            "chapter": "Chapter 4-2",
+            "quantity": 5,
+            "cost": 120
+        },
+        {
+            "chapter": "Chapter 6",
+            "quantity": 5,
+            "cost": 120
+        }    
+    ],
     "locations": [
         {
             "node": "Normal 4-9",
@@ -13,6 +25,11 @@
             "node": "World 4-8",
             "name": "Little Flamingo Grove",
             "mobcount": 4
+        },
+        {
+            "node": "World 6-S3",
+            "name": "?",
+            "mobcount": "?"
         },
         {
             "node": "World 7-9",

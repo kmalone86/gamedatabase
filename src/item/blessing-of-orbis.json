@@ -3,6 +3,13 @@
     "type": "catalyst",
     "rarity": "",
     "description": "A brightly colored stone containing the life energy of the creatures of Orbis.",
+    "apShops": [
+        {
+            "chapter": "Chapter 1",
+            "quantity": 5,
+            "cost": 120
+        }
+    ],
     "locations": [
         {
             "node": "Normal 1-7",

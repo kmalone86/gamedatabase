@@ -3,6 +3,18 @@
     "type": "catalyst",
     "rarity": "",
     "description": "A fragment taken from the core of a unique monster said to allow you to feel somebody's eyes looking at you no matter where you are.",
+    "apShops": [
+        {
+            "chapter": "Chapter 5S",
+            "quantity": 5,
+            "cost": 120
+        },
+        {
+            "chapter": "Chapter 8",
+            "quantity": 5,
+            "cost": 120
+        }
+    ],
     "locations": [
         {
             "node": "Normal 8-6",

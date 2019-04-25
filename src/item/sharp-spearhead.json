@@ -3,6 +3,18 @@
     "type": "catalyst",
     "rarity": "",
     "description": "A head from a broken spear, it is still sharp enough to stab an enemy in the heart.",
+    "apShops": [
+        {
+            "chapter": "Chapter 4-1",
+            "quantity": 5,
+            "cost": 120
+        },
+        {
+            "chapter": "Chapter 4-2",
+            "quantity": 5,
+            "cost": 120
+        }    
+    ],
     "locations": [
         {
             "node": "Normal 4-9",
@@ -13,6 +25,16 @@
             "node": "World 1-S3",
             "name": "Red Mace Camp",
             "mobcount": 7
+        },
+        {
+            "node": "World 4-7",
+            "name": "?",
+            "mobcount": "?"
+        },
+        {
+            "node": "World 4-S6",
+            "name": "?",
+            "mobcount": "?"
         },
         {
             "node": "World 7-7",

@@ -3,6 +3,18 @@
     "type": "catalyst",
     "rarity": "",
     "description": "A circuit used to operate machinery, it has its own energy source connected.",
+    "apShops": [
+        {
+            "chapter": "Chapter 2",
+            "quantity": 5,
+            "cost": 120
+        },
+        {
+            "chapter": "Chapter 9-2",
+            "quantity": 5,
+            "cost": 120
+        }    
+    ],
     "locations": [
         {
             "node": "Normal 2-9",

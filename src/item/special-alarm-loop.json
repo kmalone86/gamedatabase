@@ -3,6 +3,13 @@
     "type": "catalyst",
     "rarity": "",
     "description": "Circuit set to sound immediately in case of danger. It seems to have originally been developed as an alaram clock.",
+    "apShops": [
+        {
+            "chapter": "Chapter 2",
+            "quantity": 5,
+            "cost": 120
+        }
+    ],
     "locations": [
         {
             "node": "Normal 9-4",

@@ -3,6 +3,18 @@
     "type": "catalyst",
     "rarity": "",
     "description": "A fragment of the shell of an extremely rare insect used as a source of great magical power.",
+    "apShops": [
+        {
+            "chapter": "Chapter 3",
+            "quantity": 5,
+            "cost": 120
+        },
+        {
+            "chapter": "Chapter 3S",
+            "quantity": 5,
+            "cost": 120
+        }
+    ],
     "locations": [
         {
             "node": "Normal 3-S4",
@@ -13,6 +25,11 @@
             "node": "World 3-4",
             "name": "Ki Ruburan",
             "mobcount": 11
+        },
+        {
+            "node": "World 3S-1",
+            "name": "?",
+            "mobcount": "?"
         },
         {
             "node": "World 5-1",

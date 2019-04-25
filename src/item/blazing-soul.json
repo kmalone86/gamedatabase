@@ -3,11 +3,18 @@
     "type": "catalyst",
     "rarity": "",
     "description": "It is said that the will of a Banshee Queen is often left behind as a tenacious soul.",
+    "apShops": [
+        {
+            "chapter": "Chapter 4-2",
+            "quantity": 2,
+            "cost": 400
+        }
+    ],
     "locations": [
         {
             "node": "World 4-9",
             "name": "Imagination's Shade",
-            "mobcount": "???"
+            "mobcount": "?"
         }
     ]
 }

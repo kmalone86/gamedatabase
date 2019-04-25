@@ -3,16 +3,33 @@
     "type": "catalyst",
     "rarity": "",
     "description": "A mask of a Dreamer Knight said to provoke nightmares.",
+    "apShops": [
+        {
+            "chapter": "Chapter 6",
+            "quantity": 2,
+            "cost": 400
+        }
+    ],
     "locations": [
+        {
+            "node": "World 2S-S6",
+            "name": "?",
+            "mobcount": "?"
+        },
+        {
+            "node": "World 6-9",
+            "name": "?",
+            "mobcount": "?"
+        },
         {
             "node": "World 8S-S3",
             "name": "Ruins of Screams",
-            "mobcount": "???"
+            "mobcount": "?"
         },
         {
             "node": "World 8S-S4",
             "name": "Meteor SHower Remains",
-            "mobcount": "???"
+            "mobcount": "?"
         }
     ]
 }
