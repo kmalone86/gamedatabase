@@ -52,12 +52,12 @@
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
-            "cp": 12305,
+            "cp": 12399,
             "atk": 918,
             "hp": 3578,
             "spd": 102,
             "def": 494,
-            "chc": 0.21,
+            "chc": 0.23,
             "chd": 1.5,
             "eff": 0.0,
             "efr": 0.0,
@@ -76,12 +76,12 @@
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
-            "cp": 15590,
+            "cp": 15713,
             "atk": 1199,
             "hp": 4491,
             "spd": 102,
             "def": 613,
-            "chc": 0.21,
+            "chc": 0.23,
             "chd": 1.5,
             "eff": 0.0,
             "efr": 0.0,

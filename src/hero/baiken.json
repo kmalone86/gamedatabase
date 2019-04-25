@@ -1,38 +1,38 @@
 {
-    "gameId": "c1048",
-    "name": "Aramintha",
+    "gameId": "c1093",
+    "name": "Baiken",
     "rarity": 5,
-    "classType": "mage",
-    "element": "fire",
-    "zodiac": "gemini",
+    "classType": "thief",
+    "element": "earth",
+    "zodiac": "scorpio",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "Aramintha is a gentle and cheerful woman, and leader of the Phantom CIC, a group dedicated to investigating the Unknown to whom she lost her husband. She is an incredible fighter, but often gets caught up bragging about her husband when she's not in a battle.",
+    "background": "She lost her family and friends in a Gear attack led by That Man. From that point on she walked the path of Asura, obsessed with exacting revenge on That Man. Tough and decisive, she boasts fighting power that can rival even that of a Gear.",
     "relations": [
         {
-            "hero": "basar",
+            "hero": "sol",
             "relationType": "trust"
         },
         {
-            "hero": "rin",
+            "hero": "dizzy",
             "relationType": "trust"
         },
         {
-            "hero": "celeste",
-            "relationType": "trust"
+            "hero": "i-no",
+            "relationType": "grudge"
         },
         {
-            "hero": "cartuja",
+            "hero": "ludwig",
             "relationType": "trust"
         }
     ],
     "stats": {
         "lv1BaseStarNoAwaken": {
-            "cp": 1457,
-            "atk": 96,
-            "hp": 249,
-            "spd": 106,
-            "def": 85,
+            "cp": 1328,
+            "atk": 99,
+            "hp": 322,
+            "spd": 113,
+            "def": 59,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
@@ -40,11 +40,11 @@
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
-            "cp": 11781,
-            "atk": 771,
-            "hp": 3302,
-            "spd": 106,
-            "def": 551,
+            "cp": 11478,
+            "atk": 793,
+            "hp": 4267,
+            "spd": 113,
+            "def": 381,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
@@ -52,23 +52,23 @@
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
-            "cp": 13525,
-            "atk": 960,
-            "hp": 3642,
-            "spd": 106,
-            "def": 551,
-            "chc": 0.15,
+            "cp": 13275,
+            "atk": 984,
+            "hp": 4735,
+            "spd": 113,
+            "def": 381,
+            "chc": 0.23,
             "chd": 1.5,
-            "eff": 0.18,
+            "eff": 0.0,
             "efr": 0.0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
-            "cp": 14685,
-            "atk": 961,
-            "hp": 4152,
-            "spd": 106,
-            "def": 683,
+            "cp": 14337,
+            "atk": 989,
+            "hp": 5364,
+            "spd": 113,
+            "def": 473,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
@@ -76,14 +76,14 @@
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
-            "cp": 17342,
-            "atk": 1197,
-            "hp": 4572,
-            "spd": 106,
-            "def": 683,
-            "chc": 0.15,
+            "cp": 16901,
+            "atk": 1228,
+            "hp": 6266,
+            "spd": 113,
+            "def": 473,
+            "chc": 0.23,
             "chd": 1.5,
-            "eff": 0.30,
+            "eff": 0.0,
             "efr": 0.0,
             "dac": 0.05
         }
@@ -94,14 +94,14 @@
             "soulBurn": 0,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
-            "awakenUpgrade": true,
+            "awakenUpgrade": false,
             "cooldown": 0,
-            "name": "Ignite",
+            "name": "Tatami Gaeshi",
             "soulAcquire": 1,
-            "description": "Attacks an enemy with an explosion of flames, with a 35% chance to burn for 2 turns. Decreases cooldown of Fire Pillar by 1 turn.",
+            "description": "Attacks the enemy repeatedly, with a 45% chance each to inflict two bleed effects for 2 turns. A critical hit will reduce the caster's skill cooldowns by 1 turn.",
             "enhancement": [
                 {
-                    "description": "+10% damage dealt",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "molagora",
@@ -114,36 +114,49 @@
                     ]
                 },
                 {
-                    "description": "+5% effect chance",
+                    "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 3
-                        },
-                        {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 8000
                         }
                     ]
                 },
                 {
-                    "description": "+10% effect chance",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
+                            "item": "sharp-spearhead",
                             "qty": 5
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 49000
+                            "qty": 33000
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% effect chance",
+                    "resources": [
+                        {
+                            "item": "sharp-spearhead",
+                            "qty": 7
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 47000
                         }
                     ]
                 },
@@ -151,30 +164,30 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "fused-nerve",
+                            "item": "black-curse-powder",
                             "qty": 2
                         },
                         {
                             "item": "molagorago",
-                            "qty": 1
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 80000
+                            "qty": 100000
                         }
                     ]
                 }
             ],
             "buffs": [],
             "debuffs": [
-                "stic_blaze"
+                "stic_blood"
             ],
             "damageModifiers": [
                 {
                     "name": "pow",
                     "section": "pow",
-                    "value": 1.05,
-                    "soulburn": 1.05
+                    "value": 1.0,
+                    "soulburn": 1.0
                 },
                 {
                     "name": "statModifier",
@@ -193,11 +206,11 @@
             "soulBurn": 0,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
-            "awakenUpgrade": false,
+            "awakenUpgrade": true,
             "cooldown": 4,
-            "name": "Catalyst",
-            "soulAcquire": 2,
-            "description": "Sprinkles a catalyst, increasing Attack of all allies for 2 turns. If an enemy is burned, the catalyst will explode and deal damage to all enemies, making them unhealable for 2 turns.",
+            "name": "Tsurane Sanzu-watashi",
+            "soulAcquire": 1,
+            "description": "Attacks the enemy with expert swordsmanship, with a 55% chance each of inflicting three bleed effects for 2 turns. A critical hit will grant an extra turn.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -213,19 +226,15 @@
                     ]
                 },
                 {
-                    "description": "-1 turn cooldown",
+                    "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 3
-                        },
-                        {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 8000
                         }
                     ]
                 },
@@ -233,16 +242,33 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
+                            "item": "sharp-spearhead",
                             "qty": 5
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 49000
+                            "qty": 33000
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% effect chance",
+                    "resources": [
+                        {
+                            "item": "sharp-spearhead",
+                            "qty": 7
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 47000
                         }
                     ]
                 },
@@ -250,26 +276,23 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "fused-nerve",
+                            "item": "black-curse-powder",
                             "qty": 2
                         },
                         {
                             "item": "molagorago",
-                            "qty": 1
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 80000
+                            "qty": 100000
                         }
                     ]
                 }
             ],
-            "buffs": [
-                "stic_att_up"
-            ],
+            "buffs": [],
             "debuffs": [
-                "stic_heal_impossible",
-                "stic_blaze"
+                "stic_blood"
             ],
             "damageModifiers": [
                 {
@@ -285,21 +308,21 @@
                     "stat": "atk",
                     "type": "multiplier",
                     "target": "self",
-                    "value": 0.7,
-                    "soulburn": 0.7
+                    "value": 1.2,
+                    "soulburn": 1.2
                 }
             ]
         },
         {
             "isPassive": false,
-            "soulBurn": 20,
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "Ignores effect resistance.",
+            "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": false,
-            "cooldown": 5,
-            "name": "Fire Pillar",
+            "cooldown": 7,
+            "name": "Garyo Tensei",
             "soulAcquire": 2,
-            "description": "Attacks all enemies with a massive fire pillar, with a 80% chance to burn for 2 turns and increase the caster's Combat Readiness by 50%.",
+            "description": "Delivers a deadly blow, detonating any bleed effects inflicted on the enemy at the end of the turn. A critical hit increases the combat readiness of all allies by 15%.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -315,7 +338,7 @@
                     ]
                 },
                 {
-                    "description": "+5% damage dealt",
+                    "description": "+5% Combat Readiness",
                     "resources": [
                         {
                             "item": "molagora",
@@ -324,53 +347,6 @@
                         {
                             "item": "gold",
                             "qty": 8000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% effect chance",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        }
-                    ]
-                },
-                {
-                    "description": "-1 turn cooldown",
-                    "resources": [
-                        {
-                            "item": "ring-of-glory",
-                            "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% effect chance",
-                    "resources": [
-                        {
-                            "item": "ring-of-glory",
-                            "qty": 4
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 40000
                         }
                     ]
                 },
@@ -378,41 +354,56 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
+                            "item": "sharp-spearhead",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 33000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "sharp-spearhead",
                             "qty": 7
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 55000
+                            "qty": 47000
                         }
                     ]
                 },
                 {
-                    "description": "+10% damage dealt",
+                    "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "fused-nerve",
-                            "qty": 3
+                            "item": "black-curse-powder",
+                            "qty": 2
                         },
                         {
                             "item": "molagorago",
-                            "qty": 1
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 110000
+                            "qty": 100000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": [
-                "stic_blaze"
-            ],
+            "debuffs": [],
             "damageModifiers": [
                 {
                     "name": "pow",
@@ -427,51 +418,51 @@
                     "stat": "atk",
                     "type": "multiplier",
                     "target": "self",
-                    "value": 0.85,
-                    "soulburn": 0.85
+                    "value": 1.6,
+                    "soulburn": 1.85
                 }
             ]
         }
     ],
     "specialtySkill": {
-        "name": "Leader of Phantom",
-        "description": "She is cold-hearted and resolute in achieving her goals.",
+        "name": "Thirst for Revenge",
+        "description": "One day she will get revenge on That Man for what he did to her.",
         "dispatch": "[Strong Leader] Attribute",
         "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 94,
+            "command": 60,
             "charm": 85,
-            "politics": 23
+            "politics": 70
         }
     },
     "camping": {
         "options": [
             "food-story",
-            "complain"
+            "belief"
         ],
         "reactions": {
-            "advice": 5,
+            "advice": -1,
             "belief": 4,
             "bizarre-story": 0,
-            "comforting-cheer": 6,
-            "complain": 2,
-            "criticism": 2,
-            "cute-cheer": 5,
-            "dream": 4,
-            "food-story": 4,
-            "gossip": 2,
-            "happy-memory": 3,
-            "heroic-cheer": 6,
-            "heroic-tale": 6,
-            "horror-story": 0,
-            "interesting-story": 5,
-            "joyful-memory": 5,
+            "comforting-cheer": -2,
+            "complain": -2,
+            "criticism": 4,
+            "cute-cheer": 3,
+            "dream": 6,
+            "food-story": 1,
+            "gossip": -2,
+            "happy-memory": 1,
+            "heroic-cheer": 1,
+            "heroic-tale": 1,
+            "horror-story": 1,
+            "interesting-story": 6,
+            "joyful-memory": 4,
             "myth": 1,
-            "occult": -1,
-            "reality-check": -2,
-            "sad-memory": -1,
-            "self-indulgent": 4,
-            "unique-comment": 1
+            "occult": 4,
+            "reality-check": -4,
+            "sad-memory": 4,
+            "self-indulgent": 2,
+            "unique-comment": 5
         }
     },
     "memoryImprintFormation": {
@@ -548,7 +539,7 @@
             ],
             "resources": [
                 {
-                    "item": "flame-rune",
+                    "item": "life-rune",
                     "qty": 10
                 }
             ]
@@ -558,7 +549,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.06
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -569,11 +560,11 @@
             ],
             "resources": [
                 {
-                    "item": "flame-rune",
+                    "item": "life-rune",
                     "qty": 15
                 },
                 {
-                    "item": "greater-flame-rune",
+                    "item": "greater-life-rune",
                     "qty": 2
                 }
             ]
@@ -591,11 +582,11 @@
             ],
             "resources": [
                 {
-                    "item": "flame-rune",
+                    "item": "life-rune",
                     "qty": 20
                 },
                 {
-                    "item": "greater-flame-rune",
+                    "item": "greater-life-rune",
                     "qty": 10
                 }
             ]
@@ -605,7 +596,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.12
+                    "chc": 0.08
                 },
                 {
                     "atk": 30
@@ -616,11 +607,11 @@
             ],
             "resources": [
                 {
-                    "item": "greater-flame-rune",
+                    "item": "greater-life-rune",
                     "qty": 10
                 },
                 {
-                    "item": "epic-flame-rune",
+                    "item": "epic-life-rune",
                     "qty": 2
                 }
             ]
@@ -641,11 +632,11 @@
             ],
             "resources": [
                 {
-                    "item": "epic-flame-rune",
+                    "item": "epic-life-rune",
                     "qty": 6
                 },
                 {
-                    "item": "small-sun-badge",
+                    "item": "erikion-carapace",
                     "qty": 15
                 }
             ]
@@ -655,7 +646,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.12
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
@@ -666,11 +657,11 @@
             ],
             "resources": [
                 {
-                    "item": "epic-flame-rune",
+                    "item": "epic-life-rune",
                     "qty": 10
                 },
                 {
-                    "item": "fused-nerve",
+                    "item": "black-curse-powder",
                     "qty": 10
                 }
             ]

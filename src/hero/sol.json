@@ -1,38 +1,38 @@
 {
-    "gameId": "c1048",
-    "name": "Aramintha",
+    "gameId": "c1092",
+    "name": "Sol",
     "rarity": 5,
-    "classType": "mage",
+    "classType": "warrior",
     "element": "fire",
-    "zodiac": "gemini",
+    "zodiac": "sagittarius",
     "specialtyChangeName": "",
-    "selfSkillBarName": "",
-    "background": "Aramintha is a gentle and cheerful woman, and leader of the Phantom CIC, a group dedicated to investigating the Unknown to whom she lost her husband. She is an incredible fighter, but often gets caught up bragging about her husband when she's not in a battle.",
+    "selfSkillBarName": "fighting-spirit",
+    "background": "A Gear-killer and bounty hunter who roams the world capturing wanted criminals. He boasts incredible fighting power, and while capable of harnessing all elements, he mainly sticks to Fire. He has a blunt and harsh way of speaking and prefers to use actions over words.",
     "relations": [
         {
-            "hero": "basar",
+            "hero": "dizzy",
             "relationType": "trust"
         },
         {
-            "hero": "rin",
+            "hero": "baiken",
             "relationType": "trust"
         },
         {
-            "hero": "celeste",
-            "relationType": "trust"
+            "hero": "i-no",
+            "relationType": "grudge"
         },
         {
-            "hero": "cartuja",
+            "hero": "yuna",
             "relationType": "trust"
         }
     ],
     "stats": {
         "lv1BaseStarNoAwaken": {
-            "cp": 1457,
-            "atk": 96,
-            "hp": 249,
-            "spd": 106,
-            "def": 85,
+            "cp": 1378,
+            "atk": 94,
+            "hp": 295,
+            "spd": 115,
+            "def": 69,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
@@ -40,11 +40,11 @@
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
-            "cp": 11781,
-            "atk": 771,
-            "hp": 3302,
-            "spd": 106,
-            "def": 551,
+            "cp": 11621,
+            "atk": 757,
+            "hp": 3913,
+            "spd": 115,
+            "def": 446,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
@@ -52,23 +52,23 @@
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
-            "cp": 13525,
-            "atk": 960,
-            "hp": 3642,
-            "spd": 106,
-            "def": 551,
-            "chc": 0.15,
+            "cp": 13219,
+            "atk": 945,
+            "hp": 4253,
+            "spd": 119,
+            "def": 446,
+            "chc": 0.19,
             "chd": 1.5,
-            "eff": 0.18,
+            "eff": 0.0,
             "efr": 0.0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
-            "cp": 14685,
-            "atk": 961,
-            "hp": 4152,
-            "spd": 106,
-            "def": 683,
+            "cp": 14498,
+            "atk": 943,
+            "hp": 4920,
+            "spd": 115,
+            "def": 553,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
@@ -76,14 +76,14 @@
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
-            "cp": 17342,
-            "atk": 1197,
-            "hp": 4572,
-            "spd": 106,
-            "def": 683,
-            "chc": 0.15,
+            "cp": 17044,
+            "atk": 1177,
+            "hp": 5340,
+            "spd": 119,
+            "def": 553,
+            "chc": 0.27,
             "chd": 1.5,
-            "eff": 0.30,
+            "eff": 0.0,
             "efr": 0.0,
             "dac": 0.05
         }
@@ -92,16 +92,16 @@
         {
             "isPassive": false,
             "soulBurn": 0,
-            "selfSkillBarValue": 0,
+            "selfSkillBarValue": 20,
             "soulBurnEffect": "",
-            "awakenUpgrade": true,
+            "awakenUpgrade": false,
             "cooldown": 0,
-            "name": "Ignite",
+            "name": "Gunflame",
             "soulAcquire": 1,
-            "description": "Attacks an enemy with an explosion of flames, with a 35% chance to burn for 2 turns. Decreases cooldown of Fire Pillar by 1 turn.",
+            "description": "Attacks an enemy with pillars of fire. Damage dealt increases if the enemy isn't buffed. Gains Fighting Spirit when a Critical Hit is made.",
             "enhancement": [
                 {
-                    "description": "+10% damage dealt",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "molagora",
@@ -114,67 +114,78 @@
                     ]
                 },
                 {
-                    "description": "+5% effect chance",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 3
-                        },
-                        {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 8000
                         }
                     ]
                 },
                 {
-                    "description": "+10% effect chance",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
+                            "item": "archers-vision",
                             "qty": 5
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 49000
+                            "qty": 33000
                         }
                     ]
                 },
                 {
-                    "description": "+15% damage dealt",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "fused-nerve",
+                            "item": "archers-vision",
+                            "qty": 7
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 47000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "mercenarys-medicine",
                             "qty": 2
                         },
                         {
                             "item": "molagorago",
-                            "qty": 1
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 80000
+                            "qty": 100000
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": [
-                "stic_blaze"
-            ],
+            "debuffs": [],
             "damageModifiers": [
                 {
                     "name": "pow",
                     "section": "pow",
-                    "value": 1.05,
-                    "soulburn": 1.05
+                    "value": 1.0,
+                    "soulburn": 1.0
                 },
                 {
                     "name": "statModifier",
@@ -189,15 +200,15 @@
             ]
         },
         {
-            "isPassive": false,
+            "isPassive": true,
             "soulBurn": 0,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 4,
-            "name": "Catalyst",
-            "soulAcquire": 2,
-            "description": "Sprinkles a catalyst, increasing Attack of all allies for 2 turns. If an enemy is burned, the catalyst will explode and deal damage to all enemies, making them unhealable for 2 turns.",
+            "cooldown": 0,
+            "name": "Volcanic Viper",
+            "soulAcquire": 0,
+            "description": "Counterattacks and silences for 2 turns when an enemy uses a non-attack skill or when the caster is attacked by an Elite or Boss monster. Damage dealt increases proportional to the enemy's max Health. Can only activate once every 2 turns.\nRoman Cancel: Tf Fighting Spirit is 100 at the end of an ally's turn, the caster consumes all Fighting Spirit before extending the duration of a buff and being granted an extra turn.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -213,104 +224,32 @@
                     ]
                 },
                 {
-                    "description": "-1 turn cooldown",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 3
-                        },
-                        {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 8000
                         }
                     ]
                 },
                 {
-                    "description": "+10% damage dealt",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
+                            "item": "archers-vision",
                             "qty": 5
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 49000
-                        }
-                    ]
-                },
-                {
-                    "description": "+15% damage dealt",
-                    "resources": [
-                        {
-                            "item": "fused-nerve",
                             "qty": 2
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
-                            "qty": 80000
-                        }
-                    ]
-                }
-            ],
-            "buffs": [
-                "stic_att_up"
-            ],
-            "debuffs": [
-                "stic_heal_impossible",
-                "stic_blaze"
-            ],
-            "damageModifiers": [
-                {
-                    "name": "pow",
-                    "section": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
-                },
-                {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
-                    "value": 0.7,
-                    "soulburn": 0.7
-                }
-            ]
-        },
-        {
-            "isPassive": false,
-            "soulBurn": 20,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "Ignores effect resistance.",
-            "awakenUpgrade": false,
-            "cooldown": 5,
-            "name": "Fire Pillar",
-            "soulAcquire": 2,
-            "description": "Attacks all enemies with a massive fire pillar, with a 80% chance to burn for 2 turns and increase the caster's Combat Readiness by 50%.",
-            "enhancement": [
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 4000
+                            "qty": 33000
                         }
                     ]
                 },
@@ -318,76 +257,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% effect chance",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        }
-                    ]
-                },
-                {
-                    "description": "-1 turn cooldown",
-                    "resources": [
-                        {
-                            "item": "ring-of-glory",
-                            "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% effect chance",
-                    "resources": [
-                        {
-                            "item": "ring-of-glory",
-                            "qty": 4
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 40000
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
-                            "item": "ring-of-glory",
+                            "item": "archers-vision",
                             "qty": 7
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 55000
+                            "qty": 47000
                         }
                     ]
                 },
@@ -395,23 +274,23 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "fused-nerve",
-                            "qty": 3
+                            "item": "mercenarys-medicine",
+                            "qty": 2
                         },
                         {
                             "item": "molagorago",
-                            "qty": 1
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 110000
+                            "qty": 100000
                         }
                     ]
                 }
             ],
             "buffs": [],
             "debuffs": [
-                "stic_blaze"
+                "stic_silence"
             ],
             "damageModifiers": [
                 {
@@ -427,107 +306,219 @@
                     "stat": "atk",
                     "type": "multiplier",
                     "target": "self",
-                    "value": 0.85,
-                    "soulburn": 0.85
+                    "value": 1.0,
+                    "soulburn": 1.0
+                }
+            ]
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 10,
+            "selfSkillBarValue": 60,
+            "soulBurnEffect": "Ignores effect resistance.",
+            "awakenUpgrade": true,
+            "cooldown": 5,
+            "name": "Tyrant Rave ver. Beta",
+            "soulAcquire": 3,
+            "description": "Attacks with a strong punch, dispelling all buffs before making them unable to be buffed for 2 turns. Damage dealt increases proportional to the enemy's max Health.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        {
+                            "item": "archers-vision",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 33000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "archers-vision",
+                            "qty": 7
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 47000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "mercenarys-medicine",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 100000
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [
+                "stic_buf_impossible"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "section": "pow",
+                    "value": 1.0,
+                    "soulburn": 1.0
+                },
+                {
+                    "name": "statModifier",
+                    "description": "",
+                    "section": "additive",
+                    "stat": "atk",
+                    "type": "multiplier",
+                    "target": "self",
+                    "value": 1.6,
+                    "soulburn": 1.6
                 }
             ]
         }
     ],
     "specialtySkill": {
-        "name": "Leader of Phantom",
-        "description": "She is cold-hearted and resolute in achieving her goals.",
-        "dispatch": "[Strong Leader] Attribute",
-        "enhancement": "Reward Bonus +10%",
+        "name": "Lone Wolf",
+        "description": "Unless it's a special occasion, he likes to work alone.",
+        "dispatch": "[Hunt] Catagory",
+        "enhancement": "Time Required -6%",
         "stats": {
-            "command": 94,
-            "charm": 85,
-            "politics": 23
+            "command": 80,
+            "charm": 70,
+            "politics": 80
         }
     },
     "camping": {
         "options": [
-            "food-story",
-            "complain"
+            "Option1",
+            "OPtion2"
         ],
         "reactions": {
-            "advice": 5,
-            "belief": 4,
+            "advice": 0,
+            "belief": 0,
             "bizarre-story": 0,
-            "comforting-cheer": 6,
-            "complain": 2,
-            "criticism": 2,
-            "cute-cheer": 5,
-            "dream": 4,
-            "food-story": 4,
-            "gossip": 2,
-            "happy-memory": 3,
-            "heroic-cheer": 6,
-            "heroic-tale": 6,
+            "comforting-cheer": 0,
+            "complain": 0,
+            "criticism": 0,
+            "cute-cheer": 0,
+            "dream": 0,
+            "food-story": 0,
+            "gossip": 0,
+            "happy-memory": 0,
+            "heroic-cheer": 0,
+            "heroic-tale": 0,
             "horror-story": 0,
-            "interesting-story": 5,
-            "joyful-memory": 5,
-            "myth": 1,
-            "occult": -1,
-            "reality-check": -2,
-            "sad-memory": -1,
-            "self-indulgent": 4,
-            "unique-comment": 1
+            "interesting-story": 0,
+            "joyful-memory": 0,
+            "myth": 0,
+            "occult": 0,
+            "reality-check": 0,
+            "sad-memory": 0,
+            "self-indulgent": 0,
+            "unique-comment": 0
         }
     },
     "memoryImprintFormation": {
         "north": true,
-        "south": true,
+        "south": false,
         "east": true,
-        "west": true
+        "west": false
     },
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "atk",
+                "type": "def",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "atk",
+                "type": "def",
                 "increase": 0
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "atk",
-                "increase": 0.036
+                "type": "def",
+                "increase": 0.043
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "atk",
-                "increase": 0.054
+                "type": "def",
+                "increase": 0.065
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "atk",
-                "increase": 0.072
+                "type": "def",
+                "increase": 0.086
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "atk",
-                "increase": 0.09
+                "type": "def",
+                "increase": 0.107
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "atk",
-                "increase": 0.108
+                "type": "def",
+                "increase": 0.129
             }
         }
     ],
@@ -558,7 +549,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.06
+                    "chc": 0.04
                 },
                 {
                     "atk": 20
@@ -605,7 +596,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.12
+                    "spd": 4
                 },
                 {
                     "atk": 30
@@ -645,7 +636,7 @@
                     "qty": 6
                 },
                 {
-                    "item": "small-sun-badge",
+                    "item": "cold-look",
                     "qty": 15
                 }
             ]
@@ -655,7 +646,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.12
+                    "chc": 0.08
                 },
                 {
                     "atk": 30
@@ -670,7 +661,7 @@
                     "qty": 10
                 },
                 {
-                    "item": "fused-nerve",
+                    "item": "mercenarys-medicine",
                     "qty": 10
                 }
             ]
