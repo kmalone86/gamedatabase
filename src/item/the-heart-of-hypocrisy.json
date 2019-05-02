@@ -1,7 +1,7 @@
 {
     "name": "The Heart of Hypocrisy",
     "type": "catalyst",
-    "rarity": "",
+    "rarity": 5,
     "description": "A special mechanism similar to an artificial heart needed in the creation of a Homunculus.",
     "apShops": [
         {

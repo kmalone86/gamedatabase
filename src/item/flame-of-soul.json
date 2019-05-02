@@ -1,7 +1,7 @@
 {
     "name": "Flame of Soul",
     "type": "catalyst",
-    "rarity": "",
+    "rarity": 3,
     "description": "A fraction of Spirit who was held by dark magic and couldn't leave for the underworld. You can listen to a faint sound of crying.",
     "apShops": [
         {
@@ -13,7 +13,7 @@
             "chapter": "Chapter 9-2",
             "quantity": 5,
             "cost": 120
-        }    
+        }
     ],
     "locations": [
         {

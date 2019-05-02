@@ -1,7 +1,7 @@
 {
     "name": "Epic Flame Rune",
     "type": "rune",
-    "rarity": "",
+    "rarity": 5,
     "description": "A Rune for Awakening Fire elemental Heroes obtainable from the Flame Spirit Altar stage 7 onwards.",
     "locations": []
 }

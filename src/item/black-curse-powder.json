@@ -1,7 +1,7 @@
 {
     "name": "Black Curse Powder",
     "type": "catalyst",
-    "rarity": "",
+    "rarity": 5,
     "description": "A catalyst used by a high-level mage, containing a powerful curse,",
     "apShops": [
         {
@@ -20,7 +20,7 @@
             "node": "World 8-10",
             "name": "?",
             "mobcount": "?"
-        },      
+        },
         {
             "node": "World 9-S4",
             "name": "?",

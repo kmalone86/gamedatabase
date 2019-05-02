@@ -1,7 +1,7 @@
 {
     "name": "Dragon's Wrath",
     "type": "catalyst",
-    "rarity": "",
+    "rarity": 5,
     "description": "A scale fragment emanating incredible power. It is said that if the weak touch it, they will be killed instantly in an explosion of energy.",
     "apShops": [
         {

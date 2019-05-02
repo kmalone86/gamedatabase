@@ -1,7 +1,7 @@
 {
     "name": "Flame Rune",
     "type": "rune",
-    "rarity": "",
+    "rarity": 1,
     "description": "A Rune for Awakening Fire elemental Heroes obtainable from the Flame Spirit Altar.",
     "locations": []
 }

@@ -1,7 +1,7 @@
 {
     "name": "Gold",
     "type": "currency",
-    "rarity": "",
+    "rarity": 1,
     "description": "A currency from Ritania that can be used to purchase various goods.",
     "locations": []
 }

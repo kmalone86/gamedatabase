@@ -1,7 +1,7 @@
 {
     "name": "Strange Jelly",
     "type": "catalyst",
-    "rarity": "",
+    "rarity": 3,
     "description": "A jelly-like substance containing a mysterious power, secreted by Unknown.",
     "apShops": [
         {
@@ -13,7 +13,7 @@
             "chapter": "Chapter 9-2",
             "quantity": 5,
             "cost": 120
-        }    
+        }
     ],
     "locations": [
         {

@@ -1,7 +1,7 @@
 {
     "name": "Fused Nerve",
     "type": "catalyst",
-    "rarity": "",
+    "rarity": 5,
     "description": "A special muscle accidentally created during an experiment of forced fusion.",
     "apShops": [
         {

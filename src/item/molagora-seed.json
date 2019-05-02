@@ -1,7 +1,7 @@
 {
     "name": "MolaGora Seed",
     "type": "currency",
-    "rarity": "",
+    "rarity": 3,
     "description": "A seed for growing MolaGora in the Forest of Souls.",
     "locations": []
 }

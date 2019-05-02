@@ -1,7 +1,7 @@
 {
     "name": "Blessing Of Orbis",
     "type": "catalyst",
-    "rarity": "",
+    "rarity": 5,
     "description": "A brightly colored stone containing the life energy of the creatures of Orbis.",
     "apShops": [
         {

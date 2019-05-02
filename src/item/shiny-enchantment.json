@@ -1,7 +1,7 @@
 {
     "name": "Shiny Enchantment",
     "type": "catalyst",
-    "rarity": "",
+    "rarity": 3,
     "description": "A bead fragment containing the power of a spirit. An object of pride for those who use it.",
     "apShops": [
         {
@@ -13,7 +13,7 @@
             "chapter": "Chapter 5",
             "quantity": 5,
             "cost": 120
-        }    
+        }
     ],
     "locations": [
         {

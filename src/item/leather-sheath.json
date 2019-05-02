@@ -1,7 +1,7 @@
 {
     "name": "Leather Sheath",
     "type": "catalyst",
-    "rarity": "",
+    "rarity": 3,
     "description": "A sheath of tough leather used by soldiers to carry their swords.",
     "apShops": [
         {
@@ -13,7 +13,7 @@
             "chapter": "Chapter 6",
             "quantity": 5,
             "cost": 120
-        }    
+        }
     ],
     "locations": [
         {

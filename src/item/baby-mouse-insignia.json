@@ -1,7 +1,7 @@
 {
     "name": "Baby Mouse Insignia",
     "type": "catalyst",
-    "rarity": "",
+    "rarity": 3,
     "description": "An insignia of the Bellmice Militia is considered to be a token of honor.",
     "apShops": [
         {
@@ -13,7 +13,7 @@
             "chapter": "Chapter 3S",
             "quantity": 5,
             "cost": 120
-        }    
+        }
     ],
     "locations": [
         {

@@ -1,7 +1,7 @@
 {
     "name": "Slime Jelly",
     "type": "catalyst",
-    "rarity": "",
+    "rarity": 3,
     "description": "When a slime is killed, it melts away and leaves behind jelly. It can be eaten in times of emergency.",
     "apShops": [
         {
@@ -13,7 +13,7 @@
             "chapter": "Chapter 2S",
             "quantity": 5,
             "cost": 120
-        }    
+        }
     ],
     "locations": [
         {

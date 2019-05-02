@@ -1,7 +1,7 @@
 {
     "name": "Ancient Coin",
     "type": "currency",
-    "rarity": "",
+    "rarity": 3,
     "description": "Ancient coinage found in Labyrinth. Can be traded for special items.",
     "locations": []
 }

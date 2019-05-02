@@ -1,7 +1,7 @@
 {
     "name": "Ultra Fang",
     "type": "catalyst",
-    "rarity": "",
+    "rarity": 3,
     "description": "Some monsters' fangs are more durable than iron so that they can easily pierce through iron armor.",
     "apShops": [
         {

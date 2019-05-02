@@ -1,7 +1,7 @@
 {
     "name": "Mercenary's Medicine",
     "type": "catalyst",
-    "rarity": "",
+    "rarity": 5,
     "description": "There is a rumor that mercenaries use this medicine to gain temporary strength.",
     "apShops": [
         {

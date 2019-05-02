@@ -1,7 +1,7 @@
 {
     "name": "MolaGoraGora",
     "type": "skill-enhance",
-    "rarity": "",
+    "rarity": 5,
     "description": "A screaming grass root",
     "locations": []
 }

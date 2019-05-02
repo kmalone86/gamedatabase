@@ -1,7 +1,7 @@
 {
     "name": "Special Alarm Loop",
     "type": "catalyst",
-    "rarity": "",
+    "rarity": 3,
     "description": "Circuit set to sound immediately in case of danger. It seems to have originally been developed as an alaram clock.",
     "apShops": [
         {

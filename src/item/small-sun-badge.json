@@ -1,7 +1,7 @@
 {
     "name": "Small Sun Badge",
     "type": "catalyst",
-    "rarity": "",
+    "rarity": 3,
     "description": "Those who sacrifice above and beyond the call of duty to prove their faith are given a badge with a little sun on it.",
     "apShops": [
         {

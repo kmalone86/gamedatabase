@@ -1,7 +1,7 @@
 {
     "name": "Reingar Student ID",
     "type": "catalyst",
-    "rarity": "",
+    "rarity": 5,
     "description": "A special Student ID that allows access to anywhere in Reingar.",
     "apShops": [
         {

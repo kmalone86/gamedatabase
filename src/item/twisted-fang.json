@@ -1,7 +1,7 @@
 {
     "name": "Twisted Fang",
     "type": "catalyst",
-    "rarity": "",
+    "rarity": 3,
     "description": "A fang fragment of incomprehensible composition. It is said to contain the power of the outside world.",
     "apShops": [
         {
@@ -13,7 +13,7 @@
             "chapter": "Chapter 8S",
             "quantity": 5,
             "cost": 120
-        }    
+        }
     ],
     "locations": [
         {

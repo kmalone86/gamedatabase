@@ -1,7 +1,7 @@
 {
     "name": "Ancient Creature Nucleus",
     "type": "catalyst",
-    "rarity": "",
+    "rarity": 5,
     "description": "A nucleus with an unknown source of power, some say it can be used to move anything in the world.",
     "apShops": [
         {

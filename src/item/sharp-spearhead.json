@@ -1,7 +1,7 @@
 {
     "name": "Sharp Spearhead",
     "type": "catalyst",
-    "rarity": "",
+    "rarity": 3,
     "description": "A head from a broken spear, it is still sharp enough to stab an enemy in the heart.",
     "apShops": [
         {
@@ -13,7 +13,7 @@
             "chapter": "Chapter 4-2",
             "quantity": 5,
             "cost": 120
-        }    
+        }
     ],
     "locations": [
         {

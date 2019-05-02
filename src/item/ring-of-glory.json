@@ -1,7 +1,7 @@
 {
     "name": "Ring of Glory",
     "type": "catalyst",
-    "rarity": "",
+    "rarity": 3,
     "description": "A ring with the Taranor Army coat of arms engraved into it.",
     "apShops": [
         {
@@ -13,7 +13,7 @@
             "chapter": "Chapter 10",
             "quantity": 5,
             "cost": 120
-        }    
+        }
     ],
     "locations": [
         {
@@ -29,7 +29,7 @@
         {
             "node": "World 10-4",
             "name": "?",
-            "mobcount":"?"
+            "mobcount": "?"
         },
         {
             "node": "World 10-5",

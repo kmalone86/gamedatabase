@@ -1,7 +1,7 @@
 {
     "name": "Order Of The Shield Insignia",
     "type": "catalyst",
-    "rarity": "",
+    "rarity": 3,
     "description": "An insignia to verify the bearer as a knight of the Order of the Shield, one arm of the Four Pointed Star.",
     "apShops": [
         {
