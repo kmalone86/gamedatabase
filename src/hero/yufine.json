@@ -16,6 +16,14 @@
         {
             "hero": "rin",
             "relationType": "longing"
+        },
+        {
+            "hero": "cecilia",
+            "relationType": "trust"
+        },
+        {
+            "hero": "luna",
+            "relationType": "longing"
         }
     ],
     "stats": {

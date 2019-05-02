@@ -20,6 +20,14 @@
         {
             "hero": "kiris",
             "relationType": "grudge"
+        },
+        {
+            "hero": "violet",
+            "relationType": "trust"
+        },
+        {
+            "hero": "bellona",
+            "relationType": "trust"
         }
     ],
     "stats": {

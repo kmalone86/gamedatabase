@@ -24,6 +24,10 @@
         {
             "hero": "lidica",
             "relationType": "trust"
+        },
+        {
+            "hero": "violet",
+            "relationType": "trust"
         }
     ],
     "stats": {

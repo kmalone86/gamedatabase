@@ -24,6 +24,22 @@
         {
             "hero": "cartuja",
             "relationType": "trust"
+        },
+        {
+            "hero": "lots",
+            "relationType": "trust"
+        },
+        {
+            "hero": "lidica",
+            "relationType": "trust"
+        },
+        {
+            "hero": "bellona",
+            "relationType": "trust"
+        },
+        {
+            "hero": "sez",
+            "relationType": "trust"
         }
     ],
     "stats": {

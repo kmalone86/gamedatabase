@@ -24,6 +24,10 @@
         {
             "hero": "elson",
             "relationType": "trust"
+        },
+        {
+            "hero": "cermia",
+            "relationType": "grudge"
         }
     ],
     "stats": {

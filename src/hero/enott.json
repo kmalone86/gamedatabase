@@ -16,6 +16,10 @@
         {
             "hero": "angelica",
             "relationType": "grudge"
+        },
+        {
+            "hero": "lidica",
+            "relationType": "grudge"
         }
     ],
     "stats": {

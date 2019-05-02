@@ -24,6 +24,14 @@
         {
             "hero": "wanda",
             "relationType": "trust"
+        },
+        {
+            "hero": "cermia",
+            "relationType": "trust"
+        },
+        {
+            "hero": "tamarinne",
+            "relationType": "trust"
         }
     ],
     "stats": {

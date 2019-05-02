@@ -210,7 +210,7 @@
             "cooldown": 4,
             "name": "Tsurane Sanzu-watashi",
             "soulAcquire": 1,
-            "description": "Attacks the enemy with expert swordsmanship, with a 55% chance each of inflicting three bleed effects for 2 turns. A critical hit will grant an extra turn.",
+            "description": "Attacks the enemy with expert swordsmanship, with a 55% chance each of inflicting three bleed effects for 2 turns. One bleed effect ignores Effect Resistance. A critical hit will grant an extra turn.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",

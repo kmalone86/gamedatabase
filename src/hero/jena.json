@@ -20,6 +20,10 @@
         {
             "hero": "angelica",
             "relationType": "longing"
+        },
+        {
+            "hero": "lidica",
+            "relationType": "trust"
         }
     ],
     "stats": {

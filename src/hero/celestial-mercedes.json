@@ -10,8 +10,8 @@
     "background": "A mysterious being from the stars, nobody knows where Celestial Mercedes came from, or what she has gone through. She freely duplicates any Human or thing she pleases, and currently resides in the Farche Frontier in a cloned body of Mercedes.",
     "relations": [
         {
-            "hero": "destina",
-            "relationType": "longing"
+            "hero": "ras",
+            "relationType": "trust"
         },
         {
             "hero": "watcher-schuri",
@@ -26,12 +26,8 @@
             "relationType": "rival"
         },
         {
-            "hero": "purgis",
-            "relationType": "grudge"
-        },
-        {
-            "hero": "mucacha",
-            "relationType": "grudge"
+            "hero": "angelica",
+            "relationType": "trust"
         }
     ],
     "stats": {
