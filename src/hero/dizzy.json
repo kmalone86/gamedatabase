@@ -541,7 +541,7 @@
             ],
             "resources": [
                 {
-                    "item": "light-rune",
+                    "item": "frost-rune",
                     "qty": 10
                 }
             ]
@@ -562,11 +562,11 @@
             ],
             "resources": [
                 {
-                    "item": "light-rune",
+                    "item": "frost-rune",
                     "qty": 15
                 },
                 {
-                    "item": "greater-light-rune",
+                    "item": "greater-frost-rune",
                     "qty": 2
                 }
             ]
@@ -584,11 +584,11 @@
             ],
             "resources": [
                 {
-                    "item": "light-rune",
+                    "item": "frost-rune",
                     "qty": 20
                 },
                 {
-                    "item": "greater-light-rune",
+                    "item": "greater-frost-rune",
                     "qty": 10
                 }
             ]
@@ -609,11 +609,11 @@
             ],
             "resources": [
                 {
-                    "item": "greater-light-rune",
+                    "item": "greater-frost-rune",
                     "qty": 10
                 },
                 {
-                    "item": "epic-light-rune",
+                    "item": "epic-frost-rune",
                     "qty": 2
                 }
             ]
@@ -634,7 +634,7 @@
             ],
             "resources": [
                 {
-                    "item": "epic-light-rune",
+                    "item": "epic-frost-rune",
                     "qty": 6
                 },
                 {
@@ -659,7 +659,7 @@
             ],
             "resources": [
                 {
-                    "item": "epic-light-rune",
+                    "item": "epic-frost-rune",
                     "qty": 10
                 },
                 {
