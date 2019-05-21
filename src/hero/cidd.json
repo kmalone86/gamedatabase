@@ -48,12 +48,12 @@
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
-            "cp": 12012,
+            "cp": 12112,
             "atk": 825,
             "hp": 4060,
             "spd": 122,
             "def": 381,
-            "chc": 0.21,
+            "chc": 0.23,
             "chd": 1.5,
             "eff": 0.0,
             "efr": 0.0,
@@ -72,12 +72,12 @@
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
-            "cp": 15168,
+            "cp": 15297,
             "atk": 1029,
             "hp": 5097,
             "spd": 126,
             "def": 473,
-            "chc": 0.21,
+            "chc": 0.23,
             "chd": 1.5,
             "eff": 0.0,
             "efr": 0.0,
@@ -442,7 +442,7 @@
         "name": "Animal Instinct",
         "description": "Oustanding senses of smell and hearing are very helpful when hunting.",
         "dispatch": "[Adventure] type mission",
-        "enhancement": "Time requiered -6%",
+        "enhancement": "Time required -6%",
         "stats": {
             "command": 45,
             "charm": 90,
