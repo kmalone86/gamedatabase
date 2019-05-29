@@ -393,9 +393,7 @@
                 }
             ],
             "buffs": [],
-            "debuffs": [
-                "stic_def_dn"
-            ],
+            "debuffs": [],
             "damageModifiers": [
                 {
                     "name": "pow",
