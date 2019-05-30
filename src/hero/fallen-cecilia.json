@@ -8,12 +8,7 @@
     "specialtyChangeName": "",
     "selfSkillBarName": "",
     "background": "",
-    "relations": [
-        {
-            "hero": "",
-            "relationType": ""
-        }
-    ],
+    "relations": [],
     "stats": {
         "lv1BaseStarNoAwaken": {
             "cp": 0,
@@ -92,7 +87,7 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "",
+                            "item": "molagora",
                             "qty": 0
                         },
                         {
@@ -105,7 +100,7 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "",
+                            "item": "molagora",
                             "qty": 0
                         },
                         {
@@ -148,21 +143,7 @@
             "name": "Strong Instinct",
             "soulAcquire": 2,
             "description": "Grants a barrier for 2 turns to all allies at the beginning of battle, and grants a barrier for 2 turns to the ally with the lowest Health at the end of the caster's turn. Barrier strength increases proportional to the caster's max Health.",
-            "enhancement": [
-                {
-                    "description": "",
-                    "resources": [
-                        {
-                            "item": "",
-                            "qty": 0
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 0
-                        }
-                    ]
-                }
-            ],
+            "enhancement": [],
             "buffs": [
                 "stic_protect"
             ],
@@ -201,7 +182,7 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "",
+                            "item": "molagora",
                             "qty": 0
                         },
                         {
