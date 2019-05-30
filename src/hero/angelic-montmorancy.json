@@ -1,28 +1,24 @@
 {
-    "gameId": "c3042",
-    "name": "Montmorancy",
+    "gameId": "c4042",
+    "name": "Angelic Montmorancy",
     "rarity": 3,
     "classType": "soul-weaver",
     "element": "ice",
     "zodiac": "pisces",
-    "specialtyChangeName": "angelic-montmorancy",
+    "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "An apprentice sister of the Holy of the Blue Cross, Montmorancy is an understudy of Achates and Clarissa, the latter of which she likes very much. She is naive and often makes mistakes, but overcomes them with a positive attitude.",
+    "background": "Even after being formally appointed a nun, Montmorancy keeps making mistakes. However, instead of blaming herself and asking others for help, she perseveres in her efforts to help others.",
     "relations": [
         {
             "hero": "clarissa",
-            "relationType": "longing"
+            "relationType": "trust"
         },
         {
             "hero": "angelica",
-            "relationType": "longing"
+            "relationType": "trust"
         },
         {
             "hero": "achates",
-            "relationType": "longing"
-        },
-        {
-            "hero": "elson",
             "relationType": "trust"
         }
     ],
@@ -315,12 +311,12 @@
             "isPassive": false,
             "soulBurn": 20,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "All allies are affected by the effect.",
+            "soulBurnEffect": "Effect is granted to all allies.",
             "awakenUpgrade": true,
             "cooldown": 3,
             "name": "Watery Curtain",
             "soulAcquire": 2,
-            "description": "Recovers ally's Health and grants immunity for 2 turns, while increasing the caster's Combat Readiness by 50%. Amount recovered is proportional to the target's max Health.",
+            "description": "Recovers ally's Health and grants immunity for 2 turns, dispelling 2 debuffs. Also increases the caster's Combat Readiness by 50%. Amount recovered is proportional to the target's max Health.",
             "enhancement": [
                 {
                     "description": "+5% healing",
@@ -425,10 +421,10 @@
         }
     ],
     "specialtySkill": {
-        "name": "Sweet Medicine",
-        "description": "Sometimes you just need something delicious.",
-        "dispatch": "[Gourmet] Attribute",
-        "enhancement": "Reward Bonus +10%",
+        "name": "Heartfelt Care",
+        "description": "Her gentle touch will drive pains away.",
+        "dispatch": "[Support] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
             "command": 5,
             "charm": 37,
