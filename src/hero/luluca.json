@@ -127,7 +127,7 @@
             "isPassive": false,
             "soulBurn": 20,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "Skill cooldown is decreased by 1 turns.",
+            "soulBurnEffect": "Skill cooldown is decreased by 1 turn.",
             "awakenUpgrade": false,
             "cooldown": 4,
             "name": "Rekos's Blessing",
