@@ -8,12 +8,7 @@
     "specialtyChangeName": "",
     "selfSkillBarName": "",
     "background": "",
-    "relations": [
-        {
-            "hero": "",
-            "relationType": ""
-        }
-    ],
+    "relations": [],
     "stats": {
         "lv1BaseStarNoAwaken": {
             "cp": 0,
@@ -87,21 +82,7 @@
             "name": "Wild Wave",
             "soulAcquire": 1,
             "description": "Attacks with intense elemental force. Damage dealt increases proportional to the amount of the enemy's lost Health.",
-            "enhancement": [
-                {
-                    "description": "",
-                    "resources": [
-                        {
-                            "item": "",
-                            "qty": 0
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 0
-                        }
-                    ]
-                }
-            ],
+            "enhancement": [],
             "buffs": [],
             "debuffs": [],
             "damageModifiers": [
@@ -138,7 +119,7 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "",
+                            "item": "molagora",
                             "qty": 0
                         },
                         {
@@ -187,7 +168,7 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "",
+                            "item": "molagora",
                             "qty": 0
                         },
                         {
@@ -200,7 +181,7 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "",
+                            "item": "molagora",
                             "qty": 0
                         },
                         {
@@ -213,7 +194,7 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
-                            "item": "",
+                            "item": "molagora",
                             "qty": 0
                         },
                         {
