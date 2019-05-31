@@ -134,7 +134,7 @@
             ]
         },
         {
-            "isPassive": false,
+            "isPassive": true,
             "soulBurn": 0,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
