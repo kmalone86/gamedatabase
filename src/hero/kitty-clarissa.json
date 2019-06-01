@@ -264,7 +264,7 @@
                     ]
                 },
                 {
-                    "description": "+5% damage dealt",
+                    "description": "+5% effect chance",
                     "resources": [
                         {
                             "item": "molagora",
