@@ -201,7 +201,7 @@
             "awakenUpgrade": true,
             "cooldown": 0,
             "name": "Strong Instinct",
-            "soulAcquire": 2,
+            "soulAcquire": 0,
             "description": "Grants a barrier for 2 turns to all allies at the beginning of battle, and grants a barrier for 2 turns to the ally with the lowest Health at the end of the caster's turn. Barrier strength increases proportional to the caster's max Health.",
             "enhancement": [
                 {
@@ -313,7 +313,7 @@
             "awakenUpgrade": false,
             "cooldown": 6,
             "name": "Spear of Resentment",
-            "soulAcquire": 3,
+            "soulAcquire": 2,
             "description": "Attacks all enemies in an explosion of spiteful emotions. Grants all allies Skill Nullifier, negating damage received from the next skill attack. Damage dealt increases proportional to the caster's max Health.",
             "enhancement": [
                 {
