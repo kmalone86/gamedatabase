@@ -4,70 +4,91 @@
     "rarity": 5,
     "classType": "mage",
     "element": "ice",
-    "zodiac": "",
+    "zodiac": "aquarius",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "",
-    "relations": [],
+    "background": "An Alien girl who traveled across the universe seeking revenge against Straze for bringing ruin to her world. She's determined to make Straze pay for what he has done to her friends and restore her homeworld.",
+    "relations": [
+        {
+            "hero": "luluca",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "violet",
+            "relationType": "trust"
+        },
+        {
+            "hero": "ras",
+            "relationType": "trust"
+        },
+        {
+            "hero": "destina",
+            "relationType": "longing"
+        },
+        {
+            "hero": "mercedes",
+            "relationType": "trust"
+        }
+    ],
     "stats": {
         "lv1BaseStarNoAwaken": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
+            "cp": 1526,
+            "atk": 107,
+            "hp": 246,
+            "spd": 103,
+            "def": 89,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0,
-            "efr": 0,
+            "eff": 0.0,
+            "efr": 0.0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
+            "cp": 12263,
+            "atk": 859,
+            "hp": 3270,
+            "spd": 103,
+            "def": 576,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0,
-            "efr": 0,
+            "eff": 0.0,
+            "efr": 0.0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
+            "cp": 13837,
+            "atk": 1056,
+            "hp": 3806,
+            "spd": 103,
+            "def": 576,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0,
-            "efr": 0,
+            "eff": 0.06,
+            "efr": 0.0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
+            "cp": 15290,
+            "atk": 1070,
+            "hp": 4111,
+            "spd": 103,
+            "def": 715,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0,
-            "efr": 0,
+            "eff": 0.0,
+            "efr": 0.0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
+            "cp": 17762,
+            "atk": 1316,
+            "hp": 4777,
+            "spd": 103,
+            "def": 715,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0,
-            "efr": 0,
+            "eff": 0.18,
+            "efr": 0.0,
             "dac": 0.05
         }
     },
@@ -82,7 +103,85 @@
             "name": "Wild Wave",
             "soulAcquire": 1,
             "description": "Attacks with intense elemental force. Damage dealt increases proportional to the amount of the enemy's lost Health.",
-            "enhancement": [],
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "leather-sheath",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 33000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "leather-sheath",
+                            "qty": 7
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 47000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "fighter-medal",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 100000
+                        }
+                    ]
+                }
+            ],
             "buffs": [],
             "debuffs": [],
             "damageModifiers": [
@@ -116,15 +215,79 @@
             "description": "With the blessing of the stars, grants increased Defense and barrier to all allies for 2 turns. Barrier strength increases proportional to the caster's Attack.",
             "enhancement": [
                 {
-                    "description": "-1 turn cooldown",
+                    "description": "Unknown",
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 0
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 0
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "Unknown",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        {
+                            "item": "leather-sheath",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 33000
+                        }
+                    ]
+                },
+                {
+                    "description": "Unknown",
+                    "resources": [
+                        {
+                            "item": "leather-sheath",
+                            "qty": 7
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 47000
+                        }
+                    ]
+                },
+                {
+                    "description": "Unknown",
+                    "resources": [
+                        {
+                            "item": "fighter-medal",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 100000
                         }
                     ]
                 }
@@ -158,22 +321,22 @@
             "soulBurn": 20,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
-            "awakenUpgrade": false,
+            "awakenUpgrade": true,
             "cooldown": 5,
             "name": "Wave of Vengeance",
             "soulAcquire": 3,
             "description": "Attacks all enemies with the power of ruin, with a 50% chance to decrease Defense for 2 turns. Damage dealt increases every time using this skill and can stack up to 3 times.",
             "enhancement": [
                 {
-                    "description": "-1 turn cooldown",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 0
+                            "qty": 1
                         },
                         {
                             "item": "gold",
-                            "qty": 0
+                            "qty": 4000
                         }
                     ]
                 },
@@ -182,11 +345,28 @@
                     "resources": [
                         {
                             "item": "molagora",
-                            "qty": 0
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 0
+                            "qty": 8000
+                        }
+                    ]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        {
+                            "item": "leather-sheath",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 33000
                         }
                     ]
                 },
@@ -194,12 +374,33 @@
                     "description": "+15% effect chance",
                     "resources": [
                         {
+                            "item": "leather-sheath",
+                            "qty": 7
+                        },
+                        {
                             "item": "molagora",
-                            "qty": 0
+                            "qty": 3
                         },
                         {
                             "item": "gold",
-                            "qty": 0
+                            "qty": 47000
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "fighter-medal",
+                            "qty": 2
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 2
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 100000
                         }
                     ]
                 }
@@ -241,32 +442,32 @@
     },
     "camping": {
         "options": [
-            "Option1",
-            "Option1"
+            "advice",
+            "sad-memory"
         ],
         "reactions": {
-            "advice": 0,
-            "belief": 0,
-            "bizarre-story": 0,
-            "comforting-cheer": 0,
-            "complain": 0,
-            "criticism": 0,
-            "cute-cheer": 0,
-            "dream": 0,
-            "food-story": 0,
+            "advice": 4,
+            "belief": -3,
+            "bizarre-story": -3,
+            "comforting-cheer": 6,
+            "complain": -3,
+            "criticism": 3,
+            "cute-cheer": 7,
+            "dream": 2,
+            "food-story": 3,
             "gossip": 0,
-            "happy-memory": 0,
-            "heroic-cheer": 0,
-            "heroic-tale": 0,
-            "horror-story": 0,
+            "happy-memory": 4,
+            "heroic-cheer": -3,
+            "heroic-tale": 5,
+            "horror-story": -4,
             "interesting-story": 0,
-            "joyful-memory": 0,
-            "myth": 0,
-            "occult": 0,
-            "reality-check": 0,
-            "sad-memory": 0,
-            "self-indulgent": 0,
-            "unique-comment": 0
+            "joyful-memory": 2,
+            "myth": 5,
+            "occult": 3,
+            "reality-check": -3,
+            "sad-memory": 3,
+            "self-indulgent": -6,
+            "unique-comment": 1
         }
     },
     "memoryImprintFormation": {
@@ -279,50 +480,50 @@
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "atk",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
+                "type": "atk",
                 "increase": 0
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.054
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.072
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.09
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 0.108
             }
         }
     ],
@@ -332,7 +533,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -353,7 +554,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "eff": 0.06
                 },
                 {
                     "atk": 20
@@ -400,7 +601,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
@@ -425,7 +626,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -440,7 +641,7 @@
                     "qty": 6
                 },
                 {
-                    "item": "",
+                    "item": "order-of-the-shield-insignia",
                     "qty": 15
                 }
             ]
@@ -450,7 +651,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "eff": 0.12
                 },
                 {
                     "atk": 30
@@ -465,7 +666,7 @@
                     "qty": 10
                 },
                 {
-                    "item": "",
+                    "item": "fighter-medal",
                     "qty": 10
                 }
             ]

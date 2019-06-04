@@ -434,31 +434,31 @@
     "camping": {
         "options": [
             "comforting-cheer",
-            "dream"
+            "sad-memory"
         ],
         "reactions": {
-            "advice": 4,
+            "advice": 3,
             "belief": 3,
-            "bizarre-story": 1,
+            "bizarre-story": -3,
             "comforting-cheer": 5,
-            "complain": -2,
-            "criticism": -3,
-            "cute-cheer": 5,
-            "dream": 3,
-            "food-story": 4,
-            "gossip": 4,
+            "complain": 3,
+            "criticism": -5,
+            "cute-cheer": 2,
+            "dream": 4,
+            "food-story": 5,
+            "gossip": 0,
             "happy-memory": 4,
-            "heroic-cheer": 5,
-            "heroic-tale": 3,
-            "horror-story": -6,
-            "interesting-story": 3,
+            "heroic-cheer": 4,
+            "heroic-tale": 2,
+            "horror-story": -5,
+            "interesting-story": 1,
             "joyful-memory": 4,
-            "myth": 3,
-            "occult": -1,
-            "reality-check": -5,
-            "sad-memory": 2,
-            "self-indulgent": -1,
-            "unique-comment": 0
+            "myth": 5,
+            "occult": -4,
+            "reality-check": -2,
+            "sad-memory": 6,
+            "self-indulgent": 2,
+            "unique-comment": 2
         }
     },
     "memoryImprintFormation": {
