@@ -21,4 +21,5 @@ module.exports = {
 		'awakening',
 	],
 	item: ['name', 'locations', 'description', 'type', 'rarity'],
+	latest: ['hero', 'artifact'],
 };
