@@ -10,7 +10,7 @@
     "background": "An Alien girl who traveled across the universe seeking revenge against Straze for bringing ruin to her world. She's determined to make Straze pay for what he has done to her friends and restore her homeworld.",
     "relations": [
         {
-            "hero": "luluca",
+            "hero": "straze",
             "relationType": "grudge"
         },
         {
@@ -207,7 +207,7 @@
             "isPassive": false,
             "soulBurn": 20,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "Skill cooldown is decreased by 1 turn.",
+            "soulBurnEffect": "Skill cooldown is decreased by 2 turn.",
             "awakenUpgrade": false,
             "cooldown": 4,
             "name": "Rekos's Blessing",
@@ -215,7 +215,7 @@
             "description": "With the blessing of the stars, grants increased Defense and barrier to all allies for 2 turns. Barrier strength increases proportional to the caster's Attack.",
             "enhancement": [
                 {
-                    "description": "Unknown",
+                    "description": "+5% barrier strength",
                     "resources": [
                         {
                             "item": "molagora",
@@ -228,7 +228,7 @@
                     ]
                 },
                 {
-                    "description": "Unknown",
+                    "description": "+5% barrier strength",
                     "resources": [
                         {
                             "item": "molagora",
@@ -258,7 +258,7 @@
                     ]
                 },
                 {
-                    "description": "Unknown",
+                    "description": "+5% barrier strength",
                     "resources": [
                         {
                             "item": "leather-sheath",
@@ -275,7 +275,7 @@
                     ]
                 },
                 {
-                    "description": "Unknown",
+                    "description": "+10% barrier strength",
                     "resources": [
                         {
                             "item": "fighter-medal",
@@ -318,7 +318,7 @@
         },
         {
             "isPassive": false,
-            "soulBurn": 20,
+            "soulBurn": 0,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
@@ -430,14 +430,14 @@
         }
     ],
     "specialtySkill": {
-        "name": "",
-        "description": "",
-        "dispatch": "[] Attribute",
-        "enhancement": "Reward Bonus +0%",
+        "name": "Unique Communion",
+        "description": "She can see the true nature of everything. Truth or lie, it doesn't matter to her.",
+        "dispatch": "[Time Limit] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 49,
+            "charm": 89,
+            "politics": 32
         }
     },
     "camping": {
