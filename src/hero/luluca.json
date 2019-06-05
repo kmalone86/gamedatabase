@@ -207,7 +207,7 @@
             "isPassive": false,
             "soulBurn": 20,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "Skill cooldown is decreased by 1 turn.",
+            "soulBurnEffect": "Skill cooldown is decreased by 2 turn.",
             "awakenUpgrade": false,
             "cooldown": 4,
             "name": "Rekos's Blessing",
@@ -318,7 +318,7 @@
         },
         {
             "isPassive": false,
-            "soulBurn": 20,
+            "soulBurn": 0,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
@@ -430,14 +430,14 @@
         }
     ],
     "specialtySkill": {
-        "name": "",
-        "description": "",
+        "name": "Unique Communion",
+        "description": "She can see the true nature of everything. Truth or lie, it doesn't matter to her.",
         "dispatch": "[] Attribute",
         "enhancement": "Reward Bonus +0%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 49,
+            "charm": 89,
+            "politics": 32
         }
     },
     "camping": {
