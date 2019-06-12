@@ -56,11 +56,11 @@
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
-            "cp": 17114,
-            "atk": 894,
-            "hp": 6840,
-            "spd": 104,
-            "def": 694,
+            "cp": 14985,
+            "atk": 744,
+            "hp": 5890,
+            "spd": 98,
+            "def": 655,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -68,11 +68,11 @@
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
+            "cp": 17114,
+            "atk": 894,
+            "hp": 6840,
+            "spd": 104,
+            "def": 694,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
