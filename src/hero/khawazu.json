@@ -1,5 +1,5 @@
 {
-    "gameId": "",
+    "gameId": "c1085",
     "name": "Khawazu",
     "rarity": 4,
     "classType": "warrior",
@@ -10,17 +10,29 @@
     "background": "A warrior of the Emberstorm tribe who ascended to Great Chief at a young age. He leads Meldrec with a stubborn insistence not to rely on outside assistance, but due to conflict between tribes, invading Unknowns, and the disappearance of Malicus, his troubles are starting to pile up.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "straze",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "ras",
+            "relationType": "trust"
+        },
+        {
+            "hero": "khawana",
+            "relationType": "trust"
+        },
+        {
+            "hero": "destina",
+            "relationType": "longing"
         }
     ],
     "stats": {
         "lv1BaseStarNoAwaken": {
-            "cp": 1240,
-            "atk": 76,
-            "hp": 262,
-            "spd": 108,
-            "def": 89,
+            "cp": 1253,
+            "atk": 84,
+            "hp": 294,
+            "spd": 100,
+            "def": 66,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
@@ -28,11 +40,11 @@
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
-            "cp": 10990,
-            "atk": 647,
-            "hp": 3688,
-            "spd": 108,
-            "def": 477,
+            "cp": 11276,
+            "atk": 713,
+            "hp": 4138,
+            "spd": 100,
+            "def": 452,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
@@ -40,23 +52,22 @@
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
-            "cp": 12701,
-            "atk": 767,
-            "hp": 4028,
-            "spd": 112,
-            "def": 477,
-            "chc": 0.19,
+            "cp": 12819,
+            "atk": 854,
+            "hp": 4850,
+            "spd": 100,
+            "def": 479,
+            "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.18,
+            "eff": 0.0,
             "efr": 0.0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
-            "cp": 13717,
-            "atk": 807,
-            "hp": 4637,
-            "spd": 108,
-            "def": 592,
+            "cp": 14079,
+            "hp": 5203,
+            "spd": 100,
+            "def": 561,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
@@ -64,14 +75,14 @@
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
-            "cp": 16298,
-            "atk": 957,
-            "hp": 5057,
-            "spd": 112,
-            "def": 592,
-            "chc": 0.27,
+            "cp": 16221,
+            "atk": 1119,
+            "hp": 6091,
+            "spd": 100,
+            "def": 594,
+            "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.18,
+            "eff": 0.0,
             "efr": 0.0,
             "dac": 0.05
         }
@@ -89,7 +100,7 @@
             "description": "Attacks the enemy with a ball of flame, with a 25% chance to burn for 2 turns.",
             "enhancement": [
                 {
-                    "description": "",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "molagora",
@@ -102,7 +113,20 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "molagora",
@@ -115,7 +139,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+10% effect chance",
                     "resources": [
                         {
                             "item": "sharp-spearhead",
@@ -123,20 +147,20 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 17000
+                            "qty": 13000
                         }
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
                             "item": "sharp-spearhead",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "molagora",
@@ -144,12 +168,29 @@
                         },
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 22000
                         }
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "sharp-spearhead",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
                             "item": "black-curse-powder",
@@ -174,8 +215,8 @@
                 {
                     "name": "pow",
                     "section": "pow",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0.95,
+                    "soulburn": 0.95
                 },
                 {
                     "name": "statModifier",
@@ -184,8 +225,8 @@
                     "stat": "atk",
                     "type": "multiplier",
                     "target": "self",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 1.0,
+                    "soulburn": 1.0
                 }
             ]
         },
@@ -201,79 +242,19 @@
             "description": "All debuffs are dispelled and Burning Vitality is activated if attacked while debuffed. Can only be activated once every 3 turn(s).\nBurning Vitality: Increases Attack of the caster for 2 turns.",
             "enhancement": [
                 {
-                    "description": "",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 4000
-                        }
-                    ]
-                },
-                {
-                    "description": "",
-                    "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 8000
-                        }
-                    ]
-                },
-                {
-                    "description": "",
-                    "resources": [
-                        {
-                            "item": "sharp-spearhead",
-                            "qty": 1
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 17000
-                        }
-                    ]
-                },
-                {
-                    "description": "",
-                    "resources": [
-                        {
-                            "item": "sharp-spearhead",
-                            "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 27000
-                        }
-                    ]
-                },
-                {
-                    "description": "",
+                    "description": "-1 turn cooldown",
                     "resources": [
                         {
                             "item": "black-curse-powder",
-                            "qty": 2
+                            "qty": 8
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 5
                         },
                         {
                             "item": "gold",
-                            "qty": 80000
+                            "qty": 60000
                         }
                     ]
                 }
@@ -309,11 +290,11 @@
             "awakenUpgrade": true,
             "cooldown": 4,
             "name": "Emberstorm",
-            "soulAcquire": 2,
+            "soulAcquire": 0,
             "description": "Attacks with a fiery explosion, making the target unhealable for 2 turns.",
             "enhancement": [
                 {
-                    "description": "",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "molagora",
@@ -326,7 +307,20 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "molagora",
@@ -339,7 +333,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "-1 turn cooldown",
                     "resources": [
                         {
                             "item": "sharp-spearhead",
@@ -347,20 +341,20 @@
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "gold",
-                            "qty": 17000
+                            "qty": 13000
                         }
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "sharp-spearhead",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "molagora",
@@ -368,12 +362,29 @@
                         },
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 22000
                         }
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "sharp-spearhead",
+                            "qty": 5
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "gold",
+                            "qty": 45000
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
                             "item": "black-curse-powder",
@@ -398,8 +409,8 @@
                 {
                     "name": "pow",
                     "section": "pow",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 1.0,
+                    "soulburn": 1.0
                 },
                 {
                     "name": "statModifier",
@@ -408,8 +419,8 @@
                     "stat": "atk",
                     "type": "multiplier",
                     "target": "self",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 1.0,
+                    "soulburn": 1.0
                 }
             ]
         }
@@ -417,8 +428,8 @@
     "specialtySkill": {
         "name": "Unshakeable Will",
         "description": "Right or wrong, he has the will to see his decisions through to the end.",
-        "dispatch": "[] Attribute",
-        "enhancement": "Reward Bonus +%",
+        "dispatch": "[Intelligence] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
             "command": 82,
             "charm": 69,
@@ -518,7 +529,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.06
+                    "hp": 0.03
                 },
                 {
                     "atk": 20
@@ -539,7 +550,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.04
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -586,7 +597,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "spd": 4
+                    "def": 0.06
                 },
                 {
                     "atk": 30
@@ -611,7 +622,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.12
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
@@ -636,7 +647,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.08
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
