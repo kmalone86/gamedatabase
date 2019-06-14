@@ -108,12 +108,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -121,12 +121,12 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
                             "item": "gold",
                             "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
                         }
                     ]
                 },
@@ -134,16 +134,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "twisted-fang",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 17000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "twisted-fang",
+                            "qty": 1
                         }
                     ]
                 },
@@ -151,16 +151,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "twisted-fang",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 27000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 27000
+                            "item": "twisted-fang",
+                            "qty": 3
                         }
                     ]
                 },
@@ -168,16 +168,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "blazing-soul",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 80000
+                            "item": "blazing-soul",
+                            "qty": 2
                         }
                     ]
                 }
@@ -220,25 +220,25 @@
                     "description": "+5% damage dealt by additional skill",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
                 {
                     "description": "+5% damage dealt by additional skill",
                     "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
                         {
                             "item": "gold",
                             "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
                         }
                     ]
                 },
@@ -246,33 +246,33 @@
                     "description": "+5% damage dealt by additional skill",
                     "resources": [
                         {
-                            "item": "twisted-fang",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 17000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "twisted-fang",
+                            "qty": 1
                         }
                     ]
                 },
                 {
                     "description": "+10% damage dealt by additional skill",
                     "resources": [
-                        {
-                            "item": "twisted-fang",
-                            "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
                         {
                             "item": "gold",
                             "qty": 27000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "twisted-fang",
+                            "qty": 3
                         }
                     ]
                 },
@@ -280,16 +280,16 @@
                     "description": "+10% damage dealt by additional skill",
                     "resources": [
                         {
-                            "item": "blazing-soul",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 80000
+                            "item": "blazing-soul",
+                            "qty": 2
                         }
                     ]
                 }
@@ -330,12 +330,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -343,12 +343,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
                             "item": "gold",
                             "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
                         }
                     ]
                 },
@@ -356,33 +356,33 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "twisted-fang",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 17000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "twisted-fang",
+                            "qty": 1
                         }
                     ]
                 },
                 {
                     "description": "+10% damage dealt",
                     "resources": [
-                        {
-                            "item": "twisted-fang",
-                            "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
                         {
                             "item": "gold",
                             "qty": 27000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "twisted-fang",
+                            "qty": 3
                         }
                     ]
                 },
@@ -390,16 +390,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "blazing-soul",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 80000
+                            "item": "blazing-soul",
+                            "qty": 2
                         }
                     ]
                 }
@@ -475,6 +475,7 @@
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "atk",
     "memoryImprint": [
         {
             "rank": "d",

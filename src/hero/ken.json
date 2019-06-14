@@ -96,12 +96,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -109,12 +109,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
                             "item": "gold",
                             "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
                         }
                     ]
                 },
@@ -122,16 +122,16 @@
                     "description": "+5 Fighting Spirit acquired",
                     "resources": [
                         {
-                            "item": "slime-jelly",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 22000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 22000
+                            "item": "slime-jelly",
+                            "qty": 2
                         }
                     ]
                 },
@@ -139,16 +139,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "slime-jelly",
-                            "qty": 4
+                            "item": "gold",
+                            "qty": 36000
                         },
                         {
                             "item": "molagora",
                             "qty": 4
                         },
                         {
-                            "item": "gold",
-                            "qty": 36000
+                            "item": "slime-jelly",
+                            "qty": 4
                         }
                     ]
                 },
@@ -156,16 +156,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "slime-jelly",
-                            "qty": 5
+                            "item": "gold",
+                            "qty": 45000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 45000
+                            "item": "slime-jelly",
+                            "qty": 5
                         }
                     ]
                 },
@@ -173,16 +173,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "dragons-wrath",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 80000
+                            "item": "dragons-wrath",
+                            "qty": 2
                         }
                     ]
                 }
@@ -236,16 +236,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "slime-jelly",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 19000
                         },
                         {
                             "item": "molagora",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 19000
+                            "item": "slime-jelly",
+                            "qty": 3
                         }
                     ]
                 },
@@ -253,16 +253,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "slime-jelly",
-                            "qty": 5
+                            "item": "gold",
+                            "qty": 37000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 37000
+                            "item": "slime-jelly",
+                            "qty": 5
                         }
                     ]
                 },
@@ -270,16 +270,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "dragons-wrath",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 130000
                         },
                         {
                             "item": "molagorago",
                             "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 130000
+                            "item": "dragons-wrath",
+                            "qty": 3
                         }
                     ]
                 }
@@ -335,12 +335,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -348,12 +348,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
                             "item": "gold",
                             "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
                         }
                     ]
                 },
@@ -361,16 +361,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "slime-jelly",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 22000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 22000
+                            "item": "slime-jelly",
+                            "qty": 2
                         }
                     ]
                 },
@@ -378,16 +378,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "slime-jelly",
-                            "qty": 4
+                            "item": "gold",
+                            "qty": 36000
                         },
                         {
                             "item": "molagora",
                             "qty": 4
                         },
                         {
-                            "item": "gold",
-                            "qty": 36000
+                            "item": "slime-jelly",
+                            "qty": 4
                         }
                     ]
                 },
@@ -395,16 +395,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "slime-jelly",
-                            "qty": 5
+                            "item": "gold",
+                            "qty": 45000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 45000
+                            "item": "slime-jelly",
+                            "qty": 5
                         }
                     ]
                 },
@@ -412,16 +412,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "dragons-wrath",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 80000
+                            "item": "dragons-wrath",
+                            "qty": 2
                         }
                     ]
                 }
@@ -508,6 +508,7 @@
         "east": false,
         "west": true
     },
+    "memoryImprintAttribute": "hp",
     "memoryImprint": [
         {
             "rank": "d",

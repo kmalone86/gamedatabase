@@ -112,38 +112,25 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
                 {
                     "description": "+5% damage dealt",
                     "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
                         {
                             "item": "gold",
                             "qty": 8000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
+                        },
                         {
                             "item": "molagora",
                             "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 8000
                         }
                     ]
                 },
@@ -151,33 +138,46 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "archers-vision",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 8000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
-                        },
+                            "qty": 2
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
                         {
                             "item": "gold",
                             "qty": 27000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 3
                         }
                     ]
                 },
                 {
                     "description": "+10% damage dealt",
                     "resources": [
-                        {
-                            "item": "archers-vision",
-                            "qty": 4
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
                         {
                             "item": "gold",
                             "qty": 40000
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 4
                         }
                     ]
                 },
@@ -185,16 +185,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "archers-vision",
-                            "qty": 7
+                            "item": "gold",
+                            "qty": 55000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 55000
+                            "item": "archers-vision",
+                            "qty": 7
                         }
                     ]
                 },
@@ -202,16 +202,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "mercenarys-medicine",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 110000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 110000
+                            "item": "mercenarys-medicine",
+                            "qty": 3
                         }
                     ]
                 }
@@ -252,12 +252,12 @@
                     "description": "+2% healing / Combat Readiness",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -265,12 +265,12 @@
                     "description": "+2% healing / Combat Readiness",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
                             "item": "gold",
                             "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
                         }
                     ]
                 },
@@ -278,46 +278,46 @@
                     "description": "+2% healing / Combat Readiness",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
                             "item": "gold",
                             "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
                         }
                     ]
                 },
                 {
                     "description": "+3% healing / Combat Readiness",
                     "resources": [
-                        {
-                            "item": "archers-vision",
-                            "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
                         {
                             "item": "gold",
                             "qty": 27000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 3
                         }
                     ]
                 },
                 {
                     "description": "+3% healing / Combat Readiness",
                     "resources": [
-                        {
-                            "item": "archers-vision",
-                            "qty": 4
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
                         {
                             "item": "gold",
                             "qty": 40000
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 4
                         }
                     ]
                 },
@@ -325,16 +325,16 @@
                     "description": "+3% healing / Combat Readiness",
                     "resources": [
                         {
-                            "item": "archers-vision",
-                            "qty": 7
+                            "item": "gold",
+                            "qty": 55000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 55000
+                            "item": "archers-vision",
+                            "qty": 7
                         }
                     ]
                 },
@@ -342,16 +342,16 @@
                     "description": "+5% healing / Combat Readiness",
                     "resources": [
                         {
-                            "item": "mercenarys-medicine",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 110000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 110000
+                            "item": "mercenarys-medicine",
+                            "qty": 3
                         }
                     ]
                 }
@@ -392,16 +392,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "archers-vision",
-                            "qty": 8
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
                             "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 80000
+                            "item": "archers-vision",
+                            "qty": 8
                         }
                     ]
                 }
@@ -444,38 +444,25 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
                 {
                     "description": "+5% damage dealt",
                     "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
                         {
                             "item": "gold",
                             "qty": 8000
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
+                        },
                         {
                             "item": "molagora",
                             "qty": 2
-                        },
-                        {
-                            "item": "gold",
-                            "qty": 8000
                         }
                     ]
                 },
@@ -483,33 +470,46 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "archers-vision",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 8000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
-                        },
+                            "qty": 2
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
                         {
                             "item": "gold",
                             "qty": 27000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 3
                         }
                     ]
                 },
                 {
                     "description": "+10% damage dealt",
                     "resources": [
-                        {
-                            "item": "archers-vision",
-                            "qty": 4
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
                         {
                             "item": "gold",
                             "qty": 40000
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 4
                         }
                     ]
                 },
@@ -517,16 +517,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "archers-vision",
-                            "qty": 7
+                            "item": "gold",
+                            "qty": 55000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 55000
+                            "item": "archers-vision",
+                            "qty": 7
                         }
                     ]
                 },
@@ -534,16 +534,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "mercenarys-medicine",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 110000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 110000
+                            "item": "mercenarys-medicine",
+                            "qty": 3
                         }
                     ]
                 }
@@ -584,12 +584,12 @@
                     "description": "+2% healing / Combat Readiness",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -597,12 +597,12 @@
                     "description": "+2% healing / Combat Readiness",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
                             "item": "gold",
                             "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
                         }
                     ]
                 },
@@ -610,46 +610,46 @@
                     "description": "+2% healing / Combat Readiness",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
                             "item": "gold",
                             "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
                         }
                     ]
                 },
                 {
                     "description": "+3% healing / Combat Readiness",
                     "resources": [
-                        {
-                            "item": "archers-vision",
-                            "qty": 3
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
                         {
                             "item": "gold",
                             "qty": 27000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 3
                         }
                     ]
                 },
                 {
                     "description": "+3% healing / Combat Readiness",
                     "resources": [
-                        {
-                            "item": "archers-vision",
-                            "qty": 4
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
                         {
                             "item": "gold",
                             "qty": 40000
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 4
                         }
                     ]
                 },
@@ -657,16 +657,16 @@
                     "description": "+3% healing / Combat Readiness",
                     "resources": [
                         {
-                            "item": "archers-vision",
-                            "qty": 7
+                            "item": "gold",
+                            "qty": 55000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 55000
+                            "item": "archers-vision",
+                            "qty": 7
                         }
                     ]
                 },
@@ -674,16 +674,16 @@
                     "description": "+5% healing / Combat Readiness",
                     "resources": [
                         {
-                            "item": "mercenarys-medicine",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 110000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 110000
+                            "item": "mercenarys-medicine",
+                            "qty": 3
                         }
                     ]
                 }
@@ -759,6 +759,7 @@
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "atk",
     "memoryImprint": [
         {
             "rank": "d",
