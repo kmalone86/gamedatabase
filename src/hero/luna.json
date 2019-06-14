@@ -104,25 +104,25 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
                 {
                     "description": "+5% damage dealt",
                     "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
                         {
                             "item": "gold",
                             "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
                         }
                     ]
                 },
@@ -130,16 +130,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "mysterious-flash",
-                            "qty": 5
+                            "item": "gold",
+                            "qty": 33000
                         },
                         {
                             "item": "molagora",
                             "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 33000
+                            "item": "mysterious-flash",
+                            "qty": 5
                         }
                     ]
                 },
@@ -147,16 +147,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "mysterious-flash",
-                            "qty": 7
+                            "item": "gold",
+                            "qty": 47000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 47000
+                            "item": "mysterious-flash",
+                            "qty": 7
                         }
                     ]
                 },
@@ -164,16 +164,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "reingar-student-id",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 100000
                         },
                         {
                             "item": "molagorago",
                             "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "reingar-student-id",
+                            "qty": 2
                         }
                     ]
                 }
@@ -214,25 +214,25 @@
                     "description": "+1% all stats",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
                 {
                     "description": "+2% all stats",
                     "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
                         {
                             "item": "gold",
                             "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
                         }
                     ]
                 },
@@ -240,16 +240,16 @@
                     "description": "+2% all stats",
                     "resources": [
                         {
-                            "item": "mysterious-flash",
-                            "qty": 5
+                            "item": "gold",
+                            "qty": 33000
                         },
                         {
                             "item": "molagora",
                             "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 33000
+                            "item": "mysterious-flash",
+                            "qty": 5
                         }
                     ]
                 },
@@ -257,16 +257,16 @@
                     "description": "+2% all stats",
                     "resources": [
                         {
-                            "item": "mysterious-flash",
-                            "qty": 7
+                            "item": "gold",
+                            "qty": 47000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 47000
+                            "item": "mysterious-flash",
+                            "qty": 7
                         }
                     ]
                 },
@@ -274,16 +274,16 @@
                     "description": "+3% all stats",
                     "resources": [
                         {
-                            "item": "reingar-student-id",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 100000
                         },
                         {
                             "item": "molagorago",
                             "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "reingar-student-id",
+                            "qty": 2
                         }
                     ]
                 }
@@ -324,12 +324,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -337,12 +337,12 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
                             "item": "gold",
                             "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
                         }
                     ]
                 },
@@ -350,16 +350,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "mysterious-flash",
-                            "qty": 5
+                            "item": "gold",
+                            "qty": 33000
                         },
                         {
                             "item": "molagora",
                             "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 33000
+                            "item": "mysterious-flash",
+                            "qty": 5
                         }
                     ]
                 },
@@ -367,16 +367,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "mysterious-flash",
-                            "qty": 7
+                            "item": "gold",
+                            "qty": 47000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 47000
+                            "item": "mysterious-flash",
+                            "qty": 7
                         }
                     ]
                 },
@@ -384,16 +384,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "reingar-student-id",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 100000
                         },
                         {
                             "item": "molagorago",
                             "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "reingar-student-id",
+                            "qty": 2
                         }
                     ]
                 }
@@ -469,6 +469,7 @@
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "chc",
     "memoryImprint": [
         {
             "rank": "d",

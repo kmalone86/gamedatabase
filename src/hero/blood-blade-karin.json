@@ -104,12 +104,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -117,12 +117,12 @@
                     "description": "+15% healing",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
                             "item": "gold",
                             "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
                         }
                     ]
                 },
@@ -130,16 +130,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "sharp-spearhead",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 17000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "sharp-spearhead",
+                            "qty": 1
                         }
                     ]
                 },
@@ -147,16 +147,16 @@
                     "description": "+15% healing",
                     "resources": [
                         {
-                            "item": "sharp-spearhead",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 27000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 27000
+                            "item": "sharp-spearhead",
+                            "qty": 3
                         }
                     ]
                 },
@@ -164,16 +164,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "black-curse-powder",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 80000
+                            "item": "black-curse-powder",
+                            "qty": 2
                         }
                     ]
                 }
@@ -214,42 +214,42 @@
                     "description": "+5% stat increase",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
                 {
                     "description": "+10% stat increase",
                     "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
                         {
                             "item": "gold",
                             "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
                         }
                     ]
                 },
                 {
                     "description": "+10% stat increase",
                     "resources": [
-                        {
-                            "item": "sharp-spearhead",
-                            "qty": 1
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
                         {
                             "item": "gold",
                             "qty": 17000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "sharp-spearhead",
+                            "qty": 1
                         }
                     ]
                 },
@@ -257,16 +257,16 @@
                     "description": "+10% stat increase",
                     "resources": [
                         {
-                            "item": "sharp-spearhead",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 27000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 27000
+                            "item": "sharp-spearhead",
+                            "qty": 3
                         }
                     ]
                 },
@@ -274,16 +274,16 @@
                     "description": "+15% stat increase",
                     "resources": [
                         {
-                            "item": "black-curse-powder",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 80000
+                            "item": "black-curse-powder",
+                            "qty": 2
                         }
                     ]
                 }
@@ -324,12 +324,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -337,12 +337,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
                             "item": "gold",
                             "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
                         }
                     ]
                 },
@@ -350,16 +350,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "sharp-spearhead",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 17000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 17000
+                            "item": "sharp-spearhead",
+                            "qty": 1
                         }
                     ]
                 },
@@ -367,16 +367,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "sharp-spearhead",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 27000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 27000
+                            "item": "sharp-spearhead",
+                            "qty": 3
                         }
                     ]
                 },
@@ -384,16 +384,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "black-curse-powder",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 80000
+                            "item": "black-curse-powder",
+                            "qty": 2
                         }
                     ]
                 }
@@ -467,6 +467,7 @@
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "atk",
     "memoryImprint": [
         {
             "rank": "d",

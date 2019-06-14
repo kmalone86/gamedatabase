@@ -210,6 +210,7 @@
         "east": false,
         "west": false
     },
+    "memoryImprintAttribute": "",
     "memoryImprint": [
         {
             "rank": "d",

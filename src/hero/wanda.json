@@ -104,12 +104,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -117,12 +117,12 @@
                     "description": "+2% Combat Readiness",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -130,16 +130,16 @@
                     "description": "+3% Combat Readiness",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 13000
                         },
                         {
                             "item": "molagora",
                             "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 13000
+                            "item": "ring-of-glory",
+                            "qty": 1
                         }
                     ]
                 },
@@ -147,16 +147,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 18000
                         },
                         {
                             "item": "molagora",
                             "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 18000
+                            "item": "ring-of-glory",
+                            "qty": 2
                         }
                     ]
                 },
@@ -164,16 +164,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 4
+                            "item": "gold",
+                            "qty": 32000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 32000
+                            "item": "ring-of-glory",
+                            "qty": 4
                         }
                     ]
                 },
@@ -181,16 +181,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 6
+                            "item": "gold",
+                            "qty": 50000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 50000
+                            "item": "ring-of-glory",
+                            "qty": 6
                         }
                     ]
                 }
@@ -233,16 +233,16 @@
                     "description": "+5% trigger chance",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 14000
                         },
                         {
                             "item": "molagora",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 14000
+                            "item": "ring-of-glory",
+                            "qty": 2
                         }
                     ]
                 },
@@ -250,16 +250,16 @@
                     "description": "+5% trigger chance",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 23000
                         },
                         {
                             "item": "molagora",
                             "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 23000
+                            "item": "ring-of-glory",
+                            "qty": 3
                         }
                     ]
                 },
@@ -267,16 +267,16 @@
                     "description": "+10% trigger chance",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 5
+                            "item": "gold",
+                            "qty": 45000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 45000
+                            "item": "ring-of-glory",
+                            "qty": 5
                         }
                     ]
                 }
@@ -319,12 +319,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -332,29 +332,29 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
                 {
                     "description": "+10% effect chance",
                     "resources": [
-                        {
-                            "item": "ring-of-glory",
-                            "qty": 1
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
                         {
                             "item": "gold",
                             "qty": 13000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 1
                         }
                     ]
                 },
@@ -362,16 +362,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 18000
                         },
                         {
                             "item": "molagora",
                             "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 18000
+                            "item": "ring-of-glory",
+                            "qty": 2
                         }
                     ]
                 },
@@ -379,16 +379,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 4
+                            "item": "gold",
+                            "qty": 32000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 32000
+                            "item": "ring-of-glory",
+                            "qty": 4
                         }
                     ]
                 },
@@ -396,16 +396,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "ring-of-glory",
-                            "qty": 6
+                            "item": "gold",
+                            "qty": 50000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 50000
+                            "item": "ring-of-glory",
+                            "qty": 6
                         }
                     ]
                 }
@@ -481,6 +481,7 @@
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "atk",
     "memoryImprint": [
         {
             "rank": "d",

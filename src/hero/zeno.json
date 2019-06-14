@@ -96,12 +96,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -109,12 +109,12 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
                             "item": "gold",
                             "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
                         }
                     ]
                 },
@@ -122,16 +122,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "shiny-enchantment",
-                            "qty": 5
+                            "item": "gold",
+                            "qty": 33000
                         },
                         {
                             "item": "molagora",
                             "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 33000
+                            "item": "shiny-enchantment",
+                            "qty": 5
                         }
                     ]
                 },
@@ -139,16 +139,16 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "shiny-enchantment",
-                            "qty": 7
+                            "item": "gold",
+                            "qty": 47000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 47000
+                            "item": "shiny-enchantment",
+                            "qty": 7
                         }
                     ]
                 },
@@ -156,16 +156,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "horn-of-desire",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 100000
                         },
                         {
                             "item": "molagorago",
                             "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "horn-of-desire",
+                            "qty": 2
                         }
                     ]
                 }
@@ -218,25 +218,25 @@
                     "description": "+0.5% effect",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
                 {
                     "description": "+0.5% effect",
                     "resources": [
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
                         {
                             "item": "gold",
                             "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
                         }
                     ]
                 },
@@ -244,16 +244,16 @@
                     "description": "+0.5% effect",
                     "resources": [
                         {
-                            "item": "shiny-enchantment",
-                            "qty": 5
+                            "item": "gold",
+                            "qty": 33000
                         },
                         {
                             "item": "molagora",
                             "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 33000
+                            "item": "shiny-enchantment",
+                            "qty": 5
                         }
                     ]
                 },
@@ -261,16 +261,16 @@
                     "description": "+0.5% effect",
                     "resources": [
                         {
-                            "item": "shiny-enchantment",
-                            "qty": 7
+                            "item": "gold",
+                            "qty": 47000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 47000
+                            "item": "shiny-enchantment",
+                            "qty": 7
                         }
                     ]
                 },
@@ -278,16 +278,16 @@
                     "description": "+1% effect",
                     "resources": [
                         {
-                            "item": "horn-of-desire",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 100000
                         },
                         {
                             "item": "molagorago",
                             "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "horn-of-desire",
+                            "qty": 2
                         }
                     ]
                 }
@@ -328,12 +328,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -341,12 +341,12 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
                             "item": "gold",
                             "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
                         }
                     ]
                 },
@@ -354,16 +354,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "shiny-enchantment",
-                            "qty": 5
+                            "item": "gold",
+                            "qty": 33000
                         },
                         {
                             "item": "molagora",
                             "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 33000
+                            "item": "shiny-enchantment",
+                            "qty": 5
                         }
                     ]
                 },
@@ -371,16 +371,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "shiny-enchantment",
-                            "qty": 7
+                            "item": "gold",
+                            "qty": 47000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 47000
+                            "item": "shiny-enchantment",
+                            "qty": 7
                         }
                     ]
                 },
@@ -388,16 +388,16 @@
                     "description": "+15% damage dealt",
                     "resources": [
                         {
-                            "item": "horn-of-desire",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 100000
                         },
                         {
                             "item": "molagorago",
                             "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 100000
+                            "item": "horn-of-desire",
+                            "qty": 2
                         }
                     ]
                 }
@@ -484,6 +484,7 @@
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "eff",
     "memoryImprint": [
         {
             "rank": "d",

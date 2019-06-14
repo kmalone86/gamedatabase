@@ -96,12 +96,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -109,12 +109,12 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -122,16 +122,16 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "shiny-enchantment",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 13000
                         },
                         {
                             "item": "molagora",
                             "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 13000
+                            "item": "shiny-enchantment",
+                            "qty": 1
                         }
                     ]
                 },
@@ -139,16 +139,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "shiny-enchantment",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 18000
                         },
                         {
                             "item": "molagora",
                             "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 18000
+                            "item": "shiny-enchantment",
+                            "qty": 2
                         }
                     ]
                 },
@@ -156,16 +156,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "shiny-enchantment",
-                            "qty": 4
+                            "item": "gold",
+                            "qty": 32000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 32000
+                            "item": "shiny-enchantment",
+                            "qty": 4
                         }
                     ]
                 },
@@ -173,16 +173,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "shiny-enchantment",
-                            "qty": 6
+                            "item": "gold",
+                            "qty": 50000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 50000
+                            "item": "shiny-enchantment",
+                            "qty": 6
                         }
                     ]
                 }
@@ -225,16 +225,16 @@
                     "description": "+5% effect chance",
                     "resources": [
                         {
-                            "item": "shiny-enchantment",
-                            "qty": 2
+                            "item": "gold",
+                            "qty": 14000
                         },
                         {
                             "item": "molagora",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 14000
+                            "item": "shiny-enchantment",
+                            "qty": 2
                         }
                     ]
                 },
@@ -242,16 +242,16 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "shiny-enchantment",
-                            "qty": 3
+                            "item": "gold",
+                            "qty": 23000
                         },
                         {
                             "item": "molagora",
                             "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 23000
+                            "item": "shiny-enchantment",
+                            "qty": 3
                         }
                     ]
                 },
@@ -259,16 +259,16 @@
                     "description": "+10% effect chance",
                     "resources": [
                         {
-                            "item": "shiny-enchantment",
-                            "qty": 5
+                            "item": "gold",
+                            "qty": 45000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 45000
+                            "item": "shiny-enchantment",
+                            "qty": 5
                         }
                     ]
                 }
@@ -311,12 +311,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -324,12 +324,12 @@
                     "description": "+5% damage dealt",
                     "resources": [
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
                             "item": "gold",
                             "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
                         }
                     ]
                 },
@@ -337,33 +337,33 @@
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
-                            "item": "shiny-enchantment",
-                            "qty": 1
+                            "item": "gold",
+                            "qty": 13000
                         },
                         {
                             "item": "molagora",
                             "qty": 2
                         },
                         {
-                            "item": "gold",
-                            "qty": 13000
+                            "item": "shiny-enchantment",
+                            "qty": 1
                         }
                     ]
                 },
                 {
                     "description": "+10% damage dealt",
                     "resources": [
-                        {
-                            "item": "shiny-enchantment",
-                            "qty": 2
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
                         {
                             "item": "gold",
                             "qty": 18000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "shiny-enchantment",
+                            "qty": 2
                         }
                     ]
                 },
@@ -371,16 +371,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "shiny-enchantment",
-                            "qty": 4
+                            "item": "gold",
+                            "qty": 32000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "gold",
-                            "qty": 32000
+                            "item": "shiny-enchantment",
+                            "qty": 4
                         }
                     ]
                 },
@@ -388,16 +388,16 @@
                     "description": "+10% damage dealt",
                     "resources": [
                         {
-                            "item": "shiny-enchantment",
-                            "qty": 6
+                            "item": "gold",
+                            "qty": 50000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "gold",
-                            "qty": 50000
+                            "item": "shiny-enchantment",
+                            "qty": 6
                         }
                     ]
                 }
@@ -473,6 +473,7 @@
         "east": true,
         "west": true
     },
+    "memoryImprintAttribute": "atk",
     "memoryImprint": [
         {
             "rank": "d",
