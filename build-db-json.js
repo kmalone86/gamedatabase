@@ -45,9 +45,7 @@ const buildFolder = async (dir) => {
 		}
 		log(
 			warning(
-				`BUILD: ${
-					fileArray.length
-				} JSON files were found in "${dir}" folder and will be built into a single file "dist/${folderToMatch}.json".`
+				`BUILD: ${fileArray.length} JSON files were found in "${dir}" folder and will be built into a single file "dist/${folderToMatch}.json".`
 			)
 		);
 
