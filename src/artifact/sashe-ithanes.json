@@ -8,8 +8,8 @@
         "This is the Sashe Ithanes. It is a flame that will shake the world on its axis, that will destroy people, cities, kingdoms, even dreams. Take it, and in my name bring an end to everything."
     ],
     "skillDescription": {
-        "base": "Increases Combat Readiness of all Allies by 15.0% when the enemy is defeated.",
-        "max": "Increases Combat Readiness of all Allies by 30.0% when the enemy is defeated."
+        "base": "Increases Combat Readiness of all Allies by 8.0% when the enemy is defeated.",
+        "max": "Increases Combat Readiness of all Allies by 16.0% when the enemy is defeated."
     },
     "stats": {
         "base": {
