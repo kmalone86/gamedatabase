@@ -214,7 +214,7 @@
             "cooldown": 2,
             "name": "Regen",
             "soulAcquire": 1,
-            "description": "Recovers ally's Health with healing magic, and increases Combat Readiness by 80%. Amount recovered is proportional to the ally's max Health.",
+            "description": "Uses healing magic to recover Health and increase Combat Readiness by 80% of ally, before increasing caster's Combat Readiness by 30%. Amount recovered is proportional to the ally’s max Health.",
             "enhancement": [
                 {
                     "description": "+5% healing",
@@ -324,7 +324,7 @@
             "cooldown": 4,
             "name": "Serenity",
             "soulAcquire": 2,
-            "description": "Uses strengthening magic to increase the Combat Readiness of allies by 10% and grant continuous healing for 3 turns.",
+            "description": "Uses strengthening magic to recover Health, increase Combat Readiness by 10%, and grant continuous healing for 3 turns to all allies.",
             "enhancement": [
                 {
                     "description": "+2% Combat Readiness",

@@ -240,7 +240,7 @@
             "cooldown": 5,
             "name": "Duel Accepted",
             "soulAcquire": 2,
-            "description": "Prepares for a duel by recovering Health, granting an extra turn to the caster. If the skill is on cooldown, increases Evasion Chance by 30%. After successfully evading, gains 1 Focus and counterattacks. Amount recovered is proportional to the caster's max Health.",
+            "description": "Prepares for a duel by dispelling two debuffs, recovering Health by 15%, and granting an extra turn. If this skill is on cooldown, Evasion increases by 35%. After successfully evading, counterattacks with Graceful Cut and gains 1 Focus.",
             "enhancement": [
                 {
                     "description": "-1 turn cooldown",

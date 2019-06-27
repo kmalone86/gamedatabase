@@ -102,7 +102,7 @@
             "cooldown": 0,
             "name": "Falling Strike",
             "soulAcquire": 1,
-            "description": "Mows down enemies with a great sword, with a 35% chance to decrease Speed for 2 turns.",
+            "description": "Mows down enemies with a great sword, with a 35% chance to decrease Speed for 2 turns, and decrease Combat Readiness by 20%.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",

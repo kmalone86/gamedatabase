@@ -306,10 +306,10 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": true,
-            "cooldown": 6,
+            "cooldown": 5,
             "name": "Predatory Roar",
             "soulAcquire": 3,
-            "description": "Attacks all enemies with wild energy, with a 50% chance to decrease Attack for 2 turns, before recovering half of the caster's max Health. Damage dealt increases proportional to the caster's max Health, with additional damage increase when the caster has less than 50% Health.",
+            "description": "Attacks all enemies with wild energy, healing the caster by 50% of max Health before granting increased Defense for 2 turns, with a 50% chance to decrease Attack of the enemy for 2 turns. Damage dealt increases proportional to the caster's max Health, with additional damage increase when the caster has less than 50% Health.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -406,7 +406,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_def_up"
+            ],
             "debuffs": [
                 "stic_att_dn"
             ],

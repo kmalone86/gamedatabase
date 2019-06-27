@@ -370,12 +370,12 @@
             "isPassive": false,
             "soulBurn": 20,
             "selfSkillBarValue": -50,
-            "soulBurnEffect": "",
+            "soulBurnEffect": "Amount of Health recovered is doubled.",
             "awakenUpgrade": true,
-            "cooldown": 6,
+            "cooldown": 0,
             "name": "Fury's Advent",
             "soulAcquire": 2,
-            "description": "Strengthens the caster with fighting spirit for 3 turns, recovering Health, and increasing Defense for 3 turns. Grants extra turn.\nShield Slam: Increases Damage dealt, stunning the enemy for 1 turn.\nMacerate: Decreases the enemy's Combat Readiness twice.\nWhen attacked, acquires 10 Fighting Spirit.",
+            "description": "Strengthens the caster with fighting spirit for 3 turns, recovering Health, and increasing Defense for 3 turns. Grants extra turn.\nShield Slam: Increases Damage dealt, stunning for 1 turn.\nMacerate: Decreases the enemy's Combat Readiness twice.\nAcquires 10 Fighting Spirit when attacking or attacked.",
             "enhancement": [
                 {
                     "description": "+2 Soul acquired",
@@ -395,7 +395,7 @@
                     ]
                 },
                 {
-                    "description": "-1 turn cooldown",
+                    "description": "+20% healing",
                     "resources": [
                         {
                             "item": "gold",

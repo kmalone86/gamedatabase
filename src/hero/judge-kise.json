@@ -198,14 +198,14 @@
         },
         {
             "isPassive": false,
-            "soulBurn": 10,
+            "soulBurn": 20,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "Increases damage dealt.",
+            "soulBurnEffect": "Grants an extra turn.",
             "awakenUpgrade": false,
             "cooldown": 3,
             "name": "End of Evil",
             "soulAcquire": 2,
-            "description": "Attacks all enemies with Scythe. Damage increases with more enemies.",
+            "description": "Attacks all enemies with a scythe, with a 75% chance to dispel a buff from each enemy. Damage dealt increases with more enemies.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -288,8 +288,8 @@
                     "stat": "atk",
                     "type": "multiplier",
                     "target": "self",
-                    "value": 0.9,
-                    "soulburn": 1.15
+                    "value": 1.0,
+                    "soulburn": 1.0
                 }
             ]
         },
@@ -299,10 +299,10 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
-            "cooldown": 7,
+            "cooldown": 6,
             "name": "Wave of Light",
             "soulAcquire": 3,
-            "description": "Attacks all enemies by distorting space and time with a 50% chance to increase skill cooldown three times by 1 turn.",
+            "description": "Attacks all enemies by distorting space and time, with a 55% chance to increase skill cooldown three times by 1 turn.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -428,8 +428,8 @@
                     "stat": "atk",
                     "type": "multiplier",
                     "target": "self",
-                    "value": 0.9,
-                    "soulburn": 0.9
+                    "value": 1.0,
+                    "soulburn": 1.0
                 }
             ]
         }

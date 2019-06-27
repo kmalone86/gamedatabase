@@ -380,7 +380,7 @@
             "cooldown": 6,
             "name": "VIP Treatment",
             "soulAcquire": 3,
-            "description": "Entertains all allies with VIP Treatment, granting revive and increased Attack for 3 turns.",
+            "description": "Entertains all allies with VIP Treatment, reviving all dead allies to 20% Health, and granting revive for 3 turns to all living allies. Increases Attack of all allies for 3 turns.",
             "enhancement": [
                 {
                     "description": "-1 turn cooldown",

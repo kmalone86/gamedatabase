@@ -315,7 +315,7 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": true,
-            "cooldown": 6,
+            "cooldown": 5,
             "name": "Blade Art: Dragon",
             "soulAcquire": 2,
             "description": "Attacks all enemies, sacrificing 20% of the caster's Health. Grants the caster an extra turn when an enemy is defeated.",
@@ -414,8 +414,8 @@
                     "stat": "atk",
                     "type": "multiplier",
                     "target": "self",
-                    "value": 1.0,
-                    "soulburn": 1.25
+                    "value": 1.2,
+                    "soulburn": 1.45
                 }
             ]
         }

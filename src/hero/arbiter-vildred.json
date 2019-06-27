@@ -114,7 +114,7 @@
             "cooldown": 0,
             "name": "Sweep",
             "soulAcquire": 1,
-            "description": "Rapidly attacks two enemies with a swordstorm, decreasing their Combat Readiness by 10%. The lower the enemy's Health, the greater damage dealt.",
+            "description": "Rapidly attacks two enemies with a swordstorm, decreasing their Combat Readiness by 10%.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -227,8 +227,8 @@
                     "stat": "atk",
                     "type": "multiplier",
                     "target": "self",
-                    "value": 0.75,
-                    "soulburn": 0.75
+                    "value": 0.975,
+                    "soulburn": 0.975
                 }
             ]
         },
@@ -238,13 +238,13 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 10,
+            "cooldown": 5,
             "name": "Dark Contract",
             "soulAcquire": 0,
-            "description": "After receiving lethal damage, regenerates to 70% Health, gains full Focus, and resets cooldown for Dark Blade.",
+            "description": "After receiving lethal damage, caster regenerates to 70% Health, 100% Combat Readiness, increased Attack for 2 turns, full Focus, and resets cooldown for Dark Blade.",
             "enhancement": [
                 {
-                    "description": "+10% Health recovered",
+                    "description": "+10% Health recovered when revived",
                     "resources": [
                         {
                             "item": "gold",
@@ -261,7 +261,7 @@
                     ]
                 },
                 {
-                    "description": "+10% Health recovered",
+                    "description": "+10% Health recovered when revived",
                     "resources": [
                         {
                             "item": "gold",
@@ -278,7 +278,7 @@
                     ]
                 },
                 {
-                    "description": "+10% Health recovered",
+                    "description": "+10% Health recovered when revived",
                     "resources": [
                         {
                             "item": "gold",
@@ -295,7 +295,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_att_up"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {
@@ -325,7 +327,7 @@
             "cooldown": 5,
             "name": "Dark Blade",
             "soulAcquire": 3,
-            "description": "Attacks all enemies with wild energy, with a 75% chance to decrease Hit Chance for 2 turns. When Focus is full, consumes it all, increasing the chance and damage dealt. When the enemy is defeated, cooldown does not increase. Damage dealt increases proportional to amount if the enemy's lost Health.",
+            "description": "Attacks all enemies, decreasing Hit Chance for 2 turns. When Focus is full, consumes it all, increasing damage dealt. When the enemy is defeated with this skill, cooldown does not occur.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -440,8 +442,8 @@
                     "stat": "atk",
                     "type": "multiplier",
                     "target": "self",
-                    "value": 0.8,
-                    "soulburn": 1.1
+                    "value": 1.04,
+                    "soulburn": 1.29
                 }
             ]
         }
