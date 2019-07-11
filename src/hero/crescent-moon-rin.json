@@ -110,11 +110,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -123,11 +123,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 17000
+                            "qty": 13000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "shiny-enchantment",
@@ -229,11 +229,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -242,11 +242,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 17000
+                            "qty": 13000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "shiny-enchantment",
@@ -339,11 +339,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -352,11 +352,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 17000
+                            "qty": 13000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "shiny-enchantment",

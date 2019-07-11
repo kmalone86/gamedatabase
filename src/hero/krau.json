@@ -135,11 +135,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 22000
+                            "qty": 18000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "strange-jelly",
@@ -152,11 +152,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 36000
+                            "qty": 32000
                         },
                         {
                             "item": "molagora",
-                            "qty": 4
+                            "qty": 3
                         },
                         {
                             "item": "strange-jelly",
@@ -261,11 +261,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -304,11 +304,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 32000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "strange-jelly",
@@ -417,11 +417,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 100000
+                            "qty": 84000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 2
+                            "item": "molagora",
+                            "qty": 6
                         },
                         {
                             "item": "ancient-creature-nucleus",

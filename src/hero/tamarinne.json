@@ -126,11 +126,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -169,11 +169,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 32000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "archers-vision",
@@ -266,11 +266,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -309,11 +309,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 32000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "archers-vision",
@@ -393,11 +393,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 80000
+                            "qty": 64000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 2
+                            "item": "molagora",
+                            "qty": 6
                         },
                         {
                             "item": "archers-vision",
@@ -458,11 +458,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -501,11 +501,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 32000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "archers-vision",
@@ -598,11 +598,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -641,11 +641,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 32000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "archers-vision",

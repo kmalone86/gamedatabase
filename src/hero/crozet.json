@@ -147,11 +147,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 21000
+                            "qty": 13000
                         },
                         {
                             "item": "molagora",
-                            "qty": 4
+                            "qty": 2
                         },
                         {
                             "item": "baby-mouse-insignia",
@@ -256,11 +256,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 21000
+                            "qty": 13000
                         },
                         {
                             "item": "molagora",
-                            "qty": 4
+                            "qty": 2
                         },
                         {
                             "item": "baby-mouse-insignia",
@@ -352,11 +352,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -399,11 +399,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 45000
+                            "qty": 37000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "baby-mouse-insignia",

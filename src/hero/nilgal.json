@@ -90,7 +90,20 @@
             "enhancement": [
                 {
                     "description": "",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 64000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 6
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 8
+                        }
+                    ]
                 }
             ],
             "buffs": [],
@@ -127,7 +140,20 @@
             "enhancement": [
                 {
                     "description": "",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 64000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 6
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 8
+                        }
+                    ]
                 }
             ],
             "buffs": [],
@@ -164,7 +190,20 @@
             "enhancement": [
                 {
                     "description": "",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 64000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 6
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 8
+                        }
+                    ]
                 }
             ],
             "buffs": [],
