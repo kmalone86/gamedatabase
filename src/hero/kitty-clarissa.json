@@ -131,11 +131,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -178,11 +178,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 45000
+                            "qty": 37000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "flame-of-soul",
@@ -281,11 +281,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -328,11 +328,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 45000
+                            "qty": 37000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "flame-of-soul",
@@ -397,11 +397,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 60000
+                            "qty": 52000
                         },
                         {
                             "item": "molagora",
-                            "qty": 5
+                            "qty": 3
                         },
                         {
                             "item": "flame-of-soul",

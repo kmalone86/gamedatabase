@@ -130,11 +130,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 18000
+                            "qty": 14000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "mysterious-flash",
@@ -164,11 +164,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 32000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "mysterious-flash",
@@ -229,11 +229,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 18000
+                            "qty": 14000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         },
                         {
                             "item": "mysterious-flash",
@@ -263,11 +263,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 40000
+                            "qty": 32000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "mysterious-flash",
@@ -339,11 +339,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -403,11 +403,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 50000
+                            "qty": 42000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "mysterious-flash",

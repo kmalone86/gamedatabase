@@ -147,11 +147,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 22000
+                            "qty": 18000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "twisted-fang",
@@ -164,11 +164,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 36000
+                            "qty": 32000
                         },
                         {
                             "item": "molagora",
-                            "qty": 4
+                            "qty": 3
                         },
                         {
                             "item": "twisted-fang",
@@ -282,11 +282,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 130000
+                            "qty": 114000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 2
+                            "item": "molagora",
+                            "qty": 6
                         },
                         {
                             "item": "blazing-soul",
@@ -360,11 +360,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 22000
+                            "qty": 18000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "twisted-fang",
@@ -377,11 +377,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 36000
+                            "qty": 32000
                         },
                         {
                             "item": "molagora",
-                            "qty": 4
+                            "qty": 3
                         },
                         {
                             "item": "twisted-fang",

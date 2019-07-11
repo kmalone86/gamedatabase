@@ -169,11 +169,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 100000
+                            "qty": 84000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 2
+                            "item": "molagora",
+                            "qty": 6
                         },
                         {
                             "item": "blazing-soul",
@@ -279,11 +279,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 100000
+                            "qty": 84000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 2
+                            "item": "molagora",
+                            "qty": 6
                         },
                         {
                             "item": "blazing-soul",
@@ -393,11 +393,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 100000
+                            "qty": 84000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 2
+                            "item": "molagora",
+                            "qty": 6
                         },
                         {
                             "item": "blazing-soul",

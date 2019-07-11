@@ -148,11 +148,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 32000
+                            "qty": 28000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "sharp-spearhead",
@@ -165,11 +165,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 45000
+                            "qty": 37000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "sharp-spearhead",
@@ -258,11 +258,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 32000
+                            "qty": 28000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "sharp-spearhead",
@@ -275,11 +275,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 45000
+                            "qty": 37000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "sharp-spearhead",
@@ -371,11 +371,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 32000
+                            "qty": 28000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
                             "item": "sharp-spearhead",
@@ -388,11 +388,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 45000
+                            "qty": 37000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 3
                         },
                         {
                             "item": "sharp-spearhead",
