@@ -446,32 +446,32 @@
     },
     "camping": {
         "options": [
-            "Option1",
-            "Option2"
+            "heroic-tale",
+            "self-indulgent"
         ],
         "reactions": {
-            "advice": 0,
+            "advice": 1,
             "belief": 0,
-            "bizarre-story": 0,
-            "comforting-cheer": 0,
-            "complain": 0,
-            "criticism": 0,
-            "cute-cheer": 0,
-            "dream": 0,
-            "food-story": 0,
-            "gossip": 0,
-            "happy-memory": 0,
+            "bizarre-story": -3,
+            "comforting-cheer": 1,
+            "complain": -4,
+            "criticism": 8,
+            "cute-cheer": 6,
+            "dream": 3,
+            "food-story": 5,
+            "gossip": -1,
+            "happy-memory": 3,
             "heroic-cheer": 0,
-            "heroic-tale": 0,
-            "horror-story": 0,
+            "heroic-tale": 7,
+            "horror-story": -2,
             "interesting-story": 0,
-            "joyful-memory": 0,
-            "myth": 0,
-            "occult": 0,
-            "reality-check": 0,
-            "sad-memory": 0,
-            "self-indulgent": 0,
-            "unique-comment": 0
+            "joyful-memory": 1,
+            "myth": 9,
+            "occult": 5,
+            "reality-check": -3,
+            "sad-memory": -1,
+            "self-indulgent": -1,
+            "unique-comment": 1
         }
     },
     "memoryImprintFormation": {
