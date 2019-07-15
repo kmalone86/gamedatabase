@@ -23,13 +23,13 @@
         },
         {
             "node": "World 2S-S2",
-            "name": "?",
-            "mobcount": "?"
+            "name": "Vagabond's Refuge",
+            "mobcount": 2
         },
         {
             "node": "World 2S-S3",
-            "name": "?",
-            "mobcount": "?"
+            "name": "Wandering Poet's Grave",
+            "mobcount": 3
         },
         {
             "node": "World 5-7",
@@ -38,8 +38,8 @@
         },
         {
             "node": "World 5S-5",
-            "name": "?",
-            "mobcount": "?"
+            "name": "Muruchi Desert",
+            "mobcount": 6
         },
         {
             "node": "World 6-1",
