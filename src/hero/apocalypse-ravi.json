@@ -1,10 +1,10 @@
 {
     "gameId": "c2019",
-    "name": "Apocalypse Ravi (Preview)",
+    "name": "Apocalypse Ravi",
     "rarity": 5,
     "classType": "warrior",
     "element": "dark",
-    "zodiac": "capricorn",
+    "zodiac": "cancer",
     "specialtyChangeName": "",
     "selfSkillBarName": "fighting-spirit",
     "background": "Originally born in a small village, she was chosen to become an incarnation of the god of war, before accidentally falling into another dimension while fighting an enemy general. She has no memories of her life before she was deified.",
@@ -16,11 +16,11 @@
     ],
     "stats": {
         "lv1BaseStarNoAwaken": {
-            "cp": 1406,
-            "atk": 81,
-            "hp": 351,
-            "spd": 102,
-            "def": 77,
+            "cp": 1400,
+            "atk": 82,
+            "hp": 346,
+            "spd": 106,
+            "def": 75,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
@@ -28,11 +28,11 @@
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
-            "cp": 12050,
-            "atk": 655,
-            "hp": 4653,
-            "spd": 102,
-            "def": 500,
+            "cp": 11960,
+            "atk": 662,
+            "hp": 4588,
+            "spd": 106,
+            "def": 483,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
@@ -40,11 +40,11 @@
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
-            "cp": 13730,
-            "atk": 775,
-            "hp": 5551,
-            "spd": 102,
-            "def": 530,
+            "cp": 13640,
+            "atk": 782,
+            "hp": 5616,
+            "spd": 106,
+            "def": 497,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
@@ -52,11 +52,11 @@
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
-            "cp": 15038,
-            "atk": 816,
-            "hp": 5850,
-            "spd": 102,
-            "def": 620,
+            "cp": 14929,
+            "atk": 825,
+            "hp": 5769,
+            "spd": 106,
+            "def": 599,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
@@ -64,11 +64,11 @@
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
-            "cp": 17484,
-            "atk": 966,
-            "hp": 7323,
-            "spd": 102,
-            "def": 657,
+            "cp": 17360,
+            "atk": 975,
+            "hp": 7054,
+            "spd": 106,
+            "def": 652,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.0,
@@ -296,7 +296,7 @@
             "awakenUpgrade": true,
             "cooldown": 5,
             "name": "Deliverance: Soul Exchange",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Delivers divine judgment down upon the enemy. When an enemy is defeated, revives one random dead ally with 10% Health before granting Skill Nullifier once. Damage dealt increases proportional to the caster's max Health.",
             "enhancement": [
                 {
@@ -394,7 +394,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_endure"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {
@@ -417,14 +419,14 @@
         }
     ],
     "specialtySkill": {
-        "name": "",
-        "description": "",
-        "dispatch": [],
-        "enhancement": [],
+        "name": "Infernal Gatekeeper",
+        "description": "Wherever she goes, pandemonium follows.",
+        "dispatch": "[Fear] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 44,
+            "charm": 77,
+            "politics": 32
         }
     },
     "camping": {
@@ -542,7 +544,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": 0.03
+                    "def": 0.03
                 },
                 {
                     "atk": 20
@@ -589,7 +591,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "def": 0.06
+                    "hp": 0.06
                 },
                 {
                     "atk": 30
@@ -639,7 +641,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": 0.06
+                    "def": 0.06
                 },
                 {
                     "atk": 30
