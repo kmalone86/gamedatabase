@@ -190,7 +190,7 @@
         {
             "isPassive": true,
             "soulBurn": 0,
-            "selfSkillBarValue": -80,
+            "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
             "cooldown": 0,
@@ -300,7 +300,7 @@
         {
             "isPassive": false,
             "soulBurn": 0,
-            "selfSkillBarValue": 0,
+            "selfSkillBarValue": -80,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
             "cooldown": 0,
