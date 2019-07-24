@@ -1,0 +1,659 @@
+{
+    "gameId": "c4001",
+    "name": "Chaos Inquisitor",
+    "rarity": 3,
+    "classType": "knight",
+    "element": "fire",
+    "zodiac": "leo",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": "Following an argument with the Chaos Sect Axe, he left the Chaos Sect only to be captured soon after by the Rose Apostles. During a narrow escape, he became filled with a desperate fear of death and was awakened to the existence of Chaos.",
+    "relations": [
+        {
+            "hero": "taranor-guard",
+            "relationType": "trust"
+        },
+        {
+            "hero": "sigret",
+            "relationType": "love"
+        }
+    ],
+    "stats": {
+        "lv1BaseStarNoAwaken": {
+            "cp": 2223,
+            "atk": 221,
+            "hp": 670,
+            "spd": 95,
+            "def": 67,
+            "chc": 0.21,
+            "chd": 1.5,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
+        },
+        "lv50FiveStarNoAwaken": {
+            "cp": 10467,
+            "atk": 553,
+            "hp": 3752,
+            "spd": 95,
+            "def": 489,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 11820,
+            "atk": 739,
+            "hp": 4092,
+            "spd": 95,
+            "def": 489,
+            "chc": 0.23,
+            "chd": 1.5,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 13054,
+            "atk": 689,
+            "hp": 4718,
+            "spd": 95,
+            "def": 606,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 14918,
+            "atk": 963,
+            "hp": 5138,
+            "spd": 95,
+            "def": 606,
+            "chc": 0.23,
+            "chd": 1.5,
+            "eff": 0.0,
+            "efr": 0.0,
+            "dac": 0.05
+        }
+    },
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Heavy Strike",
+            "soulAcquire": 1,
+            "description": "Strikes the enemy with a blade, with a 35% chance each to dispel two buffs.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 13000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "twisted-fang",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 18000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "twisted-fang",
+                            "qty": 2
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 28000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "twisted-fang",
+                            "qty": 4
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 42000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "twisted-fang",
+                            "qty": 6
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "section": "pow",
+                    "value": 1.0,
+                    "soulburn": 1.0
+                },
+                {
+                    "name": "statModifier",
+                    "description": "",
+                    "section": "additive",
+                    "stat": "atk",
+                    "type": "multiplier",
+                    "target": "self",
+                    "value": 1.0,
+                    "soulburn": 1.0
+                }
+            ]
+        },
+        {
+            "isPassive": true,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Butcher Corps Gear",
+            "soulAcquire": 0,
+            "description": "Damage suffered in one attack does not exceed 50% of max Health.",
+            "enhancement": [
+                {
+                    "description": "-5% damage received limit",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 14000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "twisted-fang",
+                            "qty": 2
+                        }
+                    ]
+                },
+                {
+                    "description": "-5% damage received limit",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 23000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "twisted-fang",
+                            "qty": 3
+                        }
+                    ]
+                },
+                {
+                    "description": "-5% damage received limit",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 33000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "twisted-fang",
+                            "qty": 5
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "section": "pow",
+                    "value": 0.0,
+                    "soulburn": 0.0
+                },
+                {
+                    "name": "statModifier",
+                    "description": "",
+                    "section": "additive",
+                    "stat": "atk",
+                    "type": "multiplier",
+                    "target": "self",
+                    "value": 0.0,
+                    "soulburn": 0.0
+                }
+            ]
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 10,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Increases damage dealt.",
+            "awakenUpgrade": true,
+            "cooldown": 4,
+            "name": "Preach",
+            "soulAcquire": 2,
+            "description": "Attacks the enemy in the name of Chaos, recovering Health proportional to damage dealt. When the enemy is buffed, has a 50% chance to activate Heavy Strike. Damage dealt increases proportional to the caster's lost Health.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 13000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "twisted-fang",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 18000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "twisted-fang",
+                            "qty": 2
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 28000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "twisted-fang",
+                            "qty": 4
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 42000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "twisted-fang",
+                            "qty": 6
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "section": "pow",
+                    "value": 0.85,
+                    "soulburn": 0.85
+                },
+                {
+                    "name": "statModifier",
+                    "description": "",
+                    "section": "additive",
+                    "stat": "atk",
+                    "type": "multiplier",
+                    "target": "self",
+                    "value": 1.5,
+                    "soulburn": 2.2
+                }
+            ]
+        }
+    ],
+    "specialtySkill": {
+        "name": "Unshaken Faith",
+        "description": "His faith in Chaos is resolute.",
+        "dispatch": "[Unknown Knowledge] attribute mission",
+        "enhancement": "Reward Bonus +10%",
+        "stats": {
+            "command": 11,
+            "charm": 8,
+            "politics": 28
+        }
+    },
+    "camping": {
+        "options": [
+            "advice",
+            "reality-check"
+        ],
+        "reactions": {
+            "advice": 1,
+            "belief": 6,
+            "bizarre-story": 5,
+            "comforting-cheer": 1,
+            "complain": -7,
+            "criticism": 6,
+            "cute-cheer": 2,
+            "dream": 5,
+            "food-story": -1,
+            "gossip": -3,
+            "happy-memory": -1,
+            "heroic-cheer": 0,
+            "heroic-tale": -1,
+            "horror-story": 5,
+            "interesting-story": 2,
+            "joyful-memory": 1,
+            "myth": 1,
+            "occult": 5,
+            "reality-check": 2,
+            "sad-memory": 3,
+            "self-indulgent": 3,
+            "unique-comment": 6
+        }
+    },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
+    },
+    "memoryImprintAttribute": "atk",
+    "memoryImprint": [
+        {
+            "rank": "d",
+            "status": {
+                "type": "atk",
+                "increase": 24
+            }
+        },
+        {
+            "rank": "c",
+            "status": {
+                "type": "atk",
+                "increase": 36
+            }
+        },
+        {
+            "rank": "b",
+            "status": {
+                "type": "atk",
+                "increase": 48
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "atk",
+                "increase": 60
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "atk",
+                "increase": 72
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "atk",
+                "increase": 84
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "atk",
+                "increase": 96
+            }
+        }
+    ],
+    "awakening": [
+        {
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "flame-rune",
+                    "qty": 5
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "flame-rune",
+                    "qty": 9
+                }
+            ]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "flame-rune",
+                    "qty": 12
+                },
+                {
+                    "item": "greater-flame-rune",
+                    "qty": 6
+                }
+            ]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "chc": 0.08
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-flame-rune",
+                    "qty": 15
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-flame-rune",
+                    "qty": 4
+                },
+                {
+                    "item": "ultra-fang",
+                    "qty": 9
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-flame-rune",
+                    "qty": 6
+                },
+                {
+                    "item": "blazing-soul",
+                    "qty": 6
+                }
+            ]
+        }
+    ]
+}
