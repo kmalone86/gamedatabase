@@ -8,8 +8,8 @@
         "Legendary hero Knight Commander Rowell's tower shield."
     ],
     "skillDescription": {
-        "base": "Increases ally's Defense by 10%, and takes 10% of the damage suffered by them. Does not overlap with an Artifact providing the same effect.",
-        "max": "Increases ally's Defense by 10%, and takes 20% of the damage suffered by them. Does not overlap with an Artifact providing the same effect."
+        "base": "Increases the Defense of allies by 10%, and takes 10% of the damage suffered by them. When more than one damage sharing effect is granted, only the strongest effect is applied.",
+        "max": "Increases the Defense of allies by 10%, and takes 20% of the damage suffered by them. When more than one damage sharing effect is granted, only the strongest effect is applied."
     },
     "stats": {
         "base": {
