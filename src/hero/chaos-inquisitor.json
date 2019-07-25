@@ -1,13 +1,13 @@
 {
-    "gameId": "c3001",
-    "name": "Butcher Corps Inquisitor",
+    "gameId": "c4001",
+    "name": "Chaos Inquisitor",
     "rarity": 3,
     "classType": "knight",
     "element": "fire",
     "zodiac": "leo",
-    "specialtyChangeName": "chaos-inquisitor",
+    "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "The main duty of the Church of Ilryos Butcher Corps is to track down and punish traitors or fugitives.",
+    "background": "Following an argument with the Chaos Sect Axe, he left the Chaos Sect only to be captured soon after by the Rose Apostles. During a narrow escape, he became filled with a desperate fear of death and was awakened to the existence of Chaos.",
     "relations": [
         {
             "hero": "taranor-guard",
@@ -299,9 +299,9 @@
             "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": true,
             "cooldown": 4,
-            "name": "Hack",
+            "name": "Preach",
             "soulAcquire": 2,
-            "description": "Strikes downwards at the enemy indiscriminately, dealing damage proportional to the caster's lost Health, and recovering Health proportional to the damage dealt.",
+            "description": "Attacks the enemy in the name of Chaos, recovering Health proportional to damage dealt. When the enemy is buffed, has a 50% chance to activate Heavy Strike. Damage dealt increases proportional to the caster's lost Health.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -421,8 +421,8 @@
         }
     ],
     "specialtySkill": {
-        "name": "Know-How",
-        "description": "Inquisitors know how to defeat their enemies easily with the knowledge they've acquired from Ilyros.",
+        "name": "Unshaken Faith",
+        "description": "His faith in Chaos is resolute.",
         "dispatch": "[Unknown Knowledge] attribute mission",
         "enhancement": "Reward Bonus +10%",
         "stats": {
