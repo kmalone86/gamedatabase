@@ -23,4 +23,5 @@ module.exports = {
 	item: ['name', 'locations', 'description', 'type', 'rarity'],
 	latest: ['hero', 'artifact'],
 	voice: ['_id', 'voice'],
+	creator: ['title', 'description', 'img', 'main', 'social'],
 };
