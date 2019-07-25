@@ -1,15 +1,15 @@
 {
     "hero": [
+        "roaming-warrior-leo",
+        "chaos-inquisitor",
+        "seaside-bellona",
         "apocalypse-ravi",
-        "lilibet",
-        "champion-zerato",
-        "khawazu",
-        "fallen-cecilia"
+        "lilibet"
     ],
     "artifact": [
-        "proof-of-valor",
-        "creation-destruction",
-        "crimson-seed",
-        "spirits-breath"
+        "rainbow-scale",
+        "reingars-special-drink",
+        "shepherds-of-chaos",
+        "proof-of-valor"
     ]
 }
