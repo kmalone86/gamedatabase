@@ -2,11 +2,10 @@
     "title": "Mogawty",
     "description": "Mogawty is a mobile game channel & influencer. He sometimes plays a PC game here and there, but the main focus is on Android & iOS games",
     "img": "https://yt3.ggpht.com/a/AGF-l7_pjYmrRaEvNIGzXew1FL87l3_AliRlY1behQ=s288-mo-c-c0xffffffff-rj-k-no",
-    "main": "https://www.youtube.com/channel/UCE5eZeSPb14e3XIE7AecEqQ/videos",
     "social": [
         {
-            "type": "patreon",
-            "url": "https://www.patreon.com/mogawty"
+            "type": "youtube",
+            "url": "https://www.youtube.com/channel/UCE5eZeSPb14e3XIE7AecEqQ/videos"
         },
         {
             "type": "facebook",
