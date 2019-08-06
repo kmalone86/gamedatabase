@@ -11,11 +11,11 @@
     "relations": [
         {
             "hero": "serila",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "otillie",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {

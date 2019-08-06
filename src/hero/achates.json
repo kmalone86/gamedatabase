@@ -19,15 +19,15 @@
         },
         {
             "hero": "helga",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "montmorancy",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "aither",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

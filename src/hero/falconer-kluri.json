@@ -11,7 +11,7 @@
     "relations": [
         {
             "hero": "armin",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "basar",
@@ -19,7 +19,7 @@
         },
         {
             "hero": "kiris",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "silk",

@@ -11,23 +11,23 @@
     "relations": [
         {
             "hero": "aramintha",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "ras",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "kiris",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "violet",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "bellona",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

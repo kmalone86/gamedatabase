@@ -11,11 +11,11 @@
     "relations": [
         {
             "hero": "armin",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "tywin",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

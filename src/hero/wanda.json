@@ -11,7 +11,7 @@
     "relations": [
         {
             "hero": "hazel",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "azalea",
@@ -19,11 +19,11 @@
         },
         {
             "hero": "shooting-star",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "lots",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

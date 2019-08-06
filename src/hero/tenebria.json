@@ -11,19 +11,19 @@
     "relations": [
         {
             "hero": "ras",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "yuna",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "judge-kise",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "crozet",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "nilgal",

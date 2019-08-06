@@ -11,27 +11,27 @@
     "relations": [
         {
             "hero": "yufine",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "nemunas",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "rose",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "serila",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "yuna",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "luna",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {

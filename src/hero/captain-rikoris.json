@@ -11,7 +11,7 @@
     "relations": [
         {
             "hero": "azalea",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "krau",
@@ -19,11 +19,11 @@
         },
         {
             "hero": "schuri",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "adlay",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

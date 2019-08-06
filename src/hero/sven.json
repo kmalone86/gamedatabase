@@ -15,11 +15,11 @@
         },
         {
             "hero": "hurado",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "celeste",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

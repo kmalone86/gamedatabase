@@ -15,11 +15,11 @@
         },
         {
             "hero": "yuna",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "basar",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

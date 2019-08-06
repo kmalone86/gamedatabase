@@ -11,35 +11,35 @@
     "relations": [
         {
             "hero": "basar",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "rin",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "celeste",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "cartuja",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "lots",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "lidica",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "bellona",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "sez",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

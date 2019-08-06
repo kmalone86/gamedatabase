@@ -11,7 +11,7 @@
     "relations": [
         {
             "hero": "taranor-guard",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "sigret",

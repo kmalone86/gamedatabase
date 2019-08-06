@@ -11,7 +11,7 @@
     "relations": [
         {
             "hero": "aither",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "sez",

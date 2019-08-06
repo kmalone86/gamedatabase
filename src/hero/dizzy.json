@@ -11,19 +11,19 @@
     "relations": [
         {
             "hero": "sol",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "baiken",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "cartuja",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "celestial-mercedes",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

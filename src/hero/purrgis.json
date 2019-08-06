@@ -11,23 +11,23 @@
     "relations": [
         {
             "hero": "ras",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "cartuja",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "rin",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "basar",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "mucacha",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

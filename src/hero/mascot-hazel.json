@@ -15,19 +15,19 @@
         },
         {
             "hero": "carrot",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "adlay",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "rikoris",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "zerato",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

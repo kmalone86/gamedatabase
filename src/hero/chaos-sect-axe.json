@@ -11,19 +11,19 @@
     "relations": [
         {
             "hero": "clarissa",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "corvus",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "ras",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "angelica",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {

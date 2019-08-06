@@ -11,19 +11,19 @@
     "relations": [
         {
             "hero": "cidd",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "armin",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "Surin",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "pyllis",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {

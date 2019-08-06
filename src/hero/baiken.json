@@ -11,19 +11,19 @@
     "relations": [
         {
             "hero": "sol",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "dizzy",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "i-no",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "ludwig",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

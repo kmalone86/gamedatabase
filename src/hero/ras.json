@@ -11,35 +11,35 @@
     "relations": [
         {
             "hero": "ruele-of-light",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "judge-kise",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "krau",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "iseria",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "ludwig",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "aither",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "mercedes",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "yuna",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

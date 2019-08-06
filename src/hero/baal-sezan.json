@@ -11,19 +11,19 @@
     "relations": [
         {
             "hero": "gloomyrain",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "sez",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "specter-tenebria",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "charlotte",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

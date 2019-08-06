@@ -11,19 +11,19 @@
     "relations": [
         {
             "hero": "ras",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "nilgal",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "tenebria",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "vildred",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "judge-kise",

@@ -15,15 +15,15 @@
         },
         {
             "hero": "haste",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "watcher-schuri",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "kiris",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

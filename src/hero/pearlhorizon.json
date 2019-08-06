@@ -11,11 +11,11 @@
     "relations": [
         {
             "hero": "haste",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "gloomyrain",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

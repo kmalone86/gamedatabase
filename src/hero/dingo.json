@@ -11,7 +11,7 @@
     "relations": [
         {
             "hero": "cidd",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "zerato",

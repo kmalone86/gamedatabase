@@ -11,11 +11,11 @@
     "relations": [
         {
             "hero": "wanda",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "azalea",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "yuna",

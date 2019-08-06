@@ -11,7 +11,7 @@
     "relations": [
         {
             "hero": "ravi",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {

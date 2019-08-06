@@ -15,19 +15,19 @@
         },
         {
             "hero": "elson",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "alexa",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "iseria",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "diene",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

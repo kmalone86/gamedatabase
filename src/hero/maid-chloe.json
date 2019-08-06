@@ -11,7 +11,7 @@
     "relations": [
         {
             "hero": "karin",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "coli",
@@ -23,7 +23,7 @@
         },
         {
             "hero": "adlay",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

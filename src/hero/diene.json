@@ -15,7 +15,7 @@
         },
         {
             "hero": "nilgal",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "angelica",
@@ -23,19 +23,19 @@
         },
         {
             "hero": "specter-tenebria",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "kayron",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "krau",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "gunther",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

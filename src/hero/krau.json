@@ -11,23 +11,23 @@
     "relations": [
         {
             "hero": "ras",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "ludwig",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "taranor-royal-guard",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "schuri",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "taranor-guard",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

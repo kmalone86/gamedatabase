@@ -11,19 +11,19 @@
     "relations": [
         {
             "hero": "taranor-royal-guard",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "sigret",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "ras",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "krau",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {

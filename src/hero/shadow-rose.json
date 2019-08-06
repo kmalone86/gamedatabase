@@ -11,7 +11,7 @@
     "relations": [
         {
             "hero": "cecilia",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {

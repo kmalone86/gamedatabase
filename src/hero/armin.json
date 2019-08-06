@@ -11,19 +11,19 @@
     "relations": [
         {
             "hero": "kluri",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "basar",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "cartuja",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "otillie",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "cidd",

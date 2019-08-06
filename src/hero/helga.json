@@ -11,19 +11,19 @@
     "relations": [
         {
             "hero": "gunther",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "mirsa",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "coli",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "achates",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

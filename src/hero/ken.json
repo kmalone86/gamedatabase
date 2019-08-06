@@ -11,11 +11,11 @@
     "relations": [
         {
             "hero": "sven",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "cartuja",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

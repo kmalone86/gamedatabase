@@ -11,11 +11,11 @@
     "relations": [
         {
             "hero": "watcher-schuri",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "aramintha",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

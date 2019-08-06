@@ -15,19 +15,19 @@
         },
         {
             "hero": "dominiel",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "dingo",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "judge-kise",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "ras",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

@@ -11,11 +11,11 @@
     "relations": [
         {
             "hero": "assassin-cidd",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "assassin-cartuja",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

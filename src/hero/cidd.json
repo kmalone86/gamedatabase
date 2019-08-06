@@ -11,11 +11,11 @@
     "relations": [
         {
             "hero": "dingo",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "otillie",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "armin",

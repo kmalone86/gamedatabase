@@ -11,19 +11,19 @@
     "relations": [
         {
             "hero": "jecht",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "roozid",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "basar",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "charlotte",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "cecilia",

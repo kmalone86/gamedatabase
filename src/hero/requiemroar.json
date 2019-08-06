@@ -15,15 +15,15 @@
         },
         {
             "hero": "carmainerose",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "chloe",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "celeste",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {

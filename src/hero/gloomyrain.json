@@ -15,15 +15,15 @@
         },
         {
             "hero": "requiemroar",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "yuna",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "yufine",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {

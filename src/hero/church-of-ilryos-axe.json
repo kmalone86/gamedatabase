@@ -15,11 +15,11 @@
         },
         {
             "hero": "mercedes",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "ras",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "tenebria",

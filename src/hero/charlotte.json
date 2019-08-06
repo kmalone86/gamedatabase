@@ -15,11 +15,11 @@
         },
         {
             "hero": "coli",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "aither",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {

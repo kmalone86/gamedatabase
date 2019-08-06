@@ -11,11 +11,11 @@
     "relations": [
         {
             "hero": "rin",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "basar",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "iseria",
@@ -23,7 +23,7 @@
         },
         {
             "hero": "kiris",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

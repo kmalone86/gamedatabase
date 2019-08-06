@@ -11,15 +11,15 @@
     "relations": [
         {
             "hero": "sez",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "karin",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "rin",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

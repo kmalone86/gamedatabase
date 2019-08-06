@@ -11,23 +11,23 @@
     "relations": [
         {
             "hero": "ras",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "nilgal",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "tenebria",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "ruele-of-light",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "vildred",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "ludwig",

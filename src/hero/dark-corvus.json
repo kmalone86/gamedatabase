@@ -11,19 +11,19 @@
     "relations": [
         {
             "hero": "corvus",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "ras",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "tenebria",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "nilgal",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {

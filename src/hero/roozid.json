@@ -15,11 +15,11 @@
         },
         {
             "hero": "rima",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "jecht",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

@@ -11,7 +11,7 @@
     "relations": [
         {
             "hero": "hazel",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "zerato",
@@ -19,7 +19,7 @@
         },
         {
             "hero": "rikoris",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "yuna",
