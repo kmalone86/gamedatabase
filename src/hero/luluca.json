@@ -102,7 +102,7 @@
             "cooldown": 0,
             "name": "Wild Wave",
             "soulAcquire": 1,
-            "description": "Attacks with intense elemental force. Damage dealt increases proportional to the amount of the enemy's lost Health.",
+            "description": "Attacks with intense elemental force, with a 50% chance to decrease Defense for 2 turns. Damage dealt increases proportional to the amount of the enemy's lost Health.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -183,7 +183,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "stic_def_dn"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
@@ -339,7 +341,7 @@
             "cooldown": 5,
             "name": "Wave of Vengeance",
             "soulAcquire": 3,
-            "description": "Attacks all enemies with the power of ruin, with a 50% chance to decrease Defense for 2 turns. Damage dealt increases every time using this skill and can stack up to 3 times.",
+            "description": "Attacks all enemies with the power of ruin, with a 60% chance to decrease Defense for 2 turns, before increasing the caster's Attack. This effect can stack up to 3 times.",
             "enhancement": [
                 {
                     "description": "+10% damage dealt",

@@ -219,7 +219,7 @@
             "cooldown": 4,
             "name": "Moonlight Blow",
             "soulAcquire": 2,
-            "description": "Attacks with light, with a 35% chance to stun for 1 turn. When the enemy is defeated by this attack, the caster is granted invincibility for 1 turn.",
+            "description": "Attacks with light, with a 35% chance to stun for 1 turn before granting the caster invincibility for 1 turn.",
             "enhancement": [
                 {
                     "description": "+10% damage dealt",
@@ -340,7 +340,7 @@
             "cooldown": 5,
             "name": "Call of the Full Moon",
             "soulAcquire": 3,
-            "description": "Attacks all enemies with the magic of the Nocturnes, penetrating defense by 50% if the caster is invincible. A critical hit will grant the caster a barrier for 2 turns, with strength increasing proportional to the caster's Attack.",
+            "description": "Attacks all enemies with Nocturne magic, penetrating Defense by 20%. Penetrates Defense by an additional 30% if the caster is invincible. A critical hit will grant the caster a barrier for 2 turns, with strength increasing proportional to the caster's Attack.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",

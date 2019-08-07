@@ -110,11 +110,11 @@
             "soulBurn": 0,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
-            "awakenUpgrade": false,
+            "awakenUpgrade": true,
             "cooldown": 0,
             "name": "X-Slash",
             "soulAcquire": 1,
-            "description": "Swing the sword and attack the enemy. Damage increases proportionally to your maximum Vitality",
+            "description": "Attacks with a sword, with 75% chance to dispel a buff. Damage dealt increases proportional to the caster's max Health.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -354,11 +354,11 @@
             "soulBurn": 10,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
-            "awakenUpgrade": true,
-            "cooldown": 5,
+            "awakenUpgrade": false,
+            "cooldown": 4,
             "name": "Sword of the Heir",
             "soulAcquire": 2,
-            "description": "Strongly attacks with a swordstorm, recovering Health prportional to damage dealt, and increasing Defense of the caster for 2 turns. Damage dealt increases proportional to max Health of caster.",
+            "description": "Strongly attacks all enemies with a swordstorm, recovering Health and increasing Defense of the caster for 2 turns. Damage dealt and amount recovered increases proportional to the caster's max Health.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -387,7 +387,7 @@
                     ]
                 },
                 {
-                    "description": "-1 turn cooldown",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
