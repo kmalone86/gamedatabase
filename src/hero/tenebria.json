@@ -102,7 +102,7 @@
             "cooldown": 0,
             "name": "Dark Explosion",
             "soulAcquire": 1,
-            "description": "Attacks with a explosion of dark energy, with a 25% chance to put them to sleep for 1 turn. When an enemy is put to sleep, the caster's Combat Readiness increases by 50%. This skill does not trigger a dual attack.",
+            "description": "Attacks with a explosion of dark energy, with a 40% chance to put them to sleep for 1 turn. When an enemy is put to sleep, the caster's Combat Readiness increases by 50%. This skill does not trigger a dual attack.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -331,10 +331,10 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Increases damage dealt",
             "awakenUpgrade": false,
-            "cooldown": 6,
+            "cooldown": 5,
             "name": "Nightmare",
             "soulAcquire": 3,
-            "description": "Drops Moon of Nightmare on all enemies, with a 60% chance to decrease Defense for 2 turns and increase Attack of the caster for 2 turns.",
+            "description": "Drops Moon of Nightmare on all enemies, with a 70% chance to decrease Defense for 2 turns and increase Attack of the caster for 2 turns.",
             "enhancement": [
                 {
                     "description": "+10% damage dealt",
