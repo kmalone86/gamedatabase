@@ -98,7 +98,7 @@
             "cooldown": 0,
             "name": "Quick Pierce",
             "soulAcquire": 1,
-            "description": "Attacks with a spear, with 35% chance to decrease Defense for 2 turns.",
+            "description": "Attacks with a spear, with a 35% chance to decrease Defense for 2 turns. Effect chance increases by 25% when the caster is granted increased Speed.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
