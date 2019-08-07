@@ -10,8 +10,24 @@
     "background": "A priest of the Rose Apostles, Corvus is famous in Farche for leading the Young Sheep of the Eternal Mother missionaries.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "angelica",
+            "relationType": "longing"
+        },
+        {
+            "hero": "jena",
+            "relationType": "trust"
+        },
+        {
+            "hero": "dark-corvus",
+            "relationType": "grudge"
+        },
+        {
+            "hero": "gunther",
+            "relationType": "trust"
+        },
+        {
+            "hero": "cartuja",
+            "relationType": "rival"
         }
     ],
     "stats": {
