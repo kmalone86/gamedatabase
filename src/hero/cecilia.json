@@ -218,9 +218,11 @@
                 }
             ],
             "simpleDmgMod": {
-                "description": "(atk_rate * hero_atk) * pow",
-                "value": "(0.7 * hero_atk) * 1.0",
-                "soulburn": "(0.7 * hero_atk) * 1.0"
+                "description": "((atk_rate * hero_atk) + (hp_rate * hero_hp)) * pow! * constant",
+                "value": "((0.7 * hero_atk) + (0.07 * hero_hp)) * 1.0 * 1.871",
+                "simplified": "((1.3097 * hero_atk) + (0.131 * hero_hp))",
+                "soulburn": "((0.7 * hero_atk) + (0.07 * hero_hp)) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((1.3097 * hero_atk) + (0.131 * hero_hp))"
             }
         },
         {
@@ -344,9 +346,11 @@
                 }
             ],
             "simpleDmgMod": {
-                "description": "(atk_rate * hero_atk) * pow",
-                "value": "(0.4 * hero_atk) * 1.0",
-                "soulburn": "(0.4 * hero_atk) * 1.0"
+                "description": "((atk_rate * hero_atk) + (hp_rate * hero_hp)) * pow! * constant",
+                "value": "((0.4 * hero_atk) + (0.06 * hero_hp)) * 1.0 * 1.871",
+                "simplified": "((0.7484 * hero_atk) + (0.1123 * hero_hp))",
+                "soulburn": "((0.4 * hero_atk) + (0.06 * hero_hp)) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((0.7484 * hero_atk) + (0.1123 * hero_hp))"
             }
         },
         {
@@ -472,9 +476,11 @@
                 }
             ],
             "simpleDmgMod": {
-                "description": "(atk_rate * hero_atk) * pow",
-                "value": "(0.6 * hero_atk) * 1.05",
-                "soulburn": "(0.6 * hero_atk) * 1.05"
+                "description": "((atk_rate * hero_atk) + (hp_rate * hero_hp)) * pow! * constant",
+                "value": "((0.6 * hero_atk) + (0.12 * hero_hp)) * 1.05 * 1.871",
+                "simplified": "((1.1787 * hero_atk) + (0.2357 * hero_hp))",
+                "soulburn": "((0.6 * hero_atk) + (0.12 * hero_hp)) * 1.05 * 1.871",
+                "simplifiedSoulburn": "((1.1787 * hero_atk) + (0.2357 * hero_hp))"
             }
         }
     ],

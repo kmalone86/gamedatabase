@@ -213,9 +213,11 @@
                 }
             ],
             "simpleDmgMod": {
-                "description": "(atk_rate * hero_atk) * pow",
-                "value": "(0.85 * hero_atk) * 0.95",
-                "soulburn": "(0.85 * hero_atk) * 0.95"
+                "description": "((atk_rate * hero_atk)) * (1 + (spd_rate * hero_spd)) * pow! * constant",
+                "value": "((0.85 * hero_atk)) * (1 + (0.00075 * hero_spd)) * 0.95 * 1.871",
+                "simplified": "((1.5108 * hero_atk)) * (1 + (0.00075 * hero_spd))",
+                "soulburn": "((0.85 * hero_atk)) * (1 + (0.00075 * hero_spd)) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((1.5108 * hero_atk)) * (1 + (0.00075 * hero_spd))"
             }
         },
         {
@@ -330,9 +332,11 @@
                 }
             ],
             "simpleDmgMod": {
-                "description": "(atk_rate * hero_atk) * pow",
-                "value": "(0.5 * hero_atk) * 1",
-                "soulburn": "(0.5 * hero_atk) * 1"
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((0.5 * hero_atk)) * 1 * 1.871",
+                "simplified": "((0.9355 * hero_atk))",
+                "soulburn": "((0.5 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((0.9355 * hero_atk))"
             }
         },
         {
@@ -455,9 +459,11 @@
                 }
             ],
             "simpleDmgMod": {
-                "description": "(atk_rate * hero_atk) * pow",
-                "value": "(0.85 * hero_atk) * 1.0",
-                "soulburn": "(1.1 * hero_atk) * 1.0"
+                "description": "((atk_rate * hero_atk)) * (1 + (spd_rate * hero_spd)) * pow! * constant",
+                "value": "((0.85 * hero_atk)) * (1 + (0.00075 * hero_spd)) * 1.0 * 1.871",
+                "simplified": "((1.5903 * hero_atk)) * (1 + (0.00075 * hero_spd))",
+                "soulburn": "((1.1 * hero_atk)) * (1 + (0.00075 * hero_spd)) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((2.0581 * hero_atk)) * (1 + (0.0009 * hero_spd))"
             }
         }
     ],
