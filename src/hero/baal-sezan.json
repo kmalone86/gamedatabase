@@ -318,7 +318,7 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
-            "cooldown": 6,
+            "cooldown": 4,
             "name": "Last Requiem",
             "soulAcquire": 3,
             "description": "Baal & Sezan attack all enemies with Strike Magic, with a 65% chance to decrease Speed and Defense and make them unhealable for 2 turns.",
