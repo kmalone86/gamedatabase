@@ -218,7 +218,14 @@
                     "value": 0.81,
                     "soulburn": 0.81
                 }
-            ]
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((0.81 * hero_atk)) * 0.95 * 1.871",
+                "simplified": "((1.4397 * hero_atk))",
+                "soulburn": "((0.81 * hero_atk)) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((1.4397 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
@@ -360,7 +367,14 @@
                     "value": 0.0,
                     "soulburn": 0.0
                 }
-            ]
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": false,
@@ -429,7 +443,14 @@
                     "value": 0.0,
                     "soulburn": 0.0
                 }
-            ]
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         }
     ],
     "specialtySkill": {

@@ -189,7 +189,14 @@
                     "value": 1.0,
                     "soulburn": 1.0
                 }
-            ]
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "simplified": "((1.871 * hero_atk))",
+                "soulburn": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
@@ -200,7 +207,7 @@
             "cooldown": 3,
             "name": "Gravitation",
             "soulAcquire": 2,
-            "description": "Attacks all enemies with a magic circle, with a 50% chance each to decrease Combat Readiness by 15% twice",
+            "description": "Attacks all enemies with a magic circle, with a 50% chance each to decrease Combat Readiness by 15% four times.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -299,7 +306,14 @@
                     "value": 0.7,
                     "soulburn": 0.7
                 }
-            ]
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((0.7 * hero_atk)) * 1.0 * 1.871",
+                "simplified": "((1.3097 * hero_atk))",
+                "soulburn": "((0.7 * hero_atk)) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((1.3097 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
@@ -310,7 +324,7 @@
             "cooldown": 5,
             "name": "Event Horizon",
             "soulAcquire": 2,
-            "description": "Shoots a powerful gravity sphere at all enemies, dispelling all buffs and increasing Combat Readiness of the caster by 50%. Damage dealt increases and the enemy is inflicted with two poison effects for 2 turns when the enemy is buffed.",
+            "description": "Shoots a powerful gravity sphere at all enemies, dispelling all buffs and increasing Combat Readiness of the caster by 50%. Damage dealt increases, the enemy is inflicted with two poison effects for 2 turns, and the caster's Combat Readiness increases by an additional 30% when the enemy is buffed.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -411,7 +425,14 @@
                     "value": 0.9,
                     "soulburn": 0.9
                 }
-            ]
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((0.9 * hero_atk)) * 0.85 * 1.871",
+                "simplified": "((1.4313 * hero_atk))",
+                "soulburn": "((0.9 * hero_atk)) * 0.85 * 1.871",
+                "simplifiedSoulburn": "((1.4313 * hero_atk))"
+            }
         }
     ],
     "specialtySkill": {

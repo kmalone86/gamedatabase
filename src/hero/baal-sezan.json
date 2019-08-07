@@ -173,7 +173,14 @@
                     "value": 1.0,
                     "soulburn": 1.0
                 }
-            ]
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "simplified": "((1.871 * hero_atk))",
+                "soulburn": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
@@ -300,7 +307,14 @@
                     "value": 0.85,
                     "soulburn": 1.1
                 }
-            ]
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((0.85 * hero_atk)) * 0.9 * 1.871",
+                "simplified": "((1.4313 * hero_atk))",
+                "soulburn": "((1.1 * hero_atk)) * 0.9 * 1.871",
+                "simplifiedSoulburn": "((1.8523 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
@@ -308,7 +322,7 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
-            "cooldown": 6,
+            "cooldown": 4,
             "name": "Last Requiem",
             "soulAcquire": 3,
             "description": "Baal & Sezan attack all enemies with Strike Magic, with a 65% chance to decrease Speed and Defense and make them unhealable for 2 turns.",
@@ -431,7 +445,14 @@
                     "value": 0.8,
                     "soulburn": 0.8
                 }
-            ]
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((0.8 * hero_atk)) * 1.0 * 1.871",
+                "simplified": "((1.4968 * hero_atk))",
+                "soulburn": "((0.8 * hero_atk)) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((1.4968 * hero_atk))"
+            }
         }
     ],
     "specialtySkill": {

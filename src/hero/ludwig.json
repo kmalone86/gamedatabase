@@ -201,7 +201,14 @@
                     "value": 1.0,
                     "soulburn": 1.0
                 }
-            ]
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "simplified": "((1.871 * hero_atk))",
+                "soulburn": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
@@ -212,7 +219,7 @@
             "cooldown": 4,
             "name": "Moonlight Blow",
             "soulAcquire": 2,
-            "description": "Attacks with light, with a 35% chance to stun for 1 turn. When the enemy is defeated by this attack, the caster is granted invincibility for 1 turn.",
+            "description": "Attacks with light, with a 35% chance to stun for 1 turn before granting the caster invincibility for 1 turn.",
             "enhancement": [
                 {
                     "description": "+10% damage dealt",
@@ -315,7 +322,14 @@
                     "value": 1.65,
                     "soulburn": 1.65
                 }
-            ]
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1.65 * hero_atk)) * 1.05 * 1.871",
+                "simplified": "((3.2415 * hero_atk))",
+                "soulburn": "((1.65 * hero_atk)) * 1.05 * 1.871",
+                "simplifiedSoulburn": "((3.2415 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
@@ -326,7 +340,7 @@
             "cooldown": 5,
             "name": "Call of the Full Moon",
             "soulAcquire": 3,
-            "description": "Attacks all enemies with the magic of the Nocturnes, penetrating defense by 50% if the caster is invincible. A critical hit will grant the caster a barrier for 2 turns, with strength increasing proportional to the caster's Attack.",
+            "description": "Attacks all enemies with Nocturne magic, penetrating Defense by 20%. Penetrates Defense by an additional 30% if the caster is invincible. A critical hit will grant the caster a barrier for 2 turns, with strength increasing proportional to the caster's Attack.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -427,7 +441,14 @@
                     "value": 0.85,
                     "soulburn": 1.1
                 }
-            ]
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((0.85 * hero_atk)) * 0.95 * 1.871",
+                "simplified": "((1.5108 * hero_atk))",
+                "soulburn": "((1.1 * hero_atk)) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((1.9552 * hero_atk))"
+            }
         }
     ],
     "specialtySkill": {
