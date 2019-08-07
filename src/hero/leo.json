@@ -215,7 +215,7 @@
             "cooldown": 4,
             "name": "Fox Hunt",
             "soulAcquire": 2,
-            "description": "Attacks with a slingshot, with a 75% chance to decrease Defense for 2 turns, and a 30% chance to use Sparrow Dive.",
+            "description": "Attacks with a slingshot, with a 75% chance to decrease Defense for 2 turns, and a 50% chance to use Sparrow Dive.",
             "enhancement": [
                 {
                     "description": "+10% damage dealt",
@@ -329,10 +329,10 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
-            "cooldown": 6,
+            "cooldown": 5,
             "name": "Flying Racoo",
             "soulAcquire": 2,
-            "description": "Racoo flies into the enemies like a bullet and attacks all of them, decreasing Speed for 2 turns, with a 50% chance to stun.",
+            "description": "Racoo flies into the enemies like a bullet and attacks all of them, decreasing Speed for 2 turns, with a 75% chance to stun.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
