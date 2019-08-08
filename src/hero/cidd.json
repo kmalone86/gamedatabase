@@ -181,13 +181,15 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.95,
-                    "soulburn": 0.95
+                    "description": "Increases with Skill 2 active.",
+                    "value": [0.95, 1.35],
+                    "soulburn": [0.95, 1.35]
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.9,
-                    "soulburn": 0.9
+                    "description": "Increases with Skill 2 active.",
+                    "value": [0.9, 1.05],
+                    "soulburn": [0.9, 1.05]
                 },
                 {
                     "name": "spd_rate",

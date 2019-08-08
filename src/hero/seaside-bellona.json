@@ -423,6 +423,11 @@
                     "name": "atk_rate",
                     "value": 1,
                     "soulburn": 1
+                },
+                {
+                    "name": "crit_dmg_rate",
+                    "value": 0.2,
+                    "soulburn": 0.2
                 }
             ],
             "simpleDmgMod": {

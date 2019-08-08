@@ -408,7 +408,7 @@
                     "soulburn": 1.8
                 },
                 {
-                    "name": "hp_rate",
+                    "name": "target_hp_rate",
                     "value": 0.04,
                     "soulburn": 0.06
                 }

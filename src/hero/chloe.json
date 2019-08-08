@@ -190,6 +190,12 @@
                     "name": "atk_rate",
                     "value": 1.0,
                     "soulburn": 1.0
+                },
+                {
+                    "name": "skill_dmg_rate",
+                    "description": "If target is inflicted with Magic Nail.",
+                    "value": 0.3,
+                    "soulburn": 0.3
                 }
             ],
             "simpleDmgMod": {
@@ -416,6 +422,12 @@
                     "name": "atk_rate",
                     "value": 2.0,
                     "soulburn": 3.5
+                },
+                {
+                    "name": "skill_dmg_rate",
+                    "description": "If target is inflicted with Magic Nail.",
+                    "value": 0.35,
+                    "soulburn": 0.35
                 }
             ],
             "simpleDmgMod": {

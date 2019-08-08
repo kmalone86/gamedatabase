@@ -414,6 +414,11 @@
                     "name": "atk_rate",
                     "value": 1.6,
                     "soulburn": 1.6
+                },
+                {
+                    "name": "self_hp_current_rate",
+                    "value": 0.0035,
+                    "soulburn": 0.0035
                 }
             ],
             "simpleDmgMod": {

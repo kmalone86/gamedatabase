@@ -219,6 +219,12 @@
                     "name": "atk_rate",
                     "value": 0.6,
                     "soulburn": 0.85
+                },
+                {
+                    "name": "skill_dmg_rate",
+                    "description": "Increased damage based number of targets.",
+                    "value": [1.6, 1.4, 0.0],
+                    "soulburn": [1.6, 1.4, 0.0]
                 }
             ],
             "simpleDmgMod": {
@@ -431,6 +437,12 @@
                     "name": "atk_rate",
                     "value": 1.5,
                     "soulburn": 1.5
+                },
+                {
+                    "name": "skill_dmg_rate",
+                    "description": "Increased damage based number of targets.",
+                    "value": [1.6, 1.4, 0.0],
+                    "soulburn": [1.6, 1.4, 0.0]
                 }
             ],
             "simpleDmgMod": {

@@ -438,8 +438,8 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1.04,
-                    "soulburn": 1.29
+                    "value": [1.04, 1.23],
+                    "soulburn": [1.29, 1.55]
                 }
             ],
             "simpleDmgMod": {

@@ -206,8 +206,8 @@
                 },
                 {
                     "name": "hp_rate",
-                    "value": 0.2,
-                    "soulburn": 0.2
+                    "value": 0.02,
+                    "soulburn": 0.02
                 }
             ],
             "simpleDmgMod": {
@@ -428,8 +428,8 @@
                 },
                 {
                     "name": "hp_rate",
-                    "value": 0.2,
-                    "soulburn": 0.2
+                    "value": 0.05,
+                    "soulburn": 0.05
                 }
             ],
             "simpleDmgMod": {

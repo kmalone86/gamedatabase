@@ -188,8 +188,9 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.7,
-                    "soulburn": 0.7
+                    "description": "Increased attack rate per stab.",
+                    "value": [0.7, 1,4, 2.1],
+                    "soulburn": [0.7, 1,4, 2.1]
                 }
             ],
             "simpleDmgMod": {

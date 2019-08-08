@@ -213,6 +213,11 @@
                     "name": "atk_rate",
                     "value": 0.85,
                     "soulburn": 1.35
+                },
+                {
+                    "name": "self_hp_current_rate",
+                    "value": 0.0015,
+                    "soulburn": 0.0015
                 }
             ],
             "simpleDmgMod": {
@@ -430,6 +435,11 @@
                     "name": "atk_rate",
                     "value": 1.7,
                     "soulburn": 1.7
+                },
+                {
+                    "name": "self_hp_current_rate",
+                    "value": 0.003,
+                    "soulburn": 0.003
                 }
             ],
             "simpleDmgMod": {

@@ -414,6 +414,12 @@
                     "name": "atk_rate",
                     "value": 1.5,
                     "soulburn": 1.5
+                },
+                {
+                    "name": "skill_dmg_rate",
+                    "description": "Increased per focus.",
+                    "value": 0.15,
+                    "soulburn": 0.15
                 }
             ],
             "simpleDmgMod": {

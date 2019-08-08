@@ -205,8 +205,9 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "description": "Skill 2 increases attack, molagora increase even further.",
+                    "value": [1.0, 1.25, 1.40],
+                    "soulburn": [1.0, 1.25, 1.40]
                 }
             ],
             "simpleDmgMod": {
@@ -418,8 +419,9 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.7,
-                    "soulburn": 0.95
+                    "description": "Skill 2 increases attack, molagora increase even further.",
+                    "value": [0.7, 0.95, 1.1],
+                    "soulburn": [0.95, 1.20, 1.35]
                 }
             ],
             "simpleDmgMod": {

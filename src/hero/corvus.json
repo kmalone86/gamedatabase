@@ -209,13 +209,15 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.7,
-                    "soulburn": 0.7
+                    "description": "Increased if buffed by Skill 3.",
+                    "value": [0.7, 0.9],
+                    "soulburn": [0.7, 0.9]
                 },
                 {
                     "name": "def_rate",
-                    "value": 0.9,
-                    "soulburn": 0.9
+                    "description": "Increased if buffed by Skill 3.",
+                    "value": [0.9, 1.2],
+                    "soulburn": [0.9, 1.2]
                 }
             ],
             "simpleDmgMod": {

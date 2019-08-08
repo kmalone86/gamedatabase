@@ -438,7 +438,7 @@
                     "soulburn": 0.001
                 },
                 {
-                    "name": "spd_rate",
+                    "name": "target_spd_rate",
                     "value": 0.003,
                     "soulburn": 0.003
                 }

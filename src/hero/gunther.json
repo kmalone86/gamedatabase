@@ -416,6 +416,12 @@
                     "name": "atk_rate",
                     "value": 1.7,
                     "soulburn": 2.4
+                },
+                {
+                    "name": "skill_dmg_rate",
+                    "description": "Increased damage if target is bleeding.",
+                    "value": 0.3,
+                    "soulburn": 0.3
                 }
             ],
             "simpleDmgMod": {

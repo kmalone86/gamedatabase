@@ -419,6 +419,11 @@
                     "name": "hp_rate",
                     "value": 0.12,
                     "soulburn": 0.12
+                },
+                {
+                    "name": "skill_dmg_rate",
+                    "value": [0.05,0.08],
+                    "soulburn": [0.05,0.08]
                 }
             ],
             "simpleDmgMod": {

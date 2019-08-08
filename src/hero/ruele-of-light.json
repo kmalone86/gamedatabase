@@ -211,6 +211,11 @@
                     "name": "atk_rate",
                     "value": 0.81,
                     "soulburn": 0.81
+                },
+                {
+                    "name": "hp_rate",
+                    "value": 0.07,
+                    "soulburn": 0.07
                 }
             ],
             "simpleDmgMod": {

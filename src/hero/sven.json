@@ -415,6 +415,11 @@
                     "name": "atk_rate",
                     "value": 0.8,
                     "soulburn": 0.8
+                },
+                {
+                    "name": "self_hp_missing_rate",
+                    "value": 0.5,
+                    "soulburn": 0.65
                 }
             ],
             "simpleDmgMod": {

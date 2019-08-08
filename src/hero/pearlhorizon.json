@@ -418,6 +418,12 @@
                     "name": "atk_rate",
                     "value": 1.5,
                     "soulburn": 2.2
+                },
+                {
+                    "name": "target_hp_rate",
+                    "description": "Extra damage when target is asleep.",
+                    "value": [0.0, 0.2],
+                    "soulburn": [0.0, 0.2]
                 }
             ],
             "simpleDmgMod": {

@@ -415,6 +415,11 @@
                     "name": "atk_rate",
                     "value": 1.0,
                     "soulburn": 1.0
+                },
+                {
+                    "name": "skill_dmg_list",
+                    "value": [2.5, 2.0, 0.0],
+                    "soulburn": [2.5, 2.0, 0.0]
                 }
             ],
             "simpleDmgMod": {

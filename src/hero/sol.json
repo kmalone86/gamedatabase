@@ -190,6 +190,12 @@
                     "name": "atk_rate",
                     "value": 1.0,
                     "soulburn": 1.0
+                },
+                {
+                    "name": "skill_dmg_rate",
+                    "description": "If target has no buffs",
+                    "value": 0.2,
+                    "soulburn": 0.2
                 }
             ],
             "simpleDmgMod": {
@@ -303,6 +309,11 @@
                     "name": "atk_rate",
                     "value": 1.0,
                     "soulburn": 1.0
+                },
+                {
+                    "name": "hp_rate",
+                    "value": 0.04,
+                    "soulburn": 0.04
                 }
             ],
             "simpleDmgMod": {
@@ -416,6 +427,11 @@
                     "name": "atk_rate",
                     "value": 1.6,
                     "soulburn": 1.6
+                },
+                {
+                    "name": "hp_rate",
+                    "value": 0.05,
+                    "soulburn": 0.05
                 }
             ],
             "simpleDmgMod": {

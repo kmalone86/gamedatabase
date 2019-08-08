@@ -428,6 +428,12 @@
                     "name": "atk_rate",
                     "value": 1.8,
                     "soulburn": 1.8
+                },
+                {
+                    "name": "skill_dmg_rate",
+                    "description": "Damage increased per target debuff.",
+                    "value": 0.2,
+                    "soulburn": 0.2
                 }
             ],
             "simpleDmgMod": {

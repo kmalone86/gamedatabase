@@ -429,6 +429,12 @@
                     "name": "atk_rate",
                     "value": 2.0,
                     "soulburn": 2.0
+                },
+                {
+                    "name": "skill_dmg_rate",
+                    "description": "If target is buffed, increases damage.",
+                    "value": 0.5,
+                    "soulburn": 0.5
                 }
             ],
             "simpleDmgMod": {

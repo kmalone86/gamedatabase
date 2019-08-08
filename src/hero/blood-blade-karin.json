@@ -188,8 +188,9 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "description": "Atk increased per 25% hp missing.",
+                    "value": [1.0, 1.167, 1.334, 1.501]
+                    "soulburn": [1.0, 1.167, 1.334, 1.501]
                 }
             ],
             "simpleDmgMod": {
@@ -410,8 +411,9 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1.2,
-                    "soulburn": 1.45
+                    "description": "Atk increased per 25% hp missing.",
+                    "value": [1.2, 1.367, 1.534, 1.701],
+                    "soulburn": [1.45, 1.617, 1.784, 1.951]
                 }
             ],
             "simpleDmgMod": {

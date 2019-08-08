@@ -285,6 +285,12 @@
                     "name": "atk_rate",
                     "value": 1.0,
                     "soulburn": 1.0
+                },
+                {
+                    "name": "skill_dmg_rate",
+                    "description": "Increases damage per extra target.",
+                    "value": 0.1,
+                    "soulburn": 0.125
                 }
             ],
             "simpleDmgMod": {

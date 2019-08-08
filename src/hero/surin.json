@@ -409,6 +409,12 @@
                     "name": "atk_rate",
                     "value": 1.8,
                     "soulburn": 1.8
+                },
+                {
+                    "name": "skill_dmg_list",
+                    "description": "Damage increased per bleed.",
+                    "value": [0.4, 0.55, 0.70, 0.85, 1.0],
+                    "soulburn": [0.4, 0.55, 0.70, 0.85, 1.0]
                 }
             ],
             "simpleDmgMod": {
