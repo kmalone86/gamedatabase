@@ -304,16 +304,16 @@
                     "stat": "atk",
                     "type": "multiplier",
                     "target": "self",
-                    "value": 0.85,
-                    "soulburn": 1.1
+                    "value": 1.1,
+                    "soulburn": 1.35
                 }
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((0.85 * hero_atk)) * 0.9 * 1.871",
-                "simplified": "((1.4313 * hero_atk))",
-                "soulburn": "((1.1 * hero_atk)) * 0.9 * 1.871",
-                "simplifiedSoulburn": "((1.8523 * hero_atk))"
+                "value": "((1.1 * hero_atk)) * 0.9 * 1.871",
+                "simplified": "((1.8523 * hero_atk))",
+                "soulburn": "((1.35 * hero_atk)) * 0.9 * 1.871",
+                "simplifiedSoulburn": "((2.2733 * hero_atk))"
             }
         },
         {
