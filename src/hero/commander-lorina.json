@@ -11,15 +11,15 @@
     "relations": [
         {
             "hero": "maya",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "dingo",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "cidd",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "crozet",

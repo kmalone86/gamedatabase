@@ -11,7 +11,7 @@
     "relations": [
         {
             "hero": "alexa",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "tieria",
@@ -23,15 +23,15 @@
         },
         {
             "hero": "elson",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "iseria",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "clarissa",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {

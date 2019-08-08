@@ -11,19 +11,19 @@
     "relations": [
         {
             "hero": "corvus",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "helga",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "cartuja",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "cidd",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

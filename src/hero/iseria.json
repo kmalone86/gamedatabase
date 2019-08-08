@@ -11,31 +11,31 @@
     "relations": [
         {
             "hero": "ras",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "cermia",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "nilgal",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "arbiter-vildred",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "silk",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "alexa",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "elson",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

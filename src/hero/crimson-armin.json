@@ -15,7 +15,7 @@
         },
         {
             "hero": "tywin",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

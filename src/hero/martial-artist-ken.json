@@ -11,7 +11,7 @@
     "relations": [
         {
             "hero": "ken",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {

@@ -11,7 +11,7 @@
     "relations": [
         {
             "hero": "arbiter-vildred",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "angelica",
@@ -23,7 +23,7 @@
         },
         {
             "hero": "mercedes",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "vildred",
@@ -31,11 +31,11 @@
         },
         {
             "hero": "iseria",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "chloe",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

@@ -15,15 +15,15 @@
         },
         {
             "hero": "corvus",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "basar",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "purrgis",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {

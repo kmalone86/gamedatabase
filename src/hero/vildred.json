@@ -11,7 +11,7 @@
     "relations": [
         {
             "hero": "ras",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "iseria",
@@ -19,15 +19,15 @@
         },
         {
             "hero": "aither",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "ruele-of-light",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "judge-kise",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

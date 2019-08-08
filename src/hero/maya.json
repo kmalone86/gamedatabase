@@ -15,15 +15,15 @@
         },
         {
             "hero": "lorina",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "cidd",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "sven",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

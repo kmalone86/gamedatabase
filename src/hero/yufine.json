@@ -11,7 +11,7 @@
     "relations": [
         {
             "hero": "silk",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "rin",
@@ -19,7 +19,7 @@
         },
         {
             "hero": "cecilia",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "luna",

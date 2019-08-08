@@ -11,11 +11,11 @@
     "relations": [
         {
             "hero": "hazel",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "judith",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "zerato",

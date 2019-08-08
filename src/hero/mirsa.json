@@ -11,15 +11,15 @@
     "relations": [
         {
             "hero": "coli",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "gunther",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "sven",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "helga",

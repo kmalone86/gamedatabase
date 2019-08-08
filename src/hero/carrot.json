@@ -15,23 +15,23 @@
         },
         {
             "hero": "hazel",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "schuri",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "wanda",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "cermia",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "tamarinne",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

@@ -15,15 +15,15 @@
         },
         {
             "hero": "jena",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "dark-corvus",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "gunther",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "cartuja",

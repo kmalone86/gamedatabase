@@ -11,7 +11,7 @@
     "relations": [
         {
             "hero": "yuna",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "karin",
@@ -19,19 +19,19 @@
         },
         {
             "hero": "merlon",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "auxiliary-lots",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "katis",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "carrot",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

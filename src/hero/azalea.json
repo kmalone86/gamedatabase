@@ -11,7 +11,7 @@
     "relations": [
         {
             "hero": "wanda",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "zerato",

@@ -11,15 +11,15 @@
     "relations": [
         {
             "hero": "silk",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "kluri",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "maya",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {

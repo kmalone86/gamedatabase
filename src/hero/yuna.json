@@ -15,27 +15,27 @@
         },
         {
             "hero": "tenebria",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "judith",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "hazel",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "karin",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "rikoris",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "tamarinne",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

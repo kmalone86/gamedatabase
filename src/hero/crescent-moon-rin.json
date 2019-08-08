@@ -11,11 +11,11 @@
     "relations": [
         {
             "hero": "celeste",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "basar",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

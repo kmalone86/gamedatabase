@@ -11,7 +11,7 @@
     "relations": [
         {
             "hero": "sven",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "iseria",
@@ -23,7 +23,7 @@
         },
         {
             "hero": "lidica",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

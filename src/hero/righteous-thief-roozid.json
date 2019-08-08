@@ -15,15 +15,15 @@
         },
         {
             "hero": "armin",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "jecht",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "jaiman",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {

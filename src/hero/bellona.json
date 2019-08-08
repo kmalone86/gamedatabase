@@ -11,23 +11,23 @@
     "relations": [
         {
             "hero": "rin",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "aramintha",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "sez",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "lidica",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "violet",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

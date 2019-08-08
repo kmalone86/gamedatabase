@@ -15,31 +15,31 @@
         },
         {
             "hero": "sigret",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "cartuja",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "arbiter-vildred",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "tenebria",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "nilgal",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "aither",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "jecht",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

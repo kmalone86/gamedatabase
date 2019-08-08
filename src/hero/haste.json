@@ -11,15 +11,15 @@
     "relations": [
         {
             "hero": "pyllis",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "assassin-coli",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "assassin-cidd",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {

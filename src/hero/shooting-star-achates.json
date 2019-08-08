@@ -15,15 +15,15 @@
         },
         {
             "hero": "elson",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "celeste",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "montmorancy",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

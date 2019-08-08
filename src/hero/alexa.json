@@ -15,7 +15,7 @@
         },
         {
             "hero": "jena",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "angelica",
@@ -23,11 +23,11 @@
         },
         {
             "hero": "elson",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "cermia",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {

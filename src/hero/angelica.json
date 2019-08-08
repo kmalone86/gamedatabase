@@ -11,19 +11,19 @@
     "relations": [
         {
             "hero": "clarissa",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "aither",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "crozet",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "enott",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {

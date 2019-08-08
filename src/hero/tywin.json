@@ -11,15 +11,15 @@
     "relations": [
         {
             "hero": "romann",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "cecilia",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "otillie",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

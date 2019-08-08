@@ -11,19 +11,19 @@
     "relations": [
         {
             "hero": "dizzy",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "baiken",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "i-no",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "yuna",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

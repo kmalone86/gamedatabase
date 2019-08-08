@@ -11,11 +11,11 @@
     "relations": [
         {
             "hero": "roozid",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "jecht",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "rin",

@@ -11,15 +11,15 @@
     "relations": [
         {
             "hero": "straze",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "violet",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "ras",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "destina",
@@ -27,7 +27,7 @@
         },
         {
             "hero": "mercedes",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

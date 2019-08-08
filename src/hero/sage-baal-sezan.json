@@ -11,15 +11,15 @@
     "relations": [
         {
             "hero": "ras",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "baal-sezan",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "dominiel",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

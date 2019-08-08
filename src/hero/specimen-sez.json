@@ -15,7 +15,7 @@
         },
         {
             "hero": "bellona",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {

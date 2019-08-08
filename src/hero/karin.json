@@ -15,7 +15,7 @@
         },
         {
             "hero": "azalea",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "hazel",
@@ -23,19 +23,19 @@
         },
         {
             "hero": "zerato",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "rikoris",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "ras",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "judith",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

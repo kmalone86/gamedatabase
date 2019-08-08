@@ -11,11 +11,11 @@
     "relations": [
         {
             "hero": "vildred",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "diene",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "nilgal",
@@ -27,7 +27,7 @@
         },
         {
             "hero": "ras",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {

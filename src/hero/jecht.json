@@ -15,11 +15,11 @@
         },
         {
             "hero": "basar",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "roozid",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

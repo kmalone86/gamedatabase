@@ -11,7 +11,7 @@
     "relations": [
         {
             "hero": "serila",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

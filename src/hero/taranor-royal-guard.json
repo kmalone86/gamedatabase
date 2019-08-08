@@ -11,7 +11,7 @@
     "relations": [
         {
             "hero": "taranor-guard",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "tenebria",
@@ -19,7 +19,7 @@
         },
         {
             "hero": "church-of-ilryos",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

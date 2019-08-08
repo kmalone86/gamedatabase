@@ -11,19 +11,19 @@
     "relations": [
         {
             "hero": "aither",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "iseria",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "romann",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "tywin",
-            "relationType": "grudge"
+            "relationType": "hostile"
         }
     ],
     "stats": {

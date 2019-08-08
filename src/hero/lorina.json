@@ -11,7 +11,7 @@
     "relations": [
         {
             "hero": "maya",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "crozet",
@@ -19,11 +19,11 @@
         },
         {
             "hero": "dingo",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "cidd",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

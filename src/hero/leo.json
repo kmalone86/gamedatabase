@@ -11,15 +11,15 @@
     "relations": [
         {
             "hero": "crozet",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "cidd",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "aither",
-            "relationType": "grudge"
+            "relationType": "hostile"
         },
         {
             "hero": "ras",

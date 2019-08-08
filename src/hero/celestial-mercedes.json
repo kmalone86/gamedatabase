@@ -11,7 +11,7 @@
     "relations": [
         {
             "hero": "ras",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "watcher-schuri",
@@ -19,7 +19,7 @@
         },
         {
             "hero": "mercedes",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "assassin-cartuja",
@@ -27,7 +27,7 @@
         },
         {
             "hero": "angelica",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {

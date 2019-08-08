@@ -11,15 +11,15 @@
     "relations": [
         {
             "hero": "rin",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "cartuja",
-            "relationType": "trust"
+            "relationType": "friendly"
         },
         {
             "hero": "silk",
-            "relationType": "trust"
+            "relationType": "friendly"
         }
     ],
     "stats": {
