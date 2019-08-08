@@ -173,27 +173,16 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1.0,
                     "soulburn": 1.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 1.0,
                     "soulburn": 1.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "multiplicative",
-                    "stat": "spd",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "spd_rate",
                     "value": 0.00075,
                     "soulburn": 0.00075
                 }
@@ -300,27 +289,16 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0.9,
                     "soulburn": 0.9
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 1.0,
                     "soulburn": 1.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "multiplicative",
-                    "stat": "spd",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "spd_rate",
                     "value": 0.00075,
                     "soulburn": 0.00075
                 }
@@ -430,27 +408,16 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0.8,
                     "soulburn": 0.8
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 1.8,
                     "soulburn": 1.8
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "multiplicative",
-                    "stat": "spd",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "spd_rate",
                     "value": 0.001125,
                     "soulburn": 0.001125
                 }
