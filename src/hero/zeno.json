@@ -422,16 +422,22 @@
                 },
                 {
                     "name": "skill_dmg_rate",
-                    "value": [0.05,0.08],
-                    "soulburn": [0.05,0.08]
+                    "value": [
+                        0.05,
+                        0.08
+                    ],
+                    "soulburn": [
+                        0.05,
+                        0.08
+                    ]
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk) + (hp_rate * hero_hp)) * pow! * constant",
-                "value": "((0.5 * hero_atk) + (0.12 * hero_hp)) * 1.0 * 1.871",
-                "simplified": "((0.9355 * hero_atk) + (0.2245 * hero_hp))",
-                "soulburn": "((0.5 * hero_atk) + (0.12 * hero_hp)) * 1.0 * 1.871",
-                "simplifiedSoulburn": "((0.9355 * hero_atk) + (0.2245 * hero_hp))"
+                "description": "((atk_rate * hero_atk) + (hp_rate * hero_hp)) * (1 + ((skill_dmg_rate * hero_special_count))) * pow! * constant",
+                "value": "((0.5 * hero_atk) + (0.12 * hero_hp)) * (1 + (([0.05, 0.08] * hero_special_count))) * 1.0 * 1.871",
+                "simplified": "((0.9355 * hero_atk) + (0.2245 * hero_hp)) * (1 + (([0.05, 0.08] * hero_special_count)))",
+                "soulburn": "((0.5 * hero_atk) + (0.12 * hero_hp)) * (1 + (([0.05, 0.08] * hero_special_count))) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((0.9355 * hero_atk) + (0.2245 * hero_hp)) * (1 + (([0.05, 0.08] * hero_special_count)))"
             }
         }
     ],

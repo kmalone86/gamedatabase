@@ -418,16 +418,24 @@
                 },
                 {
                     "name": "skill_dmg_list",
-                    "value": [2.5, 2.0, 0.0],
-                    "soulburn": [2.5, 2.0, 0.0]
+                    "value": [
+                        2.5,
+                        2.0,
+                        0.0
+                    ],
+                    "soulburn": [
+                        2.5,
+                        2.0,
+                        0.0
+                    ]
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.0 * hero_atk)) * 1.0 * 1.871",
-                "simplified": "((1.871 * hero_atk))",
-                "soulburn": "((1.0 * hero_atk)) * 1.0 * 1.871",
-                "simplifiedSoulburn": "((1.871 * hero_atk))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((skill_dmg_list))) * pow! * constant",
+                "value": "((1.0 * hero_atk)) * (1 + (([2.5, 2.0, 0.0]))) * 1.0 * 1.871",
+                "simplified": "((1.871 * hero_atk)) * (1 + (([2.5, 2.0, 0.0])))",
+                "soulburn": "((1.0 * hero_atk)) * (1 + (([2.5, 2.0, 0.0]))) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk)) * (1 + (([2.5, 2.0, 0.0])))"
             }
         }
     ],

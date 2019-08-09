@@ -413,16 +413,28 @@
                 {
                     "name": "skill_dmg_list",
                     "description": "Damage increased per bleed.",
-                    "value": [0.4, 0.55, 0.70, 0.85, 1.0],
-                    "soulburn": [0.4, 0.55, 0.70, 0.85, 1.0]
+                    "value": [
+                        0.4,
+                        0.55,
+                        0.7,
+                        0.85,
+                        1.0
+                    ],
+                    "soulburn": [
+                        0.4,
+                        0.55,
+                        0.7,
+                        0.85,
+                        1.0
+                    ]
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.8 * hero_atk)) * 0.8 * 1.871",
-                "simplified": "((2.6942 * hero_atk))",
-                "soulburn": "((1.8 * hero_atk)) * 0.8 * 1.871",
-                "simplifiedSoulburn": "((2.6942 * hero_atk))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((skill_dmg_list))) * pow! * constant",
+                "value": "((1.8 * hero_atk)) * (1 + (([0.4, 0.55, 0.7, 0.85, 1.0]))) * 0.8 * 1.871",
+                "simplified": "((2.6942 * hero_atk)) * (1 + (([0.4, 0.55, 0.7, 0.85, 1.0])))",
+                "soulburn": "((1.8 * hero_atk)) * (1 + (([0.4, 0.55, 0.7, 0.85, 1.0]))) * 0.8 * 1.871",
+                "simplifiedSoulburn": "((2.6942 * hero_atk)) * (1 + (([0.4, 0.55, 0.7, 0.85, 1.0])))"
             }
         }
     ],

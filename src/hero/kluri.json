@@ -431,11 +431,11 @@
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((0.0 * hero_atk)) * 1.0 * 1.871",
-                "simplified": "((0.0 * hero_atk))",
-                "soulburn": "((0.0 * hero_atk)) * 1.0 * 1.871",
-                "simplifiedSoulburn": "((0.0 * hero_atk))"
+                "description": " * pow! * constant",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
             }
         }
     ],

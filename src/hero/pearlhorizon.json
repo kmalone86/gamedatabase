@@ -422,16 +422,22 @@
                 {
                     "name": "target_hp_rate",
                     "description": "Extra damage when target is asleep.",
-                    "value": [0.0, 0.2],
-                    "soulburn": [0.0, 0.2]
+                    "value": [
+                        0.0,
+                        0.2
+                    ],
+                    "soulburn": [
+                        0.0,
+                        0.2
+                    ]
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.5 * hero_atk)) * 0.9 * 1.871",
-                "simplified": "((2.5259 * hero_atk))",
-                "soulburn": "((2.2 * hero_atk)) * 0.9 * 1.871",
-                "simplifiedSoulburn": "((3.7046 * hero_atk))"
+                "description": "((atk_rate * hero_atk) + (target_hp_rate * target_hp)) * pow! * constant",
+                "value": "((1.5 * hero_atk) + ([0.0, 0.2] * target_hp)) * 0.9 * 1.871",
+                "simplified": "((2.5259 * hero_atk) + ([0.0, 0.3368] * target_hp))",
+                "soulburn": "((2.2 * hero_atk) + ([0.0, 0.2] * target_hp)) * 0.9 * 1.871",
+                "simplifiedSoulburn": "((3.7046 * hero_atk) + ([0.0, 0.3368] * target_hp))"
             }
         }
     ],

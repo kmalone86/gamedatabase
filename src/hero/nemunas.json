@@ -361,7 +361,7 @@
                 "description": "((atk_rate * hero_atk) + (hp_rate * hero_hp)) * pow! * constant",
                 "value": "((1.0 * hero_atk) + (0.05 * hero_hp)) * 0.8 * 1.871",
                 "simplified": "((1.4968 * hero_atk) + (0.0748 * hero_hp))",
-                "soulburn": "((1.7 * hero_atk) + (0.05 * hero_hp)) * 0.8 * 1.871",
+                "soulburn": "((1.7 * hero_atk) + (0.085 * hero_hp)) * 0.8 * 1.871",
                 "simplifiedSoulburn": "((2.5446 * hero_atk) + (0.1272 * hero_hp))"
             }
         },

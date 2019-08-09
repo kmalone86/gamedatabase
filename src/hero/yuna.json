@@ -223,16 +223,24 @@
                 {
                     "name": "skill_dmg_rate",
                     "description": "Increased damage based number of targets.",
-                    "value": [1.6, 1.4, 0.0],
-                    "soulburn": [1.6, 1.4, 0.0]
+                    "value": [
+                        1.6,
+                        1.4,
+                        0.0
+                    ],
+                    "soulburn": [
+                        1.6,
+                        1.4,
+                        0.0
+                    ]
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((0.6 * hero_atk)) * 0.8 * 1.871",
-                "simplified": "((0.8981 * hero_atk))",
-                "soulburn": "((0.85 * hero_atk)) * 0.8 * 1.871",
-                "simplifiedSoulburn": "((1.2723 * hero_atk))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((skill_dmg_rate * hero_special_count))) * pow! * constant",
+                "value": "((0.6 * hero_atk)) * (1 + (([1.6, 1.4, 0.0] * hero_special_count))) * 0.8 * 1.871",
+                "simplified": "((0.8981 * hero_atk)) * (1 + (([1.6, 1.4, 0.0] * hero_special_count)))",
+                "soulburn": "((0.85 * hero_atk)) * (1 + (([1.6, 1.4, 0.0] * hero_special_count))) * 0.8 * 1.871",
+                "simplifiedSoulburn": "((1.2723 * hero_atk)) * (1 + (([1.6, 1.4, 0.0] * hero_special_count)))"
             }
         },
         {
@@ -441,16 +449,24 @@
                 {
                     "name": "skill_dmg_rate",
                     "description": "Increased damage based number of targets.",
-                    "value": [1.6, 1.4, 0.0],
-                    "soulburn": [1.6, 1.4, 0.0]
+                    "value": [
+                        1.6,
+                        1.4,
+                        0.0
+                    ],
+                    "soulburn": [
+                        1.6,
+                        1.4,
+                        0.0
+                    ]
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.5 * hero_atk)) * 0.8 * 1.871",
-                "simplified": "((2.2452 * hero_atk))",
-                "soulburn": "((1.5 * hero_atk)) * 0.8 * 1.871",
-                "simplifiedSoulburn": "((2.2452 * hero_atk))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((skill_dmg_rate * hero_special_count))) * pow! * constant",
+                "value": "((1.5 * hero_atk)) * (1 + (([1.6, 1.4, 0.0] * hero_special_count))) * 0.8 * 1.871",
+                "simplified": "((2.2452 * hero_atk)) * (1 + (([1.6, 1.4, 0.0] * hero_special_count)))",
+                "soulburn": "((1.5 * hero_atk)) * (1 + (([1.6, 1.4, 0.0] * hero_special_count))) * 0.8 * 1.871",
+                "simplifiedSoulburn": "((2.2452 * hero_atk)) * (1 + (([1.6, 1.4, 0.0] * hero_special_count)))"
             }
         }
     ],

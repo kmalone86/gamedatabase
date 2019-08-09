@@ -422,11 +422,11 @@
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.6 * hero_atk)) * 1.0 * 1.871",
-                "simplified": "((2.9936 * hero_atk))",
-                "soulburn": "((1.6 * hero_atk)) * 1.0 * 1.871",
-                "simplifiedSoulburn": "((2.9936 * hero_atk))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((self_hp_current_rate * hero_hp_remaining_percent))) * pow! * constant",
+                "value": "((1.6 * hero_atk)) * (1 + ((0.0035 * hero_hp_remaining_percent))) * 1.0 * 1.871",
+                "simplified": "((2.9936 * hero_atk)) * (1 + ((0.0035 * hero_hp_remaining_percent)))",
+                "soulburn": "((1.6 * hero_atk)) * (1 + ((0.0035 * hero_hp_remaining_percent))) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((2.9936 * hero_atk)) * (1 + ((0.0035 * hero_hp_remaining_percent)))"
             }
         }
     ],
