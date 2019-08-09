@@ -204,37 +204,40 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1.0,
                     "soulburn": 1.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
-                    "value": 0.7,
-                    "soulburn": 0.7
+                    "name": "atk_rate",
+                    "description": "Increased if buffed by Skill 3.",
+                    "value": [
+                        0.7,
+                        0.9
+                    ],
+                    "soulburn": [
+                        0.7,
+                        0.9
+                    ]
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "def",
-                    "type": "multiplier",
-                    "target": "self",
-                    "value": 0.9,
-                    "soulburn": 0.9
+                    "name": "def_rate",
+                    "description": "Increased if buffed by Skill 3.",
+                    "value": [
+                        0.9,
+                        1.2
+                    ],
+                    "soulburn": [
+                        0.9,
+                        1.2
+                    ]
                 }
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk) + (def_rate * hero_def)) * pow! * constant",
-                "value": "((0.7 * hero_atk) + (0.9 * hero_def)) * 1.0 * 1.871",
-                "simplified": "((1.3097 * hero_atk) + (1.6839 * hero_def))",
-                "soulburn": "((0.7 * hero_atk) + (0.9 * hero_def)) * 1.0 * 1.871",
-                "simplifiedSoulburn": "((1.3097 * hero_atk) + (1.6839 * hero_def))"
+                "value": "(([0.7, 0.9] * hero_atk) + ([0.9, 1.2] * hero_def)) * 1.0 * 1.871",
+                "simplified": "(([1.3097, 1.6839] * hero_atk) + ([1.6839, 2.2452] * hero_def))",
+                "soulburn": "(([0.7, 0.9] * hero_atk) + ([0.9, 1.2] * hero_def)) * 1.0 * 1.871",
+                "simplifiedSoulburn": "(([1.3097, 1.6839] * hero_atk) + ([1.6839, 2.2452] * hero_def))"
             }
         },
         {
@@ -363,27 +366,16 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0.9,
                     "soulburn": 0.9
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 0.3,
                     "soulburn": 0.3
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "def",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "def_rate",
                     "value": 0.7,
                     "soulburn": 0.7
                 }
@@ -451,17 +443,11 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0.0,
                     "soulburn": 0.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 0.0,
                     "soulburn": 0.0
                 }

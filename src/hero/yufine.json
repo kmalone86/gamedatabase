@@ -202,17 +202,11 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1.0,
                     "soulburn": 1.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 1.0,
                     "soulburn": 1.0
                 }
@@ -298,17 +292,11 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1.0,
                     "soulburn": 1.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 0.6,
                     "soulburn": 0.6
                 }
@@ -434,27 +422,27 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0.95,
                     "soulburn": 0.95
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 2.0,
                     "soulburn": 2.0
+                },
+                {
+                    "name": "skill_dmg_rate",
+                    "description": "If target is buffed, increases damage.",
+                    "value": 0.5,
+                    "soulburn": 0.5
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((2.0 * hero_atk)) * 0.95 * 1.871",
-                "simplified": "((3.5549 * hero_atk))",
-                "soulburn": "((2.0 * hero_atk)) * 0.95 * 1.871",
-                "simplifiedSoulburn": "((3.5549 * hero_atk))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((skill_dmg_rate * hero_special_count))) * pow! * constant",
+                "value": "((2.0 * hero_atk)) * (1 + ((0.5 * hero_special_count))) * 0.95 * 1.871",
+                "simplified": "((3.5549 * hero_atk)) * (1 + ((0.5 * hero_special_count)))",
+                "soulburn": "((2.0 * hero_atk)) * (1 + ((0.5 * hero_special_count))) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((3.5549 * hero_atk)) * (1 + ((0.5 * hero_special_count)))"
             }
         }
     ],

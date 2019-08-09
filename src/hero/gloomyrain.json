@@ -200,27 +200,30 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0.95,
                     "soulburn": 0.95
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "name": "atk_rate",
+                    "description": "Skill 2 increases attack, molagora increase even further.",
+                    "value": [
+                        1.0,
+                        1.25,
+                        1.4
+                    ],
+                    "soulburn": [
+                        1.0,
+                        1.25,
+                        1.4
+                    ]
                 }
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.0 * hero_atk)) * 0.95 * 1.871",
-                "simplified": "((1.7774 * hero_atk))",
-                "soulburn": "((1.0 * hero_atk)) * 0.95 * 1.871",
-                "simplifiedSoulburn": "((1.7774 * hero_atk))"
+                "value": "(([1.0, 1.25, 1.4] * hero_atk)) * 0.95 * 1.871",
+                "simplified": "(([1.7774, 2.2218, 2.4884] * hero_atk))",
+                "soulburn": "(([1.0, 1.25, 1.4] * hero_atk)) * 0.95 * 1.871",
+                "simplifiedSoulburn": "(([1.7774, 2.2218, 2.4884] * hero_atk))"
             }
         },
         {
@@ -291,17 +294,11 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0.0,
                     "soulburn": 0.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 0.0,
                     "soulburn": 0.0
                 }
@@ -425,27 +422,30 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1.0,
                     "soulburn": 1.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
-                    "value": 0.7,
-                    "soulburn": 0.95
+                    "name": "atk_rate",
+                    "description": "Skill 2 increases attack, molagora increase even further.",
+                    "value": [
+                        0.7,
+                        0.95,
+                        1.1
+                    ],
+                    "soulburn": [
+                        0.95,
+                        1.2,
+                        1.35
+                    ]
                 }
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((0.7 * hero_atk)) * 1.0 * 1.871",
-                "simplified": "((1.3097 * hero_atk))",
-                "soulburn": "((0.95 * hero_atk)) * 1.0 * 1.871",
-                "simplifiedSoulburn": "((1.7774 * hero_atk))"
+                "value": "(([0.7, 0.95, 1.1] * hero_atk)) * 1.0 * 1.871",
+                "simplified": "(([1.3097, 1.7774, 2.0581] * hero_atk))",
+                "soulburn": "(([0.95, 1.2, 1.35] * hero_atk)) * 1.0 * 1.871",
+                "simplifiedSoulburn": "(([1.7774, 2.2452, 2.5259] * hero_atk))"
             }
         }
     ],

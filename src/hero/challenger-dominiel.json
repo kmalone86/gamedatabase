@@ -175,27 +175,38 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0.9,
                     "soulburn": 1.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 1.0,
                     "soulburn": 2.5
+                },
+                {
+                    "name": "crit_dmg_rate",
+                    "value": 0.2,
+                    "soulburn": 0.2
+                },
+                {
+                    "name": "skill_dmg_rate",
+                    "description": "Damage increase per Skill 2 stack.",
+                    "value": [
+                        0.054,
+                        0.0702
+                    ],
+                    "soulburn": [
+                        0.054,
+                        0.0702
+                    ]
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.0 * hero_atk)) * 0.9 * 1.871",
-                "simplified": "((1.6839 * hero_atk))",
-                "soulburn": "((2.5 * hero_atk)) * 1.0 * 1.871",
-                "simplifiedSoulburn": "((4.6775 * hero_atk))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((skill_dmg_rate * hero_special_count))) * pow! * constant",
+                "value": "((1.0 * hero_atk)) * (1 + (([0.054, 0.0702] * hero_special_count))) * 0.9 * 1.871",
+                "simplified": "((1.6839 * hero_atk)) * (1 + (([0.054, 0.0702] * hero_special_count)))",
+                "soulburn": "((2.5 * hero_atk)) * (1 + (([0.054, 0.0702] * hero_special_count))) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((4.6775 * hero_atk)) * (1 + (([0.054, 0.0702] * hero_special_count)))"
             }
         },
         {
@@ -291,17 +302,11 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0.0,
                     "soulburn": 0.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 0.0,
                     "soulburn": 0.0
                 }
@@ -409,17 +414,11 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0.0,
                     "soulburn": 0.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 0.0,
                     "soulburn": 0.0
                 }

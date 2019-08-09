@@ -189,17 +189,11 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0.95,
                     "soulburn": 0.95
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 1.0,
                     "soulburn": 1.0
                 }
@@ -279,27 +273,26 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0.95,
                     "soulburn": 0.95
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 1.2,
                     "soulburn": 1.2
+                },
+                {
+                    "name": "self_hp_missing_rate",
+                    "value": 0.004,
+                    "soulburn": 0.004
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.2 * hero_atk)) * 0.95 * 1.871",
-                "simplified": "((2.1329 * hero_atk))",
-                "soulburn": "((1.2 * hero_atk)) * 0.95 * 1.871",
-                "simplifiedSoulburn": "((2.1329 * hero_atk))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((self_hp_missing_rate * hero_hp_lost_percent))) * pow! * constant",
+                "value": "((1.2 * hero_atk)) * (1 + ((0.004 * hero_hp_lost_percent))) * 0.95 * 1.871",
+                "simplified": "((2.1329 * hero_atk)) * (1 + ((0.004 * hero_hp_lost_percent)))",
+                "soulburn": "((1.2 * hero_atk)) * (1 + ((0.004 * hero_hp_lost_percent))) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((2.1329 * hero_atk)) * (1 + ((0.004 * hero_hp_lost_percent)))"
             }
         },
         {
@@ -416,17 +409,11 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1.0,
                     "soulburn": 1.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 0.9,
                     "soulburn": 1.1
                 }

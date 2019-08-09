@@ -10,8 +10,24 @@
     "background": "In Farche, the nomadic Tuharta Clan is wiped out by a great sandstorm. Cartuja leads the few survivors as they wander in search of a new home, working day and night as a mercenary to raise enough money to save his clan.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "basar",
+            "relationType": "friendly"
+        },
+        {
+            "hero": "aramintha",
+            "relationType": "friendly"
+        },
+        {
+            "hero": "armin",
+            "relationType": "friendly"
+        },
+        {
+            "hero": "jecht",
+            "relationType": "friendly"
+        },
+        {
+            "hero": "roozid",
+            "relationType": "friendly"
         }
     ],
     "stats": {
@@ -190,27 +206,16 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1.0,
                     "soulburn": 1.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 0.5,
                     "soulburn": 0.5
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "hp",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "hp_rate",
                     "value": 0.06,
                     "soulburn": 0.06
                 }
@@ -291,17 +296,11 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0.0,
                     "soulburn": 0.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 0.0,
                     "soulburn": 0.0
                 }
@@ -429,37 +428,40 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1.0,
                     "soulburn": 1.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
-                    "value": 0.5,
-                    "soulburn": 0.5
+                    "name": "atk_rate",
+                    "description": "Increased damage in below 50% hp.",
+                    "value": [
+                        0.6,
+                        1.0
+                    ],
+                    "soulburn": [
+                        0.8,
+                        1.2
+                    ]
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "hp",
-                    "type": "multiplier",
-                    "target": "self",
-                    "value": 0.05,
-                    "soulburn": 0.08
+                    "name": "hp_rate",
+                    "description": "Increased damage in below 50% hp.",
+                    "value": [
+                        0.05,
+                        0.625
+                    ],
+                    "soulburn": [
+                        0.08,
+                        0.1
+                    ]
                 }
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk) + (hp_rate * hero_hp)) * pow! * constant",
-                "value": "((0.5 * hero_atk) + (0.05 * hero_hp)) * 1.0 * 1.871",
-                "simplified": "((0.9355 * hero_atk) + (0.0936 * hero_hp))",
-                "soulburn": "((0.5 * hero_atk) + (0.05 * hero_hp)) * 1.0 * 1.871",
-                "simplifiedSoulburn": "((0.9355 * hero_atk) + (0.1497 * hero_hp))"
+                "value": "(([0.6, 1.0] * hero_atk) + ([0.05, 0.625] * hero_hp)) * 1.0 * 1.871",
+                "simplified": "(([1.1226, 1.871] * hero_atk) + ([0.0936, 1.1694] * hero_hp))",
+                "soulburn": "(([0.8, 1.2] * hero_atk) + ([0.08, 0.1] * hero_hp)) * 1.0 * 1.871",
+                "simplifiedSoulburn": "(([1.4968, 2.2452] * hero_atk) + ([0.1497, 0.1871] * hero_hp))"
             }
         }
     ],

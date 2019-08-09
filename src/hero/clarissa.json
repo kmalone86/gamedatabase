@@ -189,17 +189,11 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1.0,
                     "soulburn": 1.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 1.0,
                     "soulburn": 1.0
                 }
@@ -306,17 +300,11 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1.0,
                     "soulburn": 1.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 0.7,
                     "soulburn": 0.7
                 }
@@ -425,27 +413,27 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1.0,
                     "soulburn": 1.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 0.8,
                     "soulburn": 1.05
+                },
+                {
+                    "name": "skill_dmg_rate",
+                    "description": "If enraged, increases damage.",
+                    "value": 0.3,
+                    "soulburn": 0.3
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((0.8 * hero_atk)) * 1.0 * 1.871",
-                "simplified": "((1.4968 * hero_atk))",
-                "soulburn": "((1.05 * hero_atk)) * 1.0 * 1.871",
-                "simplifiedSoulburn": "((1.9646 * hero_atk))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((skill_dmg_rate * hero_special_count))) * pow! * constant",
+                "value": "((0.8 * hero_atk)) * (1 + ((0.3 * hero_special_count))) * 1.0 * 1.871",
+                "simplified": "((1.4968 * hero_atk)) * (1 + ((0.3 * hero_special_count)))",
+                "soulburn": "((1.05 * hero_atk)) * (1 + ((0.3 * hero_special_count))) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((1.9646 * hero_atk)) * (1 + ((0.3 * hero_special_count)))"
             }
         }
     ],

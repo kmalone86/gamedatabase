@@ -183,27 +183,27 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0.9,
                     "soulburn": 0.9
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 1.0,
                     "soulburn": 1.0
+                },
+                {
+                    "name": "skill_dmg_rate",
+                    "description": "If target is inflicted with Magic Nail.",
+                    "value": 0.3,
+                    "soulburn": 0.3
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.0 * hero_atk)) * 0.9 * 1.871",
-                "simplified": "((1.6839 * hero_atk))",
-                "soulburn": "((1.0 * hero_atk)) * 0.9 * 1.871",
-                "simplifiedSoulburn": "((1.6839 * hero_atk))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((skill_dmg_rate * hero_special_count))) * pow! * constant",
+                "value": "((1.0 * hero_atk)) * (1 + ((0.3 * hero_special_count))) * 0.9 * 1.871",
+                "simplified": "((1.6839 * hero_atk)) * (1 + ((0.3 * hero_special_count)))",
+                "soulburn": "((1.0 * hero_atk)) * (1 + ((0.3 * hero_special_count))) * 0.9 * 1.871",
+                "simplifiedSoulburn": "((1.6839 * hero_atk)) * (1 + ((0.3 * hero_special_count)))"
             }
         },
         {
@@ -302,17 +302,11 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0.9,
                     "soulburn": 0.9
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 0.9,
                     "soulburn": 0.9
                 }
@@ -421,27 +415,27 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0.8,
                     "soulburn": 0.8
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 2.0,
                     "soulburn": 3.5
+                },
+                {
+                    "name": "skill_dmg_rate",
+                    "description": "If target is inflicted with Magic Nail.",
+                    "value": 0.35,
+                    "soulburn": 0.35
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((2.0 * hero_atk)) * 0.8 * 1.871",
-                "simplified": "((2.9936 * hero_atk))",
-                "soulburn": "((3.5 * hero_atk)) * 0.8 * 1.871",
-                "simplifiedSoulburn": "((5.2388 * hero_atk))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((skill_dmg_rate * hero_special_count))) * pow! * constant",
+                "value": "((2.0 * hero_atk)) * (1 + ((0.35 * hero_special_count))) * 0.8 * 1.871",
+                "simplified": "((2.9936 * hero_atk)) * (1 + ((0.35 * hero_special_count)))",
+                "soulburn": "((3.5 * hero_atk)) * (1 + ((0.35 * hero_special_count))) * 0.8 * 1.871",
+                "simplifiedSoulburn": "((5.2388 * hero_atk)) * (1 + ((0.35 * hero_special_count)))"
             }
         }
     ],

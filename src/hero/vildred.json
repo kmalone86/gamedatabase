@@ -187,37 +187,26 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0.95,
                     "soulburn": 0.95
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 0.85,
                     "soulburn": 0.85
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "multiplicative",
-                    "stat": "spd",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "spd_rate",
                     "value": 0.00075,
                     "soulburn": 0.00075
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * (1 + (spd_rate * hero_spd)) * pow! * constant",
-                "value": "((0.85 * hero_atk)) * (1 + (0.00075 * hero_spd)) * 0.95 * 1.871",
-                "simplified": "((1.5108 * hero_atk)) * (1 + (0.00075 * hero_spd))",
-                "soulburn": "((0.85 * hero_atk)) * (1 + (0.00075 * hero_spd)) * 0.95 * 1.871",
-                "simplifiedSoulburn": "((1.5108 * hero_atk)) * (1 + (0.00075 * hero_spd))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((spd_rate * hero_spd))) * pow! * constant",
+                "value": "((0.85 * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 0.95 * 1.871",
+                "simplified": "((1.5108 * hero_atk)) * (1 + ((0.00075 * hero_spd)))",
+                "soulburn": "((0.85 * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((1.5108 * hero_atk)) * (1 + ((0.00075 * hero_spd)))"
             }
         },
         {
@@ -316,17 +305,11 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1,
                     "soulburn": 1
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 0.5,
                     "soulburn": 0.5
                 }
@@ -433,37 +416,26 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1.0,
                     "soulburn": 1.0
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "atk_rate",
                     "value": 0.85,
                     "soulburn": 1.1
                 },
                 {
-                    "name": "statModifier",
-                    "description": "",
-                    "section": "multiplicative",
-                    "stat": "spd",
-                    "type": "multiplier",
-                    "target": "self",
+                    "name": "spd_rate",
                     "value": 0.00075,
                     "soulburn": 0.0009
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * (1 + (spd_rate * hero_spd)) * pow! * constant",
-                "value": "((0.85 * hero_atk)) * (1 + (0.00075 * hero_spd)) * 1.0 * 1.871",
-                "simplified": "((1.5903 * hero_atk)) * (1 + (0.00075 * hero_spd))",
-                "soulburn": "((1.1 * hero_atk)) * (1 + (0.00075 * hero_spd)) * 1.0 * 1.871",
-                "simplifiedSoulburn": "((2.0581 * hero_atk)) * (1 + (0.0009 * hero_spd))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((spd_rate * hero_spd))) * pow! * constant",
+                "value": "((0.85 * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 1.0 * 1.871",
+                "simplified": "((1.5903 * hero_atk)) * (1 + ((0.00075 * hero_spd)))",
+                "soulburn": "((1.1 * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((2.0581 * hero_atk)) * (1 + ((0.0009 * hero_spd)))"
             }
         }
     ],
