@@ -484,55 +484,55 @@
         "east": true,
         "west": true
     },
-    "memoryImprintAttribute": "hp",
+    "memoryImprintAttribute": "dac",
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "hp",
+                "type": "dac",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "hp",
-                "increase": 0.024
+                "type": "dac",
+                "increase": 0.007
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "hp",
-                "increase": 0.036
+                "type": "dac",
+                "increase": 0.011
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "hp",
-                "increase": 0.048
+                "type": "dac",
+                "increase": 0.014
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "hp",
-                "increase": 0.06
+                "type": "dac",
+                "increase": 0.018
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "hp",
-                "increase": 0.072
+                "type": "dac",
+                "increase": 0.021
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "hp",
-                "increase": 0.084
+                "type": "dac",
+                "increase": 0.025
             }
         }
     ],
