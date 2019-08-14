@@ -35,8 +35,8 @@
             "def": 71,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -47,8 +47,8 @@
             "def": 520,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -59,8 +59,8 @@
             "def": 535,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
@@ -71,8 +71,8 @@
             "def": 645,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -83,8 +83,8 @@
             "def": 703,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         }
     },
@@ -185,8 +185,8 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
@@ -303,13 +303,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 }
             ],
             "simpleDmgMod": {
@@ -674,5 +674,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "I live to follow orders... Will that be enough?",
+    "description": "A lonely Homunculus with missing memories"
 }

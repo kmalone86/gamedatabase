@@ -35,8 +35,8 @@
             "def": 69,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -47,8 +47,8 @@
             "def": 446,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -59,8 +59,8 @@
             "def": 446,
             "chc": 0.23,
             "chd": 1.55,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
@@ -71,8 +71,8 @@
             "def": 553,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -83,8 +83,8 @@
             "def": 553,
             "chc": 0.23,
             "chd": 1.65,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         }
     },
@@ -185,13 +185,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 }
             ],
             "simpleDmgMod": {
@@ -299,8 +299,8 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
@@ -671,5 +671,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "I will do whatever I can to assist you in achieving your goals.",
+    "description": "An envious Homunculus searching for redemption"
 }

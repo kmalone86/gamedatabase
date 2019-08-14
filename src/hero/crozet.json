@@ -47,8 +47,8 @@
             "def": 79,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -59,8 +59,8 @@
             "def": 542,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -71,8 +71,8 @@
             "def": 558,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
@@ -83,8 +83,8 @@
             "def": 673,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -95,8 +95,8 @@
             "def": 733,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         }
     },
@@ -290,13 +290,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 }
             ],
             "simpleDmgMod": {
@@ -697,5 +697,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "I will do my best.",
+    "description": "Honest and incorruptible, the Knight Commander of the Order of the Shield"
 }

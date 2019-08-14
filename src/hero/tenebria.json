@@ -7,7 +7,7 @@
     "zodiac": "cancer",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "An acolyte who freely deals out all kinds of illusions, Tenebria is known as the Phantom Queen. She bewilders her targets by overwhelming them with terrifying illusions or by taking on the appearance of others. Though she may look playful, she is monstrously cruel.",
+    "background": "An Acolyte who freely deals out all kinds of illusions, Tenebria is known as the Phantom Queen. She bewilders her targets by overwhelming them with terrifying illusions or by taking on the appearance of others. Though she may look playful, she is monstrously cruel.",
     "relations": [
         {
             "hero": "ras",
@@ -39,8 +39,8 @@
             "def": 81,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -51,8 +51,8 @@
             "def": 525,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -63,8 +63,8 @@
             "def": 525,
             "chc": 0.21,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
@@ -75,8 +75,8 @@
             "def": 652,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -87,8 +87,8 @@
             "def": 652,
             "chc": 0.21,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         }
     },
@@ -189,13 +189,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 }
             ],
             "simpleDmgMod": {
@@ -300,8 +300,8 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
@@ -676,5 +676,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "What you wish to see. What you wish not to see. I will show you everything.",
+    "description": "The Phantom Queen who deals in cruel illusions"
 }

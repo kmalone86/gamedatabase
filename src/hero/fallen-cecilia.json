@@ -177,8 +177,8 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
@@ -295,13 +295,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 }
             ],
             "simpleDmgMod": {
@@ -674,5 +674,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Are you someone whom I can trust?",
+    "description": "A dark dragon bound by a desire for revenge and an endless grudge"
 }

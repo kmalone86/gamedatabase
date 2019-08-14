@@ -39,8 +39,8 @@
             "def": 86,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -51,8 +51,8 @@
             "def": 557,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -63,7 +63,7 @@
             "def": 607,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
+            "eff": 0,
             "efr": 0.06,
             "dac": 0.05
         },
@@ -75,8 +75,8 @@
             "def": 690,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -87,7 +87,7 @@
             "def": 752,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
+            "eff": 0,
             "efr": 0.18,
             "dac": 0.05
         }
@@ -206,8 +206,8 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
@@ -354,8 +354,8 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
@@ -429,8 +429,8 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
@@ -695,5 +695,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Greetings, my name is Kraureit Roheil.",
+    "description": "A self-confident and forward-looking knight"
 }

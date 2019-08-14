@@ -51,8 +51,8 @@
             "def": 74,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -63,8 +63,8 @@
             "def": 506,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -75,8 +75,8 @@
             "def": 506,
             "chc": 0.27,
             "chd": 1.6,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
@@ -87,8 +87,8 @@
             "def": 627,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -99,8 +99,8 @@
             "def": 627,
             "chc": 0.27,
             "chd": 1.6,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         }
     },
@@ -682,5 +682,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "If that is your will, I will obey.",
+    "description": "A blank-faced Homunculus chosen by The Last Spellbook"
 }

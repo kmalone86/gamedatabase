@@ -7,7 +7,7 @@
     "zodiac": "pisces",
     "specialtyChangeName": "angelic-montmorancy",
     "selfSkillBarName": "",
-    "background": "An apprentice sister of the Holy of the Blue Cross, Montmorancy is an understudy of Achates and Clarissa, the latter of which she likes very much. She is naive and often makes mistakes, but overcomes them with a positive attitude.",
+    "background": "An apprentice sister of the Holy Order of the Blue Cross, Montmorancy is an understudy of Achates and Clarissa, the latter of which she likes very much. She is naive and often makes mistakes, but overcomes them with a positive attitude.",
     "relations": [
         {
             "hero": "clarissa",
@@ -35,8 +35,8 @@
             "def": 70,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -47,8 +47,8 @@
             "def": 511,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -59,8 +59,8 @@
             "def": 556,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
@@ -71,8 +71,8 @@
             "def": 634,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -83,8 +83,8 @@
             "def": 729,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         }
     },
@@ -185,13 +185,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 }
             ],
             "simpleDmgMod": {
@@ -296,13 +296,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 }
             ],
             "simpleDmgMod": {
@@ -409,13 +409,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 }
             ],
             "simpleDmgMod": {
@@ -662,5 +662,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "It's me, Montmorancy! It'll all work out... eventually! Yes!",
+    "description": "A naive and hardworking apprentice nun"
 }

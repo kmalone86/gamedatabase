@@ -47,8 +47,8 @@
             "def": 69,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -59,8 +59,8 @@
             "def": 446,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -71,8 +71,8 @@
             "def": 446,
             "chc": 0.23,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
@@ -83,8 +83,8 @@
             "def": 553,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -95,8 +95,8 @@
             "def": 553,
             "chc": 0.23,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         }
     },
@@ -232,8 +232,8 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1.0,
-                    "soulburn": 2.0
+                    "value": 1,
+                    "soulburn": 2
                 }
             ],
             "simpleDmgMod": {
@@ -295,13 +295,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 }
             ],
             "simpleDmgMod": {
@@ -431,8 +431,8 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 2.0,
-                    "soulburn": 2.0
+                    "value": 2,
+                    "soulburn": 2
                 }
             ],
             "simpleDmgMod": {
@@ -687,5 +687,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "My name is Iseria, the Knight of White Flowers, and the keeper of the oath.",
+    "description": "The Knight of White Flowers, protector of a solemn oath"
 }

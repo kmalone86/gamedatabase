@@ -7,7 +7,7 @@
     "zodiac": "scorpio",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "A member of the Sicar assasin organization. Watcher Schuri is an oustanding fighter, but ignorant of the ways of the world. Though his rigid way of speaking gives of an air of unapproachability, he is surprisingly straightforward and open to granting people's requests. However, he hides a secret he cannot share with others.",
+    "background": "A member of the Sicar assassin organization, Watcher Schuri is an outstanding fighter, but ignorant of the ways of the world. Though his rigid way of speaking gives off an air of unapproachability, he is surprisingly straightforward and open to granting people's requests. However, he hides a secret he cannot share with others.",
     "relations": [
         {
             "hero": "assassin-cidd",
@@ -27,8 +27,8 @@
             "def": 65,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -39,8 +39,8 @@
             "def": 449,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -51,8 +51,8 @@
             "def": 449,
             "chc": 0.19,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
@@ -63,8 +63,8 @@
             "def": 557,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -75,8 +75,8 @@
             "def": 557,
             "chc": 0.27,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         }
     },
@@ -177,13 +177,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 }
             ],
             "simpleDmgMod": {
@@ -660,5 +660,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Let's do our best together.",
+    "description": "A secretive Sicar assassin"
 }

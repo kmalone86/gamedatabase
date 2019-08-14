@@ -35,8 +35,8 @@
             "def": 60,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -47,8 +47,8 @@
             "def": 438,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -59,8 +59,8 @@
             "def": 438,
             "chc": 0.23,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
@@ -71,8 +71,8 @@
             "def": 543,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -83,8 +83,8 @@
             "def": 543,
             "chc": 0.23,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         }
     },
@@ -177,8 +177,8 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "target_hp_missing_rate",
@@ -281,7 +281,7 @@
                 {
                     "name": "atk_rate",
                     "value": 0.8,
-                    "soulburn": 1.0
+                    "soulburn": 1
                 },
                 {
                     "name": "target_hp_missing_rate",
@@ -681,5 +681,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "A world governed by Chaos is coming!",
+    "description": "An axeman who accepted the call of Chaos and founded the Chaos Sect."
 }

@@ -7,7 +7,7 @@
     "zodiac": "capricorn",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "Machinery based on the Kikirat. It has cleaning functionality for comfort, but often mistakes Humans for trash.",
+    "background": "Machinery based on the Kikirat. It has cleaning functionality for comfort, but often mistakes Humans for trash.",
     "relations": [
         {
             "hero": "",
@@ -23,8 +23,8 @@
             "def": 72,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -35,8 +35,8 @@
             "def": 525,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -47,7 +47,7 @@
             "def": 603,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
+            "eff": 0,
             "efr": 0.03,
             "dac": 0.05
         },
@@ -59,8 +59,8 @@
             "def": 652,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -71,8 +71,8 @@
             "def": 749,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         }
     },
@@ -171,8 +171,8 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
@@ -287,13 +287,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 }
             ],
             "simpleDmgMod": {
@@ -402,8 +402,8 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
@@ -634,5 +634,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "",
+    "description": "High-tech machinery\\nmodeled after Gigantes"
 }

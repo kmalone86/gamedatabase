@@ -7,9 +7,7 @@
     "zodiac": "aries",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        "Being skilled in fighting, Champion Zerato boasts a flawless win record. To maintain that record, he never fights against someone he may lose to. Frost Mage Zerato always wants to fight him, but Champion Zerato keeps making excuses to get out of it."
-    ],
+    "background": "Incredibly skilled in fighting, Champion Zerato boasts a flawless win streak, largely thanks to his refusal to fight anyone he may be at risk of losing to. Frost Mage Zerato has been trying to pick a fight with him for a long time, but Champion Zerato keeps making excuses to avoid it.",
     "relations": [
         {
             "hero": "dingo",
@@ -37,8 +35,8 @@
             "def": 74,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -49,8 +47,8 @@
             "def": 506,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -62,7 +60,7 @@
             "chc": 0.19,
             "chd": 1.5,
             "eff": 0.18,
-            "efr": 0.0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
@@ -73,8 +71,8 @@
             "def": 627,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -86,7 +84,7 @@
             "chc": 0.27,
             "chd": 1.5,
             "eff": 0.18,
-            "efr": 0.0,
+            "efr": 0,
             "dac": 0.05
         }
     },
@@ -207,8 +205,8 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 }
             ],
             "simpleDmgMod": {
@@ -287,13 +285,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 }
             ],
             "simpleDmgMod": {
@@ -418,13 +416,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 }
             ],
             "simpleDmgMod": {
@@ -679,5 +677,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "If you want to know what a genius looks like, eat your heart out.",
+    "description": "An arrogant and impudent supremacist who only cares about strength"
 }

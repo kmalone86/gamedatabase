@@ -39,8 +39,8 @@
             "def": 85,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -51,8 +51,8 @@
             "def": 551,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -64,7 +64,7 @@
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.18,
-            "efr": 0.0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
@@ -75,8 +75,8 @@
             "def": 683,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -88,7 +88,7 @@
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.3,
-            "efr": 0.0,
+            "efr": 0,
             "dac": 0.05
         }
     },
@@ -206,13 +206,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 }
             ],
             "simpleDmgMod": {
@@ -291,13 +291,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 }
             ],
             "simpleDmgMod": {
@@ -688,5 +688,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Now I shall force you into an eternal nightmare. Ahaha.",
+    "description": "A poisonous nightmare seeped in cruelty"
 }

@@ -35,8 +35,8 @@
             "def": 89,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -47,8 +47,8 @@
             "def": 477,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -60,7 +60,7 @@
             "chc": 0.19,
             "chd": 1.5,
             "eff": 0.18,
-            "efr": 0.0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
@@ -71,8 +71,8 @@
             "def": 592,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -84,7 +84,7 @@
             "chc": 0.27,
             "chd": 1.5,
             "eff": 0.18,
-            "efr": 0.0,
+            "efr": 0,
             "dac": 0.05
         }
     },
@@ -415,13 +415,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 }
             ],
             "simpleDmgMod": {
@@ -676,5 +676,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Are you my new servant, meow?",
+    "description": "Battle-driven sister of the Holy Order of the Blue Cross who turned into a cat"
 }

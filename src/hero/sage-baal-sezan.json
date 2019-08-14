@@ -186,8 +186,8 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 }
             ],
             "simpleDmgMod": {
@@ -405,8 +405,8 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
@@ -671,5 +671,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Great to meet you. I'm Baal Chanel, and this is my fiancée, Sezan Serzan.",
+    "description": "An otherworldly romantic with all kinds of knowledge"
 }

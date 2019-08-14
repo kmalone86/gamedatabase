@@ -47,8 +47,8 @@
             "def": 69,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -59,8 +59,8 @@
             "def": 446,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -71,8 +71,8 @@
             "def": 446,
             "chc": 0.23,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
@@ -83,8 +83,8 @@
             "def": 553,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -95,8 +95,8 @@
             "def": 553,
             "chc": 0.23,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         }
     },
@@ -226,12 +226,12 @@
                     "value": [
                         1.6,
                         1.4,
-                        0.0
+                        0
                     ],
                     "soulburn": [
                         1.6,
                         1.4,
-                        0.0
+                        0
                     ]
                 }
             ],
@@ -297,13 +297,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 }
             ],
             "simpleDmgMod": {
@@ -452,12 +452,12 @@
                     "value": [
                         1.6,
                         1.4,
-                        0.0
+                        0
                     ],
                     "soulburn": [
                         1.6,
                         1.4,
-                        0.0
+                        0
                     ]
                 }
             ],
@@ -713,5 +713,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Hooray! Yuna is coming!",
+    "description": "President of the Reingar Student Council, the school girl from another world"
 }

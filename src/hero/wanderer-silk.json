@@ -23,8 +23,8 @@
             "def": 66,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -35,8 +35,8 @@
             "def": 455,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -48,7 +48,7 @@
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.18,
-            "efr": 0.0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
@@ -59,8 +59,8 @@
             "def": 564,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -72,7 +72,7 @@
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.3,
-            "efr": 0.0,
+            "efr": 0,
             "dac": 0.05
         }
     },
@@ -173,13 +173,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "spd_rate",
@@ -294,8 +294,8 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "spd_rate",
@@ -674,5 +674,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Did you miss me? Tell me the truth!",
+    "description": "A fiercely proud Elf left alone in the Eternal Forest"
 }

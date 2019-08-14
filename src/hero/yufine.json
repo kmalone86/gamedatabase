@@ -7,7 +7,7 @@
     "zodiac": "taurus",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "Originally a Dragon of Wintenberg, through certain events Yufine eventually found her way to Ritania. Cheerful and curious, her excessive curiosity often leads to accidents. She loves shiny things so much that she tends to zone out while staring at them.",
+    "background": "Originally a Dragon of Wintenberg, through certain events Yufine eventually found her way to Ritania. Cheerful and curious, her excessive curiosity often leads to accidents. She loves shiny things so much that she tends zone out while staring at them.",
     "relations": [
         {
             "hero": "silk",
@@ -35,8 +35,8 @@
             "def": 69,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -47,8 +47,8 @@
             "def": 446,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -59,8 +59,8 @@
             "def": 446,
             "chc": 0.23,
             "chd": 1.55,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
@@ -71,8 +71,8 @@
             "def": 553,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -83,8 +83,8 @@
             "def": 553,
             "chc": 0.23,
             "chd": 1.65,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         }
     },
@@ -202,13 +202,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 }
             ],
             "simpleDmgMod": {
@@ -292,8 +292,8 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
@@ -427,8 +427,8 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 2.0,
-                    "soulburn": 2.0
+                    "value": 2,
+                    "soulburn": 2
                 },
                 {
                     "name": "skill_dmg_rate",
@@ -689,5 +689,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Oh, you need my help? Cool, let's go!",
+    "description": "A lively Dragon girl, who loves shiny things"
 }

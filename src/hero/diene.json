@@ -47,8 +47,8 @@
             "def": 86,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -59,8 +59,8 @@
             "def": 559,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -71,7 +71,7 @@
             "def": 559,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
+            "eff": 0,
             "efr": 0.18,
             "dac": 0.05
         },
@@ -83,8 +83,8 @@
             "def": 694,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -95,7 +95,7 @@
             "def": 694,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
+            "eff": 0,
             "efr": 0.18,
             "dac": 0.05
         }
@@ -230,8 +230,8 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 }
             ],
             "simpleDmgMod": {
@@ -355,13 +355,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 }
             ],
             "simpleDmgMod": {
@@ -426,13 +426,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 }
             ],
             "simpleDmgMod": {
@@ -687,5 +687,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Hello. I am a sister of the Holy Order of the Blue Cross, Diene Tali.",
+    "description": "A staunchly pious nun of Ezera"
 }

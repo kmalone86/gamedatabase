@@ -7,7 +7,7 @@
     "zodiac": "aries",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "Cidd is the youngest member and mascot of the Wild Dog Company, a group of mercenaries headquartered in an old ruined fortress in Wetheric Moor. Contrary to his cheerful and carefree appearance, he will complete any task assigned to him. He cares for the Wild Dog Company as if they were family.",
+    "background": "Cidd is the youngest member and mascot of the Wild Dog Company, a group of mercenaries headquartered in an old ruined fortress in Wetheric Moor. Contrary to his cheerful and carefree appearance, he will competently complete any task assigned to him. He cares for the Wild Dog Company as if they were family.",
     "relations": [
         {
             "hero": "dingo",
@@ -31,8 +31,8 @@
             "def": 55,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -43,8 +43,8 @@
             "def": 381,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -55,8 +55,8 @@
             "def": 381,
             "chc": 0.23,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
@@ -67,8 +67,8 @@
             "def": 473,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -79,8 +79,8 @@
             "def": 473,
             "chc": 0.23,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         }
     },
@@ -312,13 +312,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 }
             ],
             "simpleDmgMod": {
@@ -422,8 +422,8 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
@@ -688,5 +688,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Badabum! I have arrived! Cidd is here! What do you want me to do?",
+    "description": "The Wild Dog Company mascot, a wild hound as fast as the wind"
 }

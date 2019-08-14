@@ -7,7 +7,7 @@
     "zodiac": "taurus",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "A magical creature that has collected immense power over the course of its eternal life. Hunted down by countless warriors and magicians desperate to posses its concentrated power, it is now extremely hard to find.",
+    "background": "A magical creature that has collected immense power over the course of its eternal life. Hunted down by countless warriors and magicians desperate to possess its concentrated power, it is now extremely hard to find.",
     "relations": [],
     "stats": {
         "lv1BaseStarNoAwaken": {
@@ -18,8 +18,8 @@
             "def": 286,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -30,8 +30,8 @@
             "def": 409,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         }
     },
@@ -52,13 +52,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 }
             ],
             "simpleDmgMod": {
@@ -85,13 +85,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 }
             ],
             "simpleDmgMod": {
@@ -116,5 +116,7 @@
     },
     "memoryImprintAttribute": "",
     "memoryImprint": [],
-    "awakening": []
+    "awakening": [],
+    "summonQuote": "",
+    "description": "Strong power compressed into a shadow of glory"
 }

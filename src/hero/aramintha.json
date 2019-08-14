@@ -51,8 +51,8 @@
             "def": 85,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -63,8 +63,8 @@
             "def": 551,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -76,7 +76,7 @@
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.18,
-            "efr": 0.0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
@@ -87,8 +87,8 @@
             "def": 683,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -100,7 +100,7 @@
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0.3,
-            "efr": 0.0,
+            "efr": 0,
             "dac": 0.05
         }
     },
@@ -193,8 +193,8 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 }
             ],
             "simpleDmgMod": {
@@ -291,8 +291,8 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
@@ -434,8 +434,8 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
@@ -695,5 +695,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Pleased to meet you, let's work together.",
+    "description": "Leader of the Phantom CIC, Unknown investigators"
 }

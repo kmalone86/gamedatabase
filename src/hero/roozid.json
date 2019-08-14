@@ -32,7 +32,7 @@
             "chc": 0.24,
             "chd": 1.5,
             "eff": 0.06,
-            "efr": 0.0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -43,8 +43,8 @@
             "def": 373,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -56,7 +56,7 @@
             "chc": 0.19,
             "chd": 1.5,
             "eff": 0.12,
-            "efr": 0.0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
@@ -67,8 +67,8 @@
             "def": 462,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -80,7 +80,7 @@
             "chc": 0.27,
             "chd": 1.5,
             "eff": 0.12,
-            "efr": 0.0,
+            "efr": 0,
             "dac": 0.05
         }
     },
@@ -181,8 +181,8 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
@@ -299,8 +299,8 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
@@ -417,13 +417,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 }
             ],
             "simpleDmgMod": {
@@ -670,5 +670,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Though I may be lacking, I will do my best!",
+    "description": "A kind warrior of the Itan Clan who takes care of the sandcats"
 }

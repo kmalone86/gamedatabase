@@ -7,7 +7,7 @@
     "zodiac": "sagittarius",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "A mercenary from the Itan Clan, Jecht is committed to self-discipline and hopes to improve the treatment of his fellow Suin by becoming a skilled and famous warrior.",
+    "background": "A mercenary from the Itan Clan, Jecht is committed to self-discipline and hopes to improve the treatment of his fellow Suin by becoming a skilled and famous warrior. ",
     "relations": [
         {
             "hero": "cartuja",
@@ -31,8 +31,8 @@
             "def": 66,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -43,8 +43,8 @@
             "def": 483,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -55,8 +55,8 @@
             "def": 483,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
@@ -67,8 +67,8 @@
             "def": 599,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -79,8 +79,8 @@
             "def": 599,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         }
     },
@@ -173,8 +173,8 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 }
             ],
             "simpleDmgMod": {
@@ -266,13 +266,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 }
             ],
             "simpleDmgMod": {
@@ -663,5 +663,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "I will do my best to live up to your expectations.",
+    "description": "A hard worker who dreams of becoming the world's strongest mercenary"
 }

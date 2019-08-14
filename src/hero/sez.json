@@ -7,7 +7,7 @@
     "zodiac": "scorpio",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "A cynical and quiet man, Sez Gaien is a living weapon known to many as \"the Berseker\". After gaining power from an Acolyte to escape the homunculus experiments, he was branded a mass murderer and has been running ever since.",
+    "background": "A cynical and quiet man, Sez Gaien is a living weapon known to many as \"the Berserker.\" After gaining power from an Acolyte to escape the Homunculus experiments, he was branded a mass murderer and has been running ever since.",
     "relations": [
         {
             "hero": "aramintha",
@@ -39,8 +39,8 @@
             "def": 59,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -51,8 +51,8 @@
             "def": 381,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -63,8 +63,8 @@
             "def": 381,
             "chc": 0.23,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
@@ -75,8 +75,8 @@
             "def": 473,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -87,8 +87,8 @@
             "def": 473,
             "chc": 0.23,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         }
     },
@@ -194,8 +194,8 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "target_hp_missing_rate",
@@ -306,8 +306,8 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
@@ -682,5 +682,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "What do you want from me...?",
+    "description": "A living weapon, the cynical Berserker"
 }

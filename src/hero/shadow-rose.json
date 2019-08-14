@@ -7,7 +7,7 @@
     "zodiac": "gemini",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "Ready and willing to follow Cecilia anywhere, Rose became a war machine after having her heart completely shattered. She is fiercely persistent and obsessive.",
+    "background": "Rose was ready and willing to follow Cecilia anywhere, until she had her heart completely shattered. Now she is an obsessive and fiercely persistent war machine.",
     "relations": [
         {
             "hero": "cecilia",
@@ -23,8 +23,8 @@
             "def": 71,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -35,8 +35,8 @@
             "def": 491,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -47,8 +47,8 @@
             "def": 491,
             "chc": 0.19,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
@@ -59,8 +59,8 @@
             "def": 610,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -71,8 +71,8 @@
             "def": 610,
             "chc": 0.27,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         }
     },
@@ -174,13 +174,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 }
             ],
             "simpleDmgMod": {
@@ -659,5 +659,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Roseria Dart has been called to arms.",
+    "description": "A protector walking the path of blood as a shadow of a precious thing"
 }

@@ -7,7 +7,7 @@
     "zodiac": "capricorn",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "A particularly ticklish feline Suin, Armin is the valiant and cheerful Commander of the Longtail Company. However, she is easily tempted, and quickly convinced to go along with the whims of her fellow mercenaries. She loves to collect earrings but since her ears are so sensitive she's unable to wear them.",
+    "background": "A particularly ticklish feline Suin, Armin is the valiant and cheerful Commander of the Longtail Company. However, she is easily tempted, and quickly convinced to go along with the whims of her fellow mercenaries. She loves to collect earrings but since her ears are so sensitive she's unable to actually wear them.",
     "relations": [
         {
             "hero": "kluri",
@@ -39,8 +39,8 @@
             "def": 80,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -51,8 +51,8 @@
             "def": 551,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -63,7 +63,7 @@
             "def": 633,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
+            "eff": 0,
             "efr": 0.06,
             "dac": 0.05
         },
@@ -75,8 +75,8 @@
             "def": 683,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -87,7 +87,7 @@
             "def": 785,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
+            "eff": 0,
             "efr": 0.18,
             "dac": 0.05
         }
@@ -430,13 +430,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 }
             ],
             "simpleDmgMod": {
@@ -691,5 +691,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "Oh, did you need something? Just let me know!",
+    "description": "Unmatched in her bravery, commander of the Longtail Company"
 }

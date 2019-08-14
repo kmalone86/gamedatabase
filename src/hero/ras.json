@@ -51,7 +51,7 @@
             "def": 74,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
+            "eff": 0,
             "efr": 0.06,
             "dac": 0.05
         },
@@ -63,8 +63,8 @@
             "def": 497,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -75,7 +75,7 @@
             "def": 511,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
+            "eff": 0,
             "efr": 0.12,
             "dac": 0.05
         },
@@ -87,8 +87,8 @@
             "def": 617,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -99,7 +99,7 @@
             "def": 672,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
+            "eff": 0,
             "efr": 0.12,
             "dac": 0.05
         }
@@ -199,8 +199,8 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
@@ -315,8 +315,8 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
@@ -428,8 +428,8 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
@@ -686,5 +686,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "I'll do my duty today, too!",
+    "description": "Heir of the Covenant, a defender of the world"
 }

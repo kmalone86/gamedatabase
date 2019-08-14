@@ -7,7 +7,7 @@
     "zodiac": "pisces",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "A magical doll modeled on Lots. Compared to the original Lots, this, doll is extremely competitive and desperate for recognition, and so participates in as many activities around Reingar as possible.",
+    "background": "A magical doll modeled on Lots. Compared to the original Lots, this doll is extremely competitive and desperate for recognition, and so participates in as many activities around Reingar as possible. ",
     "relations": [
         {
             "hero": "yuna",
@@ -31,8 +31,8 @@
             "def": 71,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
@@ -43,8 +43,8 @@
             "def": 491,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
@@ -55,8 +55,8 @@
             "def": 491,
             "chc": 0.27,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
@@ -67,8 +67,8 @@
             "def": 610,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
@@ -79,8 +79,8 @@
             "def": 610,
             "chc": 0.35,
             "chd": 1.5,
-            "eff": 0.0,
-            "efr": 0.0,
+            "eff": 0,
+            "efr": 0,
             "dac": 0.05
         }
     },
@@ -203,8 +203,8 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 }
             ],
             "simpleDmgMod": {
@@ -285,13 +285,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.0,
-                    "soulburn": 0.0
+                    "value": 0,
+                    "soulburn": 0
                 }
             ],
             "simpleDmgMod": {
@@ -415,13 +415,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1.0,
-                    "soulburn": 1.0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
                     "value": 0.8,
-                    "soulburn": 1.0
+                    "soulburn": 1
                 }
             ],
             "simpleDmgMod": {
@@ -676,5 +676,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "summonQuote": "I'm a different Lots altogether, shall we see who deserves to be called the true Lots?",
+    "description": "The first magical doll to be created in Reingar"
 }
