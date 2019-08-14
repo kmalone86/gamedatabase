@@ -19,6 +19,8 @@ module.exports = {
 		'camping',
 		'memoryImprint',
 		'awakening',
+		'summonQuote',
+		'description',
 	],
 	item: ['name', 'locations', 'description', 'type', 'rarity'],
 	latest: ['hero', 'artifact'],
