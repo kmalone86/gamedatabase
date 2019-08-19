@@ -474,7 +474,7 @@
         "east": true,
         "west": true
     },
-    "memoryImprintAttribute": "spd",
+    "memoryImprintAttribute": "spd+",
     "memoryImprint": [
         {
             "rank": "d",

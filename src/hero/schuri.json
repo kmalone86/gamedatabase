@@ -480,7 +480,7 @@
         "east": false,
         "west": true
     },
-    "memoryImprintAttribute": "spd",
+    "memoryImprintAttribute": "spd+",
     "memoryImprint": [
         {
             "rank": "d",

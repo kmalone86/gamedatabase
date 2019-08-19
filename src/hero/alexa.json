@@ -490,7 +490,7 @@
         "east": true,
         "west": true
     },
-    "memoryImprintAttribute": "atk",
+    "memoryImprintAttribute": "atk+",
     "memoryImprint": [
         {
             "rank": "d",

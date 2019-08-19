@@ -501,7 +501,7 @@
         "east": true,
         "west": true
     },
-    "memoryImprintAttribute": "efr",
+    "memoryImprintAttribute": "efr%",
     "memoryImprint": [
         {
             "rank": "d",

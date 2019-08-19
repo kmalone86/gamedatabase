@@ -470,7 +470,7 @@
         "east": true,
         "west": true
     },
-    "memoryImprintAttribute": "dac",
+    "memoryImprintAttribute": "dac%",
     "memoryImprint": [
         {
             "rank": "d",

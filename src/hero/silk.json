@@ -503,7 +503,7 @@
         "east": true,
         "west": false
     },
-    "memoryImprintAttribute": "atk",
+    "memoryImprintAttribute": "atk%",
     "memoryImprint": [
         {
             "rank": "d",
