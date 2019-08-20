@@ -463,7 +463,7 @@
         "east": false,
         "west": false
     },
-    "memoryImprintAttribute": "dac",
+    "memoryImprintAttribute": "dac%",
     "memoryImprint": [
         {
             "rank": "d",

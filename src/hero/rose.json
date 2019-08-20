@@ -479,7 +479,7 @@
         "east": false,
         "west": true
     },
-    "memoryImprintAttribute": "def",
+    "memoryImprintAttribute": "def%",
     "memoryImprint": [
         {
             "rank": "d",

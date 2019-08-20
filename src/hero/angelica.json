@@ -526,7 +526,7 @@
         "east": true,
         "west": true
     },
-    "memoryImprintAttribute": "efr",
+    "memoryImprintAttribute": "efr%",
     "awakening": [
         {
             "rank": 1,

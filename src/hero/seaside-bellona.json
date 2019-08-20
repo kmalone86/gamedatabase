@@ -486,7 +486,7 @@
         "east": true,
         "west": false
     },
-    "memoryImprintAttribute": "",
+    "memoryImprintAttribute": "hp%",
     "memoryImprint": [
         {
             "rank": "d",
