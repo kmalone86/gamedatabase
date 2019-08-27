@@ -244,7 +244,20 @@
             "enhancement": [
                 {
                     "description": "-1 turn cooldown",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 52000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "twisted-fang",
+                            "qty": 8
+                        }
+                    ]
                 }
             ],
             "buffs": [
