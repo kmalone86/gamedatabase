@@ -4,7 +4,7 @@
     "rarity": 4,
     "classType": "ranger",
     "element": "dark",
-    "zodiac": "capricorn",
+    "zodiac": "gemini",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
     "background": "Born to a family of scholars, he dreamed of becoming a warrior from a young age. After his parents disappeared following a raid by the Axe Bandits, he pledged to become stronger and get his revenge. Believing that reforming the rotten world is the only way to become a true warrior, he roams around the world defeating evil.",
@@ -61,7 +61,7 @@
         "lv60SixStarFullyAwakened": {
             "cp": 0,
             "atk": 0,
-            "hp": 0,
+            "hp": 5016,
             "spd": 0,
             "def": 0,
             "chc": 0.15,
@@ -77,32 +77,94 @@
             "soulBurn": 0,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
-            "awakenUpgrade": false,
+            "awakenUpgrade": true,
             "cooldown": 0,
             "name": "Fire Slingshot",
-            "soulAcquire": 0,
-            "description": "Attacks with a slingshot, with a {per(sk_add_rate1)}%</> chance to decrease Attack for 2 turns. Damage dealt is increased when the enemy is debuffed.",
+            "soulAcquire": 1,
+            "description": "Attacks with a slingshot, with a 35% chance to decrease Attack for 2 turns. Damage dealt is increased when the enemy is debuffed.",
             "enhancement": [
                 {
-                    "description": "",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 52000
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 13000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 27000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "dragons-wrath",
-                            "qty": 8
+                            "item": "ring-of-glory",
+                            "qty": 3
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 80000
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "fused-nerve",
+                            "qty": 2
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "stic_att_dn"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
@@ -129,25 +191,85 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 0,
+            "cooldown": 3,
             "name": "Fire Shockbomb",
-            "soulAcquire": 0,
-            "description": "Fires a shockbomb at the enemy, with a {per(sk_add_rate1)}%</> chance to increase skill cooldown by 1 turn.",
+            "soulAcquire": 1,
+            "description": "Fires a shockbomb at the enemy, with a 80% chance to increase skill cooldown by 1 turn.",
             "enhancement": [
                 {
-                    "description": "",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 52000
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 13000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 27000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "dragons-wrath",
-                            "qty": 8
+                            "item": "ring-of-glory",
+                            "qty": 3
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 80000
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "fused-nerve",
+                            "qty": 2
                         }
                     ]
                 }
@@ -180,25 +302,85 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Grants an extra turn.",
             "awakenUpgrade": false,
-            "cooldown": 0,
+            "cooldown": 5,
             "name": "Go, Racoo!",
-            "soulAcquire": 0,
-            "description": "Attacks all enemies with Racoo, with a {per(sk_add_rate1)}%</> chance to plant a bomb for 2 turns.",
+            "soulAcquire": 2,
+            "description": "Attacks all enemies with Racoo, with a 75% chance to plant a bomb for 2 turns.",
             "enhancement": [
                 {
-                    "description": "",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 52000
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 13000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 27000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "dragons-wrath",
-                            "qty": 8
+                            "item": "ring-of-glory",
+                            "qty": 3
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 80000
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "fused-nerve",
+                            "qty": 2
                         }
                     ]
                 }
@@ -227,10 +409,10 @@
         }
     ],
     "specialtySkill": {
-        "name": "",
-        "description": "",
-        "dispatch": [],
-        "enhancement": [],
+        "name": "Righteous Seer",
+        "description": "He will not falter in his determination to eradicate evil.",
+        "dispatch": "[Time Limit] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
             "command": 0,
             "charm": 0,
@@ -268,60 +450,60 @@
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprintAttribute": "",
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "dac",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "dac",
+                "increase": 0.007
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "dac",
+                "increase": 0.011
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "dac",
+                "increase": 0.014
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "dac",
+                "increase": 0.018
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "dac",
+                "increase": 0.021
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "dac",
+                "increase": 0.025
             }
         }
     ],
@@ -439,7 +621,7 @@
                     "qty": 5
                 },
                 {
-                    "item": "cursed-ashes",
+                    "item": "small-sun-badge",
                     "qty": 12
                 }
             ]
@@ -464,7 +646,7 @@
                     "qty": 8
                 },
                 {
-                    "item": "dragons-wrath",
+                    "item": "fused-nerve",
                     "qty": 8
                 }
             ]
