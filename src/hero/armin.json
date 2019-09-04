@@ -249,7 +249,7 @@
             "cooldown": 3,
             "name": "Flash of Light",
             "soulAcquire": 2,
-            "description": "Releases a bright light to attack all enemies, with a 35% chance to decrease Hit Chance for 2 turns, and inflict poison for 3 turns. Increases Defense of the caster for 1 turn.",
+            "description": "Releases a bright light to attack all enemies, with a 85% chance each to decrease Hit Chance for 2 turns, and inflict poison for 3 turns. Increases Defense of the caster for 2 turn.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -386,7 +386,7 @@
             "cooldown": 5,
             "name": "Shield Wall",
             "soulAcquire": 1,
-            "description": "Covers all allies with the Shield of Light and grants a barrier for 3 turns, recovering Health. Barrier strength is proportional to caster's Defense, and amount recovered is proportional to the target's max health.",
+            "description": "Covers all allies with the Shield of Light and grants a barrier for 3 turns, recovering Health. Barrier strength is proportional to caster's Defense, and amount recovered is proportional to the target's max health. Decreases damage suffered by all allies by 10% when this skill is under cooldown.",
             "enhancement": [
                 {
                     "description": "Acquire +1 Soul",
