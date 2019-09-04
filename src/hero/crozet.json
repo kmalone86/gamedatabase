@@ -212,10 +212,10 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
-            "cooldown": 2,
+            "cooldown": 1,
             "name": "Mark of Protection",
             "soulAcquire": 0,
-            "description": "Grants increased Defense and a barrier to an ally for 2 turns when an attack causes their Health to fall below 50%. Barrier strength increases proportional to the target's max Health. Can be activated once every 2 turns.",
+            "description": "Grants increased Defense and a barrier to an ally for 2 turns when an attack causes their Health to fall below 50%. Barrier strength increases proportional to the target's max Health. Can be activated once every turn.",
             "enhancement": [
                 {
                     "description": "+5% barrier strength",
@@ -313,10 +313,10 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": false,
-            "cooldown": 6,
+            "cooldown": 5,
             "name": "Breakthrough",
             "soulAcquire": 3,
-            "description": "Attacks all enemies with a swordstorm, decreasing their Combat Readiness by 35%. Damage dealt increases proportional to the caster's Defense.",
+            "description": "Attacks all enemies with a swordstorm, with a 75% chance to provoke for 1 turn after decreasing their Combat Readiness by 35%. Damage dealt increases proportional to the caster's Defense.",
             "enhancement": [
                 {
                     "description": "+10% damage dealt",
@@ -427,7 +427,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "stic_provoke"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
