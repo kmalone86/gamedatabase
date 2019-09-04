@@ -204,10 +204,10 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 3,
+            "cooldown": 4,
             "name": "Cloud of Ruin",
             "soulAcquire": 2,
-            "description": "Attacks all enemies by summoning storm clouds, with a 85% chance to dispel two buffs and a 65% to put them to sleep. If this skill is available, increases the caster's Combat Readiness by 15% at the end of the enemy's turn.",
+            "description": "Attacks all enemies by summoning storm clouds, with a 85% chance to dispel one buff and a 65% to put them to sleep. If this skill is available, increases the caster's Combat Readiness by 10% at the end of the enemy's turn.",
             "enhancement": [
                 {
                     "description": "+3% Combat Readiness",
