@@ -102,7 +102,7 @@
             "cooldown": 0,
             "name": "Falling Strike",
             "soulAcquire": 1,
-            "description": "Mows down enemies with a great sword, with a 35% chance to decrease Speed for 2 turns, and decrease Combat Readiness by 20%.",
+            "description": "Mows down enemies with a great sword, with a 35% chance to decrease Speed for 2 turns, and decrease Combat Readiness by 20%. Damage dealt is proportional to the caster's max Health.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -215,7 +215,7 @@
             "cooldown": 0,
             "name": "Get Lost!",
             "soulAcquire": 0,
-            "description": "Hits all enemies when counterattacking, with a 20% chance to counterattack when attacked.",
+            "description": "Hits all enemies when counterattacking, with a 15% chance to stun for 1 turn. Has a 20% chance to counterattack when attacked.",
             "enhancement": [
                 {
                     "description": "+1% counterattack chance",
@@ -296,7 +296,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "stic_stun"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
@@ -326,7 +328,7 @@
             "cooldown": 4,
             "name": "Final Blow",
             "soulAcquire": 2,
-            "description": "Attacks all enemies with a powerful ground pound, stunning for 1 turn if they have less than 30% Health.",
+            "description": "Attacks all enemies with a powerful ground pound, with a 50% chance to stun for 1 turn. Increases effect chance by 100% when they have less than 30% Health. Damage dealt is proportional to the caster's max Health.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
