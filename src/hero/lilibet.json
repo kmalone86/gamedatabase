@@ -207,7 +207,7 @@
             "cooldown": 3,
             "name": "Snip-Snip",
             "soulAcquire": 1,
-            "description": "Brutally cuts the enemy, with a 35% chance each to inflict four bleeding effects for 2 turns. Deals additional damage when the target isn't buffed.",
+            "description": "Brutally cuts the enemy, with a 35% chance each to inflict four bleeding effects for 2 turns before increasing the caster's Combat Readiness by 50%. Deals additional damage when the target isn't buffed.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -326,7 +326,7 @@
             "cooldown": 5,
             "name": "Soul Cutter",
             "soulAcquire": 2,
-            "description": "Slashes the enemy with Cho & Mal, inflicting extinction when the enemy is defeated.",
+            "description": "Slashes the enemy with Cho & Mal, inflicting extinction when the enemy is defeated. Grants the caster Skill Nullifier, negating damage received from the next attack.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -406,7 +406,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_endure"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {
