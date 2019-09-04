@@ -211,7 +211,7 @@
             "cooldown": 0,
             "name": "Veteran",
             "soulAcquire": 0,
-            "description": "The caster does not deal a critical hit, but Attack increases by 50%.",
+            "description": "The caster does not deal a critical hit, but Attack increases by 50% and increases Critical Hit Resistance by 70%.",
             "enhancement": [
                 {
                     "description": "+5% Attack",
@@ -322,7 +322,7 @@
             "cooldown": 4,
             "name": "Tenacious Strike",
             "soulAcquire": 2,
-            "description": "Attacks with an axe, stunning for 1 turn. Damage dealt is increased against bleeding enemies.",
+            "description": "Attacks with an axe, stunning for 1 turn and decreases Defense for 2 turns.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -404,7 +404,8 @@
             ],
             "buffs": [],
             "debuffs": [
-                "stic_stun"
+                "stic_stun",
+                "stic_def_dn"
             ],
             "damageModifiers": [
                 {
