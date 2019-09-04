@@ -317,7 +317,7 @@
             "cooldown": 5,
             "name": "Fire Pillar",
             "soulAcquire": 2,
-            "description": "Attacks all enemies with a massive fire pillar, with a 80% chance to burn for 2 turns and increase the caster's Combat Readiness by 50%.",
+            "description": "Attacks all enemies with a massive fire pillar, with a 80% chance to burn for 2 turns, and 30% chance to stun for 1 turn, before increasing the caster's Combat Readiness by 50%.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
