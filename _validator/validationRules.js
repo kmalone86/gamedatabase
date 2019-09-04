@@ -26,4 +26,5 @@ module.exports = {
 	latest: ['hero', 'artifact'],
 	voice: ['_id', 'voice'],
 	creator: ['title', 'description', 'img', 'social'],
+	ex_equip: ['name', 'description', 'heroId', 'stat', 'enhancements'],
 };
