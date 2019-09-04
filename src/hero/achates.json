@@ -215,7 +215,7 @@
             "cooldown": 3,
             "name": "Rapid Cure",
             "soulAcquire": 2,
-            "description": "Recovers ally's health and grants invincibility for 1 turn. Amount recovered is proportional to the caster's max Health.",
+            "description": "Recovers ally's health and grants invincibility for 1 turn. When used on an ally except for the caster, decreases the target's skill cooldown by 1 turn. Amount recovered is proportional to the caster's max Health.",
             "enhancement": [
                 {
                     "description": "+5% healing",
