@@ -225,10 +225,10 @@
             "cooldown": 0,
             "name": "Security State",
             "soulAcquire": 0,
-            "description": "Decreases damage received by allies from a critical hit by 20%. When more than one damage reduction effect is granted, only the strongest effect is applied.",
+            "description": "Decreases damage received by allies from a critical hit by 10%. When more than one damage reduction effect is granted, only the strongest effect is applied.",
             "enhancement": [
                 {
-                    "description": "+1% additional damage reduction",
+                    "description": "+0.5% additional damage reduction",
                     "resources": [
                         {
                             "item": "gold",
@@ -241,7 +241,7 @@
                     ]
                 },
                 {
-                    "description": "+1% additional damage reduction",
+                    "description": "+0.5% additional damage reduction",
                     "resources": [
                         {
                             "item": "gold",
@@ -254,7 +254,7 @@
                     ]
                 },
                 {
-                    "description": "+1% additional damage reduction",
+                    "description": "+0.5% additional damage reduction",
                     "resources": [
                         {
                             "item": "gold",
@@ -267,7 +267,7 @@
                     ]
                 },
                 {
-                    "description": "+1% additional damage reduction",
+                    "description": "+0.5% additional damage reduction",
                     "resources": [
                         {
                             "item": "gold",
@@ -284,7 +284,7 @@
                     ]
                 },
                 {
-                    "description": "+2% additional damage reduction",
+                    "description": "+1% additional damage reduction",
                     "resources": [
                         {
                             "item": "gold",
@@ -301,7 +301,7 @@
                     ]
                 },
                 {
-                    "description": "+2% additional damage reduction",
+                    "description": "+1% additional damage reduction",
                     "resources": [
                         {
                             "item": "gold",
@@ -318,7 +318,7 @@
                     ]
                 },
                 {
-                    "description": "+2% additional damage reduction",
+                    "description": "+1% additional damage reduction",
                     "resources": [
                         {
                             "item": "gold",
@@ -366,7 +366,7 @@
             "cooldown": 6,
             "name": "Shield of Holy Spirit",
             "soulAcquire": 2,
-            "description": "Covers all allies with an aura of holy spirit, granting immunity for 3 turns and invincibility for 1 turn.",
+            "description": "Covers all allies with an aura of holy spirit, granting immunity for 2 turns and invincibility for 1 turn.",
             "enhancement": [
                 {
                     "description": "+2 Soul acquired",
