@@ -86,7 +86,7 @@
             "cooldown": 0,
             "name": "Auto-Fire",
             "soulAcquire": 1,
-            "description": "Attacks with a gatling gun, with a 50% chance to dispel one buff. Damage dealt increases proportional to the caster's Defense.",
+            "description": "Attacks with a gatling gun, with a 65% chance to dispel one buff. Damage dealt increases proportional to the caster's Defense.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -202,7 +202,7 @@
             "cooldown": 0,
             "name": "Defense Mode",
             "soulAcquire": 0,
-            "description": "Increases Defense of the caster by 3.0% after attacking. Effect can only stack up to 5 times.",
+            "description": "Increases Defense of the caster by 7.0% after attacking. Effect can only stack up to 5 times.",
             "enhancement": [
                 {
                     "description": "+0.5% Defense",
@@ -310,7 +310,7 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": true,
-            "cooldown": 4,
+            "cooldown": 3,
             "name": "Cleaning Mode",
             "soulAcquire": 2,
             "description": "Fires indiscriminately at all enemies, with a 60% chance to decrease Hit Chance for 1 turn, before triggering counterattacks from the caster for 2 turns. Damage dealt increases proportional to the caster's Defense.",
