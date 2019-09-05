@@ -406,7 +406,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "stic_bomb"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
