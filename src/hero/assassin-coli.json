@@ -180,11 +180,11 @@
                     "description": "Increased attack if stealthed",
                     "value": [
                         0.9,
-                        1.2,
+                        1.2
                     ],
                     "soulburn": [
                         0.9,
-                        1.2,
+                        1.2
                     ]
                 },
                 {
