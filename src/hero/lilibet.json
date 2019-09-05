@@ -207,7 +207,7 @@
             "cooldown": 3,
             "name": "Snip-Snip",
             "soulAcquire": 1,
-            "description": "Brutally cuts the enemy, with a 35% chance each to inflict four bleeding effects for 2 turns. Deals additional damage when the target isn't buffed.",
+            "description": "Brutally cuts the enemy, with a 35% chance each to inflict four bleeding effects for 2 turns before increasing the caster's Combat Readiness by 50%. Deals additional damage when the target isn't buffed.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -299,8 +299,8 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1,
-                    "soulburn": 1
+                    "value": 1.5,
+                    "soulburn": 1.5
                 },
                 {
                     "name": "skill_dmg_rate",
@@ -311,10 +311,10 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * (1 + ((skill_dmg_rate * hero_special_count))) * pow! * constant",
-                "value": "((1.0 * hero_atk)) * (1 + ((0.2 * hero_special_count))) * 1.0 * 1.871",
-                "simplified": "((1.871 * hero_atk)) * (1 + ((0.2 * hero_special_count)))",
-                "soulburn": "((1.0 * hero_atk)) * (1 + ((0.2 * hero_special_count))) * 1.0 * 1.871",
-                "simplifiedSoulburn": "((1.871 * hero_atk)) * (1 + ((0.2 * hero_special_count)))"
+                "value": "((1.5 * hero_atk)) * (1 + ((0.2 * hero_special_count))) * 1.0 * 1.871",
+                "simplified": "((2.807 * hero_atk)) * (1 + ((0.2 * hero_special_count)))",
+                "soulburn": "((1.5 * hero_atk)) * (1 + ((0.2 * hero_special_count))) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((2.807 * hero_atk)) * (1 + ((0.2 * hero_special_count)))"
             }
         },
         {
@@ -326,7 +326,7 @@
             "cooldown": 5,
             "name": "Soul Cutter",
             "soulAcquire": 2,
-            "description": "Slashes the enemy with Cho & Mal, inflicting extinction when the enemy is defeated.",
+            "description": "Slashes the enemy with Cho & Mal, inflicting extinction when the enemy is defeated. Grants the caster Skill Nullifier, negating damage received from the next attack.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -406,7 +406,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_endure"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {
@@ -416,16 +418,16 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1.8,
-                    "soulburn": 2.4
+                    "value": 2.0,
+                    "soulburn": 2.6
                 }
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.8 * hero_atk)) * 0.95 * 1.871",
-                "simplified": "((3.1994 * hero_atk))",
-                "soulburn": "((2.4 * hero_atk)) * 0.95 * 1.871",
-                "simplifiedSoulburn": "((4.2659 * hero_atk))"
+                "value": "((2.0 * hero_atk)) * 0.95 * 1.871",
+                "simplified": "((3.586 * hero_atk))",
+                "soulburn": "((2.6 * hero_atk)) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((4.621 * hero_atk))"
             }
         }
     ],

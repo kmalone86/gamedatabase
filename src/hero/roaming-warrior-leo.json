@@ -1,6 +1,6 @@
 {
     "gameId": "c2029",
-    "name": "Roaming Warrior Leo (preview)",
+    "name": "Roaming Warrior Leo",
     "rarity": 4,
     "classType": "ranger",
     "element": "dark",
@@ -8,14 +8,27 @@
     "specialtyChangeName": "",
     "selfSkillBarName": "",
     "background": "Born to a family of scholars, he dreamed of becoming a warrior from a young age. After his parents disappeared following a raid by the Axe Bandits, he pledged to become stronger and get his revenge. Believing that reforming the rotten world is the only way to become a true warrior, he roams around the world defeating evil.",
-    "relations": [],
+    "relations": [
+        {
+            "hero": "assassin-cidd",
+            "relationType": "hostile"
+        },
+        {
+            "hero": "leo",
+            "relationType": "friendly"
+        },
+        {
+            "hero": "crozet",
+            "relationType": "hostile"
+        }
+    ],
     "stats": {
         "lv1BaseStarNoAwaken": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
+            "cp": 1214,
+            "atk": 77,
+            "hp": 260,
+            "spd": 111,
+            "def": 65,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -23,11 +36,11 @@
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
+            "cp": 10782,
+            "atk": 655,
+            "hp": 3656,
+            "spd": 111,
+            "def": 446,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -35,23 +48,23 @@
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
+            "cp": 12468,
+            "atk": 833,
+            "hp": 3996,
+            "spd": 111,
+            "def": 446,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0,
+            "eff": 0.18,
             "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
+            "cp": 13449,
+            "atk": 816,
+            "hp": 4596,
+            "spd": 111,
+            "def": 553,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -59,14 +72,14 @@
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
-            "cp": 0,
-            "atk": 0,
+            "cp": 15786,
+            "atk": 1088,
             "hp": 5016,
-            "spd": 0,
-            "def": 0,
+            "spd": 111,
+            "def": 553,
             "chc": 0.15,
             "chd": 1.5,
-            "eff": 0,
+            "eff": 0.18,
             "efr": 0,
             "dac": 0.05
         }
@@ -173,16 +186,23 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1,
-                    "soulburn": 1
+                    "description": "Increased attack if at least 1 buff",
+                    "value": [
+                        1.0,
+                        1.1
+                    ],
+                    "soulburn": [
+                        1.0,
+                        1.1
+                    ]
                 }
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1 * hero_atk)) * 1 * 1.871",
-                "simplified": "((1.871 * hero_atk))",
-                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
-                "simplifiedSoulburn": "((1.871 * hero_atk))"
+                "value": "(([1.0, 1.1] * hero_atk)) * 1 * 1.871",
+                "simplified": "(([1.871, 2.058] * hero_atk))",
+                "soulburn": "(([1.0, 1.1]1 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "(([1.871, 2.058] * hero_atk))"
             }
         },
         {
@@ -284,16 +304,16 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1,
-                    "soulburn": 1
+                    "value": 1.2,
+                    "soulburn": 1.2
                 }
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1 * hero_atk)) * 1 * 1.871",
-                "simplified": "((1.871 * hero_atk))",
-                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
-                "simplifiedSoulburn": "((1.871 * hero_atk))"
+                "value": "((1.2 * hero_atk)) * 1 * 1.871",
+                "simplified": "((2.245 * hero_atk))",
+                "soulburn": "((1.2 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((2.245 * hero_atk))"
             }
         },
         {
@@ -386,25 +406,27 @@
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "stic_bomb"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1,
-                    "soulburn": 1
+                    "value": 1.1,
+                    "soulburn": 1.1
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1,
-                    "soulburn": 1
+                    "value": 0.8,
+                    "soulburn": 0.8
                 }
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1 * hero_atk)) * 1 * 1.871",
-                "simplified": "((1.871 * hero_atk))",
-                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
-                "simplifiedSoulburn": "((1.871 * hero_atk))"
+                "value": "((0.8 * hero_atk)) * 1.1 * 1.871",
+                "simplified": "((1.647 * hero_atk))",
+                "soulburn": "((0.8 * hero_atk)) * 1.1 * 1.871",
+                "simplifiedSoulburn": "((1.647 * hero_atk))"
             }
         }
     ],
@@ -414,39 +436,39 @@
         "dispatch": "[Time Limit] Attribute",
         "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 54,
+            "charm": 82,
+            "politics": 32
         }
     },
     "camping": {
         "options": [
-            "Option1",
-            "Option2"
+            "food-story",
+            "reality-check"
         ],
         "reactions": {
-            "advice": 0,
-            "belief": 0,
-            "bizarre-story": 0,
-            "comforting-cheer": 0,
-            "complain": 0,
-            "criticism": 0,
-            "cute-cheer": 0,
-            "dream": 0,
-            "food-story": 0,
-            "gossip": 0,
-            "happy-memory": 0,
+            "advice": 1,
+            "belief": -4,
+            "bizarre-story": 5,
+            "comforting-cheer": 6,
+            "complain": -1,
+            "criticism": 4,
+            "cute-cheer": -1,
+            "dream": 4,
+            "food-story": -1,
+            "gossip": -2,
+            "happy-memory": 2,
             "heroic-cheer": 0,
-            "heroic-tale": 0,
-            "horror-story": 0,
-            "interesting-story": 0,
-            "joyful-memory": 0,
-            "myth": 0,
-            "occult": 0,
-            "reality-check": 0,
-            "sad-memory": 0,
-            "self-indulgent": 0,
-            "unique-comment": 0
+            "heroic-tale": -2,
+            "horror-story": -1,
+            "interesting-story": 6,
+            "joyful-memory": 2,
+            "myth": -2,
+            "occult": 5,
+            "reality-check": 2,
+            "sad-memory": -1,
+            "self-indulgent": -1,
+            "unique-comment": 1
         }
     },
     "memoryImprintFormation": {
@@ -455,7 +477,7 @@
         "east": true,
         "west": true
     },
-    "memoryImprintAttribute": "",
+    "memoryImprintAttribute": "dac%",
     "memoryImprint": [
         {
             "rank": "d",
@@ -513,7 +535,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "eff": 0.06
                 },
                 {
                     "atk": 20
@@ -534,7 +556,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -581,7 +603,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -606,7 +628,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "eff": 0.12
                 },
                 {
                     "atk": 30
@@ -631,7 +653,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "atk": 0.06
                 },
                 {
                     "atk": 30

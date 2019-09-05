@@ -296,16 +296,16 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.7,
-                    "soulburn": 0.7
+                    "value": 0.8,
+                    "soulburn": 0.8
                 }
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((0.7 * hero_atk)) * 1.0 * 1.871",
-                "simplified": "((1.3097 * hero_atk))",
-                "soulburn": "((0.7 * hero_atk)) * 1.0 * 1.871",
-                "simplifiedSoulburn": "((1.3097 * hero_atk))"
+                "value": "((0.8 * hero_atk)) * 1.0 * 1.871",
+                "simplified": "((1.497 * hero_atk))",
+                "soulburn": "((0.8 * hero_atk)) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((1.497 * hero_atk))"
             }
         },
         {
@@ -317,7 +317,7 @@
             "cooldown": 5,
             "name": "Fire Pillar",
             "soulAcquire": 2,
-            "description": "Attacks all enemies with a massive fire pillar, with a 80% chance to burn for 2 turns and increase the caster's Combat Readiness by 50%.",
+            "description": "Attacks all enemies with a massive fire pillar, with a 80% chance to burn for 2 turns, and 30% chance to stun for 1 turn, before increasing the caster's Combat Readiness by 50%.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -429,7 +429,8 @@
             ],
             "buffs": [],
             "debuffs": [
-                "stic_blaze"
+                "stic_blaze",
+                "stic_stun"
             ],
             "damageModifiers": [
                 {

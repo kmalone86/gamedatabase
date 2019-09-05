@@ -1,5 +1,5 @@
 {
-    "name": "Purple Talisman",
+    "name": "Violet Talisman",
     "rarity": 5,
     "exclusive": [
         "thief"
@@ -9,8 +9,8 @@
         "- Violet's Father"
     ],
     "skillDescription": {
-        "base": "Increases Attack by 1.5% and Evasion Chance by 1.5% at the beginning of each turn. Each effect can stack up to 10 times, and resets at the beginning of a battle.",
-        "max": "Increases Attack by 3.0% and Evasion Chance by 3.0% at the beginning of each turn. Each effect can stack up to 10 times, and resets at the beginning of a battle."
+        "base": "Increases Attack by 5.0% and Evasion Chance by 5.0% at the beginning of each turn. Each effect can stack up to 3 times, and resets at the beginning of a battle.",
+        "max": "Increases Attack by 10.0% and Evasion Chance by 10.0% at the beginning of each turn. Each effect can stack up to 3 times, and resets at the beginning of a battle."
     },
     "stats": {
         "base": {

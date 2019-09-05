@@ -242,7 +242,7 @@
             "cooldown": 5,
             "name": "Dark Contract",
             "soulAcquire": 0,
-            "description": "After receiving lethal damage, caster regenerates to 70% Health, 100% Combat Readiness, increased Attack for 2 turns, full Focus, and resets cooldown for Dark Blade.",
+            "description": "After receiving lethal damage, caster regenerates to 70% Health, 100% Combat Readiness, full Focus, and resets cooldown for Dark Blade.",
             "enhancement": [
                 {
                     "description": "+10% Health recovered when revived",
@@ -296,9 +296,7 @@
                     ]
                 }
             ],
-            "buffs": [
-                "stic_att_up"
-            ],
+            "buffs": [],
             "debuffs": [],
             "damageModifiers": [
                 {

@@ -102,7 +102,7 @@
             "cooldown": 0,
             "name": "Falling Strike",
             "soulAcquire": 1,
-            "description": "Mows down enemies with a great sword, with a 35% chance to decrease Speed for 2 turns, and decrease Combat Readiness by 20%.",
+            "description": "Mows down enemies with a great sword, with a 35% chance to decrease Speed for 2 turns, and decrease Combat Readiness by 20%. Damage dealt is proportional to the caster's max Health.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -196,14 +196,19 @@
                     "name": "atk_rate",
                     "value": 1,
                     "soulburn": 1
+                },
+                {
+                    "name": "hp_rate",
+                    "value": 0.05,
+                    "soulburn": 0.05
                 }
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.0 * hero_atk)) * 1.0 * 1.871",
-                "simplified": "((1.871 * hero_atk))",
-                "soulburn": "((1.0 * hero_atk)) * 1.0 * 1.871",
-                "simplifiedSoulburn": "((1.871 * hero_atk))"
+                "value": "((1.0 * hero_atk) + (0.05 * hero_hp)) * 1.0 * 1.871",
+                "simplified": "((1.871 * hero_atk) + (0.094 * hero_hp))",
+                "soulburn": "((1.0 * hero_atk) + (0.05 * hero_hp)) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk) + (0.094 * hero_hp))"
             }
         },
         {
@@ -215,7 +220,7 @@
             "cooldown": 0,
             "name": "Get Lost!",
             "soulAcquire": 0,
-            "description": "Hits all enemies when counterattacking, with a 20% chance to counterattack when attacked.",
+            "description": "Hits all enemies when counterattacking, with a 15% chance to stun for 1 turn. Has a 20% chance to counterattack when attacked.",
             "enhancement": [
                 {
                     "description": "+1% counterattack chance",
@@ -296,7 +301,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "stic_stun"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
@@ -326,7 +333,7 @@
             "cooldown": 4,
             "name": "Final Blow",
             "soulAcquire": 2,
-            "description": "Attacks all enemies with a powerful ground pound, stunning for 1 turn if they have less than 30% Health.",
+            "description": "Attacks all enemies with a powerful ground pound, with a 50% chance to stun for 1 turn. Increases effect chance by 100% when they have less than 30% Health. Damage dealt is proportional to the caster's max Health.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -420,14 +427,19 @@
                     "name": "atk_rate",
                     "value": 0.8,
                     "soulburn": 1.05
+                },
+                {
+                    "name": "hp_rate",
+                    "value": 0.1,
+                    "soulburn": 0.1
                 }
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((0.8 * hero_atk)) * 1.0 * 1.871",
-                "simplified": "((1.4968 * hero_atk))",
-                "soulburn": "((1.05 * hero_atk)) * 1.0 * 1.871",
-                "simplifiedSoulburn": "((1.9646 * hero_atk))"
+                "value": "((0.8 * hero_atk) + (0.1 * hero_hp)) * 1.0 * 1.871",
+                "simplified": "((1.4968 * hero_atk) + (0.188 * hero_hp))",
+                "soulburn": "((1.05 * hero_atk) + (0.1 * hero_hp)) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((1.9646 * hero_atk) + (0.188 * hero_hp))"
             }
         }
     ],

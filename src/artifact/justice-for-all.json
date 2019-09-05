@@ -8,8 +8,8 @@
         "A gauntlet made the year the first member of the Sharon family was knighted. It represents the pursuit of justice to be shared by all who follow the Goddess and the kingdom, rather than just for the sake of oneself."
     ],
     "skillDescription": {
-        "base": "Grants the caster a random buff for 1 turn with a 50.0% chance at the end of the turn. (Increased Attack, Defense, Speed, or Critical Hit Chance, Barrier, Immunity, Continuous Heal, or Critical Hit Resistance)",
-        "max": "Grants the caster a random buff for 1 turn with a 100.0% chance at the end of the turn. (Increased Attack, Defense, Speed, or Critical Hit Chance, Barrier, Immunity, Continuous Heal, or Critical Hit Resistance)"
+        "base": "50% chance to grant the caster a random buff for 2 turns at the end of the turn. (Increased Attack, Defense, Speed, or Critical Hit Chance, Barrier, Immunity, Continuous Heal, or Critical Hit Resistance)",
+        "max": "100% chance to grant the caster a random buff for 2 turns at the end of the turn. (Increased Attack, Defense, Speed, or Critical Hit Chance, Barrier, Immunity, Continuous Heal, or Critical Hit Resistance)"
     },
     "stats": {
         "base": {

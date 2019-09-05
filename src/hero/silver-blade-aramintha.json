@@ -207,7 +207,7 @@
             "cooldown": 0,
             "name": "Flame Release",
             "soulAcquire": 0,
-            "description": "Activates Flame Release if the enemy is burned after using Flame Friction.\nFlame Release: Attacks all enemies with mystic fire energy, increasing the caster's Combat Readiness by 30%.",
+            "description": "Activates Flame Release if the enemy is burned after using Flame Friction.\nFlame Release: Attacks all enemies with mystic fire energy, increasing the caster's Combat Readiness by 20%.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -315,10 +315,10 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
-            "cooldown": 4,
+            "cooldown": 5,
             "name": "Meteor Fall",
             "soulAcquire": 2,
-            "description": "Drops a giant meteor to stun all enemies for 1 turn, with a 40% chance each to inflict three burn effects for 2 turns.",
+            "description": "Drops a giant meteor to stun all enemies for 1 turn, with a 40% chance each to inflict two burn effects for 2 turns.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",

@@ -217,7 +217,7 @@
             "cooldown": 3,
             "name": "Thornbush",
             "soulAcquire": 2,
-            "description": "Attacks all enemies, with a 85% chance to decrease Hit Chance for 1 turn.",
+            "description": "Attacks all enemies, with a 85% chance to decrease Hit Chance for 1 turn and dispels one buff.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -330,7 +330,7 @@
             "cooldown": 5,
             "name": "Public Execution",
             "soulAcquire": 3,
-            "description": "Attacks the enemy with a whip sword and decreases Combat Readiness by 100% and decreases Speed for 2 turns. Grants the caster Skill Nullifier, negating damage received from the next skill attack.",
+            "description": "Attacks the enemy with a whip sword and decreases Combat Readiness by 100% and decreases Speed and making them unhealable for 2 turns. Grants the caster Skill Nullifier, negating damage received from the next skill attack.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -414,7 +414,8 @@
                 "stic_endure"
             ],
             "debuffs": [
-                "stic_speed_dn"
+                "stic_speed_dn",
+                "stic_heal_impossible"
             ],
             "damageModifiers": [
                 {

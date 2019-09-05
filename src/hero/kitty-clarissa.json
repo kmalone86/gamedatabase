@@ -387,7 +387,7 @@
             "cooldown": 5,
             "name": "I'm So Cute, Meow♡",
             "soulAcquire": 2,
-            "description": "Wiggles tail cutely, decreasing debuff duration on all allies by 2 turns, and granting the caster immunity and loveliness for 3 turns.",
+            "description": "Wiggles tail cutely, decreasing debuff duration on all allies by 2 turns, and granting the caster immunity and loveliness for 3 turns before granting an extra turn.",
             "enhancement": [
                 {
                     "description": "-1 turn cooldown",

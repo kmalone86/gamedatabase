@@ -210,7 +210,7 @@
             "cooldown": 0,
             "name": "Area Defense",
             "soulAcquire": 0,
-            "description": "Decreases damage received from AoE attacks for all allies by 15%. When this effect is granted more than once, only the strongest effect is applied.",
+            "description": "Decreases damage received from AoE attacks for all allies by 25%. When this effect is granted more than once, only the strongest effect is applied.",
             "enhancement": [
                 {
                     "description": "-0.5% damage received",
@@ -320,7 +320,7 @@
             "cooldown": 4,
             "name": "Mana Release",
             "soulAcquire": 2,
-            "description": "Exhales powerful dakrnesss, decreasing Combat Readiness by 25%, and making the enemy unable to be buffed for 2 turns.",
+            "description": "Exhales powerful dakrnesss, decreasing Combat Readiness by 25%, and making the enemy unable to be buffed and inflicts Silence for 2 turns.",
             "enhancement": [
                 {
                     "description": "+10% damage dealt",
@@ -402,7 +402,8 @@
             ],
             "buffs": [],
             "debuffs": [
-                "stic_buf_impossible"
+                "stic_buf_impossible",
+                "stic_silence"
             ],
             "damageModifiers": [
                 {

@@ -110,7 +110,7 @@
             "cooldown": 0,
             "name": "Homing Laser",
             "soulAcquire": 1,
-            "description": "Attacks all enemies with a drone, increasing the caster's Combat Readiness by 6% per target. When there are less than 3 enemies, damage dealt increases with fewer enemies.",
+            "description": "Attacks all enemies with a drone, increasing the caster's Combat Readiness by 6% per target, and increasing Combat Readiness of all allies except for the caster by 2%. Damage dealt increases proportional to the caster's Speed. When there are less than 3 enemies, damage dealt increases with fewer enemies.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -221,6 +221,11 @@
                     "soulburn": 0.85
                 },
                 {
+                    "name": "spd_rate",
+                    "value": 0.00075,
+                    "soulburn": 0.00075
+                },
+                {
                     "name": "skill_dmg_rate",
                     "description": "Increased damage based number of targets.",
                     "value": [
@@ -236,20 +241,20 @@
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * (1 + ((skill_dmg_rate * hero_special_count))) * pow! * constant",
-                "value": "((0.6 * hero_atk)) * (1 + (([1.6, 1.4, 0.0] * hero_special_count))) * 0.8 * 1.871",
-                "simplified": "((0.8981 * hero_atk)) * (1 + (([1.6, 1.4, 0.0] * hero_special_count)))",
-                "soulburn": "((0.85 * hero_atk)) * (1 + (([1.6, 1.4, 0.0] * hero_special_count))) * 0.8 * 1.871",
-                "simplifiedSoulburn": "((1.2723 * hero_atk)) * (1 + (([1.6, 1.4, 0.0] * hero_special_count)))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((spd_rate * hero_spd) + (skill_dmg_rate * hero_special_count))) * pow! * constant",
+                "value": "((0.6 * hero_atk)) * (1 + ((0.00075 * hero_spd) + ([1.6, 1.4, 0.0] * hero_special_count))) * 0.8 * 1.871",
+                "simplified": "((0.8981 * hero_atk)) * (1 + ((0.00075 * hero_spd) + ([1.6, 1.4, 0.0] * hero_special_count)))",
+                "soulburn": "((0.85 * hero_atk)) * (1 + ((0.00075 * hero_spd) + ([1.6, 1.4, 0.0] * hero_special_count))) * 0.8 * 1.871",
+                "simplifiedSoulburn": "((1.2723 * hero_atk)) * (1 + ((0.00075 * hero_spd) + ([1.6, 1.4, 0.0] * hero_special_count)))"
             }
         },
         {
             "isPassive": false,
             "soulBurn": 0,
-            "selfSkillBarValue": 1,
+            "selfSkillBarValue": 2,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
-            "cooldown": 5,
+            "cooldown": 4,
             "name": "Upgrade",
             "soulAcquire": 1,
             "description": "Buffs all allies with a drone and increases Attack and speed for 2 turns.",
@@ -323,7 +328,7 @@
             "cooldown": 0,
             "name": "Meteor Cannon",
             "soulAcquire": 3,
-            "description": "Attacks all enemies with an enormous and powerful cannon, inflicting huge damage. When there are less than 3 enemies, damage dealt increases with fewer enemies.",
+            "description": "Attacks all enemies with an enormous and powerful cannon, inflicting huge damage. Always activates a critical hit. When there are less than 3 enemies, damage dealt increases with fewer enemies.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",

@@ -94,7 +94,7 @@
             "cooldown": 0,
             "name": "Sand Wind",
             "soulAcquire": 1,
-            "description": "Attacks with wind magic, with a 50% chance to transfer one debuff from the caster to the enemy.",
+            "description": "Attacks with wind magic, with a 50% chance to transfer one debuff from the caster to the enemy before inflicting a random debuff for 2 turns.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -200,12 +200,12 @@
             "isPassive": false,
             "soulBurn": 10,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "Skill cooldown is decreased by 2 turns.",
+            "soulBurnEffect": "Ignores effect resistance.",
             "awakenUpgrade": false,
             "cooldown": 3,
             "name": "Hurricane",
             "soulAcquire": 2,
-            "description": "Attacks all enemies by releasing a hot sand hurricane, with 60% chance to decrease hit chance for 2 turns.",
+            "description": "Attacks all enemies by releasing a hot sand hurricane, with 60% chance to decrease Hit Chance and Attack for 2 turns.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -287,7 +287,8 @@
             ],
             "buffs": [],
             "debuffs": [
-                "stic_blind"
+                "stic_blind",
+                "stic_att_dn"
             ],
             "damageModifiers": [
                 {
@@ -318,7 +319,7 @@
             "cooldown": 5,
             "name": "Sandstorm",
             "soulAcquire": 3,
-            "description": "Attacks all enemies with sand magic, dispelling all buffs, and making them unable to be buffed for 2 turns.",
+            "description": "Attacks all enemies with sand magic, dispelling all buffs, and making them unable to be buffed for 2 turns, before decreasing Combat Readiness by 30%.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",

@@ -225,10 +225,10 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 5,
+            "cooldown": 4,
             "name": "Dragon's Roar",
             "soulAcquire": 2,
-            "description": "Attacks with a dragon howl, dispelling one buff from all enemies, with a 40% chance to silence for 1 turn, before granting increased Attack and Speed for the caster for 2 turns.",
+            "description": "Attacks with a dragon howl, dispelling one buff from all enemies, with a 75% chance to silence for 1 turn, before granting increased Attack and Speed for the caster for 2 turns.",
             "enhancement": [
                 {
                     "description": "+5% effect chance",
@@ -297,16 +297,16 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.6,
-                    "soulburn": 0.6
+                    "value": 0.9,
+                    "soulburn": 0.9
                 }
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((0.6 * hero_atk)) * 1.0 * 1.871",
-                "simplified": "((1.1226 * hero_atk))",
-                "soulburn": "((0.6 * hero_atk)) * 1.0 * 1.871",
-                "simplifiedSoulburn": "((1.1226 * hero_atk))"
+                "value": "((0.9 * hero_atk)) * 1.0 * 1.871",
+                "simplified": "((1.684 * hero_atk))",
+                "soulburn": "((0.9 * hero_atk)) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((1.684 * hero_atk))"
             }
         },
         {
@@ -318,7 +318,7 @@
             "cooldown": 5,
             "name": "Dragon Charge",
             "soulAcquire": 2,
-            "description": "Hits the enemy with a finishing blow, stunning for 1 turn and dispelling all buffs. Damage dealt increases by 50% if the enemy is buffed.",
+            "description": "Hits the enemy with a finishing blow, dispelling all buffs and stunning for 1 turn. Damage dealt increases by 50% if the enemy is buffed.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
