@@ -177,8 +177,15 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.8,
-                    "soulburn": 0.8
+                    "description": "Increased attack if stealthed",
+                    "value": [
+                        0.9,
+                        1.2,
+                    ],
+                    "soulburn": [
+                        0.9,
+                        1.2,
+                    ]
                 },
                 {
                     "name": "spd_rate",
@@ -188,10 +195,10 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * (1 + ((spd_rate * hero_spd))) * pow! * constant",
-                "value": "((0.8 * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 1.0 * 1.871",
-                "simplified": "((1.4968 * hero_atk)) * (1 + ((0.00075 * hero_spd)))",
-                "soulburn": "((0.8 * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 1.0 * 1.871",
-                "simplifiedSoulburn": "((1.4968 * hero_atk)) * (1 + ((0.00075 * hero_spd)))"
+                "value": "(([0.9, 1.2] * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 1.0 * 1.871",
+                "simplified": "(([1.684, 2.245] * hero_atk)) * (1 + ((0.00075 * hero_spd)))",
+                "soulburn": "(([0.9, 1.2] * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 1.0 * 1.871",
+                "simplifiedSoulburn": "((1.684, 2.245] * hero_atk)) * (1 + ((0.00075 * hero_spd)))"
             }
         },
         {
