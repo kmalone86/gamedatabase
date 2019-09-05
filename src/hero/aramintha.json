@@ -429,7 +429,8 @@
             ],
             "buffs": [],
             "debuffs": [
-                "stic_blaze"
+                "stic_blaze",
+                "stic_stun"
             ],
             "damageModifiers": [
                 {
