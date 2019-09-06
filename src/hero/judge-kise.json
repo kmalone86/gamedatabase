@@ -290,7 +290,7 @@
                     "name": "skill_dmg_rate",
                     "description": "Increases damage per extra target.",
                     "value": 0.1,
-                    "soulburn": 0.125
+                    "soulburn": 0.1
                 }
             ],
             "simpleDmgMod": {
@@ -298,7 +298,7 @@
                 "value": "((1.0 * hero_atk)) * (1 + ((0.1 * hero_special_count))) * 1.0 * 1.871",
                 "simplified": "((1.871 * hero_atk)) * (1 + ((0.1 * hero_special_count)))",
                 "soulburn": "((1.0 * hero_atk)) * (1 + ((0.1 * hero_special_count))) * 1.0 * 1.871",
-                "simplifiedSoulburn": "((1.871 * hero_atk)) * (1 + ((0.125 * hero_special_count)))"
+                "simplifiedSoulburn": "((1.871 * hero_atk)) * (1 + ((0.1 * hero_special_count)))"
             }
         },
         {
