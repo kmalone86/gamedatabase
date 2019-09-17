@@ -198,7 +198,7 @@
                 "value": "(([0.9, 1.2] * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 1.0 * 1.871",
                 "simplified": "(([1.684, 2.245] * hero_atk)) * (1 + ((0.00075 * hero_spd)))",
                 "soulburn": "(([0.9, 1.2] * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 1.0 * 1.871",
-                "simplifiedSoulburn": "((1.684, 2.245] * hero_atk)) * (1 + ((0.00075 * hero_spd)))"
+                "simplifiedSoulburn": "(([1.684, 2.245] * hero_atk)) * (1 + ((0.00075 * hero_spd)))"
             }
         },
         {
