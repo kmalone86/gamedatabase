@@ -205,7 +205,7 @@
             "cooldown": 3,
             "name": "Hurricane",
             "soulAcquire": 2,
-            "description": "Attacks all enemies by releasing a hot sand hurricane, with 60% chance to decrease Hit Chance and Attack for 2 turns.",
+            "description": "Attacks all enemies by releasing a hot sand hurricane, with 60% chance each to decrease Hit Chance and Attack for 2 turns.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
