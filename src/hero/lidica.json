@@ -217,7 +217,7 @@
             "cooldown": 3,
             "name": "Thornbush",
             "soulAcquire": 2,
-            "description": "Attacks all enemies, with a 85% chance to decrease Hit Chance for 1 turn and dispels one buff.",
+            "description": "Attacks all enemies, with a 85% chance each to decrease Hit Chance for 1 turn, before dispelling one buff.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
