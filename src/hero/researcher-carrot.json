@@ -10,23 +10,15 @@
     "background": "Carrot studied tirelessly to pass the notorious Magic Research Department exam and became a professional researcher. She thought things would finally get better once she passed, but instead, she feels like she has gotten even busier.",
     "relations": [
         {
+            "hero": "cermia",
+            "relationType": "friendly"
+        },
+        {
             "hero": "yuna",
             "relationType": "longing"
         },
         {
             "hero": "hazel",
-            "relationType": "friendly"
-        },
-        {
-            "hero": "schuri",
-            "relationType": "friendly"
-        },
-        {
-            "hero": "wanda",
-            "relationType": "friendly"
-        },
-        {
-            "hero": "cermia",
             "relationType": "friendly"
         },
         {
@@ -548,10 +540,10 @@
     "specialtySkill": {
         "name": "I'll Sleep When I'm Dead",
         "description": "All researchers develop an ability to write piles of reports without sleeping for several days.",
-        "dispatch": "[Gourmet] Attribute",
+        "dispatch": "[Time Limite] Attribute",
         "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 6,
+            "command": 5,
             "charm": 37,
             "politics": 11
         }
