@@ -445,9 +445,9 @@
     ],
     "skillTree": [
         {
-            "name": "Rune",
-            "rank": 1,
-            "requires": "",
+            "runeName": "Rune",
+            "level": 1,
+            "requiresRune": "",
             "skillEnhance": {
               "rank1": "",
               "rank2": "",
@@ -455,9 +455,9 @@
             }
         },
         {
-            "name": "Rune",
-            "rank": 1,
-            "requires": "",
+            "runeName": "Rune",
+            "level": 1,
+            "requiresRune": "",
             "skillEnhance": {
               "rank1": "",
               "rank2": "",
@@ -465,9 +465,9 @@
             }
         },
         {
-            "name": "Rune",
-            "rank": 1,
-            "requires": "",
+            "runeName": "Rune",
+            "level": 1,
+            "requiresRune": "",
             "skillEnhance": {
               "rank1": "",
               "rank2": "",
@@ -475,9 +475,9 @@
             }
         },
         {
-            "name": "Rune",
-            "rank": 1,
-            "requires": "",
+            "runeName": "Rune",
+            "level": 1,
+            "requiresRune": "",
             "skillEnhance": {
               "rank1": "",
               "rank2": "",
@@ -485,9 +485,9 @@
             }
         },
         {
-            "name": "Rune",
-            "rank": 1,
-            "requires": "",
+            "runeName": "Rune",
+            "level": 1,
+            "requiresRune": "",
             "skillEnhance": {
               "rank1": "",
               "rank2": "",
@@ -495,9 +495,9 @@
             }
         },
         {
-            "name": "Rune",
-            "rank": 1,
-            "requires": "",
+            "runeName": "Rune",
+            "level": 1,
+            "requiresRune": "",
             "skillEnhance": {
               "rank1": "",
               "rank2": "",
@@ -505,9 +505,9 @@
             }
         },
         {
-            "name": "Rune",
-            "rank": 1,
-            "requires": "",
+            "runeName": "Rune",
+            "level": 1,
+            "requiresRune": "",
             "skillEnhance": {
               "rank1": "",
               "rank2": "",
@@ -515,9 +515,9 @@
             }
         },
         {
-            "name": "Rune",
-            "rank": 1,
-            "requires": "",
+            "runeName": "Rune",
+            "level": 1,
+            "requiresRune": "",
             "skillEnhance": {
               "rank1": "",
               "rank2": "",
@@ -525,9 +525,9 @@
             }
         },
         {
-            "name": "Rune",
-            "rank": 1,
-            "requires": "",
+            "runeName": "Rune",
+            "level": 1,
+            "requiresRune": "",
             "skillEnhance": {
               "rank1": "",
               "rank2": "",
@@ -535,9 +535,9 @@
             }
         },
         {
-            "name": "Rune",
-            "rank": 1,
-            "requires": "",
+            "runeName": "Rune",
+            "level": 1,
+            "requiresRune": "",
             "skillEnhance": {
               "rank1": "",
               "rank2": "",
