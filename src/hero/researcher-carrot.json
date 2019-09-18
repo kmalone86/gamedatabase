@@ -446,103 +446,103 @@
     "skillTree": [
         {
             "name": "Rune",
-            "rank: 1,
+            "rank": 1,
             "requires": "",
-            "skillEnhance": [
+            "skillEnhance": {
               "rank1": "",
               "rank2": "",
               "rank3": "Increases Attack by 5%."
-            ]
+            }
         },
         {
             "name": "Rune",
-            "rank: 1,
+            "rank": 1,
             "requires": "",
-            "skillEnhance": [
+            "skillEnhance": {
               "rank1": "",
               "rank2": "",
               "rank3": "Increases Attack by 7%."
-            ]
+            }
         },
         {
             "name": "Rune",
-            "rank: 1,
+            "rank": 1,
             "requires": "",
-            "skillEnhance": [
+            "skillEnhance": {
               "rank1": "",
               "rank2": "",
               "rank3": "Increases Swing's decrease Speed effect chance by 10%."
-            ]
+            }
         },
         {
             "name": "Rune",
-            "rank: 1,
+            "rank": 1,
             "requires": "",
-            "skillEnhance": [
+            "skillEnhance": {
               "rank1": "",
               "rank2": "",
               "rank3": "Health increases by 25%."
-            ]
+            }
         },
         {
             "name": "Rune",
-            "rank: 1,
+            "rank": 1,
             "requires": "",
-            "skillEnhance": [
+            "skillEnhance": {
               "rank1": "",
               "rank2": "",
               "rank3": "Increases Effectiveness of allies by 5%."
-            ]
+            }
         },
         {
             "name": "Rune",
-            "rank: 1,
+            "rank": 1,
             "requires": "",
-            "skillEnhance": [
+            "skillEnhance": {
               "rank1": "",
               "rank2": "",
               "rank3": "Combat Readiness increases by 10% when using Swing."
-            ]
+            }
         },
         {
             "name": "Rune",
-            "rank: 1,
+            "rank": 1,
             "requires": "",
-            "skillEnhance": [
+            "skillEnhance": {
               "rank1": "",
               "rank2": "",
               "rank3": "Increases damage dealt by Flame Spurt by 10%."
-            ]
+            }
         },
         {
             "name": "Rune",
-            "rank: 1,
+            "rank": 1,
             "requires": "",
-            "skillEnhance": [
+            "skillEnhance": {
               "rank1": "",
               "rank2": "",
               "rank3": "Increases Flame Spurt's burn effect chance by 5%."
-            ]
+            }
         },
         {
             "name": "Rune",
-            "rank: 1,
+            "rank": 1,
             "requires": "",
-            "skillEnhance": [
+            "skillEnhance": {
               "rank1": "",
               "rank2": "",
               "rank3": "The chance to dispel one debuff inflicted on the caster when Flame Barrier is activated is increased by 50%."
-            ]
+            }
         },
         {
             "name": "Rune",
-            "rank: 1,
+            "rank": 1,
             "requires": "",
-            "skillEnhance": [
+            "skillEnhance": {
               "rank1": "",
               "rank2": "",
               "rank3": "When the caster is attacked at max Health, decreases damage received by 25%."
-            ]
+            }
         }
     ],
     "specialtySkill": {
