@@ -5,7 +5,7 @@
     "classType": "mage",
     "element": "fire",
     "zodiac": "sagittarius",
-    "specialtyChangeName": "",
+    "specialtyChangeName": "researcher-carrot",
     "selfSkillBarName": "",
     "background": "A member of the Magic Research Institute, Carrot sometimes helps the Student Council with their accounting at the request of Ginger and Hazel due to her talent with numbers. She is usually rational, except for her habit of wearing decorative ears to ward off jinxes.",
     "relations": [
@@ -99,14 +99,14 @@
     "skills": [
         {
             "isPassive": false,
-            "soulBurn": 0,
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
+            "soulBurnEffect": "Increases detonation chance to 100%.",
             "awakenUpgrade": false,
             "cooldown": 0,
-            "name": "Flourish",
+            "name": "Swing",
             "soulAcquire": 1,
-            "description": "Attacks with a staff, with a 35% chance to decrease Speed for 2 turns.",
+            "description": "Attacks with a staff, with a 35% chance to decrease Speed for 2 turns, before a 30% chance to detonate burn effects inflicted on the enemy at the end of the turn.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -236,10 +236,10 @@
             "cooldown": 1,
             "name": "Flame Barrier",
             "soulAcquire": 0,
-            "description": "30% chance after being attacked to grant a barrier to the caster for 1 turn, and burn the attacker for 1 turn. Barrier strength increases proportional to the caster's Attack.",
+            "description": "After being attacked, grants the caster a barrier for 1 turn and burns the attacker for 1 turn. Barrier strength increases proportional to the caster's Attack.",
             "enhancement": [
                 {
-                    "description": "+10% trigger chance",
+                    "description": "+15% barrier strength",
                     "resources": [
                         {
                             "item": "gold",
@@ -256,7 +256,7 @@
                     ]
                 },
                 {
-                    "description": "+10% trigger chance",
+                    "description": "+15% barrier strength",
                     "resources": [
                         {
                             "item": "gold",
@@ -301,9 +301,9 @@
         },
         {
             "isPassive": false,
-            "soulBurn": 20,
+            "soulBurn": 0,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "Grants an extra turn.",
+            "soulBurnEffect": "",
             "awakenUpgrade": true,
             "cooldown": 4,
             "name": "Blaze Explosion",

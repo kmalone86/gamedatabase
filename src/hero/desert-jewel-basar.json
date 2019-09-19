@@ -1,0 +1,481 @@
+{
+    "gameId": "c2053",
+    "name": "Desert Jewel Basar (preview)",
+    "rarity": 5,
+    "classType": "soul-weaver",
+    "element": "light",
+    "zodiac": "sagittarius",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": [
+        ""
+    ],
+    "relations": [],
+    "stats": {
+        "lv1BaseStarNoAwaken": {
+            "cp": 1275,
+            "atk": 68,
+            "hp": 237,
+            "spd": 102,
+            "def": 81,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarNoAwaken": {
+            "cp": 10313,
+            "atk": 546,
+            "hp": 3141,
+            "spd": 102,
+            "def": 525,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 11530,
+            "atk": 715,
+            "hp": 3481,
+            "spd": 108,
+            "def": 525,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 12865,
+            "atk": 680,
+            "hp": 3950,
+            "spd": 102,
+            "def": 652,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 14561,
+            "atk": 932,
+            "hp": 4370,
+            "spd": 108,
+            "def": 652,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        }
+    },
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 20,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Attacks all enemies. Increases the amount recovered by Everlasting Oasis.",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Desert Wind",
+            "soulAcquire": 0,
+            "description": "Attacks the enemy with wind, with a 25% chance to stun for 1 turn.",
+            "enhancement": [
+                {
+                    "description": "",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 64000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 6
+                        },
+                        {
+                            "item": "mercenarys-medicine",
+                            "qty": 8
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [
+                "stic_stun"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1.2,
+                    "soulburn": 1.2
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1.2 * hero_atk)) * 1 * 1.871",
+                "simplified": "((2.2452 * hero_atk))",
+                "soulburn": "((1.2 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((2.2452 * hero_atk))"
+            }
+        },
+        {
+            "isPassive": true,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Everlasting Oasis",
+            "soulAcquire": 0,
+            "description": "Heals all allies after using Desert Wind. Amount recovered increases proportional to the targets' max Health and the caster's Attack.",
+            "enhancement": [
+                {
+                    "description": "",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 64000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 6
+                        },
+                        {
+                            "item": "mercenarys-medicine",
+                            "qty": 8
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Bastet Roar",
+            "soulAcquire": 0,
+            "description": "Bastet roars, dispelling all debuffs and granting immunity for 3 turns to all allies, before increasing their Combat Readiness by 20%.",
+            "enhancement": [
+                {
+                    "description": "",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 64000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 6
+                        },
+                        {
+                            "item": "mercenarys-medicine",
+                            "qty": 8
+                        }
+                    ]
+                }
+            ],
+            "buffs": [
+                "stic_debuf_impossible"
+            ],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0,
+                    "soulburn": 0
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
+        }
+    ],
+    "specialtySkill": {
+        "name": "",
+        "description": "",
+        "dispatch": [],
+        "enhancement": [],
+        "stats": {
+            "command": 0,
+            "charm": 0,
+            "politics": 0
+        }
+    },
+    "camping": {
+        "options": [
+            "",
+            ""
+        ],
+        "reactions": {
+            "advice": 0,
+            "belief": 0,
+            "bizarre-story": 0,
+            "comforting-cheer": 0,
+            "complain": 0,
+            "criticism": 0,
+            "cute-cheer": 0,
+            "dream": 0,
+            "food-story": 0,
+            "gossip": 0,
+            "happy-memory": 0,
+            "heroic-cheer": 0,
+            "heroic-tale": 0,
+            "horror-story": 0,
+            "interesting-story": 0,
+            "joyful-memory": 0,
+            "myth": 0,
+            "occult": 0,
+            "reality-check": 0,
+            "sad-memory": 0,
+            "self-indulgent": 0,
+            "unique-comment": 0
+        }
+    },
+    "memoryImprintFormation": {
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": false
+    },
+    "memoryImprintAttribute": "",
+    "memoryImprint": [
+        {
+            "rank": "d",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "c",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "b",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        }
+    ],
+    "awakening": [
+        {
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "spd": 2
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "flame-rune",
+                    "qty": 10
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "flame-rune",
+                    "qty": 15
+                },
+                {
+                    "item": "greater-flame-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "flame-rune",
+                    "qty": 20
+                },
+                {
+                    "item": "greater-flame-rune",
+                    "qty": 10
+                }
+            ]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-flame-rune",
+                    "qty": 10
+                },
+                {
+                    "item": "epic-flame-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "spd": 4
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-flame-rune",
+                    "qty": 6
+                },
+                {
+                    "item": "cold-look",
+                    "qty": 15
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-flame-rune",
+                    "qty": 10
+                },
+                {
+                    "item": "mercenarys-medicine",
+                    "qty": 10
+                }
+            ]
+        }
+    ],
+    "summonQuote": "",
+    "description": ""
+}
