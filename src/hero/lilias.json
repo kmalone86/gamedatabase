@@ -320,7 +320,7 @@
             "cooldown": 5,
             "name": "Ready, Load, Fire!",
             "soulAcquire": 3,
-            "description": "Dispels all debuffs from all allies and commands the Perland Army to fire on all enemies, decreasing Combat Readiness by 25% and inflicting damage according to the Attack of the 'Hero with the highest Attack. Increases the caster's Combat Readiness by 50%.",
+            "description": "Dispels all debuffs from all allies and commands the Perland Army to fire on all enemies, decreasing Combat Readiness by 25% and inflicting damage according to the Attack of the Hero with the highest Attack. Increases the caster's Combat Readiness by 50%.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
