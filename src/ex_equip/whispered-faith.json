@@ -9,11 +9,11 @@
     },
     "enhancements": [
         {
-            "slot": 1,
+            "slot": 2,
             "description": "Spirit Protection's barrier cover all allies."
         },
         {
-            "slot": 2,
+            "slot": 3,
             "description": "Stuns the enemy for 1 turn when using Wave of Force."
         },
         {

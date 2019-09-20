@@ -13,11 +13,11 @@
             "description": "35% chance to extend the caster's buff durations by 1 turn when using Double Slash."
         },
         {
-            "slot": 2,
+            "slot": 1,
             "description": "Damage dealt is increased by 30% when using Double Slash."
         },
         {
-            "slot": 3,
+            "slot": 2,
             "description": "Increases chance of inflicting silence with Dragon's Roar by 15%."
         }
     ]

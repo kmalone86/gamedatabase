@@ -9,11 +9,11 @@
     },
     "enhancements": [
         {
-            "slot": 1,
+            "slot": 2,
             "description": "Grats the caster an extra attack regardless of whether the enemy is debuffed when using Automatic Fire."
         },
         {
-            "slot": 2,
+            "slot": 3,
             "description": "Dispels one buff from the enemy when using Shock Arrow. (This effect is applied before inflicting silence.)"
         },
         {
