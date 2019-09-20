@@ -5,7 +5,7 @@
     "stat": {
         "type": "efr",
         "min": 0.08,
-        "max": 0.16,
+        "max": 0.16
     },
     "enhancements": [
         {
