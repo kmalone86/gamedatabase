@@ -7,9 +7,7 @@
     "zodiac": "sagittarius",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": [
-        ""
-    ],
+    "background": "Prodigal son and heir of a once-famous merchant guild in Ki Ruburan, he changed greatly after going on an adventure with two of his friends. Upon his return, he took over control of his family's guild, which had since fallen to betrayals and misfortunes, and brought its fortune to new heights under its new name: the Basar Merchant Guild.",
     "relations": [],
     "stats": {
         "lv1BaseStarNoAwaken": {
@@ -82,15 +80,75 @@
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Desert Wind",
-            "soulAcquire": 0,
+            "soulAcquire": 1,
             "description": "Attacks the enemy with wind, with a 25% chance to stun for 1 turn.",
             "enhancement": [
                 {
-                    "description": "",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 64000
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 33000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 5
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 47000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 7
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 84000
                         },
                         {
                             "item": "molagora",
@@ -98,7 +156,7 @@
                         },
                         {
                             "item": "mercenarys-medicine",
-                            "qty": 8
+                            "qty": 2
                         }
                     ]
                 }
@@ -139,11 +197,71 @@
             "description": "Heals all allies after using Desert Wind. Amount recovered increases proportional to the targets' max Health and the caster's Attack.",
             "enhancement": [
                 {
-                    "description": "",
+                    "description": "+2% healing",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 64000
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+3% healing",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% healing",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 33000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 5
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% healing",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 47000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 7
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% healing",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 84000
                         },
                         {
                             "item": "molagora",
@@ -151,7 +269,7 @@
                         },
                         {
                             "item": "mercenarys-medicine",
-                            "qty": 8
+                            "qty": 2
                         }
                     ]
                 }
@@ -184,17 +302,77 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 0,
+            "cooldown": 6,
             "name": "Bastet Roar",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Bastet roars, dispelling all debuffs and granting immunity for 3 turns to all allies, before increasing their Combat Readiness by 20%.",
             "enhancement": [
                 {
-                    "description": "",
+                    "description": "+2% Combat Readiness",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 64000
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+2% Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        }
+                    ]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 33000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 5
+                        }
+                    ]
+                },
+                {
+                    "description": "+3% Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 47000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 7
+                        }
+                    ]
+                },
+                {
+                    "description": "+3% Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 84000
                         },
                         {
                             "item": "molagora",
@@ -202,7 +380,7 @@
                         },
                         {
                             "item": "mercenarys-medicine",
-                            "qty": 8
+                            "qty": 2
                         }
                     ]
                 }
@@ -233,10 +411,10 @@
         }
     ],
     "specialtySkill": {
-        "name": "",
-        "description": "",
-        "dispatch": [],
-        "enhancement": [],
+        "name": "Ingenuity",
+        "description": "He has an instinct for only making the decisions that will benefit him most.",
+        "dispatch": "All Missions",
+        "enhancement": "Gold Bonus +6%",
         "stats": {
             "command": 0,
             "charm": 0,
@@ -245,89 +423,89 @@
     },
     "camping": {
         "options": [
-            "",
-            ""
+            "complain",
+            "self-indulgent"
         ],
         "reactions": {
-            "advice": 0,
-            "belief": 0,
-            "bizarre-story": 0,
-            "comforting-cheer": 0,
+            "advice": 4,
+            "belief": 1,
+            "bizarre-story": -5,
+            "comforting-cheer": 8,
             "complain": 0,
-            "criticism": 0,
-            "cute-cheer": 0,
-            "dream": 0,
-            "food-story": 0,
-            "gossip": 0,
-            "happy-memory": 0,
+            "criticism": 5,
+            "cute-cheer": 7,
+            "dream": 2,
+            "food-story": 2,
+            "gossip": 2,
+            "happy-memory": 2,
             "heroic-cheer": 0,
-            "heroic-tale": 0,
-            "horror-story": 0,
-            "interesting-story": 0,
-            "joyful-memory": 0,
-            "myth": 0,
-            "occult": 0,
+            "heroic-tale": 2,
+            "horror-story": -5,
+            "interesting-story": 4,
+            "joyful-memory": 3,
+            "myth": -1,
+            "occult": -1,
             "reality-check": 0,
-            "sad-memory": 0,
-            "self-indulgent": 0,
-            "unique-comment": 0
+            "sad-memory": 3,
+            "self-indulgent": -2,
+            "unique-comment": 3
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
-    "memoryImprintAttribute": "",
+    "memoryImprintAttribute": "hp%",
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
+                "type": "hp",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
+                "type": "hp",
                 "increase": 0
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.024
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.036
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.048
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.06
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "hp",
+                "increase": 0.072
             }
         }
     ],

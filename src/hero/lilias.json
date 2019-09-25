@@ -1,6 +1,7 @@
 {
     "gameId": "c1089",
     "name": "Lilias",
+    "surname": "Perlutia",
     "rarity": 5,
     "classType": "knight",
     "element": "fire",
@@ -422,21 +423,26 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0,
-                    "soulburn": 0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
                     "value": 0,
                     "soulburn": 0
+                },
+                {
+                    "name": "ally_atk_rate",
+                    "value": 0.9,
+                    "soulburn": 0.9
                 }
             ],
             "simpleDmgMod": {
-                "description": "",
-                "value": "",
-                "simplified": "",
-                "soulburn": "",
-                "simplifiedSoulburn": ""
+                "description": "((ally_atk_rate * ally_atk)) * pow! * constant",
+                "value": "((0.9 * ally_atk)) * 1 * 1.871",
+                "simplified": "((1.684 * ally_atk))",
+                "soulburn": "((0.9 * ally_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.684 * ally_atk))"
             }
         }
     ],
@@ -684,6 +690,6 @@
             ]
         }
     ],
-    "summonQuote": "",
-    "description": ""
+    "summonQuote": "I'm Lilias, of the Perlutia family. I'm sure you've heard of us.",
+    "description": "Ambitious Citylord of Perland"
 }
