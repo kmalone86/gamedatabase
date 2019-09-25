@@ -4,7 +4,7 @@
     "description": "A ribbon with special powers that allow the wearer to harness their innate dragon powers.",
     "stat": {
         "type": "eff",
-        "min": 0.8,
+        "min": 0.08,
         "max": 0.16
     },
     "enhancements": [
