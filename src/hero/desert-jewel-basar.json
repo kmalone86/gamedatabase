@@ -82,15 +82,75 @@
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Desert Wind",
-            "soulAcquire": 0,
+            "soulAcquire": 1,
             "description": "Attacks the enemy with wind, with a 25% chance to stun for 1 turn.",
             "enhancement": [
                 {
-                    "description": "",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 64000
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 33000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 5
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 47000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 7
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 84000
                         },
                         {
                             "item": "molagora",
@@ -98,7 +158,7 @@
                         },
                         {
                             "item": "mercenarys-medicine",
-                            "qty": 8
+                            "qty": 2
                         }
                     ]
                 }
@@ -139,11 +199,71 @@
             "description": "Heals all allies after using Desert Wind. Amount recovered increases proportional to the targets' max Health and the caster's Attack.",
             "enhancement": [
                 {
-                    "description": "",
+                    "description": "+2% healing",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 64000
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+3% healing",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% healing",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 33000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 5
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% healing",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 47000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 7
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% healing",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 84000
                         },
                         {
                             "item": "molagora",
@@ -151,7 +271,7 @@
                         },
                         {
                             "item": "mercenarys-medicine",
-                            "qty": 8
+                            "qty": 2
                         }
                     ]
                 }
@@ -184,17 +304,77 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 0,
+            "cooldown": 6,
             "name": "Bastet Roar",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Bastet roars, dispelling all debuffs and granting immunity for 3 turns to all allies, before increasing their Combat Readiness by 20%.",
             "enhancement": [
                 {
-                    "description": "",
+                    "description": "+2% Combat Readiness",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 64000
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+2% Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 8000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        }
+                    ]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 33000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 5
+                        }
+                    ]
+                },
+                {
+                    "description": "+3% Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 47000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "archers-vision",
+                            "qty": 7
+                        }
+                    ]
+                },
+                {
+                    "description": "+3% Combat Readiness",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 84000
                         },
                         {
                             "item": "molagora",
@@ -202,7 +382,7 @@
                         },
                         {
                             "item": "mercenarys-medicine",
-                            "qty": 8
+                            "qty": 2
                         }
                     ]
                 }
@@ -233,10 +413,10 @@
         }
     ],
     "specialtySkill": {
-        "name": "",
-        "description": "",
-        "dispatch": [],
-        "enhancement": [],
+        "name": "Ingenuity",
+        "description": "He has an instinct for only making the decisions that will benefit him most.",
+        "dispatch": "All Missions",
+        "enhancement": "Gold Bonus +6%",
         "stats": {
             "command": 0,
             "charm": 0,
