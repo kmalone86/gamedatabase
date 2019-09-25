@@ -4,7 +4,7 @@
     "description": "A mystical whistle that enables the user to freely exchange feelings with small creatures.",
     "stat": {
         "type": "atk",
-        "min": 0.7,
+        "min": 0.07,
         "max": 0.14
     },
     "enhancements": [
