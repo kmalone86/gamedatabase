@@ -106,7 +106,7 @@
                     ]
                 },
                 {
-                    "description": "+5 damage dealt",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
