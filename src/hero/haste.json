@@ -192,9 +192,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "value": "((1 * hero_atk)) * 1 * 1.871",
                 "simplified": "((1.871 * hero_atk))",
-                "soulburn": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
                 "simplifiedSoulburn": "((1.871 * hero_atk))"
             }
         },
@@ -306,9 +306,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.5 * hero_atk)) * 1.0 * 1.871",
+                "value": "((1.5 * hero_atk)) * 1 * 1.871",
                 "simplified": "((2.8065 * hero_atk))",
-                "soulburn": "((2.0 * hero_atk)) * 1.0 * 1.871",
+                "soulburn": "((2 * hero_atk)) * 1 * 1.871",
                 "simplifiedSoulburn": "((3.742 * hero_atk))"
             }
         },
@@ -417,13 +417,15 @@
                     "soulburn": 1
                 },
                 {
-                    "name": "skill_dmg_list",
+                    "name": "targets_rate",
                     "value": [
+                        0,
                         2.5,
                         2,
                         0
                     ],
                     "soulburn": [
+                        0,
                         2.5,
                         2,
                         0
@@ -431,11 +433,11 @@
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * (1 + ((skill_dmg_list))) * pow! * constant",
-                "value": "((1.0 * hero_atk)) * (1 + (([2.5, 2.0, 0.0]))) * 1.0 * 1.871",
-                "simplified": "((1.871 * hero_atk)) * (1 + (([2.5, 2.0, 0.0])))",
-                "soulburn": "((1.0 * hero_atk)) * (1 + (([2.5, 2.0, 0.0]))) * 1.0 * 1.871",
-                "simplifiedSoulburn": "((1.871 * hero_atk)) * (1 + (([2.5, 2.0, 0.0])))"
+                "description": "((atk_rate * hero_atk)) * (1 + (targets_rate)) * pow! * constant",
+                "value": "((1 * hero_atk)) * (1 + ((targets_rate[0, 2.5, 2, 0]))) * 1 * 1.871",
+                "simplified": "((1.871 * hero_atk)) * (1 + ((targets_rate[0, 2.5, 2, 0])))",
+                "soulburn": "((1 * hero_atk)) * (1 + ((targets_rate[0, 2.5, 2, 0]))) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk)) * (1 + ((targets_rate[0, 2.5, 2, 0])))"
             }
         }
     ],

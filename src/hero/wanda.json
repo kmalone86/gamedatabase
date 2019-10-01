@@ -211,18 +211,18 @@
                     "soulburn": 0.9
                 },
                 {
-                    "name": "skill_dmg_rate",
-                    "description": "Increased damage if enemy is targetted.",
+                    "name": "target_debuff_rate",
+                    "description": "Increased damage if enemy is targetted. Max once.",
                     "value": 0.35,
                     "soulburn": 0.35
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * (1 + ((skill_dmg_rate * hero_special_count))) * pow! * constant",
-                "value": "((0.9 * hero_atk)) * (1 + ((0.35 * hero_special_count))) * 0.95 * 1.871",
-                "simplified": "((1.5997 * hero_atk)) * (1 + ((0.35 * hero_special_count)))",
-                "soulburn": "((0.9 * hero_atk)) * (1 + ((0.35 * hero_special_count))) * 0.95 * 1.871",
-                "simplifiedSoulburn": "((1.5997 * hero_atk)) * (1 + ((0.35 * hero_special_count)))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((target_debuff_rate * target_debuffs))) * pow! * constant",
+                "value": "((0.9 * hero_atk)) * (1 + ((0.35 * target_debuffs))) * 0.95 * 1.871",
+                "simplified": "((1.5997 * hero_atk)) * (1 + ((0.35 * target_debuffs)))",
+                "soulburn": "((0.9 * hero_atk)) * (1 + ((0.35 * target_debuffs))) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((1.5997 * hero_atk)) * (1 + ((0.35 * target_debuffs)))"
             }
         },
         {

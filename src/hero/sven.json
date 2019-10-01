@@ -177,9 +177,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.0 * hero_atk)) * 0.95 * 1.871",
+                "value": "((1 * hero_atk)) * 0.95 * 1.871",
                 "simplified": "((1.7774 * hero_atk))",
-                "soulburn": "((1.0 * hero_atk)) * 0.95 * 1.871",
+                "soulburn": "((1 * hero_atk)) * 0.95 * 1.871",
                 "simplifiedSoulburn": "((1.7774 * hero_atk))"
             }
         },
@@ -426,7 +426,7 @@
                 "description": "((atk_rate * hero_atk)) * (1 + ((self_hp_missing_rate * hero_hp_lost_percent))) * pow! * constant",
                 "value": "((0.8 * hero_atk)) * (1 + ((0.5 * hero_hp_lost_percent))) * 0.8 * 1.871",
                 "simplified": "((1.1974 * hero_atk)) * (1 + ((0.5 * hero_hp_lost_percent)))",
-                "soulburn": "((0.8 * hero_atk)) * (1 + ((0.5 * hero_hp_lost_percent))) * 0.8 * 1.871",
+                "soulburn": "((0.8 * hero_atk)) * (1 + ((0.65 * hero_hp_lost_percent))) * 0.8 * 1.871",
                 "simplifiedSoulburn": "((1.1974 * hero_atk)) * (1 + ((0.65 * hero_hp_lost_percent)))"
             }
         }
