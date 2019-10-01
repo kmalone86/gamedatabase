@@ -1,6 +1,7 @@
 {
     "gameId": "c2022",
     "name": "Destina",
+    "surname": "",
     "rarity": 5,
     "classType": "soul-weaver",
     "element": "earth",

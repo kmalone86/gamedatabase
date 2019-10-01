@@ -1,6 +1,7 @@
 {
     "gameId": "c1021",
     "name": "Dingo",
+    "surname": "",
     "rarity": 4,
     "classType": "warrior",
     "element": "fire",

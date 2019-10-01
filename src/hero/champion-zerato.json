@@ -1,6 +1,7 @@
 {
     "gameId": "c2010",
     "name": "Champion Zerato",
+    "surname": "",
     "rarity": 4,
     "classType": "mage",
     "element": "dark",

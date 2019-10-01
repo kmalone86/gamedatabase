@@ -1,6 +1,7 @@
 {
     "gameId": "c1029",
     "name": "Leo",
+    "surname": "",
     "rarity": 4,
     "classType": "ranger",
     "element": "earth",

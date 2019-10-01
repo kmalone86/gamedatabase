@@ -1,6 +1,7 @@
 {
     "gameId": "c3064",
     "name": "Celeste",
+    "surname": "",
     "rarity": 3,
     "classType": "ranger",
     "element": "light",

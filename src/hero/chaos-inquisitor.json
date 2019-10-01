@@ -1,6 +1,7 @@
 {
     "gameId": "c4001",
     "name": "Chaos Inquisitor",
+    "surname": "",
     "rarity": 3,
     "classType": "knight",
     "element": "fire",

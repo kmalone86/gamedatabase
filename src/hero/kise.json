@@ -1,6 +1,7 @@
 {
     "gameId": "c1006",
     "name": "Kise",
+    "surname": "",
     "rarity": 5,
     "classType": "thief",
     "element": "ice",

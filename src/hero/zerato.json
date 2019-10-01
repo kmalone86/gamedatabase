@@ -1,6 +1,7 @@
 {
     "gameId": "c1010",
     "name": "Zerato",
+    "surname": "",
     "rarity": 4,
     "classType": "mage",
     "element": "ice",

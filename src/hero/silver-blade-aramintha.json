@@ -1,6 +1,7 @@
 {
     "gameId": "c2048",
     "name": "Silver Blade Aramintha",
+    "surname": "",
     "rarity": 5,
     "classType": "mage",
     "element": "light",

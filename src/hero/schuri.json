@@ -1,6 +1,7 @@
 {
     "gameId": "c1020",
     "name": "Schuri",
+    "surname": "",
     "rarity": 4,
     "classType": "ranger",
     "element": "fire",

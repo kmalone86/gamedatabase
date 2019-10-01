@@ -1,6 +1,7 @@
 {
     "gameId": "c3015",
     "name": "Sven",
+    "surname": "",
     "rarity": 3,
     "classType": "thief",
     "element": "dark",

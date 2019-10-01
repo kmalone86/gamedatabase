@@ -1,6 +1,7 @@
 {
     "gameId": "c3004",
     "name": "Arowell",
+    "surname": "",
     "rarity": 3,
     "classType": "knight",
     "element": "light",

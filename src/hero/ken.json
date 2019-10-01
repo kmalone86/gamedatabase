@@ -1,6 +1,7 @@
 {
     "gameId": "c1047",
     "name": "Ken",
+    "surname": "",
     "rarity": 5,
     "classType": "warrior",
     "element": "fire",
