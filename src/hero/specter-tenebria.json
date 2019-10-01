@@ -437,11 +437,11 @@
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * (1 + ((target_debuff_rate * target_num_debuffs))) * pow! * constant",
-                "value": "((1.8 * hero_atk)) * (1 + ((0.2 * target_num_debuffs))) * 0.95 * 1.871",
-                "simplified": "((3.1994 * hero_atk)) * (1 + ((0.2 * target_num_debuffs)))",
-                "soulburn": "((1.8 * hero_atk)) * (1 + ((0.2 * target_num_debuffs))) * 0.95 * 1.871",
-                "simplifiedSoulburn": "((3.1994 * hero_atk)) * (1 + ((0.2 * target_num_debuffs)))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((target_debuff_rate * target_debuffs))) * pow! * constant",
+                "value": "((1.8 * hero_atk)) * (1 + ((0.2 * target_debuffs))) * 0.95 * 1.871",
+                "simplified": "((3.1994 * hero_atk)) * (1 + ((0.2 * target_debuffs)))",
+                "soulburn": "((1.8 * hero_atk)) * (1 + ((0.2 * target_debuffs))) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((3.1994 * hero_atk)) * (1 + ((0.2 * target_debuffs)))"
             }
         }
     ],

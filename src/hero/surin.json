@@ -411,30 +411,30 @@
                     "soulburn": 1.8
                 },
                 {
-                    "name": "skill_dmg_list",
+                    "name": "target_debuff_rate",
                     "description": "Damage increased per bleed.",
+                    "value": 0.15,
+                    "soulburn": 0.15
+                },
+                {
+                    "name": "target_debuff_rate",
+                    "description": "Bonus damage increased on first bleed.",
                     "value": [
-                        0.4,
-                        0.55,
-                        0.7,
-                        0.85,
-                        1
+                        0,
+                        0.25
                     ],
                     "soulburn": [
-                        0.4,
-                        0.55,
-                        0.7,
-                        0.85,
-                        1
+                        0,
+                        0.25
                     ]
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * (1 + (skill_dmg_list)) * pow! * constant",
-                "value": "((1.8 * hero_atk)) * (1 + (skill_dmg_list[0.4, 0.55, 0.7, 0.85, 1])) * 0.8 * 1.871",
-                "simplified": "((2.6942 * hero_atk)) * (1 + (skill_dmg_list[0.4, 0.55, 0.7, 0.85, 1]))",
-                "soulburn": "((1.8 * hero_atk)) * (1 + (skill_dmg_list[0.4, 0.55, 0.7, 0.85, 1])) * 0.8 * 1.871",
-                "simplifiedSoulburn": "((2.6942 * hero_atk)) * (1 + (skill_dmg_list[0.4, 0.55, 0.7, 0.85, 1]))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((target_debuff_rate * target_debuffs) + target_debuff_rate)) * pow! * constant",
+                "value": "((1.8 * hero_atk)) * (1 + ((0.15 * target_debuffs) + (target_debuff_rate[0, 0.25]))) * 0.8 * 1.871",
+                "simplified": "((2.6942 * hero_atk)) * (1 + ((0.15 * target_debuffs) + (target_debuff_rate[0, 0.25])))",
+                "soulburn": "((1.8 * hero_atk)) * (1 + ((0.15 * target_debuffs) + (target_debuff_rate[0, 0.25]))) * 0.8 * 1.871",
+                "simplifiedSoulburn": "((2.6942 * hero_atk)) * (1 + ((0.15 * target_debuffs) + (target_debuff_rate[0, 0.25])))"
             }
         }
     ],

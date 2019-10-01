@@ -312,18 +312,28 @@
                     "soulburn": 0.8
                 },
                 {
-                    "name": "skill_dmg_rate",
+                    "name": "targets_rate",
                     "description": "Increased damage per target beyond 1.",
-                    "value": 0.1,
-                    "soulburn": 0.1
+                    "value": [
+                        0,
+                        0.1,
+                        0.2,
+                        0.3
+                    ],
+                    "soulburn": [
+                        0,
+                        0.1,
+                        0.2,
+                        0.3
+                    ]
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * (1 + ((skill_dmg_rate * hero_special_count))) * pow! * constant",
-                "value": "((0.8 * hero_atk)) * (1 + ((0.1 * hero_special_count))) * 0.95 * 1.871",
-                "simplified": "((1.422 * hero_atk)) * (1 + ((0.1 * hero_special_count)))",
-                "soulburn": "((0.8 * hero_atk)) * (1 + ((0.1 * hero_special_count))) * 0.95 * 1.871",
-                "simplifiedSoulburn": "((1.422 * hero_atk)) * (1 + ((0.1 * hero_special_count)))"
+                "description": "((atk_rate * hero_atk)) * (1 + (targets_rate)) * pow! * constant",
+                "value": "((0.8 * hero_atk)) * (1 + ((targets_rate[0, 0.1, 0.2, 0.3]))) * 0.95 * 1.871",
+                "simplified": "((1.422 * hero_atk)) * (1 + ((targets_rate[0, 0.1, 0.2, 0.3])))",
+                "soulburn": "((0.8 * hero_atk)) * (1 + ((targets_rate[0, 0.1, 0.2, 0.3]))) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((1.422 * hero_atk)) * (1 + ((targets_rate[0, 0.1, 0.2, 0.3])))"
             }
         },
         {
