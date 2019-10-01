@@ -229,12 +229,14 @@
                     "name": "targets_rate",
                     "description": "Increased damage based number of targets.",
                     "value": [
+                        0,
                         1.6,
                         1.4,
                         0,
                         0
                     ],
                     "soulburn": [
+                        0,
                         1.6,
                         1.4,
                         0,
@@ -244,10 +246,10 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * (1 + ((spd_rate * hero_spd) + targets_rate)) * pow! * constant",
-                "value": "((0.6 * hero_atk)) * (1 + ((0.00075 * hero_spd) + (targets_rate[1.6, 1.4, 0, 0]))) * 0.8 * 1.871",
-                "simplified": "((0.8981 * hero_atk)) * (1 + ((0.00075 * hero_spd) + (targets_rate[1.6, 1.4, 0, 0])))",
-                "soulburn": "((0.85 * hero_atk)) * (1 + ((0.00075 * hero_spd) + (targets_rate[1.6, 1.4, 0, 0]))) * 0.8 * 1.871",
-                "simplifiedSoulburn": "((1.2723 * hero_atk)) * (1 + ((0.00075 * hero_spd) + (targets_rate[1.6, 1.4, 0, 0])))"
+                "value": "((0.6 * hero_atk)) * (1 + ((0.00075 * hero_spd) + (targets_rate[0, 1.6, 1.4, 0, 0]))) * 0.8 * 1.871",
+                "simplified": "((0.8981 * hero_atk)) * (1 + ((0.00075 * hero_spd) + (targets_rate[0, 1.6, 1.4, 0, 0])))",
+                "soulburn": "((0.85 * hero_atk)) * (1 + ((0.00075 * hero_spd) + (targets_rate[0, 1.6, 1.4, 0, 0]))) * 0.8 * 1.871",
+                "simplifiedSoulburn": "((1.2723 * hero_atk)) * (1 + ((0.00075 * hero_spd) + (targets_rate[0, 1.6, 1.4, 0, 0])))"
             }
         },
         {
