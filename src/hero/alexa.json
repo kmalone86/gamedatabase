@@ -428,18 +428,18 @@
                     "soulburn": 1.5
                 },
                 {
-                    "name": "skill_dmg_rate",
+                    "name": "target_debuff_rate",
                     "description": "Increased damage per target debuff.",
                     "value": 0.15,
                     "soulburn": 0.15
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * (1 + ((skill_dmg_rate * hero_special_count))) * pow! * constant",
-                "value": "((1.5 * hero_atk)) * (1 + ((0.15 * hero_special_count))) * 0.9 * 1.871",
-                "simplified": "((2.5259 * hero_atk)) * (1 + ((0.15 * hero_special_count)))",
-                "soulburn": "((1.5 * hero_atk)) * (1 + ((0.15 * hero_special_count))) * 0.9 * 1.871",
-                "simplifiedSoulburn": "((2.5259 * hero_atk)) * (1 + ((0.15 * hero_special_count)))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((target_debuff_rate * target_num_debuffs))) * pow! * constant",
+                "value": "((1.5 * hero_atk)) * (1 + ((0.15 * target_num_debuffs))) * 0.9 * 1.871",
+                "simplified": "((2.5259 * hero_atk)) * (1 + ((0.15 * target_num_debuffs)))",
+                "soulburn": "((1.5 * hero_atk)) * (1 + ((0.15 * target_num_debuffs))) * 0.9 * 1.871",
+                "simplifiedSoulburn": "((2.5259 * hero_atk)) * (1 + ((0.15 * target_num_debuffs)))"
             }
         }
     ],
