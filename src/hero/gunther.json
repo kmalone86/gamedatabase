@@ -1,6 +1,7 @@
 {
     "gameId": "c3024",
     "name": "Gunther",
+    "surname": "",
     "rarity": 3,
     "classType": "warrior",
     "element": "light",

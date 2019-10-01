@@ -1,6 +1,7 @@
 {
     "gameId": "c2004",
     "name": "Wanderer Silk",
+    "surname": "",
     "rarity": 4,
     "classType": "ranger",
     "element": "light",

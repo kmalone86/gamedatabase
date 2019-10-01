@@ -1,6 +1,7 @@
 {
     "gameId": "c1030",
     "name": "Yuna",
+    "surname": "Woo",
     "rarity": 5,
     "classType": "ranger",
     "element": "ice",

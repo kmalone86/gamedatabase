@@ -1,6 +1,7 @@
 {
     "gameId": "c3002",
     "name": "Taranor Royal Guard",
+    "surname": "",
     "rarity": 3,
     "classType": "knight",
     "element": "ice",

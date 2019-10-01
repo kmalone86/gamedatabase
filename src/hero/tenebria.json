@@ -1,6 +1,7 @@
 {
     "gameId": "c1050",
     "name": "Tenebria",
+    "surname": "",
     "rarity": 5,
     "classType": "mage",
     "element": "fire",

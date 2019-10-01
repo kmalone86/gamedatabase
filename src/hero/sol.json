@@ -1,6 +1,7 @@
 {
     "gameId": "c1092",
     "name": "Sol",
+    "surname": "",
     "rarity": 5,
     "classType": "warrior",
     "element": "fire",

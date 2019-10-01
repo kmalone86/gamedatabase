@@ -1,6 +1,7 @@
 {
     "gameId": "c1008",
     "name": "Armin",
+    "surname": "",
     "rarity": 4,
     "classType": "knight",
     "element": "earth",

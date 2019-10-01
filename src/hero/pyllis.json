@@ -1,6 +1,7 @@
 {
     "gameId": "c3005",
     "name": "Pyllis",
+    "surname": "",
     "rarity": 3,
     "classType": "knight",
     "element": "dark",

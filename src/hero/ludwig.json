@@ -1,6 +1,7 @@
 {
     "gameId": "c1069",
     "name": "Ludwig",
+    "surname": "",
     "rarity": 5,
     "classType": "mage",
     "element": "earth",

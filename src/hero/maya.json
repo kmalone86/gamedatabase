@@ -1,6 +1,7 @@
 {
     "gameId": "c1032",
     "name": "Maya",
+    "surname": "",
     "rarity": 4,
     "classType": "knight",
     "element": "fire",

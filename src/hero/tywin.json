@@ -1,6 +1,7 @@
 {
     "gameId": "c1042",
     "name": "Tywin",
+    "surname": "Herad",
     "rarity": 5,
     "classType": "knight",
     "element": "ice",
