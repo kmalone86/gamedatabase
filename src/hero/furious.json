@@ -216,21 +216,23 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1,
                     "soulburn": 1
                 },
                 {
-                    "name": "statModifier",
+                    "name": "atk_rate",
                     "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
                     "value": 1,
                     "soulburn": 1
                 }
-            ]
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1 * hero_atk)) * 1 * 1.871",
+                "simplified": "((1.871 * hero_atk))",
+                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk))"
+            }
         },
         {
             "isPassive": false,
@@ -268,21 +270,23 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 0,
                     "soulburn": 0
                 },
                 {
-                    "name": "statModifier",
+                    "name": "atk_rate",
                     "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
                     "value": 0,
                     "soulburn": 0
                 }
-            ]
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
         },
         {
             "isPassive": false,
@@ -410,21 +414,23 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "section": "pow",
                     "value": 1,
                     "soulburn": 1
                 },
                 {
-                    "name": "statModifier",
+                    "name": "atk_rate",
                     "description": "",
-                    "section": "additive",
-                    "stat": "atk",
-                    "type": "multiplier",
-                    "target": "self",
                     "value": 1.65,
                     "soulburn": 1.95
                 }
-            ]
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1.65 * hero_atk)) * 1 * 1.871",
+                "simplified": "((3.0871 * hero_atk))",
+                "soulburn": "((1.95 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((3.6484 * hero_atk))"
+            }
         }
     ],
     "specialtySkill": {

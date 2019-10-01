@@ -199,9 +199,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.0 * hero_atk)) * 1.05 * 1.871",
+                "value": "((1 * hero_atk)) * 1.05 * 1.871",
                 "simplified": "((1.9646 * hero_atk))",
-                "soulburn": "((1.0 * hero_atk)) * 1.05 * 1.871",
+                "soulburn": "((1 * hero_atk)) * 1.05 * 1.871",
                 "simplifiedSoulburn": "((1.9646 * hero_atk))"
             }
         },
@@ -302,10 +302,10 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((0.8 * hero_atk)) * 1.0 * 1.871",
-                "simplified": "((1.497 * hero_atk))",
-                "soulburn": "((0.8 * hero_atk)) * 1.0 * 1.871",
-                "simplifiedSoulburn": "((1.497 * hero_atk))"
+                "value": "((0.8 * hero_atk)) * 1 * 1.871",
+                "simplified": "((1.4968 * hero_atk))",
+                "soulburn": "((0.8 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.4968 * hero_atk))"
             }
         },
         {
@@ -446,9 +446,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((0.85 * hero_atk)) * 1.0 * 1.871",
+                "value": "((0.85 * hero_atk)) * 1 * 1.871",
                 "simplified": "((1.5903 * hero_atk))",
-                "soulburn": "((0.85 * hero_atk)) * 1.0 * 1.871",
+                "soulburn": "((0.85 * hero_atk)) * 1 * 1.871",
                 "simplifiedSoulburn": "((1.5903 * hero_atk))"
             }
         }

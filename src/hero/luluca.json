@@ -209,11 +209,11 @@
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * (1 + ((skill_dmg_rate * hero_special_count) * (target_hp_missing_rate * target_hp_lost_percent))) * pow! * constant",
-                "value": "((1.0 * hero_atk)) * (1 + ((0.2 * hero_special_count) * (0.2 * target_hp_lost_percent))) * 1.0 * 1.871",
-                "simplified": "((1.871 * hero_atk)) * (1 + ((0.2 * hero_special_count) * (0.2 * target_hp_lost_percent)))",
-                "soulburn": "((1.0 * hero_atk)) * (1 + ((0.2 * hero_special_count) * (0.2 * target_hp_lost_percent))) * 1.0 * 1.871",
-                "simplifiedSoulburn": "((1.871 * hero_atk)) * (1 + ((0.2 * hero_special_count) * (0.2 * target_hp_lost_percent)))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((target_hp_missing_rate * target_hp_lost_percent) + (skill_dmg_rate * hero_special_count))) * pow! * constant",
+                "value": "((1 * hero_atk)) * (1 + ((0.2 * target_hp_lost_percent) + (0.2 * hero_special_count))) * 1 * 1.871",
+                "simplified": "((1.871 * hero_atk)) * (1 + ((0.2 * target_hp_lost_percent) + (0.2 * hero_special_count)))",
+                "soulburn": "((1 * hero_atk)) * (1 + ((0.2 * target_hp_lost_percent) + (0.2 * hero_special_count))) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk)) * (1 + ((0.2 * target_hp_lost_percent) + (0.2 * hero_special_count)))"
             }
         },
         {
@@ -328,11 +328,11 @@
                 }
             ],
             "simpleDmgMod": {
-                "description": "",
-                "value": "",
-                "simplified": "",
-                "soulburn": "",
-                "simplifiedSoulburn": ""
+                "description": "(1 + ((skill_dmg_rate * hero_special_count))) * constant",
+                "value": "(1 + ((0.2 * hero_special_count))) * 1.871",
+                "simplified": "(1 + ((0.2 * hero_special_count)))",
+                "soulburn": "(1 + ((0.2 * hero_special_count))) * 1.871",
+                "simplifiedSoulburn": "(1 + ((0.2 * hero_special_count)))"
             }
         },
         {

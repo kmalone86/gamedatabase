@@ -205,9 +205,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "value": "((1 * hero_atk)) * 1 * 1.871",
                 "simplified": "((1.871 * hero_atk))",
-                "soulburn": "((1.0 * hero_atk)) * 1.0 * 1.871",
+                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
                 "simplifiedSoulburn": "((1.871 * hero_atk))"
             }
         },
@@ -292,9 +292,9 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((0.6 * hero_atk)) * 1.0 * 1.871",
+                "value": "((0.6 * hero_atk)) * 1 * 1.871",
                 "simplified": "((1.1226 * hero_atk))",
-                "soulburn": "((0.6 * hero_atk)) * 1.0 * 1.871",
+                "soulburn": "((0.6 * hero_atk)) * 1 * 1.871",
                 "simplifiedSoulburn": "((1.1226 * hero_atk))"
             }
         },
@@ -434,10 +434,10 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk) + (target_hp_rate * target_hp)) * pow! * constant",
-                "value": "((1.5 * hero_atk) + ([0.0, 0.2] * target_hp)) * 0.9 * 1.871",
-                "simplified": "((2.5259 * hero_atk) + ([0.0, 0.3368] * target_hp))",
-                "soulburn": "((2.2 * hero_atk) + ([0.0, 0.2] * target_hp)) * 0.9 * 1.871",
-                "simplifiedSoulburn": "((3.7046 * hero_atk) + ([0.0, 0.3368] * target_hp))"
+                "value": "((1.5 * hero_atk) + (target_hp_rate[0, 0.2] * target_hp)) * 0.9 * 1.871",
+                "simplified": "((2.5259 * hero_atk) + (target_hp_rate[0.0, 0.3368] * target_hp))",
+                "soulburn": "((2.2 * hero_atk) + (target_hp_rate[0, 0.2] * target_hp)) * 0.9 * 1.871",
+                "simplifiedSoulburn": "((3.7046 * hero_atk) + (target_hp_rate[0.0, 0.3368] * target_hp))"
             }
         }
     ],

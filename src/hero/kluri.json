@@ -431,7 +431,7 @@
                 }
             ],
             "simpleDmgMod": {
-                "description": " * pow! * constant",
+                "description": "",
                 "value": "",
                 "simplified": "",
                 "soulburn": "",

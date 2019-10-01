@@ -205,10 +205,10 @@
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "(([0.7, 1, 4, 2.1] * hero_atk)) * 0.95 * 1.871",
-                "simplified": "(([1.2442, 1.7774, 7.1098, 3.7326] * hero_atk))",
-                "soulburn": "(([0.7, 1, 4, 2.1] * hero_atk)) * 0.95 * 1.871",
-                "simplifiedSoulburn": "(([1.2442, 1.7774, 7.1098, 3.7326] * hero_atk))"
+                "value": "((atk_rate[0.7, 1, 4, 2.1] * hero_atk)) * 0.95 * 1.871",
+                "simplified": "((atk_rate[1.2442, 1.7774, 7.1098, 3.7326] * hero_atk))",
+                "soulburn": "((atk_rate[0.7, 1, 4, 2.1] * hero_atk)) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((atk_rate[1.2442, 1.7774, 7.1098, 3.7326] * hero_atk))"
             }
         },
         {

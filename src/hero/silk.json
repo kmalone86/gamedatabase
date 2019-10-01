@@ -248,11 +248,11 @@
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * (1 + ((spd_rate * hero_spd) * (skill_dmg_list))) * pow! * constant",
-                "value": "((0.9 * hero_atk)) * (1 + ((0.00075 * hero_spd) * ([0, 0, 0.03, 0.03, 0.04, 0.05]))) * 0.9 * 1.871",
-                "simplified": "((1.5155 * hero_atk)) * (1 + ((0.00075 * hero_spd) * ([0, 0, 0.03, 0.03, 0.04, 0.05])))",
-                "soulburn": "((0.9 * hero_atk)) * (1 + ((0.00075 * hero_spd) * ([0, 0, 0.03, 0.03, 0.04, 0.05]))) * 0.9 * 1.871",
-                "simplifiedSoulburn": "((1.5155 * hero_atk)) * (1 + ((0.00075 * hero_spd) * ([0, 0, 0.03, 0.03, 0.04, 0.05])))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((spd_rate * hero_spd) + skill_dmg_list)) * pow! * constant",
+                "value": "((0.9 * hero_atk)) * (1 + ((0.00075 * hero_spd) + skill_dmg_list[0, 0, 0.03, 0.03, 0.04, 0.05])) * 0.9 * 1.871",
+                "simplified": "((1.5155 * hero_atk)) * (1 + ((0.00075 * hero_spd) + skill_dmg_list[0, 0, 0.03, 0.03, 0.04, 0.05]))",
+                "soulburn": "((0.9 * hero_atk)) * (1 + ((0.00075 * hero_spd) + skill_dmg_list[0, 0, 0.03, 0.03, 0.04, 0.05])) * 0.9 * 1.871",
+                "simplifiedSoulburn": "((1.5155 * hero_atk)) * (1 + ((0.00075 * hero_spd) + skill_dmg_list[0, 0, 0.03, 0.03, 0.04, 0.05]))"
             }
         },
         {
