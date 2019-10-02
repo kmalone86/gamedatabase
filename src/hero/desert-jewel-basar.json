@@ -1,6 +1,6 @@
 {
     "gameId": "c2053",
-    "name": "Desert Jewel Basar (preview)",
+    "name": "Desert Jewel Basar",
     "surname": "Jide Di Sa Barut",
     "rarity": 5,
     "classType": "soul-weaver",
@@ -9,7 +9,20 @@
     "specialtyChangeName": "",
     "selfSkillBarName": "",
     "background": "Prodigal son and heir of a once-famous merchant guild in Ki Ruburan, he changed greatly after going on an adventure with two of his friends. Upon his return, he took over control of his family's guild, which had since fallen to betrayals and misfortunes, and brought its fortune to new heights under its new name: the Basar Merchant Guild.",
-    "relations": [],
+    "relations": [
+        {
+            "hero": "mirsa",
+            "relationType": "friendly"
+        },
+        {
+            "hero": "gunther",
+            "relationType": "friendly"
+        },
+        {
+            "hero": "nonori",
+            "relationType": "love"
+        }
+    ],
     "stats": {
         "lv1BaseStarNoAwaken": {
             "cp": 1275,
@@ -417,9 +430,9 @@
         "dispatch": "All Missions",
         "enhancement": "Gold Bonus +6%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 81,
+            "charm": 70,
+            "politics": 74
         }
     },
     "camping": {
