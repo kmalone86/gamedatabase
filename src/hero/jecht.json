@@ -102,11 +102,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 2000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 150
                         }
                     ]
                 },
@@ -118,8 +118,8 @@
                             "qty": 14000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 300
                         },
                         {
                             "item": "archers-vision",
@@ -135,8 +135,8 @@
                             "qty": 23000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 550
                         },
                         {
                             "item": "archers-vision",
@@ -149,11 +149,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 32000
+                            "qty": 35000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "stigma",
+                            "qty": 1100
                         },
                         {
                             "item": "archers-vision",
@@ -202,11 +202,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 2000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 150
                         }
                     ]
                 },
@@ -218,8 +218,8 @@
                             "qty": 14000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 300
                         },
                         {
                             "item": "archers-vision",
@@ -235,8 +235,8 @@
                             "qty": 23000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 550
                         },
                         {
                             "item": "archers-vision",
@@ -249,11 +249,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 32000
+                            "qty": 35000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "stigma",
+                            "qty": 1100
                         },
                         {
                             "item": "archers-vision",
@@ -300,11 +300,24 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 4000
+                            "qty": 1000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 50
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 2000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 120
                         }
                     ]
                 },
@@ -316,21 +329,8 @@
                             "qty": 4000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 1
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 4000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 1
+                            "item": "stigma",
+                            "qty": 230
                         }
                     ]
                 },
@@ -339,11 +339,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 23000
+                            "qty": 21000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 400
                         },
                         {
                             "item": "archers-vision",
@@ -356,11 +356,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 28000
+                            "qty": 29000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 2
+                            "item": "stigma",
+                            "qty": 650
                         },
                         {
                             "item": "archers-vision",
@@ -373,11 +373,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 37000
+                            "qty": 39000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "stigma",
+                            "qty": 1000
                         },
                         {
                             "item": "archers-vision",
@@ -390,11 +390,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 42000
+                            "qty": 50000
                         },
                         {
-                            "item": "molagora",
-                            "qty": 3
+                            "item": "stigma",
+                            "qty": 1450
                         },
                         {
                             "item": "archers-vision",
