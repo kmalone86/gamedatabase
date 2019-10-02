@@ -128,11 +128,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -141,11 +141,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 19000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
                             "item": "archers-vision",
@@ -270,11 +270,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 8000
+                            "qty": 4000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 1
                         }
                     ]
                 },
@@ -283,11 +283,11 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 27000
+                            "qty": 19000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 1
                         },
                         {
                             "item": "archers-vision",
@@ -386,14 +386,14 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 64000
+                            "qty": 52000
                         },
                         {
                             "item": "molagora",
-                            "qty": 6
+                            "qty": 3
                         },
                         {
-                            "item": "mercenarys-medicine",
+                            "item": "archers-vision",
                             "qty": 8
                         }
                     ]
