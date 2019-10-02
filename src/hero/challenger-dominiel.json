@@ -207,7 +207,7 @@
                 "value": "((1 * hero_atk)) * (1 + ((skill_dmg_rate[0.054, 0.0702] * hero_special_count))) * 0.9 * 1.871",
                 "simplified": "((1.6839 * hero_atk)) * (1 + ((skill_dmg_rate[0.054, 0.0702] * hero_special_count)))",
                 "soulburn": "((2.5 * hero_atk)) * (1 + ((skill_dmg_rate[0.054, 0.0702] * hero_special_count))) * 1 * 1.871",
-                "simplifiedSoulburn": "((4.2097 * hero_atk)) * (1 + ((skill_dmg_rate[0.054, 0.0702] * hero_special_count)))"
+                "simplifiedSoulburn": "((4.6775 * hero_atk)) * (1 + ((skill_dmg_rate[0.054, 0.0702] * hero_special_count)))"
             }
         },
         {
