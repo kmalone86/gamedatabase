@@ -95,7 +95,7 @@
             "cooldown": 0,
             "name": "Seduction",
             "soulAcquire": 1,
-            "description": "Attacks with a flame of seduction, decreasing Combat Readiness by 7%.",
+            "description": "Attacks with a flame of seduction, with a 35% chance to decrease Defense for 2 turns.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -111,7 +111,7 @@
                     ]
                 },
                 {
-                    "description": "+1% Combat Readiness",
+                    "description": "+5% effect chance",
                     "resources": [
                         {
                             "item": "gold",
@@ -141,7 +141,7 @@
                     ]
                 },
                 {
-                    "description": "+2% Combat Readiness",
+                    "description": "+10% effect chance",
                     "resources": [
                         {
                             "item": "gold",
@@ -176,7 +176,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "stic_def_dn"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
@@ -318,10 +320,10 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 6,
+            "cooldown": 5,
             "name": "Flame Kiss",
             "soulAcquire": 3,
-            "description": "Swallows the enemy in the flame of Chatty, the magic lantern, with a 60% chance each to inflict two burn effects for 2 turns.",
+            "description": "Swallows the enemy in the flame of Chatty, the magic lantern, with a 85% chance each to inflict two burn effects for 2 turns.",
             "enhancement": [
                 {
                     "description": "+10% damage dealt",
