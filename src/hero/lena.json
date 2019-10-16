@@ -1,0 +1,418 @@
+{
+    "gameId": "",
+    "name": "Lena",
+    "rarity": 3,
+    "classType": "warrior",
+    "element": "ice",
+    "zodiac": "libra",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": "Daughter of a family of sorcerers from Witchaven, the wandering fighter Hataan taught her martial arts and of the outside world as he passed through the city. After he left she lost interest in magic and worked to hone her fighting skills alone. Unsatisfied, she eventually left Witchaven as well to find Hataan and become his disciple.",
+    "relations": [
+        {
+            "hero": "",
+            "relationType": ""
+        }
+    ],
+    "stats": {
+        "lv1BaseStarNoAwaken": {
+            "cp": 1083,
+            "atk": 65,
+            "hp": 248,
+            "spd": 104,
+            "def": 60,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarNoAwaken": {
+            "cp": 10356,
+            "atk": 589,
+            "hp": 3720,
+            "spd": 104,
+            "def": 443,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 11788,
+            "atk": 762,
+            "hp": 4171,
+            "spd": 104,
+            "def": 469,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 12932,
+            "atk": 735,
+            "hp": 4677,
+            "spd": 104,
+            "def": 550,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 15002,
+            "atk": 951,
+            "hp": 5517,
+            "spd": 104,
+            "def": 583,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        }
+    },
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "You're Soft",
+            "soulAcquire": 0,
+            "description": "Attacks with a strong fist, increasing the caster's Combat Readiness by 20%.\n",
+            "enhancement": [
+                {
+                    "description": "",
+                    "resources": []
+                }
+            ],
+            "buffs": [
+                "efct_cr_up"
+            ],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ]
+        },
+        {
+            "isPassive": true,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Power Strike",
+            "soulAcquire": 0,
+            "description": "Increases Critical Hit Chance by 30%.",
+            "enhancement": [
+                {
+                    "description": "",
+                    "resources": []
+                }
+            ],
+            "buffs": [],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ]
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 10,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Exposed!",
+            "soulAcquire": 0,
+            "description": "Attacks all enemies with a powerful storm, decreasing Combat Readiness by 20%, before increasing Attack of the caster for 2 turns. Damage dealt increases proportional to the amount of the enemy's lost Health. When the enemy is defeated with this skill, cooldown does not occur.\n",
+            "enhancement": [
+                {
+                    "description": "",
+                    "resources": []
+                }
+            ],
+            "buffs": [
+                "stic_att_up"
+            ],
+            "debuffs": [
+                "efct_cr_dn"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ]
+        }
+    ],
+    "specialtySkill": {
+        "name": "",
+        "description": "",
+        "dispatch": [],
+        "enhancement": [],
+        "stats": {
+            "command": 0,
+            "charm": 0,
+            "politics": 0
+        }
+    },
+    "camping": {
+        "options": [
+            "",
+            ""
+        ],
+        "reactions": {
+            "advice": 0,
+            "belief": 0,
+            "bizarre-story": 0,
+            "comforting-cheer": 0,
+            "complain": 0,
+            "criticism": 0,
+            "cute-cheer": 0,
+            "dream": 0,
+            "food-story": 0,
+            "gossip": 0,
+            "happy-memory": 0,
+            "heroic-cheer": 0,
+            "heroic-tale": 0,
+            "horror-story": 0,
+            "interesting-story": 0,
+            "joyful-memory": 0,
+            "myth": 0,
+            "occult": 0,
+            "reality-check": 0,
+            "sad-memory": 0,
+            "self-indulgent": 0,
+            "unique-comment": 0
+        }
+    },
+    "memoryImprintFormation": {
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": false
+    },
+    "memoryImprintAttribute": "",
+    "memoryImprint": [
+        {
+            "rank": "d",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "c",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "b",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "",
+                "increase": 0
+            }
+        }
+    ],
+    "awakening": [
+        {
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "frost-rune",
+                    "qty": 5
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "hp": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "frost-rune",
+                    "qty": 9
+                }
+            ]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "frost-rune",
+                    "qty": 12
+                },
+                {
+                    "item": "greater-frost-rune",
+                    "qty": 6
+                }
+            ]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "def": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-frost-rune",
+                    "qty": 15
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-frost-rune",
+                    "qty": 4
+                },
+                {
+                    "item": "dream-time-circuit",
+                    "qty": 9
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "hp": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-frost-rune",
+                    "qty": 6
+                },
+                {
+                    "item": "reingar-student-id",
+                    "qty": 6
+                }
+            ]
+        }
+    ],
+    "summonQuote": "",
+    "description": ""
+}
