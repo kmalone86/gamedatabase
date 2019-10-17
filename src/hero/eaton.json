@@ -10,15 +10,15 @@
     "background": "A mysterious Golem who stops people from entering certain areas, his muddled memories mean he doesn't know what he is protecting or why. Recently, he has begun to question whether he really ever was a Human, or if he is simply a Golem with the memories of a Human. Every time he encounters Humans he approaches them out of pure curiosity, but often ends up fighting them due to a rumor that was spread in the past.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "batisse",
+            "relationType": "rival"
         }
     ],
     "stats": {
         "lv1BaseStarNoAwaken": {
-            "cp": 1113,
+            "cp": 1140,
             "atk": 47,
-            "hp": 276,
+            "hp": 303,
             "spd": 91,
             "def": 71,
             "chc": 0.15,
@@ -28,9 +28,9 @@
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
-            "cp": 10588,
+            "cp": 11001,
             "atk": 429,
-            "hp": 4138,
+            "hp": 4551,
             "spd": 91,
             "def": 520,
             "chc": 0.15,
@@ -40,9 +40,9 @@
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
-            "cp": 12139,
+            "cp": 12648,
             "atk": 549,
-            "hp": 5098,
+            "hp": 5607,
             "spd": 91,
             "def": 535,
             "chc": 0.15,
@@ -52,9 +52,9 @@
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
-            "cp": 13214,
+            "cp": 13734,
             "atk": 535,
-            "hp": 5203,
+            "hp": 5723,
             "spd": 91,
             "def": 645,
             "chc": 0.15,
@@ -64,9 +64,9 @@
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
-            "cp": 15518,
+            "cp": 16158,
             "atk": 685,
-            "hp": 6403,
+            "hp": 7043,
             "spd": 91,
             "def": 703,
             "chc": 0.15,
@@ -81,16 +81,89 @@
             "isPassive": false,
             "soulBurn": 20,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
+            "soulBurnEffect": "Attacks all enemies.",
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Come Here",
-            "soulAcquire": 0,
+            "soulAcquire": 1,
             "description": "Strongly knees the enemy, with a 75% chance each to provoke for 1 turn. Damage dealt increases proportional to the caster's max Health.",
             "enhancement": [
                 {
-                    "description": "",
-                    "resources": []
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 2000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 120
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 270
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 22000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 470
+                        },
+                        {
+                            "item": "baby-mouse-insignia",
+                            "qty": 3
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 30000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 740
+                        },
+                        {
+                            "item": "baby-mouse-insignia",
+                            "qty": 4
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 40000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1100
+                        },
+                        {
+                            "item": "baby-mouse-insignia",
+                            "qty": 5
+                        }
+                    ]
                 }
             ],
             "buffs": [],
@@ -105,8 +178,13 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1,
-                    "soulburn": 1
+                    "value": 1.2,
+                    "soulburn": 1.2
+                },
+                {
+                    "name": "hp_rate",
+                    "value": 0.05,
+                    "soulburn": 0.05
                 }
             ]
         },
@@ -122,8 +200,81 @@
             "description": "Receives 10% of damage taken by an ally in their place. Only the highest damage distribution effect will be applied. Increases max Health by 10%.",
             "enhancement": [
                 {
-                    "description": "",
-                    "resources": []
+                    "description": "+1% max Health",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 2000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 120
+                        }
+                    ]
+                },
+                {
+                    "description": "+1% max Health",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 270
+                        }
+                    ]
+                },
+                {
+                    "description": "+2% max Health",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 22000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 470
+                        },
+                        {
+                            "item": "baby-mouse-insignia",
+                            "qty": 3
+                        }
+                    ]
+                },
+                {
+                    "description": "+2% max Health",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 30000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 740
+                        },
+                        {
+                            "item": "baby-mouse-insignia",
+                            "qty": 4
+                        }
+                    ]
+                },
+                {
+                    "description": "+4% max Health",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 40000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1100
+                        },
+                        {
+                            "item": "baby-mouse-insignia",
+                            "qty": 5
+                        }
+                    ]
                 }
             ],
             "buffs": [],
@@ -131,13 +282,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1,
-                    "soulburn": 1
+                    "value": 0,
+                    "soulburn": 0
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1,
-                    "soulburn": 1
+                    "value": 0,
+                    "soulburn": 0
                 }
             ]
         },
@@ -147,14 +298,87 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
-            "cooldown": 0,
+            "cooldown": 5,
             "name": "I'm Tough",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Releases strong energy, dispelling all debuffs inflicted on the caster before granting a barrier and immunity for 2 turns. Barrier strength increases proportional to the caster's max Health.",
             "enhancement": [
                 {
-                    "description": "",
-                    "resources": []
+                    "description": "+5% barrier strength",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 2000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 120
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% barrier strength",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 270
+                        }
+                    ]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 22000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 470
+                        },
+                        {
+                            "item": "baby-mouse-insignia",
+                            "qty": 3
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% barrier strength",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 30000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 740
+                        },
+                        {
+                            "item": "baby-mouse-insignia",
+                            "qty": 4
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% barrier strength",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 40000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1100
+                        },
+                        {
+                            "item": "baby-mouse-insignia",
+                            "qty": 5
+                        }
+                    ]
                 }
             ],
             "buffs": [
@@ -166,26 +390,26 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1,
-                    "soulburn": 1
+                    "value": 0,
+                    "soulburn": 0
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1,
-                    "soulburn": 1
+                    "value": 0,
+                    "soulburn": 0
                 }
             ]
         }
     ],
     "specialtySkill": {
-        "name": "",
-        "description": "",
-        "dispatch": [],
-        "enhancement": [],
+        "name": "Fruits of Anguish",
+        "description": "He eventually comes to find a meaningful answer after a while lost in meaningless thoughts.",
+        "dispatch": "[Unknown Knowledge] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 8,
+            "charm": 9,
+            "politics": 15
         }
     },
     "camping": {
@@ -219,60 +443,60 @@
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprintAttribute": "",
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 12
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 18
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 24
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 30
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 36
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 42
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "def",
+                "increase": 48
             }
         }
     ],
