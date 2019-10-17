@@ -10,8 +10,12 @@
     "background": "A fighter known among the criminal underground as the Aakhen\nOutlaw, Ains has committed a lot of crimes with his simple and bravado-driven personality. He once had a strong reputation for taking care of the people around him, but after escaping prison he became incredibly selfish.\n",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "hataan",
+            "relationType": "hostile"
+        },
+        {
+            "hero": "furious",
+            "relationType": "hostile"
         }
     ],
     "stats": {
@@ -89,8 +93,81 @@
             "description": "Punches the enemy, with a 50% chance to use Satisfying Strike instead of Gazelle Punch.\nSatisfying Strike: A successful attack always results in a critical hit.\n",
             "enhancement": [
                 {
-                    "description": "",
-                    "resources": []
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 2000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 120
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 270
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 22000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 470
+                        },
+                        {
+                            "item": "mysterious-flash",
+                            "qty": 3
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 30000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 740
+                        },
+                        {
+                            "item": "mysterious-flash",
+                            "qty": 4
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 40000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1100
+                        },
+                        {
+                            "item": "mysterious-flash",
+                            "qty": 5
+                        }
+                    ]
                 }
             ],
             "buffs": [],
@@ -103,8 +180,14 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1,
-                    "soulburn": 1
+                    "value": [
+                        0.7,
+                        1
+                    ],
+                    "soulburn": [
+                        0.7,
+                        1
+                    ]
                 }
             ]
         },
@@ -120,8 +203,81 @@
             "description": "When attacked, has a 40% chance to counterattack.",
             "enhancement": [
                 {
-                    "description": "",
-                    "resources": []
+                    "description": "+1% counterattack chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 2000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 120
+                        }
+                    ]
+                },
+                {
+                    "description": "+1% counterattack chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 270
+                        }
+                    ]
+                },
+                {
+                    "description": "+2% counterattack chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 22000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 470
+                        },
+                        {
+                            "item": "mysterious-flash",
+                            "qty": 3
+                        }
+                    ]
+                },
+                {
+                    "description": "+2% counterattack chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 30000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 740
+                        },
+                        {
+                            "item": "mysterious-flash",
+                            "qty": 4
+                        }
+                    ]
+                },
+                {
+                    "description": "+4% counterattack chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 40000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1100
+                        },
+                        {
+                            "item": "mysterious-flash",
+                            "qty": 5
+                        }
+                    ]
                 }
             ],
             "buffs": [],
@@ -129,13 +285,13 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1,
-                    "soulburn": 1
+                    "value": 0,
+                    "soulburn": 0
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1,
-                    "soulburn": 1
+                    "value": 0,
+                    "soulburn": 0
                 }
             ]
         },
@@ -143,16 +299,89 @@
             "isPassive": false,
             "soulBurn": 10,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
+            "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": true,
-            "cooldown": 0,
+            "cooldown": 4,
             "name": "Ram",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Punches the enemy, with an 85% chance to stun for 2.",
             "enhancement": [
                 {
-                    "description": "",
-                    "resources": []
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 2000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 120
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 270
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 22000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 470
+                        },
+                        {
+                            "item": "mysterious-flash",
+                            "qty": 3
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 30000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 740
+                        },
+                        {
+                            "item": "mysterious-flash",
+                            "qty": 4
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 40000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 1100
+                        },
+                        {
+                            "item": "mysterious-flash",
+                            "qty": 5
+                        }
+                    ]
                 }
             ],
             "buffs": [],
@@ -167,21 +396,21 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1,
-                    "soulburn": 1
+                    "value": 1.5,
+                    "soulburn": 1.8
                 }
             ]
         }
     ],
     "specialtySkill": {
-        "name": "",
-        "description": "",
-        "dispatch": [],
-        "enhancement": [],
+        "name": "Egomania",
+        "description": "Under any circumstances, he makes decisions based only on his own interests.",
+        "dispatch": "[Fear] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 57,
+            "charm": 32,
+            "politics": 45
         }
     },
     "camping": {
@@ -215,60 +444,60 @@
         }
     },
     "memoryImprintFormation": {
-        "north": false,
-        "south": false,
-        "east": false,
-        "west": false
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
     },
     "memoryImprintAttribute": "",
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 24
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 36
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 48
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 60
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 72
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 84
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "",
-                "increase": 0
+                "type": "atk",
+                "increase": 96
             }
         }
     ],
