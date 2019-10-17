@@ -442,7 +442,7 @@
     "specialtySkill": {
         "name": "Commander",
         "description": "His incredible command ability boosts the efficiency of his troops.",
-        "dispatch": "[War] type mission",
+        "dispatch": "[War] Category",
         "enhancement": "Time requiered -6%",
         "stats": {
             "command": 98,
