@@ -446,7 +446,7 @@
     "specialtySkill": {
         "name": "Strong Will",
         "description": "He's always training, determined to become the strongest knight.",
-        "dispatch": "[War] category mission",
+        "dispatch": "[War] Category",
         "enhancement": "Time Required -6%",
         "stats": {
             "command": 35,
