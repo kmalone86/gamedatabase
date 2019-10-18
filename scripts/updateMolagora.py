@@ -32,7 +32,7 @@ molagora['4'] = {}
 molagora['5'] = {}
 '''
 # Example heroes
-#molagora['3']['1'] = None..
+#molagora['3']['1'] = Hataan
 #molagora['3']['2'] = Bask(S3), Carrot(S2)
 #molagora['3']['3'] = Alexa(S1)
 #molagora['3']['4'] = Aither(S1/S2)
@@ -59,7 +59,7 @@ molagora['5'] = {}
 ############################################
 #       star  lvls  (AFTER 10/2/2019 patch)
 molagora['3']['1'] = [
-  {'rare': 0, 'epic': 0, 'mola': 0, 'mGo': 0, 'stig': 0, 'gold': 0}
+  {'rare': 0, 'epic': 0, 'mola': 0, 'mGo': 0, 'stig': 300, 'gold': 4000}
 ]
 molagora['3']['2'] = [ #
   {'rare': 2, 'epic': 0, 'mola': 0, 'mGo': 0, 'stig': 250, 'gold': 14000},

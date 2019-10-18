@@ -1,39 +1,30 @@
 {
-    "gameId": "c3006",
-    "name": "Bask",
-    "surname": "Royceman",
+    "gameId": "c3091",
+    "name": "Hataan",
     "rarity": 3,
-    "classType": "knight",
-    "element": "ice",
-    "zodiac": "scorpio",
+    "classType": "thief",
+    "element": "fire",
+    "zodiac": "leo",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "With no particular religious faith, and wishing solely to become stronger, he joined the Order of the Sword. His only goal is to have his name remembered by future generations as a powerful knight and he cannot understand anyone who dies in the service of faith or personal beliefs.",
+    "background": "A descendant of Suin taken as slaves by settlers from Ritania. He was able to earn his freedom at a young age thanks to the sacrifices of his family but had to become a street fighter in the criminal underground to survive. Just as he began opening up to others and finding inner peace, he lost all of his friends after his disciple Batisse went on a rampage. Now, he seeks revenge.\n",
     "relations": [
         {
-            "hero": "diene",
-            "relationType": "love"
+            "hero": "bastisee",
+            "relationType": "hostile"
         },
         {
-            "hero": "gunther",
+            "hero": "lena",
             "relationType": "friendly"
-        },
-        {
-            "hero": "angelica",
-            "relationType": "friendly"
-        },
-        {
-            "hero": "krau",
-            "relationType": "longing"
         }
     ],
     "stats": {
         "lv1BaseStarNoAwaken": {
-            "cp": 2154,
-            "atk": 210,
-            "hp": 740,
-            "spd": 90,
-            "def": 68,
+            "cp": 1040,
+            "atk": 70,
+            "hp": 220,
+            "spd": 111,
+            "def": 54,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -41,11 +32,11 @@
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
-            "cp": 10647,
-            "atk": 524,
-            "hp": 4074,
-            "spd": 90,
-            "def": 497,
+            "cp": 9881,
+            "atk": 633,
+            "hp": 3302,
+            "spd": 111,
+            "def": 398,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -53,23 +44,23 @@
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
-            "cp": 12037,
-            "atk": 675,
-            "hp": 4902,
-            "spd": 90,
-            "def": 497,
-            "chc": 0.15,
+            "cp": 11477,
+            "atk": 828,
+            "hp": 3642,
+            "spd": 111,
+            "def": 398,
+            "chc": 0.23,
             "chd": 1.5,
             "eff": 0,
             "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
-            "cp": 13291,
-            "atk": 653,
-            "hp": 5122,
-            "spd": 90,
-            "def": 617,
+            "cp": 12333,
+            "atk": 789,
+            "hp": 4152,
+            "spd": 111,
+            "def": 494,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -77,12 +68,12 @@
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
-            "cp": 15336,
-            "atk": 842,
-            "hp": 6463,
-            "spd": 90,
-            "def": 617,
-            "chc": 0.15,
+            "cp": 14563,
+            "atk": 1081,
+            "hp": 4572,
+            "spd": 111,
+            "def": 494,
+            "chc": 0.23,
             "chd": 1.5,
             "eff": 0,
             "efr": 0,
@@ -92,17 +83,30 @@
     "skills": [
         {
             "isPassive": false,
-            "soulBurn": 0,
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
+            "soulBurnEffect": "Ignore effect resistance.",
             "awakenUpgrade": false,
             "cooldown": 0,
-            "name": "Protective Strike",
+            "name": "Knee Smash",
             "soulAcquire": 1,
-            "description": "Slashes with a sword, with a 50% chance to decrease Attack for 1 turn. Damage dealt increases proportional to the caster's max Health.",
+            "description": "Smashes the enemy with their knee, with a 50% chance to decrease Hit Chance for 1 turn. Damage dealt increases proportional to the caster's Speed.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 1000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 50
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
                     "resources": [
                         {
                             "item": "gold",
@@ -110,7 +114,20 @@
                         },
                         {
                             "item": "stigma",
-                            "qty": 80
+                            "qty": 120
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "stigma",
+                            "qty": 230
                         }
                     ]
                 },
@@ -119,11 +136,15 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 3000
+                            "qty": 21000
                         },
                         {
                             "item": "stigma",
-                            "qty": 180
+                            "qty": 400
+                        },
+                        {
+                            "item": "twisted-fang",
+                            "qty": 3
                         }
                     ]
                 },
@@ -132,32 +153,15 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 10000
+                            "qty": 29000
                         },
                         {
                             "item": "stigma",
-                            "qty": 320
+                            "qty": 650
                         },
                         {
-                            "item": "sharp-spearhead",
-                            "qty": 1
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 18000
-                        },
-                        {
-                            "item": "stigma",
-                            "qty": 530
-                        },
-                        {
-                            "item": "sharp-spearhead",
-                            "qty": 2
+                            "item": "twisted-fang",
+                            "qty": 4
                         }
                     ]
                 },
@@ -166,15 +170,15 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 32000
+                            "qty": 39000
                         },
                         {
                             "item": "stigma",
-                            "qty": 850
+                            "qty": 1000
                         },
                         {
-                            "item": "sharp-spearhead",
-                            "qty": 4
+                            "item": "twisted-fang",
+                            "qty": 5
                         }
                     ]
                 },
@@ -183,14 +187,14 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 48000
+                            "qty": 50000
                         },
                         {
                             "item": "stigma",
-                            "qty": 1340
+                            "qty": 1450
                         },
                         {
-                            "item": "sharp-spearhead",
+                            "item": "twisted-fang",
                             "qty": 6
                         }
                     ]
@@ -198,43 +202,43 @@
             ],
             "buffs": [],
             "debuffs": [
-                "stic_att_dn"
+                "stic_blind"
             ],
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.9,
-                    "soulburn": 0.9
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.7,
-                    "soulburn": 0.7
+                    "value": 0.95,
+                    "soulburn": 0.95
                 },
                 {
-                    "name": "hp_rate",
-                    "value": 0.07,
-                    "soulburn": 0.07
+                    "name": "spd_rate",
+                    "value": 0.00075,
+                    "soulburn": 0.00075
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk) + (hp_rate * hero_hp)) * pow! * constant",
-                "value": "((0.7 * hero_atk) + (0.07 * hero_hp)) * 0.9 * 1.871",
-                "simplified": "((1.1787 * hero_atk) + (0.1179 * hero_hp))",
-                "soulburn": "((0.7 * hero_atk) + (0.07 * hero_hp)) * 0.9 * 1.871",
-                "simplifiedSoulburn": "((1.1787 * hero_atk) + (0.1179 * hero_hp))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((spd_rate * hero_spd))) * pow! * constant",
+                "value": "((0.95 * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 1 * 1.871",
+                "simplified": "((1.7774 * hero_atk)) * (1 + ((0.00075 * hero_spd)))",
+                "soulburn": "((0.95 * hero_atk)) * (1 + ((0.00075 * hero_spd))) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.7774 * hero_atk)) * (1 + ((0.00075 * hero_spd)))"
             }
         },
         {
             "isPassive": false,
-            "soulBurn": 10,
+            "soulBurn": 0,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "Skill cooldown is decreased by 2 turns.",
+            "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 4,
-            "name": "Shield Blow",
-            "soulAcquire": 2,
-            "description": "Attacks with a shield, with a 85% chance to dispel all buffs. Damage dealt increases proportional to the caster's max Health.",
+            "cooldown": 3,
+            "name": "Wind Pressure",
+            "soulAcquire": 1,
+            "description": "Attacks the enemy with wind pressure. Activates Wind Pressure again when an enemy is defeated. Damage dealt increases proportional to the caster's Speed.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -263,7 +267,7 @@
                     ]
                 },
                 {
-                    "description": "+5% effect chance",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
@@ -276,7 +280,7 @@
                     ]
                 },
                 {
-                    "description": "-1 turn cooldown",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
@@ -287,13 +291,13 @@
                             "qty": 400
                         },
                         {
-                            "item": "sharp-spearhead",
+                            "item": "twisted-fang",
                             "qty": 3
                         }
                     ]
                 },
                 {
-                    "description": "+10% effect chance",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
@@ -304,7 +308,7 @@
                             "qty": 650
                         },
                         {
-                            "item": "sharp-spearhead",
+                            "item": "twisted-fang",
                             "qty": 4
                         }
                     ]
@@ -321,7 +325,7 @@
                             "qty": 1000
                         },
                         {
-                            "item": "sharp-spearhead",
+                            "item": "twisted-fang",
                             "qty": 5
                         }
                     ]
@@ -338,7 +342,7 @@
                             "qty": 1450
                         },
                         {
-                            "item": "sharp-spearhead",
+                            "item": "twisted-fang",
                             "qty": 6
                         }
                     ]
@@ -349,26 +353,26 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 1,
-                    "soulburn": 1
+                    "value": 0.85,
+                    "soulburn": 0.85
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.8,
-                    "soulburn": 0.8
+                    "value": 1.3,
+                    "soulburn": 1.3
                 },
                 {
-                    "name": "hp_rate",
-                    "value": 0.12,
-                    "soulburn": 0.12
+                    "name": "spd_rate",
+                    "value": 0.00125,
+                    "soulburn": 0.00125
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk) + (hp_rate * hero_hp)) * pow! * constant",
-                "value": "((0.8 * hero_atk) + (0.12 * hero_hp)) * 1 * 1.871",
-                "simplified": "((1.4968 * hero_atk) + (0.2245 * hero_hp))",
-                "soulburn": "((0.8 * hero_atk) + (0.12 * hero_hp)) * 1 * 1.871",
-                "simplifiedSoulburn": "((1.4968 * hero_atk) + (0.2245 * hero_hp))"
+                "description": "((atk_rate * hero_atk)) * (1 + ((spd_rate * hero_spd))) * pow! * constant",
+                "value": "((1.3 * hero_atk)) * (1 + ((0.00125 * hero_spd))) * 0.85 * 1.871",
+                "simplified": "((2.0675 * hero_atk)) * (1 + ((0.00125 * hero_spd)))",
+                "soulburn": "((1.3 * hero_atk)) * (1 + ((0.00125 * hero_spd))) * 0.85 * 1.871",
+                "simplifiedSoulburn": "((2.0675 * hero_atk)) * (1 + ((0.00125 * hero_spd)))"
             }
         },
         {
@@ -377,111 +381,90 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
-            "cooldown": 6,
-            "name": "Will of Protection",
+            "cooldown": 4,
+            "name": "Unbeatable Will",
             "soulAcquire": 2,
-            "description": "Covers all allies with the Will of Protection, granting immunity for 3 turns, before granting a barrier to the caster for 3 turns. Barrier strength increases proportional to the caster's max Health.",
+            "description": "Releases energy to all allies, increasing Attack for 2 turns, before increasing Speed of the caster for 2 turns.",
             "enhancement": [
-                {
-                    "description": "Acquire +1 Soul",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 14000
-                        },
-                        {
-                            "item": "stigma",
-                            "qty": 250
-                        },
-                        {
-                            "item": "sharp-spearhead",
-                            "qty": 2
-                        }
-                    ]
-                },
                 {
                     "description": "-1 turn cooldown",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 24000
+                            "qty": 4000
                         },
                         {
                             "item": "stigma",
-                            "qty": 650
-                        },
-                        {
-                            "item": "sharp-spearhead",
-                            "qty": 3
+                            "qty": 300
                         }
                     ]
                 }
             ],
             "buffs": [
-                "stic_debuf_impossible",
-                "stic_protect"
+                "stic_att_up",
+                "stic_speed_up"
             ],
             "debuffs": [],
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0,
-                    "soulburn": 0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0,
-                    "soulburn": 0
+                    "value": 1,
+                    "soulburn": 1
                 }
             ],
             "simpleDmgMod": {
-                "description": "",
-                "value": "",
-                "simplified": "",
-                "soulburn": "",
-                "simplifiedSoulburn": ""
+                "description": "((atk_rate * hero_atk)) * pow! * constant",
+                "value": "((1 * hero_atk)) * 1 * 1.871",
+                "simplified": "((1.871 * hero_atk))",
+                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((1.871 * hero_atk))"
             }
         }
     ],
     "specialtySkill": {
-        "name": "Strong Will",
-        "description": "He's always training, determined to become the strongest knight.",
-        "dispatch": "[War] Category",
-        "enhancement": "Time Required -6%",
+        "name": "Rigorous Training",
+        "description": "He relentlessly pushes himself to his limits in order to become stronger.",
+        "dispatch": "[Unknown Knowledge] Attribute",
+        "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": 35,
-            "charm": 70,
-            "politics": 55
+            "command": 22,
+            "charm": 50,
+            "politics": 48
         }
     },
     "camping": {
         "options": [
             "belief",
-            "sad-memory"
+            "reality-check"
         ],
         "reactions": {
-            "advice": 0,
-            "belief": 4,
-            "bizarre-story": -2,
-            "comforting-cheer": 6,
-            "complain": 0,
-            "criticism": 5,
-            "cute-cheer": 3,
-            "dream": 5,
-            "food-story": 3,
-            "gossip": -2,
-            "happy-memory": 3,
-            "heroic-cheer": 5,
-            "heroic-tale": 2,
-            "horror-story": 0,
+            "advice": -2,
+            "belief": 2,
+            "bizarre-story": 1,
+            "comforting-cheer": 2,
+            "complain": -5,
+            "criticism": 6,
+            "cute-cheer": -2,
+            "dream": 2,
+            "food-story": -2,
+            "gossip": -6,
+            "happy-memory": 1,
+            "heroic-cheer": -1,
+            "heroic-tale": -1,
+            "horror-story": -2,
             "interesting-story": 2,
             "joyful-memory": 4,
-            "myth": 4,
-            "occult": 2,
-            "reality-check": 2,
-            "sad-memory": 0,
-            "self-indulgent": 2,
-            "unique-comment": 1
+            "myth": -3,
+            "occult": 7,
+            "reality-check": 0,
+            "sad-memory": 1,
+            "self-indulgent": -1,
+            "unique-comment": 2
         }
     },
     "memoryImprintFormation": {
@@ -490,55 +473,55 @@
         "east": true,
         "west": true
     },
-    "memoryImprintAttribute": "hp+",
+    "memoryImprintAttribute": "def+",
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "hp",
-                "increase": 120
+                "type": "def",
+                "increase": 12
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "hp",
-                "increase": 180
+                "type": "def",
+                "increase": 18
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "hp",
-                "increase": 240
+                "type": "def",
+                "increase": 24
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "hp",
-                "increase": 300
+                "type": "def",
+                "increase": 30
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "hp",
-                "increase": 360
+                "type": "def",
+                "increase": 36
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "hp",
-                "increase": 420
+                "type": "def",
+                "increase": 42
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "hp",
-                "increase": 480
+                "type": "def",
+                "increase": 48
             }
         }
     ],
@@ -548,7 +531,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": 0.03
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -559,7 +542,7 @@
             ],
             "resources": [
                 {
-                    "item": "frost-rune",
+                    "item": "flame-rune",
                     "qty": 5
                 }
             ]
@@ -569,7 +552,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": 0.03
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -580,7 +563,7 @@
             ],
             "resources": [
                 {
-                    "item": "frost-rune",
+                    "item": "flame-rune",
                     "qty": 9
                 }
             ]
@@ -598,17 +581,38 @@
             ],
             "resources": [
                 {
-                    "item": "frost-rune",
+                    "item": "flame-rune",
                     "qty": 12
                 },
                 {
-                    "item": "greater-frost-rune",
+                    "item": "greater-flame-rune",
                     "qty": 6
                 }
             ]
         },
         {
             "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "chc": 0.08
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-flame-rune",
+                    "qty": 15
+                }
+            ]
+        },
+        {
+            "rank": 5,
             "skillUpgrade": false,
             "statsIncrease": [
                 {
@@ -623,32 +627,11 @@
             ],
             "resources": [
                 {
-                    "item": "greater-frost-rune",
-                    "qty": 15
-                }
-            ]
-        },
-        {
-            "rank": 5,
-            "skillUpgrade": false,
-            "statsIncrease": [
-                {
-                    "hp": 0.06
-                },
-                {
-                    "atk": 30
-                },
-                {
-                    "hp": 80
-                }
-            ],
-            "resources": [
-                {
-                    "item": "epic-frost-rune",
+                    "item": "epic-flame-rune",
                     "qty": 4
                 },
                 {
-                    "item": "erikion-carapace",
+                    "item": "ultra-fang",
                     "qty": 9
                 }
             ]
@@ -658,7 +641,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": 0.06
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -669,16 +652,16 @@
             ],
             "resources": [
                 {
-                    "item": "epic-frost-rune",
+                    "item": "epic-flame-rune",
                     "qty": 6
                 },
                 {
-                    "item": "black-curse-powder",
+                    "item": "blazing-soul",
                     "qty": 6
                 }
             ]
         }
     ],
-    "summonQuote": "My name is Bask Royceman, an escort of the Order of the Sword. I look forward to working with you.",
-    "description": "An impious knight of the Order of the Sword"
+    "summonQuote": "In this cruel world...only the strongest survive.",
+    "description": "A wandering Suin burdened with guilt"
 }
