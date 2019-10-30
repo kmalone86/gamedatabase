@@ -95,7 +95,7 @@
             "cooldown": 0,
             "name": "Shield Thrust",
             "soulAcquire": 1,
-            "description": "Attacks with a sword and a shield, with a 50% chance to dispel one buff. Damage dealt increases proportional to the caster's max Health.",
+            "description": "Attacks with a sword and a shield, with a 50% chance to dispel two buffs. Damage dealt increases proportional to the caster's max Health.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -228,7 +228,7 @@
             "cooldown": 0,
             "name": "Escort",
             "soulAcquire": 0,
-            "description": "Grants a barrier for 2 turns to the ally with the lowest Health at beginning of the turn. Barrier strength increases proportional to the caster's max Health.",
+            "description": "Grants a barrier to the ally with the lowest Health for 2 turns at the beginning of the battle and each time the caster takes a turn. Barrier strength increases proportional to the caster's max Health.",
             "enhancement": [
                 {
                     "description": "+2% barrier strength",
