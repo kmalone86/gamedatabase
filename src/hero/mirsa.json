@@ -234,7 +234,7 @@
             "cooldown": 0,
             "name": "Brush Off",
             "soulAcquire": 0,
-            "description": "Increases Evasion. When Health is less than 50%, effect is increased by an extra 15%. After successfully evading, the caster is granted increased Speed for 2 turns, and their cooldown decreases by 1 turn.",
+            "description": "Increases Evasion Chance by 35%. After successfully evading, decreases cooldown of the caster by 1 turn and increases Speed for 2 turns.",
             "enhancement": [
                 {
                     "description": "+5% Evasion Chance",
