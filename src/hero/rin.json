@@ -95,7 +95,7 @@
             "cooldown": 0,
             "name": "Ring Throw",
             "soulAcquire": 1,
-            "description": "Throws rings at the enemy, with a 75% chance to dispel one buff. Damage dealt increases proportional to the caster's max Health.",
+            "description": "Throws rings at the enemy, with a 75% chance to dispel one buff, before increasing the caster's Combat Readiness by 15%. Damage dealt increases proportional to the caster's max Health.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -192,7 +192,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_cr_up"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {
