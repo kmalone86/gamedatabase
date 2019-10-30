@@ -365,7 +365,7 @@
             "cooldown": 5,
             "name": "Showtime",
             "soulAcquire": 2,
-            "description": "Heals all allies with an elegant dance, casting two random buffs for 3 turns. Amount recovered and barrier strength is proportional to the target's max Health.",
+            "description": "Heals all allies with an elegant dance, granting two random buff for 3 turns. Amount recovered increases proportional to the target's max Health.",
             "enhancement": [
                 {
                     "description": "+15% healing",
