@@ -99,7 +99,7 @@
             "cooldown": 0,
             "name": "Earthen Rage",
             "soulAcquire": 1,
-            "description": "Attacks the enemy with an earthen blast, transferring one debuff from the caster to the enemy.",
+            "description": "Attacks two enemies including the target with an earthen blast, transferring two debuffs from the caster to the enemy and recovering the caster's Health. Amount recovered increases proportional to the caster's max Health.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -227,7 +227,7 @@
             "cooldown": 0,
             "name": "Iron Will",
             "soulAcquire": 0,
-            "description": "Immune to stun and sleep. Has a 80% chance to counterattack when attacked while debuffed.",
+            "description": "Immune to stun, sleep, and Decrease Hit Chance. Has a 80% chance to counterattack when attacked while debuffed.",
             "enhancement": [
                 {
                     "description": "+5% activation chance",
@@ -312,7 +312,7 @@
             "cooldown": 5,
             "name": "Cataclysm",
             "soulAcquire": 3,
-            "description": "Attacks all enemies by slamming rocks, with a 60% chance each to decrease Defense and Attack for 2 turns.",
+            "description": "Attacks all enemies by slamming rocks, with a 60% chance each to decrease Defense and Attack for 2 turns. Increases Defense of the caster for 2 turns.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -409,7 +409,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_def_up",
+            ],
             "debuffs": [
                 "stic_def_dn",
                 "stic_att_dn"
