@@ -1,6 +1,6 @@
 {
     "gameId": "c2036",
-    "name": "Troublemaker Crozet (preview)",
+    "name": "Troublemaker Crozet",
     "rarity": 4,
     "classType": "knight",
     "element": "dark",
@@ -10,17 +10,29 @@
     "background": "Crozet's Moonlight Shade who does as he pleases with no consideration for anyone around him. Because he does whatever he wants, he's caused a lot of trouble, which has led Crozet himself to come looking for Troublemaker Crozet.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "crozet",
+            "relationType": "hostile"
+        },
+        {
+            "hero": "maya",
+            "relationType": "love"
+        },
+        {
+            "hero": "lorina",
+            "relationType": "love"
+        },
+        {
+            "hero": "jena",
+            "relationType": "love"
         }
     ],
     "stats": {
         "lv1BaseStarNoAwaken": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
+            "cp": 1252,
+            "atk": 59,
+            "hp": 0298,
+            "spd": 98,
+            "def": 77,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -28,11 +40,11 @@
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
+            "cp": 11167,
+            "atk": 502,
+            "hp": 4202,
+            "spd": 98,
+            "def": 531,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -40,23 +52,23 @@
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
+            "cp": 12870,
+            "atk": 622,
+            "hp": 4794,
+            "spd": 98,
+            "def": 578,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
-            "efr": 0,
+            "efr": 0.06,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
+            "cp": 13940,
+            "atk": 626,
+            "hp": 5284,
+            "spd": 98,
+            "def": 659,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -64,15 +76,15 @@
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
+            "cp": 16543,
+            "atk": 776,
+            "hp": 6021,
+            "spd": 98,
+            "def": 718,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
-            "efr": 0,
+            "efr": 0.18,
             "dac": 0.05
         }
     },
@@ -406,14 +418,14 @@
         }
     ],
     "specialtySkill": {
-        "name": "Lion and Shield",
-        "description": "",
-        "dispatch": "[War] Category",
-        "enhancement": "Time Required -6%",
+        "name": "Flame of Passion",
+        "description": "Today marks the day he told the 486th girl that he loves her.",
+        "dispatch": "[Security] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 72,
+            "charm": 97,
+            "politics": 43
         }
     },
     "camping": {
