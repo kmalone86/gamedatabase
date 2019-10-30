@@ -99,7 +99,7 @@
             "cooldown": 0,
             "name": "Slice",
             "soulAcquire": 1,
-            "description": "Attacks with an axe, with a 40% chance to poison for 2 turns. Damage dealt increases proportional to the caster's Speed.",
+            "description": "Attacks with an axe, with a 40% chance to decrease Defense for 2 turns. Damage dealt increases proportional to the caster's Speed.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -198,7 +198,7 @@
             ],
             "buffs": [],
             "debuffs": [
-                "stic_dot"
+                "stic_def_dn"
             ],
             "damageModifiers": [
                 {
@@ -321,7 +321,7 @@
             "cooldown": 4,
             "name": "Execution",
             "soulAcquire": 2,
-            "description": "Attacks the enemy with a powerful ground pound, silencing them for 1 turn and decreasing their Combat Readiness by 50%. Damage dealt increases proportional to the caster and the enemy's Speed.",
+            "description": "Attacks the enemy with a powerful ground pound, silencing them for 1 turn and decreasing their Combat Readiness by 50%, before increasing Evasion Chance of the caster for 2 turns. Damage dealt increases proportional to the caster and the enemy’s speed.\nRemoves 20 Souls from the opponent.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -418,9 +418,13 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_dodge_up"
+            ],
             "debuffs": [
-                "stic_silence"
+                "stic_silence",
+                "efct_cr_dn",
+                "efct_soul_dn"
             ],
             "damageModifiers": [
                 {
