@@ -1,0 +1,30 @@
+{
+    "name": "Draco Plate",
+    "rarity": 5,
+    "exclusive": [
+        "warrior"
+    ],
+    "event": "the-shadow-of-ravenwing-manor",
+    "loreDescription": [
+        "\"Isn't it ironic? That Dragon's skin and bones are now used to make armor to protect the very Dragon Knights of Wintenberg it cursed as it died.\" The queen laughed as she wiped the blood from her armor."
+    ],
+    "skillDescription": {
+        "base": "Increases Critical Hit Damage by 15.0% while decreasing damage suffered from critical hits by 8.0%. When more than one similar effect is granted, only the strongest effect is applied.",
+        "max": "Increases Critical Hit Damage by 30.0% while decreasing damage suffered from critical hits by 16.0%. When more than one similar effect is granted, only the strongest effect is applied."
+    },
+    "stats": {
+        "base": {
+            "atk": 15,
+            "hp": 54
+        },
+        "max": {
+            "atk": 195,
+            "hp": 702
+        }
+    },
+    "buffs": [
+        "stic_cri_dmg_up",
+        "stic_cri_res_up"
+    ],
+    "debuffs": []
+}
