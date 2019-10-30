@@ -204,7 +204,7 @@
             "cooldown": 3,
             "name": "Evil Claw",
             "soulAcquire": 2,
-            "description": "Attacks all enemies with evil claws, with a 30% chance to stun for 1 turn, before increasing the caster's Combat Readiness by 50%.",
+            "description": "Attacks all enemies with evil claws, with a 45% chance to stun for 1 turn, before increasing the caster's Combat Readiness by 50%.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -317,7 +317,7 @@
             "cooldown": 5,
             "name": "Light Storm",
             "soulAcquire": 3,
-            "description": "Attacks the enemy with a light storm. If the enemy is stunned, penetrates their Defense. Skill cooldown is reset if the enemy is defeated.",
+            "description": "Attacks the enemy with a light storm, inflicting extinction and resetting cooldown for this skill when the enemy is defeated. Penetrates Defense by 30%, or by 100% when the enemy is stunned.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -398,7 +398,10 @@
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "efct_extinct",
+                "efct_def_pen"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
