@@ -1,6 +1,7 @@
 {
     "gameId": "c2036",
     "name": "Troublemaker Crozet",
+    "surname": "",
     "rarity": 4,
     "classType": "knight",
     "element": "dark",
@@ -386,7 +387,20 @@
             "enhancement": [
                 {
                     "description": "-1 turn cooldown",
-                    "resources": []
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 44000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "strange-jelly",
+                            "qty": 8
+                        }
+                    ]
                 }
             ],
             "buffs": [
