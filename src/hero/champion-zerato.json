@@ -410,7 +410,7 @@
                 }
             ],
             "buffs": [
-                "stic_def_up",
+                "stic_def_up"
             ],
             "debuffs": [
                 "stic_def_dn",
