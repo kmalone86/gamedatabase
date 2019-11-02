@@ -97,13 +97,13 @@
         {
             "isPassive": false,
             "soulBurn": 0,
-            "selfSkillBarValue": 0,
+            "selfSkillBarValue": 10,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Shield Slam",
             "soulAcquire": 1,
-            "description": "Shoves the enemy with a shield, with a 50% chance to transfer one debuff from the caster to the enemy. Damage dealt increases proportional to the caster's Defense.",
+            "description": "Shoves the enemy with a shield, with a 50% chance to transfer one debuff from the caster to the enemy. When the caster is enraged, damage dealt is increased and the enemy is stunned for 1 turn. Damage dealt increases proportional to the caster's Defense.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -201,7 +201,10 @@
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "efct_trans",
+                "stic_stun"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
@@ -244,13 +247,13 @@
         {
             "isPassive": false,
             "soulBurn": 0,
-            "selfSkillBarValue": 0,
+            "selfSkillBarValue": 30,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
             "cooldown": 4,
             "name": "Macerate",
             "soulAcquire": 2,
-            "description": "Attacks all enemies with an iron mace, decreasing Combat Readiness by 20%. When the enemy's Combat Readiness is 0, stuns for 1 turn. Damage dealt increases proportional to the caster's Defense.",
+            "description": "Attacks all enemies with an iron mace, decreasing Combat Readiness by 20%. When the enemy's Combat Readiness is 0, stuns for 1 turn. When the caster is enraged, doubles the amount of Combat Readiness decrease. Damage dealt increases proportional to the caster's Defense.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -392,13 +395,13 @@
         {
             "isPassive": false,
             "soulBurn": 20,
-            "selfSkillBarValue": -50,
+            "selfSkillBarValue": -100,
             "soulBurnEffect": "Amount of Health recovered is doubled.",
             "awakenUpgrade": true,
             "cooldown": 0,
             "name": "Fury's Advent",
             "soulAcquire": 2,
-            "description": "Strengthens the caster with fighting spirit for 3 turns, recovering Health, and increasing Defense for 3 turns. Grants extra turn.\nShield Slam: Increases Damage dealt, stunning for 1 turn.\nMacerate: Decreases the enemy's Combat Readiness twice.\nAcquires 10 Fighting Spirit when attacking or attacked.",
+            "description": "The caster becomes enraged with Fighting Spirit for 3 turns, recovering Health, before granting an extra turn.\nBegins the first battle with 50 Fighting Spirit.\nGains 10 Fighting Spirit when attacked.",
             "enhancement": [
                 {
                     "description": "+2 Soul acquired",
@@ -436,11 +439,10 @@
                 }
             ],
             "buffs": [
-                "stic_def_up"
+                "stic_enraged",
+                "efct_ex_turn"
             ],
-            "debuffs": [
-                "stic_stun"
-            ],
+            "debuffs": [],
             "damageModifiers": [
                 {
                     "name": "pow",

@@ -222,7 +222,7 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 4,
+            "cooldown": 3,
             "name": "Meteor Shower",
             "soulAcquire": 2,
             "description": "Attacks all enemies with Meteor Shower of Light and recovers the Health of all allies. Healing increases proportional to the ally's max Health.",
@@ -363,10 +363,10 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Extends buff duration by 1 turn.",
             "awakenUpgrade": true,
-            "cooldown": 6,
+            "cooldown": 5,
             "name": "Light's Protection",
             "soulAcquire": 1,
-            "description": "Increases Attack and Defense of all allies for 2 turns with buffing magic.",
+            "description": "Recovers Health and increases Attack and Defense of all allies for 2 turns with strengthening magic. Amount recovered increases proportional to the target's max Health.",
             "enhancement": [
                 {
                     "description": "+2 Soul acquired",

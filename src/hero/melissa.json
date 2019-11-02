@@ -1,39 +1,26 @@
 {
-    "gameId": "c2010",
-    "name": "Champion Zerato",
-    "surname": "",
-    "rarity": 4,
+    "gameId": "",
+    "name": "Melissa (preview)",
+    "rarity": 5,
     "classType": "mage",
-    "element": "dark",
-    "zodiac": "aries",
+    "element": "fire",
+    "zodiac": "leo",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "Incredibly skilled in fighting, Champion Zerato boasts a flawless win streak, largely thanks to his refusal to fight anyone he may be at risk of losing to. Frost Mage Zerato has been trying to pick a fight with him for a long time, but Champion Zerato keeps making excuses to avoid it.",
+    "background": "A Vampire who dreams of revenge after losing everything. Originally the eldest daughter of a noble family, she fell in love with a Vampire she met at a ball and soon became a Vampire herself. After a long separation following an ambush, she was enraged to discover her love had betrayed her. Though he had since died, that won't stop her exacting her revenge on his son.",
     "relations": [
         {
-            "hero": "dingo",
-            "relationType": "rival"
-        },
-        {
-            "hero": "sven",
-            "relationType": "rival"
-        },
-        {
-            "hero": "dominiel",
-            "relationType": "rival"
-        },
-        {
-            "hero": "cidd",
-            "relationType": "rival"
+            "hero": "",
+            "relationType": ""
         }
     ],
     "stats": {
         "lv1BaseStarNoAwaken": {
-            "cp": 1316,
-            "atk": 90,
-            "hp": 244,
-            "spd": 104,
-            "def": 74,
+            "cp": 1451,
+            "atk": 110,
+            "hp": 229,
+            "spd": 106,
+            "def": 80,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -41,11 +28,11 @@
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
-            "cp": 11401,
-            "atk": 764,
-            "hp": 3431,
-            "spd": 104,
-            "def": 506,
+            "cp": 11710,
+            "atk": 880,
+            "hp": 3045,
+            "spd": 106,
+            "def": 520,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -53,23 +40,23 @@
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
-            "cp": 13209,
-            "atk": 929,
-            "hp": 3771,
-            "spd": 104,
-            "def": 506,
-            "chc": 0.19,
+            "cp": 13169,
+            "atk": 1079,
+            "hp": 3385,
+            "spd": 112,
+            "def": 520,
+            "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.18,
+            "eff": 0,
             "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
-            "cp": 14211,
-            "atk": 952,
-            "hp": 4313,
-            "spd": 104,
-            "def": 627,
+            "cp": 14604,
+            "atk": 1098,
+            "hp": 3828,
+            "spd": 106,
+            "def": 645,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -77,14 +64,14 @@
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
-            "cp": 16974,
-            "atk": 1159,
-            "hp": 4733,
-            "spd": 104,
-            "def": 627,
-            "chc": 0.27,
+            "cp": 16722,
+            "atk": 1412,
+            "hp": 4248,
+            "spd": 112,
+            "def": 645,
+            "chc": 0.15,
             "chd": 1.5,
-            "eff": 0.18,
+            "eff": 0,
             "efr": 0,
             "dac": 0.05
         }
@@ -94,15 +81,15 @@
             "isPassive": false,
             "soulBurn": 0,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
+            "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": false,
             "cooldown": 0,
-            "name": "Earthen Rage",
-            "soulAcquire": 1,
-            "description": "Attacks two enemies including the target with an earthen blast, transferring two debuffs from the caster to the enemy and recovering the caster's Health. Amount recovered increases proportional to the caster's max Health.",
+            "name": "Might",
+            "soulAcquire": 0,
+            "description": "Overpowers the enemy, with a 60% chance to make them unhealable for 1 turn. Damage dealt increases proportional to the caster's lost Health.",
             "enhancement": [
                 {
-                    "description": "+5% damage dealt",
+                    "description": "",
                     "resources": [
                         {
                             "item": "gold",
@@ -115,7 +102,7 @@
                     ]
                 },
                 {
-                    "description": "+5% damage dealt",
+                    "description": "",
                     "resources": [
                         {
                             "item": "gold",
@@ -128,75 +115,178 @@
                     ]
                 },
                 {
-                    "description": "+5% damage dealt",
+                    "description": "",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 9000
+                            "qty": 29000
                         },
                         {
                             "item": "molagora",
                             "qty": 1
                         },
                         {
-                            "item": "path-power-loop",
-                            "qty": 1
+                            "item": "twisted-fang",
+                            "qty": 5
                         }
                     ]
                 },
                 {
-                    "description": "+5% damage dealt",
+                    "description": "",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 18000
+                            "qty": 47000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 3
                         },
                         {
-                            "item": "path-power-loop",
-                            "qty": 2
+                            "item": "twisted-fang",
+                            "qty": 7
                         }
                     ]
                 },
                 {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 28000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "path-power-loop",
-                            "qty": 4
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
+                    "description": "",
                     "resources": [
                         {
                             "item": "gold",
                             "qty": 80000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 5
                         },
                         {
-                            "item": "nightmare-mask",
+                            "item": "blazing-soul",
                             "qty": 2
                         }
                     ]
                 }
             ],
             "buffs": [],
+            "debuffs": [
+                "stic_heal_impossible"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1.1,
+                    "soulburn": 1.1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1.5
+                },
+                {
+                    "name": "self_hp_missing_rate",
+                    "value": 0.0035,
+                    "soulburn": 0.0035
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "((atk_rate * hero_atk)) * (1 + ((self_hp_missing_rate * hero_hp_lost_percent))) * pow! * constant",
+                "value": "((1 * hero_atk)) * (1 + ((0.0035 * hero_hp_lost_percent))) * 1.1 * 1.871",
+                "simplified": "((2.0581 * hero_atk)) * (1 + ((0.0035 * hero_hp_lost_percent)))",
+                "soulburn": "((1.5 * hero_atk)) * (1 + ((0.0035 * hero_hp_lost_percent))) * 1.1 * 1.871",
+                "simplifiedSoulburn": "((3.08715 * hero_atk)) * (1 + ((0.0035 * hero_hp_lost_percent)))"
+            }
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Manifestation",
+            "soulAcquire": 0,
+            "description": "Attacks by unleashing their inner rage, granting immortality to the caster for 1 turn.",
+            "enhancement": [
+                {
+                    "description": "",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 29000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "twisted-fang",
+                            "qty": 5
+                        }
+                    ]
+                },
+                {
+                    "description": "",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 47000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "twisted-fang",
+                            "qty": 7
+                        }
+                    ]
+                },
+                {
+                    "description": "",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 80000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "blazing-soul",
+                            "qty": 2
+                        }
+                    ]
+                }
+            ],
+            "buffs": [
+                "stic_invincible"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {
@@ -206,116 +296,31 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1,
-                    "soulburn": 1
+                    "value": 1.5,
+                    "soulburn": 1.5
                 }
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1 * hero_atk)) * 0.95 * 1.871",
-                "simplified": "((1.7774 * hero_atk))",
-                "soulburn": "((1 * hero_atk)) * 0.95 * 1.871",
-                "simplifiedSoulburn": "((1.7774 * hero_atk))"
-            }
-        },
-        {
-            "isPassive": true,
-            "soulBurn": 0,
-            "selfSkillBarValue": 0,
-            "soulBurnEffect": "",
-            "awakenUpgrade": false,
-            "cooldown": 0,
-            "name": "Iron Will",
-            "soulAcquire": 0,
-            "description": "Immune to stun, sleep, and Decrease Hit Chance. Has a 80% chance to counterattack when attacked while debuffed.",
-            "enhancement": [
-                {
-                    "description": "+5% activation chance",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 9000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
-                            "item": "path-power-loop",
-                            "qty": 1
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% activation chance",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 19000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
-                            "item": "path-power-loop",
-                            "qty": 3
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% activation chance",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 42000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 3
-                        },
-                        {
-                            "item": "nightmare-mask",
-                            "qty": 1
-                        }
-                    ]
-                }
-            ],
-            "buffs": [],
-            "debuffs": [],
-            "damageModifiers": [
-                {
-                    "name": "pow",
-                    "value": 0,
-                    "soulburn": 0
-                },
-                {
-                    "name": "atk_rate",
-                    "value": 0,
-                    "soulburn": 0
-                }
-            ],
-            "simpleDmgMod": {
-                "description": "",
-                "value": "",
-                "simplified": "",
-                "soulburn": "",
-                "simplifiedSoulburn": ""
+                "value": "((1.5 * hero_atk)) * 0.95 * 1.871",
+                "simplified": "((2.6662 * hero_atk))",
+                "soulburn": "((1.5 * hero_atk)) * 0.95 * 1.871",
+                "simplifiedSoulburn": "((2.6662 * hero_atk))"
             }
         },
         {
             "isPassive": false,
-            "soulBurn": 20,
+            "soulBurn": 0,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "Ignores effect resistance.",
+            "soulBurnEffect": "",
             "awakenUpgrade": true,
-            "cooldown": 5,
-            "name": "Cataclysm",
-            "soulAcquire": 3,
-            "description": "Attacks all enemies by slamming rocks, with a 60% chance each to decrease Defense and Attack for 2 turns. Increases Defense of the caster for 2 turns.",
+            "cooldown": 0,
+            "name": "Blood Bloom",
+            "soulAcquire": 0,
+            "description": "Attacks by releasing their pent-up aggression, cursing the enemy for 2 turns, with a critical hit granting the caster an extra turn. This skill is unaffected by elemental disadvantage. Elite or Boss monster cannot be cursed.",
             "enhancement": [
                 {
-                    "description": "+5% damage dealt",
+                    "description": "",
                     "resources": [
                         {
                             "item": "gold",
@@ -328,7 +333,7 @@
                     ]
                 },
                 {
-                    "description": "+5% effect chance",
+                    "description": "",
                     "resources": [
                         {
                             "item": "gold",
@@ -341,80 +346,62 @@
                     ]
                 },
                 {
-                    "description": "-1 turn cooldown",
+                    "description": "",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 9000
+                            "qty": 29000
                         },
                         {
                             "item": "molagora",
                             "qty": 1
                         },
                         {
-                            "item": "path-power-loop",
-                            "qty": 1
+                            "item": "twisted-fang",
+                            "qty": 5
                         }
                     ]
                 },
                 {
-                    "description": "+10% effect chance",
+                    "description": "",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 18000
+                            "qty": 47000
                         },
                         {
                             "item": "molagora",
-                            "qty": 2
+                            "qty": 3
                         },
                         {
-                            "item": "path-power-loop",
-                            "qty": 2
+                            "item": "twisted-fang",
+                            "qty": 7
                         }
                     ]
                 },
                 {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 28000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "path-power-loop",
-                            "qty": 4
-                        }
-                    ]
-                },
-                {
-                    "description": "+15% damage dealt",
+                    "description": "",
                     "resources": [
                         {
                             "item": "gold",
                             "qty": 80000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 5
                         },
                         {
-                            "item": "nightmare-mask",
+                            "item": "blazing-soul",
                             "qty": 2
                         }
                     ]
                 }
             ],
             "buffs": [
-                "stic_def_up"
+                "efct_ex_turn"
             ],
             "debuffs": [
-                "stic_def_dn",
-                "stic_att_dn"
+                "stic_curse"
             ],
             "damageModifiers": [
                 {
@@ -424,58 +411,58 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1,
-                    "soulburn": 1
+                    "value": 1.2,
+                    "soulburn": 1.2
                 }
             ],
             "simpleDmgMod": {
                 "description": "((atk_rate * hero_atk)) * pow! * constant",
-                "value": "((1 * hero_atk)) * 1 * 1.871",
-                "simplified": "((1.871 * hero_atk))",
-                "soulburn": "((1 * hero_atk)) * 1 * 1.871",
-                "simplifiedSoulburn": "((1.871 * hero_atk))"
+                "value": "((1.2 * hero_atk)) * 1 * 1.871",
+                "simplified": "((2.2452 * hero_atk))",
+                "soulburn": "((1.2 * hero_atk)) * 1 * 1.871",
+                "simplifiedSoulburn": "((2.2452 * hero_atk))"
             }
         }
     ],
     "specialtySkill": {
-        "name": "Victory Streak",
-        "description": "He does not want to break his winning streak.",
-        "dispatch": "[Hunt] Category",
-        "enhancement": "Time Required -6%",
+        "name": "",
+        "description": "",
+        "dispatch": [],
+        "enhancement": [],
         "stats": {
-            "command": 30,
-            "charm": 68,
-            "politics": 15
+            "command": 0,
+            "charm": 0,
+            "politics": 0
         }
     },
     "camping": {
         "options": [
-            "heroic-tale",
-            "self-indulgent"
+            "occult",
+            "food-story"
         ],
         "reactions": {
-            "advice": 1,
+            "advice": 0,
             "belief": 0,
-            "bizarre-story": -3,
-            "comforting-cheer": 1,
-            "complain": -4,
-            "criticism": 8,
-            "cute-cheer": 6,
-            "dream": 3,
-            "food-story": 5,
-            "gossip": -1,
-            "happy-memory": 3,
+            "bizarre-story": 0,
+            "comforting-cheer": 0,
+            "complain": 0,
+            "criticism": 0,
+            "cute-cheer": 0,
+            "dream": 0,
+            "food-story": 0,
+            "gossip": 0,
+            "happy-memory": 0,
             "heroic-cheer": 0,
-            "heroic-tale": 7,
-            "horror-story": -2,
+            "heroic-tale": 0,
+            "horror-story": 0,
             "interesting-story": 0,
-            "joyful-memory": 1,
-            "myth": 9,
-            "occult": 5,
-            "reality-check": -3,
-            "sad-memory": -1,
-            "self-indulgent": -1,
-            "unique-comment": 1
+            "joyful-memory": 0,
+            "myth": 0,
+            "occult": 0,
+            "reality-check": 0,
+            "sad-memory": 0,
+            "self-indulgent": 0,
+            "unique-comment": 0
         }
     },
     "memoryImprintFormation": {
@@ -484,55 +471,55 @@
         "east": true,
         "west": true
     },
-    "memoryImprintAttribute": "atk%",
+    "memoryImprintAttribute": "eff%",
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "atk",
+                "type": "eff",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "atk",
-                "increase": 0.024
+                "type": "eff",
+                "increase": 0
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "atk",
-                "increase": 0.036
+                "type": "eff",
+                "increase": 0.048
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "atk",
-                "increase": 0.048
+                "type": "eff",
+                "increase": 0.072
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "atk",
-                "increase": 0.06
+                "type": "eff",
+                "increase": 0.096
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "atk",
-                "increase": 0.072
+                "type": "eff",
+                "increase": 0.12
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "atk",
-                "increase": 0.084
+                "type": "eff",
+                "increase": 0.144
             }
         }
     ],
@@ -542,7 +529,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.06
+                    "spd": 2
                 },
                 {
                     "atk": 20
@@ -553,8 +540,8 @@
             ],
             "resources": [
                 {
-                    "item": "dark-rune",
-                    "qty": 8
+                    "item": "flame-rune",
+                    "qty": 10
                 }
             ]
         },
@@ -563,7 +550,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.04
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -574,11 +561,11 @@
             ],
             "resources": [
                 {
-                    "item": "dark-rune",
-                    "qty": 12
+                    "item": "flame-rune",
+                    "qty": 15
                 },
                 {
-                    "item": "greater-dark-rune",
+                    "item": "greater-flame-rune",
                     "qty": 2
                 }
             ]
@@ -596,12 +583,12 @@
             ],
             "resources": [
                 {
-                    "item": "dark-rune",
-                    "qty": 17
+                    "item": "flame-rune",
+                    "qty": 20
                 },
                 {
-                    "item": "greater-dark-rune",
-                    "qty": 8
+                    "item": "greater-flame-rune",
+                    "qty": 10
                 }
             ]
         },
@@ -621,11 +608,11 @@
             ],
             "resources": [
                 {
-                    "item": "greater-dark-rune",
-                    "qty": 8
+                    "item": "greater-flame-rune",
+                    "qty": 10
                 },
                 {
-                    "item": "epic-dark-rune",
+                    "item": "epic-flame-rune",
                     "qty": 2
                 }
             ]
@@ -635,7 +622,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "eff": 0.12
+                    "spd": 4
                 },
                 {
                     "atk": 30
@@ -646,12 +633,12 @@
             ],
             "resources": [
                 {
-                    "item": "epic-dark-rune",
-                    "qty": 5
+                    "item": "epic-flame-rune",
+                    "qty": 6
                 },
                 {
-                    "item": "blessing-of-orbis",
-                    "qty": 12
+                    "item": "ultra-fang",
+                    "qty": 15
                 }
             ]
         },
@@ -660,7 +647,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "chc": 0.08
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -671,16 +658,16 @@
             ],
             "resources": [
                 {
-                    "item": "epic-dark-rune",
-                    "qty": 8
+                    "item": "epic-flame-rune",
+                    "qty": 10
                 },
                 {
-                    "item": "nightmare-mask",
-                    "qty": 8
+                    "item": "blazing-soul",
+                    "qty": 10
                 }
             ]
         }
     ],
-    "summonQuote": "If you want to know what a genius looks like, eat your heart out.",
-    "description": "An arrogant and impudent supremacist who only cares about strength"
+    "summonQuote": "",
+    "description": ""
 }

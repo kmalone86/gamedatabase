@@ -296,7 +296,7 @@
             "cooldown": 5,
             "name": "Ice Spear",
             "soulAcquire": 2,
-            "description": "Attacks all enemies with a large block of ice, with a 35% chance each to stun for 1 turn and decrease Combat Readiness by 30%.",
+            "description": "Attacks all enemies with a large block of ice, with a 75% chance to stun for 1 turn and a 35% chance to decrease Combat Readiness by 30%.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",

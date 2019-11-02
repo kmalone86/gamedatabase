@@ -216,7 +216,7 @@
             "cooldown": 3,
             "name": "Ominous Thunder",
             "soulAcquire": 2,
-            "description": "Summons ominous thunder to attack all enemies, decreasing Combat Readiness by 20%.",
+            "description": "Summons ominous thunder to attack all enemies, decreasing Combat Readiness by 20%, before decreasing Speed for 2 turns.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt ",
@@ -296,8 +296,12 @@
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": [],
+            "buffs": [
+                "stic_speed_up"
+            ],
+            "debuffs": [
+                "efct_cr_dn"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
@@ -327,7 +331,7 @@
             "cooldown": 5,
             "name": "Nightmare",
             "soulAcquire": 3,
-            "description": "Drops Moon of Nightmare on all enemies, with a 70% chance to decrease Defense for 2 turns and increase Attack of the caster for 2 turns.",
+            "description": "Drops Moon of Nightmare on all enemies, with a 70% chance to decrease Defense for 2 turns, and a 60% (Maximum 75%) chance to put them to sleep for 1 turn, before increasing Attack of the caster for 2 turns.",
             "enhancement": [
                 {
                     "description": "+10% damage dealt",
@@ -411,7 +415,8 @@
                 "stic_att_up"
             ],
             "debuffs": [
-                "stic_def_dn"
+                "stic_def_dn",
+                "stic_sleep"
             ],
             "damageModifiers": [
                 {
