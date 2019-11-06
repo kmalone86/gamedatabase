@@ -1,5 +1,5 @@
 {
-    "name": "Bloody Rose (preview)",
+    "name": "Bloody Rose",
     "rarity": 5,
     "exclusive": [
         "mage"
@@ -22,6 +22,8 @@
             "hp": 416
         }
     },
-    "buffs": [],
+    "buffs": [
+        "stic_eff_up_custom"
+    ],
     "debuffs": []
 }
