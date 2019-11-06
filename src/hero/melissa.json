@@ -1,6 +1,6 @@
 {
     "gameId": "",
-    "name": "Melissa (preview)",
+    "name": "Melissa",
     "rarity": 5,
     "classType": "mage",
     "element": "fire",
@@ -10,8 +10,8 @@
     "background": "A Vampire who dreams of revenge after losing everything. Originally the eldest daughter of a noble family, she fell in love with a Vampire she met at a ball and soon became a Vampire herself. After a long separation following an ambush, she was enraged to discover her love had betrayed her. Though he had since died, that won't stop her exacting her revenge on his son.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "haste",
+            "relationType": "grudge"
         }
     ],
     "stats": {
@@ -79,17 +79,17 @@
     "skills": [
         {
             "isPassive": false,
-            "soulBurn": 0,
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Might",
-            "soulAcquire": 0,
+            "soulAcquire": 1,
             "description": "Overpowers the enemy, with a 60% chance to make them unhealable for 1 turn. Damage dealt increases proportional to the caster's lost Health.",
             "enhancement": [
                 {
-                    "description": "",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
@@ -102,7 +102,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+5% effect chance",
                     "resources": [
                         {
                             "item": "gold",
@@ -115,7 +115,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
@@ -132,7 +132,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+5% effect chance",
                     "resources": [
                         {
                             "item": "gold",
@@ -149,7 +149,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
@@ -201,13 +201,13 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 0,
+            "cooldown": 4,
             "name": "Manifestation",
-            "soulAcquire": 0,
+            "soulAcquire": 1,
             "description": "Attacks by unleashing their inner rage, granting immortality to the caster for 1 turn.",
             "enhancement": [
                 {
-                    "description": "",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
@@ -220,7 +220,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
@@ -233,7 +233,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
@@ -250,7 +250,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
@@ -267,7 +267,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
@@ -314,13 +314,13 @@
             "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": true,
-            "cooldown": 0,
+            "cooldown": 6,
             "name": "Blood Bloom",
-            "soulAcquire": 0,
+            "soulAcquire": 2,
             "description": "Attacks by releasing their pent-up aggression, cursing the enemy for 2 turns, with a critical hit granting the caster an extra turn. This skill is unaffected by elemental disadvantage. Elite or Boss monster cannot be cursed.",
             "enhancement": [
                 {
-                    "description": "",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
@@ -333,7 +333,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+5% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
@@ -346,7 +346,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "-1 turn cooldown",
                     "resources": [
                         {
                             "item": "gold",
@@ -363,7 +363,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
@@ -380,7 +380,7 @@
                     ]
                 },
                 {
-                    "description": "",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
@@ -425,14 +425,14 @@
         }
     ],
     "specialtySkill": {
-        "name": "",
-        "description": "",
+        "name": "Bloody Vengeance",
+        "description": "She will do anything for revenge, no matter how difficult or brutal.",
         "dispatch": [],
         "enhancement": [],
         "stats": {
-            "command": 0,
-            "charm": 0,
-            "politics": 0
+            "command": 87,
+            "charm": 93,
+            "politics": 25
         }
     },
     "camping": {
@@ -441,28 +441,28 @@
             "food-story"
         ],
         "reactions": {
-            "advice": 0,
+            "advice": 1,
             "belief": 0,
-            "bizarre-story": 0,
-            "comforting-cheer": 0,
-            "complain": 0,
-            "criticism": 0,
-            "cute-cheer": 0,
-            "dream": 0,
-            "food-story": 0,
-            "gossip": 0,
-            "happy-memory": 0,
+            "bizarre-story": -3,
+            "comforting-cheer": 1,
+            "complain": -4,
+            "criticism": 8,
+            "cute-cheer": 6,
+            "dream": 3,
+            "food-story": 5,
+            "gossip": -1,
+            "happy-memory": 3,
             "heroic-cheer": 0,
-            "heroic-tale": 0,
-            "horror-story": 0,
+            "heroic-tale": 7,
+            "horror-story": -2,
             "interesting-story": 0,
-            "joyful-memory": 0,
-            "myth": 0,
-            "occult": 0,
-            "reality-check": 0,
-            "sad-memory": 0,
-            "self-indulgent": 0,
-            "unique-comment": 0
+            "joyful-memory": 1,
+            "myth": 9,
+            "occult": 5,
+            "reality-check": -3,
+            "sad-memory": -1,
+            "self-indulgent": -1,
+            "unique-comment": 1
         }
     },
     "memoryImprintFormation": {
@@ -669,5 +669,5 @@
         }
     ],
     "summonQuote": "",
-    "description": ""
+    "description": "A Vampire betrayed by her lover, crossing the ocean to take her revenge"
 }
