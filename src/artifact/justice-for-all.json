@@ -20,5 +20,17 @@
             "atk": 117,
             "hp": 988
         }
-    }
+    },
+    "buffs": [
+        "efct_rnd_buf",
+        "stic_att_up",
+        "stic_def_up",
+        "stic_speed_up",
+        "stic_cri_up",
+        "stic_protect",
+        "stic_debuf_impossible",
+        "stic_heal",
+        "stic_cri_res_up"
+    ],
+    "debuffs": []
 }

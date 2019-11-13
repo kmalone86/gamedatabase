@@ -19,5 +19,9 @@
             "atk": 117,
             "hp": 988
         }
-    }
+    },
+    "buffs": [
+        "stic_rcv_dmg_dn"
+    ],
+    "debuffs": []
 }

@@ -21,5 +21,10 @@
             "atk": 273,
             "hp": 416
         }
-    }
+    },
+    "buffs": [
+        "stic_att_up",
+        "stic_cri_up"
+    ],
+    "debuffs": []
 }

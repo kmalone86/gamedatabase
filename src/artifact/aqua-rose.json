@@ -18,5 +18,9 @@
             "atk": 13,
             "hp": 845
         }
-    }
+    },
+    "buffs": [
+        "stic_protect"
+    ],
+    "debuffs": []
 }

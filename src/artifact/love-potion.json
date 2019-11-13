@@ -19,5 +19,9 @@
             "atk": 91,
             "hp": 819
         }
-    }
+    },
+    "buffs": [
+        "stic_heal_custom"
+    ],
+    "debuffs": []
 }

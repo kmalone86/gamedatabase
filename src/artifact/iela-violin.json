@@ -20,5 +20,9 @@
             "atk": 182,
             "hp": 663
         }
-    }
+    },
+    "buffs": [
+        "efct_dispel"
+    ],
+    "debuffs": []
 }

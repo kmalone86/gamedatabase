@@ -20,5 +20,9 @@
             "atk": 234,
             "hp": 351
         }
-    }
+    },
+    "buffs": [
+        "efct_def_pen"
+    ],
+    "debuffs": []
 }

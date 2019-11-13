@@ -20,5 +20,14 @@
             "atk": 156,
             "hp": 585
         }
-    }
+    },
+    "buffs": [],
+    "debuffs": [
+        "efct_rnd_debuf",
+        "stic_att_dn",
+        "stic_blind",
+        "stic_silence",
+        "stic_sleep",
+        "stic_dot"
+    ]
 }

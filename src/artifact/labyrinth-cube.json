@@ -18,5 +18,9 @@
             "atk": 117,
             "hp": 468
         }
-    }
+    },
+    "buffs": [
+        "efct_cr_up"
+    ],
+    "debuffs": []
 }

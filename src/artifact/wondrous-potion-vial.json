@@ -21,5 +21,9 @@
             "atk": 91,
             "hp": 819
         }
-    }
+    },
+    "buffs": [
+        "efct_cleanse"
+    ],
+    "debuffs": []
 }

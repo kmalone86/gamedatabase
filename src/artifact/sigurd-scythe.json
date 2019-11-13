@@ -20,5 +20,10 @@
             "atk": 273,
             "hp": 416
         }
-    }
+    },
+    "buffs": [
+        "stic_att_up_custom",
+        "stic_vampire"
+    ],
+    "debuffs": []
 }

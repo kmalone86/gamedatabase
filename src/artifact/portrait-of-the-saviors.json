@@ -19,5 +19,9 @@
             "atk": 195,
             "hp": 468
         }
-    }
+    },
+    "buffs": [
+        "stic_dmg_up_custom"
+    ],
+    "debuffs": []
 }

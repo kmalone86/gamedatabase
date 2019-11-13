@@ -20,5 +20,10 @@
             "atk": 52,
             "hp": 351
         }
-    }
+    },
+    "buffs": [
+        "stic_dmg_up_custom",
+        "efct_dual_att"
+    ],
+    "debuffs": []
 }
