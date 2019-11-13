@@ -1,0 +1,680 @@
+{
+    "gameId": "c1086",
+    "name": "Khawana",
+    "rarity": 4,
+    "classType": "thief",
+    "element": "fire",
+    "zodiac": "pisces",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": "Despite being the clever younger sister of the Great Chief, Khawana holds no political ambitions and is instead far more interested in spending quality time with friends and family, collecting interesting things, and experiencing new cultures.",
+    "relations": [
+        {
+            "hero": "",
+            "relationType": ""
+        }
+    ],
+    "stats": {
+        "lv1BaseStarNoAwaken": {
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarNoAwaken": {
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 0,
+            "atk": 0,
+            "hp": 0,
+            "spd": 0,
+            "def": 0,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        }
+    },
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": true,
+            "cooldown": 0,
+            "name": "Hey There!",
+            "soulAcquire": 1,
+            "description": "Attacks the enemy with sharp sickles, with a 35% chance each to inflict two bleeding effects for 2 turns. If the enemy is debuffed after the attack, additional damage is inflicted.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 9000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "strange-jelly",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 23000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "strange-jelly",
+                            "qty": 3
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 80000
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "ancient-creature-nucleus",
+                            "qty": 2
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [
+                "stic_blood"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "target_debuff_rate",
+                    "description": "If the enemy is debuffed after the attack, additional damage is inflicted.",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 4,
+            "name": "Casual Introduction",
+            "soulAcquire": 2,
+            "description": "Attacks all enemies with a flame guardian, increasing Attack of all allies for 2 turns. When all allies are Fire elemental Heroes, grants all allies skill nullifier once.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 9000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "strange-jelly",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 23000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "strange-jelly",
+                            "qty": 3
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 80000
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "ancient-creature-nucleus",
+                            "qty": 2
+                        }
+                    ]
+                }
+            ],
+            "buffs": [
+                "stic_att_up",
+                "stic_sk_null"
+            ],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 10,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Increases damage dealt.",
+            "awakenUpgrade": false,
+            "cooldown": 5,
+            "name": "Rough Welcome",
+            "soulAcquire": 2,
+            "description": "Attacks the enemy with a flame guardian, stunning for 1 turn before dispelling two buffs. Increases damage dealt when all allies are Fire elemental Heroes.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 9000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "strange-jelly",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 23000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "strange-jelly",
+                            "qty": 3
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 80000
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "ancient-creature-nucleus",
+                            "qty": 2
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [
+                "stic_stun",
+                "efct_dispel"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "skill_dmg_rate",
+                    "description": "Increases damage dealt when all allies are Fire elemental Heroes.",
+                    "value": 0,
+                    "soulburn": 0
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
+        }
+    ],
+    "specialtySkill": {
+        "name": "Stay Positive!",
+        "description": "She solves many problems with her positive attitude and constant hard work.",
+        "dispatch": [],
+        "enhancement": [],
+        "stats": {
+            "command": 70,
+            "charm": 90,
+            "politics": 75
+        }
+    },
+    "camping": {
+        "options": [
+            "",
+            ""
+        ],
+        "reactions": {
+            "advice": 0,
+            "belief": 0,
+            "bizarre-story": 0,
+            "comforting-cheer": 0,
+            "complain": 0,
+            "criticism": 0,
+            "cute-cheer": 0,
+            "dream": 0,
+            "food-story": 0,
+            "gossip": 0,
+            "happy-memory": 0,
+            "heroic-cheer": 0,
+            "heroic-tale": 0,
+            "horror-story": 0,
+            "interesting-story": 0,
+            "joyful-memory": 0,
+            "myth": 0,
+            "occult": 0,
+            "reality-check": 0,
+            "sad-memory": 0,
+            "self-indulgent": 0,
+            "unique-comment": 0
+        }
+    },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
+    },
+    "memoryImprintAttribute": "hp%",
+    "memoryImprint": [
+        {
+            "rank": "d",
+            "status": {
+                "type": "hp",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "c",
+            "status": {
+                "type": "hp",
+                "increase": 0.024
+            }
+        },
+        {
+            "rank": "b",
+            "status": {
+                "type": "hp",
+                "increase": 0.036
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "hp",
+                "increase": 0.048
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "hp",
+                "increase": 0.06
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "hp",
+                "increase": 0.072
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "hp",
+                "increase": 0.084
+            }
+        }
+    ],
+    "awakening": [
+        {
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "flame-rune",
+                    "qty": 8
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "flame-rune",
+                    "qty": 12
+                },
+                {
+                    "item": "greater-flame-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "flame-rune",
+                    "qty": 17
+                },
+                {
+                    "item": "greater-flame-rune",
+                    "qty": 8
+                }
+            ]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-flame-rune",
+                    "qty": 8
+                },
+                {
+                    "item": "epic-flame-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-flame-rune",
+                    "qty": 5
+                },
+                {
+                    "item": "blood-flaked-bone",
+                    "qty": 12
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "": 0
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-flame-rune",
+                    "qty": 8
+                },
+                {
+                    "item": "ancient-creature-nucleus",
+                    "qty": 8
+                }
+            ]
+        }
+    ],
+    "summonQuote": "",
+    "description": "A curious and cheerful adventurer from Meldrec"
+}
