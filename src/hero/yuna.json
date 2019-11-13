@@ -111,7 +111,7 @@
             "cooldown": 0,
             "name": "Homing Laser",
             "soulAcquire": 1,
-            "description": "Attacks all enemies with a drone, increasing the caster's Combat Readiness by 6% per target, and increasing Combat Readiness of all allies except for the caster by 2%. Damage dealt increases proportional to the caster's Speed. When there are less than 3 enemies, damage dealt increases with fewer enemies.",
+            "description": "Attacks all enemies with a drone, increasing Combat Readiness of the caster by 6% per target and all other allies by 2% per target. Damage dealt increases proportional to the caster's Speed. When there are three or fewer enemies, damage dealt increases with fewer enemies.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
