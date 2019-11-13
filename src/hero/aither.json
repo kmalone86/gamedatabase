@@ -278,7 +278,10 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_cr_up",
+                "efct_cleanse"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {

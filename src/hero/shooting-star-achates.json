@@ -267,7 +267,15 @@
                 }
             ],
             "buffs": [
-                "stic_immortality"
+                "efct_rnd_buf",
+                "stic_att_up",
+                "stic_speed_up",
+                "stic_cri_up",
+                "stic_heal",
+                "stic_def_up",
+                "stic_protect",
+                "stic_dodge_up",
+                "stic_debuf_impossible"
             ],
             "debuffs": [],
             "damageModifiers": [

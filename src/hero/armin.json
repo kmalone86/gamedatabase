@@ -425,7 +425,8 @@
                 }
             ],
             "buffs": [
-                "stic_protect"
+                "stic_protect",
+                "stic_rcv_dmg_dn"
             ],
             "debuffs": [],
             "damageModifiers": [

@@ -198,7 +198,8 @@
             ],
             "buffs": [],
             "debuffs": [
-                "stic_sign"
+                "stic_sign",
+                "efct_cr_dn"
             ],
             "damageModifiers": [
                 {

@@ -284,7 +284,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_cr_up"
+            ],
             "debuffs": [
                 "stic_stun"
             ],
@@ -397,7 +399,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_cd_dn"
+            ],
             "debuffs": [
                 "efct_extinct",
                 "efct_def_pen"

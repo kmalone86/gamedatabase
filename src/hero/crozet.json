@@ -429,7 +429,8 @@
             ],
             "buffs": [],
             "debuffs": [
-                "stic_provoke"
+                "stic_provoke",
+                "efct_cr_dn"
             ],
             "damageModifiers": [
                 {

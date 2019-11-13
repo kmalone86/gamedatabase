@@ -271,7 +271,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_ex_turn"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {

@@ -183,7 +183,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_cr_up"
+            ],
             "debuffs": [
                 "stic_sleep"
             ],
@@ -296,11 +298,10 @@
                     ]
                 }
             ],
-            "buffs": [
-                "stic_speed_up"
-            ],
+            "buffs": [],
             "debuffs": [
-                "efct_cr_dn"
+                "efct_cr_dn",
+                "stic_speed_dn"
             ],
             "damageModifiers": [
                 {

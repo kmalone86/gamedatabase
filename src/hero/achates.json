@@ -297,6 +297,7 @@
                 }
             ],
             "buffs": [
+                "efct_cd_dn",
                 "stic_invincible"
             ],
             "debuffs": [],
@@ -409,7 +410,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_cleanse"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {

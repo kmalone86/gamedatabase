@@ -417,7 +417,8 @@
             ],
             "buffs": [
                 "stic_speed_up",
-                "stic_heal"
+                "stic_heal",
+                "efct_cr_up"
             ],
             "debuffs": [],
             "damageModifiers": [

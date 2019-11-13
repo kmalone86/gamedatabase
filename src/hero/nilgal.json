@@ -108,7 +108,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "stic_dot"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
@@ -210,7 +212,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "efct_debuf_extn"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",

@@ -287,7 +287,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_counter"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {
@@ -318,7 +320,7 @@
             "cooldown": 4,
             "name": "Ram",
             "soulAcquire": 2,
-            "description": "Punches the enemy, with an 85% chance to stun for 2.",
+            "description": "Punches the enemy, with an 85% chance to stun for 2 turns.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",

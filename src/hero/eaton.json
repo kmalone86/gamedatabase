@@ -284,7 +284,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_share_dmg"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {

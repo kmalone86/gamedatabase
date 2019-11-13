@@ -291,7 +291,10 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_ex_turn",
+                "efct_cd_dn"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {
@@ -422,7 +425,8 @@
             "buffs": [],
             "debuffs": [
                 "stic_def_dn",
-                "stic_buf_impossible"
+                "stic_buf_impossible",
+                "efct_dispel"
             ],
             "damageModifiers": [
                 {

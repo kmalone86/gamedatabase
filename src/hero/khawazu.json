@@ -262,7 +262,8 @@
                 }
             ],
             "buffs": [
-                "stic_att_up"
+                "stic_att_up",
+                "efct_cleanse"
             ],
             "debuffs": [],
             "damageModifiers": [

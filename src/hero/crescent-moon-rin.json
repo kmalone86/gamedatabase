@@ -172,14 +172,14 @@
                 }
             ],
             "buffs": [
-                "stic_att_up",
-                "stic_speed_up",
+                "efct_rnd_buf",
+                "stic_att_up2",
+                "stic_def_up",
                 "stic_cri_up",
                 "stic_cridmg_up",
-                "stic_def_up",
-                "stic_protect",
-                "stic_dodge_up",
-                "stic_debuf_impossible"
+                "stic_debuf_impossible",
+                "stic_heal",
+                "stic_dodge_up"
             ],
             "debuffs": [],
             "damageModifiers": [
@@ -291,7 +291,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_steal"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {
@@ -403,9 +405,12 @@
                 }
             ],
             "buffs": [
-                "stic_debuf_impossible"
+                "stic_debuf_impossible",
+                "efct_ex_turn"
             ],
-            "debuffs": [],
+            "debuffs": [
+                "efct_dispel"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",

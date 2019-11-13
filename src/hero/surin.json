@@ -398,8 +398,13 @@
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": [],
+            "buffs": [
+                "efct_cr_up"
+            ],
+            "debuffs": [
+                "efct_debuf_extn",
+                "efct_detonate"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",

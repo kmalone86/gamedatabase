@@ -351,7 +351,9 @@
             "buffs": [
                 "stic_def_up"
             ],
-            "debuffs": [],
+            "debuffs": [
+                "efct_cr_dn"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
@@ -426,7 +428,9 @@
             "buffs": [
                 "stic_protect"
             ],
-            "debuffs": [],
+            "debuffs": [
+                "efct_def_pen"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",

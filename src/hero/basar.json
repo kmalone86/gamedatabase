@@ -176,7 +176,14 @@
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "efct_trans",
+                "efct_rnd_debuf",
+                "stic_att_dn",
+                "stic_def_dn",
+                "stic_silence",
+                "stic_heal_impossible"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
@@ -402,7 +409,9 @@
             ],
             "buffs": [],
             "debuffs": [
-                "stic_buf_impossible"
+                "stic_buf_impossible",
+                "efct_dispel",
+                "efct_cr_dn"
             ],
             "damageModifiers": [
                 {

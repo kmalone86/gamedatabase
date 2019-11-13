@@ -179,7 +179,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_cr_up"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {
@@ -412,7 +414,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_ex_turn"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {

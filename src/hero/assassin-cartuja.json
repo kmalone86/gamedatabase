@@ -284,7 +284,10 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_cr_up",
+                "stic_dodge_up"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {

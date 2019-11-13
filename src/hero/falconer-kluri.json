@@ -196,7 +196,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_cr_up"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {
@@ -417,7 +419,8 @@
             "buffs": [],
             "debuffs": [
                 "stic_def_dn",
-                "stic_provoke"
+                "stic_provoke",
+                "efct_dispel"
             ],
             "damageModifiers": [
                 {

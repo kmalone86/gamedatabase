@@ -185,7 +185,8 @@
             ],
             "buffs": [],
             "debuffs": [
-                "stic_speed_dn"
+                "stic_speed_dn",
+                "efct_cr_dn"
             ],
             "damageModifiers": [
                 {
@@ -301,7 +302,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_counter"
+            ],
             "debuffs": [
                 "stic_stun"
             ],

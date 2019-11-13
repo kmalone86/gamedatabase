@@ -189,7 +189,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "efct_dispel"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
@@ -273,7 +275,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_rcv_dmg_dn"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {

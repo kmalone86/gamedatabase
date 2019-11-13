@@ -177,7 +177,7 @@
             ],
             "buffs": [],
             "debuffs": [
-                "stic_dodge_dn"
+                "stic_speed_dn"
             ],
             "damageModifiers": [
                 {
@@ -412,7 +412,8 @@
                 }
             ],
             "buffs": [
-                "stic_speed_up"
+                "stic_speed_up",
+                "efct_cr_up"
             ],
             "debuffs": [],
             "damageModifiers": [

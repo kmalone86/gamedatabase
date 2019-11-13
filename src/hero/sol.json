@@ -302,7 +302,11 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_ex_turn",
+                "efct_buf_extn",
+                "stic_counter"
+            ],
             "debuffs": [
                 "stic_silence"
             ],
@@ -422,7 +426,8 @@
             ],
             "buffs": [],
             "debuffs": [
-                "stic_buf_impossible"
+                "stic_buf_impossible",
+                "efct_dispel"
             ],
             "damageModifiers": [
                 {

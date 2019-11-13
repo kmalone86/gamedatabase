@@ -401,7 +401,11 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_ex_turn",
+                "efct_cd_dn",
+                "efct_cleanse"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {

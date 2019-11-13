@@ -288,9 +288,12 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_cr_up"
+            ],
             "debuffs": [
-                "stic_sleep"
+                "stic_sleep",
+                "efct_dispel"
             ],
             "damageModifiers": [
                 {

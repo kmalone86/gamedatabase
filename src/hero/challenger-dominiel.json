@@ -409,7 +409,9 @@
                 }
             ],
             "buffs": [
-                "stic_cri_up"
+                "stic_cri_up",
+                "efct_cr_up",
+                "efct_ex_turn"
             ],
             "debuffs": [],
             "damageModifiers": [

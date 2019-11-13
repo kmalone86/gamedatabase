@@ -288,7 +288,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_cr_up"
+            ],
             "debuffs": [
                 "stic_blood"
             ],
@@ -410,7 +412,9 @@
             "buffs": [
                 "stic_endure"
             ],
-            "debuffs": [],
+            "debuffs": [
+                "efct_extinct"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",

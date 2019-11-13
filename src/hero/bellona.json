@@ -299,7 +299,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_buf_impossible"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {

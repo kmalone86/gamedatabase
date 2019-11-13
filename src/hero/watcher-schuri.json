@@ -203,7 +203,7 @@
             "cooldown": 4,
             "name": "Quickfire",
             "soulAcquire": 2,
-            "description": "Shots all enemies with a rifle, with a 75% chance to dispell one buff. The caster is granted increased speed for 2 turns.",
+            "description": "Shoots all enemies with a rifle, with a 75% chance to dispel one buff. The caster is granted increased speed for 2 turns.",
             "enhancement": [
                 {
                     "description": "+10% damage dealt",
@@ -286,7 +286,9 @@
             "buffs": [
                 "stic_speed_up"
             ],
-            "debuffs": [],
+            "debuffs": [
+                "efct_dispel"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
@@ -396,7 +398,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "efct_def_pen"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",

@@ -198,7 +198,8 @@
             ],
             "buffs": [],
             "debuffs": [
-                "stic_speed_dn"
+                "stic_speed_dn",
+                "efct_detonate"
             ],
             "damageModifiers": [
                 {

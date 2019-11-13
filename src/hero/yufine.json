@@ -288,7 +288,8 @@
                 "stic_speed_up"
             ],
             "debuffs": [
-                "stic_silence"
+                "stic_silence",
+                "efct_dispel"
             ],
             "damageModifiers": [
                 {
@@ -418,7 +419,8 @@
             ],
             "buffs": [],
             "debuffs": [
-                "stic_stun"
+                "stic_stun",
+                "efct_dispel"
             ],
             "damageModifiers": [
                 {

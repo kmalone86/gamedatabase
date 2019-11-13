@@ -296,7 +296,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_madness"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {
@@ -327,7 +329,7 @@
             "cooldown": 4,
             "name": "Hysteric",
             "soulAcquire": 2,
-            "description": "Attacks all enemies by spinning, inflicting bleeding for 2 turns. When the caster is enraged damage dealt is increased and an additional bleeding effect can be stacked.",
+            "description": "Attacks all enemies by spinning, inflicting bleeding for 2 turns. When the caster is enraged, damage dealt is increased and an additional bleeding effect can be stacked.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",

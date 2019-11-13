@@ -291,7 +291,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_rcv_dmg_dn"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {
@@ -321,7 +323,7 @@
             "cooldown": 4,
             "name": "Mana Release",
             "soulAcquire": 2,
-            "description": "Exhales powerful dakrnesss, decreasing Combat Readiness by 25%, and making the enemy unable to be buffed and inflicts Silence for 2 turns.",
+            "description": "Exhales powerful darkness, decreasing Combat Readiness by 25%, making the enemy unable to be buffed, and inflicting Silence for 2 turns.",
             "enhancement": [
                 {
                     "description": "+10% damage dealt",
@@ -404,7 +406,8 @@
             "buffs": [],
             "debuffs": [
                 "stic_buf_impossible",
-                "stic_silence"
+                "stic_silence",
+                "efct_cr_dn"
             ],
             "damageModifiers": [
                 {

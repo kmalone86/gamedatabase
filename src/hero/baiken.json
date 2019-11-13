@@ -179,7 +179,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_cd_dn"
+            ],
             "debuffs": [
                 "stic_blood"
             ],
@@ -292,7 +294,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_ex_turn"
+            ],
             "debuffs": [
                 "stic_blood"
             ],
@@ -405,8 +409,12 @@
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": [],
+            "buffs": [
+                "efct_cr_up"
+            ],
+            "debuffs": [
+                "efct_detonate"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",

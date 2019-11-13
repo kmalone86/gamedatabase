@@ -196,7 +196,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_dual_att"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {
@@ -418,8 +420,13 @@
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": [],
+            "buffs": [
+                "efct_cr_up",
+                "efct_cleanse"
+            ],
+            "debuffs": [
+                "efct_cr_dn"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",

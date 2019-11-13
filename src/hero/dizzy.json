@@ -299,7 +299,10 @@
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "efct_cr_dn",
+                "efct_debuf_extn"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",

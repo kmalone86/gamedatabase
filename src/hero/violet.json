@@ -262,7 +262,12 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_ex_turn",
+                "efct_cleanse",
+                "stic_dodge_up",
+                "stic_counter"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {
@@ -403,7 +408,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_cd_dn"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {

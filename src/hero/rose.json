@@ -296,7 +296,9 @@
                 }
             ],
             "buffs": [
-                "stic_protect"
+                "stic_protect",
+                "efct_cr_up",
+                "efct_cleanse"
             ],
             "debuffs": [],
             "damageModifiers": [
@@ -409,7 +411,8 @@
                 }
             ],
             "buffs": [
-                "stic_att_up"
+                "stic_att_up",
+                "efct_cr_up"
             ],
             "debuffs": [],
             "damageModifiers": [

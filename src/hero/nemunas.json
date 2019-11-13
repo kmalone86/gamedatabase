@@ -197,7 +197,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "efct_cr_dn"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
@@ -339,7 +341,8 @@
             ],
             "buffs": [],
             "debuffs": [
-                "stic_blind"
+                "stic_blind",
+                "efct_cr_dn"
             ],
             "damageModifiers": [
                 {
@@ -413,7 +416,8 @@
                 }
             ],
             "buffs": [
-                "stic_att_up"
+                "stic_att_up",
+                "efct_cleanse"
             ],
             "debuffs": [],
             "damageModifiers": [

@@ -336,7 +336,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "efct_debuf_extn"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
@@ -403,8 +405,12 @@
                     ]
                 }
             ],
-            "buffs": [],
-            "debuffs": [],
+            "buffs": [
+                "efct_ex_turn"
+            ],
+            "debuffs": [
+                "efct_debuf_extn"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",

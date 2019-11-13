@@ -290,7 +290,8 @@
                 "stic_speed_up"
             ],
             "debuffs": [
-                "stic_speed_dn"
+                "stic_speed_dn",
+                "efct_cr_dn"
             ],
             "damageModifiers": [
                 {
@@ -405,7 +406,9 @@
                 "stic_att_up",
                 "stic_def_up"
             ],
-            "debuffs": [],
+            "debuffs": [
+                "efct_dispel"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",

@@ -408,7 +408,8 @@
             ],
             "buffs": [],
             "debuffs": [
-                "stic_stun"
+                "stic_stun",
+                "efct_cr_dn"
             ],
             "damageModifiers": [
                 {

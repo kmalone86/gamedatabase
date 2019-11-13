@@ -195,7 +195,9 @@
             "buffs": [
                 "efct_cr_up"
             ],
-            "debuffs": [],
+            "debuffs": [
+                "efct_dispel"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
@@ -419,7 +421,16 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_rnd_buf",
+                "stic_att_up2",
+                "stic_def_up",
+                "stic_cri_up",
+                "stic_cridmg_up",
+                "stic_debuf_impossible",
+                "stic_heal",
+                "stic_dodge_up"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {

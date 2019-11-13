@@ -81,7 +81,9 @@
             "soulAcquire": 0,
             "description": "The item will be at max level when you receive it, and earn a bonus 3% EXP in battle.",
             "enhancement": [],
-            "buffs": [],
+            "buffs": [
+                "stic_exp_up"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {

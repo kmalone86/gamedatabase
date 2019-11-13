@@ -340,7 +340,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "efct_buf_extn"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",

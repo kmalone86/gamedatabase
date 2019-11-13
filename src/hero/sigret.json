@@ -407,7 +407,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "efct_def_pen"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",

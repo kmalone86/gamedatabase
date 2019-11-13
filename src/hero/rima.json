@@ -196,7 +196,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_cd_dn"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {
@@ -407,7 +409,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_cd_dn"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {

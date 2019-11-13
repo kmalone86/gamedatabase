@@ -1,4 +1,4 @@
 {
     "title": "Vampiric Touch",
-    "description": "Absorbs some of the target's Health when attacking"
+    "description": "Recovers 10% of the attacker’s Health when attacking the target"
 }

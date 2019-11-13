@@ -209,7 +209,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_dual_att"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {
@@ -357,7 +359,8 @@
             ],
             "buffs": [],
             "debuffs": [
-                "stic_heal_impossible"
+                "stic_heal_impossible",
+                "efct_buf_reduction"
             ],
             "damageModifiers": [
                 {

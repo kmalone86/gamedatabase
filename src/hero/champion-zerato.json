@@ -197,7 +197,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "efct_trans"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
@@ -281,7 +283,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_counter"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {

@@ -293,7 +293,8 @@
                 }
             ],
             "buffs": [
-                "stic_immortality"
+                "stic_immortality",
+                "efct_cd_dn"
             ],
             "debuffs": [],
             "damageModifiers": [
@@ -423,7 +424,8 @@
                 }
             ],
             "buffs": [
-                "stic_att_up"
+                "stic_att_up",
+                "efct_buf_extn"
             ],
             "debuffs": [],
             "damageModifiers": [

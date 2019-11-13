@@ -195,7 +195,7 @@
             "cooldown": 0,
             "name": "Tailwind",
             "soulAcquire": 0,
-            "description": "80% chance to dispels one debuff inflicted on an ally at the beginning of each turn.",
+            "description": "80% chance to dispel one debuff inflicted on an ally at the beginning of each turn.",
             "enhancement": [
                 {
                     "description": "+5% dispel chance",
@@ -262,7 +262,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_cleanse"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {

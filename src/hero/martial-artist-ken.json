@@ -269,7 +269,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "stic_counter"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {

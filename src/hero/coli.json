@@ -303,7 +303,9 @@
                 "stic_hide",
                 "stic_protect"
             ],
-            "debuffs": [],
+            "debuffs": [
+                "efct_cr_dn"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
@@ -422,7 +424,8 @@
                 "stic_hide"
             ],
             "debuffs": [
-                "stic_stun"
+                "stic_stun",
+                "efct_cr_dn"
             ],
             "damageModifiers": [
                 {

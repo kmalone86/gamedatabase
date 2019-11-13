@@ -263,7 +263,9 @@
                 }
             ],
             "buffs": [
-                "stic_att_up2"
+                "stic_att_up2",
+                "efct_cd_dn",
+                "efct_ex_turn"
             ],
             "debuffs": [],
             "damageModifiers": [
@@ -406,7 +408,9 @@
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "efct_def_pen"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",

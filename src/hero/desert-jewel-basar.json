@@ -400,7 +400,9 @@
                 }
             ],
             "buffs": [
-                "stic_debuf_impossible"
+                "stic_debuf_impossible",
+                "efct_cleanse",
+                "efct_cr_up"
             ],
             "debuffs": [],
             "damageModifiers": [

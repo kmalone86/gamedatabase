@@ -217,7 +217,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_cd_dn"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {
@@ -358,7 +360,9 @@
                     ]
                 }
             ],
-            "buffs": [],
+            "buffs": [
+                "efct_cd_dn"
+            ],
             "debuffs": [],
             "damageModifiers": [
                 {
@@ -410,7 +414,9 @@
                 }
             ],
             "buffs": [
-                "stic_showtime"
+                "stic_showtime",
+                "efct_ex_turn",
+                "efct_cleanse"
             ],
             "debuffs": [],
             "damageModifiers": [

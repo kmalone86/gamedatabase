@@ -365,7 +365,8 @@
             ],
             "buffs": [],
             "debuffs": [
-                "stic_stun"
+                "stic_stun",
+                "efct_cr_dn"
             ],
             "damageModifiers": [
                 {
@@ -439,7 +440,6 @@
                 }
             ],
             "buffs": [
-                "stic_enraged",
                 "efct_ex_turn"
             ],
             "debuffs": [],
