@@ -1,0 +1,664 @@
+{
+    "gameId": "c2046",
+    "name": "Faithless Lidica (preview)",
+    "rarity": 5,
+    "classType": "ranger",
+    "element": "light",
+    "zodiac": "gemini",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": "After being taken into a cult at a young age and enduring a childhood of suffering, Faithless Lidica finally managed to escape and is now on the run. Naturally, this experience has given her a skepticism towards religion and hatred of fanatics.",
+    "relations": [
+        {
+            "hero": "",
+            "relationType": ""
+        }
+    ],
+    "stats": {
+        "lv1BaseStarNoAwaken": {
+            "cp": 1372,
+            "atk": 90,
+            "hp": 292,
+            "spd": 114,
+            "def": 71,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarNoAwaken": {
+            "cp": 11517,
+            "atk": 720,
+            "hp": 3881,
+            "spd": 114,
+            "def": 460,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 13288,
+            "atk": 904,
+            "hp": 4221,
+            "spd": 114,
+            "def": 460,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.18,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 14378,
+            "atk": 898,
+            "hp": 4879,
+            "spd": 114,
+            "def": 571,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 16848,
+            "atk": 1182,
+            "hp": 5299,
+            "spd": 114,
+            "def": 571,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0.18,
+            "efr": 0,
+            "dac": 0.05
+        }
+    },
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Thorn",
+            "soulAcquire": 0,
+            "description": "Attacks with a sword, with a 60% chance to decrease Hit Chance for 1 turn.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 29000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 5
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 47000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 7
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 80000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "fused-nerve",
+                            "qty": 2
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [
+                "stic_blind"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": true,
+            "cooldown": 4,
+            "name": "Larkspur",
+            "soulAcquire": 1,
+            "description": "Binds all enemies with her sword, with a 85% chance to dispel one buff, increasing Combat Readiness of the caster by 25% per target and all other allies by 5% per target. This skill cannot trigger a Dual Attack.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 29000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 5
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 47000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 7
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 80000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "fused-nerve",
+                            "qty": 2
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [
+                "efct_dispel"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0.7,
+                    "soulburn": 0.7
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Ignores Effect Resistance.",
+            "awakenUpgrade": false,
+            "cooldown": 6,
+            "name": "Hysteria",
+            "soulAcquire": 2,
+            "description": "Attacks the enemy indiscriminately, increasing skill cooldown to max.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 29000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 5
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 47000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 7
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 80000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "fused-nerve",
+                            "qty": 2
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.95,
+                    "soulburn": 0.95
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1.4,
+                    "soulburn": 1.4
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
+        }
+    ],
+    "specialtySkill": {
+        "name": "Breaking Free.",
+        "description": "",
+        "dispatch": [],
+        "enhancement": [],
+        "stats": {
+            "command": 0,
+            "charm": 0,
+            "politics": 0
+        }
+    },
+    "camping": {
+        "options": [
+            "sad-memory",
+            "reality-check"
+        ],
+        "reactions": {
+            "advice": 0,
+            "belief": 6,
+            "bizarre-story": -4,
+            "comforting-cheer": -1,
+            "complain": -1,
+            "criticism": 5,
+            "cute-cheer": 2,
+            "dream": 4,
+            "food-story": 1,
+            "gossip": -5,
+            "happy-memory": 2,
+            "heroic-cheer": 2,
+            "heroic-tale": 1,
+            "horror-story": 0,
+            "interesting-story": 2,
+            "joyful-memory": 6,
+            "myth": 0,
+            "occult": 3,
+            "reality-check": -1,
+            "sad-memory": 4,
+            "self-indulgent": 1,
+            "unique-comment": 3
+        }
+    },
+    "memoryImprintFormation": {
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": true
+    },
+    "memoryImprintAttribute": "atk%",
+    "memoryImprint": [
+        {
+            "rank": "d",
+            "status": {
+                "type": "atk",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "c",
+            "status": {
+                "type": "atk",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "b",
+            "status": {
+                "type": "atk",
+                "increase": 0.036
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "atk",
+                "increase": 0.054
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "atk",
+                "increase": 0.072
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "atk",
+                "increase": 0.09
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "atk",
+                "increase": 0.108
+            }
+        }
+    ],
+    "awakening": [
+        {
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "eff": 0.06
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "light-rune",
+                    "qty": 10
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "light-rune",
+                    "qty": 15
+                },
+                {
+                    "item": "greater-light-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "light-rune",
+                    "qty": 20
+                },
+                {
+                    "item": "greater-light-rune",
+                    "qty": 10
+                }
+            ]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-light-rune",
+                    "qty": 10
+                },
+                {
+                    "item": "epic-light-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "eff": 0.12
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-light-rune",
+                    "qty": 6
+                },
+                {
+                    "item": "small-sun-badge",
+                    "qty": 15
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-light-rune",
+                    "qty": 10
+                },
+                {
+                    "item": "fused-nerve",
+                    "qty": 10
+                }
+            ]
+        }
+    ],
+    "summonQuote": "Who am I? Hmm... You're better off not knowing.",
+    "description": "Striving for a new life while on the run"
+}
