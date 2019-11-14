@@ -10,17 +10,29 @@
     "background": "Despite being the clever younger sister of the Great Chief, Khawana holds no political ambitions and is instead far more interested in spending quality time with friends and family, collecting interesting things, and experiencing new cultures.",
     "relations": [
         {
-            "hero": "",
-            "relationType": ""
+            "hero": "ras",
+            "relationType": "friendly"
+        },
+        {
+            "hero": "khawazu",
+            "relationType": "friendly"
+        },
+        {
+            "hero": "straze",
+            "relationType": "hostile"
+        },
+        {
+            "hero": "destina",
+            "relationType": "longing"
         }
     ],
     "stats": {
         "lv1BaseStarNoAwaken": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
+            "cp": 1166,
+            "atk": 76,
+            "hp": 239,
+            "spd": 119,
+            "def": 60,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -28,11 +40,11 @@
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
+            "cp": 10370,
+            "atk": 647,
+            "hp": 3366,
+            "spd": 119,
+            "def": 415,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -40,23 +52,23 @@
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0.15,
+            "cp": 12124,
+            "atk": 767,
+            "hp": 3706,
+            "spd": 123,
+            "def": 415,
+            "chc": 0.19,
             "chd": 1.5,
-            "eff": 0,
+            "eff": 0.18,
             "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
+            "cp": 12945,
+            "atk": 807,
+            "hp": 4233,
+            "spd": 119,
+            "def": 515,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -64,14 +76,14 @@
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
-            "cp": 0,
-            "atk": 0,
-            "hp": 0,
-            "spd": 0,
-            "def": 0,
-            "chc": 0.15,
+            "cp": 15622,
+            "atk": 957,
+            "hp": 4653,
+            "spd": 124,
+            "def": 515,
+            "chc": 0.27,
             "chd": 1.5,
-            "eff": 0,
+            "eff": 0.18,
             "efr": 0,
             "dac": 0.05
         }
@@ -180,12 +192,6 @@
                     "name": "atk_rate",
                     "value": 1,
                     "soulburn": 1
-                },
-                {
-                    "name": "target_debuff_rate",
-                    "description": "If the enemy is debuffed after the attack, additional damage is inflicted.",
-                    "value": 0,
-                    "soulburn": 0
                 }
             ],
             "simpleDmgMod": {
@@ -298,8 +304,8 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1,
-                    "soulburn": 1
+                    "value": 0.9,
+                    "soulburn": 0.9
                 }
             ],
             "simpleDmgMod": {
@@ -412,14 +418,14 @@
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1,
-                    "soulburn": 1
+                    "value": 1.5,
+                    "soulburn": 2
                 },
                 {
                     "name": "skill_dmg_rate",
                     "description": "Increases damage dealt when all allies are Fire elemental Heroes.",
-                    "value": 0,
-                    "soulburn": 0
+                    "value": 0.35,
+                    "soulburn": 0.25
                 }
             ],
             "simpleDmgMod": {
@@ -434,8 +440,8 @@
     "specialtySkill": {
         "name": "Stay Positive!",
         "description": "She solves many problems with her positive attitude and constant hard work.",
-        "dispatch": [],
-        "enhancement": [],
+        "dispatch": "[Explore] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
             "command": 70,
             "charm": 90,
@@ -444,32 +450,32 @@
     },
     "camping": {
         "options": [
-            "",
-            ""
+            "joyful-memory",
+            "cute-cheer"
         ],
         "reactions": {
-            "advice": 0,
-            "belief": 0,
-            "bizarre-story": 0,
-            "comforting-cheer": 0,
-            "complain": 0,
+            "advice": 2,
+            "belief": 3,
+            "bizarre-story": -1,
+            "comforting-cheer": 2,
+            "complain": 3,
             "criticism": 0,
-            "cute-cheer": 0,
-            "dream": 0,
-            "food-story": 0,
-            "gossip": 0,
-            "happy-memory": 0,
-            "heroic-cheer": 0,
-            "heroic-tale": 0,
-            "horror-story": 0,
-            "interesting-story": 0,
-            "joyful-memory": 0,
-            "myth": 0,
-            "occult": 0,
+            "cute-cheer": 4,
+            "dream": 4,
+            "food-story": 4,
+            "gossip": -1,
+            "happy-memory": 4,
+            "heroic-cheer": 5,
+            "heroic-tale": 3,
+            "horror-story": 1,
+            "interesting-story": 3,
+            "joyful-memory": 7,
+            "myth": 1,
+            "occult": 1,
             "reality-check": 0,
-            "sad-memory": 0,
-            "self-indulgent": 0,
-            "unique-comment": 0
+            "sad-memory": 2,
+            "self-indulgent": 1,
+            "unique-comment": 3
         }
     },
     "memoryImprintFormation": {
@@ -536,7 +542,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "eff": 0.06
                 },
                 {
                     "atk": 20
@@ -557,7 +563,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.04
                 },
                 {
                     "atk": 20
@@ -604,7 +610,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "spd": 4
                 },
                 {
                     "atk": 30
@@ -629,7 +635,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "eff": 0.12
                 },
                 {
                     "atk": 30
@@ -654,7 +660,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "": 0
+                    "chc": 0.08
                 },
                 {
                     "atk": 30
