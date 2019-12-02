@@ -1,51 +1,26 @@
 {
-    "gameId": "c1030",
-    "name": "Yuna",
-    "surname": "Woo",
+    "gameId": "c2046",
+    "name": "Faithless Lidica (preview)",
     "rarity": 5,
     "classType": "ranger",
-    "element": "ice",
-    "zodiac": "leo",
+    "element": "light",
+    "zodiac": "gemini",
     "specialtyChangeName": "",
-    "selfSkillBarName": "focus",
-    "background": "President of the Reingar Student Council and the chosen Heir by the Guardian, Kazran. Yuna is a high school girl who was summoned into this world. She is full of curiosity and obsessed with technology, constantly running experiments.",
+    "selfSkillBarName": "",
+    "background": "After being taken into a cult at a young age and enduring a childhood of suffering, Faithless Lidica finally managed to escape and is now on the run. Naturally, this experience has given her a skepticism towards religion and hatred of fanatics.",
     "relations": [
         {
-            "hero": "ras",
-            "relationType": "love"
-        },
-        {
-            "hero": "tenebria",
-            "relationType": "hostile"
-        },
-        {
-            "hero": "judith",
-            "relationType": "friendly"
-        },
-        {
-            "hero": "hazel",
-            "relationType": "friendly"
-        },
-        {
-            "hero": "karin",
-            "relationType": "friendly"
-        },
-        {
-            "hero": "rikoris",
-            "relationType": "friendly"
-        },
-        {
-            "hero": "tamarinne",
-            "relationType": "friendly"
+            "hero": "",
+            "relationType": ""
         }
     ],
     "stats": {
         "lv1BaseStarNoAwaken": {
-            "cp": 1370,
-            "atk": 92,
-            "hp": 307,
-            "spd": 112,
-            "def": 69,
+            "cp": 1372,
+            "atk": 90,
+            "hp": 292,
+            "spd": 114,
+            "def": 71,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -53,11 +28,11 @@
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
-            "cp": 11624,
-            "atk": 742,
-            "hp": 4074,
-            "spd": 112,
-            "def": 446,
+            "cp": 11517,
+            "atk": 720,
+            "hp": 3881,
+            "spd": 114,
+            "def": 460,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -65,23 +40,23 @@
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
-            "cp": 13356,
-            "atk": 928,
-            "hp": 4536,
-            "spd": 112,
-            "def": 446,
-            "chc": 0.23,
+            "cp": 13288,
+            "atk": 904,
+            "hp": 4221,
+            "spd": 114,
+            "def": 460,
+            "chc": 0.15,
             "chd": 1.5,
-            "eff": 0,
+            "eff": 0.18,
             "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
-            "cp": 14507,
-            "atk": 925,
-            "hp": 5122,
-            "spd": 112,
-            "def": 553,
+            "cp": 14378,
+            "atk": 898,
+            "hp": 4879,
+            "spd": 114,
+            "def": 571,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -89,14 +64,14 @@
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
-            "cp": 16976,
-            "atk": 1158,
-            "hp": 6002,
-            "spd": 112,
-            "def": 553,
-            "chc": 0.23,
+            "cp": 16848,
+            "atk": 1182,
+            "hp": 5299,
+            "spd": 114,
+            "def": 571,
+            "chc": 0.15,
             "chd": 1.5,
-            "eff": 0,
+            "eff": 0.18,
             "efr": 0,
             "dac": 0.05
         }
@@ -104,14 +79,14 @@
     "skills": [
         {
             "isPassive": false,
-            "soulBurn": 10,
-            "selfSkillBarValue": 1,
-            "soulBurnEffect": "Increases damage dealt.",
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
             "awakenUpgrade": false,
             "cooldown": 0,
-            "name": "Homing Laser",
-            "soulAcquire": 1,
-            "description": "Attacks all enemies with a drone, increasing Combat Readiness of the caster by 6% per target and all other allies by 2% per target. Damage dealt increases proportional to the caster's Speed. When there are three or fewer enemies, damage dealt increases with fewer enemies.",
+            "name": "Thorn",
+            "soulAcquire": 0,
+            "description": "Attacks with a sword, with a 60% chance to decrease Hit Chance for 1 turn.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -127,7 +102,7 @@
                     ]
                 },
                 {
-                    "description": "+5% damage dealt",
+                    "description": "+5% effect chance",
                     "resources": [
                         {
                             "item": "gold",
@@ -140,53 +115,36 @@
                     ]
                 },
                 {
-                    "description": "+5% damage dealt",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 14000
+                            "qty": 29000
                         },
                         {
                             "item": "molagora",
                             "qty": 1
                         },
                         {
-                            "item": "twisted-fang",
-                            "qty": 2
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 28000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 2
-                        },
-                        {
-                            "item": "twisted-fang",
-                            "qty": 4
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 45000
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "twisted-fang",
+                            "item": "ring-of-glory",
                             "qty": 5
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 47000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 7
                         }
                     ]
                 },
@@ -198,124 +156,30 @@
                             "qty": 80000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "blazing-soul",
-                            "qty": 2
-                        }
-                    ]
-                }
-            ],
-            "buffs": [
-                "efct_cr_up"
-            ],
-            "debuffs": [],
-            "damageModifiers": [
-                {
-                    "name": "pow",
-                    "value": 0.8,
-                    "soulburn": 0.8
-                },
-                {
-                    "name": "atk_rate",
-                    "value": 0.6,
-                    "soulburn": 0.85
-                },
-                {
-                    "name": "spd_rate",
-                    "value": 0.00075,
-                    "soulburn": 0.00075
-                },
-                {
-                    "name": "targets_rate",
-                    "description": "Increased damage based number of targets.",
-                    "value": [
-                        0,
-                        1.6,
-                        1.4,
-                        0,
-                        0
-                    ],
-                    "soulburn": [
-                        0,
-                        1.6,
-                        1.4,
-                        0,
-                        0
-                    ]
-                }
-            ],
-            "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * (1 + ((spd_rate * hero_spd) + targets_rate)) * pow! * constant",
-                "value": "((0.6 * hero_atk)) * (1 + ((0.00075 * hero_spd) + ([0, 1.6, 1.4, 0, 0]))) * 0.8 * 1.871",
-                "simplified": "((0.8981 * hero_atk)) * (1 + ((0.00075 * hero_spd) + ([0, 1.6, 1.4, 0, 0])))",
-                "soulburn": "((0.85 * hero_atk)) * (1 + ((0.00075 * hero_spd) + ([0, 1.6, 1.4, 0, 0]))) * 0.8 * 1.871",
-                "simplifiedSoulburn": "((1.2723 * hero_atk)) * (1 + ((0.00075 * hero_spd) + ([0, 1.6, 1.4, 0, 0])))"
-            }
-        },
-        {
-            "isPassive": false,
-            "soulBurn": 0,
-            "selfSkillBarValue": 2,
-            "soulBurnEffect": "",
-            "awakenUpgrade": true,
-            "cooldown": 4,
-            "name": "Upgrade",
-            "soulAcquire": 1,
-            "description": "Buffs all allies with a drone and increases Attack and speed for 2 turns.",
-            "enhancement": [
-                {
-                    "description": "+2 Soul acquired",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 29000
-                        },
-                        {
                             "item": "molagora",
-                            "qty": 1
-                        },
-                        {
-                            "item": "twisted-fang",
                             "qty": 5
-                        }
-                    ]
-                },
-                {
-                    "description": "-1 turn cooldown",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 80000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "blazing-soul",
+                            "item": "fused-nerve",
                             "qty": 2
                         }
                     ]
                 }
             ],
-            "buffs": [
-                "stic_att_up",
-                "stic_speed_up"
+            "buffs": [],
+            "debuffs": [
+                "stic_blind"
             ],
-            "debuffs": [],
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0,
-                    "soulburn": 0
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0,
-                    "soulburn": 0
+                    "value": 1,
+                    "soulburn": 1
                 }
             ],
             "simpleDmgMod": {
@@ -329,13 +193,126 @@
         {
             "isPassive": false,
             "soulBurn": 0,
-            "selfSkillBarValue": -5,
+            "selfSkillBarValue": 0,
             "soulBurnEffect": "",
+            "awakenUpgrade": true,
+            "cooldown": 4,
+            "name": "Larkspur",
+            "soulAcquire": 1,
+            "description": "Binds all enemies with her sword, with a 85% chance to dispel one buff, increasing Combat Readiness of the caster by 25% per target and all other allies by 5% per target. This skill cannot trigger a Dual Attack.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 29000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 5
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% effect chance",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 47000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 7
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 80000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 5
+                        },
+                        {
+                            "item": "fused-nerve",
+                            "qty": 2
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [
+                "efct_dispel"
+            ],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0.7,
+                    "soulburn": 0.7
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Ignores Effect Resistance.",
             "awakenUpgrade": false,
-            "cooldown": 0,
-            "name": "Meteor Cannon",
-            "soulAcquire": 3,
-            "description": "Attacks all enemies with an enormous and powerful cannon, inflicting huge damage. Always activates a critical hit. When there are less than 3 enemies, damage dealt increases with fewer enemies.",
+            "cooldown": 6,
+            "name": "Hysteria",
+            "soulAcquire": 2,
+            "description": "Attacks the enemy indiscriminately, increasing skill cooldown to max.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -364,32 +341,19 @@
                     ]
                 },
                 {
-                    "description": "+5% damage dealt",
+                    "description": "-1 turn cooldown",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 4000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 1
-                        }
-                    ]
-                },
-                {
-                    "description": "+5% damage dealt",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 19000
+                            "qty": 29000
                         },
                         {
                             "item": "molagora",
                             "qty": 1
                         },
                         {
-                            "item": "twisted-fang",
-                            "qty": 3
+                            "item": "ring-of-glory",
+                            "qty": 5
                         }
                     ]
                 },
@@ -398,49 +362,32 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 32000
+                            "qty": 47000
                         },
                         {
                             "item": "molagora",
                             "qty": 3
                         },
                         {
-                            "item": "twisted-fang",
-                            "qty": 4
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 55000
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "twisted-fang",
+                            "item": "ring-of-glory",
                             "qty": 7
                         }
                     ]
                 },
                 {
-                    "description": "+10% damage dealt",
+                    "description": "+15% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 110000
+                            "qty": 80000
                         },
                         {
-                            "item": "molagorago",
-                            "qty": 1
+                            "item": "molagora",
+                            "qty": 5
                         },
                         {
-                            "item": "blazing-soul",
-                            "qty": 3
+                            "item": "fused-nerve",
+                            "qty": 2
                         }
                     ]
                 }
@@ -450,140 +397,147 @@
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.8,
-                    "soulburn": 0.8
+                    "value": 0.95,
+                    "soulburn": 0.95
                 },
                 {
                     "name": "atk_rate",
-                    "value": 1.5,
-                    "soulburn": 1.5
-                },
-                {
-                    "name": "skill_dmg_rate",
-                    "description": "Increased damage based number of targets.",
-                    "value": [
-                        1.6,
-                        1.4,
-                        0
-                    ],
-                    "soulburn": [
-                        1.6,
-                        1.4,
-                        0
-                    ]
+                    "value": 1.4,
+                    "soulburn": 1.4
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * (1 + ((skill_dmg_rate * hero_special_count))) * pow! * constant",
-                "value": "((1.5 * hero_atk)) * (1 + (([1.6, 1.4, 0] * hero_special_count))) * 0.8 * 1.871",
-                "simplified": "((2.2452 * hero_atk)) * (1 + (([1.6, 1.4, 0] * hero_special_count)))",
-                "soulburn": "((1.5 * hero_atk)) * (1 + (([1.6, 1.4, 0] * hero_special_count))) * 0.8 * 1.871",
-                "simplifiedSoulburn": "((2.2452 * hero_atk)) * (1 + (([1.6, 1.4, 0] * hero_special_count)))"
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
             }
         }
     ],
     "specialtySkill": {
-        "name": "Lovely Machinery",
-        "description": "She understands machinery well based on her strong affection towards it.",
-        "dispatch": "[Barren Land] Attribute",
-        "enhancement": "Reward Bonus +10%",
+        "name": "Breaking Free.",
+        "description": "",
+        "dispatch": [],
+        "enhancement": [],
         "stats": {
-            "command": 71,
-            "charm": 77,
-            "politics": 68
+            "command": 0,
+            "charm": 0,
+            "politics": 0
         }
     },
     "camping": {
         "options": [
-            "bizarre-story",
-            "complain"
+            "sad-memory",
+            "reality-check"
         ],
         "reactions": {
-            "advice": 3,
-            "belief": 1,
-            "bizarre-story": 2,
-            "comforting-cheer": 4,
-            "complain": 1,
-            "criticism": 2,
-            "cute-cheer": 4,
-            "dream": 2,
+            "advice": 0,
+            "belief": 6,
+            "bizarre-story": -4,
+            "comforting-cheer": -1,
+            "complain": -1,
+            "criticism": 5,
+            "cute-cheer": 2,
+            "dream": 4,
             "food-story": 1,
-            "gossip": 4,
+            "gossip": -5,
             "happy-memory": 2,
-            "heroic-cheer": 4,
-            "heroic-tale": 3,
-            "horror-story": -2,
-            "interesting-story": 4,
-            "joyful-memory": 3,
-            "myth": 6,
-            "occult": 4,
-            "reality-check": 2,
-            "sad-memory": -2,
-            "self-indulgent": 7,
-            "unique-comment": -3
+            "heroic-cheer": 2,
+            "heroic-tale": 1,
+            "horror-story": 0,
+            "interesting-story": 2,
+            "joyful-memory": 6,
+            "myth": 0,
+            "occult": 3,
+            "reality-check": -1,
+            "sad-memory": 4,
+            "self-indulgent": 1,
+            "unique-comment": 3
         }
     },
     "memoryImprintFormation": {
-        "north": false,
+        "north": true,
         "south": true,
-        "east": false,
+        "east": true,
         "west": true
     },
-    "memoryImprintAttribute": "hp%",
+    "memoryImprintAttribute": "atk%",
     "memoryImprint": [
         {
             "rank": "d",
             "status": {
-                "type": "hp",
+                "type": "atk",
                 "increase": 0
             }
         },
         {
             "rank": "c",
             "status": {
-                "type": "hp",
+                "type": "atk",
                 "increase": 0
             }
         },
         {
             "rank": "b",
             "status": {
-                "type": "hp",
-                "increase": 0.043
+                "type": "atk",
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
-                "type": "hp",
-                "increase": 0.064
+                "type": "atk",
+                "increase": 0.054
             }
         },
         {
             "rank": "s",
             "status": {
-                "type": "hp",
-                "increase": 0.086
+                "type": "atk",
+                "increase": 0.072
             }
         },
         {
             "rank": "ss",
             "status": {
-                "type": "hp",
-                "increase": 0.107
+                "type": "atk",
+                "increase": 0.09
             }
         },
         {
             "rank": "sss",
             "status": {
-                "type": "hp",
-                "increase": 0.129
+                "type": "atk",
+                "increase": 0.108
             }
         }
     ],
     "awakening": [
         {
             "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "eff": 0.06
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "light-rune",
+                    "qty": 10
+                }
+            ]
+        },
+        {
+            "rank": 2,
             "skillUpgrade": false,
             "statsIncrease": [
                 {
@@ -598,32 +552,11 @@
             ],
             "resources": [
                 {
-                    "item": "frost-rune",
-                    "qty": 10
-                }
-            ]
-        },
-        {
-            "rank": 2,
-            "skillUpgrade": false,
-            "statsIncrease": [
-                {
-                    "hp": 0.03
-                },
-                {
-                    "atk": 20
-                },
-                {
-                    "hp": 60
-                }
-            ],
-            "resources": [
-                {
-                    "item": "frost-rune",
+                    "item": "light-rune",
                     "qty": 15
                 },
                 {
-                    "item": "greater-frost-rune",
+                    "item": "greater-light-rune",
                     "qty": 2
                 }
             ]
@@ -641,42 +574,17 @@
             ],
             "resources": [
                 {
-                    "item": "frost-rune",
+                    "item": "light-rune",
                     "qty": 20
                 },
                 {
-                    "item": "greater-frost-rune",
+                    "item": "greater-light-rune",
                     "qty": 10
                 }
             ]
         },
         {
             "rank": 4,
-            "skillUpgrade": false,
-            "statsIncrease": [
-                {
-                    "chc": 0.08
-                },
-                {
-                    "atk": 30
-                },
-                {
-                    "hp": 80
-                }
-            ],
-            "resources": [
-                {
-                    "item": "greater-frost-rune",
-                    "qty": 10
-                },
-                {
-                    "item": "epic-frost-rune",
-                    "qty": 2
-                }
-            ]
-        },
-        {
-            "rank": 5,
             "skillUpgrade": false,
             "statsIncrease": [
                 {
@@ -691,21 +599,21 @@
             ],
             "resources": [
                 {
-                    "item": "epic-frost-rune",
-                    "qty": 6
+                    "item": "greater-light-rune",
+                    "qty": 10
                 },
                 {
-                    "item": "ultra-fang",
-                    "qty": 15
+                    "item": "epic-light-rune",
+                    "qty": 2
                 }
             ]
         },
         {
-            "rank": 6,
+            "rank": 5,
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": 0.06
+                    "eff": 0.12
                 },
                 {
                     "atk": 30
@@ -716,16 +624,41 @@
             ],
             "resources": [
                 {
-                    "item": "epic-frost-rune",
+                    "item": "epic-light-rune",
+                    "qty": 6
+                },
+                {
+                    "item": "small-sun-badge",
+                    "qty": 15
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "atk": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-light-rune",
                     "qty": 10
                 },
                 {
-                    "item": "blazing-soul",
+                    "item": "fused-nerve",
                     "qty": 10
                 }
             ]
         }
     ],
-    "summonQuote": "Hooray! Yuna is coming!",
-    "description": "President of the Reingar Student Council, the school girl from another world"
+    "summonQuote": "Who am I? Hmm... You're better off not knowing.",
+    "description": "Striving for a new life while on the run"
 }

@@ -1,51 +1,38 @@
 {
-    "gameId": "c1030",
-    "name": "Yuna",
-    "surname": "Woo",
-    "rarity": 5,
-    "classType": "ranger",
-    "element": "ice",
-    "zodiac": "leo",
+    "gameId": "c1086",
+    "name": "Khawana",
+    "rarity": 4,
+    "classType": "thief",
+    "element": "fire",
+    "zodiac": "pisces",
     "specialtyChangeName": "",
-    "selfSkillBarName": "focus",
-    "background": "President of the Reingar Student Council and the chosen Heir by the Guardian, Kazran. Yuna is a high school girl who was summoned into this world. She is full of curiosity and obsessed with technology, constantly running experiments.",
+    "selfSkillBarName": "",
+    "background": "Despite being the clever younger sister of the Great Chief, Khawana holds no political ambitions and is instead far more interested in spending quality time with friends and family, collecting interesting things, and experiencing new cultures.",
     "relations": [
         {
             "hero": "ras",
-            "relationType": "love"
+            "relationType": "friendly"
         },
         {
-            "hero": "tenebria",
+            "hero": "khawazu",
+            "relationType": "friendly"
+        },
+        {
+            "hero": "straze",
             "relationType": "hostile"
         },
         {
-            "hero": "judith",
-            "relationType": "friendly"
-        },
-        {
-            "hero": "hazel",
-            "relationType": "friendly"
-        },
-        {
-            "hero": "karin",
-            "relationType": "friendly"
-        },
-        {
-            "hero": "rikoris",
-            "relationType": "friendly"
-        },
-        {
-            "hero": "tamarinne",
-            "relationType": "friendly"
+            "hero": "destina",
+            "relationType": "longing"
         }
     ],
     "stats": {
         "lv1BaseStarNoAwaken": {
-            "cp": 1370,
-            "atk": 92,
-            "hp": 307,
-            "spd": 112,
-            "def": 69,
+            "cp": 1166,
+            "atk": 76,
+            "hp": 239,
+            "spd": 119,
+            "def": 60,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -53,11 +40,11 @@
             "dac": 0.05
         },
         "lv50FiveStarNoAwaken": {
-            "cp": 11624,
-            "atk": 742,
-            "hp": 4074,
-            "spd": 112,
-            "def": 446,
+            "cp": 10370,
+            "atk": 647,
+            "hp": 3366,
+            "spd": 119,
+            "def": 415,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -65,23 +52,23 @@
             "dac": 0.05
         },
         "lv50FiveStarFullyAwakened": {
-            "cp": 13356,
-            "atk": 928,
-            "hp": 4536,
-            "spd": 112,
-            "def": 446,
-            "chc": 0.23,
+            "cp": 12124,
+            "atk": 767,
+            "hp": 3706,
+            "spd": 123,
+            "def": 415,
+            "chc": 0.19,
             "chd": 1.5,
-            "eff": 0,
+            "eff": 0.18,
             "efr": 0,
             "dac": 0.05
         },
         "lv60SixStarNoAwaken": {
-            "cp": 14507,
-            "atk": 925,
-            "hp": 5122,
-            "spd": 112,
-            "def": 553,
+            "cp": 12945,
+            "atk": 807,
+            "hp": 4233,
+            "spd": 119,
+            "def": 515,
             "chc": 0.15,
             "chd": 1.5,
             "eff": 0,
@@ -89,14 +76,14 @@
             "dac": 0.05
         },
         "lv60SixStarFullyAwakened": {
-            "cp": 16976,
-            "atk": 1158,
-            "hp": 6002,
-            "spd": 112,
-            "def": 553,
-            "chc": 0.23,
+            "cp": 15622,
+            "atk": 957,
+            "hp": 4653,
+            "spd": 124,
+            "def": 515,
+            "chc": 0.27,
             "chd": 1.5,
-            "eff": 0,
+            "eff": 0.18,
             "efr": 0,
             "dac": 0.05
         }
@@ -104,14 +91,14 @@
     "skills": [
         {
             "isPassive": false,
-            "soulBurn": 10,
-            "selfSkillBarValue": 1,
-            "soulBurnEffect": "Increases damage dealt.",
-            "awakenUpgrade": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": true,
             "cooldown": 0,
-            "name": "Homing Laser",
+            "name": "Hey There!",
             "soulAcquire": 1,
-            "description": "Attacks all enemies with a drone, increasing Combat Readiness of the caster by 6% per target and all other allies by 2% per target. Damage dealt increases proportional to the caster's Speed. When there are three or fewer enemies, damage dealt increases with fewer enemies.",
+            "description": "Attacks the enemy with sharp sickles, with a 35% chance each to inflict two bleeding effects for 2 turns. If the enemy is debuffed after the attack, additional damage is inflicted.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -127,7 +114,7 @@
                     ]
                 },
                 {
-                    "description": "+5% damage dealt",
+                    "description": "+5% effect chance",
                     "resources": [
                         {
                             "item": "gold",
@@ -140,53 +127,36 @@
                     ]
                 },
                 {
-                    "description": "+5% damage dealt",
+                    "description": "+10% damage dealt",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 14000
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
                             "qty": 1
                         },
                         {
-                            "item": "twisted-fang",
-                            "qty": 2
+                            "item": "strange-jelly",
+                            "qty": 1
                         }
                     ]
                 },
                 {
-                    "description": "+10% damage dealt",
+                    "description": "+10% effect chance",
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 28000
+                            "qty": 23000
                         },
                         {
                             "item": "molagora",
                             "qty": 2
                         },
                         {
-                            "item": "twisted-fang",
-                            "qty": 4
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 45000
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "twisted-fang",
-                            "qty": 5
+                            "item": "strange-jelly",
+                            "qty": 3
                         }
                     ]
                 },
@@ -202,120 +172,26 @@
                             "qty": 1
                         },
                         {
-                            "item": "blazing-soul",
+                            "item": "ancient-creature-nucleus",
                             "qty": 2
                         }
                     ]
                 }
             ],
-            "buffs": [
-                "efct_cr_up"
+            "buffs": [],
+            "debuffs": [
+                "stic_blood"
             ],
-            "debuffs": [],
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.8,
-                    "soulburn": 0.8
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
-                    "value": 0.6,
-                    "soulburn": 0.85
-                },
-                {
-                    "name": "spd_rate",
-                    "value": 0.00075,
-                    "soulburn": 0.00075
-                },
-                {
-                    "name": "targets_rate",
-                    "description": "Increased damage based number of targets.",
-                    "value": [
-                        0,
-                        1.6,
-                        1.4,
-                        0,
-                        0
-                    ],
-                    "soulburn": [
-                        0,
-                        1.6,
-                        1.4,
-                        0,
-                        0
-                    ]
-                }
-            ],
-            "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * (1 + ((spd_rate * hero_spd) + targets_rate)) * pow! * constant",
-                "value": "((0.6 * hero_atk)) * (1 + ((0.00075 * hero_spd) + ([0, 1.6, 1.4, 0, 0]))) * 0.8 * 1.871",
-                "simplified": "((0.8981 * hero_atk)) * (1 + ((0.00075 * hero_spd) + ([0, 1.6, 1.4, 0, 0])))",
-                "soulburn": "((0.85 * hero_atk)) * (1 + ((0.00075 * hero_spd) + ([0, 1.6, 1.4, 0, 0]))) * 0.8 * 1.871",
-                "simplifiedSoulburn": "((1.2723 * hero_atk)) * (1 + ((0.00075 * hero_spd) + ([0, 1.6, 1.4, 0, 0])))"
-            }
-        },
-        {
-            "isPassive": false,
-            "soulBurn": 0,
-            "selfSkillBarValue": 2,
-            "soulBurnEffect": "",
-            "awakenUpgrade": true,
-            "cooldown": 4,
-            "name": "Upgrade",
-            "soulAcquire": 1,
-            "description": "Buffs all allies with a drone and increases Attack and speed for 2 turns.",
-            "enhancement": [
-                {
-                    "description": "+2 Soul acquired",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 29000
-                        },
-                        {
-                            "item": "molagora",
-                            "qty": 1
-                        },
-                        {
-                            "item": "twisted-fang",
-                            "qty": 5
-                        }
-                    ]
-                },
-                {
-                    "description": "-1 turn cooldown",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 80000
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "blazing-soul",
-                            "qty": 2
-                        }
-                    ]
-                }
-            ],
-            "buffs": [
-                "stic_att_up",
-                "stic_speed_up"
-            ],
-            "debuffs": [],
-            "damageModifiers": [
-                {
-                    "name": "pow",
-                    "value": 0,
-                    "soulburn": 0
-                },
-                {
-                    "name": "atk_rate",
-                    "value": 0,
-                    "soulburn": 0
+                    "value": 1,
+                    "soulburn": 1
                 }
             ],
             "simpleDmgMod": {
@@ -329,13 +205,13 @@
         {
             "isPassive": false,
             "soulBurn": 0,
-            "selfSkillBarValue": -5,
+            "selfSkillBarValue": 0,
             "soulBurnEffect": "",
             "awakenUpgrade": false,
-            "cooldown": 0,
-            "name": "Meteor Cannon",
-            "soulAcquire": 3,
-            "description": "Attacks all enemies with an enormous and powerful cannon, inflicting huge damage. Always activates a critical hit. When there are less than 3 enemies, damage dealt increases with fewer enemies.",
+            "cooldown": 4,
+            "name": "Casual Introduction",
+            "soulAcquire": 2,
+            "description": "Attacks all enemies with a flame guardian, increasing Attack of all allies for 2 turns. When all allies are Fire elemental Heroes, grants all allies skill nullifier once.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -368,6 +244,94 @@
                     "resources": [
                         {
                             "item": "gold",
+                            "qty": 9000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "strange-jelly",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 23000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 2
+                        },
+                        {
+                            "item": "strange-jelly",
+                            "qty": 3
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 80000
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "ancient-creature-nucleus",
+                            "qty": 2
+                        }
+                    ]
+                }
+            ],
+            "buffs": [
+                "stic_att_up",
+                "stic_sk_null"
+            ],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 0.9,
+                    "soulburn": 0.9
+                }
+            ],
+            "simpleDmgMod": {
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
+            }
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 10,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Increases damage dealt.",
+            "awakenUpgrade": false,
+            "cooldown": 5,
+            "name": "Rough Welcome",
+            "soulAcquire": 2,
+            "description": "Attacks the enemy with a flame guardian, stunning for 1 turn before dispelling two buffs. Increases damage dealt when all allies are Fire elemental Heroes.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
                             "qty": 4000
                         },
                         {
@@ -381,15 +345,28 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 19000
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 9000
                         },
                         {
                             "item": "molagora",
                             "qty": 1
                         },
                         {
-                            "item": "twisted-fang",
-                            "qty": 3
+                            "item": "strange-jelly",
+                            "qty": 1
                         }
                     ]
                 },
@@ -398,15 +375,15 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 32000
+                            "qty": 23000
                         },
                         {
                             "item": "molagora",
-                            "qty": 3
+                            "qty": 2
                         },
                         {
-                            "item": "twisted-fang",
-                            "qty": 4
+                            "item": "strange-jelly",
+                            "qty": 3
                         }
                     ]
                 },
@@ -415,118 +392,96 @@
                     "resources": [
                         {
                             "item": "gold",
-                            "qty": 55000
+                            "qty": 80000
                         },
                         {
                             "item": "molagorago",
                             "qty": 1
                         },
                         {
-                            "item": "twisted-fang",
-                            "qty": 7
-                        }
-                    ]
-                },
-                {
-                    "description": "+10% damage dealt",
-                    "resources": [
-                        {
-                            "item": "gold",
-                            "qty": 110000
-                        },
-                        {
-                            "item": "molagorago",
-                            "qty": 1
-                        },
-                        {
-                            "item": "blazing-soul",
-                            "qty": 3
+                            "item": "ancient-creature-nucleus",
+                            "qty": 2
                         }
                     ]
                 }
             ],
             "buffs": [],
-            "debuffs": [],
+            "debuffs": [
+                "stic_stun",
+                "efct_dispel"
+            ],
             "damageModifiers": [
                 {
                     "name": "pow",
-                    "value": 0.8,
-                    "soulburn": 0.8
+                    "value": 1,
+                    "soulburn": 1
                 },
                 {
                     "name": "atk_rate",
                     "value": 1.5,
-                    "soulburn": 1.5
+                    "soulburn": 2
                 },
                 {
                     "name": "skill_dmg_rate",
-                    "description": "Increased damage based number of targets.",
-                    "value": [
-                        1.6,
-                        1.4,
-                        0
-                    ],
-                    "soulburn": [
-                        1.6,
-                        1.4,
-                        0
-                    ]
+                    "description": "Increases damage dealt when all allies are Fire elemental Heroes.",
+                    "value": 0.35,
+                    "soulburn": 0.25
                 }
             ],
             "simpleDmgMod": {
-                "description": "((atk_rate * hero_atk)) * (1 + ((skill_dmg_rate * hero_special_count))) * pow! * constant",
-                "value": "((1.5 * hero_atk)) * (1 + (([1.6, 1.4, 0] * hero_special_count))) * 0.8 * 1.871",
-                "simplified": "((2.2452 * hero_atk)) * (1 + (([1.6, 1.4, 0] * hero_special_count)))",
-                "soulburn": "((1.5 * hero_atk)) * (1 + (([1.6, 1.4, 0] * hero_special_count))) * 0.8 * 1.871",
-                "simplifiedSoulburn": "((2.2452 * hero_atk)) * (1 + (([1.6, 1.4, 0] * hero_special_count)))"
+                "description": "",
+                "value": "",
+                "simplified": "",
+                "soulburn": "",
+                "simplifiedSoulburn": ""
             }
         }
     ],
     "specialtySkill": {
-        "name": "Lovely Machinery",
-        "description": "She understands machinery well based on her strong affection towards it.",
-        "dispatch": "[Barren Land] Attribute",
-        "enhancement": "Reward Bonus +10%",
+        "name": "Stay Positive!",
+        "description": "She solves many problems with her positive attitude and constant hard work.",
+        "dispatch": "[Explore] Type",
+        "enhancement": "Reward Bonus +6%",
         "stats": {
-            "command": 71,
-            "charm": 77,
-            "politics": 68
+            "command": 70,
+            "charm": 90,
+            "politics": 75
         }
     },
     "camping": {
         "options": [
-            "bizarre-story",
-            "complain"
+            "joyful-memory",
+            "cute-cheer"
         ],
         "reactions": {
-            "advice": 3,
-            "belief": 1,
-            "bizarre-story": 2,
-            "comforting-cheer": 4,
-            "complain": 1,
-            "criticism": 2,
+            "advice": 2,
+            "belief": 3,
+            "bizarre-story": -1,
+            "comforting-cheer": 2,
+            "complain": 3,
+            "criticism": 0,
             "cute-cheer": 4,
-            "dream": 2,
-            "food-story": 1,
-            "gossip": 4,
-            "happy-memory": 2,
-            "heroic-cheer": 4,
+            "dream": 4,
+            "food-story": 4,
+            "gossip": -1,
+            "happy-memory": 4,
+            "heroic-cheer": 5,
             "heroic-tale": 3,
-            "horror-story": -2,
-            "interesting-story": 4,
-            "joyful-memory": 3,
-            "myth": 6,
-            "occult": 4,
-            "reality-check": 2,
-            "sad-memory": -2,
-            "self-indulgent": 7,
-            "unique-comment": -3
+            "horror-story": 1,
+            "interesting-story": 3,
+            "joyful-memory": 7,
+            "myth": 1,
+            "occult": 1,
+            "reality-check": 0,
+            "sad-memory": 2,
+            "self-indulgent": 1,
+            "unique-comment": 3
         }
     },
     "memoryImprintFormation": {
-        "north": false,
+        "north": true,
         "south": true,
-        "east": false,
+        "east": true,
         "west": true
     },
     "memoryImprintAttribute": "hp%",
@@ -542,42 +497,42 @@
             "rank": "c",
             "status": {
                 "type": "hp",
-                "increase": 0
+                "increase": 0.024
             }
         },
         {
             "rank": "b",
             "status": {
                 "type": "hp",
-                "increase": 0.043
+                "increase": 0.036
             }
         },
         {
             "rank": "a",
             "status": {
                 "type": "hp",
-                "increase": 0.064
+                "increase": 0.048
             }
         },
         {
             "rank": "s",
             "status": {
                 "type": "hp",
-                "increase": 0.086
+                "increase": 0.06
             }
         },
         {
             "rank": "ss",
             "status": {
                 "type": "hp",
-                "increase": 0.107
+                "increase": 0.072
             }
         },
         {
             "rank": "sss",
             "status": {
                 "type": "hp",
-                "increase": 0.129
+                "increase": 0.084
             }
         }
     ],
@@ -587,7 +542,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": 0.03
+                    "eff": 0.06
                 },
                 {
                     "atk": 20
@@ -598,8 +553,8 @@
             ],
             "resources": [
                 {
-                    "item": "frost-rune",
-                    "qty": 10
+                    "item": "flame-rune",
+                    "qty": 8
                 }
             ]
         },
@@ -608,7 +563,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "hp": 0.03
+                    "chc": 0.04
                 },
                 {
                     "atk": 20
@@ -619,11 +574,11 @@
             ],
             "resources": [
                 {
-                    "item": "frost-rune",
-                    "qty": 15
+                    "item": "flame-rune",
+                    "qty": 12
                 },
                 {
-                    "item": "greater-frost-rune",
+                    "item": "greater-flame-rune",
                     "qty": 2
                 }
             ]
@@ -641,17 +596,67 @@
             ],
             "resources": [
                 {
-                    "item": "frost-rune",
-                    "qty": 20
+                    "item": "flame-rune",
+                    "qty": 17
                 },
                 {
-                    "item": "greater-frost-rune",
-                    "qty": 10
+                    "item": "greater-flame-rune",
+                    "qty": 8
                 }
             ]
         },
         {
             "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "spd": 4
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-flame-rune",
+                    "qty": 8
+                },
+                {
+                    "item": "epic-flame-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "eff": 0.12
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-flame-rune",
+                    "qty": 5
+                },
+                {
+                    "item": "blood-flaked-bone",
+                    "qty": 12
+                }
+            ]
+        },
+        {
+            "rank": 6,
             "skillUpgrade": false,
             "statsIncrease": [
                 {
@@ -666,66 +671,16 @@
             ],
             "resources": [
                 {
-                    "item": "greater-frost-rune",
-                    "qty": 10
+                    "item": "epic-flame-rune",
+                    "qty": 8
                 },
                 {
-                    "item": "epic-frost-rune",
-                    "qty": 2
-                }
-            ]
-        },
-        {
-            "rank": 5,
-            "skillUpgrade": false,
-            "statsIncrease": [
-                {
-                    "atk": 0.06
-                },
-                {
-                    "atk": 30
-                },
-                {
-                    "hp": 80
-                }
-            ],
-            "resources": [
-                {
-                    "item": "epic-frost-rune",
-                    "qty": 6
-                },
-                {
-                    "item": "ultra-fang",
-                    "qty": 15
-                }
-            ]
-        },
-        {
-            "rank": 6,
-            "skillUpgrade": false,
-            "statsIncrease": [
-                {
-                    "hp": 0.06
-                },
-                {
-                    "atk": 30
-                },
-                {
-                    "hp": 80
-                }
-            ],
-            "resources": [
-                {
-                    "item": "epic-frost-rune",
-                    "qty": 10
-                },
-                {
-                    "item": "blazing-soul",
-                    "qty": 10
+                    "item": "ancient-creature-nucleus",
+                    "qty": 8
                 }
             ]
         }
     ],
-    "summonQuote": "Hooray! Yuna is coming!",
-    "description": "President of the Reingar Student Council, the school girl from another world"
+    "summonQuote": "",
+    "description": "A curious and cheerful adventurer from Meldrec"
 }
