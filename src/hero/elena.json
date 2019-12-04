@@ -1,0 +1,646 @@
+{
+    "gameId": "",
+    "name": "Elena",
+    "rarity": 5,
+    "classType": "soul-weaver",
+    "element": "ice",
+    "zodiac": "gemini",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": "From a young age, her parents taught her the doctrine of the stars. Despite her youth, she now leads the faithful of Constella with her unwavering devotion and strong connection to the Spirits.",
+    "relations": [
+        {
+            "hero": "",
+            "relationType": ""
+        }
+    ],
+    "stats": {
+        "lv1BaseStarNoAwaken": {
+            "cp": 1269,
+            "atk": 50,
+            "hp": 266,
+            "spd": 99,
+            "def": 86,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarNoAwaken": {
+            "cp": 10356,
+            "atk": 400,
+            "hp": 3527,
+            "spd": 99,
+            "def": 559,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv50FiveStarFullyAwakened": {
+            "cp": 11883,
+            "atk": 520,
+            "hp": 3972,
+            "spd": 103,
+            "def": 559,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0.18,
+            "dac": 0.05
+        },
+        "lv60SixStarNoAwaken": {
+            "cp": 12923,
+            "atk": 499,
+            "hp": 4435,
+            "spd": 99,
+            "def": 694,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0,
+            "dac": 0.05
+        },
+        "lv60SixStarFullyAwakened": {
+            "cp": 15106,
+            "atk": 649,
+            "hp": 5254,
+            "spd": 103,
+            "def": 694,
+            "chc": 0.15,
+            "chd": 1.5,
+            "eff": 0,
+            "efr": 0.18,
+            "dac": 0.05
+        }
+    },
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 20,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "Dispels all debuffs from all allies.",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Starlight's Will",
+            "soulAcquire": 1,
+            "description": "Attacks with the power of the stars, dispelling one debuff each from two allies.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 19000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 3
+                        }
+                    ]
+                },
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 37000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 5
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 80000
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "fused-nerve",
+                            "qty": 2
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ]
+        },
+        {
+            "isPassive": true,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Guardian's Authority",
+            "soulAcquire": 0,
+            "description": "Decreases the damage received from attacks that target all enemies by 10% and activates Consecrated Ground. When this effect is granted more than once, only the strongest effect is applied. Consecrated Ground can be activated once every 2 turns.\nConsecrated Ground: Recovers the Health of all allies. Amount recovered increases proportional to the caster's max Health.",
+            "enhancement": [
+                {
+                    "description": "-0.5% damage received",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "-0.5% damage received",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "-0.5% damage received",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "-0.5% damage received",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 19000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 3
+                        }
+                    ]
+                },
+                {
+                    "description": "-0.5% damage received",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 32000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 4
+                        }
+                    ]
+                },
+                {
+                    "description": "-0.5% damage received",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 55000
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 7
+                        }
+                    ]
+                },
+                {
+                    "description": "-2% damage received",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 110000
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "fused-nerve",
+                            "qty": 3
+                        }
+                    ]
+                }
+            ],
+            "buffs": [],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 1,
+                    "soulburn": 1
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ]
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 6,
+            "name": "Eternally Shining Comet",
+            "soulAcquire": 3,
+            "description": "Attacks all enemies with a meteor shower, granting invincibility for 1 turn and increased Effect Resistance for 2 turns to all allies.",
+            "enhancement": [
+                {
+                    "description": "+5% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 4000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        }
+                    ]
+                },
+                {
+                    "description": "-1 turn cooldown",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 19000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 1
+                        },
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 3
+                        }
+                    ]
+                },
+                {
+                    "description": "+10% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 37000
+                        },
+                        {
+                            "item": "molagora",
+                            "qty": 3
+                        },
+                        {
+                            "item": "ring-of-glory",
+                            "qty": 5
+                        }
+                    ]
+                },
+                {
+                    "description": "+15% damage dealt",
+                    "resources": [
+                        {
+                            "item": "gold",
+                            "qty": 80000
+                        },
+                        {
+                            "item": "molagorago",
+                            "qty": 1
+                        },
+                        {
+                            "item": "fused-nerve",
+                            "qty": 2
+                        }
+                    ]
+                }
+            ],
+            "buffs": [
+                "stic_invincible",
+                "stic_con_up"
+            ],
+            "debuffs": [],
+            "damageModifiers": [
+                {
+                    "name": "pow",
+                    "value": 0.9,
+                    "soulburn": 0.9
+                },
+                {
+                    "name": "atk_rate",
+                    "value": 1,
+                    "soulburn": 1
+                }
+            ]
+        }
+    ],
+    "specialtySkill": {
+        "name": "Image Management",
+        "description": "She cannot allow her faithful congregants to see any unpleasant sides of her.",
+        "dispatch": [],
+        "enhancement": [],
+        "stats": {
+            "command": 81,
+            "charm": 60,
+            "politics": 62
+        }
+    },
+    "camping": {
+        "options": [
+            "advice",
+            "myth"
+        ],
+        "reactions": {
+            "advice": 2,
+            "belief": 0,
+            "bizarre-story": 1,
+            "comforting-cheer": 8,
+            "complain": 0,
+            "criticism": 0,
+            "cute-cheer": -3,
+            "dream": 2,
+            "food-story": -1,
+            "gossip": -4,
+            "happy-memory": 3,
+            "heroic-cheer": 1,
+            "heroic-tale": -2,
+            "horror-story": -2,
+            "interesting-story": 1,
+            "joyful-memory": 3,
+            "myth": 0,
+            "occult": 1,
+            "reality-check": 3,
+            "sad-memory": 2,
+            "self-indulgent": -2,
+            "unique-comment": 1
+        }
+    },
+    "memoryImprintFormation": {
+        "north": false,
+        "south": true,
+        "east": false,
+        "west": true
+    },
+    "memoryImprintAttribute": "",
+    "memoryImprint": [
+        {
+            "rank": "d",
+            "status": {
+                "type": "atk",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "c",
+            "status": {
+                "type": "atk",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "b",
+            "status": {
+                "type": "atk",
+                "increase": 0.043
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "atk",
+                "increase": 0.0645
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "atk",
+                "increase": 0.086
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "atk",
+                "increase": 0.1075
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "atk",
+                "increase": 0.129
+            }
+        }
+    ],
+    "awakening": [
+        {
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "efr": 0.06
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "frost-rune",
+                    "qty": 10
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "hp": 0.03
+                },
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "frost-rune",
+                    "qty": 15
+                },
+                {
+                    "item": "greater-frost-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [
+                {
+                    "atk": 20
+                },
+                {
+                    "hp": 60
+                }
+            ],
+            "resources": [
+                {
+                    "item": "frost-rune",
+                    "qty": 20
+                },
+                {
+                    "item": "greater-frost-rune",
+                    "qty": 10
+                }
+            ]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "spd": 4
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "greater-frost-rune",
+                    "qty": 10
+                },
+                {
+                    "item": "epic-frost-rune",
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "efr": 0.12
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-frost-rune",
+                    "qty": 6
+                },
+                {
+                    "item": "small-sun-badge",
+                    "qty": 15
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [
+                {
+                    "hp": 0.06
+                },
+                {
+                    "atk": 30
+                },
+                {
+                    "hp": 80
+                }
+            ],
+            "resources": [
+                {
+                    "item": "epic-frost-rune",
+                    "qty": 10
+                },
+                {
+                    "item": "fused-nerve",
+                    "qty": 10
+                }
+            ]
+        }
+    ],
+    "summonQuote": "",
+    "description": "High Priestess of Constella gazing up at the shining stars"
+}
