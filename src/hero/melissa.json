@@ -192,7 +192,7 @@
                 "value": "((1 * hero_atk)) * (1 + ((0.0035 * hero_hp_lost_percent))) * 1.1 * 1.871",
                 "simplified": "((2.0581 * hero_atk)) * (1 + ((0.0035 * hero_hp_lost_percent)))",
                 "soulburn": "((1.5 * hero_atk)) * (1 + ((0.0035 * hero_hp_lost_percent))) * 1.1 * 1.871",
-                "simplifiedSoulburn": "((3.08715 * hero_atk)) * (1 + ((0.0035 * hero_hp_lost_percent)))"
+                "simplifiedSoulburn": "((3.0872 * hero_atk)) * (1 + ((0.0035 * hero_hp_lost_percent)))"
             }
         },
         {
